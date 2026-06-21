@@ -22,9 +22,11 @@
 
   /* sidebar */
   .sidebar{width:228px;flex-shrink:0;background:var(--slate);color:#c3cad9;display:flex;flex-direction:column;
-           position:sticky;top:0;height:100vh}
+           position:sticky;top:0;height:100vh;border-left:4px solid var(--gold)}
   .brand{padding:20px 18px 16px;font-weight:700;font-size:15.5px;color:#fff;display:flex;align-items:center;gap:10px;
          border-bottom:1px solid rgba(255,255,255,.07)}
+  .brand .nm b{color:#fff;font-weight:700}
+  .brand .nm span{color:var(--gold);font-weight:700}
   .brand .dot{width:30px;height:30px;border-radius:8px;background:#fff;padding:3px;
          display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
   .brand .dot img{width:100%;height:100%;object-fit:contain;display:block}
@@ -139,7 +141,7 @@
 <body>
 <div class="app">
   <aside class="sidebar">
-    <div class="brand"><span class="dot"><img src="logo.jpg" alt="Synergy"></span> Camera Management</div>
+    <div class="brand"><span class="dot"><img src="logo.jpg" alt="Synergy"></span> <span class="nm"><b>Camera</b> <span>Management</span></span></div>
     <nav>
       <div class="nav-h">Workspace</div>
       <button class="nav" data-screen="customers"><span class="ic">▤</span> Customers</button>
@@ -162,9 +164,16 @@
 /* ---------- data + state ---------- */
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = SEED.coaching_types || ['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver'];
-const MASTER_BEHAVIORS = ['Following Distance','Phone Distraction','Distracted Driving with Phone','Hard Braking',
-  'Stop Sign Violation','Speeding','Seatbelt','Rolling Stop','Lane Departure','Camera Obstruction',
-  'Drowsiness','No Seatbelt','Sign Violation'];
+// the only behaviors allowed for entry (boards in Infinity are being cleaned up to match)
+const ENTRY_BEHAVIORS = ['Camera Obstruction','Driver Distraction-Phone','Driver Distraction-Cab',
+  'Drowsy Driving','Following Distance','Hard Brake','Near Miss','Sign Violation',
+  'Traffic Light Violation','Speeding','U-Turn','Seat Belt'];
+// behaviors that trend together as a single group for the face-to-face threshold
+const TREND_GROUPS = [['Driver Distraction-Phone','Driver Distraction-Cab']];
+function trendKey(behavior){
+  const g=TREND_GROUPS.find(grp=>grp.includes(behavior));
+  return g?g.join(' + '):(behavior||'');
+}
 const LS = {
   get s(){ try{return JSON.parse(localStorage.getItem('cam_settings')||'{}')}catch(e){return {}} },
   set s(v){ localStorage.setItem('cam_settings',JSON.stringify(v)) },
@@ -183,7 +192,7 @@ function eventsFor(id){
   return [...loc,...inf];
 }
 function allEvents(){ return SEED.boards.flatMap(b=>eventsFor(b.board)); }
-function behaviorsFor(id){ const b=boardById(id); return (b&&b.behaviors&&b.behaviors.length)?b.behaviors:MASTER_BEHAVIORS; }
+function behaviorsFor(id){ const b=boardById(id); return (b&&b.behaviors&&b.behaviors.length)?b.behaviors:ENTRY_BEHAVIORS; }
 function driversFor(id){ const b=boardById(id); return (b&&b.drivers)||[]; }
 
 const fmtDate = d => d||'';
@@ -204,10 +213,11 @@ function trendInfo(bid,driverName,behavior,asOf){
   const {days,count}=trendCfg(bid);
   if(!days) return {enabled:false,days,count};
   const cut=dateMinus(asOf,days);
-  const prior=eventsFor(bid).filter(e=> e.driver===driverName && e.behavior===behavior
+  const tk=trendKey(behavior);
+  const prior=eventsFor(bid).filter(e=> e.driver===driverName && trendKey(e.behavior)===tk
         && (e.date||'')>=cut && (e.date||'')<=asOf);
   const nth=prior.length+1;            // including the event being entered
-  return {enabled:true,days,count,prior,nth,triggered:nth>=count}; }
+  return {enabled:true,days,count,prior,nth,triggered:nth>=count,grouped:tk!==(behavior||'')}; }
 
 /* ---------- router ---------- */
 let screen='customers', ctx={};
@@ -322,7 +332,7 @@ function viewEntry(){
   const b=boardById(bid)||{}; const st=settingsFor(bid);
   ctx.board=bid; ctx.driver=ctx.driver||null;
   const opts=boards.map(x=>`<option value="${x.board}" ${x.board===bid?'selected':''}>${esc(x.name)}</option>`).join('');
-  const bevs=behaviorsFor(bid).map(x=>`<option>${esc(x)}</option>`).join('');
+  const bevs=ENTRY_BEHAVIORS.map(x=>`<option>${esc(x)}</option>`).join('');
   const coach=COACHING.map(x=>`<option>${esc(x)}</option>`).join('');
   const logo = st.logo?`<img src="${esc(st.logo)}" style="max-height:40px;max-width:140px;display:block">`:'';
 
@@ -377,9 +387,11 @@ function refreshEntryPanels(bid){
     if(!ti.enabled){
       html+=`<div class="trend-alert ok" style="background:#f1f3f8;border-color:var(--line);color:var(--muted)">Trend tracking is off for this customer.</div>`;
     } else if(behavior){
+      const blabel = ti.grouped ? 'driver distraction (phone + cab)' : '“'+esc(behavior)+'”';
+      const grpNote = ti.grouped ? ` <span class="faint">Phone &amp; cab distraction count together.</span>` : '';
       html+= ti.triggered
-        ? `<div class="trend-alert hit"><b>Face-to-face suggested.</b> This is the <b>${ordinal(ti.nth)}</b> “${esc(behavior)}” event in ${ti.days} days (threshold ${ti.count}). Review the history and decide: coaching notes or face-to-face.</div>`
-        : `<div class="trend-alert ok">This is the <b>${ordinal(ti.nth)}</b> “${esc(behavior)}” event in ${ti.days} days. Face-to-face triggers at ${ti.count}.</div>`;
+        ? `<div class="trend-alert hit"><b>Face-to-face suggested.</b> This is the <b>${ordinal(ti.nth)}</b> ${blabel} event in ${ti.days} days (threshold ${ti.count}). Review the history and decide: coaching notes or face-to-face.${grpNote}</div>`
+        : `<div class="trend-alert ok">This is the <b>${ordinal(ti.nth)}</b> ${blabel} event in ${ti.days} days. Face-to-face triggers at ${ti.count}.${grpNote}</div>`;
     }
     const hist=eventsFor(bid).filter(e=>e.driver===dn).slice(0,30);
     html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">${esc(dn)} · history <span class="faint">(${hist.length})</span></div>`;
