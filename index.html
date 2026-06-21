@@ -496,7 +496,7 @@ function viewEntry(){
     <div class="topbar">
       <div style="display:flex;gap:14px;align-items:center">
         ${logo?`<div>${logo}</div>`:''}
-        <div><h1>Data Entry</h1><div class="sub">Log a camera event — driver list is always A–Z & type-to-search</div></div>
+        <div><h1>Data Entry${b.name?' · '+esc(b.name):''}</h1><div class="sub">Log a camera event — driver list is always A–Z & type-to-search</div></div>
       </div>
       <div class="field" style="margin:0;min-width:230px">
         <label class="f">Customer board</label>
@@ -516,8 +516,8 @@ function viewEntry(){
           </div>
         </div>
         <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:15px">
-          <div class="field" style="margin:0"><label class="f">Camera event date</label><input type="date" id="evDate" value="${today()}" style="width:150px" onchange="refreshEntryPanels('${bid}')"></div>
-          <div class="field" style="margin:0"><label class="f">Date reviewed</label><input type="date" id="evReviewed" style="width:150px"></div>
+          <div class="field" style="margin:0"><label class="f">Camera event date</label><input type="date" id="evDate" style="width:150px" onchange="refreshEntryPanels('${bid}')"></div>
+          <div class="field" style="margin:0"><label class="f">Date reviewed</label><input type="date" id="evReviewed" value="${today()}" style="width:150px"></div>
         </div>
         <div class="field"><label class="f">Behavior observed</label><select id="evBehavior" onchange="autoCoaching();refreshEntryPanels('${bid}')"><option value="">— select a behavior —</option>${bevs}</select></div>
         <div class="field"><label class="f">Coaching needed</label><select id="evCoaching"><option value="">— none —</option>${coach}</select>
@@ -723,7 +723,22 @@ function viewEvents(){
         :`<tr><td colspan="${showCust?5:4}" class="empty-state">No events</td></tr>`)+
       `</tbody></table></div>`;
   } else {
-    detail=`<div class="card"><div class="empty-state">Click a behavior box above to see the events — driver, date & coaching.</div></div>`;
+    // no behavior selected — show every event in scope, most-recent first (like Recent events on Data Entry)
+    const rows=evs.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    detail=`<div class="card">
+      <div class="pad" style="border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:680">All events <span class="faint">· ${rows.length} event${rows.length===1?'':'s'} · click a box above to filter by behavior</span></div>
+      </div>
+      <table><thead><tr><th>Driver</th><th>Behavior</th><th>Date</th><th>Coaching needed</th>${showCust?'<th>Customer</th>':''}<th></th></tr></thead><tbody>`+
+      (rows.length?rows.map(e=>`<tr>
+        <td><b>${esc(e.driver||'—')}</b></td>
+        <td>${esc(e.behavior||'')}</td>
+        <td class="muted">${esc(e.date||'')}</td>
+        <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
+        ${showCust?`<td class="muted">${esc((boardById(e.board)||{}).name||'')}</td>`:''}
+        <td>${e.source==='local'?'<span class="pill green">new</span>':''}</td></tr>`).join('')
+        :`<tr><td colspan="${showCust?6:5}" class="empty-state">No events in range</td></tr>`)+
+      `</tbody></table></div>`;
   }
 
   const custName = ctx.board==='__all'?'All customers':((boardById(ctx.board)||{}).name||'');
