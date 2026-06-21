@@ -1,15 +1,7 @@
 {
-  "_ts": "2026-06-21T23:02:21.067Z",
+  "_ts": "2026-06-21T23:05Z",
   "settings": {},
   "drivers": [],
   "local": [],
-  "board_requests": [
-    {
-      "id": "SENTINEL_TEST",
-      "name": "__sentinel__",
-      "ws": "59792",
-      "requested_at": "2026-06-21T23:02:12.679Z",
-      "status": "pending"
-    }
-  ]
+  "board_requests": []
 }
