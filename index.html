@@ -8,8 +8,9 @@
   :root{
     --bg:#f5f7fb; --card:#fff; --line:#e6eaf2; --line2:#eef1f7;
     --ink:#10131a; --muted:#6b7384; --faint:#9aa2b2;
-    --slate:#161b27; --slate2:#1f2636; --slatehover:#2a3346;
-    --accent:#4f46e5; --accent2:#6366f1; --accentsoft:#eef0fe;
+    --slate:#0f2746; --slate2:#163356; --slatehover:#1d4170;
+    --accent:#1477e1; --accent2:#3b8ef0; --accentsoft:#e7f1fd; --accentdk:#0f5fc0;
+    --gold:#febe10; --goldsoft:#fff6da;
     --teal:#0ea5a4; --green:#16a34a; --amber:#d97706; --red:#dc2626;
     --shadow:0 1px 2px rgba(16,24,48,.05),0 4px 16px rgba(16,24,48,.04);
   }
@@ -24,14 +25,15 @@
            position:sticky;top:0;height:100vh}
   .brand{padding:20px 18px 16px;font-weight:700;font-size:15.5px;color:#fff;display:flex;align-items:center;gap:10px;
          border-bottom:1px solid rgba(255,255,255,.07)}
-  .brand .dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--accent2),var(--teal));
-         display:flex;align-items:center;justify-content:center;font-size:14px}
+  .brand .dot{width:30px;height:30px;border-radius:8px;background:#fff;padding:3px;
+         display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+  .brand .dot img{width:100%;height:100%;object-fit:contain;display:block}
   .sidebar nav{padding:12px 10px;display:flex;flex-direction:column;gap:3px}
   .sidebar .nav-h{font-size:10px;text-transform:uppercase;letter-spacing:.9px;color:#727d96;padding:12px 12px 5px}
   .sidebar button.nav{display:flex;align-items:center;gap:11px;width:100%;text-align:left;background:none;border:none;
          border-radius:9px;padding:10px 12px;color:#c3cad9;font-size:14px;font-weight:550;cursor:pointer}
   .sidebar button.nav:hover{background:var(--slatehover);color:#fff}
-  .sidebar button.nav.active{background:var(--slate2);color:#fff;box-shadow:inset 3px 0 0 var(--accent2)}
+  .sidebar button.nav.active{background:var(--slate2);color:#fff;box-shadow:inset 3px 0 0 var(--gold)}
   .sidebar button.nav .ic{width:18px;text-align:center;opacity:.9}
   .side-foot{margin-top:auto;padding:14px 14px;border-top:1px solid rgba(255,255,255,.07);font-size:11.5px;color:#6b7488}
 
@@ -44,7 +46,7 @@
          padding:9px 14px;font-size:13px;cursor:pointer;font-weight:560}
   button:hover{border-color:var(--accent);color:var(--accent)}
   button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
-  button.primary:hover{background:#4038c7;color:#fff}
+  button.primary:hover{background:var(--accentdk);color:#fff}
   button.ghost{background:transparent;border-color:transparent;color:var(--muted)}
   button.ghost:hover{background:var(--accentsoft);color:var(--accent)}
   button.sm{padding:6px 10px;font-size:12px;border-radius:8px}
@@ -66,10 +68,10 @@
   .field{margin-bottom:15px}
 
   .pill{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11.5px;font-weight:600;line-height:1.5}
-  .pill.ref{background:#eef0fe;color:#4f46e5}
+  .pill.ref{background:var(--accentsoft);color:var(--accentdk)}
   .pill.label{background:#e7f6f5;color:#0e8a89}
   .pill.text,.pill.other{background:#f1f3f8;color:#6b7384}
-  .pill.coach{background:#fff3e6;color:#b4660a}
+  .pill.coach{background:var(--goldsoft);color:#8a6500}
   .pill.green{background:#e8f6ed;color:#16834a}
   .pill.gray{background:#f1f3f8;color:#6b7384}
 
@@ -112,7 +114,7 @@
 <body>
 <div class="app">
   <aside class="sidebar">
-    <div class="brand"><span class="dot">◎</span> Camera Management</div>
+    <div class="brand"><span class="dot"><img src="logo.jpg" alt="Synergy"></span> Camera Management</div>
     <nav>
       <div class="nav-h">Workspace</div>
       <button class="nav" data-screen="customers"><span class="ic">▤</span> Customers</button>
