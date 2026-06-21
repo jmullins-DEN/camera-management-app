@@ -324,8 +324,9 @@ function autoCoaching(){
   const bid=ctx.board, dn=ctx.driver&&ctx.driver.name;
   const asOf=(document.getElementById('evDate')||{}).value||today();
   // auto-Critical behaviors notify every time, so they're always Critical Event and never escalate to Face to Face (excluded from trend logic)
-  if(AUTO_CRITICAL.includes(beh.value)){ co.value='Critical Event'; co.dataset.auto='1';
-    if(note) note.textContent='Auto-set to Critical Event — '+beh.value+' is always a critical event.'; return; }
+  if(AUTO_CRITICAL.includes(beh.value)){ co.value='Critical Event'; co.dataset.auto='1'; co.disabled=true;
+    if(note) note.textContent='Locked to Critical Event — '+beh.value+' is always a critical event. Change the behavior to unlock this field.'; return; }
+  co.disabled=false; // re-open the field for any non-critical behavior
   const ti = dn ? trendInfo(bid,dn,beh.value,asOf) : null;
   if(ti&&ti.enabled&&ti.triggered){ co.value='Face to Face'; co.dataset.auto='1';
     if(note) note.textContent='Auto-set to Face to Face — trend threshold met ('+ti.count+' in '+ti.days+' days).'; }
@@ -398,9 +399,9 @@ function viewCustomers(){
       ? `<span class="trend-chip" title="Click to change" onclick="editTrend('${b.board}')">${tc.count} in ${tc.days}d</span>`
       : `<span class="trend-chip off" title="Click to set" onclick="editTrend('${b.board}')">Off</span>`;
     return `<tr>
+      <td><button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button></td>
       <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
       <td><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></td>
-      <td><button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button></td>
       <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
       <td class="right">${(b.drivers||[]).length}</td>
       <td class="right">${evCount}</td>
@@ -413,7 +414,7 @@ function viewCustomers(){
       <div class="sub">${SEED.boards.length} camera boards · click a trend rule to set the face-to-face threshold per customer</div>
     </div></div>
     <div class="card"><table>
-      <thead><tr><th>Logo</th><th>Customer</th><th></th><th>Driver field</th><th class="right">Drivers</th>
+      <thead><tr><th>Event Entry</th><th>Logo</th><th>Customer</th><th>Driver field</th><th class="right">Drivers</th>
         <th class="right">Events</th><th>Trend rule</th></tr></thead>
       <tbody>${rows}</tbody></table></div>`;
 }
@@ -488,7 +489,7 @@ function viewEntry(){
   if(wbFor(bid) && !(boardById(bid)||{})._rosterLoaded) loadRoster(bid);
   const opts=boards.map(x=>`<option value="${x.board}" ${x.board===bid?'selected':''}>${esc(x.name)}</option>`).join('');
   const bevs=ENTRY_BEHAVIORS.map(x=>`<option>${esc(x)}</option>`).join('');
-  const coach=COACHING.map(x=>`<option>${esc(x)}</option>`).join('');
+  const coach=COACHING.slice().sort((a,b)=>a.localeCompare(b)).map(x=>`<option>${esc(x)}</option>`).join('');
   const logo = st.logo?`<img src="${esc(st.logo)}" style="max-height:40px;max-width:140px;display:block">`:'';
 
   document.getElementById('main').innerHTML=`
@@ -514,15 +515,15 @@ function viewEntry(){
             <div class="menu" id="drvMenu"></div>
           </div>
         </div>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
-          <div class="field"><label class="f">Camera event date</label><input type="date" id="evDate" value="${today()}" onchange="refreshEntryPanels('${bid}')"></div>
-          <div class="field"><label class="f">Date reviewed</label><input type="date" id="evReviewed"></div>
+        <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:15px">
+          <div class="field" style="margin:0"><label class="f">Camera event date</label><input type="date" id="evDate" value="${today()}" style="width:150px" onchange="refreshEntryPanels('${bid}')"></div>
+          <div class="field" style="margin:0"><label class="f">Date reviewed</label><input type="date" id="evReviewed" style="width:150px"></div>
         </div>
-        <div class="field"><label class="f">Behavior observed</label><select id="evBehavior" onchange="autoCoaching();refreshEntryPanels('${bid}')">${bevs}</select></div>
+        <div class="field"><label class="f">Behavior observed</label><select id="evBehavior" onchange="autoCoaching();refreshEntryPanels('${bid}')"><option value="">— select a behavior —</option>${bevs}</select></div>
         <div class="field"><label class="f">Coaching needed</label><select id="evCoaching"><option value="">— none —</option>${coach}</select>
           <div id="coachAuto" class="faint" style="font-size:11px;margin-top:4px"></div>
           <div id="f2fAlert"></div></div>
-        <div class="field"><label class="f">Notes</label><textarea id="evNotes" rows="3" placeholder="Optional context…"></textarea></div>
+        <div class="field"><label class="f">Notes</label><textarea id="evNotes" rows="3" placeholder="Optional context — paste a link if needed…"></textarea></div>
         <div style="display:flex;gap:10px;justify-content:flex-end">
           <button onclick="resetEntry()">Clear</button>
           <button class="primary" onclick="saveEntry('${bid}')">Save event</button>
@@ -634,14 +635,16 @@ function setupCombo(bid){
   if(ctx.driver) input.value=ctx.driver.name;
   let hl=-1;
   function paint(){
-    const q=input.value.trim().toLowerCase();
+    const raw=input.value.trim();
+    // when a driver is already picked and the box still shows their name, show the full A–Z list so it's easy to switch
+    const q=(ctx.driver && raw===ctx.driver.name) ? '' : raw.toLowerCase();
     const list=drivers.filter(d=>d.name.toLowerCase().includes(q)).slice(0,80);
     menu.innerHTML = list.length
       ? list.map((d,i)=>`<div class="opt ${i===hl?'hl':''}" data-name="${esc(d.name)}" data-id="${esc(d.id||'')}">${esc(d.name)}${d.pending?'<span class="tag">pending</span>':''}</div>`).join('')
       : `<div class="empty">No driver matches “${esc(input.value)}”</div>`;
     menu.querySelectorAll('.opt').forEach(o=>o.onclick=()=>{ ctx.driver={name:o.dataset.name,id:o.dataset.id}; input.value=o.dataset.name; combo.classList.remove('open'); refreshEntryPanels(bid); });
   }
-  input.onfocus=()=>{ combo.classList.add('open'); hl=-1; paint(); };
+  input.onfocus=()=>{ combo.classList.add('open'); hl=-1; input.select(); paint(); };
   input.oninput=()=>{ const had=ctx.driver; ctx.driver=null; combo.classList.add('open'); hl=-1; paint(); if(had)refreshEntryPanels(bid); };
   input.onkeydown=e=>{
     const opts=menu.querySelectorAll('.opt');
