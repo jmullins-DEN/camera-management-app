@@ -1,10 +1,6 @@
 {
-  "_ts": "2026-06-21T14:45Z",
-  "settings": {
-    "NpiJpYMZtkC": {
-      "trend_n": 3,
-      "trend_days": 30
-    }
-  },
-  "_note": "smoke test"
+  "_ts": "2026-06-21T14:46Z",
+  "settings": {},
+  "drivers": [],
+  "local": []
 }
