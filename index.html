@@ -203,6 +203,125 @@ const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
 function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; }
 
+/* ---------- backend worker + per-board write-back ---------- */
+const API_BASE='https://camera-management-api.jmullins-af4.workers.dev';
+const APP_KEY='yesryx5p-YO3gCFXNTTdO1ttAGaV8Flw'; // gates writes to our own Infinity boards; not a true secret
+// behaviors that auto-set Coaching Needed = Critical Event on entry
+const AUTO_CRITICAL=['Camera Obstruction','Drowsy Driving','Near Miss'];
+// boards with LIVE Infinity write-back (board-by-board rollout; all others stay local-queue)
+const BOARD_WB={
+  'NpiJpYMZtkC':{ // Test Board (clone of New Customer Board 2)
+    cam_folder:'YdVkbccMnJT', roster_folder:'DgPgEzDV858',
+    name_attr:'d58e5bb7-e4e1-46b9-bd57-3bf112e1070a',
+    driver_ref_attr:'52002965-2a21-4fa6-b219-450dcf278ac8',
+    behavior_attr:'7338cbf4-e699-4cfa-b34e-5a542906e515',
+    coaching_attr:'1a4f684c-d13b-4b8e-8d83-b1f93bffcb8c',
+    date_attr:'ccda2225-64bf-499a-8262-bac4a87ed25e',
+    reviewed_attr:'b4baa30d-32c1-4f97-8a93-60705cfcda94',
+    notes_attr:'dd63b0a2-dc9f-46b0-bbd9-cbd5f1d2ffeb',
+    behavior_labels:{
+      'Camera Obstruction':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Near Miss':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo)
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
+      'Blocked Camera':'019eeaa0-2d8d-773f-a71b-eedfb9ddc05f',
+      'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
+    },
+  },
+};
+const wbFor=id=>BOARD_WB[id]||null;
+// inject the Test Board as a live customer (it is not in the Infinity mirror seed)
+if(!boardById('NpiJpYMZtkC')){
+  SEED.boards.push({
+    board:'NpiJpYMZtkC', ws:59792, name:'Test Board', driver_type:'reference',
+    roster_folder:'DgPgEzDV858', driver_attr:'52002965-2a21-4fa6-b219-450dcf278ac8',
+    behaviors:ENTRY_BEHAVIORS.slice(), events:[],
+    drivers:[
+      {id:'9f1578b8-ab6b-477a-87d7-ae0c7ccc5954',name:'Alice Avery'},
+      {id:'0192063b-1fe5-4b24-8c3b-121bb7d7eba7',name:'Brian Booker'},
+      {id:'1c445007-1bea-4c1e-aeb4-80e98a86ce68',name:'Carlos Cano'},
+      {id:'7335a94f-35f5-4d57-b606-3c851713ad49',name:'Dana Diaz'},
+      {id:'bdd17fa3-6e0e-4728-83f9-ca4861a35a12',name:'Evan Ellis'},
+      {id:'1b76ad2f-e287-4cb7-a1be-9b016fd0d67e',name:'Fiona Frost'},
+      {id:'7dcc3be7-fb47-4a9e-aeb4-4d0d09d3c392',name:'Grace Gomez'},
+      {id:'5f01d9d8-c12d-4ab7-bdda-3b09f587e04e',name:'Henry Hale'},
+    ],
+  });
+}
+async function apiPost(path,body){
+  const r=await fetch(API_BASE+path,{method:'POST',
+    headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},body:JSON.stringify(body)});
+  return r.json();
+}
+// pull the live roster for a write-back board so the picker reflects Infinity (incl. app-added drivers)
+async function loadRoster(bid){
+  const wb=wbFor(bid), b=boardById(bid); if(!wb||!b) return;
+  b._rosterLoaded=true;
+  try{
+    const r=await fetch(API_BASE+'/items?board='+bid+'&folder_id='+wb.roster_folder,{headers:{'X-App-Key':APP_KEY}});
+    const d=await r.json();
+    const drivers=(d.items||[]).map(it=>{ let nm=''; (it.values||[]).forEach(v=>{ if(v.attribute_id===wb.name_attr) nm=v.data; });
+      return {id:it.id,name:nm}; }).filter(x=>x.name);
+    if(drivers.length){ b.drivers=drivers; if(screen==='entry'&&ctx.board===bid) viewEntry(); }
+  }catch(e){ b._rosterLoaded=false; console.error('roster load failed',e); }
+}
+// write one event back to Infinity: create the Camera Management item, then link the driver reference
+async function pushEventBack(ev){
+  const wb=wbFor(ev.board); if(!wb) return;
+  try{
+    const values=[];
+    const blab=wb.behavior_labels[ev.behavior]; if(blab) values.push({attribute_id:wb.behavior_attr,data:[blab]});
+    const clab=wb.coaching_labels[ev.coaching]; if(clab) values.push({attribute_id:wb.coaching_attr,data:[clab]});
+    if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
+    if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
+    if(ev.notes) values.push({attribute_id:wb.notes_attr,data:ev.notes});
+    const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
+    if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
+    const itemId=res.item.id;
+    if(ev.driverId){
+      const rf=await apiPost('/reference',{board:ev.board,attribute_id:wb.driver_ref_attr,from_item_id:itemId,to_item_id:ev.driverId});
+      if(!rf.ok) throw new Error('reference '+(rf.status||''));
+    }
+    const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ arr[i].synced=true; arr[i].infItemId=itemId; LS.local=arr; }
+    toast('Wrote event to Infinity — '+ev.driver);
+    if(screen==='entry'&&ctx.board===ev.board) refreshEntryPanels(ev.board);
+  }catch(e){
+    const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ arr[i].syncError=String(e.message||e); LS.local=arr; }
+    toast('Infinity write failed — saved locally','⚠'); console.error('event write-back failed',e);
+  }
+}
+// create a new roster item in Infinity and select it
+async function pushDriverBack(bid,name){
+  const wb=wbFor(bid); if(!wb) return;
+  toast('Adding '+name+'…');
+  try{
+    const res=await apiPost('/item',{board:bid,folder_id:wb.roster_folder,values:[{attribute_id:wb.name_attr,data:name}]});
+    if(!res.ok||!(res.item&&res.item.id)) throw new Error('roster '+(res.status||''));
+    const b=boardById(bid); if(b){ b.drivers=b.drivers||[]; b.drivers.push({id:res.item.id,name}); }
+    ctx.driver={name,id:res.item.id};
+    toast('Driver added to Infinity: '+name); viewEntry();
+  }catch(e){ toast('Could not add driver to Infinity','⚠'); console.error('driver write-back failed',e); }
+}
+function autoCoaching(){
+  const beh=document.getElementById('evBehavior'), co=document.getElementById('evCoaching'), note=document.getElementById('coachAuto');
+  if(!beh||!co) return;
+  if(AUTO_CRITICAL.includes(beh.value)){ co.value='Critical Event'; co.dataset.auto='1';
+    if(note) note.textContent='Auto-set to Critical Event — '+beh.value+' is always a critical event.'; }
+  else { if(co.dataset.auto==='1') co.value=''; co.dataset.auto=''; if(note) note.textContent=''; }
+}
+
 // merged events for a board (infinity mirror + local entries)
 function eventsFor(id){
   const b=boardById(id); if(!b) return [];
@@ -226,7 +345,7 @@ const fmtDate = d => d||'';
 function daysAgo(n){ const t=new Date(); t.setDate(t.getDate()-n); return t.toISOString().slice(0,10); }
 const today = ()=> new Date().toISOString().slice(0,10);
 function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-function toast(msg){ const t=document.getElementById('toast'); t.textContent='✓ '+msg; t.classList.add('show');
+function toast(msg,icon){ const t=document.getElementById('toast'); t.textContent=(icon||'✓')+' '+msg; t.classList.add('show');
   clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('show'),2400); }
 function openModal(html){ document.getElementById('modalBox').innerHTML=html; document.getElementById('modal').classList.add('show'); }
 function closeModal(){ document.getElementById('modal').classList.remove('show'); }
@@ -356,6 +475,7 @@ function viewEntry(){
   const bid = ctx.board || (boards[0]&&boards[0].board);
   const b=boardById(bid)||{}; const st=settingsFor(bid);
   ctx.board=bid; ctx.driver=ctx.driver||null;
+  if(wbFor(bid) && !(boardById(bid)||{})._rosterLoaded) loadRoster(bid);
   const opts=boards.map(x=>`<option value="${x.board}" ${x.board===bid?'selected':''}>${esc(x.name)}</option>`).join('');
   const bevs=ENTRY_BEHAVIORS.map(x=>`<option>${esc(x)}</option>`).join('');
   const coach=COACHING.map(x=>`<option>${esc(x)}</option>`).join('');
@@ -388,19 +508,23 @@ function viewEntry(){
           <div class="field"><label class="f">Camera event date</label><input type="date" id="evDate" value="${today()}" onchange="refreshEntryPanels('${bid}')"></div>
           <div class="field"><label class="f">Date reviewed</label><input type="date" id="evReviewed"></div>
         </div>
-        <div class="field"><label class="f">Behavior observed</label><select id="evBehavior" onchange="refreshEntryPanels('${bid}')">${bevs}</select></div>
+        <div class="field"><label class="f">Behavior observed</label><select id="evBehavior" onchange="autoCoaching();refreshEntryPanels('${bid}')">${bevs}</select></div>
         <div class="field"><label class="f">Coaching needed</label><select id="evCoaching"><option value="">— none —</option>${coach}</select>
+          <div id="coachAuto" class="faint" style="font-size:11px;margin-top:4px"></div>
           <div id="f2fAlert"></div></div>
         <div class="field"><label class="f">Notes</label><textarea id="evNotes" rows="3" placeholder="Optional context…"></textarea></div>
         <div style="display:flex;gap:10px;justify-content:flex-end">
           <button onclick="resetEntry()">Clear</button>
           <button class="primary" onclick="saveEntry('${bid}')">Save event</button>
         </div>
-        <div class="warn" style="margin:16px 0 0">Saved locally now (browser). Write-back to Infinity activates once the create-API test passes — every saved event is queued and tagged <b>new</b>.</div>
+        ${wbFor(bid)
+          ? `<div class="warn" style="margin:16px 0 0;background:#e8f6ed;border-color:#bfe6cd;color:#16834a"><b>Live write-back ON.</b> Saving creates the event in Infinity and fires this board’s “Item created” automation.</div>`
+          : `<div class="warn" style="margin:16px 0 0">Saved locally now (browser). Write-back to Infinity activates once this board is rolled out — every saved event is queued and tagged <b>new</b>.</div>`}
       </div>
       <div class="card" id="entryAside"></div>
     </div>`;
   setupCombo(bid);
+  autoCoaching();
   refreshEntryPanels(bid);
 }
 // right-hand panel on the entry form: driver history + live trend banner, or recent events when no driver picked
@@ -482,6 +606,7 @@ function saveNewDriver(bid){
   const exists=driversFor(bid).some(d=>d.name.toLowerCase()===name.toLowerCase());
   if(exists){ toast('That driver already exists'); return; }
   const b=boardById(bid)||{};
+  if(wbFor(bid)){ closeModal(); pushDriverBack(bid,name); return; } // live: create roster item in Infinity now
   const id='ND'+Date.now()+Math.floor(Math.random()*1000);
   const rec={ board:bid, id, name, pending:true, ts:Date.now(), synced:false,
     // everything the write-back needs to create it in the right place/format
@@ -523,7 +648,9 @@ function saveEntry(bid){
     notes:document.getElementById('evNotes').value, ts:Date.now(), synced:false };
   if(!ev.date){ toast('Set the event date'); return; }
   const arr=LS.local; arr.unshift(ev); LS.local=arr;
-  toast('Event saved for '+ev.driver); ctx.driver=null; viewEntry();
+  if(wbFor(bid)){ toast('Saving event for '+ev.driver+'…'); pushEventBack(ev); }
+  else { toast('Event saved for '+ev.driver); }
+  ctx.driver=null; viewEntry();
 }
 
 /* ---------- screen 3: events by behavior ---------- */
