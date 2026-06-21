@@ -109,6 +109,31 @@
   .toast.show{opacity:1;transform:none}
   .count-chip{font-size:12px;color:var(--muted);background:#f1f3f8;border-radius:999px;padding:3px 10px;font-weight:600}
   .warn{background:#fff8ec;border:1px solid #f3e2c0;color:#9a6a12;border-radius:10px;padding:10px 13px;font-size:12.5px;margin-bottom:16px}
+
+  /* trend chip (customers screen) */
+  .trend-chip{display:inline-block;padding:5px 11px;border-radius:8px;background:var(--accentsoft);color:var(--accentdk);
+        font-weight:650;font-size:12.5px;cursor:pointer;border:1px solid #cfe2fb;white-space:nowrap}
+  .trend-chip:hover{background:#d8e8fd}
+  .trend-chip.off{background:#f1f3f8;color:var(--muted);border-color:var(--line)}
+
+  /* trend banner (entry form) */
+  .trend-alert{padding:13px 15px;border-radius:11px;font-size:13px;margin:16px 16px 4px;line-height:1.5}
+  .trend-alert.hit{background:var(--goldsoft);border:1px solid #f0d98a;color:#7a5800}
+  .trend-alert.ok{background:var(--accentsoft);border:1px solid #cfe2fb;color:var(--accentdk)}
+
+  /* modal */
+  .modal-overlay{position:fixed;inset:0;background:rgba(16,24,48,.45);display:none;align-items:center;justify-content:center;
+        z-index:200;padding:20px}
+  .modal-overlay.show{display:flex}
+  .modal{background:#fff;border-radius:16px;box-shadow:0 24px 60px rgba(0,0,0,.3);width:100%;max-width:500px;
+        padding:22px 24px;max-height:90vh;overflow:auto}
+  .modal h2{margin:0 0 4px;font-size:18px;font-weight:720}
+  .modal .sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+  .modal-foot{display:flex;gap:10px;justify-content:flex-end;margin-top:18px}
+  .logo-pick{width:96px;height:74px;border:1px solid var(--line);border-radius:10px;display:flex;align-items:center;
+        justify-content:center;cursor:pointer;padding:8px;background:#fafbff}
+  .logo-pick:hover{border-color:var(--accent);box-shadow:0 0 0 3px var(--accentsoft)}
+  .logo-pick img{max-width:100%;max-height:100%}
 </style>
 </head>
 <body>
@@ -130,6 +155,7 @@
   <main id="main"></main>
 </div>
 <div class="toast" id="toast"></div>
+<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()"><div class="modal" id="modalBox"></div></div>
 
 <script src="seed.js"></script>
 <script>
@@ -166,6 +192,22 @@ const today = ()=> new Date().toISOString().slice(0,10);
 function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function toast(msg){ const t=document.getElementById('toast'); t.textContent='✓ '+msg; t.classList.add('show');
   clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('show'),2400); }
+function openModal(html){ document.getElementById('modalBox').innerHTML=html; document.getElementById('modal').classList.add('show'); }
+function closeModal(){ document.getElementById('modal').classList.remove('show'); }
+function ordinal(n){ const s=['th','st','nd','rd'],v=n%100; return n+(s[(v-20)%10]||s[v]||s[0]); }
+function dateMinus(dateStr,n){ const t=new Date((dateStr||today())+'T00:00:00'); t.setDate(t.getDate()-n); return t.toISOString().slice(0,10); }
+
+// trend rule per customer: defaults 3 events / 30 days; trendDays 0 = off
+function trendCfg(id){ const st=settingsFor(id);
+  return { days: st.trendDays!=null?+st.trendDays:30, count: st.trendCount!=null?+st.trendCount:3 }; }
+function trendInfo(bid,driverName,behavior,asOf){
+  const {days,count}=trendCfg(bid);
+  if(!days) return {enabled:false,days,count};
+  const cut=dateMinus(asOf,days);
+  const prior=eventsFor(bid).filter(e=> e.driver===driverName && e.behavior===behavior
+        && (e.date||'')>=cut && (e.date||'')<=asOf);
+  const nth=prior.length+1;            // including the event being entered
+  return {enabled:true,days,count,prior,nth,triggered:nth>=count}; }
 
 /* ---------- router ---------- */
 let screen='customers', ctx={};
@@ -185,14 +227,17 @@ function viewCustomers(){
       ? `<img src="${esc(st.logo)}" alt="">`
       : esc(b.name.split(/\s+/).slice(0,2).map(w=>w[0]||'').join('').toUpperCase());
     const tcls={reference:'ref',label:'label'}[b.driver_type]||'other';
+    const tc=trendCfg(b.board);
+    const trendCell = tc.days
+      ? `<span class="trend-chip" title="Click to change" onclick="editTrend('${b.board}')">${tc.count} in ${tc.days}d</span>`
+      : `<span class="trend-chip off" title="Click to set" onclick="editTrend('${b.board}')">Off</span>`;
     return `<tr>
       <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
       <td><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></td>
       <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
       <td class="right">${(b.drivers||[]).length}</td>
       <td class="right">${evCount}</td>
-      <td style="width:118px"><input type="number" min="0" value="${st.trendDays||30}" style="width:84px"
-            onchange="setSetting('${b.board}',{trendDays:+this.value});toast('Trend days saved')"></td>
+      <td>${trendCell}</td>
       <td class="right" style="white-space:nowrap">
         <button class="sm" onclick="go('events',{board:'${b.board}'})">View</button>
         <button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Enter</button>
@@ -201,18 +246,73 @@ function viewCustomers(){
   document.getElementById('main').innerHTML=`
     <div class="topbar"><div>
       <h1>Customers</h1>
-      <div class="sub">${SEED.boards.length} camera boards · set the trend-day window per customer (used for reporting)</div>
+      <div class="sub">${SEED.boards.length} camera boards · click a trend rule to set the face-to-face threshold per customer</div>
     </div></div>
     <div class="card"><table>
       <thead><tr><th>Logo</th><th>Customer</th><th>Driver field</th><th class="right">Drivers</th>
-        <th class="right">Events</th><th>Trend days</th><th></th></tr></thead>
+        <th class="right">Events</th><th>Trend rule</th><th></th></tr></thead>
       <tbody>${rows}</tbody></table></div>`;
 }
 function setLogo(id){
-  const cur=settingsFor(id).logo||'';
-  const url=prompt('Paste an image URL for this customer\'s logo (blank to clear):',cur);
-  if(url===null) return;
-  setSetting(id,{logo:url.trim()}); toast('Logo updated'); render();
+  const b=boardById(id)||{}, cur=settingsFor(id).logo||'';
+  openModal(`
+    <h2>Logo · ${esc(b.name||'')}</h2>
+    <div class="sub">Enter the customer's website and we'll fetch a logo for you to approve.</div>
+    <div class="field"><label class="f">Website address</label>
+      <input id="logoSite" placeholder="example.com" onkeydown="if(event.key==='Enter')fetchLogo('${id}')"></div>
+    <div style="display:flex;gap:10px">
+      <button class="primary" onclick="fetchLogo('${id}')">Fetch logo</button>
+      <button onclick="logoManual('${id}')">Paste URL instead</button>
+    </div>
+    <div id="logoResults" style="margin-top:18px"></div>
+    ${cur?`<div style="margin-top:18px" class="faint">Current:
+        <img src="${esc(cur)}" style="max-height:30px;vertical-align:middle;margin:0 8px">
+        <a href="#" onclick="approveLogo('${id}','');return false">remove</a></div>`:''}
+    <div class="modal-foot"><button onclick="closeModal()">Cancel</button></div>`);
+  setTimeout(()=>{ const i=document.getElementById('logoSite'); if(i)i.focus(); },50);
+}
+function logoDomain(v){ return (v||'').trim().replace(/^https?:\/\//i,'').replace(/^www\./i,'').replace(/\/.*$/,'').trim(); }
+function fetchLogo(id){
+  const dom=logoDomain(document.getElementById('logoSite').value);
+  if(!dom){ toast('Enter a website first'); return; }
+  const cands=[
+    {label:'Company logo',url:`https://logo.clearbit.com/${dom}`},
+    {label:'Favicon (hi-res)',url:`https://www.google.com/s2/favicons?domain=${dom}&sz=128`},
+  ];
+  document.getElementById('logoResults').innerHTML=`
+    <div class="sub" style="margin-bottom:8px">Click a logo to approve it for ${esc(dom)}:</div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap">
+      ${cands.map(c=>`<div style="text-align:center">
+        <div class="logo-pick" onclick="approveLogo('${id}','${esc(c.url)}')">
+          <img src="${esc(c.url)}" onerror="this.parentElement.innerHTML='<span class=faint style=font-size:11px>not found</span>'">
+        </div>
+        <div class="faint" style="font-size:11px;margin-top:5px">${c.label}</div></div>`).join('')}
+    </div>`;
+}
+function approveLogo(id,url){ setSetting(id,{logo:url}); toast(url?'Logo approved':'Logo removed'); closeModal(); render(); }
+function logoManual(id){ const u=prompt('Paste an image URL:',settingsFor(id).logo||''); if(u===null)return;
+  setSetting(id,{logo:u.trim()}); toast('Logo updated'); closeModal(); render(); }
+
+function editTrend(id){
+  const b=boardById(id)||{}, c=trendCfg(id);
+  openModal(`
+    <h2>Trend rule · ${esc(b.name||'')}</h2>
+    <div class="sub">When a driver crosses the threshold, the entry form suggests a face-to-face engagement.</div>
+    <div style="font-size:15px;line-height:2.2">
+      <input id="trCount" type="number" min="0" value="${c.count}" style="width:62px;display:inline-block;text-align:center">
+      events of the same behavior in
+      <input id="trDays" type="number" min="0" value="${c.days}" style="width:62px;display:inline-block;text-align:center">
+      days will be considered a trend and a face-to-face engagement will be triggered.
+    </div>
+    <div class="warn" style="margin-top:18px">Set days to <b>0</b> to turn trend tracking off for this customer.</div>
+    <div class="modal-foot">
+      <button onclick="closeModal()">Cancel</button>
+      <button class="primary" onclick="saveTrend('${id}')">Save</button>
+    </div>`);
+}
+function saveTrend(id){
+  const days=+document.getElementById('trDays').value||0, count=+document.getElementById('trCount').value||0;
+  setSetting(id,{trendDays:days,trendCount:count}); toast('Trend rule saved'); closeModal(); render();
 }
 
 /* ---------- screen 2: data entry ---------- */
@@ -225,12 +325,6 @@ function viewEntry(){
   const bevs=behaviorsFor(bid).map(x=>`<option>${esc(x)}</option>`).join('');
   const coach=COACHING.map(x=>`<option>${esc(x)}</option>`).join('');
   const logo = st.logo?`<img src="${esc(st.logo)}" style="max-height:40px;max-width:140px;display:block">`:'';
-  const recent=eventsFor(bid).slice(0,12).map(e=>`<tr>
-      <td>${esc(e.driver||'—')}</td><td>${esc(e.behavior||'')}</td>
-      <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:''}</td>
-      <td class="muted">${esc(e.date||'')}</td>
-      <td>${e.source==='local'?'<span class="pill green">new</span>':'<span class="pill gray">infinity</span>'}</td>
-    </tr>`).join('') || `<tr><td colspan="5" class="empty-state">No events yet</td></tr>`;
 
   document.getElementById('main').innerHTML=`
     <div class="topbar">
@@ -253,10 +347,10 @@ function viewEntry(){
           </div>
         </div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
-          <div class="field"><label class="f">Camera event date</label><input type="date" id="evDate" value="${today()}"></div>
+          <div class="field"><label class="f">Camera event date</label><input type="date" id="evDate" value="${today()}" onchange="refreshEntryPanels('${bid}')"></div>
           <div class="field"><label class="f">Date reviewed</label><input type="date" id="evReviewed"></div>
         </div>
-        <div class="field"><label class="f">Behavior observed</label><select id="evBehavior">${bevs}</select></div>
+        <div class="field"><label class="f">Behavior observed</label><select id="evBehavior" onchange="refreshEntryPanels('${bid}')">${bevs}</select></div>
         <div class="field"><label class="f">Coaching needed</label><select id="evCoaching"><option value="">— none —</option>${coach}</select></div>
         <div class="field"><label class="f">Notes</label><textarea id="evNotes" rows="3" placeholder="Optional context…"></textarea></div>
         <div style="display:flex;gap:10px;justify-content:flex-end">
@@ -265,13 +359,49 @@ function viewEntry(){
         </div>
         <div class="warn" style="margin:16px 0 0">Saved locally now (browser). Write-back to Infinity activates once the create-API test passes — every saved event is queued and tagged <b>new</b>.</div>
       </div>
-      <div class="card">
-        <div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">Recent events · ${esc(b.name||'')}</div>
-        <table><thead><tr><th>Driver</th><th>Behavior</th><th>Coaching</th><th>Date</th><th></th></tr></thead>
-          <tbody>${recent}</tbody></table>
-      </div>
+      <div class="card" id="entryAside"></div>
     </div>`;
   setupCombo(bid);
+  refreshEntryPanels(bid);
+}
+// right-hand panel on the entry form: driver history + live trend banner, or recent events when no driver picked
+function refreshEntryPanels(bid){
+  const aside=document.getElementById('entryAside'); if(!aside) return;
+  const b=boardById(bid)||{};
+  let html='';
+  if(ctx.driver && ctx.driver.name){
+    const dn=ctx.driver.name;
+    const behavior=(document.getElementById('evBehavior')||{}).value||'';
+    const asOf=(document.getElementById('evDate')||{}).value||today();
+    const ti=trendInfo(bid,dn,behavior,asOf);
+    if(!ti.enabled){
+      html+=`<div class="trend-alert ok" style="background:#f1f3f8;border-color:var(--line);color:var(--muted)">Trend tracking is off for this customer.</div>`;
+    } else if(behavior){
+      html+= ti.triggered
+        ? `<div class="trend-alert hit"><b>Face-to-face suggested.</b> This is the <b>${ordinal(ti.nth)}</b> “${esc(behavior)}” event in ${ti.days} days (threshold ${ti.count}). Review the history and decide: coaching notes or face-to-face.</div>`
+        : `<div class="trend-alert ok">This is the <b>${ordinal(ti.nth)}</b> “${esc(behavior)}” event in ${ti.days} days. Face-to-face triggers at ${ti.count}.</div>`;
+    }
+    const hist=eventsFor(bid).filter(e=>e.driver===dn).slice(0,30);
+    html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">${esc(dn)} · history <span class="faint">(${hist.length})</span></div>`;
+    html+= hist.length
+      ? `<table><thead><tr><th>Date</th><th>Behavior</th><th>Coaching</th></tr></thead><tbody>`+
+        hist.map(e=>`<tr><td class="muted">${esc(e.date||'')}</td><td><b>${esc(e.behavior||'')}</b></td>
+          <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td></tr>`).join('')+
+        `</tbody></table>`
+      : `<div class="empty-state">No prior events for this driver</div>`;
+  } else {
+    const recent=eventsFor(bid).slice(0,12);
+    html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">Recent events · ${esc(b.name||'')}</div>`;
+    html+= recent.length
+      ? `<table><thead><tr><th>Driver</th><th>Behavior</th><th>Coaching</th><th>Date</th><th></th></tr></thead><tbody>`+
+        recent.map(e=>`<tr><td>${esc(e.driver||'—')}</td><td>${esc(e.behavior||'')}</td>
+          <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:''}</td>
+          <td class="muted">${esc(e.date||'')}</td>
+          <td>${e.source==='local'?'<span class="pill green">new</span>':'<span class="pill gray">infinity</span>'}</td></tr>`).join('')+
+        `</tbody></table>`
+      : `<div class="empty-state">No events yet</div>`;
+  }
+  aside.innerHTML=html;
 }
 function resetEntry(){ ctx.driver=null; viewEntry(); }
 function setupCombo(bid){
@@ -285,10 +415,10 @@ function setupCombo(bid){
     menu.innerHTML = list.length
       ? list.map((d,i)=>`<div class="opt ${i===hl?'hl':''}" data-name="${esc(d.name)}" data-id="${esc(d.id||'')}">${esc(d.name)}</div>`).join('')
       : `<div class="empty">No driver matches “${esc(input.value)}”</div>`;
-    menu.querySelectorAll('.opt').forEach(o=>o.onclick=()=>{ ctx.driver={name:o.dataset.name,id:o.dataset.id}; input.value=o.dataset.name; combo.classList.remove('open'); });
+    menu.querySelectorAll('.opt').forEach(o=>o.onclick=()=>{ ctx.driver={name:o.dataset.name,id:o.dataset.id}; input.value=o.dataset.name; combo.classList.remove('open'); refreshEntryPanels(bid); });
   }
   input.onfocus=()=>{ combo.classList.add('open'); hl=-1; paint(); };
-  input.oninput=()=>{ ctx.driver=null; combo.classList.add('open'); hl=-1; paint(); };
+  input.oninput=()=>{ const had=ctx.driver; ctx.driver=null; combo.classList.add('open'); hl=-1; paint(); if(had)refreshEntryPanels(bid); };
   input.onkeydown=e=>{
     const opts=menu.querySelectorAll('.opt');
     if(e.key==='ArrowDown'){hl=Math.min(hl+1,opts.length-1);paint();e.preventDefault();}
