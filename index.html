@@ -390,8 +390,9 @@ function render(){
 function viewCustomers(){
   const rows = SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(b=>{
     const st=settingsFor(b.board), evCount=eventsFor(b.board).length;
+    const lz=st.logoZoom||1;
     const logo = st.logo
-      ? `<img src="${esc(st.logo)}" alt="">`
+      ? `<img src="${esc(st.logo)}" alt="" style="transform:scale(${lz})">`
       : esc(b.name.split(/\s+/).slice(0,2).map(w=>w[0]||'').join('').toUpperCase());
     const tcls={reference:'ref',label:'label'}[b.driver_type]||'other';
     const tc=trendCfg(b.board);
@@ -419,7 +420,7 @@ function viewCustomers(){
       <tbody>${rows}</tbody></table></div>`;
 }
 function setLogo(id){
-  const b=boardById(id)||{}, cur=settingsFor(id).logo||'';
+  const st=settingsFor(id), b=boardById(id)||{}, cur=st.logo||'', curZoom=st.logoZoom||1;
   openModal(`
     <h2>Logo · ${esc(b.name||'')}</h2>
     <div class="sub">Enter the customer's website and we'll fetch a logo for you to approve.</div>
@@ -430,11 +431,24 @@ function setLogo(id){
       <button onclick="logoManual('${id}')">Paste URL instead</button>
     </div>
     <div id="logoResults" style="margin-top:18px"></div>
-    ${cur?`<div style="margin-top:18px" class="faint">Current:
-        <img src="${esc(cur)}" style="max-height:30px;vertical-align:middle;margin:0 8px">
-        <a href="#" onclick="approveLogo('${id}','');return false">remove</a></div>`:''}
-    <div class="modal-foot"><button onclick="closeModal()">Cancel</button></div>`);
+    ${cur?`<div style="margin-top:18px">
+        <label class="f">Zoom <span class="faint" id="logoZoomVal">${curZoom.toFixed(1)}×</span></label>
+        <div style="display:flex;align-items:center;gap:14px;margin-top:6px">
+          <div class="logo-cell" style="width:120px;height:90px">
+            <img id="logoZoomImg" src="${esc(cur)}" style="transform:scale(${curZoom})"></div>
+          <input type="range" min="0.5" max="3" step="0.1" value="${curZoom}" style="flex:1"
+            oninput="logoZoomPreview('${id}',this.value)">
+        </div>
+        <div class="faint" style="margin-top:6px">Drag to fit small logos. <a href="#" onclick="approveLogo('${id}','');return false">remove logo</a></div>
+      </div>`:''}
+    <div class="modal-foot"><button onclick="closeModal();render()">Done</button></div>`);
   setTimeout(()=>{ const i=document.getElementById('logoSite'); if(i)i.focus(); },50);
+}
+function logoZoomPreview(id,v){
+  const z=parseFloat(v);
+  const img=document.getElementById('logoZoomImg'); if(img)img.style.transform='scale('+z+')';
+  const lbl=document.getElementById('logoZoomVal'); if(lbl)lbl.textContent=z.toFixed(1)+'×';
+  setSetting(id,{logoZoom:z});
 }
 function logoDomain(v){ return (v||'').trim().replace(/^https?:\/\//i,'').replace(/^www\./i,'').replace(/\/.*$/,'').trim(); }
 function fetchLogo(id){
@@ -490,7 +504,7 @@ function viewEntry(){
   const opts=boards.map(x=>`<option value="${x.board}" ${x.board===bid?'selected':''}>${esc(x.name)}</option>`).join('');
   const bevs=ENTRY_BEHAVIORS.map(x=>`<option>${esc(x)}</option>`).join('');
   const coach=COACHING.slice().sort((a,b)=>a.localeCompare(b)).map(x=>`<option>${esc(x)}</option>`).join('');
-  const logo = st.logo?`<img src="${esc(st.logo)}" style="max-height:40px;max-width:140px;display:block">`:'';
+  const logo = st.logo?`<img src="${esc(st.logo)}" style="max-height:40px;max-width:140px;display:block;transform:scale(${st.logoZoom||1});transform-origin:left center">`:'';
 
   document.getElementById('main').innerHTML=`
     <div class="topbar">
