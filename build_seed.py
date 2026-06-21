@@ -18,15 +18,15 @@ if '--all' in sys.argv:
     BOARDS = [
         ('DEN','di85P7h2apV','Allstar Towing & Recovery'),
         ('DEN','8BUntjK1TqV','Panhandle Express'),
-        ('DEN','VAixNEe3Cb5','Apex Waste'),
+        # Apex Waste (VAixNEe3Cb5) removed — accident tracking only, no cameras
         ('DEN','XVLVu2Du8hc','PCS Trucking'),
         ('DEN','4rNDuSrCaap','All City Tow'),
         ('DEN','MfEUxnTRUV9','Mission Wrecker'),
         ('DEN','KYqKJWuumPm','Express Tow and Recovery'),
-        ('DEN','JxcyoKbX2zw','Andrew Distribution'),
+        # Andrew Distribution (JxcyoKbX2zw) removed — board being deleted, not used
         ('DEN','5gVKeGRDf8U','Alandon Tow'),
         ('DEN','MZerRFmhSHa','Starkey Trash Service'),
-        ('DEN','rXWFWcd75XL','Apple Towing'),
+        # Apple Towing (rXWFWcd75XL) removed — account ends 2026-06-30
         ('DEN','81dVf6myW6q','Garmat USA'),
         ('DEN','ebSND1QoyBs','PEP MOVE - Bristlecone'),
         ('DEN','NvKEviSsMpf','Vargas Property Services'),
@@ -39,6 +39,24 @@ if '--all' in sys.argv:
         ('Fedex','xMfRLnqAN7y','NextDriv'),
         ('Fedex','YJNwKvzFhkj','Aero Flex Logistix'),
     ]
+
+# Per-board overrides for hand-built boards whose fields don't auto-detect.
+# These boards pick the driver via a LABEL ("<Customer> Roster"), with driver
+# names stored as the label's options — not via a roster reference or text field.
+OVERRIDES = {
+    'MfEUxnTRUV9': {  # Mission Wrecker
+        'driver_attr': 'b3271170-6d5f-4162-8169-542eba0ebeed',  # "Mission Wrecker Roster List" label
+        'driver_type': 'label',
+        'attr': {
+            'date':     '6028e889-c5a3-4694-be45-175582536ae9',  # Date Event Occurred (auto-pick grabbed Reviewed)
+            'coaching': None,  # board has no "Coaching Needed" label yet — needs adding during cleanup
+        },
+    },
+    '5gVKeGRDf8U': {  # Alandon Tow
+        'driver_attr': '18551c98-7fe7-42bf-b000-43a3e813d815',  # "Alandon Tow Roster" label
+        'driver_type': 'label',
+    },
+}
 
 def ws_id(ws): return inf.WS[ws]
 
@@ -86,6 +104,16 @@ def build_board(ws, b, name):
         'reviewed': (pick_attr(attrs,'reviewed') or {}).get('id'),
         'notes':    (pick_attr(attrs,'note') or {}).get('id'),
     }
+    # per-board overrides for hand-built boards that don't auto-map
+    ov = OVERRIDES.get(b)
+    if ov:
+        if ov.get('driver_attr'):
+            rec['driver_attr'] = ov['driver_attr']
+            rec['driver_type'] = ov.get('driver_type')
+            drv_ref = next((a for a in attrs if a['id']==ov['driver_attr']), drv_ref)
+        for k,v in (ov.get('attr') or {}).items():
+            rec['attr'][k] = v
+
     # behavior label choices
     bev = pick_attr(attrs,'behavior')
     rec['behaviors'] = [l.get('name') for l in ((bev or {}).get('settings',{}) or {}).get('labels',[])] if bev else []
