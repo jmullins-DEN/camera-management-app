@@ -118,7 +118,9 @@
   .behbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px;cursor:pointer;
         box-shadow:var(--shadow);transition:border-color .12s,box-shadow .12s;text-align:left}
   .behbox:hover{border-color:var(--accent)}
+  .behbox.top3{border-color:var(--gold);box-shadow:0 0 0 2px var(--goldsoft),var(--shadow)}
   .behbox.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accentsoft),var(--shadow)}
+  .behbox.top3.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accentsoft),var(--shadow)}
   .behbox.zero{opacity:.5}
   .behbox .n{font-size:26px;font-weight:760;letter-spacing:-.5px;line-height:1}
   .behbox.active .n{color:var(--accent)}
@@ -269,14 +271,12 @@ function viewCustomers(){
     return `<tr>
       <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
       <td><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></td>
+      <td><button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button></td>
       <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
       <td class="right">${(b.drivers||[]).length}</td>
       <td class="right">${evCount}</td>
       <td>${trendCell}</td>
-      <td class="right" style="white-space:nowrap">
-        <button class="sm" onclick="go('events',{board:'${b.board}'})">View</button>
-        <button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Enter</button>
-      </td></tr>`;
+      </tr>`;
   }).join('');
   document.getElementById('main').innerHTML=`
     <div class="topbar"><div>
@@ -284,8 +284,8 @@ function viewCustomers(){
       <div class="sub">${SEED.boards.length} camera boards · click a trend rule to set the face-to-face threshold per customer</div>
     </div></div>
     <div class="card"><table>
-      <thead><tr><th>Logo</th><th>Customer</th><th>Driver field</th><th class="right">Drivers</th>
-        <th class="right">Events</th><th>Trend rule</th><th></th></tr></thead>
+      <thead><tr><th>Logo</th><th>Customer</th><th></th><th>Driver field</th><th class="right">Drivers</th>
+        <th class="right">Events</th><th>Trend rule</th></tr></thead>
       <tbody>${rows}</tbody></table></div>`;
 }
 function setLogo(id){
@@ -529,6 +529,7 @@ function saveEntry(bid){
 /* ---------- screen 3: events by behavior ---------- */
 function viewEvents(){
   ctx.board=ctx.board||'__all'; ctx.days=ctx.days||'30'; ctx.behavior=ctx.behavior||null;
+  ctx.driverFilter=ctx.driverFilter||'__all';
   const boards=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
   const bopts=`<option value="__all">All customers</option>`+boards.map(x=>`<option value="${x.board}" ${x.board===ctx.board?'selected':''}>${esc(x.name)}</option>`).join('');
   const dopts=[['7','Last 7 days'],['14','Last 14 days'],['30','Last 30 days'],['60','Last 60 days'],['90','Last 90 days'],['all','All time']]
@@ -537,15 +538,24 @@ function viewEvents(){
   let evs = ctx.board==='__all'?allEvents():eventsFor(ctx.board);
   if(ctx.days!=='all'){ const cut=daysAgo(+ctx.days); evs=evs.filter(e=>(e.date||'')>=cut); }
 
+  // driver filter — list drivers present in the current customer + date scope, A–Z; defaults to all
+  const drvNames=[...new Set(evs.map(e=>e.driver).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  if(ctx.driverFilter!=='__all' && !drvNames.includes(ctx.driverFilter)) ctx.driverFilter='__all';
+  const dvopts=`<option value="__all">All drivers</option>`+drvNames.map(n=>`<option value="${esc(n)}" ${n===ctx.driverFilter?'selected':''}>${esc(n)}</option>`).join('');
+  if(ctx.driverFilter!=='__all'){ evs=evs.filter(e=>e.driver===ctx.driverFilter); }
+
   // count per behavior: standard 12 first, then any legacy behaviors present in the data
   const counts={};
   evs.forEach(e=>{ const b=e.behavior||'(none)'; counts[b]=(counts[b]||0)+1; });
   const legacy=Object.keys(counts).filter(b=>!ENTRY_BEHAVIORS.includes(b) && b!=='(none)').sort();
   const order=[...ENTRY_BEHAVIORS,...legacy];
 
+  // the 3 behaviors with the most events get the gold accent outline
+  const top3=order.map(b=>[b,counts[b]||0]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]);
+
   const boxes=order.map(b=>{
     const n=counts[b]||0;
-    return `<button class="behbox ${ctx.behavior===b?'active':''} ${n?'':'zero'}" onclick="ctx.behavior=${JSON.stringify(b).replace(/"/g,'&quot;')};viewEvents()">
+    return `<button class="behbox ${ctx.behavior===b?'active':''} ${top3.includes(b)?'top3':''} ${n?'':'zero'}" onclick="ctx.behavior=${JSON.stringify(b).replace(/"/g,'&quot;')};viewEvents()">
       <div class="n">${n}</div><div class="lbl">${esc(b)}</div></button>`;
   }).join('');
 
@@ -580,7 +590,8 @@ function viewEvents(){
       <div class="sub">${custName} · ${evs.length} events in range</div>
     </div></div>
     <div class="filters">
-      <div class="field"><label class="f">Customer</label><select onchange="ctx.board=this.value;ctx.behavior=null;viewEvents()">${bopts}</select></div>
+      <div class="field"><label class="f">Customer</label><select onchange="ctx.board=this.value;ctx.driverFilter='__all';ctx.behavior=null;viewEvents()">${bopts}</select></div>
+      <div class="field"><label class="f">Driver</label><select onchange="ctx.driverFilter=this.value;viewEvents()">${dvopts}</select></div>
       <div class="field"><label class="f">Date range</label><select onchange="ctx.days=this.value;viewEvents()">${dopts}</select></div>
     </div>
     <div class="behgrid">${boxes}</div>
