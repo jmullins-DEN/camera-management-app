@@ -100,6 +100,10 @@
   .combo .opt:hover,.combo .opt.hl{background:var(--accentsoft);color:var(--accent)}
   .combo .opt .sub{font-size:11px;color:var(--faint)}
   .combo .empty{padding:11px 12px;color:var(--faint);font-size:12.5px}
+  .linkbtn{background:none;border:none;color:var(--accent);font-weight:650;font-size:12px;padding:2px 4px;cursor:pointer}
+  .linkbtn:hover{text-decoration:underline;color:var(--accentdk)}
+  .opt .tag{float:right;font-size:10px;font-weight:700;color:var(--gold-ink,#8a6500);background:var(--goldsoft);
+        border-radius:999px;padding:1px 7px}
 
   .driver-head{font-weight:700;color:var(--ink);background:#f3f5fb !important}
   .driver-head td{padding:8px 14px;font-size:12.5px;color:var(--slate);letter-spacing:.2px}
@@ -110,6 +114,15 @@
         transition:.22s;z-index:100;display:flex;align-items:center;gap:9px}
   .toast.show{opacity:1;transform:none}
   .count-chip{font-size:12px;color:var(--muted);background:#f1f3f8;border-radius:999px;padding:3px 10px;font-weight:600}
+  .behgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin-bottom:20px}
+  .behbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px;cursor:pointer;
+        box-shadow:var(--shadow);transition:border-color .12s,box-shadow .12s;text-align:left}
+  .behbox:hover{border-color:var(--accent)}
+  .behbox.active{border-color:var(--accent);box-shadow:0 0 0 2px var(--accentsoft),var(--shadow)}
+  .behbox.zero{opacity:.5}
+  .behbox .n{font-size:26px;font-weight:760;letter-spacing:-.5px;line-height:1}
+  .behbox.active .n{color:var(--accent)}
+  .behbox .lbl{font-size:12.5px;color:var(--muted);margin-top:6px;font-weight:600}
   .warn{background:#fff8ec;border:1px solid #f3e2c0;color:#9a6a12;border-radius:10px;padding:10px 13px;font-size:12.5px;margin-bottom:16px}
 
   /* trend chip (customers screen) */
@@ -148,7 +161,7 @@
       <div class="nav-h">Workspace</div>
       <button class="nav" data-screen="customers"><span class="ic">▤</span> Customers</button>
       <button class="nav" data-screen="entry"><span class="ic">＋</span> Data Entry</button>
-      <button class="nav" data-screen="events"><span class="ic">≡</span> Events by Driver</button>
+      <button class="nav" data-screen="events"><span class="ic">≡</span> Events by Behavior</button>
     </nav>
     <div class="side-foot">
       Synergy Solutions · internal<br>
@@ -181,6 +194,8 @@ const LS = {
   set s(v){ localStorage.setItem('cam_settings',JSON.stringify(v)) },
   get local(){ try{return JSON.parse(localStorage.getItem('cam_local')||'[]')}catch(e){return []} },
   set local(v){ localStorage.setItem('cam_local',JSON.stringify(v)) },
+  get drivers(){ try{return JSON.parse(localStorage.getItem('cam_drivers')||'[]')}catch(e){return []} },
+  set drivers(v){ localStorage.setItem('cam_drivers',JSON.stringify(v)) },
 };
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
@@ -195,7 +210,15 @@ function eventsFor(id){
 }
 function allEvents(){ return SEED.boards.flatMap(b=>eventsFor(b.board)); }
 function behaviorsFor(id){ const b=boardById(id); return (b&&b.behaviors&&b.behaviors.length)?b.behaviors:ENTRY_BEHAVIORS; }
-function driversFor(id){ const b=boardById(id); return (b&&b.drivers)||[]; }
+function driversFor(id){
+  const b=boardById(id);
+  const base=(b&&b.drivers)||[];
+  const added=LS.drivers.filter(d=>d.board===id).map(d=>({id:d.id,name:d.name,pending:true}));
+  const seen=new Set(base.map(d=>d.name.toLowerCase()));
+  const merged=[...base];
+  added.forEach(d=>{ if(!seen.has(d.name.toLowerCase())){ seen.add(d.name.toLowerCase()); merged.push(d); } });
+  return merged.sort((a,b)=>a.name.localeCompare(b.name));
+}
 
 const fmtDate = d => d||'';
 function daysAgo(n){ const t=new Date(); t.setDate(t.getDate()-n); return t.toISOString().slice(0,10); }
@@ -352,7 +375,10 @@ function viewEntry(){
     <div class="grid2">
       <div class="card pad">
         <div class="field">
-          <label class="f">Driver <span class="count-chip">${(b.drivers||[]).length} on roster</span></label>
+          <label class="f" style="display:flex;align-items:center;justify-content:space-between">
+            <span>Driver <span class="count-chip">${driversFor(bid).length} on roster</span></span>
+            <button type="button" class="linkbtn" onclick="openAddDriver('${bid}')">+ New driver</button>
+          </label>
           <div class="combo" id="combo">
             <input id="drvInput" placeholder="Type a name…" autocomplete="off">
             <div class="menu" id="drvMenu"></div>
@@ -430,6 +456,40 @@ function refreshEntryPanels(bid){
   aside.innerHTML=html;
 }
 function resetEntry(){ ctx.driver=null; viewEntry(); }
+
+// add a driver to this customer's roster — queues a write-back to Infinity in the board's format
+function openAddDriver(bid){
+  const b=boardById(bid)||{};
+  const fmt = b.driver_type==='label'
+    ? 'Added as a new <b>label</b> option on this board’s driver field.'
+    : 'Added as a new <b>roster item</b> in this board’s Driver Roster.';
+  openModal(`
+    <h3 style="margin:0 0 4px">New driver — ${esc(b.name||'')}</h3>
+    <div class="sub" style="margin-bottom:14px">${fmt}</div>
+    <div class="field"><label class="f">Driver name</label>
+      <input id="ndName" placeholder="First Last" autocomplete="off"
+        onkeydown="if(event.key==='Enter')saveNewDriver('${bid}')"></div>
+    <div class="warn" style="margin:4px 0 16px">Queued for write-back to Infinity (tagged <b>pending</b>) and usable in the picker right now.</div>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button onclick="closeModal()">Cancel</button>
+      <button class="primary" onclick="saveNewDriver('${bid}')">Add driver</button>
+    </div>`);
+  setTimeout(()=>{const n=document.getElementById('ndName'); if(n)n.focus();},50);
+}
+function saveNewDriver(bid){
+  const name=(document.getElementById('ndName').value||'').trim();
+  if(!name){ toast('Enter a name'); return; }
+  const exists=driversFor(bid).some(d=>d.name.toLowerCase()===name.toLowerCase());
+  if(exists){ toast('That driver already exists'); return; }
+  const b=boardById(bid)||{};
+  const id='ND'+Date.now()+Math.floor(Math.random()*1000);
+  const rec={ board:bid, id, name, pending:true, ts:Date.now(), synced:false,
+    // everything the write-back needs to create it in the right place/format
+    writeback:{ type:b.driver_type, roster_folder:b.roster_folder||null, driver_attr:b.driver_attr||null } };
+  const arr=LS.drivers; arr.push(rec); LS.drivers=arr;
+  ctx.driver={name,id};
+  closeModal(); toast('Driver added: '+name); viewEntry();
+}
 function setupCombo(bid){
   const drivers=driversFor(bid);
   const combo=document.getElementById('combo'), input=document.getElementById('drvInput'), menu=document.getElementById('drvMenu');
@@ -439,7 +499,7 @@ function setupCombo(bid){
     const q=input.value.trim().toLowerCase();
     const list=drivers.filter(d=>d.name.toLowerCase().includes(q)).slice(0,80);
     menu.innerHTML = list.length
-      ? list.map((d,i)=>`<div class="opt ${i===hl?'hl':''}" data-name="${esc(d.name)}" data-id="${esc(d.id||'')}">${esc(d.name)}</div>`).join('')
+      ? list.map((d,i)=>`<div class="opt ${i===hl?'hl':''}" data-name="${esc(d.name)}" data-id="${esc(d.id||'')}">${esc(d.name)}${d.pending?'<span class="tag">pending</span>':''}</div>`).join('')
       : `<div class="empty">No driver matches “${esc(input.value)}”</div>`;
     menu.querySelectorAll('.opt').forEach(o=>o.onclick=()=>{ ctx.driver={name:o.dataset.name,id:o.dataset.id}; input.value=o.dataset.name; combo.classList.remove('open'); refreshEntryPanels(bid); });
   }
@@ -466,9 +526,9 @@ function saveEntry(bid){
   toast('Event saved for '+ev.driver); ctx.driver=null; viewEntry();
 }
 
-/* ---------- screen 3: events by driver ---------- */
+/* ---------- screen 3: events by behavior ---------- */
 function viewEvents(){
-  ctx.board=ctx.board||'__all'; ctx.days=ctx.days||'30'; ctx.sortType=ctx.sortType||false; ctx.q=ctx.q||'';
+  ctx.board=ctx.board||'__all'; ctx.days=ctx.days||'30'; ctx.behavior=ctx.behavior||null;
   const boards=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
   const bopts=`<option value="__all">All customers</option>`+boards.map(x=>`<option value="${x.board}" ${x.board===ctx.board?'selected':''}>${esc(x.name)}</option>`).join('');
   const dopts=[['7','Last 7 days'],['14','Last 14 days'],['30','Last 30 days'],['60','Last 60 days'],['90','Last 90 days'],['all','All time']]
@@ -476,49 +536,56 @@ function viewEvents(){
 
   let evs = ctx.board==='__all'?allEvents():eventsFor(ctx.board);
   if(ctx.days!=='all'){ const cut=daysAgo(+ctx.days); evs=evs.filter(e=>(e.date||'')>=cut); }
-  if(ctx.q){ const q=ctx.q.toLowerCase(); evs=evs.filter(e=>(e.driver||'').toLowerCase().includes(q)||(e.behavior||'').toLowerCase().includes(q)); }
 
-  // group by driver, A-Z
-  const groups={};
-  evs.forEach(e=>{ const k=e.driver||'(unassigned)'; (groups[k]=groups[k]||[]).push(e); });
-  const names=Object.keys(groups).sort((a,b)=>a.localeCompare(b));
-  names.forEach(n=>groups[n].sort((a,b)=> ctx.sortType
-      ? (a.behavior||'').localeCompare(b.behavior||'')
-      : (b.date||'').localeCompare(a.date||'')));
+  // count per behavior: standard 12 first, then any legacy behaviors present in the data
+  const counts={};
+  evs.forEach(e=>{ const b=e.behavior||'(none)'; counts[b]=(counts[b]||0)+1; });
+  const legacy=Object.keys(counts).filter(b=>!ENTRY_BEHAVIORS.includes(b) && b!=='(none)').sort();
+  const order=[...ENTRY_BEHAVIORS,...legacy];
 
+  const boxes=order.map(b=>{
+    const n=counts[b]||0;
+    return `<button class="behbox ${ctx.behavior===b?'active':''} ${n?'':'zero'}" onclick="ctx.behavior=${JSON.stringify(b).replace(/"/g,'&quot;')};viewEvents()">
+      <div class="n">${n}</div><div class="lbl">${esc(b)}</div></button>`;
+  }).join('');
+
+  // detail list for the selected behavior
   const showCust = ctx.board==='__all';
-  let body='';
-  if(!names.length){ body=`<tr><td colspan="${showCust?5:4}" class="empty-state">No events in this range</td></tr>`; }
-  else names.forEach(n=>{
-    body+=`<tr class="driver-head"><td colspan="${showCust?5:4}">${esc(n)} <span class="faint">· ${groups[n].length}</span></td></tr>`;
-    groups[n].forEach(e=>{ body+=`<tr>
-      <td class="muted">${esc(e.date||'')}</td>
-      <td><b>${esc(e.behavior||'—')}</b></td>
-      <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
-      ${showCust?`<td class="muted">${esc((boardById(e.board)||{}).name||'')}</td>`:''}
-      <td>${e.source==='local'?'<span class="pill green">new</span>':''}</td></tr>`; });
-  });
+  let detail='';
+  if(ctx.behavior){
+    const rows=evs.filter(e=>(e.behavior||'(none)')===ctx.behavior)
+      .sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    detail=`<div class="card">
+      <div class="pad" style="border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:680">${esc(ctx.behavior)} <span class="faint">· ${rows.length} event${rows.length===1?'':'s'}</span></div>
+        <button class="linkbtn" onclick="ctx.behavior=null;viewEvents()">✕ clear</button>
+      </div>
+      <table><thead><tr><th>Driver</th><th>Date</th><th>Coaching needed</th>${showCust?'<th>Customer</th>':''}<th></th></tr></thead><tbody>`+
+      (rows.length?rows.map(e=>`<tr>
+        <td><b>${esc(e.driver||'—')}</b></td>
+        <td class="muted">${esc(e.date||'')}</td>
+        <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
+        ${showCust?`<td class="muted">${esc((boardById(e.board)||{}).name||'')}</td>`:''}
+        <td>${e.source==='local'?'<span class="pill green">new</span>':''}</td></tr>`).join('')
+        :`<tr><td colspan="${showCust?5:4}" class="empty-state">No events</td></tr>`)+
+      `</tbody></table></div>`;
+  } else {
+    detail=`<div class="card"><div class="empty-state">Click a behavior box above to see the events — driver, date & coaching.</div></div>`;
+  }
 
+  const custName = ctx.board==='__all'?'All customers':((boardById(ctx.board)||{}).name||'');
   document.getElementById('main').innerHTML=`
     <div class="topbar"><div>
-      <h1>Events by Driver</h1>
-      <div class="sub">${evs.length} events · grouped A–Z by driver — driver, event type & coaching</div>
+      <h1>Events by Behavior</h1>
+      <div class="sub">${custName} · ${evs.length} events in range</div>
     </div></div>
     <div class="filters">
-      <div class="field"><label class="f">Customer</label><select onchange="ctx.board=this.value;viewEvents()">${bopts}</select></div>
+      <div class="field"><label class="f">Customer</label><select onchange="ctx.board=this.value;ctx.behavior=null;viewEvents()">${bopts}</select></div>
       <div class="field"><label class="f">Date range</label><select onchange="ctx.days=this.value;viewEvents()">${dopts}</select></div>
-      <div class="field" style="flex:1"><label class="f">Search driver / behavior</label><input value="${esc(ctx.q)}" oninput="ctx.q=this.value;viewEvents()" placeholder="Filter…"></div>
-      <label class="check"><input type="checkbox" ${ctx.sortType?'checked':''} onchange="ctx.sortType=this.checked;viewEvents()"> Sort by event type</label>
     </div>
-    <div class="card"><table>
-      <thead><tr><th>Date</th><th>Event type (behavior)</th><th>Coaching needed</th>${showCust?'<th>Customer</th>':''}<th></th></tr></thead>
-      <tbody>${body}</tbody></table></div>`;
+    <div class="behgrid">${boxes}</div>
+    ${detail}`;
 }
-
-/* refresh the search input focus after re-render on events screen */
-const _ve=viewEvents;
-viewEvents=function(){ const a=document.activeElement, wasSearch=a&&a.tagName==='INPUT'&&a.placeholder==='Filter…'; const pos=wasSearch?a.selectionStart:null; _ve();
-  if(wasSearch){ const n=[...document.querySelectorAll('input')].find(i=>i.placeholder==='Filter…'); if(n){n.focus(); if(pos!=null)n.setSelectionRange(pos,pos);} } };
 
 render();
 </script>
