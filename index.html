@@ -530,19 +530,21 @@ async function checkInfinity(){
   const known=new Set(SEED.boards.map(b=>b.board));
   const added=d.boards.filter(b=>!known.has(b.id));                 // in Infinity, not in dashboard
   const removed=SEED.boards.filter(b=>!liveById[b.board]);          // in dashboard, gone from Infinity
+  const lblStyle='display:flex;align-items:center;gap:8px;cursor:pointer;padding:3px 0';
+  const cbStyle='width:auto;flex:none;margin:0';
   const addList=added.length
-    ? added.map(b=>`<li><label style="cursor:pointer"><input type="checkbox" checked data-add="${b.id}" data-add-name="${esc(b.name)}" data-add-ws="${b.ws}"> <b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.id} · ws ${b.ws}</span></label></li>`).join('')
+    ? added.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" data-add="${b.id}" data-add-name="${esc(b.name)}" data-add-ws="${b.ws}" style="${cbStyle}"> <span><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.id} · ws ${b.ws}</span></span></label></li>`).join('')
     : '<li class="faint">None — every Infinity board is already here.</li>';
   const remList=removed.length
-    ? removed.map(b=>`<li><label style="cursor:pointer"><input type="checkbox" checked data-rm="${b.board}"> <b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.board}</span></label></li>`).join('')
+    ? removed.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" checked data-rm="${b.board}" style="${cbStyle}"> <span><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.board}</span></span></label></li>`).join('')
     : '<li class="faint">None — no dashboard board is missing from Infinity.</li>';
   openModal(`
     <h2>Infinity check</h2>
     <div class="sub">Live: ${d.boards.length} boards across both workspaces.</div>
     <h3 style="margin:16px 0 4px">New in Infinity (${added.length})</h3>
-    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Full driver/event data needs a data refresh (I run <code>build_seed.py</code>). Check the ones you want, hit <b>Copy request for Susie</b>, and paste it to me in Chat — that gives me the exact board ids to pull in.</div>
+    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Check the ones you want and hit <b>Add checked boards</b> — the request goes straight to Susie, who pulls in full driver/event data on the next refresh (<code>build_seed.py</code>). No need to message anyone.</div>
     <ul style="margin:8px 0;list-style:none;padding-left:0">${addList}</ul>
-    ${added.length?`<div style="margin:-2px 0 6px"><button class="sm" onclick="copyBoardRequest()">Copy request for Susie</button></div>`:''}
+    ${added.length?`<div style="margin:-2px 0 6px"><button class="sm primary" id="addBoardsBtn" onclick="addCheckedBoards()">Add checked boards</button></div>`:''}
     <h3 style="margin:16px 0 4px">Deleted from Infinity (${removed.length})</h3>
     <div class="sub">These are in the dashboard but no longer exist in Infinity. Checked ones get hidden.</div>
     <ul style="margin:8px 0;list-style:none;padding-left:0">${remList}</ul>
@@ -551,23 +553,22 @@ async function checkInfinity(){
       ${removed.length?`<button class="primary" onclick="applyInfinityRemovals()">Hide checked</button>`:''}
     </div>`);
 }
-function copyBoardRequest(){
+async function addCheckedBoards(){
   const picked=[...document.querySelectorAll('input[data-add]:checked')].map(c=>({
     id:c.getAttribute('data-add'), name:c.getAttribute('data-add-name'), ws:c.getAttribute('data-add-ws')}));
-  if(!picked.length){ toast('Check at least one board first'); return; }
-  const lines=picked.map(b=>`- ${b.name} — board ${b.id} (ws ${b.ws})`).join('\n');
-  const msg=`Susie, please add these camera boards to the dashboard (run build_seed.py for them):\n${lines}`;
-  const done=()=>toast(`Copied ${picked.length} board${picked.length>1?'s':''} — paste it to me in Chat`);
-  if(navigator.clipboard&&navigator.clipboard.writeText){
-    navigator.clipboard.writeText(msg).then(done,()=>fallbackCopy(msg,done));
-  } else fallbackCopy(msg,done);
-}
-function fallbackCopy(text,cb){
-  const ta=document.createElement('textarea'); ta.value=text;
-  ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta);
-  ta.focus(); ta.select();
-  try{ document.execCommand('copy'); cb(); }catch(e){ toast('Copy failed — select the text manually'); }
-  document.body.removeChild(ta);
+  if(!picked.length){ toast('Check the boards you want to add first','⚠'); return; }
+  const btn=document.getElementById('addBoardsBtn');
+  if(btn){ btn.disabled=true; btn.textContent='Sending…'; }
+  try{
+    const res=await apiPost('/request-boards',{boards:picked});
+    if(!res||!res.ok) throw new Error((res&&res.error)||'request failed');
+    toast(`Sent ${picked.length} board${picked.length>1?'s':''} to Susie — she'll pull them in on the next data refresh`);
+    closeModal();
+  }catch(e){
+    console.error('board request failed',e);
+    toast('Could not send the request — try again','⚠');
+    if(btn){ btn.disabled=false; btn.textContent='Add checked boards'; }
+  }
 }
 function applyInfinityRemovals(){
   const ids=[...document.querySelectorAll('input[data-rm]:checked')].map(c=>c.getAttribute('data-rm'));
