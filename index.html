@@ -205,6 +205,15 @@ const LS = {
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
 function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; }
+// boards the user has hidden from the dashboard (manual "edit available boards")
+function hiddenSet(){ const h=LS.s._hidden; return new Set(Array.isArray(h)?h:[]); }
+function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=s; }
+function isHidden(id){ return hiddenSet().has(id); }
+function toggleHidden(id,hide){ const h=hiddenSet(); hide?h.add(id):h.delete(id); setHidden([...h]); }
+// the boards the dashboard actually shows = all known boards minus hidden ones, A–Z
+function visibleBoards(){
+  return SEED.boards.filter(b=>!isHidden(b.board)).sort((a,b)=>a.name.localeCompare(b.name));
+}
 
 /* ---------- backend worker + per-board write-back ---------- */
 const API_BASE='https://camera-management-api.jmullins-af4.workers.dev';
@@ -340,7 +349,7 @@ function eventsFor(id){
   const loc=LS.local.filter(e=>e.board===id).map(e=>({...e,source:'local'}));
   return [...loc,...inf];
 }
-function allEvents(){ return SEED.boards.flatMap(b=>eventsFor(b.board)); }
+function allEvents(){ return visibleBoards().flatMap(b=>eventsFor(b.board)); }
 function behaviorsFor(id){ const b=boardById(id); return (b&&b.behaviors&&b.behaviors.length)?b.behaviors:ENTRY_BEHAVIORS; }
 function driversFor(id){
   const b=boardById(id);
@@ -388,7 +397,7 @@ function render(){
 
 /* ---------- screen 1: customers ---------- */
 function viewCustomers(){
-  const rows = SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(b=>{
+  const rows = visibleBoards().map(b=>{
     const st=settingsFor(b.board), evCount=eventsFor(b.board).length;
     const lz=st.logoZoom||1;
     const logo = st.logo
@@ -409,11 +418,18 @@ function viewCustomers(){
       <td>${trendCell}</td>
       </tr>`;
   }).join('');
+  const hid=hiddenSet().size;
   document.getElementById('main').innerHTML=`
-    <div class="topbar"><div>
-      <h1>Customers</h1>
-      <div class="sub">${SEED.boards.length} camera boards · click a trend rule to set the face-to-face threshold per customer</div>
-    </div></div>
+    <div class="topbar">
+      <div>
+        <h1>Customers</h1>
+        <div class="sub">${visibleBoards().length} of ${SEED.boards.length} camera boards shown${hid?` · ${hid} hidden`:''} · click a trend rule to set the face-to-face threshold</div>
+      </div>
+      <div style="display:flex;gap:10px">
+        <button class="sm" onclick="manageBoards()">Edit available boards</button>
+        <button class="sm" onclick="checkInfinity()">Check Infinity for new boards</button>
+      </div>
+    </div>
     <div class="card"><table>
       <thead><tr><th>Event Entry</th><th>Logo</th><th>Customer</th><th>Driver field</th><th class="right">Drivers</th>
         <th class="right">Events</th><th>Trend rule</th></tr></thead>
@@ -472,6 +488,75 @@ function approveLogo(id,url){ setSetting(id,{logo:url}); toast(url?'Logo approve
 function logoManual(id){ const u=prompt('Paste an image URL:',settingsFor(id).logo||''); if(u===null)return;
   setSetting(id,{logo:u.trim()}); toast('Logo updated'); closeModal(); render(); }
 
+/* ---------- edit available boards (manual hide/show) ---------- */
+function manageBoards(){
+  const all=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
+  const rows=all.map(b=>{
+    const hidden=isHidden(b.board);
+    return `<tr>
+      <td style="padding:6px 10px"><label style="display:flex;align-items:center;gap:8px;cursor:pointer">
+        <input type="checkbox" ${hidden?'':'checked'} onchange="toggleHidden('${b.board}',!this.checked);manageBoardsCount()">
+        <span><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.board}</span></span>
+      </label></td></tr>`;
+  }).join('');
+  openModal(`
+    <h2>Available boards</h2>
+    <div class="sub">Uncheck a board to hide it from the dashboard. Hiding only affects this dashboard — it never touches Infinity. <span id="mbCount"></span></div>
+    <div style="max-height:50vh;overflow:auto;margin-top:12px;border:1px solid var(--line);border-radius:8px">
+      <table style="width:100%"><tbody>${rows}</tbody></table></div>
+    <div style="margin-top:10px;display:flex;gap:10px">
+      <button class="sm" onclick="setHidden([]);manageBoards()">Show all</button>
+      <button class="sm" onclick="setHidden(SEED.boards.map(b=>b.board));manageBoards()">Hide all</button>
+    </div>
+    <div class="modal-foot"><button class="primary" onclick="closeModal();render()">Done</button></div>`);
+  manageBoardsCount();
+}
+function manageBoardsCount(){
+  const el=document.getElementById('mbCount'); if(!el)return;
+  const shown=SEED.boards.length-hiddenSet().size;
+  el.textContent=`${shown} of ${SEED.boards.length} shown.`;
+}
+
+/* ---------- check Infinity for new / deleted boards (on demand only) ---------- */
+async function checkInfinity(){
+  toast('Checking Infinity…');
+  let d;
+  try{
+    const r=await fetch(API_BASE+'/boards',{headers:{'X-App-Key':APP_KEY}});
+    d=await r.json();
+  }catch(e){ toast('Could not reach the server'); return; }
+  if(!d||!d.ok||!Array.isArray(d.boards)){ toast('Infinity check failed'); return; }
+  const liveById={}; d.boards.forEach(b=>liveById[b.id]=b);
+  const known=new Set(SEED.boards.map(b=>b.board));
+  const added=d.boards.filter(b=>!known.has(b.id));                 // in Infinity, not in dashboard
+  const removed=SEED.boards.filter(b=>!liveById[b.board]);          // in dashboard, gone from Infinity
+  const addList=added.length
+    ? added.map(b=>`<li><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.id} · ws ${b.ws}</span></li>`).join('')
+    : '<li class="faint">None — every Infinity board is already here.</li>';
+  const remList=removed.length
+    ? removed.map(b=>`<li><label style="cursor:pointer"><input type="checkbox" checked data-rm="${b.board}"> <b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.board}</span></label></li>`).join('')
+    : '<li class="faint">None — no dashboard board is missing from Infinity.</li>';
+  openModal(`
+    <h2>Infinity check</h2>
+    <div class="sub">Live: ${d.boards.length} boards across both workspaces.</div>
+    <h3 style="margin:16px 0 4px">New in Infinity (${added.length})</h3>
+    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Full driver/event data needs a data refresh (I run <code>build_seed.py</code>) — tell me and I'll pull them in.</div>
+    <ul style="margin:8px 0">${addList}</ul>
+    <h3 style="margin:16px 0 4px">Deleted from Infinity (${removed.length})</h3>
+    <div class="sub">These are in the dashboard but no longer exist in Infinity. Checked ones get hidden.</div>
+    <ul style="margin:8px 0;list-style:none;padding-left:0">${remList}</ul>
+    <div class="modal-foot">
+      <button onclick="closeModal()">Close</button>
+      ${removed.length?`<button class="primary" onclick="applyInfinityRemovals()">Hide checked</button>`:''}
+    </div>`);
+}
+function applyInfinityRemovals(){
+  const ids=[...document.querySelectorAll('input[data-rm]:checked')].map(c=>c.getAttribute('data-rm'));
+  const h=hiddenSet(); ids.forEach(id=>h.add(id)); setHidden([...h]);
+  toast(ids.length?`Hid ${ids.length} deleted board${ids.length>1?'s':''}`:'Nothing selected');
+  closeModal(); render();
+}
+
 function editTrend(id){
   const b=boardById(id)||{}, c=trendCfg(id);
   openModal(`
@@ -496,7 +581,7 @@ function saveTrend(id){
 
 /* ---------- screen 2: data entry ---------- */
 function viewEntry(){
-  const boards=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
+  const boards=visibleBoards();
   const bid = ctx.board || (boards[0]&&boards[0].board);
   const b=boardById(bid)||{}; const st=settingsFor(bid);
   ctx.board=bid; ctx.driver=ctx.driver||null;
@@ -687,7 +772,7 @@ function saveEntry(bid){
 function viewEvents(){
   ctx.board=ctx.board||'__all'; ctx.days=ctx.days||'30'; ctx.behavior=ctx.behavior||null;
   ctx.driverFilter=ctx.driverFilter||'__all';
-  const boards=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
+  const boards=visibleBoards();
   const bopts=`<option value="__all">All customers</option>`+boards.map(x=>`<option value="${x.board}" ${x.board===ctx.board?'selected':''}>${esc(x.name)}</option>`).join('');
   const dopts=[['7','Last 7 days'],['14','Last 14 days'],['30','Last 30 days'],['60','Last 60 days'],['90','Last 90 days'],['all','All time']]
       .map(([v,l])=>`<option value="${v}" ${v===ctx.days?'selected':''}>${l}</option>`).join('');
