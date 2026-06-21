@@ -705,11 +705,10 @@ function viewEvents(){
   // detail list for the selected behavior
   const showCust = ctx.board==='__all';
   let detail='';
-  // behavior detail — only when a box is selected; stacks ABOVE the full list
   if(ctx.behavior){
     const rows=evs.filter(e=>(e.behavior||'(none)')===ctx.behavior)
       .sort((a,b)=>(b.date||'').localeCompare(a.date||''));
-    detail+=`<div class="card">
+    detail=`<div class="card">
       <div class="pad" style="border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center">
         <div style="font-weight:680">${esc(ctx.behavior)} <span class="faint">· ${rows.length} event${rows.length===1?'':'s'}</span></div>
         <button class="linkbtn" onclick="ctx.behavior=null;viewEvents()">✕ clear</button>
@@ -723,13 +722,12 @@ function viewEvents(){
         <td>${e.source==='local'?'<span class="pill green">new</span>':''}</td></tr>`).join('')
         :`<tr><td colspan="${showCust?5:4}" class="empty-state">No events</td></tr>`)+
       `</tbody></table></div>`;
-  }
-  // full event list — ALWAYS shown, most-recent first (like Recent events on Data Entry)
-  {
+  } else {
+    // no behavior selected — show every event in scope, most-recent first (like Recent events on Data Entry)
     const rows=evs.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
-    detail+=`<div class="card"${ctx.behavior?' style="margin-top:16px"':''}>
+    detail=`<div class="card">
       <div class="pad" style="border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center">
-        <div style="font-weight:680">All events <span class="faint">· ${rows.length} event${rows.length===1?'':'s'}${ctx.behavior?'':' · click a box above to filter by behavior'}</span></div>
+        <div style="font-weight:680">All events <span class="faint">· ${rows.length} event${rows.length===1?'':'s'} · click a box above to filter by behavior</span></div>
       </div>
       <table><thead><tr><th>Driver</th><th>Behavior</th><th>Date</th><th>Coaching needed</th>${showCust?'<th>Customer</th>':''}<th></th></tr></thead><tbody>`+
       (rows.length?rows.map(e=>`<tr>
