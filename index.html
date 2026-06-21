@@ -122,6 +122,8 @@
   .trend-alert{padding:13px 15px;border-radius:11px;font-size:13px;margin:16px 16px 4px;line-height:1.5}
   .trend-alert.hit{background:var(--goldsoft);border:1px solid #f0d98a;color:#7a5800}
   .trend-alert.ok{background:var(--accentsoft);border:1px solid #cfe2fb;color:var(--accentdk)}
+  .f2f-alert{margin-top:8px;padding:10px 12px;border-radius:9px;font-size:12.5px;font-weight:650;
+    background:#fdecec;border:1px solid #f3b4b4;color:#b3261e;line-height:1.4}
 
   /* modal */
   .modal-overlay{position:fixed;inset:0;background:rgba(16,24,48,.45);display:none;align-items:center;justify-content:center;
@@ -312,7 +314,7 @@ function editTrend(id){
       <input id="trCount" type="number" min="0" value="${c.count}" style="width:62px;display:inline-block;text-align:center">
       events of the same behavior in
       <input id="trDays" type="number" min="0" value="${c.days}" style="width:62px;display:inline-block;text-align:center">
-      days will be considered a trend and a face-to-face engagement will be triggered.
+      days will be considered a trend and a face-to-face engagement will be needed.
     </div>
     <div class="warn" style="margin-top:18px">Set days to <b>0</b> to turn trend tracking off for this customer.</div>
     <div class="modal-foot">
@@ -361,7 +363,8 @@ function viewEntry(){
           <div class="field"><label class="f">Date reviewed</label><input type="date" id="evReviewed"></div>
         </div>
         <div class="field"><label class="f">Behavior observed</label><select id="evBehavior" onchange="refreshEntryPanels('${bid}')">${bevs}</select></div>
-        <div class="field"><label class="f">Coaching needed</label><select id="evCoaching"><option value="">— none —</option>${coach}</select></div>
+        <div class="field"><label class="f">Coaching needed</label><select id="evCoaching"><option value="">— none —</option>${coach}</select>
+          <div id="f2fAlert"></div></div>
         <div class="field"><label class="f">Notes</label><textarea id="evNotes" rows="3" placeholder="Optional context…"></textarea></div>
         <div style="display:flex;gap:10px;justify-content:flex-end">
           <button onclick="resetEntry()">Clear</button>
@@ -378,11 +381,13 @@ function viewEntry(){
 function refreshEntryPanels(bid){
   const aside=document.getElementById('entryAside'); if(!aside) return;
   const b=boardById(bid)||{};
+  const alertBox=document.getElementById('f2fAlert'); if(alertBox) alertBox.innerHTML='';
   let html='';
   if(ctx.driver && ctx.driver.name){
     const dn=ctx.driver.name;
     const behavior=(document.getElementById('evBehavior')||{}).value||'';
     const asOf=(document.getElementById('evDate')||{}).value||today();
+    const cfg=trendCfg(bid);
     const ti=trendInfo(bid,dn,behavior,asOf);
     if(!ti.enabled){
       html+=`<div class="trend-alert ok" style="background:#f1f3f8;border-color:var(--line);color:var(--muted)">Trend tracking is off for this customer.</div>`;
@@ -390,17 +395,26 @@ function refreshEntryPanels(bid){
       const blabel = ti.grouped ? 'driver distraction (phone + cab)' : '“'+esc(behavior)+'”';
       const grpNote = ti.grouped ? ` <span class="faint">Phone &amp; cab distraction count together.</span>` : '';
       html+= ti.triggered
-        ? `<div class="trend-alert hit"><b>Face-to-face suggested.</b> This is the <b>${ordinal(ti.nth)}</b> ${blabel} event in ${ti.days} days (threshold ${ti.count}). Review the history and decide: coaching notes or face-to-face.${grpNote}</div>`
-        : `<div class="trend-alert ok">This is the <b>${ordinal(ti.nth)}</b> ${blabel} event in ${ti.days} days. Face-to-face triggers at ${ti.count}.${grpNote}</div>`;
+        ? `<div class="trend-alert hit"><b>Face-to-face needed.</b> This is the <b>${ordinal(ti.nth)}</b> ${blabel} event in ${ti.days} days (threshold ${ti.count}). Review the history and decide: coaching notes or face-to-face.${grpNote}</div>`
+        : `<div class="trend-alert ok">This is the <b>${ordinal(ti.nth)}</b> ${blabel} event in ${ti.days} days. Face-to-face needed at ${ti.count}.${grpNote}</div>`;
+      // red alert under the coaching-needed dropdown when threshold met
+      if(ti.triggered && alertBox){
+        alertBox.innerHTML=`<div class="f2f-alert">⚠ Face-to-face engagement needed — ${ordinal(ti.nth)} ${ti.grouped?'driver distraction (phone + cab)':esc(behavior)} event in ${ti.days} days (threshold ${ti.count}).</div>`;
+      }
     }
-    const hist=eventsFor(bid).filter(e=>e.driver===dn).slice(0,30);
-    html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">${esc(dn)} · history <span class="faint">(${hist.length})</span></div>`;
+    // driver history limited to the trend-day window, ordered by behavior
+    const histAll=eventsFor(bid).filter(e=>e.driver===dn);
+    const cut = cfg.days ? dateMinus(asOf,cfg.days) : null;
+    const hist=(cut ? histAll.filter(e=>(e.date||'')>=cut && (e.date||'')<=asOf) : histAll)
+      .slice().sort((a,b)=> (a.behavior||'').localeCompare(b.behavior||'') || (b.date||'').localeCompare(a.date||''));
+    const windowLbl = cfg.days ? `last ${cfg.days} days` : 'all time';
+    html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">${esc(dn)} · events by behavior <span class="faint">(${windowLbl} · ${hist.length})</span></div>`;
     html+= hist.length
-      ? `<table><thead><tr><th>Date</th><th>Behavior</th><th>Coaching</th></tr></thead><tbody>`+
-        hist.map(e=>`<tr><td class="muted">${esc(e.date||'')}</td><td><b>${esc(e.behavior||'')}</b></td>
+      ? `<table><thead><tr><th>Behavior</th><th>Date</th><th>Coaching</th></tr></thead><tbody>`+
+        hist.map(e=>`<tr><td><b>${esc(e.behavior||'')}</b></td><td class="muted">${esc(e.date||'')}</td>
           <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td></tr>`).join('')+
         `</tbody></table>`
-      : `<div class="empty-state">No prior events for this driver</div>`;
+      : `<div class="empty-state">No events for this driver in the ${windowLbl}</div>`;
   } else {
     const recent=eventsFor(bid).slice(0,12);
     html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">Recent events · ${esc(b.name||'')}</div>`;
