@@ -531,7 +531,7 @@ async function checkInfinity(){
   const added=d.boards.filter(b=>!known.has(b.id));                 // in Infinity, not in dashboard
   const removed=SEED.boards.filter(b=>!liveById[b.board]);          // in dashboard, gone from Infinity
   const addList=added.length
-    ? added.map(b=>`<li><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.id} · ws ${b.ws}</span></li>`).join('')
+    ? added.map(b=>`<li><label style="cursor:pointer"><input type="checkbox" checked data-add="${b.id}" data-add-name="${esc(b.name)}" data-add-ws="${b.ws}"> <b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.id} · ws ${b.ws}</span></label></li>`).join('')
     : '<li class="faint">None — every Infinity board is already here.</li>';
   const remList=removed.length
     ? removed.map(b=>`<li><label style="cursor:pointer"><input type="checkbox" checked data-rm="${b.board}"> <b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.board}</span></label></li>`).join('')
@@ -540,8 +540,9 @@ async function checkInfinity(){
     <h2>Infinity check</h2>
     <div class="sub">Live: ${d.boards.length} boards across both workspaces.</div>
     <h3 style="margin:16px 0 4px">New in Infinity (${added.length})</h3>
-    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Full driver/event data needs a data refresh (I run <code>build_seed.py</code>) — tell me and I'll pull them in.</div>
-    <ul style="margin:8px 0">${addList}</ul>
+    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Full driver/event data needs a data refresh (I run <code>build_seed.py</code>). Check the ones you want, hit <b>Copy request for Susie</b>, and paste it to me in Chat — that gives me the exact board ids to pull in.</div>
+    <ul style="margin:8px 0;list-style:none;padding-left:0">${addList}</ul>
+    ${added.length?`<div style="margin:-2px 0 6px"><button class="sm" onclick="copyBoardRequest()">Copy request for Susie</button></div>`:''}
     <h3 style="margin:16px 0 4px">Deleted from Infinity (${removed.length})</h3>
     <div class="sub">These are in the dashboard but no longer exist in Infinity. Checked ones get hidden.</div>
     <ul style="margin:8px 0;list-style:none;padding-left:0">${remList}</ul>
@@ -549,6 +550,24 @@ async function checkInfinity(){
       <button onclick="closeModal()">Close</button>
       ${removed.length?`<button class="primary" onclick="applyInfinityRemovals()">Hide checked</button>`:''}
     </div>`);
+}
+function copyBoardRequest(){
+  const picked=[...document.querySelectorAll('input[data-add]:checked')].map(c=>({
+    id:c.getAttribute('data-add'), name:c.getAttribute('data-add-name'), ws:c.getAttribute('data-add-ws')}));
+  if(!picked.length){ toast('Check at least one board first'); return; }
+  const lines=picked.map(b=>`- ${b.name} — board ${b.id} (ws ${b.ws})`).join('\n');
+  const msg=`Susie, please add these camera boards to the dashboard (run build_seed.py for them):\n${lines}`;
+  const done=()=>toast(`Copied ${picked.length} board${picked.length>1?'s':''} — paste it to me in Chat`);
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(msg).then(done,()=>fallbackCopy(msg,done));
+  } else fallbackCopy(msg,done);
+}
+function fallbackCopy(text,cb){
+  const ta=document.createElement('textarea'); ta.value=text;
+  ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta);
+  ta.focus(); ta.select();
+  try{ document.execCommand('copy'); cb(); }catch(e){ toast('Copy failed — select the text manually'); }
+  document.body.removeChild(ta);
 }
 function applyInfinityRemovals(){
   const ids=[...document.querySelectorAll('input[data-rm]:checked')].map(c=>c.getAttribute('data-rm'));
