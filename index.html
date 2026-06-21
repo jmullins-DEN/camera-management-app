@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camera Management</title>
+<style>
+  :root{
+    --bg:#f5f7fb; --card:#fff; --line:#e6eaf2; --line2:#eef1f7;
+    --ink:#10131a; --muted:#6b7384; --faint:#9aa2b2;
+    --slate:#161b27; --slate2:#1f2636; --slatehover:#2a3346;
+    --accent:#4f46e5; --accent2:#6366f1; --accentsoft:#eef0fe;
+    --teal:#0ea5a4; --green:#16a34a; --amber:#d97706; --red:#dc2626;
+    --shadow:0 1px 2px rgba(16,24,48,.05),0 4px 16px rgba(16,24,48,.04);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--ink);font-size:14px;line-height:1.45}
+  .app{display:flex;min-height:100vh}
+  a{color:var(--accent);text-decoration:none}
+
+  /* sidebar */
+  .sidebar{width:228px;flex-shrink:0;background:var(--slate);color:#c3cad9;display:flex;flex-direction:column;
+           position:sticky;top:0;height:100vh}
+  .brand{padding:20px 18px 16px;font-weight:700;font-size:15.5px;color:#fff;display:flex;align-items:center;gap:10px;
+         border-bottom:1px solid rgba(255,255,255,.07)}
+  .brand .dot{width:26px;height:26px;border-radius:8px;background:linear-gradient(135deg,var(--accent2),var(--teal));
+         display:flex;align-items:center;justify-content:center;font-size:14px}
+  .sidebar nav{padding:12px 10px;display:flex;flex-direction:column;gap:3px}
+  .sidebar .nav-h{font-size:10px;text-transform:uppercase;letter-spacing:.9px;color:#727d96;padding:12px 12px 5px}
+  .sidebar button.nav{display:flex;align-items:center;gap:11px;width:100%;text-align:left;background:none;border:none;
+         border-radius:9px;padding:10px 12px;color:#c3cad9;font-size:14px;font-weight:550;cursor:pointer}
+  .sidebar button.nav:hover{background:var(--slatehover);color:#fff}
+  .sidebar button.nav.active{background:var(--slate2);color:#fff;box-shadow:inset 3px 0 0 var(--accent2)}
+  .sidebar button.nav .ic{width:18px;text-align:center;opacity:.9}
+  .side-foot{margin-top:auto;padding:14px 14px;border-top:1px solid rgba(255,255,255,.07);font-size:11.5px;color:#6b7488}
+
+  main{flex:1;min-width:0;padding:24px 30px 70px}
+  .topbar{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:22px}
+  .topbar h1{margin:0;font-size:22px;font-weight:740;letter-spacing:-.2px}
+  .topbar .sub{color:var(--muted);font-size:13px;margin-top:4px}
+
+  button{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:9px;
+         padding:9px 14px;font-size:13px;cursor:pointer;font-weight:560}
+  button:hover{border-color:var(--accent);color:var(--accent)}
+  button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  button.primary:hover{background:#4038c7;color:#fff}
+  button.ghost{background:transparent;border-color:transparent;color:var(--muted)}
+  button.ghost:hover{background:var(--accentsoft);color:var(--accent)}
+  button.sm{padding:6px 10px;font-size:12px;border-radius:8px}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
+  .pad{padding:18px 20px}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--faint);
+     font-weight:650;padding:11px 14px;border-bottom:1px solid var(--line)}
+  td{padding:12px 14px;border-bottom:1px solid var(--line2);vertical-align:middle}
+  tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:#fafbff}
+
+  input,select,textarea{font-family:inherit;font-size:13.5px;color:var(--ink);background:#fff;
+        border:1px solid var(--line);border-radius:9px;padding:9px 11px;width:100%}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent2);box-shadow:0 0 0 3px var(--accentsoft)}
+  label.f{display:block;font-size:12px;font-weight:600;color:var(--muted);margin:0 0 6px}
+  .field{margin-bottom:15px}
+
+  .pill{display:inline-block;padding:3px 9px;border-radius:999px;font-size:11.5px;font-weight:600;line-height:1.5}
+  .pill.ref{background:#eef0fe;color:#4f46e5}
+  .pill.label{background:#e7f6f5;color:#0e8a89}
+  .pill.text,.pill.other{background:#f1f3f8;color:#6b7384}
+  .pill.coach{background:#fff3e6;color:#b4660a}
+  .pill.green{background:#e8f6ed;color:#16834a}
+  .pill.gray{background:#f1f3f8;color:#6b7384}
+
+  .logo-cell{width:46px;height:34px;border-radius:7px;border:1px solid var(--line);background:#fafbff center/contain no-repeat;
+        display:flex;align-items:center;justify-content:center;color:var(--faint);font-size:11px;font-weight:700;overflow:hidden}
+  .logo-cell img{max-width:100%;max-height:100%;display:block}
+
+  .grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:start}
+  @media(max-width:920px){.grid2{grid-template-columns:1fr}}
+
+  .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:end;margin-bottom:16px}
+  .filters .field{margin:0;min-width:150px}
+  .check{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:560;color:var(--ink);cursor:pointer;
+         padding:9px 0}
+  .check input{width:auto}
+
+  /* searchable driver picker */
+  .combo{position:relative}
+  .combo .menu{position:absolute;z-index:20;top:calc(100% + 4px);left:0;right:0;max-height:260px;overflow:auto;
+        background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 30px rgba(16,24,48,.14);display:none}
+  .combo.open .menu{display:block}
+  .combo .opt{padding:9px 12px;cursor:pointer;font-size:13.5px;border-bottom:1px solid var(--line2)}
+  .combo .opt:last-child{border-bottom:none}
+  .combo .opt:hover,.combo .opt.hl{background:var(--accentsoft);color:var(--accent)}
+  .combo .opt .sub{font-size:11px;color:var(--faint)}
+  .combo .empty{padding:11px 12px;color:var(--faint);font-size:12.5px}
+
+  .driver-head{font-weight:700;color:var(--ink);background:#f3f5fb !important}
+  .driver-head td{padding:8px 14px;font-size:12.5px;color:var(--slate);letter-spacing:.2px}
+  .muted{color:var(--muted)} .faint{color:var(--faint)} .right{text-align:right} .center{text-align:center}
+  .empty-state{padding:48px 20px;text-align:center;color:var(--faint)}
+  .toast{position:fixed;bottom:22px;right:22px;background:var(--slate);color:#fff;padding:12px 18px;border-radius:11px;
+        box-shadow:0 12px 36px rgba(0,0,0,.28);font-size:13.5px;font-weight:560;opacity:0;transform:translateY(8px);
+        transition:.22s;z-index:100;display:flex;align-items:center;gap:9px}
+  .toast.show{opacity:1;transform:none}
+  .count-chip{font-size:12px;color:var(--muted);background:#f1f3f8;border-radius:999px;padding:3px 10px;font-weight:600}
+  .warn{background:#fff8ec;border:1px solid #f3e2c0;color:#9a6a12;border-radius:10px;padding:10px 13px;font-size:12.5px;margin-bottom:16px}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><span class="dot">◎</span> Camera Management</div>
+    <nav>
+      <div class="nav-h">Workspace</div>
+      <button class="nav" data-screen="customers"><span class="ic">▤</span> Customers</button>
+      <button class="nav" data-screen="entry"><span class="ic">＋</span> Data Entry</button>
+      <button class="nav" data-screen="events"><span class="ic">≡</span> Events by Driver</button>
+    </nav>
+    <div class="side-foot">
+      Synergy Solutions · internal<br>
+      Data mirrored from Infinity<br>
+      <span id="genstamp" class="faint"></span>
+    </div>
+  </aside>
+  <main id="main"></main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script src="seed.js"></script>
+<script>
+/* ---------- data + state ---------- */
+const SEED = window.SEED || {boards:[],coaching_types:[]};
+const COACHING = SEED.coaching_types || ['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver'];
+const MASTER_BEHAVIORS = ['Following Distance','Phone Distraction','Distracted Driving with Phone','Hard Braking',
+  'Stop Sign Violation','Speeding','Seatbelt','Rolling Stop','Lane Departure','Camera Obstruction',
+  'Drowsiness','No Seatbelt','Sign Violation'];
+const LS = {
+  get s(){ try{return JSON.parse(localStorage.getItem('cam_settings')||'{}')}catch(e){return {}} },
+  set s(v){ localStorage.setItem('cam_settings',JSON.stringify(v)) },
+  get local(){ try{return JSON.parse(localStorage.getItem('cam_local')||'[]')}catch(e){return []} },
+  set local(v){ localStorage.setItem('cam_local',JSON.stringify(v)) },
+};
+const boardById = id => SEED.boards.find(b=>b.board===id);
+const settingsFor = id => (LS.s[id]||{});
+function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; }
+
+// merged events for a board (infinity mirror + local entries)
+function eventsFor(id){
+  const b=boardById(id); if(!b) return [];
+  const inf=(b.events||[]).map(e=>({...e,board:id,source:'infinity'}));
+  const loc=LS.local.filter(e=>e.board===id).map(e=>({...e,source:'local'}));
+  return [...loc,...inf];
+}
+function allEvents(){ return SEED.boards.flatMap(b=>eventsFor(b.board)); }
+function behaviorsFor(id){ const b=boardById(id); return (b&&b.behaviors&&b.behaviors.length)?b.behaviors:MASTER_BEHAVIORS; }
+function driversFor(id){ const b=boardById(id); return (b&&b.drivers)||[]; }
+
+const fmtDate = d => d||'';
+function daysAgo(n){ const t=new Date(); t.setDate(t.getDate()-n); return t.toISOString().slice(0,10); }
+const today = ()=> new Date().toISOString().slice(0,10);
+function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function toast(msg){ const t=document.getElementById('toast'); t.textContent='✓ '+msg; t.classList.add('show');
+  clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('show'),2400); }
+
+/* ---------- router ---------- */
+let screen='customers', ctx={};
+function go(s,c){ screen=s; ctx=c||{}; render(); }
+document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>go(b.dataset.screen));
+function render(){
+  document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.screen===screen));
+  document.getElementById('genstamp').textContent='synced '+(SEED.generated||'');
+  ({customers:viewCustomers,entry:viewEntry,events:viewEvents}[screen]||viewCustomers)();
+}
+
+/* ---------- screen 1: customers ---------- */
+function viewCustomers(){
+  const rows = SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(b=>{
+    const st=settingsFor(b.board), evCount=eventsFor(b.board).length;
+    const logo = st.logo
+      ? `<img src="${esc(st.logo)}" alt="">`
+      : esc(b.name.split(/\s+/).slice(0,2).map(w=>w[0]||'').join('').toUpperCase());
+    const tcls={reference:'ref',label:'label'}[b.driver_type]||'other';
+    return `<tr>
+      <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
+      <td><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></td>
+      <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
+      <td class="right">${(b.drivers||[]).length}</td>
+      <td class="right">${evCount}</td>
+      <td style="width:118px"><input type="number" min="0" value="${st.trendDays||30}" style="width:84px"
+            onchange="setSetting('${b.board}',{trendDays:+this.value});toast('Trend days saved')"></td>
+      <td class="right" style="white-space:nowrap">
+        <button class="sm" onclick="go('events',{board:'${b.board}'})">View</button>
+        <button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Enter</button>
+      </td></tr>`;
+  }).join('');
+  document.getElementById('main').innerHTML=`
+    <div class="topbar"><div>
+      <h1>Customers</h1>
+      <div class="sub">${SEED.boards.length} camera boards · set the trend-day window per customer (used for reporting)</div>
+    </div></div>
+    <div class="card"><table>
+      <thead><tr><th>Logo</th><th>Customer</th><th>Driver field</th><th class="right">Drivers</th>
+        <th class="right">Events</th><th>Trend days</th><th></th></tr></thead>
+      <tbody>${rows}</tbody></table></div>`;
+}
+function setLogo(id){
+  const cur=settingsFor(id).logo||'';
+  const url=prompt('Paste an image URL for this customer\'s logo (blank to clear):',cur);
+  if(url===null) return;
+  setSetting(id,{logo:url.trim()}); toast('Logo updated'); render();
+}
+
+/* ---------- screen 2: data entry ---------- */
+function viewEntry(){
+  const boards=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
+  const bid = ctx.board || (boards[0]&&boards[0].board);
+  const b=boardById(bid)||{}; const st=settingsFor(bid);
+  ctx.board=bid; ctx.driver=ctx.driver||null;
+  const opts=boards.map(x=>`<option value="${x.board}" ${x.board===bid?'selected':''}>${esc(x.name)}</option>`).join('');
+  const bevs=behaviorsFor(bid).map(x=>`<option>${esc(x)}</option>`).join('');
+  const coach=COACHING.map(x=>`<option>${esc(x)}</option>`).join('');
+  const logo = st.logo?`<img src="${esc(st.logo)}" style="max-height:40px;max-width:140px;display:block">`:'';
+  const recent=eventsFor(bid).slice(0,12).map(e=>`<tr>
+      <td>${esc(e.driver||'—')}</td><td>${esc(e.behavior||'')}</td>
+      <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:''}</td>
+      <td class="muted">${esc(e.date||'')}</td>
+      <td>${e.source==='local'?'<span class="pill green">new</span>':'<span class="pill gray">infinity</span>'}</td>
+    </tr>`).join('') || `<tr><td colspan="5" class="empty-state">No events yet</td></tr>`;
+
+  document.getElementById('main').innerHTML=`
+    <div class="topbar">
+      <div style="display:flex;gap:14px;align-items:center">
+        ${logo?`<div>${logo}</div>`:''}
+        <div><h1>Data Entry</h1><div class="sub">Log a camera event — driver list is always A–Z & type-to-search</div></div>
+      </div>
+      <div class="field" style="margin:0;min-width:230px">
+        <label class="f">Customer board</label>
+        <select onchange="go('entry',{board:this.value})">${opts}</select>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="card pad">
+        <div class="field">
+          <label class="f">Driver <span class="count-chip">${(b.drivers||[]).length} on roster</span></label>
+          <div class="combo" id="combo">
+            <input id="drvInput" placeholder="Type a name…" autocomplete="off">
+            <div class="menu" id="drvMenu"></div>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+          <div class="field"><label class="f">Camera event date</label><input type="date" id="evDate" value="${today()}"></div>
+          <div class="field"><label class="f">Date reviewed</label><input type="date" id="evReviewed"></div>
+        </div>
+        <div class="field"><label class="f">Behavior observed</label><select id="evBehavior">${bevs}</select></div>
+        <div class="field"><label class="f">Coaching needed</label><select id="evCoaching"><option value="">— none —</option>${coach}</select></div>
+        <div class="field"><label class="f">Notes</label><textarea id="evNotes" rows="3" placeholder="Optional context…"></textarea></div>
+        <div style="display:flex;gap:10px;justify-content:flex-end">
+          <button onclick="resetEntry()">Clear</button>
+          <button class="primary" onclick="saveEntry('${bid}')">Save event</button>
+        </div>
+        <div class="warn" style="margin:16px 0 0">Saved locally now (browser). Write-back to Infinity activates once the create-API test passes — every saved event is queued and tagged <b>new</b>.</div>
+      </div>
+      <div class="card">
+        <div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">Recent events · ${esc(b.name||'')}</div>
+        <table><thead><tr><th>Driver</th><th>Behavior</th><th>Coaching</th><th>Date</th><th></th></tr></thead>
+          <tbody>${recent}</tbody></table>
+      </div>
+    </div>`;
+  setupCombo(bid);
+}
+function resetEntry(){ ctx.driver=null; viewEntry(); }
+function setupCombo(bid){
+  const drivers=driversFor(bid);
+  const combo=document.getElementById('combo'), input=document.getElementById('drvInput'), menu=document.getElementById('drvMenu');
+  if(ctx.driver) input.value=ctx.driver.name;
+  let hl=-1;
+  function paint(){
+    const q=input.value.trim().toLowerCase();
+    const list=drivers.filter(d=>d.name.toLowerCase().includes(q)).slice(0,80);
+    menu.innerHTML = list.length
+      ? list.map((d,i)=>`<div class="opt ${i===hl?'hl':''}" data-name="${esc(d.name)}" data-id="${esc(d.id||'')}">${esc(d.name)}</div>`).join('')
+      : `<div class="empty">No driver matches “${esc(input.value)}”</div>`;
+    menu.querySelectorAll('.opt').forEach(o=>o.onclick=()=>{ ctx.driver={name:o.dataset.name,id:o.dataset.id}; input.value=o.dataset.name; combo.classList.remove('open'); });
+  }
+  input.onfocus=()=>{ combo.classList.add('open'); hl=-1; paint(); };
+  input.oninput=()=>{ ctx.driver=null; combo.classList.add('open'); hl=-1; paint(); };
+  input.onkeydown=e=>{
+    const opts=menu.querySelectorAll('.opt');
+    if(e.key==='ArrowDown'){hl=Math.min(hl+1,opts.length-1);paint();e.preventDefault();}
+    else if(e.key==='ArrowUp'){hl=Math.max(hl-1,0);paint();e.preventDefault();}
+    else if(e.key==='Enter'&&opts[hl]){opts[hl].click();e.preventDefault();}
+    else if(e.key==='Escape'){combo.classList.remove('open');}
+  };
+  document.addEventListener('click',e=>{ if(!combo.contains(e.target)) combo.classList.remove('open'); });
+}
+function saveEntry(bid){
+  if(!ctx.driver||!ctx.driver.name){ toast('Pick a driver first'); document.getElementById('drvInput').focus(); return; }
+  const ev={ id:'L'+Date.now()+Math.floor(Math.random()*1000), board:bid,
+    driver:ctx.driver.name, driverId:ctx.driver.id||null,
+    date:document.getElementById('evDate').value, reviewed:document.getElementById('evReviewed').value,
+    behavior:document.getElementById('evBehavior').value, coaching:document.getElementById('evCoaching').value,
+    notes:document.getElementById('evNotes').value, ts:Date.now(), synced:false };
+  if(!ev.date){ toast('Set the event date'); return; }
+  const arr=LS.local; arr.unshift(ev); LS.local=arr;
+  toast('Event saved for '+ev.driver); ctx.driver=null; viewEntry();
+}
+
+/* ---------- screen 3: events by driver ---------- */
+function viewEvents(){
+  ctx.board=ctx.board||'__all'; ctx.days=ctx.days||'30'; ctx.sortType=ctx.sortType||false; ctx.q=ctx.q||'';
+  const boards=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
+  const bopts=`<option value="__all">All customers</option>`+boards.map(x=>`<option value="${x.board}" ${x.board===ctx.board?'selected':''}>${esc(x.name)}</option>`).join('');
+  const dopts=[['7','Last 7 days'],['14','Last 14 days'],['30','Last 30 days'],['60','Last 60 days'],['90','Last 90 days'],['all','All time']]
+      .map(([v,l])=>`<option value="${v}" ${v===ctx.days?'selected':''}>${l}</option>`).join('');
+
+  let evs = ctx.board==='__all'?allEvents():eventsFor(ctx.board);
+  if(ctx.days!=='all'){ const cut=daysAgo(+ctx.days); evs=evs.filter(e=>(e.date||'')>=cut); }
+  if(ctx.q){ const q=ctx.q.toLowerCase(); evs=evs.filter(e=>(e.driver||'').toLowerCase().includes(q)||(e.behavior||'').toLowerCase().includes(q)); }
+
+  // group by driver, A-Z
+  const groups={};
+  evs.forEach(e=>{ const k=e.driver||'(unassigned)'; (groups[k]=groups[k]||[]).push(e); });
+  const names=Object.keys(groups).sort((a,b)=>a.localeCompare(b));
+  names.forEach(n=>groups[n].sort((a,b)=> ctx.sortType
+      ? (a.behavior||'').localeCompare(b.behavior||'')
+      : (b.date||'').localeCompare(a.date||'')));
+
+  const showCust = ctx.board==='__all';
+  let body='';
+  if(!names.length){ body=`<tr><td colspan="${showCust?5:4}" class="empty-state">No events in this range</td></tr>`; }
+  else names.forEach(n=>{
+    body+=`<tr class="driver-head"><td colspan="${showCust?5:4}">${esc(n)} <span class="faint">· ${groups[n].length}</span></td></tr>`;
+    groups[n].forEach(e=>{ body+=`<tr>
+      <td class="muted">${esc(e.date||'')}</td>
+      <td><b>${esc(e.behavior||'—')}</b></td>
+      <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
+      ${showCust?`<td class="muted">${esc((boardById(e.board)||{}).name||'')}</td>`:''}
+      <td>${e.source==='local'?'<span class="pill green">new</span>':''}</td></tr>`; });
+  });
+
+  document.getElementById('main').innerHTML=`
+    <div class="topbar"><div>
+      <h1>Events by Driver</h1>
+      <div class="sub">${evs.length} events · grouped A–Z by driver — driver, event type & coaching</div>
+    </div></div>
+    <div class="filters">
+      <div class="field"><label class="f">Customer</label><select onchange="ctx.board=this.value;viewEvents()">${bopts}</select></div>
+      <div class="field"><label class="f">Date range</label><select onchange="ctx.days=this.value;viewEvents()">${dopts}</select></div>
+      <div class="field" style="flex:1"><label class="f">Search driver / behavior</label><input value="${esc(ctx.q)}" oninput="ctx.q=this.value;viewEvents()" placeholder="Filter…"></div>
+      <label class="check"><input type="checkbox" ${ctx.sortType?'checked':''} onchange="ctx.sortType=this.checked;viewEvents()"> Sort by event type</label>
+    </div>
+    <div class="card"><table>
+      <thead><tr><th>Date</th><th>Event type (behavior)</th><th>Coaching needed</th>${showCust?'<th>Customer</th>':''}<th></th></tr></thead>
+      <tbody>${body}</tbody></table></div>`;
+}
+
+/* refresh the search input focus after re-render on events screen */
+const _ve=viewEvents;
+viewEvents=function(){ const a=document.activeElement, wasSearch=a&&a.tagName==='INPUT'&&a.placeholder==='Filter…'; const pos=wasSearch?a.selectionStart:null; _ve();
+  if(wasSearch){ const n=[...document.querySelectorAll('input')].find(i=>i.placeholder==='Filter…'); if(n){n.focus(); if(pos!=null)n.setSelectionRange(pos,pos);} } };
+
+render();
+</script>
+</body>
+</html>
