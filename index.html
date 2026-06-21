@@ -460,12 +460,12 @@ function viewCustomers(){
       ? `<span class="trend-chip" title="Click to change" onclick="editTrend('${b.board}')">${tc.count} in ${tc.days}d</span>`
       : `<span class="trend-chip off" title="Click to set" onclick="editTrend('${b.board}')">Off</span>`;
     return `<tr>
-      <td><div style="display:flex;flex-direction:column;gap:5px">
-        <button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button>
+      <td><button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button></td>
+      <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
+      <td><div style="display:flex;align-items:center;gap:8px">
+        <div><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></div>
         <button class="sm" title="Pull this board's latest drivers & events from Infinity" onclick="refreshBoard('${b.board}')">↻ Refresh</button>
       </div></td>
-      <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
-      <td><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></td>
       <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
       <td class="right">${(b.drivers||[]).length}</td>
       <td class="right">${evCount}</td>
