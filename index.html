@@ -201,6 +201,10 @@ const LS = {
   set local(v){ localStorage.setItem('cam_local',JSON.stringify(v)) },
   get drivers(){ try{return JSON.parse(localStorage.getItem('cam_drivers')||'[]')}catch(e){return []} },
   set drivers(v){ localStorage.setItem('cam_drivers',JSON.stringify(v)) },
+  // live per-board pulls from the "Refresh this board" button, keyed by board id.
+  // Layered over the static seed on load so a refresh survives a page reload.
+  get refreshed(){ try{return JSON.parse(localStorage.getItem('cam_refreshed')||'{}')}catch(e){return {}} },
+  set refreshed(v){ localStorage.setItem('cam_refreshed',JSON.stringify(v)) },
 };
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
@@ -273,6 +277,53 @@ if(!boardById('NpiJpYMZtkC')){
     ],
   });
 }
+
+/* ---------- live per-board refresh (pull drivers+events from Infinity) ---------- */
+// Overlay a freshly pulled board record onto the in-memory SEED board.
+function applyBoardRecord(rec){
+  if(!rec||!rec.board) return;
+  const b=boardById(rec.board);
+  if(b){
+    if(Array.isArray(rec.drivers)) b.drivers=rec.drivers;
+    if(Array.isArray(rec.events)) b.events=rec.events;
+    if(Array.isArray(rec.behaviors)&&rec.behaviors.length) b.behaviors=rec.behaviors;
+    ['driver_attr','driver_type','attr','camera_folder','roster_folder'].forEach(k=>{ if(rec[k]!=null) b[k]=rec[k]; });
+    b._refreshedAt=rec._refreshedAt||b._refreshedAt;
+  } else {
+    SEED.boards.push(rec);
+  }
+}
+// Re-apply cached refreshes over the static seed so they survive a reload.
+function applyRefreshCache(){
+  const cache=LS.refreshed;
+  Object.keys(cache).forEach(id=>applyBoardRecord(cache[id]));
+}
+applyRefreshCache();
+
+// Pull one board live from Infinity through the worker, merge, persist, re-render.
+async function refreshBoard(bid){
+  const b=boardById(bid); if(!b) return;
+  toast('Refreshing '+b.name+'…');
+  let d;
+  try{
+    const u=API_BASE+'/board-data?board='+encodeURIComponent(bid)
+      +'&ws='+encodeURIComponent(b.ws||'')+'&name='+encodeURIComponent(b.name||'');
+    const r=await fetch(u,{headers:{'X-App-Key':APP_KEY}});
+    d=await r.json();
+  }catch(e){ console.error('refresh failed',e); toast('Could not reach the server','⚠'); return; }
+  if(!d||!d.ok||!d.board){ toast('Refresh failed'+(d&&d.error?': '+d.error:''),'⚠'); return; }
+  const rec=d.board; rec._refreshedAt=new Date().toISOString();
+  applyBoardRecord(rec);
+  const cache=LS.refreshed; cache[bid]=rec; LS.refreshed=cache;
+  // drop local queued events now mirrored from Infinity (synced + their item is in the fresh pull)
+  const liveItems=new Set((rec.events||[]).map(e=>e.item).filter(Boolean));
+  const kept=LS.local.filter(e=>!(e.board===bid && e.synced && e.infItemId && liveItems.has(e.infItemId)));
+  if(kept.length!==LS.local.length) LS.local=kept;
+  toast(`${b.name} refreshed — ${(rec.drivers||[]).length} drivers, ${(rec.events||[]).length} events`);
+  if(screen==='entry'&&ctx.board===bid){ b._rosterLoaded=false; }
+  render();
+}
+
 async function apiPost(path,body){
   const r=await fetch(API_BASE+path,{method:'POST',
     headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},body:JSON.stringify(body)});
@@ -409,7 +460,10 @@ function viewCustomers(){
       ? `<span class="trend-chip" title="Click to change" onclick="editTrend('${b.board}')">${tc.count} in ${tc.days}d</span>`
       : `<span class="trend-chip off" title="Click to set" onclick="editTrend('${b.board}')">Off</span>`;
     return `<tr>
-      <td><button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button></td>
+      <td><div style="display:flex;flex-direction:column;gap:5px">
+        <button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button>
+        <button class="sm" title="Pull this board's latest drivers & events from Infinity" onclick="refreshBoard('${b.board}')">↻ Refresh</button>
+      </div></td>
       <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
       <td><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></td>
       <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
@@ -617,9 +671,12 @@ function viewEntry(){
         ${logo?`<div>${logo}</div>`:''}
         <div><h1>Data Entry${b.name?' · '+esc(b.name):''}</h1><div class="sub">Log a camera event — driver list is always A–Z & type-to-search</div></div>
       </div>
-      <div class="field" style="margin:0;min-width:230px">
-        <label class="f">Customer board</label>
-        <select onchange="go('entry',{board:this.value})">${opts}</select>
+      <div style="display:flex;gap:10px;align-items:flex-end">
+        <div class="field" style="margin:0;min-width:230px">
+          <label class="f">Customer board</label>
+          <select onchange="go('entry',{board:this.value})">${opts}</select>
+        </div>
+        <button class="sm" style="margin-bottom:1px" title="Pull this board's latest drivers & events from Infinity" onclick="refreshBoard('${bid}')">↻ Refresh</button>
       </div>
     </div>
     <div class="grid2">
