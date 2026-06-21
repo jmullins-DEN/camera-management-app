@@ -323,12 +323,12 @@ function autoCoaching(){
   if(!beh||!co) return;
   const bid=ctx.board, dn=ctx.driver&&ctx.driver.name;
   const asOf=(document.getElementById('evDate')||{}).value||today();
+  // auto-Critical behaviors notify every time, so they're always Critical Event and never escalate to Face to Face (excluded from trend logic)
+  if(AUTO_CRITICAL.includes(beh.value)){ co.value='Critical Event'; co.dataset.auto='1';
+    if(note) note.textContent='Auto-set to Critical Event — '+beh.value+' is always a critical event.'; return; }
   const ti = dn ? trendInfo(bid,dn,beh.value,asOf) : null;
-  // trend (Face to Face) wins over auto-Critical — it's the stronger escalation
   if(ti&&ti.enabled&&ti.triggered){ co.value='Face to Face'; co.dataset.auto='1';
     if(note) note.textContent='Auto-set to Face to Face — trend threshold met ('+ti.count+' in '+ti.days+' days).'; }
-  else if(AUTO_CRITICAL.includes(beh.value)){ co.value='Critical Event'; co.dataset.auto='1';
-    if(note) note.textContent='Auto-set to Critical Event — '+beh.value+' is always a critical event.'; }
   else { if(co.dataset.auto==='1') co.value=''; co.dataset.auto=''; if(note) note.textContent=''; }
 }
 
@@ -552,6 +552,8 @@ function refreshEntryPanels(bid){
     const ti=trendInfo(bid,dn,behavior,asOf);
     if(!ti.enabled){
       html+=`<div class="trend-alert ok" style="background:#f1f3f8;border-color:var(--line);color:var(--muted)">Trend tracking is off for this customer.</div>`;
+    } else if(behavior && AUTO_CRITICAL.includes(behavior)){
+      html+=`<div class="trend-alert ok"><b>${esc(behavior)}</b> is always a Critical Event — it notifies every time, so it never escalates to a face-to-face.</div>`;
     } else if(behavior){
       const blabel = ti.grouped ? 'driver distraction (phone + cab)' : '“'+esc(behavior)+'”';
       const grpNote = ti.grouped ? ` <span class="faint">Phone &amp; cab distraction count together.</span>` : '';
