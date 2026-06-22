@@ -23,6 +23,16 @@ OLD_MISSION = ('DEN', 'MfEUxnTRUV9', 'nA8R3U1XKtM',            # ws, board, came
                'b3271170-6d5f-4162-8169-542eba0ebeed',         # driver label attr
                '6028e889-c5a3-4694-be45-175582536ae9')         # Date Event Occurred
 
+# Mission's old board used legacy coaching/action-taken values — map them to the
+# current standardized set (per Johnny, 2026-06-22). Values not listed pass through.
+MISSION_COACH_REMAP = {
+    'Sent Coaching Notes':        'Coaching Notes',
+    'Connect and Coach':          'Face to Face',
+    'Needs Additional Review':    'Face to Face',
+    'Camera Needs Repaired':      'System Alert',
+    'Needs Additional Engagement':'Face to Face',
+}
+
 def cursor_items(ws, board, folder, expand=True):
     """Walk Infinity's cursor pagination to completion."""
     wid = inf.WS[ws] if ws in inf.WS else ws
@@ -98,6 +108,8 @@ def main():
             oevs = resolve_events(oitems, oattr, odlbl, obmap, ocmap, since=None)
             seen = {e['item'] for e in evs}
             merged = evs + [e for e in oevs if e['item'] not in seen]
+            for e in merged:
+                e['coaching'] = MISSION_COACH_REMAP.get(e['coaching'], e['coaching'])
             print(f"  Mission: new={len(evs)} old={len(oevs)} -> merged={len(merged)}", file=sys.stderr)
             evs = merged
 
