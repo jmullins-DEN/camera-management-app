@@ -956,7 +956,12 @@ function saveEntry(bid){
     date:document.getElementById('evDate').value, reviewed:document.getElementById('evReviewed').value,
     behavior:document.getElementById('evBehavior').value, coaching:document.getElementById('evCoaching').value,
     notes:document.getElementById('evNotes').value, ts:Date.now(), synced:false };
-  if(!ev.date){ toast('Set the event date'); return; }
+  // every field but Notes is required — block the save and point at the first empty one
+  const need=[['date','evDate','Set the camera event date'],
+              ['reviewed','evReviewed','Set the date reviewed'],
+              ['behavior','evBehavior','Pick the behavior observed'],
+              ['coaching','evCoaching','Pick the coaching needed']];
+  for(const [key,id,msg] of need){ if(!ev[key]){ toast(msg); const el=document.getElementById(id); if(el) el.focus(); return; } }
   const arr=LS.local; arr.unshift(ev); LS.local=arr;
   if(wbFor(bid)){ toast('Saving event for '+ev.driver+'…'); pushEventBack(ev); }
   else { toast('Event saved for '+ev.driver); }
