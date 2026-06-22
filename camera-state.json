@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-22T23:38:54.734Z",
+  "_ts": "2026-06-22T23:41:17.157Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -93,6 +93,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782171677149582",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Luis Longoria",
+      "driverId": "49e59c0a-5419-4beb-bf1f-da4094d1ea21",
+      "date": "2026-06-22",
+      "reviewed": "2026-06-22",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1229151742399250432; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3bbd9cb3-3e7c-4dd8-a1c7-ded8370f1e28.mp4",
+      "ts": 1782171677149,
+      "synced": false
+    },
     {
       "id": "L1782171533565356",
       "board": "7W2SQKrNcXQ",
