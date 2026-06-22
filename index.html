@@ -413,6 +413,9 @@ function driversFor(id){
 }
 
 const fmtDate = d => d||'';
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+// month + day only, for the entry-form panels (e.g. "2026-06-17" -> "Jun 17")
+function mdOnly(d){ const m=/^(\d{4})-(\d{2})-(\d{2})/.exec(d||''); return m?`${MON[+m[2]-1]} ${+m[3]}`:(d||''); }
 function daysAgo(n){ const t=new Date(); t.setDate(t.getDate()-n); return t.toISOString().slice(0,10); }
 const today = ()=> new Date().toISOString().slice(0,10);
 function esc(s){ return (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
@@ -773,20 +776,20 @@ function refreshEntryPanels(bid){
     const windowLbl = cfg.days ? `last ${cfg.days} days` : 'all time';
     html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">${esc(dn)} · events by behavior <span class="faint">(${windowLbl} · ${hist.length})</span></div>`;
     html+= hist.length
-      ? `<table><thead><tr><th>Behavior</th><th>Date</th><th>Coaching</th></tr></thead><tbody>`+
-        hist.map(e=>`<tr><td><b>${esc(e.behavior||'')}</b></td><td class="muted">${esc(e.date||'')}</td>
-          <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td></tr>`).join('')+
+      ? `<table><thead><tr><th>Behavior</th><th>Coaching</th><th>Date</th></tr></thead><tbody>`+
+        hist.map(e=>`<tr><td><b>${esc(e.behavior||'')}</b></td>
+          <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
+          <td class="muted">${esc(mdOnly(e.date))}${e.source==='local'?' <span class="pill green">new</span>':''}</td></tr>`).join('')+
         `</tbody></table>`
       : `<div class="empty-state">No events for this driver in the ${windowLbl}</div>`;
   } else {
     const recent=eventsFor(bid).slice(0,12);
     html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">Recent events · ${esc(b.name||'')}</div>`;
     html+= recent.length
-      ? `<table><thead><tr><th>Driver</th><th>Behavior</th><th>Coaching</th><th>Date</th><th></th></tr></thead><tbody>`+
-        recent.map(e=>`<tr><td>${esc(e.driver||'—')}</td><td>${esc(e.behavior||'')}</td>
-          <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:''}</td>
-          <td class="muted">${esc(e.date||'')}</td>
-          <td>${e.source==='local'?'<span class="pill green">new</span>':'<span class="pill gray">infinity</span>'}</td></tr>`).join('')+
+      ? `<table><thead><tr><th>Driver</th><th>Behavior</th><th>Coaching</th><th>Date</th></tr></thead><tbody>`+
+        recent.map(e=>`<tr><td>${esc(e.driver||'—')}${e.source==='local'?' <span class="pill green">new</span>':''}</td><td>${esc(e.behavior||'')}</td>
+          <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
+          <td class="muted">${esc(mdOnly(e.date))}</td></tr>`).join('')+
         `</tbody></table>`
       : `<div class="empty-state">No events yet</div>`;
   }

@@ -66,6 +66,14 @@ def pick_attr(attrs, *needles):
         if all(x in n for x in needles): return a
     return None
 
+# coaching must be a choice/label (e.g. "Action Taken"), never a free-text
+# notes field that contains the word "coaching" (that's how ATR resolved to a URL)
+def pick_label_attr(attrs, *needles):
+    for a in attrs:
+        n=(a.get('name') or '').lower()
+        if a.get('type')=='label' and all(x in n for x in needles): return a
+    return None
+
 def val_for(item, attr_id):
     for v in item.get('values', []):
         if v.get('attribute_id')==attr_id:
@@ -100,7 +108,7 @@ def build_board(ws, b, name):
     rec['attr'] = {
         'date':     (pick_attr(attrs,'camera','date') or pick_attr(attrs,'event','date') or {}).get('id'),
         'behavior': (pick_attr(attrs,'behavior') or {}).get('id'),
-        'coaching': (pick_attr(attrs,'coaching','needed') or pick_attr(attrs,'coaching') or {}).get('id'),
+        'coaching': (pick_label_attr(attrs,'coaching','needed') or pick_label_attr(attrs,'action','taken') or pick_label_attr(attrs,'coaching') or {}).get('id'),
         'reviewed': (pick_attr(attrs,'reviewed') or {}).get('id'),
         'notes':    (pick_attr(attrs,'note') or {}).get('id'),
     }
