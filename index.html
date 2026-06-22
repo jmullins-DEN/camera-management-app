@@ -209,10 +209,59 @@ const LS = {
 };
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
-function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; }
+function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; pushSettings(); }
 // boards the user has hidden from the dashboard (manual "edit available boards")
 function hiddenSet(){ const h=LS.s._hidden; return new Set(Array.isArray(h)?h:[]); }
-function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=s; }
+function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=s; pushSettings(); }
+
+/* ---------- shared settings sync (logos, zoom, trend rules, hidden boards) ----------
+   Settings (LS.s) used to be per-browser only, so a logo set on one device never
+   showed on another. We now mirror LS.s through the worker's GitHub-backed /state
+   store. That file also holds drivers/local/board_requests — we keep those intact
+   and only own the `settings` slice. server-wins-per-field merge on load, then we
+   promote any local-only settings up so the store holds the union. */
+let _appState=null, _appSha=null, _pushTimer=null, _pushing=false, _pushAgain=false;
+function mergeSettings(local,server){
+  const out={...(local||{})};
+  for(const k in (server||{})){
+    if(k==='_hidden') out._hidden=server._hidden;
+    else if(server[k]&&typeof server[k]==='object') out[k]={...((local&&local[k])||{}),...server[k]};
+    else out[k]=server[k];
+  }
+  return out;
+}
+async function pullSettings(){
+  try{
+    const r=await fetch(API_BASE+'/state'); if(!r.ok) return;
+    const j=await r.json(); _appState=j.data||{}; _appSha=j.sha||null;
+    const merged=mergeSettings(LS.s,_appState.settings||{});
+    const changed=JSON.stringify(merged)!==JSON.stringify(_appState.settings||{});
+    LS.s=merged; render();
+    if(changed) pushSettings(true); // promote local-only settings into the shared store
+  }catch(e){ /* offline / first run — stay on local settings */ }
+}
+function pushSettings(now){ clearTimeout(_pushTimer); _pushTimer=setTimeout(_doPush, now?0:800); }
+async function _doPush(){
+  if(_pushing){ _pushAgain=true; return; }        // coalesce overlapping pushes
+  _pushing=true; _pushAgain=false;
+  try{
+    if(_appState==null){ const g=await fetch(API_BASE+'/state'); const gj=await g.json(); _appState=gj.data||{}; _appSha=gj.sha||null; }
+    const put=async()=>{
+      _appState.settings=LS.s; _appState._ts=new Date().toISOString();
+      return fetch(API_BASE+'/state',{method:'PUT',
+        headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},
+        body:JSON.stringify({data:_appState,sha:_appSha})});
+    };
+    let res=await put();
+    if(!res.ok){                                   // stale sha — re-read full state and retry once
+      const g=await fetch(API_BASE+'/state'); const gj=await g.json();
+      _appState=gj.data||{}; _appSha=gj.sha||null;
+      res=await put();
+    }
+    if(res.ok){ const jr=await res.json(); if(jr&&jr.sha) _appSha=jr.sha; }
+  }catch(e){ /* keep local; next change retries */ }
+  finally{ _pushing=false; if(_pushAgain) _doPush(); }
+}
 function isHidden(id){ return hiddenSet().has(id); }
 function toggleHidden(id,hide){ const h=hiddenSet(); hide?h.add(id):h.delete(id); setHidden([...h]); }
 // the boards the dashboard actually shows = all known boards minus hidden ones, A–Z
@@ -983,6 +1032,7 @@ function viewEvents(){
 }
 
 render();
+pullSettings(); // load shared logos/trend rules/hidden boards, then re-render
 </script>
 </body>
 </html>
