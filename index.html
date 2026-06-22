@@ -499,10 +499,12 @@ function setLogo(id){
     <div class="sub">Enter the customer's website and we'll fetch a logo for you to approve.</div>
     <div class="field"><label class="f">Website address</label>
       <input id="logoSite" placeholder="example.com" onkeydown="if(event.key==='Enter')fetchLogo('${id}')"></div>
-    <div style="display:flex;gap:10px">
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
       <button class="primary" onclick="fetchLogo('${id}')">Fetch logo</button>
+      <button onclick="document.getElementById('logoFile').click()">Upload image</button>
       <button onclick="logoManual('${id}')">Paste URL instead</button>
     </div>
+    <input type="file" id="logoFile" accept="image/*" style="display:none" onchange="logoUpload('${id}',this)">
     <div id="logoResults" style="margin-top:18px"></div>
     ${cur?`<div style="margin-top:18px">
         <label class="f">Zoom <span class="faint" id="logoZoomVal">${curZoom.toFixed(1)}×</span></label>
@@ -544,6 +546,28 @@ function fetchLogo(id){
 function approveLogo(id,url){ setSetting(id,{logo:url}); toast(url?'Logo approved':'Logo removed'); closeModal(); render(); }
 function logoManual(id){ const u=prompt('Paste an image URL:',settingsFor(id).logo||''); if(u===null)return;
   setSetting(id,{logo:u.trim()}); toast('Logo updated'); closeModal(); render(); }
+// read an uploaded image file, downscale it to keep localStorage small, store as a data URL
+function logoUpload(id,input){
+  const f=input.files&&input.files[0]; if(!f)return;
+  if(!/^image\//.test(f.type)){ toast('Pick an image file'); return; }
+  const r=new FileReader();
+  r.onload=()=>{
+    const img=new Image();
+    img.onload=()=>{
+      const max=240, scale=Math.min(1,max/Math.max(img.width,img.height));
+      const w=Math.round(img.width*scale), h=Math.round(img.height*scale);
+      const c=document.createElement('canvas'); c.width=w; c.height=h;
+      c.getContext('2d').drawImage(img,0,0,w,h);
+      // PNG preserves transparency for logos; falls back fine for photos
+      let url; try{ url=c.toDataURL('image/png'); }catch(e){ url=r.result; }
+      approveLogo(id,url);
+    };
+    img.onerror=()=>{ toast('Could not read that image'); };
+    img.src=r.result;
+  };
+  r.onerror=()=>{ toast('Could not read that file'); };
+  r.readAsDataURL(f);
+}
 
 /* ---------- edit available boards (manual hide/show) ---------- */
 function manageBoards(){
