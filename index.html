@@ -435,29 +435,50 @@ async function loadRoster(bid){
   }catch(e){ b._rosterLoaded=false; console.error('roster load failed',e); }
 }
 // write one event back to Infinity: create the Camera Management item, then link the driver reference
-async function pushEventBack(ev){
-  const wb=wbFor(ev.board); if(!wb) return;
+async function pushEventBack(ev,opts){
+  const wb=wbFor(ev.board); if(!wb) return false;
+  const quiet=opts&&opts.quiet;
+  const stamp=(patch)=>{ const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ Object.assign(arr[i],patch); LS.local=arr; } };
   try{
-    const values=[];
-    const blab=wb.behavior_labels[ev.behavior]; if(blab) values.push({attribute_id:wb.behavior_attr,data:[blab]});
-    const clab=wb.coaching_labels[ev.coaching]; if(clab) values.push({attribute_id:wb.coaching_attr,data:[clab]});
-    if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
-    if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
-    if(ev.notes) values.push({attribute_id:wb.notes_attr,data:ev.notes});
-    const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
-    if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
-    const itemId=res.item.id;
+    // retry-safe: if the item was already created on a prior attempt, skip creation and resume at the driver link
+    let itemId=ev.infItemId;
+    if(!itemId){
+      const values=[];
+      const blab=wb.behavior_labels[ev.behavior]; if(blab) values.push({attribute_id:wb.behavior_attr,data:[blab]});
+      const clab=wb.coaching_labels[ev.coaching]; if(clab) values.push({attribute_id:wb.coaching_attr,data:[clab]});
+      if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
+      if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
+      if(ev.notes) values.push({attribute_id:wb.notes_attr,data:ev.notes});
+      const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
+      if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
+      itemId=res.item.id;
+      stamp({infItemId:itemId}); // record immediately so a later failure can't duplicate the item
+    }
     if(ev.driverId){
       const rf=await apiPost('/reference',{board:ev.board,attribute_id:wb.driver_ref_attr,from_item_id:itemId,to_item_id:ev.driverId});
       if(!rf.ok) throw new Error('reference '+(rf.status||''));
     }
-    const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ arr[i].synced=true; arr[i].infItemId=itemId; LS.local=arr; }
-    toast('Wrote event to Infinity — '+ev.driver);
+    stamp({synced:true,infItemId:itemId,syncError:null});
+    if(!quiet) toast('Wrote event to Infinity — '+ev.driver);
     if(screen==='entry'&&ctx.board===ev.board) refreshEntryPanels(ev.board);
+    return true;
   }catch(e){
-    const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ arr[i].syncError=String(e.message||e); LS.local=arr; }
-    toast('Infinity write failed — saved locally','⚠'); console.error('event write-back failed',e);
+    stamp({syncError:String(e.message||e)});
+    if(!quiet) toast('Infinity write failed — saved locally','⚠');
+    console.error('event write-back failed',e);
+    return false;
   }
+}
+// push any locally-queued events for boards that are now live (e.g. saved before rollout). Retry-safe.
+async function flushQueued(opts){
+  const pending=LS.local.filter(e=>!e.synced && wbFor(e.board));
+  if(!pending.length){ if(opts&&opts.announce) toast('No queued events to push'); return; }
+  toast('Pushing '+pending.length+' queued event'+(pending.length>1?'s':'')+'…');
+  let ok=0;
+  for(const ev of pending){ if(await pushEventBack(ev,{quiet:true})) ok++; }
+  const failed=pending.length-ok;
+  toast(`Pushed ${ok} to Infinity`+(failed?` — ${failed} failed, still queued ⚠`:''), failed?'⚠':'✓');
+  render();
 }
 // create a new roster item in Infinity and select it
 async function pushDriverBack(bid,name){
@@ -856,6 +877,7 @@ function viewEntry(){
         ${wbFor(bid)
           ? `<div class="warn" style="margin:16px 0 0;background:#e8f6ed;border-color:#bfe6cd;color:#16834a"><b>Live write-back ON.</b> Saving creates the event in Infinity and fires this board’s “Item created” automation.</div>`
           : `<div class="warn" style="margin:16px 0 0">Saved locally now (browser). Write-back to Infinity activates once this board is rolled out — every saved event is queued and tagged <b>new</b>.</div>`}
+        ${(()=>{ const q=LS.local.filter(e=>e.board===bid && !e.synced && wbFor(bid)).length; return q?`<div class="warn" style="margin:10px 0 0;background:#fff5e6;border-color:#f0d9a8;color:#8a5a00;display:flex;align-items:center;justify-content:space-between;gap:10px"><span><b>${q}</b> event${q>1?'s':''} saved before this board went live — not yet in Infinity.</span><button class="sm primary" onclick="flushQueued({announce:true})">Push to Infinity</button></div>`:''; })()}
       </div>
       <div class="card" id="entryAside"></div>
     </div>`;
@@ -1088,6 +1110,7 @@ function viewEvents(){
 
 render();
 pullSettings(); // load shared logos/trend rules/hidden boards, then re-render
+flushQueued(); // push any events saved locally before their board went live
 </script>
 </body>
 </html>
