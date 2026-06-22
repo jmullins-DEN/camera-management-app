@@ -210,17 +210,23 @@ const LS = {
 };
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
-function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; pushSettings(); }
+function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; pushState(); }
 // boards the user has hidden from the dashboard (manual "edit available boards")
 function hiddenSet(){ const h=LS.s._hidden; return new Set(Array.isArray(h)?h:[]); }
-function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=s; pushSettings(); }
+function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=s; pushState(); }
 
-/* ---------- shared settings sync (logos, zoom, trend rules, hidden boards) ----------
-   Settings (LS.s) used to be per-browser only, so a logo set on one device never
-   showed on another. We now mirror LS.s through the worker's GitHub-backed /state
-   store. That file also holds drivers/local/board_requests — we keep those intact
-   and only own the `settings` slice. server-wins-per-field merge on load, then we
-   promote any local-only settings up so the store holds the union. */
+/* ---------- shared app-state sync (settings + the event queue) ----------
+   Two slices live in the worker's GitHub-backed /state store:
+     • settings (LS.s)  — logos, zoom, trend rules, hidden boards
+     • local    (LS.local) — entered events not yet mirrored back from Infinity
+   Both used to be per-browser only. settings syncing fixed logos-across-devices;
+   syncing `local` fixes the worse bug: an event entered on one machine was
+   marooned there — invisible everywhere else, and only THAT browser could push
+   it to Infinity. Now every entered event is durable server-side the instant
+   it's saved, and ANY machine can flush it. We own settings+local and leave the
+   rest of the file (board_requests, etc.) intact. server-wins-per-field for
+   settings; union-by-event-id for local (sync flags OR'd so a write-back done on
+   one machine is known to all — prevents duplicate creation). */
 let _appState=null, _appSha=null, _pushTimer=null, _pushing=false, _pushAgain=false;
 function mergeSettings(local,server){
   const out={...(local||{})};
@@ -231,32 +237,50 @@ function mergeSettings(local,server){
   }
   return out;
 }
-async function pullSettings(){
+// union two event queues by id; if either side has it synced/created, that wins
+// (so a board's write-back done on one machine isn't re-attempted by another).
+function mergeLocal(a,b){
+  const m=new Map();
+  for(const e of [...(a||[]),...(b||[])]){
+    const prev=m.get(e.id);
+    if(!prev){ m.set(e.id,{...e}); continue; }
+    const merged={...prev,...e};
+    merged.synced = !!(prev.synced||e.synced);
+    merged.infItemId = prev.infItemId||e.infItemId||null;
+    if(merged.synced) merged.syncError=null;
+    m.set(e.id,merged);
+  }
+  return Array.from(m.values()).sort((x,y)=>(y.ts||0)-(x.ts||0));
+}
+async function pullState(){
   try{
     const r=await fetch(API_BASE+'/state'); if(!r.ok) return;
     const j=await r.json(); _appState=j.data||{}; _appSha=j.sha||null;
-    const merged=mergeSettings(LS.s,_appState.settings||{});
-    const changed=JSON.stringify(merged)!==JSON.stringify(_appState.settings||{});
-    LS.s=merged; render();
-    if(changed) pushSettings(true); // promote local-only settings into the shared store
-  }catch(e){ /* offline / first run — stay on local settings */ }
+    const mergedS=mergeSettings(LS.s,_appState.settings||{});
+    const mergedL=mergeLocal(LS.local,_appState.local||[]);
+    const changed=JSON.stringify(mergedS)!==JSON.stringify(_appState.settings||{})
+               || JSON.stringify(mergedL)!==JSON.stringify(_appState.local||[]);
+    LS.s=mergedS; LS.local=mergedL; render();
+    if(changed) pushState(true); // promote local-only settings/events up into the shared store
+  }catch(e){ /* offline / first run — stay on local data */ }
 }
-function pushSettings(now){ clearTimeout(_pushTimer); _pushTimer=setTimeout(_doPush, now?0:800); }
+function pushState(now){ clearTimeout(_pushTimer); _pushTimer=setTimeout(_doPush, now?0:800); }
 async function _doPush(){
   if(_pushing){ _pushAgain=true; return; }        // coalesce overlapping pushes
   _pushing=true; _pushAgain=false;
   try{
     if(_appState==null){ const g=await fetch(API_BASE+'/state'); const gj=await g.json(); _appState=gj.data||{}; _appSha=gj.sha||null; }
     const put=async()=>{
-      _appState.settings=LS.s; _appState._ts=new Date().toISOString();
+      _appState.settings=LS.s; _appState.local=LS.local; _appState._ts=new Date().toISOString();
       return fetch(API_BASE+'/state',{method:'PUT',
         headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},
         body:JSON.stringify({data:_appState,sha:_appSha})});
     };
     let res=await put();
-    if(!res.ok){                                   // stale sha — re-read full state and retry once
+    if(!res.ok){                                   // stale sha — re-read, RE-MERGE (don't clobber a concurrent queue), retry once
       const g=await fetch(API_BASE+'/state'); const gj=await g.json();
       _appState=gj.data||{}; _appSha=gj.sha||null;
+      LS.local=mergeLocal(LS.local,_appState.local||[]);
       res=await put();
     }
     if(res.ok){ const jr=await res.json(); if(jr&&jr.sha) _appSha=jr.sha; }
@@ -411,7 +435,7 @@ async function refreshBoard(bid){
   // drop local queued events now mirrored from Infinity (synced + their item is in the fresh pull)
   const liveItems=new Set((rec.events||[]).map(e=>e.item).filter(Boolean));
   const kept=LS.local.filter(e=>!(e.board===bid && e.synced && e.infItemId && liveItems.has(e.infItemId)));
-  if(kept.length!==LS.local.length) LS.local=kept;
+  if(kept.length!==LS.local.length){ LS.local=kept; pushState(true); } // mirror the trim to the shared queue
   toast(`${b.name} refreshed — ${(rec.drivers||[]).length} drivers, ${(rec.events||[]).length} events`);
   if(screen==='entry'&&ctx.board===bid){ b._rosterLoaded=false; }
   render();
@@ -438,7 +462,7 @@ async function loadRoster(bid){
 async function pushEventBack(ev,opts){
   const wb=wbFor(ev.board); if(!wb) return false;
   const quiet=opts&&opts.quiet;
-  const stamp=(patch)=>{ const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ Object.assign(arr[i],patch); LS.local=arr; } };
+  const stamp=(patch)=>{ const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ Object.assign(arr[i],patch); LS.local=arr; pushState(true); } };
   try{
     // retry-safe: if the item was already created on a prior attempt, skip creation and resume at the driver link
     let itemId=ev.infItemId;
@@ -1016,6 +1040,7 @@ function saveEntry(bid){
               ['coaching','evCoaching','Pick the coaching needed']];
   for(const [key,id,msg] of need){ if(!ev[key]){ toast(msg); const el=document.getElementById(id); if(el) el.focus(); return; } }
   const arr=LS.local; arr.unshift(ev); LS.local=arr;
+  pushState(true); // make the event durable server-side immediately, before any Infinity write
   if(wbFor(bid)){ toast('Saving event for '+ev.driver+'…'); pushEventBack(ev); }
   else { toast('Event saved for '+ev.driver); }
   ctx.driver=null; viewEntry();
@@ -1109,8 +1134,9 @@ function viewEvents(){
 }
 
 render();
-pullSettings(); // load shared logos/trend rules/hidden boards, then re-render
-flushQueued(); // push any events saved locally before their board went live
+// pull shared settings + the shared event queue FIRST, then flush — so events
+// queued on another machine are merged in before we push them to Infinity.
+pullState().then(flushQueued);
 </script>
 </body>
 </html>
