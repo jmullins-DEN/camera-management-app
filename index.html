@@ -346,7 +346,17 @@ function applyBoardRecord(rec){
   }
 }
 // Re-apply cached refreshes over the static seed so they survive a reload.
+// But a freshly rebuilt+deployed seed supersedes older live-refresh snapshots:
+// when SEED.generated changes, wipe the cache once so stale snapshots can't shadow
+// the new seed (this is what made Mission show blank coaching after the data fix).
 function applyRefreshCache(){
+  try{
+    const ver=String(SEED.generated||'');
+    if(ver && localStorage.getItem('cam_seed_ver')!==ver){
+      localStorage.removeItem('cam_refreshed');
+      localStorage.setItem('cam_seed_ver',ver);
+    }
+  }catch(e){}
   const cache=LS.refreshed;
   Object.keys(cache).forEach(id=>applyBoardRecord(cache[id]));
 }
