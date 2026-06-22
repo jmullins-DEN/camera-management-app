@@ -463,7 +463,7 @@ function viewCustomers(){
       <td><button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button></td>
       <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
       <td><div style="display:flex;align-items:center;gap:8px">
-        <div><b>${esc(b.name)}</b><div class="faint" style="font-size:11.5px">${b.ws} · ${b.board}</div></div>
+        <div><b>${esc(b.name)}</b></div>
         <button class="sm" title="Pull this board's latest drivers & events from Infinity" onclick="refreshBoard('${b.board}')">↻ Refresh</button>
       </div></td>
       <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
@@ -545,19 +545,20 @@ function logoManual(id){ const u=prompt('Paste an image URL:',settingsFor(id).lo
 /* ---------- edit available boards (manual hide/show) ---------- */
 function manageBoards(){
   const all=SEED.boards.slice().sort((a,b)=>a.name.localeCompare(b.name));
+  const lblStyle='display:flex;align-items:center;gap:8px;cursor:pointer;padding:3px 0';
+  const cbStyle='width:auto;flex:none;margin:0';
   const rows=all.map(b=>{
     const hidden=isHidden(b.board);
-    return `<tr>
-      <td style="padding:6px 10px"><label style="display:flex;align-items:center;gap:8px;cursor:pointer">
-        <input type="checkbox" ${hidden?'':'checked'} onchange="toggleHidden('${b.board}',!this.checked);manageBoardsCount()">
-        <span><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.board}</span></span>
-      </label></td></tr>`;
+    return `<li><label style="${lblStyle}">
+        <input type="checkbox" ${hidden?'':'checked'} style="${cbStyle}" onchange="toggleHidden('${b.board}',!this.checked);manageBoardsCount()">
+        <span><b>${esc(b.name)}</b></span>
+      </label></li>`;
   }).join('');
   openModal(`
     <h2>Available boards</h2>
     <div class="sub">Uncheck a board to hide it from the dashboard. Hiding only affects this dashboard — it never touches Infinity. <span id="mbCount"></span></div>
-    <div style="max-height:50vh;overflow:auto;margin-top:12px;border:1px solid var(--line);border-radius:8px">
-      <table style="width:100%"><tbody>${rows}</tbody></table></div>
+    <div style="max-height:50vh;overflow:auto;margin-top:12px;border:1px solid var(--line);border-radius:8px;padding:6px 12px">
+      <ul style="margin:0;list-style:none;padding-left:0">${rows}</ul></div>
     <div style="margin-top:10px;display:flex;gap:10px">
       <button class="sm" onclick="setHidden([]);manageBoards()">Show all</button>
       <button class="sm" onclick="setHidden(SEED.boards.map(b=>b.board));manageBoards()">Hide all</button>
@@ -572,6 +573,13 @@ function manageBoardsCount(){
 }
 
 /* ---------- check Infinity for new / deleted boards (on demand only) ---------- */
+// Normalize a board name for cross-id matching: lowercase, drop the common
+// camera/accident board-name suffixes, collapse punctuation.
+function normName(n){
+  return (n||'').toLowerCase()
+    .replace(/\b(camera management and accident tracking|camera and accident board|camera management|accident tracking)\b/g,'')
+    .replace(/[^a-z0-9]+/g,' ').trim();
+}
 async function checkInfinity(){
   toast('Checking Infinity…');
   let d;
@@ -581,22 +589,27 @@ async function checkInfinity(){
   }catch(e){ toast('Could not reach the server'); return; }
   if(!d||!d.ok||!Array.isArray(d.boards)){ toast('Infinity check failed'); return; }
   const liveById={}; d.boards.forEach(b=>liveById[b.id]=b);
+  // Match by id AND by normalized name — a board whose Infinity id changed
+  // (e.g. a migrated/cloned board) keeps the same name, so name-matching stops
+  // it from falsely showing as both "new" and "deleted".
   const known=new Set(SEED.boards.map(b=>b.board));
-  const added=d.boards.filter(b=>!known.has(b.id));                 // in Infinity, not in dashboard
-  const removed=SEED.boards.filter(b=>!liveById[b.board]);          // in dashboard, gone from Infinity
+  const knownNames=new Set(SEED.boards.map(b=>normName(b.name)));
+  const liveNames=new Set(d.boards.map(b=>normName(b.name)));
+  const added=d.boards.filter(b=>!known.has(b.id)&&!knownNames.has(normName(b.name)));   // in Infinity, not in dashboard
+  const removed=SEED.boards.filter(b=>!liveById[b.board]&&!liveNames.has(normName(b.name))); // in dashboard, gone from Infinity
   const lblStyle='display:flex;align-items:center;gap:8px;cursor:pointer;padding:3px 0';
   const cbStyle='width:auto;flex:none;margin:0';
   const addList=added.length
-    ? added.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" data-add="${b.id}" data-add-name="${esc(b.name)}" data-add-ws="${b.ws}" style="${cbStyle}"> <span><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.id} · ws ${b.ws}</span></span></label></li>`).join('')
+    ? added.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" data-add="${b.id}" data-add-name="${esc(b.name)}" data-add-ws="${b.ws}" style="${cbStyle}"> <span><b>${esc(b.name)}</b></span></label></li>`).join('')
     : '<li class="faint">None — every Infinity board is already here.</li>';
   const remList=removed.length
-    ? removed.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" checked data-rm="${b.board}" style="${cbStyle}"> <span><b>${esc(b.name)}</b> <span class="faint" style="font-size:11px">${b.board}</span></span></label></li>`).join('')
+    ? removed.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" checked data-rm="${b.board}" style="${cbStyle}"> <span><b>${esc(b.name)}</b></span></label></li>`).join('')
     : '<li class="faint">None — no dashboard board is missing from Infinity.</li>';
   openModal(`
     <h2>Infinity check</h2>
     <div class="sub">Live: ${d.boards.length} boards across both workspaces.</div>
     <h3 style="margin:16px 0 4px">New in Infinity (${added.length})</h3>
-    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Check the ones you want and hit <b>Add checked boards</b> — the request goes straight to Susie, who pulls in full driver/event data on the next refresh (<code>build_seed.py</code>). No need to message anyone.</div>
+    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Check the ones you want and hit <b>Add checked boards</b> — their drivers &amp; events pull in live from Infinity right now, no waiting on anyone.</div>
     <ul style="margin:8px 0;list-style:none;padding-left:0">${addList}</ul>
     ${added.length?`<div style="margin:-2px 0 6px"><button class="sm primary" id="addBoardsBtn" onclick="addCheckedBoards()">Add checked boards</button></div>`:''}
     <h3 style="margin:16px 0 4px">Deleted from Infinity (${removed.length})</h3>
@@ -607,22 +620,32 @@ async function checkInfinity(){
       ${removed.length?`<button class="primary" onclick="applyInfinityRemovals()">Hide checked</button>`:''}
     </div>`);
 }
+// Pull each checked board live from Infinity (drivers + events) and merge it
+// into the dashboard on the spot — no queue, no waiting on a reseed.
 async function addCheckedBoards(){
   const picked=[...document.querySelectorAll('input[data-add]:checked')].map(c=>({
     id:c.getAttribute('data-add'), name:c.getAttribute('data-add-name'), ws:c.getAttribute('data-add-ws')}));
   if(!picked.length){ toast('Check the boards you want to add first','⚠'); return; }
   const btn=document.getElementById('addBoardsBtn');
-  if(btn){ btn.disabled=true; btn.textContent='Sending…'; }
-  try{
-    const res=await apiPost('/request-boards',{boards:picked});
-    if(!res||!res.ok) throw new Error((res&&res.error)||'request failed');
-    toast(`Sent ${picked.length} board${picked.length>1?'s':''} to Susie — she'll pull them in on the next data refresh`);
-    closeModal();
-  }catch(e){
-    console.error('board request failed',e);
-    toast('Could not send the request — try again','⚠');
-    if(btn){ btn.disabled=false; btn.textContent='Add checked boards'; }
+  if(btn){ btn.disabled=true; }
+  const cache=LS.refreshed; let ok=0, fail=0;
+  for(let i=0;i<picked.length;i++){
+    const p=picked[i];
+    if(btn) btn.textContent=`Adding ${i+1}/${picked.length}…`;
+    try{
+      const u=API_BASE+'/board-data?board='+encodeURIComponent(p.id)
+        +'&ws='+encodeURIComponent(p.ws||'')+'&name='+encodeURIComponent(p.name||'');
+      const r=await fetch(u,{headers:{'X-App-Key':APP_KEY}});
+      const d=await r.json();
+      if(!d||!d.ok||!d.board) throw new Error((d&&d.error)||'pull failed');
+      const rec=d.board; rec._refreshedAt=new Date().toISOString();
+      applyBoardRecord(rec);          // adds it to SEED.boards if new
+      cache[p.id]=rec; ok++;          // persist so it survives a reload
+    }catch(e){ console.error('add board failed',p,e); fail++; }
   }
+  LS.refreshed=cache;
+  toast(`Added ${ok} board${ok===1?'':'s'} live`+(fail?` · ${fail} couldn't be pulled`:''), fail?'⚠':'✓');
+  closeModal(); render();
 }
 function applyInfinityRemovals(){
   const ids=[...document.querySelectorAll('input[data-rm]:checked')].map(c=>c.getAttribute('data-rm'));

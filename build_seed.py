@@ -178,17 +178,21 @@ def build_board(ws, b, name):
     rec['events']=events
     return rec
 
-out=[]
-for ws,b,name in BOARDS:
-    try:
-        r=build_board(ws,b,name)
-        out.append(r)
-        print(f"OK  {name:32} type={r['driver_type']:9} drivers={len(r['drivers']):3} events={len(r['events']):3} attrs={ {k:bool(v) for k,v in r['attr'].items()} }", file=sys.stderr)
-    except Exception as e:
-        print(f"ERR {name}: {e}", file=sys.stderr)
-seed={'generated':'2026-06-20','boards':out,
-      'coaching_types':['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver']}
-(HERE/'seed.json').write_text(json.dumps(seed,indent=2,ensure_ascii=False))
-# seed.js lets index.html load data under file:// (no server / no fetch)
-(HERE/'seed.js').write_text('window.SEED = ' + json.dumps(seed,ensure_ascii=False) + ';\n')
-print(f"\nwrote seed.json + seed.js: {len(out)} boards", file=sys.stderr)
+def main():
+    out=[]
+    for ws,b,name in BOARDS:
+        try:
+            r=build_board(ws,b,name)
+            out.append(r)
+            print(f"OK  {name:32} type={r['driver_type']:9} drivers={len(r['drivers']):3} events={len(r['events']):3} attrs={ {k:bool(v) for k,v in r['attr'].items()} }", file=sys.stderr)
+        except Exception as e:
+            print(f"ERR {name}: {e}", file=sys.stderr)
+    seed={'generated':'2026-06-20','boards':out,
+          'coaching_types':['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver']}
+    (HERE/'seed.json').write_text(json.dumps(seed,indent=2,ensure_ascii=False))
+    # seed.js lets index.html load data under file:// (no server / no fetch)
+    (HERE/'seed.js').write_text('window.SEED = ' + json.dumps(seed,ensure_ascii=False) + ';\n')
+    print(f"\nwrote seed.json + seed.js: {len(out)} boards", file=sys.stderr)
+
+if __name__ == '__main__':
+    main()
