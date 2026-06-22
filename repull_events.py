@@ -12,7 +12,7 @@ Updates seed.json + seed.js in place. Does NOT touch the board list or drivers.
 import json, sys, pathlib, datetime
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'bin'))
 import infinity as inf
-from build_seed import val_for, resolve, pick_attr
+from build_seed import val_for, resolve, pick_attr, pick_label_attr
 
 HERE = pathlib.Path(__file__).parent
 WINDOW_DAYS = 90
@@ -85,12 +85,17 @@ def main():
             ws, ob, ofold, odattr, odate = OLD_MISSION
             oattrs = inf.attributes(inf.WS[ws], ob)
             obeh = pick_attr(oattrs, 'behavior')
+            ocoach = (pick_label_attr(oattrs,'coaching','needed') or
+                      pick_label_attr(oattrs,'action','taken') or
+                      pick_label_attr(oattrs,'coaching'))     # old board uses "Action Taken"
             obmap = label_map(oattrs, obeh.get('id') if obeh else None)
+            ocmap = label_map(oattrs, ocoach.get('id') if ocoach else None)
             odlbl = label_map(oattrs, odattr)              # old roster label -> names
             oitems = cursor_items(ws, ob, ofold)
             oattr = {'date': odate, 'behavior': obeh.get('id') if obeh else None,
-                     'coaching': None, 'reviewed': None, 'driver_attr': odattr}
-            oevs = resolve_events(oitems, oattr, odlbl, obmap, {}, since=None)
+                     'coaching': ocoach.get('id') if ocoach else None,
+                     'reviewed': None, 'driver_attr': odattr}
+            oevs = resolve_events(oitems, oattr, odlbl, obmap, ocmap, since=None)
             seen = {e['item'] for e in evs}
             merged = evs + [e for e in oevs if e['item'] not in seen]
             print(f"  Mission: new={len(evs)} old={len(oevs)} -> merged={len(merged)}", file=sys.stderr)
