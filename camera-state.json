@@ -92,7 +92,15 @@
     }
   },
   "drivers": [],
-  "local": [],
+  "local": [
+    {
+      "id": "SENTINEL_TEST",
+      "board": "ZZZ",
+      "driver": "Sentinel",
+      "synced": false,
+      "ts": 1
+    }
+  ],
   "board_requests": [
     {
       "id": "7W2SQKrNcXQ",
