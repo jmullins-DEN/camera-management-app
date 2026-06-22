@@ -1,6 +1,88 @@
 {
-  "_ts": "2026-06-22T00:35:04.792804+00:00",
-  "settings": {},
+  "_ts": "2026-06-22T11:29:08.910Z",
+  "settings": {
+    "YJNwKvzFhkj": {
+      "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
+      "trendDays": 0,
+      "trendCount": 0
+    },
+    "5gVKeGRDf8U": {
+      "logo": "https://www.google.com/s2/favicons?domain=alandontowkc.com&sz=128"
+    },
+    "VAixNEe3Cb5": {
+      "logo": "https://www.google.com/s2/favicons?domain=apexwasteco.com&sz=128"
+    },
+    "di85P7h2apV": {
+      "logo": ""
+    },
+    "KYqKJWuumPm": {
+      "logo": "https://www.google.com/s2/favicons?domain=expresstowtruck.com&sz=128",
+      "logoZoom": 1.3
+    },
+    "8gejhhHJj4e": {
+      "logo": "https://www.google.com/s2/favicons?domain=fioreandsons.com&sz=128"
+    },
+    "81dVf6myW6q": {
+      "logo": "https://www.google.com/s2/favicons?domain=garmatspraybooths.com&sz=128"
+    },
+    "4rNDuSrCaap": {
+      "logo": "https://www.google.com/s2/favicons?domain=allcitytowservice.com&sz=128",
+      "logoZoom": 2.3
+    },
+    "8BUntjK1TqV": {
+      "trendDays": 90,
+      "trendCount": 3,
+      "logo": "https://www.google.com/s2/favicons?domain=panhandleexpress.com&sz=128"
+    },
+    "_hidden": [
+      "YJNwKvzFhkj",
+      "5gVKeGRDf8U",
+      "4rNDuSrCaap",
+      "di85P7h2apV",
+      "wL3U3vng54R",
+      "AKJSkJj6Ch4",
+      "7d53dL31ioV",
+      "3ZyRA72htS3",
+      "KYqKJWuumPm",
+      "8gejhhHJj4e",
+      "wE72rkR7QAz",
+      "81dVf6myW6q",
+      "ic6o6QgzpVM",
+      "ioWX9hneUsk",
+      "t7FEENmajpJ",
+      "6g2HwdVgnhf",
+      "Wk4Si2ZgUVU",
+      "qnESNLC3JPR",
+      "6aE7wVSK5Jq",
+      "TbY1ioKMxCx",
+      "xMfRLnqAN7y",
+      "8BUntjK1TqV",
+      "XVLVu2Du8hc",
+      "ebSND1QoyBs",
+      "iE2qi6eN88V",
+      "MZerRFmhSHa",
+      "JthqRmXvJ9v",
+      "NpiJpYMZtkC",
+      "9RKrQRpDLcr",
+      "NvKEviSsMpf",
+      "nWRsGRSm2Hn",
+      "ZvmN6Vq7bKF",
+      "7W2SQKrNcXQ"
+    ],
+    "MfEUxnTRUV9": {
+      "logo": "https://www.google.com/s2/favicons?domain=missionwrecker.com&sz=128",
+      "logoZoom": 1.2
+    },
+    "XVLVu2Du8hc": {
+      "logo": "https://www.google.com/s2/favicons?domain=pcs-trucking.com&sz=128"
+    },
+    "ebSND1QoyBs": {
+      "logo": "https://www.google.com/s2/favicons?domain=pepmove.com&sz=128"
+    },
+    "MZerRFmhSHa": {
+      "logo": ""
+    }
+  },
   "drivers": [],
   "local": [],
   "board_requests": [
