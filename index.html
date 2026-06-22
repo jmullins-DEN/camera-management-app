@@ -474,6 +474,9 @@ function driversFor(id){
   const seen=new Set(base.map(d=>d.name.toLowerCase()));
   const merged=[...base];
   added.forEach(d=>{ if(!seen.has(d.name.toLowerCase())){ seen.add(d.name.toLowerCase()); merged.push(d); } });
+  // include any driver that appears in events but isn't on the roster, so their
+  // history/trend is always reachable even if the Infinity roster is incomplete
+  eventsFor(id).forEach(e=>{ const nm=e&&e.driver; if(nm && nm!=='OPEN' && !seen.has(nm.toLowerCase())){ seen.add(nm.toLowerCase()); merged.push({id:null,name:nm,fromEvents:true}); } });
   return merged.sort((a,b)=>a.name.localeCompare(b.name));
 }
 
