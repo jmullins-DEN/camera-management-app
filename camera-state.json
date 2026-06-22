@@ -1,6 +1,11 @@
 {
-  "_ts": "2026-06-22T00:35:04.792804+00:00",
-  "settings": {},
+  "_ts": "2026-06-22T00:00:00Z",
+  "settings": {
+    "__sentinel__": {
+      "logo": "data:image/png;base64,TEST",
+      "logoZoom": 1.5
+    }
+  },
   "drivers": [],
   "local": [],
   "board_requests": [
