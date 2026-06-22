@@ -180,13 +180,14 @@
 <script>
 /* ---------- data + state ---------- */
 const SEED = window.SEED || {boards:[],coaching_types:[]};
-const COACHING = (SEED.coaching_types && SEED.coaching_types.length)
-  ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver'];
+const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
+  ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
+  .filter(c=>c!=='Blocked Camera'); // Blocked Camera is now logged as a Critical Event, not a coaching type
 // Face to Face is the trend-rule outcome; it lives in Infinity and is auto-set when a trend trips (see autoCoaching)
 if(!COACHING.includes('Face to Face')){ const i=COACHING.indexOf('Critical Event'); COACHING.splice(i>=0?i+1:COACHING.length,0,'Face to Face'); }
 // the only behaviors allowed for entry (boards in Infinity are being cleaned up to match)
 const ENTRY_BEHAVIORS = ['Camera Obstruction','Driver Distraction-Phone','Driver Distraction-Cab',
-  'Drowsy Driving','Following Distance','Hard Brake','Safety-Critical Event','Sign Violation',
+  'Drowsy Driving','Following Distance','Hard Brake / Turn','Safety-Critical Event','Sign Violation',
   'Traffic Light Violation','Speeding','U-Turn','Seat Belt'];
 // behaviors that trend together as a single group for the face-to-face threshold
 const TREND_GROUPS = [['Driver Distraction-Phone','Driver Distraction-Cab']];
@@ -241,7 +242,7 @@ const BOARD_WB={
       'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
       'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
       'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
-      'Hard Brake':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
       'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256', // Infinity label still named "Near Miss" — rename on board cleanup
       'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo)
       'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
@@ -253,7 +254,6 @@ const BOARD_WB={
       'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
       'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
       'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
-      'Blocked Camera':'019eeaa0-2d8d-773f-a71b-eedfb9ddc05f',
       'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
     },
   },
