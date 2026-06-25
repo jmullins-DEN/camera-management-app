@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-25T00:02:17.431Z",
+  "_ts": "2026-06-25T00:02:50.887Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -97,6 +97,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782345770878290",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Chris Kavel",
+      "driverId": "439c8822-b6b3-4d11-803f-804033d7d737",
+      "date": "2026-06-24",
+      "reviewed": "2026-06-25",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1229734850030895104; rolling stop \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a339b734-5763-4c56-a25d-ea559a3736c5.mp4\n",
+      "ts": 1782345770878,
+      "synced": false
+    },
     {
       "id": "L1782345733549640",
       "board": "7W2SQKrNcXQ",
