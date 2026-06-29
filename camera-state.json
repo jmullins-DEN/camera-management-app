@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-29T23:02:45.070Z",
+  "_ts": "2026-06-29T23:03:43.104Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -115,6 +115,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782774223094876",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-06-29",
+      "reviewed": "2026-06-29",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6039127891; 86 in 75\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ff076832-3f3e-460d-97b1-56d945fbf58c.mp4",
+      "ts": 1782774223094,
+      "synced": false
+    },
     {
       "id": "L1782774163205137",
       "board": "ic6o6QgzpVM",
