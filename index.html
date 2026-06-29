@@ -409,6 +409,70 @@ const BOARD_WB={
       'Unidentified Driver':'b132fb25-3e48-4bca-b6db-2a3d0e6bdabe', // board-local id
     },
   },
+  'ic6o6QgzpVM':{ // Indigo (DEN) — LABEL-driver board. NOTE: seed attr map was wrong (date+reviewed collided on b181fb97); corrected here from live.
+    cam_folder:'sVpLvJCpK1Q', // "Camera Management"
+    driver_type:'label',
+    driver_attr:'84d86a74-0e41-4a5e-afaa-d981cdb595e4', // "Driver Roster" label — option-ids = seed b.drivers (15, verified live)
+    behavior_attr:'ab889c4f-85db-4993-85ca-78f288ff7057', // "Behavior Observed"
+    coaching_attr:'f5c6d0d1-3c91-41b3-a5ce-36b66d803c00', // "Coaching Needed"
+    date_attr:'0bcfec92-2bda-439b-91ee-85841f709922',     // "Date Event Occurred" (NOT b181fb97 — seed had it wrong)
+    reviewed_attr:'b181fb97-7419-4746-bec3-30256df45b1b', // "Date Event was Reviewed"
+    notes_attr:'e95bcb67-aaee-429c-ba38-7e8766db7aa7',    // "Coaching Note" longtext (the field existing events actually use)
+    link_attr:null, // board has no dedicated links field
+    behavior_labels:{
+      'Camera Exception':'5ef60e00-43f2-48ec-a3b4-105a0f8f7df5',
+      'Driver Distraction-Phone':'c9fd677a-6909-4c1a-9993-78ade7925924',
+      'Driver Distraction-Cab':'981594c1-06b6-454d-a864-33c184a87fd1',
+      'Drowsy Driving':'019aa896-8713-7880-93cf-c30b42f9609c',
+      'Following Distance':'30d50dbf-7335-461d-89f4-d9b367dc25ec',
+      'Hard Brake / Turn':'1e82ff54-6f64-4e1e-b197-5c2a78f4adb6',
+      'Safety-Critical Event':'b22e276a-7544-4e0f-b810-dc310ae0412f',
+      'Sign Violation':'66dcff19-318e-4221-a9a3-832054c4040f', // board label is "Sign Vilolation" (typo); id is correct
+      'Traffic Light Violation':'fa290f60-0c7d-4226-9f2d-ab5984761637',
+      'Speeding':'c7af6ab3-040f-45d7-ba9b-494a84ed3378',
+      'U-Turn':'c92c5167-f890-4d77-baa6-d5a0d187157d',
+      'Seat Belt':'261bfcf6-2706-496c-bfc9-cf010beb5c94',
+    },
+    coaching_labels:{
+      'Coaching Notes':'9f979d0c-fada-44e4-b7ef-da92b027711c',
+      'Critical Event':'019c6c6a-0f64-777f-bde3-50f113821654',
+      'Face to Face':'e113cb8f-08b6-407f-b325-ef750d996ce7',
+      'System Alert':'3dfc3523-f395-4e1e-b6ad-8b1e9d8e3ae6',
+      'Unidentified Driver':'2344f281-3fc3-4012-88be-fca3f5a135e6',
+    },
+  },
+  '9RKrQRpDLcr':{ // TNT Wrecker (DEN) — seed said TEXT driver, but live events all use the LABEL "Driver Name" (989c3f1e); the text field 9c3a45b2 is dead. Wired as label.
+    cam_folder:'npXKVQxhAi7', // "July Camera Management" (current-month write target; history is in "Camera Management" H7RpcmxtXkW)
+    driver_type:'label',
+    driver_attr:'989c3f1e-c35f-4336-b8fc-99cd16a91f9e', // label "Driver Name" the live events populate — option-ids from seed b.drivers (58, verified live)
+    behavior_attr:'3ca86769-2061-4c9e-aef0-84548fd7401f', // "Behavior Observed"
+    coaching_attr:'f44b783e-bc4f-4528-bd6f-7bacb63984f3', // "Coaching Needed"
+    date_attr:'2d34ccc3-d12e-47f0-96cf-aae11f39f8c2',     // "Camera Event Date"
+    reviewed_attr:'8809a431-11c0-4d97-9361-5658cfdbab81', // "Date Event Reviewed"
+    notes_attr:'579a751e-e073-40d6-885a-405812a8341c',    // "Notes:" longtext
+    link_attr:null, // board has no dedicated links field
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'c162263c-a3d0-487e-84d8-a9fbd3b41581',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo); id is correct
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'a9011159-9da8-4ae5-8f3d-4ecaca83f0ef',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'System Alert':'ead9db02-2a84-4d13-a470-d745b1845035',
+      'Unidentified Driver':'a1b2c3d4-7e8f-4a1b-9c2d-3e4f5a6b7c8d',
+    },
+  },
 };
 const wbFor=id=>BOARD_WB[id]||null;
 // inject the Test Board as a live customer (it is not in the Infinity mirror seed)
