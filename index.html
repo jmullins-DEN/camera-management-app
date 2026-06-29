@@ -473,6 +473,38 @@ const BOARD_WB={
       'Unidentified Driver':'a1b2c3d4-7e8f-4a1b-9c2d-3e4f5a6b7c8d',
     },
   },
+  'YfVHuM3X87v':{ // Bectin Logistics (MyGroundForce) — moved Fedex 56408 -> DEN 59792 on 2026-06-29 (board id survived). REFERENCE-driver board, Mission-shaped; original engine path drives it.
+    cam_folder:'ypQn6acB7cx', roster_folder:'V2wkgfAEjaq',
+    name_attr:'32053a34-2bc2-499b-a8ec-f0071b93a20b',        // roster "Driver Name" text field (used only when adding a NEW driver)
+    driver_ref_attr:'0a06cad2-34e2-41d7-a2e6-8f37c2336e3b',  // "Driver Roster" reference (the camera view's driver column — NOT "Assigned Driver" 577a515c)
+    behavior_attr:'38b1a87c-5f5e-45e4-ad64-01ec3e5752f4',    // "Behavior Observed"
+    coaching_attr:'9f863493-26a0-4fd3-b540-41993243014e',    // "Coaching Needed"
+    date_attr:'3f10a755-f54b-40b2-a2ca-5483a2cfe069',        // "Camera Event Date"
+    reviewed_attr:'c93a8c09-928d-4df9-b093-a953cc569618',    // "Date Event Reviewed"
+    notes_attr:'3f9f9d88-a3bb-4fd8-ae58-3cd35c5ad6be',       // longtext "Notes:"
+    link_attr:'3768f88f-2e31-4321-8cad-f077590e07a4',        // "Link to Violation" links field — clickable in Infinity UI
+    behavior_labels:{ // Mission-global ids (board labels still read "Near Miss"/"Sign Vilolation" — cosmetic, write-back maps by id)
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256', // Infinity label "Near Miss"
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc',        // Infinity label "Sign Vilolation" (typo); id correct
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'System Alert':'019eef3a-0371-7065-90d1-4104fece3dea', // board-local id
+      'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
+    },
+  },
 };
 const wbFor=id=>BOARD_WB[id]||null;
 // inject the Test Board as a live customer (it is not in the Infinity mirror seed)
