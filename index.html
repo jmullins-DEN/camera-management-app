@@ -462,6 +462,14 @@ async function apiPut(path,body){
     headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},body:JSON.stringify(body)});
   return r.json();
 }
+// Infinity Long Text renders Markdown; a bare URL stays plain text. Wrap each URL as a [url](url)
+// markdown link so it's clickable. Idempotent: first collapse any existing [url](url) back to bare,
+// then re-wrap — so re-saving an edited note never double-wraps. Local state keeps the clean URL.
+function linkifyNotes(text){
+  if(!text) return text;
+  const t=String(text).replace(/\[(https?:\/\/[^\]\s]+)\]\((https?:\/\/[^)\s]+)\)/g,'$2');
+  return t.replace(/\bhttps?:\/\/[^\s<>()\]]+/g, m=>'['+m+']('+m+')');
+}
 // pull the live roster for a write-back board so the picker reflects Infinity (incl. app-added drivers)
 async function loadRoster(bid){
   const wb=wbFor(bid), b=boardById(bid); if(!wb||!b) return;
@@ -488,7 +496,7 @@ async function pushEventBack(ev,opts){
       const clab=wb.coaching_labels[ev.coaching]; if(clab) values.push({attribute_id:wb.coaching_attr,data:[clab]});
       if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
       if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
-      if(ev.notes) values.push({attribute_id:wb.notes_attr,data:ev.notes});
+      if(ev.notes) values.push({attribute_id:wb.notes_attr,data:linkifyNotes(ev.notes)});
       const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
       if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
       itemId=res.item.id;
@@ -1058,7 +1066,7 @@ async function pushEventUpdate(bid,itemId,ev){
     const clab=wb.coaching_labels[ev.coaching]; if(clab) values.push({attribute_id:wb.coaching_attr,data:[clab]});
     if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
     if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
-    if(ev.notes) values.push({attribute_id:wb.notes_attr,data:ev.notes});
+    if(ev.notes) values.push({attribute_id:wb.notes_attr,data:linkifyNotes(ev.notes)});
     const res=await apiPut('/item',{board:bid,item_id:itemId,values});
     if(!res.ok) throw new Error('update '+(res.status||''));
     toast('Event updated in Infinity ✓');
