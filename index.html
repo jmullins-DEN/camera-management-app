@@ -62,6 +62,7 @@
   td{padding:12px 14px;border-bottom:1px solid var(--line2);vertical-align:middle}
   tr:last-child td{border-bottom:none}
   tbody tr:hover{background:#fafbff}
+  tbody tr.ev-edit:hover{background:var(--accentsoft)}
 
   input,select,textarea{font-family:inherit;font-size:13.5px;color:var(--ink);background:#fff;
         border:1px solid var(--line);border-radius:9px;padding:9px 11px;width:100%}
@@ -207,7 +208,14 @@ const LS = {
   // Layered over the static seed on load so a refresh survives a page reload.
   get refreshed(){ try{return JSON.parse(localStorage.getItem('cam_refreshed')||'{}')}catch(e){return {}} },
   set refreshed(v){ localStorage.setItem('cam_refreshed',JSON.stringify(v)) },
+  // Infinity item ids of events WE logged through this app (write-back succeeded).
+  // Lets us put a green check on "events we've already entered data on" and make
+  // them editable — and it survives the refresh-prune of the local queue (and
+  // syncs across devices via /state), so the ✓ sticks once the event is mirrored.
+  get entered(){ try{return JSON.parse(localStorage.getItem('cam_entered')||'[]')}catch(e){return []} },
+  set entered(v){ localStorage.setItem('cam_entered',JSON.stringify(Array.from(new Set(v)))) },
 };
+function markEntered(itemId){ if(!itemId) return; const e=LS.entered; if(!e.includes(itemId)){ e.push(itemId); LS.entered=e; pushState(); } }
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
 function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; pushState(); }
@@ -258,9 +266,11 @@ async function pullState(){
     const j=await r.json(); _appState=j.data||{}; _appSha=j.sha||null;
     const mergedS=mergeSettings(LS.s,_appState.settings||{});
     const mergedL=mergeLocal(LS.local,_appState.local||[]);
+    const mergedE=Array.from(new Set([...(LS.entered||[]),...(_appState.entered||[])]));
     const changed=JSON.stringify(mergedS)!==JSON.stringify(_appState.settings||{})
-               || JSON.stringify(mergedL)!==JSON.stringify(_appState.local||[]);
-    LS.s=mergedS; LS.local=mergedL; render();
+               || JSON.stringify(mergedL)!==JSON.stringify(_appState.local||[])
+               || JSON.stringify(mergedE.slice().sort())!==JSON.stringify((_appState.entered||[]).slice().sort());
+    LS.s=mergedS; LS.local=mergedL; LS.entered=mergedE; render();
     if(changed) pushState(true); // promote local-only settings/events up into the shared store
   }catch(e){ /* offline / first run — stay on local data */ }
 }
@@ -271,7 +281,7 @@ async function _doPush(){
   try{
     if(_appState==null){ const g=await fetch(API_BASE+'/state'); const gj=await g.json(); _appState=gj.data||{}; _appSha=gj.sha||null; }
     const put=async()=>{
-      _appState.settings=LS.s; _appState.local=LS.local; _appState._ts=new Date().toISOString();
+      _appState.settings=LS.s; _appState.local=LS.local; _appState.entered=LS.entered; _appState._ts=new Date().toISOString();
       return fetch(API_BASE+'/state',{method:'PUT',
         headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},
         body:JSON.stringify({data:_appState,sha:_appSha})});
@@ -281,6 +291,7 @@ async function _doPush(){
       const g=await fetch(API_BASE+'/state'); const gj=await g.json();
       _appState=gj.data||{}; _appSha=gj.sha||null;
       LS.local=mergeLocal(LS.local,_appState.local||[]);
+      LS.entered=Array.from(new Set([...(LS.entered||[]),...(_appState.entered||[])]));
       res=await put();
     }
     if(res.ok){ const jr=await res.json(); if(jr&&jr.sha) _appSha=jr.sha; }
@@ -446,6 +457,11 @@ async function apiPost(path,body){
     headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},body:JSON.stringify(body)});
   return r.json();
 }
+async function apiPut(path,body){
+  const r=await fetch(API_BASE+path,{method:'PUT',
+    headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},body:JSON.stringify(body)});
+  return r.json();
+}
 // pull the live roster for a write-back board so the picker reflects Infinity (incl. app-added drivers)
 async function loadRoster(bid){
   const wb=wbFor(bid), b=boardById(bid); if(!wb||!b) return;
@@ -483,6 +499,7 @@ async function pushEventBack(ev,opts){
       if(!rf.ok) throw new Error('reference '+(rf.status||''));
     }
     stamp({synced:true,infItemId:itemId,syncError:null});
+    markEntered(itemId); // remember this is one of OUR events so the ✓ survives the refresh-prune
     if(!quiet) toast('Wrote event to Infinity — '+ev.driver);
     if(screen==='entry'&&ctx.board===ev.board) refreshEntryPanels(ev.board);
     return true;
@@ -534,12 +551,20 @@ function autoCoaching(){
   else { if(co.dataset.auto==='1') co.value=''; co.dataset.auto=''; if(note) note.textContent=''; }
 }
 
-// merged events for a board (infinity mirror + local entries)
+// merged events for a board (infinity mirror + local entries).
+// Each event carries: itemId (Infinity item id, if any), ours (WE entered it and
+// it's in Infinity → green ✓) and editable (ours AND this board writes back to
+// Infinity → can be opened & changed).
 function eventsFor(id){
   const b=boardById(id); if(!b) return [];
-  const inf=(b.events||[]).map(e=>({...e,board:id,source:'infinity'}));
-  const loc=LS.local.filter(e=>e.board===id).map(e=>({...e,source:'local'}));
-  return [...loc,...inf];
+  const wb=!!wbFor(id);
+  const enteredSet=new Set(LS.entered);
+  const inf=(b.events||[]).map(e=>({...e,board:id,source:'infinity',itemId:e.item||null}));
+  const loc=LS.local.filter(e=>e.board===id).map(e=>({...e,source:'local',itemId:e.infItemId||null}));
+  return [...loc,...inf].map(e=>{
+    const ours = !!(e.itemId && (enteredSet.has(e.itemId) || (e.source==='local'&&e.synced)));
+    return {...e, ours, editable: ours && wb};
+  });
 }
 function allEvents(){ return visibleBoards().flatMap(b=>eventsFor(b.board)); }
 function behaviorsFor(id){ const b=boardById(id); return (b&&b.behaviors&&b.behaviors.length)?b.behaviors:ENTRY_BEHAVIORS; }
@@ -909,6 +934,19 @@ function viewEntry(){
   autoCoaching();
   refreshEntryPanels(bid);
 }
+// small markers for the entry-form event lists:
+//   green ✓  = an event WE logged that's confirmed in Infinity (editable)
+//   queued   = logged here but not yet written back to Infinity
+function evBadge(e){
+  if(e.ours) return ' <span class="pill green" title="You entered this event — click the row to edit it">✓</span>';
+  if(e.source==='local'&&!e.synced) return ' <span class="pill gray">queued</span>';
+  return '';
+}
+function evRowAttrs(e){
+  return e.editable
+    ? ` class="ev-edit" style="cursor:pointer" title="Click to edit this event and update Infinity" onclick="editEvent('${e.board}','${e.itemId}')"`
+    : '';
+}
 // right-hand panel on the entry form: driver history + live trend banner, or recent events when no driver picked
 function refreshEntryPanels(bid){
   const aside=document.getElementById('entryAside'); if(!aside) return;
@@ -940,23 +978,24 @@ function refreshEntryPanels(bid){
     // driver history limited to the trend-day window, ordered by behavior
     const histAll=eventsFor(bid).filter(e=>e.driver===dn);
     const cut = cfg.days ? dateMinus(asOf,cfg.days) : null;
+    // most-recent first (newest date at the top)
     const hist=(cut ? histAll.filter(e=>(e.date||'')>=cut && (e.date||'')<=asOf) : histAll)
-      .slice().sort((a,b)=> (a.behavior||'').localeCompare(b.behavior||'') || (b.date||'').localeCompare(a.date||''));
+      .slice().sort((a,b)=> (b.date||'').localeCompare(a.date||'') || (a.behavior||'').localeCompare(b.behavior||''));
     const windowLbl = cfg.days ? `last ${cfg.days} days` : 'all time';
     html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">${esc(dn)} · events by behavior <span class="faint">(${windowLbl} · ${hist.length})</span></div>`;
     html+= hist.length
       ? `<table><thead><tr><th>Behavior</th><th>Coaching</th><th>Date</th></tr></thead><tbody>`+
-        hist.map(e=>`<tr><td><b>${esc(e.behavior||'')}</b></td>
+        hist.map(e=>`<tr${evRowAttrs(e)}><td><b>${esc(e.behavior||'')}</b>${evBadge(e)}</td>
           <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
-          <td class="muted">${esc(mdOnly(e.date))}${e.source==='local'?' <span class="pill green">new</span>':''}</td></tr>`).join('')+
+          <td class="muted">${esc(mdOnly(e.date))}</td></tr>`).join('')+
         `</tbody></table>`
       : `<div class="empty-state">No events for this driver in the ${windowLbl}</div>`;
   } else {
-    const recent=eventsFor(bid).slice(0,12);
+    const recent=eventsFor(bid).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,12);
     html+=`<div class="pad" style="border-bottom:1px solid var(--line);font-weight:650">Recent events · ${esc(b.name||'')}</div>`;
     html+= recent.length
       ? `<table><thead><tr><th>Driver</th><th>Behavior</th><th>Coaching</th><th>Date</th></tr></thead><tbody>`+
-        recent.map(e=>`<tr><td>${esc(e.driver||'—')}${e.source==='local'?' <span class="pill green">new</span>':''}</td><td>${esc(e.behavior||'')}</td>
+        recent.map(e=>`<tr${evRowAttrs(e)}><td>${esc(e.driver||'—')}${evBadge(e)}</td><td>${esc(e.behavior||'')}</td>
           <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
           <td class="muted">${esc(mdOnly(e.date))}</td></tr>`).join('')+
         `</tbody></table>`
@@ -965,6 +1004,73 @@ function refreshEntryPanels(bid){
   aside.innerHTML=html;
 }
 function resetEntry(){ ctx.driver=null; viewEntry(); }
+
+/* ---------- edit an already-entered event (green ✓) and push the change to Infinity ---------- */
+function editEvent(bid,itemId){
+  const ev=eventsFor(bid).find(e=>e.itemId===itemId);
+  if(!ev){ toast('Could not find that event'); return; }
+  if(!ev.editable){ toast('This event isn’t live for editing yet','⚠'); return; }
+  const b=boardById(bid)||{};
+  const bopts=ENTRY_BEHAVIORS.map(x=>`<option ${x===ev.behavior?'selected':''}>${esc(x)}</option>`).join('');
+  const copts=COACHING.slice().sort((a,b)=>a.localeCompare(b)).map(x=>`<option ${x===ev.coaching?'selected':''}>${esc(x)}</option>`).join('');
+  openModal(`
+    <h2>Edit event</h2>
+    <div class="sub">${esc(b.name||'')} · <b>${esc(ev.driver||'—')}</b> — changes are written straight back to Infinity.</div>
+    <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:4px">
+      <div class="field" style="margin:0"><label class="f">Camera event date</label><input type="date" id="edDate" value="${esc(ev.date||'')}" style="width:160px"></div>
+      <div class="field" style="margin:0"><label class="f">Date reviewed</label><input type="date" id="edReviewed" value="${esc(ev.reviewed||'')}" style="width:160px"></div>
+    </div>
+    <div class="field"><label class="f">Behavior observed</label><select id="edBehavior"><option value="">— select a behavior —</option>${bopts}</select></div>
+    <div class="field"><label class="f">Coaching needed</label><select id="edCoaching"><option value="">— none —</option>${copts}</select></div>
+    <div class="field"><label class="f">Notes</label><textarea id="edNotes" rows="3" placeholder="Optional context — paste a link if needed…">${esc(ev.notes||'')}</textarea></div>
+    <div class="modal-foot">
+      <button onclick="closeModal()">Cancel</button>
+      <button class="primary" onclick="saveEventEdit('${bid}','${itemId}')">Save changes</button>
+    </div>`);
+}
+function saveEventEdit(bid,itemId){
+  const beh=document.getElementById('edBehavior').value;
+  const co=document.getElementById('edCoaching').value;
+  const date=document.getElementById('edDate').value;
+  const reviewed=document.getElementById('edReviewed').value;
+  const notes=document.getElementById('edNotes').value;
+  const need=[[date,'edDate','Set the camera event date'],[reviewed,'edReviewed','Set the date reviewed'],
+              [beh,'edBehavior','Pick the behavior observed'],[co,'edCoaching','Pick the coaching needed']];
+  for(const [val,id,msg] of need){ if(!val){ toast(msg); const el=document.getElementById(id); if(el)el.focus(); return; } }
+  const patch={behavior:beh,coaching:co,date,reviewed};
+  if(notes) patch.notes=notes; // only set notes when non-empty so we never blank an existing note we didn't load
+  // reflect the change locally right away (whichever copy of the event we hold)
+  const arr=LS.local, li=arr.findIndex(e=>e.infItemId===itemId);
+  if(li>=0){ Object.assign(arr[li],patch); LS.local=arr; pushState(true); }
+  const b=boardById(bid);
+  if(b&&Array.isArray(b.events)){ const me=b.events.find(e=>e.item===itemId); if(me) Object.assign(me,patch); }
+  closeModal();
+  toast('Updating event in Infinity…');
+  pushEventUpdate(bid,itemId,{behavior:beh,coaching:co,date,reviewed,notes});
+}
+// PUT the changed values to the existing Infinity item (driver/reference unchanged)
+async function pushEventUpdate(bid,itemId,ev){
+  const wb=wbFor(bid);
+  if(!wb){ toast('This board isn’t live for write-back','⚠'); if(screen==='entry'&&ctx.board===bid) refreshEntryPanels(bid); return false; }
+  try{
+    const values=[];
+    const blab=wb.behavior_labels[ev.behavior]; if(blab) values.push({attribute_id:wb.behavior_attr,data:[blab]});
+    const clab=wb.coaching_labels[ev.coaching]; if(clab) values.push({attribute_id:wb.coaching_attr,data:[clab]});
+    if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
+    if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
+    if(ev.notes) values.push({attribute_id:wb.notes_attr,data:ev.notes});
+    const res=await apiPut('/item',{board:bid,item_id:itemId,values});
+    if(!res.ok) throw new Error('update '+(res.status||''));
+    toast('Event updated in Infinity ✓');
+    if(screen==='entry'&&ctx.board===bid) refreshEntryPanels(bid);
+    return true;
+  }catch(e){
+    toast('Infinity update failed — change saved locally','⚠');
+    console.error('event update failed',e);
+    if(screen==='entry'&&ctx.board===bid) refreshEntryPanels(bid);
+    return false;
+  }
+}
 
 // add a driver to this customer's roster — queues a write-back to Infinity in the board's format
 function openAddDriver(bid){
@@ -1091,12 +1197,12 @@ function viewEvents(){
         <button class="linkbtn" onclick="ctx.behavior=null;viewEvents()">✕ clear</button>
       </div>
       <table><thead><tr><th>Driver</th><th>Date</th><th>Coaching needed</th>${showCust?'<th>Customer</th>':''}<th></th></tr></thead><tbody>`+
-      (rows.length?rows.map(e=>`<tr>
+      (rows.length?rows.map(e=>`<tr${evRowAttrs(e)}>
         <td><b>${esc(e.driver||'—')}</b></td>
         <td class="muted">${esc(e.date||'')}</td>
         <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
         ${showCust?`<td class="muted">${esc((boardById(e.board)||{}).name||'')}</td>`:''}
-        <td>${e.source==='local'?'<span class="pill green">new</span>':''}</td></tr>`).join('')
+        <td>${evBadge(e)}</td></tr>`).join('')
         :`<tr><td colspan="${showCust?5:4}" class="empty-state">No events</td></tr>`)+
       `</tbody></table></div>`;
   } else {
@@ -1107,13 +1213,13 @@ function viewEvents(){
         <div style="font-weight:680">All events <span class="faint">· ${rows.length} event${rows.length===1?'':'s'} · click a box above to filter by behavior</span></div>
       </div>
       <table><thead><tr><th>Driver</th><th>Behavior</th><th>Date</th><th>Coaching needed</th>${showCust?'<th>Customer</th>':''}<th></th></tr></thead><tbody>`+
-      (rows.length?rows.map(e=>`<tr>
+      (rows.length?rows.map(e=>`<tr${evRowAttrs(e)}>
         <td><b>${esc(e.driver||'—')}</b></td>
         <td>${esc(e.behavior||'')}</td>
         <td class="muted">${esc(e.date||'')}</td>
         <td>${e.coaching?`<span class="pill coach">${esc(e.coaching)}</span>`:'<span class="faint">—</span>'}</td>
         ${showCust?`<td class="muted">${esc((boardById(e.board)||{}).name||'')}</td>`:''}
-        <td>${e.source==='local'?'<span class="pill green">new</span>':''}</td></tr>`).join('')
+        <td>${evBadge(e)}</td></tr>`).join('')
         :`<tr><td colspan="${showCust?6:5}" class="empty-state">No events in range</td></tr>`)+
       `</tbody></table></div>`;
   }
