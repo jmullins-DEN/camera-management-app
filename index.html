@@ -1071,9 +1071,16 @@ async function pushDriverBack(bid,name){
     ctx.driver={name,id:name};
     toast('Driver added: '+name); viewEntry(); return;
   }
-  // label-driver board: a new label option must be added in Infinity (no worker route for it yet), then Refresh
+  // label-driver board: create the option on the driver attribute in Infinity, then pick it
   if(dmode==='label'){
-    toast('Add “'+name+'” as a driver label in Infinity, then Refresh this board','⚠');
+    toast('Adding '+name+'…');
+    try{
+      const res=await apiPost('/label',{board:bid,attribute_id:wb.driver_attr,name});
+      if(!res.ok||!res.id) throw new Error('label '+(res.status||''));
+      const b=boardById(bid); if(b){ b.drivers=b.drivers||[]; if(!b.drivers.some(d=>d.id===res.id)) b.drivers.push({id:res.id,name}); }
+      ctx.driver={name,id:res.id};
+      toast(res.existed?('Driver already existed — selected: '+name):('Driver added to Infinity: '+name)); viewEntry();
+    }catch(e){ toast('Could not add driver to Infinity','⚠'); console.error('label driver add failed',e); }
     return;
   }
   toast('Adding '+name+'…');
