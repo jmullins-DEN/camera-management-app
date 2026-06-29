@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-29T01:48:57.767Z",
+  "_ts": "2026-06-29T01:48:58.514Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -108,8 +108,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 1230894724961959936; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cbf465f7-0244-4d2e-bc02-ae4d30aa4248.mp4",
       "ts": 1782697736714,
-      "synced": false,
-      "infItemId": "b1e3b645-3f48-4b8d-ac05-5328f264c5d5"
+      "synced": true,
+      "infItemId": "b1e3b645-3f48-4b8d-ac05-5328f264c5d5",
+      "syncError": null
     },
     {
       "id": "L1782697631845384",
