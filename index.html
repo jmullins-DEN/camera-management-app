@@ -323,6 +323,7 @@ const BOARD_WB={
     date_attr:'ccda2225-64bf-499a-8262-bac4a87ed25e',
     reviewed_attr:'b4baa30d-32c1-4f97-8a93-60705cfcda94',
     notes_attr:'dd63b0a2-dc9f-46b0-bbd9-cbd5f1d2ffeb',
+    link_attr:'50946995-e69c-4642-9066-fe25696d5945', // "Link to Violation" links field — clickable in Infinity UI (longtext Notes is NOT)
     behavior_labels:{
       'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726', // label renamed Camera Obstruction -> Camera Exception in Infinity (id unchanged)
       'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
@@ -353,6 +354,7 @@ const BOARD_WB={
     date_attr:'10e94227-c1a6-49f0-9101-37c8d9e73c89',
     reviewed_attr:'79f1a714-226f-48f3-8d16-db12ec94404d',
     notes_attr:'40f881c1-b250-44ab-b1fd-38d35d7f1f24', // longtext "Notes:" — was wrongly pointed at "Sent Coaching Notes to Driver?" (92fd639d), so notes never landed
+    link_attr:'7def9588-2f03-4ba5-beb6-e9a4973e4af9', // "Link to Violation" links field — clickable in Infinity UI (longtext Notes is NOT)
     behavior_labels:{
       'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
       'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
@@ -470,6 +472,19 @@ function linkifyNotes(text){
   const t=String(text).replace(/\[(https?:\/\/[^\]\s]+)\]\((https?:\/\/[^)\s]+)\)/g,'$2');
   return t.replace(/\bhttps?:\/\/[^\s<>()\]]+/g, m=>'['+m+']('+m+')');
 }
+// pull bare URLs out of a note (collapsing any [url](url) markdown first), de-duped, order preserved
+function extractUrls(text){
+  if(!text) return [];
+  const t=String(text).replace(/\[(https?:\/\/[^\]\s]+)\]\((https?:\/\/[^)\s]+)\)/g,'$2');
+  const out=[], seen=new Set();
+  (t.match(/\bhttps?:\/\/[^\s<>()\]]+/g)||[]).forEach(u=>{ if(!seen.has(u)){ seen.add(u); out.push(u); } });
+  return out;
+}
+// build the value for Infinity's "links" attribute type: [{url,text}] — what renders clickable in the board view
+function linkValues(text){
+  const urls=extractUrls(text);
+  return urls.map((u,i)=>({url:u,text:urls.length>1?('Video '+(i+1)):'Watch video'}));
+}
 // pull the live roster for a write-back board so the picker reflects Infinity (incl. app-added drivers)
 async function loadRoster(bid){
   const wb=wbFor(bid), b=boardById(bid); if(!wb||!b) return;
@@ -497,6 +512,7 @@ async function pushEventBack(ev,opts){
       if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
       if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
       if(ev.notes) values.push({attribute_id:wb.notes_attr,data:linkifyNotes(ev.notes)});
+      if(wb.link_attr){ const lv=linkValues(ev.notes); if(lv.length) values.push({attribute_id:wb.link_attr,data:lv}); }
       const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
       if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
       itemId=res.item.id;
@@ -1067,6 +1083,7 @@ async function pushEventUpdate(bid,itemId,ev){
     if(ev.date) values.push({attribute_id:wb.date_attr,data:ev.date});
     if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
     if(ev.notes) values.push({attribute_id:wb.notes_attr,data:linkifyNotes(ev.notes)});
+    if(wb.link_attr){ const lv=linkValues(ev.notes); if(lv.length) values.push({attribute_id:wb.link_attr,data:lv}); }
     const res=await apiPut('/item',{board:bid,item_id:itemId,values});
     if(!res.ok) throw new Error('update '+(res.status||''));
     toast('Event updated in Infinity ✓');
