@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-29T23:13:52.352Z",
+  "_ts": "2026-06-29T23:19:39.506Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -115,6 +115,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782775179495282",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Luis Longoria",
+      "driverId": "49e59c0a-5419-4beb-bf1f-da4094d1ea21",
+      "date": "2026-06-29",
+      "reviewed": "2026-06-29",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1231671903664635904; inattentive\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/42045263-5c7a-4fec-bb4d-c26b235e1546.mp4",
+      "ts": 1782775179495,
+      "synced": false
+    },
     {
       "id": "L1782774829733834",
       "board": "7W2SQKrNcXQ",
