@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-29T20:11:42.617Z",
+  "_ts": "2026-06-29T20:11:48.522Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -34,7 +34,13 @@
       "trendCount": 3,
       "logo": "https://www.google.com/s2/favicons?domain=panhandleexpress.com&sz=128"
     },
-    "_hidden": [],
+    "_hidden": [
+      "ioWX9hneUsk",
+      "81dVf6myW6q",
+      "wE72rkR7QAz",
+      "8gejhhHJj4e",
+      "KYqKJWuumPm"
+    ],
     "MfEUxnTRUV9": {
       "logo": "https://www.google.com/s2/favicons?domain=missionwrecker.com&sz=128",
       "logoZoom": 1.2
