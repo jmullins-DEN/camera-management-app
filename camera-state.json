@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-29T01:19:05.899Z",
+  "_ts": "2026-06-29T01:24:32.414Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -97,6 +97,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782696272406209",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Jesse Campos",
+      "driverId": "fa62b0df-243e-453a-8f8b-6cea77152c2e",
+      "date": "2026-06-26",
+      "reviewed": "2026-06-29",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1230498625579286528; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/147405a6-c19a-4877-ad93-9228a6fb7c3c.mp4",
+      "ts": 1782696272406,
+      "synced": false
+    },
     {
       "id": "L1782695943826530",
       "board": "7W2SQKrNcXQ",
