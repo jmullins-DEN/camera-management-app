@@ -377,6 +377,38 @@ const BOARD_WB={
       'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
     },
   },
+  'wL3U3vng54R':{ // AN Transport (DEN) — LABEL-driver board (no roster folder / no reference). Driver rides on the item as a label.
+    cam_folder:'8RvPaPPbogg', // "July Camera Management"
+    driver_type:'label',
+    driver_attr:'6f793e11-c833-4ece-8ad4-1fd793f9f1d7', // "AN Transport Driver Roster" label — option-ids come from seed b.drivers (name->id)
+    behavior_attr:'eb7117e8-cd48-493c-a942-9750bb1bfa4f', // "Behavior Observed"
+    coaching_attr:'67d36325-d30a-4cc2-b18b-8472810a829a', // "Coaching Needed"
+    date_attr:'6ddc2efb-1a0d-4c54-8f52-2993492e7c0c',     // "Camera Event Date"
+    reviewed_attr:'c40c65b2-5898-48bc-b664-785f02571974', // "Date Event Reviewed"
+    notes_attr:'46073093-f273-4fcf-b819-bfca65ee5147',    // "Notes:" longtext
+    link_attr:null, // board has no dedicated links field
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'e6928013-8ed5-42ab-b1dc-472319fd8af4', // board-local id (differs from Mission's)
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo); id is correct
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'3590776a-8592-4e5f-8736-55492218a6b8', // board-local id
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'System Alert':'c74df8b1-97cc-45bb-bb36-cda2aabebb27', // board-local id
+      'Unidentified Driver':'b132fb25-3e48-4bca-b6db-2a3d0e6bdabe', // board-local id
+    },
+  },
 };
 const wbFor=id=>BOARD_WB[id]||null;
 // inject the Test Board as a live customer (it is not in the Infinity mirror seed)
@@ -513,12 +545,16 @@ async function pushEventBack(ev,opts){
       if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
       if(ev.notes) values.push({attribute_id:wb.notes_attr,data:linkifyNotes(ev.notes)});
       if(wb.link_attr){ const lv=linkValues(ev.notes); if(lv.length) values.push({attribute_id:wb.link_attr,data:lv}); }
+      // driver assignment by board type: label option / text value ride on the item itself; reference is linked after create (below)
+      const dmode=wb.driver_type||'reference';
+      if(dmode==='label' && ev.driverId) values.push({attribute_id:wb.driver_attr,data:[ev.driverId]});
+      else if(dmode==='text' && ev.driver) values.push({attribute_id:wb.driver_attr,data:ev.driver});
       const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
       if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
       itemId=res.item.id;
       stamp({infItemId:itemId}); // record immediately so a later failure can't duplicate the item
     }
-    if(ev.driverId){
+    if((wb.driver_type||'reference')==='reference' && ev.driverId){
       const rf=await apiPost('/reference',{board:ev.board,attribute_id:wb.driver_ref_attr,from_item_id:itemId,to_item_id:ev.driverId});
       if(!rf.ok) throw new Error('reference '+(rf.status||''));
     }
@@ -548,6 +584,18 @@ async function flushQueued(opts){
 // create a new roster item in Infinity and select it
 async function pushDriverBack(bid,name){
   const wb=wbFor(bid); if(!wb) return;
+  const dmode=wb.driver_type||'reference';
+  // text-driver board: the name is written straight onto each event — no Infinity object to create
+  if(dmode==='text'){
+    const b=boardById(bid); if(b){ b.drivers=b.drivers||[]; b.drivers.push({id:name,name}); }
+    ctx.driver={name,id:name};
+    toast('Driver added: '+name); viewEntry(); return;
+  }
+  // label-driver board: a new label option must be added in Infinity (no worker route for it yet), then Refresh
+  if(dmode==='label'){
+    toast('Add “'+name+'” as a driver label in Infinity, then Refresh this board','⚠');
+    return;
+  }
   toast('Adding '+name+'…');
   try{
     const res=await apiPost('/item',{board:bid,folder_id:wb.roster_folder,values:[{attribute_id:wb.name_attr,data:name}]});
