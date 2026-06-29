@@ -505,6 +505,38 @@ const BOARD_WB={
       'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
     },
   },
+  'ebSND1QoyBs':{ // PEP MOVE - Bristlecone Group, LLC (DEN) — REFERENCE-driver board, Mission-shaped. Multi-tenant template w/ leftover fields; mapped to what live events actually use.
+    cam_folder:'oFakNYGVJxt', roster_folder:'9N9CHgHiTNg',
+    name_attr:'13167e24-a78a-4e02-a1dc-7d7852059838',        // roster "Driver Name" text field (used when adding a NEW driver)
+    driver_ref_attr:'17e7527d-da1e-4fc1-b3f3-ac3396babec5',  // "Driver Roster" reference (camera view's driver column; NOT the leftover "Assign to Driver" 810d4fbb or the label rosters)
+    behavior_attr:'4a577d28-c661-4f7a-9089-c37541f68fca',    // "Behavior Observed 2" (the field live events use, NOT a plain "Behavior Observed")
+    coaching_attr:'4e5e1ec9-2d88-419a-b2e1-1acc81cfefa7',    // "Coaching Needed"
+    date_attr:'8a1db309-89a0-4a8e-8a87-9e8cde8b0463',        // "Camera Event Date"
+    reviewed_attr:'6af016e9-e5c9-450b-8c0f-d39ff23d5854',    // "Date Event Reviewed"
+    notes_attr:'0dad4f6b-1977-4c30-af51-c99ee4ee3f55',       // "Coaching Notes" longtext (the field existing events populate)
+    link_attr:'6bdbbf6a-5083-4716-bcd5-3529aaaa0989',        // "Link to Violation" links field
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019edb2d-4b18-75b9-a5e8-c46e7f34e151', // board-local id
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label "Sign Vilolation" (typo); id correct
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{ // NOTE: this board labels 9fbbe818 as "System Alert" (not "Critical Event"); Critical Event is board-local 019d789d. Mapped by THIS board's names.
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'019d789d-9278-73a5-80b4-e3212facf382', // board-local
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'System Alert':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',   // this board's "System Alert" (global id normally Critical Event)
+      'Unidentified Driver':'019ef1da-193a-739a-b241-39164a025a99',
+    },
+  },
 };
 const wbFor=id=>BOARD_WB[id]||null;
 // inject the Test Board as a live customer (it is not in the Infinity mirror seed)
