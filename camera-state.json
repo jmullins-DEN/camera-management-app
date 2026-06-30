@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-30T22:03:10.087Z",
+  "_ts": "2026-06-30T22:03:12.708Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -136,7 +136,9 @@
       "coaching": "Face to Face",
       "notes": "56 in 45; vehicle #629 heavy",
       "ts": 1782856990077,
-      "synced": false
+      "synced": true,
+      "infItemId": "2a6ea3b0-26b9-4bd3-8f7e-4fab24c9dbf5",
+      "syncError": null
     },
     {
       "id": "L1782856904867700",
@@ -1830,6 +1832,7 @@
     "17a14c25-0b8a-41f8-971a-8eefe5271043",
     "d8330ece-9a87-41bf-976f-91d7e02aba72",
     "da7299c6-9543-41ab-a355-31ef8ba68129",
-    "b828fac6-04de-4474-8377-8eeb7e322850"
+    "b828fac6-04de-4474-8377-8eeb7e322850",
+    "2a6ea3b0-26b9-4bd3-8f7e-4fab24c9dbf5"
   ]
 }
