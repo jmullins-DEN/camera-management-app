@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-30T11:57:48.413Z",
+  "_ts": "2026-06-30T11:59:42.106Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -125,6 +125,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782820782097628",
+      "board": "xMfRLnqAN7y",
+      "driver": "Keith Smith",
+      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
+      "date": "2026-06-29",
+      "reviewed": "2026-06-30",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; safety review",
+      "ts": 1782820782097,
+      "synced": false
+    },
     {
       "id": "L1782820666709106",
       "board": "xMfRLnqAN7y",
