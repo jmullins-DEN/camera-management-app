@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-30T15:59:08.499Z",
+  "_ts": "2026-06-30T15:59:10.477Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -136,7 +136,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474992542337-1782786720446: Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1589ef2c-7489-4c58-a23c-0f747d471798.mp4",
       "ts": 1782835148422,
-      "synced": false
+      "synced": true,
+      "infItemId": "d8330ece-9a87-41bf-976f-91d7e02aba72",
+      "syncError": null
     },
     {
       "id": "L1782820782097628",
@@ -1782,6 +1784,7 @@
     "b5a190c1-fb32-417b-98c6-278ca9b2bc3a",
     "f0a43d2d-d5af-44b2-9953-6435c3784cb1",
     "c12abc19-6a82-461f-bb37-3ed88f78693b",
-    "17a14c25-0b8a-41f8-971a-8eefe5271043"
+    "17a14c25-0b8a-41f8-971a-8eefe5271043",
+    "d8330ece-9a87-41bf-976f-91d7e02aba72"
   ]
 }
