@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-30T22:01:46.691Z",
+  "_ts": "2026-06-30T22:03:10.087Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -125,6 +125,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782856990076212",
+      "board": "9RKrQRpDLcr",
+      "driver": "unknown",
+      "driverId": "c021762c-3e64-4287-a354-e55100eef4a8",
+      "date": "2026-06-30",
+      "reviewed": "2026-06-30",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "56 in 45; vehicle #629 heavy",
+      "ts": 1782856990077,
+      "synced": false
+    },
     {
       "id": "L1782856904867700",
       "board": "9RKrQRpDLcr",
