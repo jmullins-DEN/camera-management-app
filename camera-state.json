@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-30T02:59:24.294Z",
+  "_ts": "2026-06-30T11:36:16.999Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -125,6 +125,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782819376986190",
+      "board": "ioWX9hneUsk",
+      "driver": "Julio Mendoza",
+      "driverId": "019ce77c-8a80-744b-ad6c-b732fb4236e9",
+      "date": "2026-06-29",
+      "reviewed": "2026-06-30",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1231760858921730048;no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cfe32c55-bce9-4109-af22-c0862253ae89.mp4",
+      "ts": 1782819376986,
+      "synced": false
+    },
     {
       "id": "L1782779011423463",
       "board": "7d53dL31ioV",
@@ -1638,8 +1651,8 @@
     "55894f29-c311-4371-b6f7-71f7f6688807",
     "0b1e53a4-8530-441e-bf7a-2b9f634777b3",
     "7e59e2cd-8183-4546-b337-b0ed959f84c3",
-    "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
     "c362a9a2-3066-4a8f-9fda-46ed9bf587f0",
+    "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
     "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
     "2c01710e-3be0-4dfd-ac4d-46eadf10a5a6",
     "93ba4ac2-dc86-4585-9a94-2144696211cb"
