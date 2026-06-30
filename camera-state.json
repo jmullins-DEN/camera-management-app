@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-29T23:57:36.912Z",
+  "_ts": "2026-06-30T00:01:54.492Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -115,6 +115,21 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782777712207320",
+      "board": "kQeF7EsAnVz",
+      "driver": "Daniel Velasco",
+      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
+      "date": "2026-06-29",
+      "reviewed": "2026-06-29",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6043173https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/24485761-d728-4313-a018-59475e7432a3.mp4356: Driver Drowsy ",
+      "ts": 1782777712208,
+      "synced": true,
+      "infItemId": "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
+      "syncError": null
+    },
     {
       "id": "L1782777455248522",
       "board": "5gVKeGRDf8U",
@@ -1583,6 +1598,7 @@
     "55894f29-c311-4371-b6f7-71f7f6688807",
     "0b1e53a4-8530-441e-bf7a-2b9f634777b3",
     "7e59e2cd-8183-4546-b337-b0ed959f84c3",
+    "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
     "c362a9a2-3066-4a8f-9fda-46ed9bf587f0"
   ]
 }
