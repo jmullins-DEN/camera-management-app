@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-06-30T22:04:31.074Z",
+  "_ts": "2026-06-30T22:04:32.714Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -136,7 +136,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy; safety review",
       "ts": 1782857071064,
-      "synced": false
+      "synced": true,
+      "infItemId": "1fd42864-cdef-42a7-9d99-83e7f299e5f2",
+      "syncError": null
     },
     {
       "id": "L1782856990076212",
@@ -1846,6 +1848,7 @@
     "d8330ece-9a87-41bf-976f-91d7e02aba72",
     "da7299c6-9543-41ab-a355-31ef8ba68129",
     "b828fac6-04de-4474-8377-8eeb7e322850",
-    "2a6ea3b0-26b9-4bd3-8f7e-4fab24c9dbf5"
+    "2a6ea3b0-26b9-4bd3-8f7e-4fab24c9dbf5",
+    "1fd42864-cdef-42a7-9d99-83e7f299e5f2"
   ]
 }
