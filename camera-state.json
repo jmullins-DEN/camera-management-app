@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T12:28:28.063Z",
+  "_ts": "2026-07-01T12:32:06.415Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782909126405345",
+      "board": "ebSND1QoyBs",
+      "driver": "John Moore",
+      "driverId": "08be5a88-1885-48cc-8355-19ee386053e5",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera obscured",
+      "ts": 1782909126405,
+      "synced": false
+    },
     {
       "id": "L1782908905810367",
       "board": "YJNwKvzFhkj",
