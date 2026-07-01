@@ -31,7 +31,6 @@ if '--all' in sys.argv:
         ('DEN','ebSND1QoyBs','PEP MOVE - Bristlecone'),
         ('DEN','NvKEviSsMpf','Vargas Property Services'),
         ('DEN','3ZyRA72htS3','Deep River Holdings'),
-        ('DEN','ZvmN6Vq7bKF','Wicked Logistics'),
         ('DEN','wE72rkR7QAz','Five Aces Specialized Transport'),
         ('DEN','8gejhhHJj4e','Fiore & Sons'),
         ('Fedex','TbY1ioKMxCx','New Company'),
