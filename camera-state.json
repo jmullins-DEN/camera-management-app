@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:21:11.113Z",
+  "_ts": "2026-07-01T02:21:12.658Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -446,36 +446,6 @@
       "ts": 1782779741587,
       "synced": true,
       "infItemId": "93ba4ac2-dc86-4585-9a94-2144696211cb",
-      "syncError": null
-    },
-    {
-      "id": "L1782779011423463",
-      "board": "7d53dL31ioV",
-      "driver": "Walker Sims",
-      "driverId": "2af055b4-89b4-41a5-9936-a73e8f0233de",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6041490576: Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/14cb80a7-16d2-4f77-96ac-5cc96a1cf8f6.mp4",
-      "ts": 1782779011423,
-      "synced": true,
-      "infItemId": "2c01710e-3be0-4dfd-ac4d-46eadf10a5a6",
-      "syncError": null
-    },
-    {
-      "id": "L1782778732820863",
-      "board": "7d53dL31ioV",
-      "driver": "unnassigned",
-      "driverId": "d1e4004c-ed77-485c-a5b4-a6b42f67a74c",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "Alert 6041215849: Hand Held Phone Truck # 31\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/87decf1e-3a4f-465c-8faf-6fafe54e41bb.mp4",
-      "ts": 1782778732820,
-      "synced": true,
-      "infItemId": "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
       "syncError": null
     },
     {
