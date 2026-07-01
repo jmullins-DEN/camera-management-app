@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T00:14:53.524Z",
+  "_ts": "2026-07-01T00:15:32.903Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -125,6 +125,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782864932893410",
+      "board": "YfVHuM3X87v",
+      "driver": "Richard Mire",
+      "driverId": "692796af-adb0-4839-b924-65c4e91a78fc",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1782864932893,
+      "synced": false
+    },
     {
       "id": "L1782864890878811",
       "board": "YfVHuM3X87v",
