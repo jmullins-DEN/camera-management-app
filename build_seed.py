@@ -66,13 +66,17 @@ def pick_attr(attrs, *needles):
         if all(x in n for x in needles): return a
     return None
 
-# coaching must be a choice/label (e.g. "Action Taken"), never a free-text
-# notes field that contains the word "coaching" (that's how ATR resolved to a URL)
-def pick_label_attr(attrs, *needles):
+# type-filtered picker: coaching must be a choice/label ("Action Taken"), never a
+# free-text notes field containing "coaching" (that's how ATR resolved to a URL);
+# notes must be the longtext field, never a short-text "Sent Coaching Notes?" flag
+def pick_type_attr(attrs, atype, *needles):
     for a in attrs:
         n=(a.get('name') or '').lower()
-        if a.get('type')=='label' and all(x in n for x in needles): return a
+        if a.get('type')==atype and all(x in n for x in needles): return a
     return None
+
+def pick_label_attr(attrs, *needles):
+    return pick_type_attr(attrs, 'label', *needles)
 
 def val_for(item, attr_id):
     for v in item.get('values', []):
@@ -99,18 +103,31 @@ def build_board(ws, b, name):
     cam = next((f for f in folders if 'camera' in (f.get('name') or '').lower()), None)
     rec = {'ws':ws,'board':b,'name':name,'camera_folder': cam and cam['id']}
 
-    # driver field: reference roster OR label
-    drv_ref = pick_attr(attrs,'driver','roster') or pick_attr(attrs,'driver name') or pick_attr(attrs,'driver')
+    # driver field. Two working shapes:
+    #  - LABEL roster: names live as label options, readable straight off events.
+    #  - REFERENCE roster (the Master template): a shared "Driver Roster" folder
+    #    linked from every workflow. The API can't read a reference value off an
+    #    event, so a reference-driver board ALSO carries a "Driver Name" text
+    #    shadow the app stamps on write and we read here. Detect the reference
+    #    roster by name ("driver"+"roster") so we never grab a decoy label like
+    #    "Driver's Driver Manager"/"Type of Driver".
+    drv_ref = (pick_label_attr(attrs,'driver','roster')
+               or pick_type_attr(attrs,'reference','driver','roster')
+               or pick_label_attr(attrs,'driver name') or pick_label_attr(attrs,'driver')
+               or pick_attr(attrs,'driver','roster') or pick_attr(attrs,'driver name') or pick_attr(attrs,'driver'))
     rec['driver_attr'] = drv_ref and drv_ref['id']
     rec['driver_type'] = drv_ref and drv_ref.get('type')
+    # reference roster => read the driver name off the text shadow, not the ref.
+    rec['driver_name_attr'] = ((pick_type_attr(attrs,'text','driver','name') or {}).get('id')
+                               if (drv_ref and drv_ref.get('type')=='reference') else None)
 
     # camera attribute mapping
     rec['attr'] = {
         'date':     (pick_attr(attrs,'camera','date') or pick_attr(attrs,'event','date') or {}).get('id'),
         'behavior': (pick_attr(attrs,'behavior') or {}).get('id'),
         'coaching': (pick_label_attr(attrs,'coaching','needed') or pick_label_attr(attrs,'action','taken') or pick_label_attr(attrs,'coaching') or {}).get('id'),
-        'reviewed': (pick_attr(attrs,'reviewed') or {}).get('id'),
-        'notes':    (pick_attr(attrs,'note') or {}).get('id'),
+        'reviewed': (pick_attr(attrs,'event','reviewed') or pick_attr(attrs,'reviewed') or {}).get('id'),
+        'notes':    (pick_type_attr(attrs,'longtext','note') or pick_attr(attrs,'note') or {}).get('id'),
     }
     # per-board overrides for hand-built boards that don't auto-map
     ov = OVERRIDES.get(b)
@@ -119,6 +136,7 @@ def build_board(ws, b, name):
             rec['driver_attr'] = ov['driver_attr']
             rec['driver_type'] = ov.get('driver_type')
             drv_ref = next((a for a in attrs if a['id']==ov['driver_attr']), drv_ref)
+        if 'driver_name_attr' in ov: rec['driver_name_attr'] = ov['driver_name_attr']
         for k,v in (ov.get('attr') or {}).items():
             rec['attr'][k] = v
 
@@ -169,10 +187,16 @@ def build_board(ws, b, name):
         cmap={l.get('id'):l.get('name') for l in (next((x for x in attrs if x.get('id')==a['coaching']),{}) or {}).get('settings',{}).get('labels',[]) } if a['coaching'] else {}
         idname={d['id']:d['name'] for d in uniq}
         for it in items:
-            draw = val_for(it, rec['driver_attr'])
             dname=None
-            if isinstance(draw,list) and draw: dname=idname.get(draw[0]) or idname.get(draw[0])
-            elif isinstance(draw,str): dname=idname.get(draw) or draw
+            # reference-roster board: readable name lives on the text shadow
+            # ("Driver Name"); the reference itself comes back empty from the API.
+            if rec.get('driver_name_attr'):
+                nv=val_for(it, rec['driver_name_attr'])
+                if isinstance(nv,str) and nv.strip(): dname=nv.strip()
+            if dname is None:
+                draw = val_for(it, rec['driver_attr'])
+                if isinstance(draw,list) and draw: dname=idname.get(draw[0]) or idname.get(draw[0])
+                elif isinstance(draw,str): dname=idname.get(draw) or draw
             ev={
                 'driver': dname,
                 'date': val_for(it,a['date']),

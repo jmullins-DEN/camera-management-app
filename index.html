@@ -318,6 +318,7 @@ const BOARD_WB={
     cam_folder:'YdVkbccMnJT', roster_folder:'DgPgEzDV858',
     name_attr:'d58e5bb7-e4e1-46b9-bd57-3bf112e1070a',
     driver_ref_attr:'52002965-2a21-4fa6-b219-450dcf278ac8',
+    driver_name_attr:'d58e5bb7-e4e1-46b9-bd57-3bf112e1070a', // "Driver Name" text shadow — stamped on write so events read back with a driver
     behavior_attr:'7338cbf4-e699-4cfa-b34e-5a542906e515',
     coaching_attr:'1a4f684c-d13b-4b8e-8d83-b1f93bffcb8c',
     date_attr:'ccda2225-64bf-499a-8262-bac4a87ed25e',
@@ -349,6 +350,7 @@ const BOARD_WB={
     cam_folder:'C8fbgdCmqQ2', roster_folder:'tRjA68oSQ5k',
     name_attr:'61f47954-3a5e-44ae-9319-44fd8a6db756',        // "Driver Name" text field (matches Test Board convention)
     driver_ref_attr:'2be1b7b7-34f4-45d9-9710-e26a669fa286',  // "Driver Roster" reference
+    driver_name_attr:'61f47954-3a5e-44ae-9319-44fd8a6db756', // "Driver Name" text shadow — stamped on write so events read back with a driver
     behavior_attr:'49700280-e63d-4eda-acb4-ed26da7542b9',
     coaching_attr:'289b3c3b-efdf-4c72-8f95-7cbb659b7782',
     date_attr:'10e94227-c1a6-49f0-9101-37c8d9e73c89',
@@ -381,6 +383,7 @@ const BOARD_WB={
     cam_folder:'UWGj2qvhYhY', roster_folder:'HyC9jZQUDxL',
     name_attr:'fb0c41d3-ee3c-42db-8385-2ca4f5f1df15',        // "Driver Name" text field
     driver_ref_attr:'73f893b7-4824-494c-9758-1a7a23c8ffc2',  // "Driver Roster" reference
+    driver_name_attr:'fb0c41d3-ee3c-42db-8385-2ca4f5f1df15', // "Driver Name" text shadow — stamped on write so events read back with a driver
     behavior_attr:'e85a6abb-9bbd-4797-a029-2de0ef0ea872',
     coaching_attr:'7e1974e4-5618-4c77-8f0e-4c1b76eaf5cd',
     date_attr:'33f5f6e7-39d9-4569-9bef-2d39a6c3dffe',
@@ -477,6 +480,7 @@ const BOARD_WB={
     cam_folder:'ypQn6acB7cx', roster_folder:'V2wkgfAEjaq',
     name_attr:'32053a34-2bc2-499b-a8ec-f0071b93a20b',        // roster "Driver Name" text field (used only when adding a NEW driver)
     driver_ref_attr:'0a06cad2-34e2-41d7-a2e6-8f37c2336e3b',  // "Driver Roster" reference (the camera view's driver column — NOT "Assigned Driver" 577a515c)
+    driver_name_attr:'32053a34-2bc2-499b-a8ec-f0071b93a20b', // "Driver Name" text shadow — stamped on write so events read back with a driver
     behavior_attr:'38b1a87c-5f5e-45e4-ad64-01ec3e5752f4',    // "Behavior Observed"
     coaching_attr:'9f863493-26a0-4fd3-b540-41993243014e',    // "Coaching Needed"
     date_attr:'3f10a755-f54b-40b2-a2ca-5483a2cfe069',        // "Camera Event Date"
@@ -509,6 +513,7 @@ const BOARD_WB={
     cam_folder:'oFakNYGVJxt', roster_folder:'9N9CHgHiTNg',
     name_attr:'13167e24-a78a-4e02-a1dc-7d7852059838',        // roster "Driver Name" text field (used when adding a NEW driver)
     driver_ref_attr:'17e7527d-da1e-4fc1-b3f3-ac3396babec5',  // "Driver Roster" reference (camera view's driver column; NOT the leftover "Assign to Driver" 810d4fbb or the label rosters)
+    driver_name_attr:'13167e24-a78a-4e02-a1dc-7d7852059838', // "Driver Name" text shadow — stamped on write so events read back with a driver
     behavior_attr:'4a577d28-c661-4f7a-9089-c37541f68fca',    // "Behavior Observed 2" (the field live events use, NOT a plain "Behavior Observed")
     coaching_attr:'4e5e1ec9-2d88-419a-b2e1-1acc81cfefa7',    // "Coaching Needed"
     date_attr:'8a1db309-89a0-4a8e-8a87-9e8cde8b0463',        // "Camera Event Date"
@@ -1029,6 +1034,10 @@ async function pushEventBack(ev,opts){
       const dmode=wb.driver_type||'reference';
       if(dmode==='label' && ev.driverId) values.push({attribute_id:wb.driver_attr,data:[ev.driverId]});
       else if(dmode==='text' && ev.driver) values.push({attribute_id:wb.driver_attr,data:ev.driver});
+      // reference board: also stamp the driver NAME into the "Driver Name" text
+      // shadow so the dashboard can read it back (the API can't read the ref off
+      // the event). The roster reference itself is linked after create, below.
+      if(dmode==='reference' && wb.driver_name_attr && ev.driver) values.push({attribute_id:wb.driver_name_attr,data:ev.driver});
       const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
       if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
       itemId=res.item.id;
