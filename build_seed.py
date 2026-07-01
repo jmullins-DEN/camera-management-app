@@ -68,6 +68,45 @@ OVERRIDES = {
             'notes':    '6a079894-333c-468a-a4ae-eeff38c101fb',  # Notes: longtext
         },
     },
+    'JthqRmXvJ9v': {  # T-Miller — auto-detect grabbed empty "Driver Roster" (0 opts)
+        # over the real "T-Miller Driver List" (22 opts) events populate.
+        'camera_folder': '9UzRRPDdiaq',
+        'driver_attr': '019a7b18-0863-7330-ad9a-9618258e485b',  # "T-Miller Driver List"
+        'driver_type': 'label',
+        'attr': {
+            'date':     '1f2c5cfe-6489-481e-a9b4-ef3d7ee57fc2',  # Date Event Occurred
+            'reviewed': 'c02edb6d-4c67-4a47-b699-da6a9c222c79',  # Date Event was Reviewed
+            'behavior': '72361b2f-ff3f-400a-8028-e87e7681f64e',  # Behavior Observed
+            'coaching': 'fe911153-7172-4d51-b827-0cc7f9aa420a',  # Coaching Needed
+            'notes':    '10abe1d3-1186-48f0-a84a-9ef5966545cf',  # Coaching Note longtext
+        },
+    },
+    'XVLVu2Du8hc': {  # PCS Trucking — FIVE roster attrs; auto-detect grabs a big
+        # "Driver Roster" over the real "PCS Driver Roster" (71) events populate.
+        'camera_folder': 'fdP5zPifaYY',
+        'driver_attr': '019a0810-437c-7aae-88b4-3ba95ac836e3',  # "PCS Driver Roster"
+        'driver_type': 'label',
+        'attr': {
+            'date':     'fe479dd5-9cea-4e46-8f67-206316be702c',  # Camera Event Date
+            'reviewed': '179dd595-9033-467c-aa3d-67f0294b73d2',  # Date Event Reviewed
+            'behavior': '9a3de765-06b3-48c2-bb8b-f1955b2ccfbe',  # Behavior Observed
+            'coaching': 'ce659933-85c7-4282-95c3-b1d86eb991b3',  # Coaching Needed
+            'notes':    '7f7a53e2-b8ea-4574-b8bb-53ca4c657130',  # Notes: longtext
+        },
+    },
+    'ebSND1QoyBs': {  # PEP MOVE - Bristlecone — REFERENCE-driver board (shadow backfilled).
+        'camera_folder': 'oFakNYGVJxt',
+        'driver_attr': '17e7527d-da1e-4fc1-b3f3-ac3396babec5',  # reference "Driver Roster"
+        'driver_type': 'reference',
+        'driver_name_attr': '13167e24-a78a-4e02-a1dc-7d7852059838',  # text "Driver Name" shadow
+        'attr': {
+            'date':     '8a1db309-89a0-4a8e-8a87-9e8cde8b0463',  # Camera Event Date
+            'reviewed': '6af016e9-e5c9-450b-8c0f-d39ff23d5854',  # Date Event Reviewed
+            'behavior': '4a577d28-c661-4f7a-9089-c37541f68fca',  # Behavior Observed 2 (populated one)
+            'coaching': '4e5e1ec9-2d88-419a-b2e1-1acc81cfefa7',  # Coaching Needed
+            'notes':    '0dad4f6b-1977-4c30-af51-c99ee4ee3f55',  # Coaching Notes longtext
+        },
+    },
 }
 
 def ws_id(ws): return inf.WS[ws]
