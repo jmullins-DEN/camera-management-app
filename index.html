@@ -220,6 +220,24 @@ function markEntered(itemId){ if(!itemId) return; const e=LS.entered; if(!e.incl
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
 function setSetting(id,patch){ const s=LS.s; s[id]={...(s[id]||{}),...patch}; LS.s=s; pushState(); }
+// ---- durable logos: per-id settings orphan when a board leaves & returns with a
+// new Infinity id (delete/recreate, rename, rebuild). We ALSO remember each logo
+// keyed by normalized customer name so a returning board reloads its logo. ----
+const logoKey = id => { const b=boardById(id); return b?normName(b.name):''; };
+function logoFor(id){                                  // resolve id-first, then name fallback
+  const st=settingsFor(id);
+  if(st.logo) return {logo:st.logo, logoZoom:st.logoZoom||1};
+  const k=logoKey(id), m=LS.s._logos||{};
+  if(k&&m[k]&&m[k].logo) return {logo:m[k].logo, logoZoom:m[k].logoZoom||1};
+  return {logo:'', logoZoom:st.logoZoom||1};
+}
+function setLogoSetting(id,patch){                     // write per-id AND mirror to the name store
+  setSetting(id,patch);
+  const k=logoKey(id); if(!k) return;
+  const st=settingsFor(id), s=LS.s, m={...(s._logos||{})};
+  if(st.logo) m[k]={logo:st.logo, logoZoom:st.logoZoom||1}; else delete m[k];
+  s._logos=m; LS.s=s; pushState();
+}
 // boards the user has hidden from the dashboard (manual "edit available boards")
 function hiddenSet(){ const h=LS.s._hidden; return new Set(Array.isArray(h)?h:[]); }
 function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=s; pushState(); }
@@ -1191,9 +1209,9 @@ function render(){
 function viewCustomers(){
   const rows = visibleBoards().map(b=>{
     const st=settingsFor(b.board), evCount=eventsFor(b.board).length;
-    const lz=st.logoZoom||1;
-    const logo = st.logo
-      ? `<img src="${esc(st.logo)}" alt="" style="transform:scale(${lz})">`
+    const lg=logoFor(b.board), lz=lg.logoZoom;
+    const logo = lg.logo
+      ? `<img src="${esc(lg.logo)}" alt="" style="transform:scale(${lz})">`
       : esc(b.name.split(/\s+/).slice(0,2).map(w=>w[0]||'').join('').toUpperCase());
     const tcls={reference:'ref',label:'label'}[b.driver_type]||'other';
     const tc=trendCfg(b.board);
@@ -1231,7 +1249,7 @@ function viewCustomers(){
       <tbody>${rows}</tbody></table></div>`;
 }
 function setLogo(id){
-  const st=settingsFor(id), b=boardById(id)||{}, cur=st.logo||'', curZoom=st.logoZoom||1;
+  const b=boardById(id)||{}, lg=logoFor(id), cur=lg.logo||'', curZoom=lg.logoZoom||1;
   openModal(`
     <h2>Logo · ${esc(b.name||'')}</h2>
     <div class="sub">Enter the customer's website and we'll fetch a logo for you to approve.</div>
@@ -1261,7 +1279,7 @@ function logoZoomPreview(id,v){
   const z=parseFloat(v);
   const img=document.getElementById('logoZoomImg'); if(img)img.style.transform='scale('+z+')';
   const lbl=document.getElementById('logoZoomVal'); if(lbl)lbl.textContent=z.toFixed(1)+'×';
-  setSetting(id,{logoZoom:z});
+  setLogoSetting(id,{logoZoom:z});
 }
 function logoDomain(v){ return (v||'').trim().replace(/^https?:\/\//i,'').replace(/^www\./i,'').replace(/\/.*$/,'').trim(); }
 function fetchLogo(id){
@@ -1281,9 +1299,9 @@ function fetchLogo(id){
         <div class="faint" style="font-size:11px;margin-top:5px">${c.label}</div></div>`).join('')}
     </div>`;
 }
-function approveLogo(id,url){ setSetting(id,{logo:url}); toast(url?'Logo approved':'Logo removed'); closeModal(); render(); }
-function logoManual(id){ const u=prompt('Paste an image URL:',settingsFor(id).logo||''); if(u===null)return;
-  setSetting(id,{logo:u.trim()}); toast('Logo updated'); closeModal(); render(); }
+function approveLogo(id,url){ setLogoSetting(id,{logo:url}); toast(url?'Logo approved':'Logo removed'); closeModal(); render(); }
+function logoManual(id){ const u=prompt('Paste an image URL:',logoFor(id).logo||''); if(u===null)return;
+  setLogoSetting(id,{logo:u.trim()}); toast('Logo updated'); closeModal(); render(); }
 // read an uploaded image file, downscale it to keep localStorage small, store as a data URL
 function logoUpload(id,input){
   const f=input.files&&input.files[0]; if(!f)return;
@@ -1451,7 +1469,7 @@ function viewEntry(){
   const opts=boards.map(x=>`<option value="${x.board}" ${x.board===bid?'selected':''}>${esc(x.name)}</option>`).join('');
   const bevs=ENTRY_BEHAVIORS.map(x=>`<option>${esc(x)}</option>`).join('');
   const coach=COACHING.slice().sort((a,b)=>a.localeCompare(b)).map(x=>`<option>${esc(x)}</option>`).join('');
-  const logo = st.logo?`<img src="${esc(st.logo)}" style="max-height:40px;max-width:140px;display:block;transform:scale(${st.logoZoom||1});transform-origin:left center">`:'';
+  const lg=logoFor(bid); const logo = lg.logo?`<img src="${esc(lg.logo)}" style="max-height:40px;max-width:140px;display:block;transform:scale(${lg.logoZoom});transform-origin:left center">`:'';
 
   document.getElementById('main').innerHTML=`
     <div class="topbar">
@@ -1809,10 +1827,22 @@ function viewEvents(){
     ${detail}`;
 }
 
+// seed the name-keyed logo store from any logos already set per-id, so boards
+// whose logo predates this feature still reload after a remove/re-add.
+function backfillLogos(){
+  const s=LS.s, m={...(s._logos||{})}; let changed=false;
+  for(const b of SEED.boards){
+    const st=s[b.board]; if(!st||!st.logo) continue;
+    const k=normName(b.name); if(!k||m[k]) continue;
+    m[k]={logo:st.logo, logoZoom:st.logoZoom||1}; changed=true;
+  }
+  if(changed){ s._logos=m; LS.s=s; pushState(); }
+}
+backfillLogos();
 render();
 // pull shared settings + the shared event queue FIRST, then flush — so events
 // queued on another machine are merged in before we push them to Infinity.
-pullState().then(flushQueued);
+pullState().then(()=>{ backfillLogos(); flushQueued(); });
 </script>
 </body>
 </html>
