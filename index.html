@@ -1365,19 +1365,19 @@ async function checkInfinity(){
   const cbStyle='width:auto;flex:none;margin:0';
   const addList=added.length
     ? added.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" data-add="${b.id}" data-add-name="${esc(b.name)}" data-add-ws="${b.ws}" style="${cbStyle}"> <span><b>${esc(b.name)}</b></span></label></li>`).join('')
-    : '<li class="faint">None — every Infinity board is already here.</li>';
+    : '<li class="faint">None — every Infinity board is already on the dashboard.</li>';
   const remList=removed.length
     ? removed.map(b=>`<li><label style="${lblStyle}"><input type="checkbox" checked data-rm="${b.board}" style="${cbStyle}"> <span><b>${esc(b.name)}</b></span></label></li>`).join('')
-    : '<li class="faint">None — no dashboard board is missing from Infinity.</li>';
+    : '<li class="faint">None — every dashboard board was found in Infinity.</li>';
   openModal(`
     <h2>Infinity check</h2>
-    <div class="sub">Live: ${d.boards.length} boards across both workspaces.</div>
-    <h3 style="margin:16px 0 4px">New in Infinity (${added.length})</h3>
-    <div class="sub">These exist in Infinity but aren't in the dashboard yet. Check the ones you want and hit <b>Add checked boards</b> — their drivers &amp; events pull in live from Infinity right now, no waiting on anyone.</div>
+    <div class="sub">Live: ${d.boards.length} boards in Infinity.</div>
+    <h3 style="margin:16px 0 4px">Not in the dashboard (${added.length})</h3>
+    <div class="sub">These exist in Infinity but aren't on your dashboard right now — including any you've taken off. Check the ones you want and hit <b>Add checked boards</b> to bring them back; their drivers &amp; events pull in live from Infinity on the spot.</div>
     <ul style="margin:8px 0;list-style:none;padding-left:0">${addList}</ul>
     ${added.length?`<div style="margin:-2px 0 6px"><button class="sm primary" id="addBoardsBtn" onclick="addCheckedBoards()">Add checked boards</button></div>`:''}
-    <h3 style="margin:16px 0 4px">Deleted from Infinity (${removed.length})</h3>
-    <div class="sub">These are in the dashboard but no longer exist in Infinity. Checked ones get hidden.</div>
+    <h3 style="margin:16px 0 4px">On the dashboard but not found in Infinity (${removed.length})</h3>
+    <div class="sub">These are on your dashboard but the API couldn't find them — deleted, renamed, or in a workspace it can't read. Checked ones get hidden from the dashboard (they stay in Infinity).</div>
     <ul style="margin:8px 0;list-style:none;padding-left:0">${remList}</ul>
     <div class="modal-foot">
       <button onclick="closeModal()">Close</button>
@@ -1414,7 +1414,7 @@ async function addCheckedBoards(){
 function applyInfinityRemovals(){
   const ids=[...document.querySelectorAll('input[data-rm]:checked')].map(c=>c.getAttribute('data-rm'));
   const h=hiddenSet(); ids.forEach(id=>h.add(id)); setHidden([...h]);
-  toast(ids.length?`Hid ${ids.length} deleted board${ids.length>1?'s':''}`:'Nothing selected');
+  toast(ids.length?`Hid ${ids.length} board${ids.length>1?'s':''} from the dashboard`:'Nothing selected');
   closeModal(); render();
 }
 
