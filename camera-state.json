@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:56:27.042Z",
+  "_ts": "2026-07-01T02:58:52.407Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782874732369875",
+      "board": "KYqKJWuumPm",
+      "driver": "Doug McCosh",
+      "driverId": "019dd5fe-8c6e-730e-8433-e9c1bea56420",
+      "date": "2026-06-30",
+      "reviewed": "2026-06-30",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474983617430-1782844126458: Truck # 240 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/80471e86-8a2f-48b3-989c-71ec1ff82df3.mp4",
+      "ts": 1782874732369,
+      "synced": false
+    },
     {
       "id": "L1782874582148103",
       "board": "KYqKJWuumPm",
