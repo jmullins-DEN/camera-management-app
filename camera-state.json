@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:21:13.791Z",
+  "_ts": "2026-07-01T02:21:14.961Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -326,81 +326,6 @@
       "ts": 1782820666709,
       "synced": true,
       "infItemId": "c12abc19-6a82-461f-bb37-3ed88f78693b",
-      "syncError": null
-    },
-    {
-      "id": "L1782819857322339",
-      "board": "ioWX9hneUsk",
-      "driver": "Mark Stephens",
-      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "\nAlert 1231485951637880832; driver drowsy; safety review\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/335af75a-e734-430f-8653-1ee33282d5c8.mp4",
-      "ts": 1782819857322,
-      "synced": true,
-      "infItemId": "f0a43d2d-d5af-44b2-9953-6435c3784cb1",
-      "syncError": null
-    },
-    {
-      "id": "L1782819763321544",
-      "board": "ioWX9hneUsk",
-      "driver": "Mark Stephens",
-      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "\nAlert 1231488197733810176; 65 in 55\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8d7c2ad4-ec22-4b18-9f73-51ec08fca295.mp4",
-      "ts": 1782819763321,
-      "synced": true,
-      "infItemId": "b5a190c1-fb32-417b-98c6-278ca9b2bc3a",
-      "syncError": null
-    },
-    {
-      "id": "L1782819694518262",
-      "board": "ioWX9hneUsk",
-      "driver": "Ed Smith",
-      "driverId": "cb06fdd5-3bd5-429a-a698-2aaf7f714770",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 1231573810831065088; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/820e9962-2641-4336-aa02-7ea52cf0c640.mp4",
-      "ts": 1782819694518,
-      "synced": true,
-      "infItemId": "45065eeb-655b-4eed-b9c8-3e4a7068847e",
-      "syncError": null
-    },
-    {
-      "id": "L1782819543138990",
-      "board": "ioWX9hneUsk",
-      "driver": "Ed Smith",
-      "driverId": "cb06fdd5-3bd5-429a-a698-2aaf7f714770",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Seat Belt",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 1231596660036108288; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/87adc744-d0a9-47e9-951a-336f054dbc1e.mp4",
-      "ts": 1782819543138,
-      "synced": true,
-      "infItemId": "304488e0-627e-4701-b1b8-f2e7666d5196",
-      "syncError": null
-    },
-    {
-      "id": "L1782819376986190",
-      "board": "ioWX9hneUsk",
-      "driver": "Julio Mendoza",
-      "driverId": "019ce77c-8a80-744b-ad6c-b732fb4236e9",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Seat Belt",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 1231760858921730048;no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cfe32c55-bce9-4109-af22-c0862253ae89.mp4",
-      "ts": 1782819376986,
-      "synced": true,
-      "infItemId": "607e3a5d-3565-4251-be39-2613ecb2991e",
       "syncError": null
     },
     {
