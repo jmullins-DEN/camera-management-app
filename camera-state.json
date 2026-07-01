@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782945036620625",
+      "board": "9RKrQRpDLcr",
+      "driver": "Kyle Ray",
+      "driverId": "184c5016-fed8-44f2-b25d-c0fd65499c57",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "78 on 65",
+      "ts": 1782945036620,
+      "synced": false
+    },
+    {
       "id": "L1782944937746792",
       "board": "9RKrQRpDLcr",
       "driver": "William Foley",
@@ -2715,5 +2728,5 @@
     "65eae1d1-d626-40c2-bac0-24821d87fff7",
     "c39bb966-865d-4772-a061-51d4ca9d20cd"
   ],
-  "_ts": "2026-07-01T22:29:00.061Z"
+  "_ts": "2026-07-01T22:30:36.633Z"
 }
