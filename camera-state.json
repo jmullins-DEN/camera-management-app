@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T12:13:33.211Z",
+  "_ts": "2026-07-01T12:14:50.105Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782908090095674",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1566570271; hard brake; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/50f5d701-ceb3-4bca-82ae-ea9efa0d24dd.mp4\n",
+      "ts": 1782908090095,
+      "synced": false
+    },
     {
       "id": "L1782908011515967",
       "board": "ioWX9hneUsk",
