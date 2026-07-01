@@ -35,8 +35,8 @@ if '--all' in sys.argv:
         ('DEN','8gejhhHJj4e','Fiore & Sons'),
         ('Fedex','TbY1ioKMxCx','New Company'),
         ('Fedex','6g2HwdVgnhf','KAS Global Services'),
-        ('Fedex','xMfRLnqAN7y','NextDriv'),
-        ('Fedex','YJNwKvzFhkj','Aero Flex Logistix'),
+        ('DEN','xMfRLnqAN7y','NextDriv'),
+        ('DEN','YJNwKvzFhkj','Aero Flex Logistix'),
     ]
 
 # Per-board overrides for hand-built boards whose fields don't auto-detect.
