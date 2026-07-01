@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:11:16.329Z",
+  "_ts": "2026-07-01T02:17:39.847Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782872259773594",
+      "board": "kQeF7EsAnVz",
+      "driver": "Miguel Mora",
+      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
+      "date": "2026-06-30",
+      "reviewed": "2026-06-30",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 6048768467: Traffic light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/15aed216-9e86-49e6-a91a-40a9c650184f.mp4",
+      "ts": 1782872259773,
+      "synced": false
+    },
     {
       "id": "L1782871874460551",
       "board": "kQeF7EsAnVz",
