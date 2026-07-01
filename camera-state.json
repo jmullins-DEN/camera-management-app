@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T00:15:32.903Z",
+  "_ts": "2026-07-01T00:15:34.117Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -136,7 +136,8 @@
       "coaching": "Coaching Notes",
       "notes": "following too close",
       "ts": 1782864932893,
-      "synced": false
+      "synced": false,
+      "infItemId": "d04756fd-e6e7-4d7b-b3dd-39a5923f6160"
     },
     {
       "id": "L1782864890878811",
