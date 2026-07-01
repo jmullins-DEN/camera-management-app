@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782945614162464",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Timothy Marquez",
+      "driverId": "2167c4b0-bae4-4cf5-b988-711b489626a5",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-01",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1232348969619849216; following too close; hard brake\n",
+      "ts": 1782945614162,
+      "synced": false
+    },
+    {
       "id": "L1782945402788105",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -2779,5 +2792,5 @@
     "4077a14f-01cb-4cad-abec-c709dd402cd4",
     "0e3b4231-e8c4-4187-b40a-98b8effc368e"
   ],
-  "_ts": "2026-07-01T22:37:00.005Z"
+  "_ts": "2026-07-01T22:40:14.175Z"
 }
