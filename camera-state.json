@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:11:14.517Z",
+  "_ts": "2026-07-01T02:11:16.329Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -129,7 +129,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6045673911: Truck # 170992 Seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0776b7b2-14c0-45dc-8779-934afa107eb3.mp4",
       "ts": 1782871874461,
-      "synced": false
+      "synced": true,
+      "infItemId": "0b8f6439-6e56-425e-b229-e9218c5ad8ec",
+      "syncError": null
     },
     {
       "id": "L1782864932893410",
@@ -2091,6 +2093,7 @@
     "35d40163-4bcd-4093-9cfd-336650774632",
     "dcefb445-29f8-479e-bcd8-8ea9a34a6b36",
     "9fcf75b9-6ea2-4fbc-9240-e163f275ee1b",
-    "d04756fd-e6e7-4d7b-b3dd-39a5923f6160"
+    "d04756fd-e6e7-4d7b-b3dd-39a5923f6160",
+    "0b8f6439-6e56-425e-b229-e9218c5ad8ec"
   ]
 }
