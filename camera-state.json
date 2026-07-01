@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T01:11:16.430Z",
+  "_ts": "2026-07-01T01:15:05.971Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -485,36 +485,6 @@
       "syncError": null
     },
     {
-      "id": "L1782836023146799",
-      "board": "KYqKJWuumPm",
-      "driver": "Unspecified",
-      "driverId": "e04142c7-4c17-46b8-af70-b3f1b2a8852e",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "Alert 281474980531324-1782787655744: Truck # 168 Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/48db7588-9b49-48fa-ad2b-5559d431bb24.mp4",
-      "ts": 1782836023146,
-      "synced": true,
-      "infItemId": "da7299c6-9543-41ab-a355-31ef8ba68129",
-      "syncError": null
-    },
-    {
-      "id": "L1782835148422396",
-      "board": "KYqKJWuumPm",
-      "driver": "Joseph Pulliam",
-      "driverId": "019dd5ff-32f9-7761-84fc-14cc7b029e7d",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 281474992542337-1782786720446: Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1589ef2c-7489-4c58-a23c-0f747d471798.mp4",
-      "ts": 1782835148422,
-      "synced": true,
-      "infItemId": "d8330ece-9a87-41bf-976f-91d7e02aba72",
-      "syncError": null
-    },
-    {
       "id": "L1782820782097628",
       "board": "xMfRLnqAN7y",
       "driver": "Keith Smith",
@@ -617,21 +587,6 @@
       "ts": 1782819376986,
       "synced": true,
       "infItemId": "607e3a5d-3565-4251-be39-2613ecb2991e",
-      "syncError": null
-    },
-    {
-      "id": "L1782779741587172",
-      "board": "KYqKJWuumPm",
-      "driver": "Kevin Wilson",
-      "driverId": "019dd5ff-7f5d-7731-909d-df67f2beadd9",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 281474980595998-1782751215149: Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4f4cbcf5-517e-402b-b692-1defa96168fa.mp4",
-      "ts": 1782779741587,
-      "synced": true,
-      "infItemId": "93ba4ac2-dc86-4585-9a94-2144696211cb",
       "syncError": null
     },
     {
