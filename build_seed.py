@@ -29,12 +29,8 @@ if '--all' in sys.argv:
         # Apple Towing (rXWFWcd75XL) removed — account ends 2026-06-30
         ('DEN','81dVf6myW6q','Garmat USA'),
         ('DEN','ebSND1QoyBs','PEP MOVE - Bristlecone'),
-        ('DEN','NvKEviSsMpf','Vargas Property Services'),
         ('DEN','3ZyRA72htS3','Deep River Holdings'),
-        ('DEN','wE72rkR7QAz','Five Aces Specialized Transport'),
         ('DEN','8gejhhHJj4e','Fiore & Sons'),
-        ('Fedex','TbY1ioKMxCx','New Company'),
-        ('Fedex','6g2HwdVgnhf','KAS Global Services'),
         ('DEN','xMfRLnqAN7y','NextDriv'),
         ('DEN','YJNwKvzFhkj','Aero Flex Logistix'),
     ]
