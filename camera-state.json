@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T00:10:50.812Z",
+  "_ts": "2026-07-01T00:10:52.180Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -136,7 +136,9 @@
       "coaching": "Coaching Notes",
       "notes": "rolling stop ",
       "ts": 1782864650803,
-      "synced": false
+      "synced": true,
+      "infItemId": "8b92495a-6d34-4060-91c8-45892574481e",
+      "syncError": null
     },
     {
       "id": "L1782864607933596",
@@ -2107,6 +2109,7 @@
     "d8fd30a8-a51f-49c2-90bd-fc49cb0a680f",
     "6884f310-e77c-4f3e-a982-83cd85cb1791",
     "a5e770fc-4f0a-4a1b-ad5a-bcb2ac86b871",
-    "87e07875-c060-4074-9af4-bacf48416e42"
+    "87e07875-c060-4074-9af4-bacf48416e42",
+    "8b92495a-6d34-4060-91c8-45892574481e"
   ]
 }
