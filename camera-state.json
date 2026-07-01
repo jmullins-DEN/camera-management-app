@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T12:32:09.071Z",
+  "_ts": "2026-07-01T12:33:04.369Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782909184360225",
+      "board": "ebSND1QoyBs",
+      "driver": "KARVELL OLIVER",
+      "driverId": "66820273-3d66-474d-b1fd-a0498b80b8d3",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "no seatbelt",
+      "ts": 1782909184360,
+      "synced": false
+    },
     {
       "id": "L1782909126405345",
       "board": "ebSND1QoyBs",
