@@ -55,6 +55,19 @@ OVERRIDES = {
         'driver_attr': '18551c98-7fe7-42bf-b000-43a3e813d815',  # "Alandon Tow Roster" label
         'driver_type': 'label',
     },
+    '4rNDuSrCaap': {  # All City Tow — TWO roster attrs; auto-detect grabs the wrong
+        # "Driver Roster" (1ade285d, 140 "Last,First"). Pin the real one + attrs.
+        'camera_folder': 'a6WNieruvo8',
+        'driver_attr': 'aacdaf03-b809-42a4-a8e5-1c96d720db51',  # "All City Tow Driver Roster" (69)
+        'driver_type': 'label',
+        'attr': {
+            'date':     '87824913-df27-41cc-8d74-e4f26f7ae380',  # Camera Event Date
+            'reviewed': '1b63e265-30cd-4438-956f-af0276be9d9f',  # Date Event Reviewed
+            'behavior': 'c7ce22a6-d4ab-4d08-ab9f-e2b78a5acc8a',  # Behavior Observed
+            'coaching': '4474fabe-b947-4dda-9079-0521e04fd49d',  # Coaching Needed
+            'notes':    '6a079894-333c-468a-a4ae-eeff38c101fb',  # Notes: longtext
+        },
+    },
 }
 
 def ws_id(ws): return inf.WS[ws]
