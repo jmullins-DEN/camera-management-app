@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:17:39.847Z",
+  "_ts": "2026-07-01T02:17:41.678Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -129,7 +129,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6048768467: Traffic light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/15aed216-9e86-49e6-a91a-40a9c650184f.mp4",
       "ts": 1782872259773,
-      "synced": false
+      "synced": true,
+      "infItemId": "bac3499f-b4d8-49b7-bde0-41bc6d49b3ae",
+      "syncError": null
     },
     {
       "id": "L1782871874460551",
@@ -2107,6 +2109,7 @@
     "dcefb445-29f8-479e-bcd8-8ea9a34a6b36",
     "9fcf75b9-6ea2-4fbc-9240-e163f275ee1b",
     "d04756fd-e6e7-4d7b-b3dd-39a5923f6160",
-    "0b8f6439-6e56-425e-b229-e9218c5ad8ec"
+    "0b8f6439-6e56-425e-b229-e9218c5ad8ec",
+    "bac3499f-b4d8-49b7-bde0-41bc6d49b3ae"
   ]
 }
