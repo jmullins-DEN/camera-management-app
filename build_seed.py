@@ -11,12 +11,10 @@ HERE = pathlib.Path(__file__).parent
 
 # (workspace, board_id, display_name) — the camera boards
 BOARDS = [
-    ('DEN','di85P7h2apV','Allstar Towing & Recovery'),
     ('DEN','8gejhhHJj4e','Fiore & Sons'),
 ]
 if '--all' in sys.argv:
     BOARDS = [
-        ('DEN','di85P7h2apV','Allstar Towing & Recovery'),
         ('DEN','8BUntjK1TqV','Panhandle Express'),
         # Apex Waste (VAixNEe3Cb5) removed — accident tracking only, no cameras
         ('DEN','XVLVu2Du8hc','PCS Trucking'),
@@ -29,7 +27,6 @@ if '--all' in sys.argv:
         # Apple Towing (rXWFWcd75XL) removed — account ends 2026-06-30
         ('DEN','81dVf6myW6q','Garmat USA'),
         ('DEN','ebSND1QoyBs','PEP MOVE - Bristlecone'),
-        ('DEN','3ZyRA72htS3','Deep River Holdings'),
         ('DEN','8gejhhHJj4e','Fiore & Sons'),
         ('DEN','xMfRLnqAN7y','NextDriv'),
         ('DEN','YJNwKvzFhkj','Aero Flex Logistix'),
