@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T12:12:36.898Z",
+  "_ts": "2026-07-01T12:13:31.526Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782908011515967",
+      "board": "ioWX9hneUsk",
+      "driver": "Alexis Vega",
+      "driverId": "52e82bc0-8ce1-4fa1-8368-e13925a70493",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1231787351991287808; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3709a274-3366-4db2-82ed-5a011115bae6.mp4",
+      "ts": 1782908011515,
+      "synced": false
+    },
     {
       "id": "L1782907955122752",
       "board": "ioWX9hneUsk",
