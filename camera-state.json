@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T12:10:44.153Z",
+  "_ts": "2026-07-01T12:11:40.049Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782907900038662",
+      "board": "ioWX9hneUsk",
+      "driver": "Dustin Smith",
+      "driverId": "0ddd84c9-5731-4971-8eaf-5d530f11ac93",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1232000936927461377; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/47d38cdb-9353-4084-8145-b02aef7f95d8.mp4",
+      "ts": 1782907900038,
+      "synced": false
+    },
     {
       "id": "L1782907842545467",
       "board": "ioWX9hneUsk",
