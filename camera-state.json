@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:06:47.356Z",
+  "_ts": "2026-07-01T02:11:14.517Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782871874460551",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-06-30",
+      "reviewed": "2026-06-30",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "Alert 6045673911: Truck # 170992 Seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0776b7b2-14c0-45dc-8779-934afa107eb3.mp4",
+      "ts": 1782871874461,
+      "synced": false
+    },
     {
       "id": "L1782864932893410",
       "board": "YfVHuM3X87v",
