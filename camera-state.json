@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T00:12:22.786Z",
+  "_ts": "2026-07-01T00:13:58.450Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -125,6 +125,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L1782864838441531",
+      "board": "YfVHuM3X87v",
+      "driver": "Manuel Nunez Valentin",
+      "driverId": "b451cae4-3ad8-4f87-adf1-5cb9dc50c26f",
+      "date": "2026-06-30",
+      "reviewed": "2026-07-01",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "hard brake; near miss",
+      "ts": 1782864838441,
+      "synced": false
+    },
     {
       "id": "L1782864740109955",
       "board": "YfVHuM3X87v",
