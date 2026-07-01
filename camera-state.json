@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782946000450576",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Micah Escoto",
+      "driverId": "9e1415d5-732f-47c0-a720-879a06ae761b",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-01",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1232298307129344000; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a1bcc1da-76ed-4038-8bca-7359e37f3d44.mp4",
+      "ts": 1782946000450,
+      "synced": false
+    },
+    {
       "id": "L1782945810605980",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -2827,5 +2840,5 @@
     "62347998-f510-4518-a904-503fef191488",
     "15f4afd4-be6e-4c96-b936-911dc5a085e7"
   ],
-  "_ts": "2026-07-01T22:43:36.056Z"
+  "_ts": "2026-07-01T22:46:40.463Z"
 }
