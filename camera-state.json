@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T01:15:34.056Z",
+  "_ts": "2026-07-01T01:16:22.659Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -616,21 +616,6 @@
       "ts": 1782778732820,
       "synced": true,
       "infItemId": "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
-      "syncError": null
-    },
-    {
-      "id": "L1782777712207320",
-      "board": "kQeF7EsAnVz",
-      "driver": "Daniel Velasco",
-      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6043173https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/24485761-d728-4313-a018-59475e7432a3.mp4356: Driver Drowsy ",
-      "ts": 1782777712208,
-      "synced": true,
-      "infItemId": "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
       "syncError": null
     },
     {
