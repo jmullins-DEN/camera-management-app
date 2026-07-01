@@ -1,5 +1,5 @@
 {
-  "_ts": "2026-07-01T02:43:25.863Z",
+  "_ts": "2026-07-01T02:46:52.576Z",
   "settings": {
     "YJNwKvzFhkj": {
       "logo": "https://www.google.com/s2/favicons?domain=aeroflexlogistix.com&sz=128",
@@ -118,6 +118,19 @@
   },
   "drivers": [],
   "local": [
+    {
+      "id": "L178287401252912",
+      "board": "7d53dL31ioV",
+      "driver": "Truck 26",
+      "driverId": "0199c59e-c79e-7779-a3de-5b50f2c5a05f",
+      "date": "2026-06-30",
+      "reviewed": "2026-06-30",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6049872498: Truck 26 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f6065bfc-6530-45aa-837b-75dc28d28c79.mp4",
+      "ts": 1782874012529,
+      "synced": false
+    },
     {
       "id": "L1782873803958590",
       "board": "7d53dL31ioV",
