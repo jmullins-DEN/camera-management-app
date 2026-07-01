@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782945648610802",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Timothy Marquez",
+      "driverId": "2167c4b0-bae4-4cf5-b988-711b489626a5",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-01",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1232173983126945792; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/df424aff-dcb9-4fb4-aa48-25b81dbe1839.mp4",
+      "ts": 1782945648610,
+      "synced": false
+    },
+    {
       "id": "L1782945614162464",
       "board": "7W2SQKrNcXQ",
       "driver": "Timothy Marquez",
@@ -2795,5 +2808,5 @@
     "0e3b4231-e8c4-4187-b40a-98b8effc368e",
     "2c5e701a-534d-476b-8783-2b65b8db4beb"
   ],
-  "_ts": "2026-07-01T22:40:22.730Z"
+  "_ts": "2026-07-01T22:40:48.623Z"
 }
