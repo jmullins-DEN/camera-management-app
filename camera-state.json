@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782995322130222",
+      "board": "XVLVu2Du8hc",
+      "driver": "Moroni Holm",
+      "driverId": "019a0810-437c-7aae-88b4-81ec07855773",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": " 71 in 55",
+      "ts": 1782995322130,
+      "synced": false
+    },
+    {
       "id": "L1782995260299157",
       "board": "XVLVu2Du8hc",
       "driver": "William Burch",
@@ -3115,5 +3128,5 @@
     "1a10045d-79cd-4030-9d66-eabcb95b34c3",
     "d566d10d-051d-4f75-bb7a-10fe8a7235bf"
   ],
-  "_ts": "2026-07-02T12:27:43.844Z"
+  "_ts": "2026-07-02T12:28:42.142Z"
 }
