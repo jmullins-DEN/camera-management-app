@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782994837997141",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6057986969; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ae7a1d73-6852-4d98-80ca-e9d91c375bde.mp4\n",
+      "ts": 1782994837997,
+      "synced": false
+    },
+    {
       "id": "L1782994697965844",
       "board": "ioWX9hneUsk",
       "driver": "Julio Mendoza",
@@ -3003,5 +3016,5 @@
     "638c0b89-38ff-47b4-8041-36fe80223492",
     "5ff1be6a-d71f-48e8-a4d2-c0657ac84aed"
   ],
-  "_ts": "2026-07-02T12:18:19.759Z"
+  "_ts": "2026-07-02T12:20:38.011Z"
 }
