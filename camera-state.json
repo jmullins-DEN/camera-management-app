@@ -203,6 +203,21 @@
   },
   "local": [
     {
+      "id": "L178299411834561",
+      "board": "kQeF7EsAnVz",
+      "driver": "Daniel Velasco",
+      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6054174556: Truck #157741 Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/19031e17-7e2a-4ce1-be39-8abf7970b39f.mp4",
+      "ts": 1782994118345,
+      "synced": true,
+      "infItemId": "e7c67da4-e525-4e9f-8daa-008e3942748d",
+      "syncError": null
+    },
+    {
       "id": "L1782994090320419",
       "board": "4rNDuSrCaap",
       "driver": "Rodney Wilborn",
@@ -2831,8 +2846,8 @@
     "55894f29-c311-4371-b6f7-71f7f6688807",
     "0b1e53a4-8530-441e-bf7a-2b9f634777b3",
     "7e59e2cd-8183-4546-b337-b0ed959f84c3",
-    "c362a9a2-3066-4a8f-9fda-46ed9bf587f0",
     "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
+    "c362a9a2-3066-4a8f-9fda-46ed9bf587f0",
     "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
     "2c01710e-3be0-4dfd-ac4d-46eadf10a5a6",
     "93ba4ac2-dc86-4585-9a94-2144696211cb",
@@ -2920,8 +2935,9 @@
     "69b43031-5ea1-4020-abae-0e228897bf2e",
     "2470d68f-0801-431b-9099-ca47114c9e5c",
     "f18d21de-60cb-4d89-8702-357d7baa2c28",
+    "e7c67da4-e525-4e9f-8daa-008e3942748d",
     "be662831-90d4-41f6-aa33-1845108eb271",
     "081d895b-c5d6-4424-8b76-95c83844065b"
   ],
-  "_ts": "2026-07-02T12:08:11.980Z"
+  "_ts": "2026-07-02T12:08:41.055Z"
 }
