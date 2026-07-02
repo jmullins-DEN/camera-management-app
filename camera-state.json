@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782994921015389",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6058082897; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c660d7c6-9c94-4089-aa34-f5acb44a0dd2.mp4\n",
+      "ts": 1782994921015,
+      "synced": false
+    },
+    {
       "id": "L1782994837997141",
       "board": "ic6o6QgzpVM",
       "driver": "De La Garza, Beto",
@@ -3019,5 +3032,5 @@
     "5ff1be6a-d71f-48e8-a4d2-c0657ac84aed",
     "4d297159-d83d-4c0f-ac7c-9961f4992fd1"
   ],
-  "_ts": "2026-07-02T12:20:39.703Z"
+  "_ts": "2026-07-02T12:22:01.027Z"
 }
