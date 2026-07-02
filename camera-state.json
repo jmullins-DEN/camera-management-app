@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782995379287595",
+      "board": "XVLVu2Du8hc",
+      "driver": "Benjamin Peppenger",
+      "driverId": "019d9c45-1ec1-775e-ab94-00c243164179",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "72 in 55",
+      "ts": 1782995379287,
+      "synced": false
+    },
+    {
       "id": "L1782995322130222",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -3131,5 +3144,5 @@
     "d566d10d-051d-4f75-bb7a-10fe8a7235bf",
     "e9542a23-1aad-4f20-adf1-00bdb5f0927f"
   ],
-  "_ts": "2026-07-02T12:28:44.766Z"
+  "_ts": "2026-07-02T12:29:39.300Z"
 }
