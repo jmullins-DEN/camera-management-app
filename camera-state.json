@@ -203,6 +203,21 @@
   },
   "local": [
     {
+      "id": "L178299521854043",
+      "board": "KYqKJWuumPm",
+      "driver": "unassigned",
+      "driverId": null,
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980531324-1782939707890: Truck # 168\nHand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/034c28fd-44e9-4cc7-a639-0b293af5e0cf.mp4",
+      "ts": 1782995218540,
+      "synced": true,
+      "infItemId": "d566d10d-051d-4f75-bb7a-10fe8a7235bf",
+      "syncError": null
+    },
+    {
       "id": "L1782995207529360",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Schroeder",
@@ -2981,8 +2996,8 @@
     "55894f29-c311-4371-b6f7-71f7f6688807",
     "0b1e53a4-8530-441e-bf7a-2b9f634777b3",
     "7e59e2cd-8183-4546-b337-b0ed959f84c3",
-    "c362a9a2-3066-4a8f-9fda-46ed9bf587f0",
     "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
+    "c362a9a2-3066-4a8f-9fda-46ed9bf587f0",
     "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
     "2c01710e-3be0-4dfd-ac4d-46eadf10a5a6",
     "93ba4ac2-dc86-4585-9a94-2144696211cb",
@@ -3070,18 +3085,19 @@
     "69b43031-5ea1-4020-abae-0e228897bf2e",
     "2470d68f-0801-431b-9099-ca47114c9e5c",
     "f18d21de-60cb-4d89-8702-357d7baa2c28",
+    "e7c67da4-e525-4e9f-8daa-008e3942748d",
     "be662831-90d4-41f6-aa33-1845108eb271",
     "081d895b-c5d6-4424-8b76-95c83844065b",
     "f8c67476-198d-42d0-ae88-7dec218343a8",
-    "e7c67da4-e525-4e9f-8daa-008e3942748d",
     "9bd1ec25-1ed2-4419-a6e1-298166260d34",
     "638c0b89-38ff-47b4-8041-36fe80223492",
     "5ff1be6a-d71f-48e8-a4d2-c0657ac84aed",
+    "d566d10d-051d-4f75-bb7a-10fe8a7235bf",
     "4d297159-d83d-4c0f-ac7c-9961f4992fd1",
     "1116b110-3256-4bc8-b7b5-0b964732c213",
     "9e78977e-0653-4814-942d-4b0ab339d500",
     "9a3caa19-756a-4b51-a6f1-f57ba9bbe8c2",
     "ea9d5246-4953-4e2d-af5f-6b327bf1c30e"
   ],
-  "_ts": "2026-07-02T12:26:49.164Z"
+  "_ts": "2026-07-02T12:27:01.277Z"
 }
