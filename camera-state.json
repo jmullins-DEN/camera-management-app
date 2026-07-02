@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782995207529360",
+      "board": "XVLVu2Du8hc",
+      "driver": "Michael Schroeder",
+      "driverId": "019a0810-437c-7aae-88b4-88beabc4933d",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "67 in 55",
+      "ts": 1782995207529,
+      "synced": false
+    },
+    {
       "id": "L1782995156124958",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Tanner",
@@ -3067,5 +3080,5 @@
     "9e78977e-0653-4814-942d-4b0ab339d500",
     "9a3caa19-756a-4b51-a6f1-f57ba9bbe8c2"
   ],
-  "_ts": "2026-07-02T12:25:58.761Z"
+  "_ts": "2026-07-02T12:26:47.541Z"
 }
