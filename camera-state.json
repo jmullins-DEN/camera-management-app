@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782996472890184",
+      "board": "ebSND1QoyBs",
+      "driver": "Shamonte Jacobs",
+      "driverId": "d894f236-6b02-433e-9b97-786045a5d4e2",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "hard brake; near miss",
+      "ts": 1782996472890,
+      "synced": false
+    },
+    {
       "id": "L1782996345321445",
       "board": "ebSND1QoyBs",
       "driver": "Shamonte Jacobs",
@@ -3339,5 +3352,5 @@
     "5c63f7fd-c4f2-4ff9-8a3b-d0e1e3937028",
     "e79c5342-47a4-4cf9-bab3-1da782ee2923"
   ],
-  "_ts": "2026-07-02T12:45:48.446Z"
+  "_ts": "2026-07-02T12:47:52.903Z"
 }
