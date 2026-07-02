@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1782995104644134",
+      "board": "XVLVu2Du8hc",
+      "driver": "Brian Apgood",
+      "driverId": "019a0810-437c-7aae-88b4-9d10a7d6f412",
+      "date": "2026-07-01",
+      "reviewed": "2026-07-02",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1782995104644,
+      "synced": false
+    },
+    {
       "id": "L1782994921015389",
       "board": "ic6o6QgzpVM",
       "driver": "Rios, Jesse",
@@ -3035,5 +3048,5 @@
     "4d297159-d83d-4c0f-ac7c-9961f4992fd1",
     "1116b110-3256-4bc8-b7b5-0b964732c213"
   ],
-  "_ts": "2026-07-02T12:22:03.770Z"
+  "_ts": "2026-07-02T12:25:04.658Z"
 }
