@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783092504884241",
+      "board": "9RKrQRpDLcr",
+      "driver": "Adam Johnson",
+      "driverId": "53dd3c8a-6ea8-4c98-bec0-6a61811c70a8",
+      "date": "2026-07-02",
+      "reviewed": "2026-07-03",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "",
+      "ts": 1783092504884,
+      "synced": false
+    },
+    {
       "id": "L178309239969152",
       "board": "9RKrQRpDLcr",
       "driver": "Jason Walker",
@@ -3499,5 +3512,5 @@
     "0cdd8875-24f0-443e-b5d4-c544d7de1752",
     "4f9b111a-ea49-446b-8e0f-b83970f96716"
   ],
-  "_ts": "2026-07-03T15:26:41.680Z"
+  "_ts": "2026-07-03T15:28:24.905Z"
 }
