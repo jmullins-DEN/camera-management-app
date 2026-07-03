@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783092291420229",
+      "board": "9RKrQRpDLcr",
+      "driver": "Harley Twidwell",
+      "driverId": "ab76d8cd-5711-44da-b6eb-d0cf661961d4",
+      "date": "2026-07-02",
+      "reviewed": "2026-07-03",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "",
+      "ts": 1783092291420,
+      "synced": false
+    },
+    {
       "id": "L178302566033436",
       "board": "7W2SQKrNcXQ",
       "driver": "Marcello Franco",
@@ -3467,5 +3480,5 @@
     "716294a2-6194-4dd3-9fd7-78819991db78",
     "888279e2-3674-4a1e-87f9-ad3c9cd12ba2"
   ],
-  "_ts": "2026-07-02T20:54:23.780Z"
+  "_ts": "2026-07-03T15:24:51.445Z"
 }
