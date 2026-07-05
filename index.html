@@ -333,38 +333,6 @@ const AUTO_CRITICAL=['Drowsy Driving','Safety-Critical Event'];
 const AUTO_COACH={'Camera Exception':'System Alert'};
 // boards with LIVE Infinity write-back (board-by-board rollout; all others stay local-queue)
 const BOARD_WB={
-  'NpiJpYMZtkC':{ // Test Board (clone of New Customer Board 2)
-    cam_folder:'YdVkbccMnJT', roster_folder:'DgPgEzDV858',
-    name_attr:'d58e5bb7-e4e1-46b9-bd57-3bf112e1070a',
-    driver_ref_attr:'52002965-2a21-4fa6-b219-450dcf278ac8',
-    driver_name_attr:'d58e5bb7-e4e1-46b9-bd57-3bf112e1070a', // "Driver Name" text shadow — stamped on write so events read back with a driver
-    behavior_attr:'7338cbf4-e699-4cfa-b34e-5a542906e515',
-    coaching_attr:'1a4f684c-d13b-4b8e-8d83-b1f93bffcb8c',
-    date_attr:'ccda2225-64bf-499a-8262-bac4a87ed25e',
-    reviewed_attr:'b4baa30d-32c1-4f97-8a93-60705cfcda94',
-    notes_attr:'dd63b0a2-dc9f-46b0-bbd9-cbd5f1d2ffeb',
-    link_attr:'50946995-e69c-4642-9066-fe25696d5945', // "Link to Violation" links field — clickable in Infinity UI (longtext Notes is NOT)
-    behavior_labels:{
-      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726', // label renamed Camera Obstruction -> Camera Exception in Infinity (id unchanged)
-      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
-      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
-      'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
-      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
-      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
-      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256', // Infinity label still named "Near Miss" — rename on board cleanup
-      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo)
-      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
-      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
-      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
-      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
-    },
-    coaching_labels:{
-      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
-      'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
-      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
-      'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
-    },
-  },
   '7W2SQKrNcXQ':{ // Mission Wrecker (new board) — taken LIVE 2026-06-22
     cam_folder:'C8fbgdCmqQ2', roster_folder:'tRjA68oSQ5k',
     name_attr:'61f47954-3a5e-44ae-9319-44fd8a6db756',        // "Driver Name" text field (matches Test Board convention)
@@ -915,24 +883,6 @@ const BOARD_WB={
   },
 };
 const wbFor=id=>BOARD_WB[id]||null;
-// inject the Test Board as a live customer (it is not in the Infinity mirror seed)
-if(!boardById('NpiJpYMZtkC')){
-  SEED.boards.push({
-    board:'NpiJpYMZtkC', ws:59792, name:'Test Board', driver_type:'reference',
-    roster_folder:'DgPgEzDV858', driver_attr:'52002965-2a21-4fa6-b219-450dcf278ac8',
-    behaviors:ENTRY_BEHAVIORS.slice(), events:[],
-    drivers:[
-      {id:'9f1578b8-ab6b-477a-87d7-ae0c7ccc5954',name:'Alice Avery'},
-      {id:'0192063b-1fe5-4b24-8c3b-121bb7d7eba7',name:'Brian Booker'},
-      {id:'1c445007-1bea-4c1e-aeb4-80e98a86ce68',name:'Carlos Cano'},
-      {id:'7335a94f-35f5-4d57-b606-3c851713ad49',name:'Dana Diaz'},
-      {id:'bdd17fa3-6e0e-4728-83f9-ca4861a35a12',name:'Evan Ellis'},
-      {id:'1b76ad2f-e287-4cb7-a1be-9b016fd0d67e',name:'Fiona Frost'},
-      {id:'7dcc3be7-fb47-4a9e-aeb4-4d0d09d3c392',name:'Grace Gomez'},
-      {id:'5f01d9d8-c12d-4ab7-bdda-3b09f587e04e',name:'Henry Hale'},
-    ],
-  });
-}
 
 /* ---------- live per-board refresh (pull drivers+events from Infinity) ---------- */
 // Overlay a freshly pulled board record onto the in-memory SEED board.
