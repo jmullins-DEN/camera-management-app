@@ -1204,36 +1204,6 @@
       "syncError": null
     },
     {
-      "id": "L1782820782097628",
-      "board": "xMfRLnqAN7y",
-      "driver": "Keith Smith",
-      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "driver drowsy; safety review",
-      "ts": 1782820782097,
-      "synced": true,
-      "infItemId": "17a14c25-0b8a-41f8-971a-8eefe5271043",
-      "syncError": null
-    },
-    {
-      "id": "L1782820666709106",
-      "board": "xMfRLnqAN7y",
-      "driver": "Paul Hyde",
-      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Face to Face",
-      "notes": "multi-tasking loses lane",
-      "ts": 1782820666709,
-      "synced": true,
-      "infItemId": "c12abc19-6a82-461f-bb37-3ed88f78693b",
-      "syncError": null
-    },
-    {
       "id": "L1782775671618429",
       "board": "7W2SQKrNcXQ",
       "driver": "James Herrin",
@@ -2686,5 +2656,5 @@
     "4f9b111a-ea49-446b-8e0f-b83970f96716",
     "dc96c5d2-b92f-4a6a-a884-ccb1d767486d"
   ],
-  "_ts": "2026-07-05T14:26:54.205Z"
+  "_ts": "2026-07-05T14:26:56.960Z"
 }
