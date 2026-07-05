@@ -2,6 +2,19 @@
   "settings": {},
   "local": [
     {
+      "id": "L1783288831693933",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Hamza Alrawwad",
+      "driverId": "47f6bf27-4bc8-4e28-8ac3-3732aef314cf",
+      "date": "2026-07-03",
+      "reviewed": "2026-07-05",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1233084700688547840; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9e1a393b-ec61-4df3-853b-ba4438eb6ace.mp4\n",
+      "ts": 1783288831693,
+      "synced": false
+    },
+    {
       "id": "L1783288696755654",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -100,5 +113,5 @@
     "806544c1-8569-41a8-8c14-119bdf2c0f95",
     "c2ee9ace-66dc-4d76-ae3e-42060de63e69"
   ],
-  "_ts": "2026-07-05T21:58:19.668Z"
+  "_ts": "2026-07-05T22:00:31.701Z"
 }
