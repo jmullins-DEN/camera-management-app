@@ -2,6 +2,19 @@
   "settings": {},
   "local": [
     {
+      "id": "L1783287490819850",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Carlton Novian",
+      "driverId": "78b41b8c-ec7e-4a3e-99d8-436a2da771be",
+      "date": "2026-07-03",
+      "reviewed": "2026-07-05",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1233154543940960256; tablet usage\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/af790083-3cce-4b6e-952b-83ad6aac0540.mp4",
+      "ts": 1783287490819,
+      "synced": false
+    },
+    {
       "id": "L1783287313043575",
       "board": "7W2SQKrNcXQ",
       "driver": "Adan Casillas",
@@ -36,5 +49,5 @@
     "49690aa9-4b6d-4444-a58e-528d8b97281d",
     "b109e247-1848-4559-becd-79b0a525864d"
   ],
-  "_ts": "2026-07-05T21:35:15.291Z"
+  "_ts": "2026-07-05T21:38:10.828Z"
 }
