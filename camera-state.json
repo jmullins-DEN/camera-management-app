@@ -2,6 +2,19 @@
   "settings": {},
   "local": [
     {
+      "id": "L1783288696755654",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-07-03",
+      "reviewed": "2026-07-05",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1233048751174746113; hand held phone; vehicle #RS102\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/246c6e6b-527b-4810-af1f-3077be4dd25b.mp4",
+      "ts": 1783288696755,
+      "synced": false
+    },
+    {
       "id": "L1783288514014446",
       "board": "7W2SQKrNcXQ",
       "driver": "Marco Nunez",
@@ -84,5 +97,5 @@
     "4f7327b2-d455-4552-b770-f02e15f684d7",
     "806544c1-8569-41a8-8c14-119bdf2c0f95"
   ],
-  "_ts": "2026-07-05T21:55:15.978Z"
+  "_ts": "2026-07-05T21:58:16.763Z"
 }
