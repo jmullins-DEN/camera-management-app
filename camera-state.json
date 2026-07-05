@@ -12,9 +12,10 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1233491001088311296; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d5129161-333d-4b5d-9412-5e0be8e44505.mp4",
       "ts": 1783286945712,
-      "synced": false
+      "synced": false,
+      "infItemId": "49690aa9-4b6d-4444-a58e-528d8b97281d"
     }
   ],
   "entered": [],
-  "_ts": "2026-07-05T21:29:05.719Z"
+  "_ts": "2026-07-05T21:29:06.723Z"
 }
