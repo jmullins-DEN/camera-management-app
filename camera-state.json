@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783302111641772",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jeremy Myers",
+      "driverId": "019d838f-5983-76ef-8ea4-8730e0836887",
+      "date": "2026-07-04",
+      "reviewed": "2026-07-06",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "",
+      "ts": 1783302111641,
+      "synced": false
+    },
+    {
       "id": "L1783301878544483",
       "board": "9RKrQRpDLcr",
       "driver": "Thomas Neff III",
@@ -3579,5 +3592,5 @@
     "6cdefcf7-bbab-42ef-81cd-fd15ea4d609e",
     "a91bfe00-6edb-4e28-ac2c-7161e5c9a0e1"
   ],
-  "_ts": "2026-07-06T01:38:00.541Z"
+  "_ts": "2026-07-06T01:41:51.669Z"
 }
