@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783342092073338",
+      "board": "KYqKJWuumPm",
+      "driver": "Bradley Ostling",
+      "driverId": "019dd5fd-778b-7109-9ee6-0835c4597112",
+      "date": "2026-07-03",
+      "reviewed": "2026-07-06",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474982794920-1783111061832:  Hand held phone:\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8ee36ce2-11f7-4fec-a511-3c75f9eb6585.mp4",
+      "ts": 1783342092073,
+      "synced": false
+    },
+    {
       "id": "L1783341756026901",
       "board": "KYqKJWuumPm",
       "driver": "Unspecified",
@@ -3723,5 +3736,5 @@
     "9a983348-2f93-44a6-b1e8-f1a66ecdb4a8",
     "a92b50de-b905-462b-8aa4-931f5022f02d"
   ],
-  "_ts": "2026-07-06T12:42:39.188Z"
+  "_ts": "2026-07-06T12:48:12.129Z"
 }
