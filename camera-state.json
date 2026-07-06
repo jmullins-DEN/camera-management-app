@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783378940904508",
+      "board": "ioWX9hneUsk",
+      "driver": "Julio Mendoza",
+      "driverId": "019ce77c-8a80-744b-ad6c-b732fb4236e9",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-06",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 1234117159395950592; 75 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8732b7c8-575b-4dd8-8ef4-38d85f9b117a.mp4",
+      "ts": 1783378940904,
+      "synced": false
+    },
+    {
       "id": "L1783378893448335",
       "board": "ioWX9hneUsk",
       "driver": "Mark Stephens",
@@ -5116,5 +5129,5 @@
     "74808c96-b858-4062-9ad8-29d86d03b960",
     "35427a1f-5e54-4df1-8ffb-ddf48cf80ec8"
   ],
-  "_ts": "2026-07-06T23:01:36.155Z"
+  "_ts": "2026-07-06T23:02:20.917Z"
 }
