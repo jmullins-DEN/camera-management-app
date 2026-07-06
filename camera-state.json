@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783379409731250",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven James",
+      "driverId": "019a0810-437c-7aae-88b5-ad03a59396e9",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-06",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "84 in70",
+      "ts": 1783379409731,
+      "synced": false
+    },
+    {
       "id": "L1783379362128993",
       "board": "XVLVu2Du8hc",
       "driver": "Tony (Sonesouvanh) Phengphong",
@@ -5212,5 +5225,5 @@
     "d847db15-15d7-4090-af3a-f2ad176fc7e8",
     "4687a668-be96-4bc5-ba7b-1cceb172db86"
   ],
-  "_ts": "2026-07-06T23:09:24.602Z"
+  "_ts": "2026-07-06T23:10:09.744Z"
 }
