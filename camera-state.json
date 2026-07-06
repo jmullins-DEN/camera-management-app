@@ -213,7 +213,9 @@
       "coaching": "Face to Face",
       "notes": "74980531324-1783005265368: Truck 3 168\n Phone Distraction/Texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/869ec9b2-90ad-4d08-a84f-663ce288b287.mp4",
       "ts": 1783341113486,
-      "synced": false
+      "synced": true,
+      "infItemId": "9a983348-2f93-44a6-b1e8-f1a66ecdb4a8",
+      "syncError": null
     },
     {
       "id": "L178333873420060",
@@ -3702,7 +3704,8 @@
     "cbd6c0f1-a07f-4625-99e0-a44f407f8568",
     "493fb798-fad2-484f-a5e8-a693551f0470",
     "1adcd455-c4e7-430c-800e-3a386f984837",
-    "b3931f50-02c4-4d12-8e63-fe14eb012100"
+    "b3931f50-02c4-4d12-8e63-fe14eb012100",
+    "9a983348-2f93-44a6-b1e8-f1a66ecdb4a8"
   ],
-  "_ts": "2026-07-06T12:31:53.559Z"
+  "_ts": "2026-07-06T12:31:57.768Z"
 }
