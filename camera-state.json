@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783306534354802",
+      "board": "ic6o6QgzpVM",
+      "driver": "Guerrero, Jose",
+      "driverId": "019ae9a6-a2ac-7555-abfb-6bf9f136fca3",
+      "date": "2026-07-02",
+      "reviewed": "2026-07-06",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Alert 6065486391\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b9b288a2-908e-4a41-81ed-3cc98845fddd.mp4",
+      "ts": 1783306534354,
+      "synced": false
+    },
+    {
       "id": "L1783302111641772",
       "board": "9RKrQRpDLcr",
       "driver": "Jeremy Myers",
@@ -3595,5 +3608,5 @@
     "a91bfe00-6edb-4e28-ac2c-7161e5c9a0e1",
     "b503b031-bf61-42ab-9f12-33b2f8c3f460"
   ],
-  "_ts": "2026-07-06T01:41:53.501Z"
+  "_ts": "2026-07-06T02:55:34.399Z"
 }
