@@ -213,7 +213,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6062556214\nStop Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/aec8072c-5569-4c93-bff4-2fbf6f2b4de7.mp4",
       "ts": 1783306888674,
-      "synced": false
+      "synced": true,
+      "infItemId": "cbd6c0f1-a07f-4625-99e0-a44f407f8568",
+      "syncError": null
     },
     {
       "id": "L1783306677913260",
@@ -3638,7 +3640,8 @@
     "a91bfe00-6edb-4e28-ac2c-7161e5c9a0e1",
     "b503b031-bf61-42ab-9f12-33b2f8c3f460",
     "508080d1-9f2f-4a2d-ad59-d8fcc90a9584",
-    "f781d64e-c7d9-4bc7-8790-cc325f6776df"
+    "f781d64e-c7d9-4bc7-8790-cc325f6776df",
+    "cbd6c0f1-a07f-4625-99e0-a44f407f8568"
   ],
-  "_ts": "2026-07-06T03:01:28.689Z"
+  "_ts": "2026-07-06T03:01:30.428Z"
 }
