@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783341756026901",
+      "board": "KYqKJWuumPm",
+      "driver": "Unspecified",
+      "driverId": null,
+      "date": "2026-07-02",
+      "reviewed": "2026-07-06",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980616004-1783105647851: Truck Number 234\nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/df3efb0c-da84-47a2-b122-653373d87f9c.mp4\n",
+      "ts": 1783341756026,
+      "synced": false
+    },
+    {
       "id": "L1783341113485526",
       "board": "KYqKJWuumPm",
       "driver": "Unspecified",
@@ -3707,5 +3720,5 @@
     "b3931f50-02c4-4d12-8e63-fe14eb012100",
     "9a983348-2f93-44a6-b1e8-f1a66ecdb4a8"
   ],
-  "_ts": "2026-07-06T12:31:57.768Z"
+  "_ts": "2026-07-06T12:42:36.082Z"
 }
