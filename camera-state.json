@@ -213,7 +213,9 @@
       "coaching": "System Alert",
       "notes": "Alert 6065486391\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b9b288a2-908e-4a41-81ed-3cc98845fddd.mp4",
       "ts": 1783306534354,
-      "synced": false
+      "synced": true,
+      "infItemId": "508080d1-9f2f-4a2d-ad59-d8fcc90a9584",
+      "syncError": null
     },
     {
       "id": "L1783302111641772",
@@ -3606,7 +3608,8 @@
     "73f05db3-3a98-4791-a1dc-b457353e0208",
     "6cdefcf7-bbab-42ef-81cd-fd15ea4d609e",
     "a91bfe00-6edb-4e28-ac2c-7161e5c9a0e1",
-    "b503b031-bf61-42ab-9f12-33b2f8c3f460"
+    "b503b031-bf61-42ab-9f12-33b2f8c3f460",
+    "508080d1-9f2f-4a2d-ad59-d8fcc90a9584"
   ],
-  "_ts": "2026-07-06T02:55:34.399Z"
+  "_ts": "2026-07-06T02:55:36.136Z"
 }
