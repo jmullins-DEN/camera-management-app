@@ -213,7 +213,9 @@
       "coaching": "System Alert",
       "notes": "",
       "ts": 1783302111641,
-      "synced": false
+      "synced": true,
+      "infItemId": "b503b031-bf61-42ab-9f12-33b2f8c3f460",
+      "syncError": null
     },
     {
       "id": "L1783301878544483",
@@ -3590,7 +3592,8 @@
     "565b29b0-e51f-40d2-8580-c8352ce47e41",
     "73f05db3-3a98-4791-a1dc-b457353e0208",
     "6cdefcf7-bbab-42ef-81cd-fd15ea4d609e",
-    "a91bfe00-6edb-4e28-ac2c-7161e5c9a0e1"
+    "a91bfe00-6edb-4e28-ac2c-7161e5c9a0e1",
+    "b503b031-bf61-42ab-9f12-33b2f8c3f460"
   ],
-  "_ts": "2026-07-06T01:41:51.669Z"
+  "_ts": "2026-07-06T01:41:53.501Z"
 }
