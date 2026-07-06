@@ -213,7 +213,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 1569838371; driver loses lane; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6b73a1e6-d8c0-46e2-b507-67da48451f07.mp4",
       "ts": 1783351909067,
-      "synced": false
+      "synced": true,
+      "infItemId": "1a75e9b7-a67d-4cc2-8eba-74e95b607db4",
+      "syncError": null
     },
     {
       "id": "L17833518107117",
@@ -4262,7 +4264,8 @@
     "5b983703-fe02-4a89-b294-64cf6882748d",
     "d888f979-3640-4b83-a490-7eedb4580912",
     "680d4dab-7296-4dbb-a9a2-fce626d1ed5f",
-    "1b3cd4c2-cf47-499c-9b6a-fe19c3b31782"
+    "1b3cd4c2-cf47-499c-9b6a-fe19c3b31782",
+    "1a75e9b7-a67d-4cc2-8eba-74e95b607db4"
   ],
-  "_ts": "2026-07-06T15:31:49.080Z"
+  "_ts": "2026-07-06T15:31:50.947Z"
 }
