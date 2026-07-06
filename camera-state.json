@@ -213,7 +213,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474980616004-1783105647851: Truck Number 234\nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/df3efb0c-da84-47a2-b122-653373d87f9c.mp4\n",
       "ts": 1783341756026,
-      "synced": false
+      "synced": true,
+      "infItemId": "a92b50de-b905-462b-8aa4-931f5022f02d",
+      "syncError": null
     },
     {
       "id": "L1783341113485526",
@@ -3718,7 +3720,8 @@
     "493fb798-fad2-484f-a5e8-a693551f0470",
     "1adcd455-c4e7-430c-800e-3a386f984837",
     "b3931f50-02c4-4d12-8e63-fe14eb012100",
-    "9a983348-2f93-44a6-b1e8-f1a66ecdb4a8"
+    "9a983348-2f93-44a6-b1e8-f1a66ecdb4a8",
+    "a92b50de-b905-462b-8aa4-931f5022f02d"
   ],
-  "_ts": "2026-07-06T12:42:36.082Z"
+  "_ts": "2026-07-06T12:42:39.188Z"
 }
