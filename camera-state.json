@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783345772089553",
+      "board": "7d53dL31ioV",
+      "driver": "Walker Sims",
+      "driverId": "2af055b4-89b4-41a5-9936-a73e8f0233de",
+      "date": "2026-07-03",
+      "reviewed": "2026-07-06",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6068241959: No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/516d3ffa-dc20-4148-9e35-87fb1b8f9eda.mp4",
+      "ts": 1783345772089,
+      "synced": false
+    },
+    {
       "id": "L1783345538903379",
       "board": "7d53dL31ioV",
       "driver": "unassigned",
@@ -3803,5 +3816,5 @@
     "2cb3abe6-ecf3-45af-825c-3c82c488d652",
     "e73789eb-8021-44dd-b86f-6315a3ce24c9"
   ],
-  "_ts": "2026-07-06T13:45:41.595Z"
+  "_ts": "2026-07-06T13:49:32.163Z"
 }
