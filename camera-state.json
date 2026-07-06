@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783346722397302",
+      "board": "qnESNLC3JPR",
+      "driver": "Jimmy Mott",
+      "driverId": "019ab404-9009-7664-8db5-05b6082c4ade",
+      "date": "2026-07-02",
+      "reviewed": "2026-07-06",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6063398027; Truck # 110 Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5fff4553-17bd-4909-b2a5-a0ab02a9035c.mp4",
+      "ts": 1783346722398,
+      "synced": false
+    },
+    {
       "id": "L1783346186684351",
       "board": "7d53dL31ioV",
       "driver": "Walker Sims",
@@ -3947,5 +3960,5 @@
     "c2ee9ace-66dc-4d76-ae3e-42060de63e69",
     "5e7fa835-28b3-4331-8d52-2c622953f2ed"
   ],
-  "_ts": "2026-07-06T13:56:31.125Z"
+  "_ts": "2026-07-06T14:05:22.464Z"
 }
