@@ -213,7 +213,9 @@
       "coaching": "Critical Event",
       "notes": "Alert 6067726694: Truck # 157741 \nFace to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b6b293c-c4fd-49aa-9009-313c2ca1dd5e.mp4",
       "ts": 1783344337640,
-      "synced": false
+      "synced": true,
+      "infItemId": "2cb3abe6-ecf3-45af-825c-3c82c488d652",
+      "syncError": null
     },
     {
       "id": "L1783343481431920",
@@ -3782,7 +3784,8 @@
     "a92b50de-b905-462b-8aa4-931f5022f02d",
     "91f0a0bc-e120-40dd-b70c-f7971c9b4a78",
     "7455c17f-2756-4cb4-aacf-b5b9c590d838",
-    "2dca70f1-bdae-43ac-b6d8-59d2b5416c76"
+    "2dca70f1-bdae-43ac-b6d8-59d2b5416c76",
+    "2cb3abe6-ecf3-45af-825c-3c82c488d652"
   ],
-  "_ts": "2026-07-06T13:25:37.704Z"
+  "_ts": "2026-07-06T13:25:40.858Z"
 }
