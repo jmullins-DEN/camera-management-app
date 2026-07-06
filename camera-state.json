@@ -213,7 +213,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6078739861\nSpeeding; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6038699d-d548-405a-8900-d88a7564ccca.mp4",
       "ts": 1783367722536,
-      "synced": false
+      "synced": true,
+      "infItemId": "d5bf013a-3698-489c-8e94-c09b91439786",
+      "syncError": null
     },
     {
       "id": "L1783367570724273",
@@ -4823,7 +4825,8 @@
     "6f787316-3218-4545-ab35-0ba0462a6594",
     "96b5597f-ca7d-4e8e-90db-6bca1b95411e",
     "c11a121b-83f1-4c60-a39e-a60defae2432",
-    "5ce39882-82f1-464e-9a96-a8d2e958ac5f"
+    "5ce39882-82f1-464e-9a96-a8d2e958ac5f",
+    "d5bf013a-3698-489c-8e94-c09b91439786"
   ],
-  "_ts": "2026-07-06T19:55:22.553Z"
+  "_ts": "2026-07-06T19:55:24.297Z"
 }
