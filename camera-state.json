@@ -213,7 +213,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 412130465; following too close\n We appreciate the hard work and commitment you have given to us. We too have been hard at work and are committed to providing you the safest environment possible in which to work. Did you know on average, 2,000 human lives are lost yearly because someone is following them too closely.  We don’t want you to be or cause any of these losses.  Remember to look 15 seconds ahead and observe the 7 second rule, and, most of all, Get Home Safe!\n",
       "ts": 1783348465604,
-      "synced": false
+      "synced": true,
+      "infItemId": "b1b98207-431f-4370-8b3e-c0fded420b47",
+      "syncError": null
     },
     {
       "id": "L1783348369642113",
@@ -4022,7 +4024,8 @@
     "c0312114-5a25-49db-aa71-d556c804f734",
     "4c719526-1436-4173-a562-9eb8062c634f",
     "79d91c9d-79e6-43dd-be65-fc5751c4b728",
-    "933c7705-fc7a-4a0f-bc76-228e21103391"
+    "933c7705-fc7a-4a0f-bc76-228e21103391",
+    "b1b98207-431f-4370-8b3e-c0fded420b47"
   ],
-  "_ts": "2026-07-06T14:34:25.616Z"
+  "_ts": "2026-07-06T14:34:27.669Z"
 }
