@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783348465604777",
+      "board": "4rNDuSrCaap",
+      "driver": "Rodney Wilborn",
+      "driverId": "a79955fb-5af1-4b9a-aba5-c97b9c42445c",
+      "date": "2026-07-02",
+      "reviewed": "2026-07-06",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 412130465; following too close\n We appreciate the hard work and commitment you have given to us. We too have been hard at work and are committed to providing you the safest environment possible in which to work. Did you know on average, 2,000 human lives are lost yearly because someone is following them too closely.  We don’t want you to be or cause any of these losses.  Remember to look 15 seconds ahead and observe the 7 second rule, and, most of all, Get Home Safe!\n",
+      "ts": 1783348465604,
+      "synced": false
+    },
+    {
       "id": "L1783348369642113",
       "board": "4rNDuSrCaap",
       "driver": "Donny Churchill",
@@ -4011,5 +4024,5 @@
     "79d91c9d-79e6-43dd-be65-fc5751c4b728",
     "933c7705-fc7a-4a0f-bc76-228e21103391"
   ],
-  "_ts": "2026-07-06T14:32:51.584Z"
+  "_ts": "2026-07-06T14:34:25.616Z"
 }
