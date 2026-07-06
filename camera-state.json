@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783378490113623",
+      "board": "4rNDuSrCaap",
+      "driver": "Rodney Wilborn",
+      "driverId": "a79955fb-5af1-4b9a-aba5-c97b9c42445c",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-06",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 413175793; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/daa3fa78-7133-458f-9f1a-3b995446b962.mp4",
+      "ts": 1783378490113,
+      "synced": false
+    },
+    {
       "id": "L17833784340928",
       "board": "4rNDuSrCaap",
       "driver": "Chris Jacobson",
@@ -4988,5 +5001,5 @@
     "0a847e1f-1672-41db-8741-ab435c5eb225",
     "49aada82-14b6-4d71-83af-912e9476868c"
   ],
-  "_ts": "2026-07-06T22:53:56.165Z"
+  "_ts": "2026-07-06T22:54:50.127Z"
 }
