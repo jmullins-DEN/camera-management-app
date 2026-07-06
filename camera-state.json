@@ -213,7 +213,9 @@
       "coaching": "Face to Face",
       "notes": "67 in 55; vehicle #729",
       "ts": 1783352375677,
-      "synced": false
+      "synced": true,
+      "infItemId": "582e2ef9-cde3-41b6-bd79-f59abcad69c3",
+      "syncError": null
     },
     {
       "id": "L1783352291266893",
@@ -4358,7 +4360,8 @@
     "22fb4c51-093a-4e2f-9cf6-b21317b587e6",
     "c40d0380-fd03-4d86-9f0e-60cf9f029615",
     "f84d87e3-10ba-4f47-be53-a472cbf34951",
-    "c96a6527-1d38-4940-a876-a539be1f27f4"
+    "c96a6527-1d38-4940-a876-a539be1f27f4",
+    "582e2ef9-cde3-41b6-bd79-f59abcad69c3"
   ],
-  "_ts": "2026-07-06T15:39:35.690Z"
+  "_ts": "2026-07-06T15:39:37.668Z"
 }
