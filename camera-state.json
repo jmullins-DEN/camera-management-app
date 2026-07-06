@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783354829859154",
+      "board": "YJNwKvzFhkj",
+      "driver": "Dashawn Johnson",
+      "driverId": "019f186a-3a2e-70ec-a669-3bc4dac8feff",
+      "date": "2026-07-04",
+      "reviewed": "2026-07-06",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; loses lane",
+      "ts": 1783354829859,
+      "synced": false
+    },
+    {
       "id": "L1783354053001634",
       "board": "xMfRLnqAN7y",
       "driver": "Kraig Hausmann",
@@ -4543,5 +4556,5 @@
     "698bc135-6456-454a-8572-680c93fb6472",
     "c6765e73-ae23-4f91-a65c-a61c76c8e1e5"
   ],
-  "_ts": "2026-07-06T16:18:25.325Z"
+  "_ts": "2026-07-06T16:20:29.873Z"
 }
