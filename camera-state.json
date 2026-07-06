@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783367722536576",
+      "board": "ic6o6QgzpVM",
+      "driver": "Sergio Costillo de leon",
+      "driverId": "019eb880-a7ce-779f-b1b1-b4a14b467a01",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-06",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 6078739861\nSpeeding; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6038699d-d548-405a-8900-d88a7564ccca.mp4",
+      "ts": 1783367722536,
+      "synced": false
+    },
+    {
       "id": "L1783367570724273",
       "board": "ic6o6QgzpVM",
       "driver": "Ramos  Jose",
@@ -4812,5 +4825,5 @@
     "c11a121b-83f1-4c60-a39e-a60defae2432",
     "5ce39882-82f1-464e-9a96-a8d2e958ac5f"
   ],
-  "_ts": "2026-07-06T19:52:52.716Z"
+  "_ts": "2026-07-06T19:55:22.553Z"
 }
