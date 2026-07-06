@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783352375677817",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-07-03",
+      "reviewed": "2026-07-06",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "67 in 55; vehicle #729",
+      "ts": 1783352375677,
+      "synced": false
+    },
+    {
       "id": "L1783352291266893",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Contreras",
@@ -4347,5 +4360,5 @@
     "f84d87e3-10ba-4f47-be53-a472cbf34951",
     "c96a6527-1d38-4940-a876-a539be1f27f4"
   ],
-  "_ts": "2026-07-06T15:38:13.033Z"
+  "_ts": "2026-07-06T15:39:35.690Z"
 }
