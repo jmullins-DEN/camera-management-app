@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783354511783252",
+      "board": "YJNwKvzFhkj",
+      "driver": "Travarius Walker",
+      "driverId": "019de579-ea85-70e1-ad00-c45e5e6209d6",
+      "date": "2026-07-05",
+      "reviewed": "2026-07-06",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; inattentive",
+      "ts": 1783354511783,
+      "synced": false
+    },
+    {
       "id": "L1783354053001634",
       "board": "xMfRLnqAN7y",
       "driver": "Kraig Hausmann",
@@ -4587,5 +4600,5 @@
     "fc671dc7-5864-4bbe-86b7-c595de3965c1",
     "698bc135-6456-454a-8572-680c93fb6472"
   ],
-  "_ts": "2026-07-06T16:07:35.131Z"
+  "_ts": "2026-07-06T16:15:11.796Z"
 }
