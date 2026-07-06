@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783378309419875",
+      "board": "4rNDuSrCaap",
+      "driver": "Robert Long",
+      "driverId": "5f1ca4e3-21cf-4743-a9ca-bbcf0fb33b3b",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-06",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 413116829; following too close\n",
+      "ts": 1783378309419,
+      "synced": false
+    },
+    {
       "id": "L1783377804325723",
       "board": "7W2SQKrNcXQ",
       "driver": "Marco Nunez",
@@ -4940,5 +4953,5 @@
     "a2e9a713-c397-4fe9-8d00-77a5618fd720",
     "24cc53c5-83e1-454a-8a14-e4cedb7728d7"
   ],
-  "_ts": "2026-07-06T22:43:27.998Z"
+  "_ts": "2026-07-06T22:51:49.434Z"
 }
