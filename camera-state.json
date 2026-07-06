@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783353722029697",
+      "board": "YfVHuM3X87v",
+      "driver": "Benigno Vazquez",
+      "driverId": "89fd4ace-dde4-4442-88f5-2ab8eaf042c7",
+      "date": "2026-07-02",
+      "reviewed": "2026-07-06",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "69 in 55",
+      "ts": 1783353722029,
+      "synced": false
+    },
+    {
       "id": "L1783353650806445",
       "board": "YfVHuM3X87v",
       "driver": "Manuel Nunez Valentin",
@@ -4507,5 +4520,5 @@
     "ca632a01-f446-4b7b-8479-159bfffd24ba",
     "95edce3f-cb8b-44d9-b623-2cf8b3a65d54"
   ],
-  "_ts": "2026-07-06T16:00:54.068Z"
+  "_ts": "2026-07-06T16:02:02.043Z"
 }
