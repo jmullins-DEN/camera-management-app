@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L178330732565448",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-07-02",
+      "reviewed": "2026-07-06",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "",
+      "ts": 1783307325654,
+      "synced": false
+    },
+    {
       "id": "L1783307199958792",
       "board": "ic6o6QgzpVM",
       "driver": "Stephen Hails",
@@ -3659,5 +3672,5 @@
     "cbd6c0f1-a07f-4625-99e0-a44f407f8568",
     "493fb798-fad2-484f-a5e8-a693551f0470"
   ],
-  "_ts": "2026-07-06T03:06:41.934Z"
+  "_ts": "2026-07-06T03:08:45.681Z"
 }
