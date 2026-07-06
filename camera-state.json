@@ -203,21 +203,6 @@
   },
   "local": [
     {
-      "id": "L1783354511783252",
-      "board": "YJNwKvzFhkj",
-      "driver": "Travarius Walker",
-      "driverId": "019de579-ea85-70e1-ad00-c45e5e6209d6",
-      "date": "2026-07-05",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "multi-tasking; inattentive",
-      "ts": 1783354511783,
-      "synced": true,
-      "infItemId": "c6765e73-ae23-4f91-a65c-a61c76c8e1e5",
-      "syncError": null
-    },
-    {
       "id": "L1783354053001634",
       "board": "xMfRLnqAN7y",
       "driver": "Kraig Hausmann",
@@ -1478,21 +1463,6 @@
       "syncError": null
     },
     {
-      "id": "L1782995865709279",
-      "board": "YJNwKvzFhkj",
-      "driver": "Omar Bowers",
-      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
-      "date": "2026-07-01",
-      "reviewed": "2026-07-02",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "eating distraction",
-      "ts": 1782995865709,
-      "synced": true,
-      "infItemId": "d6e0c749-e0fd-491f-b9d9-5751e2893a84",
-      "syncError": null
-    },
-    {
       "id": "L1782995783509496",
       "board": "KYqKJWuumPm",
       "driver": "Joseph Pulliam",
@@ -2180,36 +2150,6 @@
       "ts": 1782909126405,
       "synced": true,
       "infItemId": "f0515fe6-2372-4718-9dfd-8fa39b75a5d4",
-      "syncError": null
-    },
-    {
-      "id": "L1782908905810367",
-      "board": "YJNwKvzFhkj",
-      "driver": "Omar Bowers",
-      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
-      "date": "2026-06-30",
-      "reviewed": "2026-07-01",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "eating distraction",
-      "ts": 1782908905810,
-      "synced": true,
-      "infItemId": "7a0b5486-4979-479b-901a-c9a82f23308b",
-      "syncError": null
-    },
-    {
-      "id": "L1782908858150844",
-      "board": "YJNwKvzFhkj",
-      "driver": "Zyra Jones",
-      "driverId": "019de57b-12f4-720c-ae82-3ae1abbb11a7",
-      "date": "2026-06-30",
-      "reviewed": "2026-07-01",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "camera misaligned",
-      "ts": 1782908858150,
-      "synced": true,
-      "infItemId": "4010fbe1-c7a8-4f80-a21c-4802b7921590",
       "syncError": null
     },
     {
@@ -4603,5 +4543,5 @@
     "698bc135-6456-454a-8572-680c93fb6472",
     "c6765e73-ae23-4f91-a65c-a61c76c8e1e5"
   ],
-  "_ts": "2026-07-06T16:15:13.621Z"
+  "_ts": "2026-07-06T16:18:25.325Z"
 }
