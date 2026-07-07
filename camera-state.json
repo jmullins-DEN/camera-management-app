@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783426337586976",
+      "board": "ebSND1QoyBs",
+      "driver": "Chad Como",
+      "driverId": "bf4e05be-67fb-4c94-b311-08e5f4b8a967",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-07",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera inoperable/ blocked",
+      "ts": 1783426337586,
+      "synced": false
+    },
+    {
       "id": "L1783426295555288",
       "board": "ebSND1QoyBs",
       "driver": "Bjorn Pinney",
@@ -5532,5 +5545,5 @@
     "24918716-b39e-40f6-a604-f9fbfcdb2dcf",
     "dd90008c-fd0f-44dc-b42d-30e8eead5bd3"
   ],
-  "_ts": "2026-07-07T12:11:38.776Z"
+  "_ts": "2026-07-07T12:12:17.599Z"
 }
