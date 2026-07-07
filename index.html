@@ -917,9 +917,10 @@ function applyRefreshCache(){
 applyRefreshCache();
 
 // Pull one board live from Infinity through the worker, merge, persist, re-render.
-async function refreshBoard(bid){
+async function refreshBoard(bid,opts){
+  opts=opts||{};
   const b=boardById(bid); if(!b) return;
-  toast('Refreshing '+b.name+'…');
+  if(!opts.quiet) toast('Refreshing '+b.name+'…');
   let d;
   try{
     const u=API_BASE+'/board-data?board='+encodeURIComponent(bid)
@@ -1148,6 +1149,15 @@ function trendInfo(bid,driverName,behavior,asOf){
 /* ---------- router ---------- */
 let screen='customers', ctx={};
 function go(s,c){ screen=s; ctx=c||{}; render(); }
+// Open a company's Event Entry screen AND immediately pull it fresh from Infinity.
+// The refresh trims this board's already-synced events out of the local queue
+// (refreshBoard drops synced events confirmed in the live pull) and replaces the
+// roster/events with Infinity's authoritative copy — so switching companies or
+// re-opening entry always starts from Infinity, not stale local state.
+function enterBoard(bid){
+  go('entry',{board:bid});                 // render from cache instantly
+  if(bid) refreshBoard(bid,{quiet:true});  // then pull fresh + clear synced queue for this company
+}
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>go(b.dataset.screen));
 function render(){
   document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.screen===screen));
@@ -1169,7 +1179,7 @@ function viewCustomers(){
       ? `<span class="trend-chip" title="Click to change" onclick="editTrend('${b.board}')">${tc.count} in ${tc.days}d</span>`
       : `<span class="trend-chip off" title="Click to set" onclick="editTrend('${b.board}')">Off</span>`;
     return `<tr>
-      <td><button class="sm primary" onclick="go('entry',{board:'${b.board}'})">Event Entry</button></td>
+      <td><button class="sm primary" onclick="enterBoard('${b.board}')">Event Entry</button></td>
       <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
       <td><div style="display:flex;align-items:center;gap:8px">
         <div><b>${esc(b.name)}</b></div>
@@ -1430,7 +1440,7 @@ function viewEntry(){
       <div style="display:flex;gap:10px;align-items:flex-end">
         <div class="field" style="margin:0;min-width:230px">
           <label class="f">Customer board</label>
-          <select onchange="go('entry',{board:this.value})">${opts}</select>
+          <select onchange="enterBoard(this.value)">${opts}</select>
         </div>
         <button class="sm" style="margin-bottom:1px" title="Pull this board's latest drivers & events from Infinity" onclick="refreshBoard('${bid}')">↻ Refresh</button>
       </div>
