@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783426130626133",
+      "board": "ebSND1QoyBs",
+      "driver": "Juan Santiago",
+      "driverId": "0b04d3ca-97c7-4ea5-a371-5f0ab209f730",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-07",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1783426130626,
+      "synced": false
+    },
+    {
       "id": "L1783426099960158",
       "board": "ebSND1QoyBs",
       "driver": "Matthew Pickett",
@@ -5484,5 +5497,5 @@
     "a586e51f-9ca7-4c19-89bd-fce781542af4",
     "f35df71b-d4f9-41b7-a4b6-6b67818f8fa1"
   ],
-  "_ts": "2026-07-07T12:08:21.879Z"
+  "_ts": "2026-07-07T12:08:50.639Z"
 }
