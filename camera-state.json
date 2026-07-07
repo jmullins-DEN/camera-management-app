@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783425622615578",
+      "board": "YfVHuM3X87v",
+      "driver": "Lannas Tedrow",
+      "driverId": "a1b097f7-a6c5-4f69-952e-c7f0ffe7eac3",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-07",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1783425622615,
+      "synced": false
+    },
+    {
       "id": "L178342557460046",
       "board": "YfVHuM3X87v",
       "driver": "Clinton Lamb",
@@ -5388,5 +5401,5 @@
     "260dec4e-1f96-4056-bbf4-34fd84c9858c",
     "24821b32-07ee-49a0-9f6f-5ed10fb896fc"
   ],
-  "_ts": "2026-07-07T11:59:38.257Z"
+  "_ts": "2026-07-07T12:00:22.628Z"
 }
