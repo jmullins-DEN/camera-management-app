@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783464421209239",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Marco Nunez",
+      "driverId": "272e1ad8-9687-4e44-b5b6-6aae400c1c9b",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-07",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1234487042910617600; driver drowsy; safety review\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c2ea57a2-1a0f-4d73-9455-516624d62268.mp4\n",
+      "ts": 1783464421209,
+      "synced": false
+    },
+    {
       "id": "L1783464336057609",
       "board": "7W2SQKrNcXQ",
       "driver": "Marco Nunez",
@@ -4289,5 +4302,5 @@
     "c785c6a2-3815-4cc5-ab12-2c62ed2b2d8f",
     "6a839deb-a7e3-47e4-b551-b6cb53bd418b"
   ],
-  "_ts": "2026-07-07T22:45:41.121Z"
+  "_ts": "2026-07-07T22:47:01.226Z"
 }
