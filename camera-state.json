@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L1783426295555288",
+      "board": "ebSND1QoyBs",
+      "driver": "Bjorn Pinney",
+      "driverId": "2c0d3d42-d894-4a55-ac44-4ebba76e3f14",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-07",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; safety review",
+      "ts": 1783426295555,
+      "synced": false
+    },
+    {
       "id": "L1783426216382474",
       "board": "ebSND1QoyBs",
       "driver": "John Boerger",
@@ -5516,5 +5529,5 @@
     "50383c17-5169-4b0d-ba01-3013e7e3b6c0",
     "24918716-b39e-40f6-a604-f9fbfcdb2dcf"
   ],
-  "_ts": "2026-07-07T12:10:20.015Z"
+  "_ts": "2026-07-07T12:11:35.567Z"
 }
