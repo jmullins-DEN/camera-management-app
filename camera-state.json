@@ -203,6 +203,21 @@
   },
   "local": [
     {
+      "id": "L1783426376297325",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-07",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 6079730894: Truck # 403744 Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/00a9d71d-3bab-4757-a191-dee520b8cc1b.mp4",
+      "ts": 1783426376298,
+      "synced": true,
+      "infItemId": "bb26850b-3f96-40e6-b0d0-1fac9d4e74cc",
+      "syncError": null
+    },
+    {
       "id": "L1783426361182393",
       "board": "ebSND1QoyBs",
       "driver": "Deadrian Thomas",
@@ -5289,13 +5304,6 @@
     }
   ],
   "entered": [
-    "49690aa9-4b6d-4444-a58e-528d8b97281d",
-    "b109e247-1848-4559-becd-79b0a525864d",
-    "4d3171a6-7512-4c4c-8f9d-6dfd46703906",
-    "4f7327b2-d455-4552-b770-f02e15f684d7",
-    "806544c1-8569-41a8-8c14-119bdf2c0f95",
-    "c2ee9ace-66dc-4d76-ae3e-42060de63e69",
-    "5e7fa835-28b3-4331-8d52-2c622953f2ed",
     "94e10c05-7577-4f3c-9783-c0d33ae42815",
     "f89ac547-222d-4abd-9b62-848e9bd15218",
     "18fc4851-9717-4bb9-acd3-f4aaa6889b32",
@@ -5461,6 +5469,13 @@
     "e73789eb-8021-44dd-b86f-6315a3ce24c9",
     "e7fd9f62-65f8-460c-b736-8e71bd243cb8",
     "5bdfc0a8-6190-4407-b81b-b4071c3310b8",
+    "49690aa9-4b6d-4444-a58e-528d8b97281d",
+    "b109e247-1848-4559-becd-79b0a525864d",
+    "4d3171a6-7512-4c4c-8f9d-6dfd46703906",
+    "4f7327b2-d455-4552-b770-f02e15f684d7",
+    "806544c1-8569-41a8-8c14-119bdf2c0f95",
+    "c2ee9ace-66dc-4d76-ae3e-42060de63e69",
+    "5e7fa835-28b3-4331-8d52-2c622953f2ed",
     "c0312114-5a25-49db-aa71-d556c804f734",
     "4c719526-1436-4173-a562-9eb8062c634f",
     "79d91c9d-79e6-43dd-be65-fc5751c4b728",
@@ -5548,15 +5563,16 @@
     "ee09f53f-aa3d-4a16-a911-e0beecb33889",
     "78f140b9-fdc5-4e6e-9507-475c41deda28",
     "fff98147-1216-42e0-a011-88f2490f615b",
-    "670b4acf-4fa5-48dc-aaeb-c47a652857bd",
-    "095be71c-429f-4225-9256-0e98f6c1bf23",
     "260dec4e-1f96-4056-bbf4-34fd84c9858c",
+    "670b4acf-4fa5-48dc-aaeb-c47a652857bd",
+    "a586e51f-9ca7-4c19-89bd-fce781542af4",
+    "095be71c-429f-4225-9256-0e98f6c1bf23",
     "24821b32-07ee-49a0-9f6f-5ed10fb896fc",
     "79ef5474-7ddd-4685-980d-6a09696e7ca4",
     "2947d51d-7469-4f98-a1fa-fb9aaa23af08",
     "4e9daa1a-797c-4793-9c7c-64c28879537b",
+    "bb26850b-3f96-40e6-b0d0-1fac9d4e74cc",
     "7307a843-14a0-4d9b-a9b5-a9acb6aefa58",
-    "a586e51f-9ca7-4c19-89bd-fce781542af4",
     "f35df71b-d4f9-41b7-a4b6-6b67818f8fa1",
     "50383c17-5169-4b0d-ba01-3013e7e3b6c0",
     "24918716-b39e-40f6-a604-f9fbfcdb2dcf",
@@ -5564,5 +5580,5 @@
     "8537af3f-64ed-41a9-800c-607e7360190d",
     "017e2a7c-8d70-4cac-90a7-dbc8999b0905"
   ],
-  "_ts": "2026-07-07T12:12:45.606Z"
+  "_ts": "2026-07-07T12:12:59.167Z"
 }
