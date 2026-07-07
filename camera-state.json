@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783464205675103",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Roberto Ramirez",
+      "driverId": "960d7485-5877-40ed-bee3-f91e47767d40",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-07",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1234597031767605248; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3aee0b26-a990-44c2-8c90-58883179ec80.mp4",
+      "ts": 1783464205675,
+      "synced": false
+    },
+    {
       "id": "L1783464123669891",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -4257,5 +4270,5 @@
     "53fe7851-2452-44a4-9b33-51bb777d6338",
     "f473ce6e-8b16-429c-bb58-53e5172cfa92"
   ],
-  "_ts": "2026-07-07T22:42:08.146Z"
+  "_ts": "2026-07-07T22:43:25.690Z"
 }
