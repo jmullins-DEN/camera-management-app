@@ -203,6 +203,19 @@
   },
   "local": [
     {
+      "id": "L178342557460046",
+      "board": "YfVHuM3X87v",
+      "driver": "Clinton Lamb",
+      "driverId": "47f4d6ff-35a4-47c6-8e0c-51368cf84695",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-07",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking with two hands",
+      "ts": 1783425574600,
+      "synced": false
+    },
+    {
       "id": "L1783425462807348",
       "board": "XVLVu2Du8hc",
       "driver": "Susan Cobleigh",
@@ -5372,5 +5385,5 @@
     "095be71c-429f-4225-9256-0e98f6c1bf23",
     "260dec4e-1f96-4056-bbf4-34fd84c9858c"
   ],
-  "_ts": "2026-07-07T11:57:46.372Z"
+  "_ts": "2026-07-07T11:59:34.612Z"
 }
