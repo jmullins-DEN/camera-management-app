@@ -218,6 +218,19 @@
       "syncError": null
     },
     {
+      "id": "L1783430753436244",
+      "board": "UKkbYDchPMh",
+      "driver": "Thomas Jones",
+      "driverId": "29e24948-3e48-403a-b5b3-8dd3c7e3aaa2",
+      "date": "2026-07-06",
+      "reviewed": "2026-07-07",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a4be4129633518613d8a4aa",
+      "ts": 1783430753436,
+      "synced": false
+    },
+    {
       "id": "L1783430605910527",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -243,7 +256,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a4be72a9633518613d8a941",
       "ts": 1783430603784,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783430512458892",
@@ -4901,5 +4915,5 @@
     "0d936250-ae69-4b23-8436-4830a83911ff",
     "87df31fe-e6ff-4a99-a75a-9672821c3cf9"
   ],
-  "_ts": "2026-07-07T14:03:24.705Z"
+  "_ts": "2026-07-07T14:12:10.558Z"
 }
