@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783514343893479",
+      "board": "XVLVu2Du8hc",
+      "driver": "Moroni Holm",
+      "driverId": "019a0810-437c-7aae-88b4-81ec07855773",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-08",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "68 in 55",
+      "ts": 1783514343893,
+      "synced": false
+    },
+    {
       "id": "L178351417806778",
       "board": "ioWX9hneUsk",
       "driver": "Joe Castanuela",
@@ -5728,5 +5741,5 @@
     "e22e7933-d605-4e5c-979f-e5e981499074",
     "c7432093-da48-48da-b052-04fbaf4bd1a8"
   ],
-  "_ts": "2026-07-08T12:37:46.262Z"
+  "_ts": "2026-07-08T12:39:03.912Z"
 }
