@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783511348363558",
+      "board": "7d53dL31ioV",
+      "driver": "Walker Sims",
+      "driverId": "2af055b4-89b4-41a5-9936-a73e8f0233de",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-08",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6086407670: Following to closehttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1c7678cd-56be-49a7-aa99-c47d6747dece.mp4",
+      "ts": 1783511348363,
+      "synced": false
+    },
+    {
       "id": "L1783510671391719",
       "board": "kQeF7EsAnVz",
       "driver": "Miguel Mora",
@@ -5350,5 +5363,5 @@
     "4b45a7ec-2af7-46b1-9687-c2f5602a42c5",
     "4b2e92f4-cc6d-42aa-8af1-93ba411abe0c"
   ],
-  "_ts": "2026-07-08T11:43:05.791Z"
+  "_ts": "2026-07-08T11:49:08.416Z"
 }
