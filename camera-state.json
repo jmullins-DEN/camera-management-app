@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783517710760578",
+      "board": "8gejhhHJj4e",
+      "driver": "LUIS ALVAREZ #1908",
+      "driverId": "d1daa730-ffe6-4c1d-a69f-1838c188b9d0",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-08",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "hard brake",
+      "ts": 1783517710760,
+      "synced": false
+    },
+    {
       "id": "L178351766642719",
       "board": "8gejhhHJj4e",
       "driver": "Nick Trujillo",
@@ -6813,5 +6826,5 @@
     "ab8689c2-1aa2-470c-b614-175b8bc7eca0",
     "ad4ac407-e95e-4555-80b8-f12f67ef5333"
   ],
-  "_ts": "2026-07-08T13:34:26.445Z"
+  "_ts": "2026-07-08T13:35:10.779Z"
 }
