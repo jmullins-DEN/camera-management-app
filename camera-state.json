@@ -583,21 +583,6 @@
       "syncError": null
     },
     {
-      "id": "L1783426376297325",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-07-06",
-      "reviewed": "2026-07-07",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "Alert 6079730894: Truck # 403744 Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/00a9d71d-3bab-4757-a191-dee520b8cc1b.mp4",
-      "ts": 1783426376298,
-      "synced": true,
-      "infItemId": "bb26850b-3f96-40e6-b0d0-1fac9d4e74cc",
-      "syncError": null
-    },
-    {
       "id": "L1783426361182393",
       "board": "ebSND1QoyBs",
       "driver": "Deadrian Thomas",
@@ -1978,51 +1963,6 @@
       "syncError": null
     },
     {
-      "id": "L178334433764040",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6067726694: Truck # 157741 \nFace to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b6b293c-c4fd-49aa-9009-313c2ca1dd5e.mp4",
-      "ts": 1783344337640,
-      "synced": true,
-      "infItemId": "2cb3abe6-ecf3-45af-825c-3c82c488d652",
-      "syncError": null
-    },
-    {
-      "id": "L1783343481431920",
-      "board": "kQeF7EsAnVz",
-      "driver": "Alejandro Soto",
-      "driverId": "04eb544e-5897-4561-a5e0-abd2389e9da7",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6062159219: Hand Held Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/93aa7cc3-1983-49b5-818a-be695ac0914e.mp4",
-      "ts": 1783343481431,
-      "synced": true,
-      "infItemId": "2dca70f1-bdae-43ac-b6d8-59d2b5416c76",
-      "syncError": null
-    },
-    {
-      "id": "L178334324284798",
-      "board": "kQeF7EsAnVz",
-      "driver": "Daniel Velasco",
-      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "Alert 6061106960: Phone Distraction \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6a7ee0b9-b157-4b4a-86bc-9ae152384f3f.mp4",
-      "ts": 1783343242847,
-      "synced": true,
-      "infItemId": "7455c17f-2756-4cb4-aacf-b5b9c590d838",
-      "syncError": null
-    },
-    {
       "id": "L178330732565448",
       "board": "ic6o6QgzpVM",
       "driver": "Rios, Jesse",
@@ -2773,21 +2713,6 @@
       "syncError": null
     },
     {
-      "id": "L178299411834561",
-      "board": "kQeF7EsAnVz",
-      "driver": "Daniel Velasco",
-      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
-      "date": "2026-07-01",
-      "reviewed": "2026-07-02",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6054174556: Truck #157741 Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/19031e17-7e2a-4ce1-be39-8abf7970b39f.mp4",
-      "ts": 1782994118345,
-      "synced": true,
-      "infItemId": "e7c67da4-e525-4e9f-8daa-008e3942748d",
-      "syncError": null
-    },
-    {
       "id": "L1782994090320419",
       "board": "4rNDuSrCaap",
       "driver": "Rodney Wilborn",
@@ -3433,36 +3358,6 @@
       "syncError": null
     },
     {
-      "id": "L1782872259773594",
-      "board": "kQeF7EsAnVz",
-      "driver": "Miguel Mora",
-      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
-      "date": "2026-06-30",
-      "reviewed": "2026-06-30",
-      "behavior": "Traffic Light Violation",
-      "coaching": "Face to Face",
-      "notes": "Alert 6048768467: Traffic light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/15aed216-9e86-49e6-a91a-40a9c650184f.mp4",
-      "ts": 1782872259773,
-      "synced": true,
-      "infItemId": "bac3499f-b4d8-49b7-bde0-41bc6d49b3ae",
-      "syncError": null
-    },
-    {
-      "id": "L1782871874460551",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-06-30",
-      "reviewed": "2026-06-30",
-      "behavior": "Seat Belt",
-      "coaching": "Face to Face",
-      "notes": "Alert 6045673911: Truck # 170992 Seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0776b7b2-14c0-45dc-8779-934afa107eb3.mp4",
-      "ts": 1782871874461,
-      "synced": true,
-      "infItemId": "0b8f6439-6e56-425e-b229-e9218c5ad8ec",
-      "syncError": null
-    },
-    {
       "id": "L1782864932893410",
       "board": "YfVHuM3X87v",
       "driver": "Richard Mire",
@@ -3955,21 +3850,6 @@
       "ts": 1782778732820,
       "synced": true,
       "infItemId": "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
-      "syncError": null
-    },
-    {
-      "id": "L1782777712207320",
-      "board": "kQeF7EsAnVz",
-      "driver": "Daniel Velasco",
-      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6043173https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/24485761-d728-4313-a018-59475e7432a3.mp4356: Driver Drowsy ",
-      "ts": 1782777712208,
-      "synced": true,
-      "infItemId": "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
       "syncError": null
     },
     {
@@ -5604,5 +5484,5 @@
     "a10ed9cf-60e0-453a-8e92-078ab32d4f96",
     "4b45a7ec-2af7-46b1-9687-c2f5602a42c5"
   ],
-  "_ts": "2026-07-08T11:30:49.379Z"
+  "_ts": "2026-07-08T11:35:11.674Z"
 }
