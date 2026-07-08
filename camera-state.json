@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783514416749588",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Tanner",
+      "driverId": "019a0810-437c-7aae-88b4-dfecb414cf7f",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-08",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "53 in35",
+      "ts": 1783514416749,
+      "synced": false
+    },
+    {
       "id": "L1783514343893479",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -5744,5 +5757,5 @@
     "c7432093-da48-48da-b052-04fbaf4bd1a8",
     "c8391272-674d-4b01-8caa-737b423c5270"
   ],
-  "_ts": "2026-07-08T12:39:06.609Z"
+  "_ts": "2026-07-08T12:40:16.767Z"
 }
