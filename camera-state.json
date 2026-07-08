@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783552374223619",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Chris Kavel",
+      "driverId": "439c8822-b6b3-4d11-803f-804033d7d737",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-08",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1234928585471590400; hard brake; near miss;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c88047c2-75b2-495f-9cf8-236f103ca2a8.mp4",
+      "ts": 1783552374223,
+      "synced": false
+    },
+    {
       "id": "L1783552178592156",
       "board": "7W2SQKrNcXQ",
       "driver": "Oscar Sanchez",
@@ -5310,5 +5323,5 @@
     "cc1a3388-13ae-48a9-91ab-f3a37117cbd8",
     "08878428-b217-43d5-bcaf-342be01ed45f"
   ],
-  "_ts": "2026-07-08T23:09:40.868Z"
+  "_ts": "2026-07-08T23:12:54.240Z"
 }
