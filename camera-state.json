@@ -1171,21 +1171,6 @@
       "syncError": null
     },
     {
-      "id": "L178351350061599",
-      "board": "MZerRFmhSHa",
-      "driver": "Jacob Bannister",
-      "driverId": "2e572f72-529d-439f-9129-e8c6d325f72a",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6085740469; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2da45d3f-c402-499d-84fb-685add3946da.mp4",
-      "ts": 1783513500615,
-      "synced": true,
-      "infItemId": "3ee80da5-39f8-42bd-b585-e1a3d14c10e6",
-      "syncError": null
-    },
-    {
       "id": "L1783513461551816",
       "board": "UKkbYDchPMh",
       "driver": "Hubert (Butch) Bradley",
@@ -5342,5 +5327,5 @@
     "74787908-da68-44f4-9f75-d0f52b7fb142",
     "70a5ebff-28a1-4551-aa01-533b0ec11077"
   ],
-  "_ts": "2026-07-08T23:14:50.882Z"
+  "_ts": "2026-07-08T23:19:25.456Z"
 }
