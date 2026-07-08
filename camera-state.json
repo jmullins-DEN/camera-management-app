@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783554201541230",
+      "board": "ioWX9hneUsk",
+      "driver": "Mark Stephens",
+      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-08",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1234891423636160512; driver drowsy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1d06e79c-eb97-49b9-bf36-92c63a106512.mp4",
+      "ts": 1783554201541,
+      "synced": false
+    },
+    {
       "id": "L178355398900320",
       "board": "4rNDuSrCaap",
       "driver": "Unassigned",
@@ -6810,5 +6823,5 @@
     "f5edebdb-1d26-4e4e-862c-35ee1da30aa4",
     "c55c1455-12e2-4bc6-90a3-777cf41d08d0"
   ],
-  "_ts": "2026-07-08T23:42:56.500Z"
+  "_ts": "2026-07-08T23:43:21.571Z"
 }
