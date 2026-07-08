@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L178351006294839",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-08",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980616004-1783452435244: Truck # 234 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6b357335-f373-4748-80bc-9a52b22d4251.mp4",
+      "ts": 1783510062949,
+      "synced": false
+    },
+    {
       "id": "L1783509746474499",
       "board": "KYqKJWuumPm",
       "driver": "Doug McCosh",
@@ -5572,5 +5585,5 @@
     "1f3d738a-6bef-479d-a944-939583db466d",
     "35e17d03-208a-4984-b080-4a674170bd87"
   ],
-  "_ts": "2026-07-08T11:22:28.633Z"
+  "_ts": "2026-07-08T11:27:42.999Z"
 }
