@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783514938370863",
+      "board": "xMfRLnqAN7y",
+      "driver": "Keith Smith",
+      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-08",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; possible phone usage",
+      "ts": 1783514938370,
+      "synced": false
+    },
+    {
       "id": "L1783514577249141",
       "board": "XVLVu2Du8hc",
       "driver": "Micheal Morris",
@@ -6004,5 +6017,5 @@
     "fa485ac2-8f66-4238-91a0-61775027202f",
     "bf9e2dfa-5f39-4922-ba03-da84887cb2b7"
   ],
-  "_ts": "2026-07-08T12:47:45.243Z"
+  "_ts": "2026-07-08T12:48:58.386Z"
 }
