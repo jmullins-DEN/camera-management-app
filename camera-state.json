@@ -252,7 +252,9 @@
       "coaching": "Coaching Notes",
       "notes": "Heavy Speeding",
       "ts": 1783516548465,
-      "synced": false
+      "synced": true,
+      "infItemId": "ad4ac407-e95e-4555-80b8-f12f67ef5333",
+      "syncError": null
     },
     {
       "id": "L1783516456619137",
@@ -6268,7 +6270,8 @@
     "0c1c4a81-ea61-4f8a-8af7-6ab322eb3610",
     "f093da75-15b0-428d-a808-c2d7bb44d9a4",
     "98a547be-d7ec-4d08-905c-09e8a93fb85e",
-    "ab8689c2-1aa2-470c-b614-175b8bc7eca0"
+    "ab8689c2-1aa2-470c-b614-175b8bc7eca0",
+    "ad4ac407-e95e-4555-80b8-f12f67ef5333"
   ],
-  "_ts": "2026-07-08T13:15:48.485Z"
+  "_ts": "2026-07-08T13:15:50.691Z"
 }
