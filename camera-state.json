@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783510246835907",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-07",
+      "reviewed": "2026-07-08",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980531324-1783449470668: Truck # 168 Hand Held Phonehttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/28a71396-3ed3-4bc2-ba4b-9c71ce9cc6e3.mp4",
+      "ts": 1783510246835,
+      "synced": false
+    },
+    {
       "id": "L178351006294839",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -5588,5 +5601,5 @@
     "35e17d03-208a-4984-b080-4a674170bd87",
     "a10ed9cf-60e0-453a-8e92-078ab32d4f96"
   ],
-  "_ts": "2026-07-08T11:27:45.681Z"
+  "_ts": "2026-07-08T11:30:46.885Z"
 }
