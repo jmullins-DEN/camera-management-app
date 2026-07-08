@@ -252,7 +252,9 @@
       "coaching": "Coaching Notes",
       "notes": "inattentive; possible phone usage",
       "ts": 1783514938370,
-      "synced": false
+      "synced": true,
+      "infItemId": "88032e53-9195-43ea-b549-dc90fcd91ba2",
+      "syncError": null
     },
     {
       "id": "L1783514577249141",
@@ -6015,7 +6017,8 @@
     "5f8554d2-294b-4abe-bf02-f6d988937968",
     "66026a15-e042-4cff-9413-cfe0e2f731dc",
     "fa485ac2-8f66-4238-91a0-61775027202f",
-    "bf9e2dfa-5f39-4922-ba03-da84887cb2b7"
+    "bf9e2dfa-5f39-4922-ba03-da84887cb2b7",
+    "88032e53-9195-43ea-b549-dc90fcd91ba2"
   ],
-  "_ts": "2026-07-08T12:48:58.386Z"
+  "_ts": "2026-07-08T12:49:01.207Z"
 }
