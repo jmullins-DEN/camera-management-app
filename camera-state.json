@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783640656045154",
+      "board": "YJNwKvzFhkj",
+      "driver": "Alpherd Jones",
+      "driverId": "019f268c-e7f1-7271-8005-bee54018a5f1",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; safety review",
+      "ts": 1783640656045,
+      "synced": false
+    },
+    {
       "id": "L1783640564603273",
       "board": "xMfRLnqAN7y",
       "driver": "Steven Rosvall",
@@ -4784,5 +4797,5 @@
     "87c32aa3-144c-4e21-853a-76f238953bd3",
     "3a5aaf69-03c0-4171-9b70-57ce992f8996"
   ],
-  "_ts": "2026-07-09T23:43:42.142Z"
+  "_ts": "2026-07-09T23:44:16.062Z"
 }
