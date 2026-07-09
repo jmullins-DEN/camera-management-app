@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783632168875469",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Luis Longoria",
+      "driverId": "49e59c0a-5419-4beb-bf1f-da4094d1ea21",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1235219349929885696; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b4f2133f-8a36-4dd8-975b-2388c5a2162e.mp4",
+      "ts": 1783632168875,
+      "synced": false
+    },
+    {
       "id": "L1783631874033128",
       "board": "7W2SQKrNcXQ",
       "driver": "Bill Mayville",
@@ -6249,5 +6262,5 @@
     "0b6c88b7-3ec0-4332-b66e-64ceb85570da",
     "e156175b-4a4c-43ec-a5df-988a52ce3ec9"
   ],
-  "_ts": "2026-07-09T21:17:58.600Z"
+  "_ts": "2026-07-09T21:22:48.892Z"
 }
