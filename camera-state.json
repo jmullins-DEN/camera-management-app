@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783638298898652",
+      "board": "XVLVu2Du8hc",
+      "driver": "David Smart",
+      "driverId": "019a0810-437c-7aae-88b4-51a0a0af28a8",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "57 in 35",
+      "ts": 1783638298898,
+      "synced": false
+    },
+    {
       "id": "L178363823989028",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Schroeder",
@@ -5289,5 +5302,5 @@
     "c7926f4c-8b44-4c27-a109-435ee12b8ebf",
     "e83593b2-72ec-470a-904a-0e129727fd22"
   ],
-  "_ts": "2026-07-09T23:04:03.487Z"
+  "_ts": "2026-07-09T23:04:58.915Z"
 }
