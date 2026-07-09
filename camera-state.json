@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L178363895445372",
+      "board": "YfVHuM3X87v",
+      "driver": "Lannas Tedrow",
+      "driverId": "a1b097f7-a6c5-4f69-952e-c7f0ffe7eac3",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking with two hands",
+      "ts": 1783638954453,
+      "synced": false
+    },
+    {
       "id": "L1783638298898652",
       "board": "XVLVu2Du8hc",
       "driver": "David Smart",
@@ -4975,5 +4988,5 @@
     "e83593b2-72ec-470a-904a-0e129727fd22",
     "30a61244-813c-4e4e-a652-f9571b46b2b2"
   ],
-  "_ts": "2026-07-09T23:14:59.872Z"
+  "_ts": "2026-07-09T23:15:54.467Z"
 }
