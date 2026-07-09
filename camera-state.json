@@ -242,6 +242,21 @@
   },
   "local": [
     {
+      "id": "L1783598151360517",
+      "board": "xMfRLnqAN7y",
+      "driver": "Oscar Herrera",
+      "driverId": "019bdd40-0d98-7997-8bde-6bb3e96e20b0",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1783598151360,
+      "synced": true,
+      "infItemId": "3ff60796-691e-4093-8e3d-2eabf3635bf5",
+      "syncError": null
+    },
+    {
       "id": "L1783598009243673",
       "board": "YfVHuM3X87v",
       "driver": "Charles Allen",
@@ -1354,36 +1369,6 @@
       "syncError": null
     },
     {
-      "id": "L1783515770076989",
-      "board": "YJNwKvzFhkj",
-      "driver": "Jonathan Hall",
-      "driverId": "019dd5f2-3f5d-718a-8a2d-11a1e06b6dd4",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "following too close",
-      "ts": 1783515770077,
-      "synced": true,
-      "infItemId": "377c13b0-ff5e-4cfa-bdde-fb02d90d49e4",
-      "syncError": null
-    },
-    {
-      "id": "L1783515678863126",
-      "board": "YJNwKvzFhkj",
-      "driver": "Brandon Bradford",
-      "driverId": "019de571-9b44-708d-ac6c-bb75bd934615",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "multi-tasking; loses lane",
-      "ts": 1783515678864,
-      "synced": true,
-      "infItemId": "a1488d7d-e209-47ac-89fb-f5c56a576776",
-      "syncError": null
-    },
-    {
       "id": "L1783515472406554",
       "board": "YfVHuM3X87v",
       "driver": "Martin Kenley",
@@ -2167,21 +2152,6 @@
       "syncError": null
     },
     {
-      "id": "L1783425979928697",
-      "board": "YJNwKvzFhkj",
-      "driver": "Bertram Williams",
-      "driverId": "019de571-5de8-7113-9a1f-9a3481db83e8",
-      "date": "2026-07-06",
-      "reviewed": "2026-07-07",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "following too close",
-      "ts": 1783425979928,
-      "synced": true,
-      "infItemId": "7307a843-14a0-4d9b-a9b5-a9acb6aefa58",
-      "syncError": null
-    },
-    {
       "id": "L1783425795143894",
       "board": "7d53dL31ioV",
       "driver": "SCHULTZ, JEREMY D",
@@ -2929,66 +2899,6 @@
       "ts": 1783355441973,
       "synced": true,
       "infItemId": "f3b30015-af3b-4e05-b31b-fc8157537b6a",
-      "syncError": null
-    },
-    {
-      "id": "L1783355111423610",
-      "board": "YJNwKvzFhkj",
-      "driver": "Brandon Bradford",
-      "driverId": "019de571-9b44-708d-ac6c-bb75bd934615",
-      "date": "2026-07-03",
-      "reviewed": "2026-07-06",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "driver drowsy; safety review",
-      "ts": 1783355111423,
-      "synced": true,
-      "infItemId": "6cc0e194-115e-4dd7-a466-df4487b24047",
-      "syncError": null
-    },
-    {
-      "id": "L1783355012361701",
-      "board": "YJNwKvzFhkj",
-      "driver": "Omar Bowers",
-      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
-      "date": "2026-07-03",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "multi-tasking; loses lane",
-      "ts": 1783355012361,
-      "synced": true,
-      "infItemId": "bea08a3e-9de8-425c-89b8-263cf064c400",
-      "syncError": null
-    },
-    {
-      "id": "L1783354919709871",
-      "board": "YJNwKvzFhkj",
-      "driver": "Jonathan Hall",
-      "driverId": "019dd5f2-3f5d-718a-8a2d-11a1e06b6dd4",
-      "date": "2026-07-03",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "texting",
-      "ts": 1783354919709,
-      "synced": true,
-      "infItemId": "3b3060f3-8999-4eab-b727-e3973422a4a3",
-      "syncError": null
-    },
-    {
-      "id": "L1783354829859154",
-      "board": "YJNwKvzFhkj",
-      "driver": "Dashawn Johnson",
-      "driverId": "019f186a-3a2e-70ec-a669-3bc4dac8feff",
-      "date": "2026-07-04",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "multi-tasking; loses lane",
-      "ts": 1783354829859,
-      "synced": true,
-      "infItemId": "72c59c55-1590-4cda-a5d9-c442ad15f610",
       "syncError": null
     },
     {
@@ -4192,21 +4102,6 @@
       "syncError": null
     },
     {
-      "id": "L1782995865709279",
-      "board": "YJNwKvzFhkj",
-      "driver": "Omar Bowers",
-      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
-      "date": "2026-07-01",
-      "reviewed": "2026-07-02",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "eating distraction",
-      "ts": 1782995865709,
-      "synced": true,
-      "infItemId": "d6e0c749-e0fd-491f-b9d9-5751e2893a84",
-      "syncError": null
-    },
-    {
       "id": "L1782995783509496",
       "board": "KYqKJWuumPm",
       "driver": "Joseph Pulliam",
@@ -4894,36 +4789,6 @@
       "ts": 1782909126405,
       "synced": true,
       "infItemId": "f0515fe6-2372-4718-9dfd-8fa39b75a5d4",
-      "syncError": null
-    },
-    {
-      "id": "L1782908905810367",
-      "board": "YJNwKvzFhkj",
-      "driver": "Omar Bowers",
-      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
-      "date": "2026-06-30",
-      "reviewed": "2026-07-01",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "eating distraction",
-      "ts": 1782908905810,
-      "synced": true,
-      "infItemId": "7a0b5486-4979-479b-901a-c9a82f23308b",
-      "syncError": null
-    },
-    {
-      "id": "L1782908858150844",
-      "board": "YJNwKvzFhkj",
-      "driver": "Zyra Jones",
-      "driverId": "019de57b-12f4-720c-ae82-3ae1abbb11a7",
-      "date": "2026-06-30",
-      "reviewed": "2026-07-01",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "camera misaligned",
-      "ts": 1782908858150,
-      "synced": true,
-      "infItemId": "4010fbe1-c7a8-4f80-a21c-4802b7921590",
       "syncError": null
     },
     {
@@ -7440,7 +7305,8 @@
     "593b2dca-001a-421b-afb3-7c1fbb098efe",
     "52e4eff0-0027-41ac-9783-94ce430711ac",
     "db6eb1a1-b99c-4fe0-821d-b325ac38a84d",
-    "a5983c35-6d71-4341-9a64-513ce54a3d9b"
+    "a5983c35-6d71-4341-9a64-513ce54a3d9b",
+    "3ff60796-691e-4093-8e3d-2eabf3635bf5"
   ],
-  "_ts": "2026-07-09T11:55:16.192Z"
+  "_ts": "2026-07-09T11:56:43.756Z"
 }
