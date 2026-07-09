@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783598327979943",
+      "board": "YJNwKvzFhkj",
+      "driver": "Brandon Bradford",
+      "driverId": "019de571-9b44-708d-ac6c-bb75bd934615",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking with two hands",
+      "ts": 1783598327979,
+      "synced": false
+    },
+    {
       "id": "L1783598151360517",
       "board": "xMfRLnqAN7y",
       "driver": "Oscar Herrera",
@@ -7308,5 +7321,5 @@
     "a5983c35-6d71-4341-9a64-513ce54a3d9b",
     "3ff60796-691e-4093-8e3d-2eabf3635bf5"
   ],
-  "_ts": "2026-07-09T11:56:43.756Z"
+  "_ts": "2026-07-09T11:58:47.997Z"
 }
