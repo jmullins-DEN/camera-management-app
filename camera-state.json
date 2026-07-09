@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1235002113994686464; no seatbelt; Mike not in Truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0447ef30-f49d-4b98-b270-e0f0f502d0f4.mp4",
       "ts": 1783597014582,
-      "synced": false
+      "synced": true,
+      "infItemId": "6d6440e4-5401-46c6-b227-fd54421b3923",
+      "syncError": null
     },
     {
       "id": "L1783596953390526",
@@ -7035,7 +7037,8 @@
     "ae891e21-c993-468c-8839-bf75ee9cd0c3",
     "1e4900c2-67fc-4493-b597-e7b4caabe360",
     "e700acab-1cee-4d1b-aea5-032bcd296636",
-    "993c4416-923d-4458-a145-b6f610fb4cd7"
+    "993c4416-923d-4458-a145-b6f610fb4cd7",
+    "6d6440e4-5401-46c6-b227-fd54421b3923"
   ],
-  "_ts": "2026-07-09T11:36:54.603Z"
+  "_ts": "2026-07-09T11:36:58.237Z"
 }
