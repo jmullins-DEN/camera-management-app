@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783597530739970",
+      "board": "XVLVu2Du8hc",
+      "driver": "Moroni Holm",
+      "driverId": "019a0810-437c-7aae-88b4-81ec07855773",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "68 in 55",
+      "ts": 1783597530739,
+      "synced": false
+    },
+    {
       "id": "L1783597466070508",
       "board": "XVLVu2Du8hc",
       "driver": "David Smart",
@@ -7419,5 +7432,5 @@
     "74b083c9-919d-45dc-a01f-508c79f34861",
     "ccf35430-71bf-4522-b170-f4e74b624721"
   ],
-  "_ts": "2026-07-09T11:44:28.275Z"
+  "_ts": "2026-07-09T11:45:30.755Z"
 }
