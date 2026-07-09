@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474986458584-1783524715681: Truck # 206  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/926b7a42-92cb-478d-b8f9-d0ed967caf25.mp4",
       "ts": 1783596953390,
-      "synced": false
+      "synced": true,
+      "infItemId": "993c4416-923d-4458-a145-b6f610fb4cd7",
+      "syncError": null
     },
     {
       "id": "L1783596810126802",
@@ -7424,7 +7426,8 @@
     "6dd9e089-cd0c-4e3a-836a-d52f4e227c55",
     "ae891e21-c993-468c-8839-bf75ee9cd0c3",
     "1e4900c2-67fc-4493-b597-e7b4caabe360",
-    "e700acab-1cee-4d1b-aea5-032bcd296636"
+    "e700acab-1cee-4d1b-aea5-032bcd296636",
+    "993c4416-923d-4458-a145-b6f610fb4cd7"
   ],
-  "_ts": "2026-07-09T11:35:53.478Z"
+  "_ts": "2026-07-09T11:35:57.211Z"
 }
