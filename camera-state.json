@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783598009243673",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Allen",
+      "driverId": "e08a2195-1cac-4cab-b79f-ced77b9985b0",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked\n",
+      "ts": 1783598009243,
+      "synced": false
+    },
+    {
       "id": "L1783597927262520",
       "board": "YfVHuM3X87v",
       "driver": "John Reed",
@@ -7531,5 +7544,5 @@
     "52e4eff0-0027-41ac-9783-94ce430711ac",
     "db6eb1a1-b99c-4fe0-821d-b325ac38a84d"
   ],
-  "_ts": "2026-07-09T11:52:11.600Z"
+  "_ts": "2026-07-09T11:53:29.263Z"
 }
