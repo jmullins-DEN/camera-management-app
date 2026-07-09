@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783638192505595",
+      "board": "XVLVu2Du8hc",
+      "driver": "Michael Morris",
+      "driverId": "019a905c-c98e-733f-b520-fd39f9a9b7ee",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1783638192505,
+      "synced": false
+    },
+    {
       "id": "L1783638138424485",
       "board": "XVLVu2Du8hc",
       "driver": "Tres Dimick",
@@ -5257,5 +5270,5 @@
     "619fd6dc-4850-4e5a-968e-6c054e45a734",
     "3f6a3b6a-413e-465e-8c9a-a572f74b3498"
   ],
-  "_ts": "2026-07-09T23:02:21.288Z"
+  "_ts": "2026-07-09T23:03:12.522Z"
 }
