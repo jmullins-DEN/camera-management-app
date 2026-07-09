@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783597671195602",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Stoner",
+      "driverId": "019a0810-437c-7aae-88b4-4e906ca1ff77",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "64 in 50",
+      "ts": 1783597671195,
+      "synced": false
+    },
+    {
       "id": "L1783597628139507",
       "board": "XVLVu2Du8hc",
       "driver": "Steven James",
@@ -7467,5 +7480,5 @@
     "59f28845-b098-4d99-8c8f-46c62a02508b",
     "0b01049b-08a8-4740-a67f-f2f7e5667c61"
   ],
-  "_ts": "2026-07-09T11:47:13.016Z"
+  "_ts": "2026-07-09T11:47:51.215Z"
 }
