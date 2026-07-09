@@ -252,7 +252,9 @@
       "coaching": "Coaching Notes",
       "notes": "inattentive; distracted",
       "ts": 1783640699205,
-      "synced": false
+      "synced": true,
+      "infItemId": "97c8f056-4871-4029-a07b-68b89b567706",
+      "syncError": null
     },
     {
       "id": "L1783640656045154",
@@ -4811,7 +4813,8 @@
     "83a2ae4c-bff3-45b4-a1d6-25617bb9fac1",
     "87c32aa3-144c-4e21-853a-76f238953bd3",
     "3a5aaf69-03c0-4171-9b70-57ce992f8996",
-    "775143ad-c449-403a-a86f-4f074fc644d4"
+    "775143ad-c449-403a-a86f-4f074fc644d4",
+    "97c8f056-4871-4029-a07b-68b89b567706"
   ],
-  "_ts": "2026-07-09T23:44:59.222Z"
+  "_ts": "2026-07-09T23:45:01.373Z"
 }
