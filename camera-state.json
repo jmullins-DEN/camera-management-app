@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783640937639624",
+      "board": "ebSND1QoyBs",
+      "driver": "Kurt Purdie",
+      "driverId": "112af69e-b1a2-4bbb-b667-4cba3da3b557",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1783640937639,
+      "synced": false
+    },
+    {
       "id": "L1783640895826133",
       "board": "ebSND1QoyBs",
       "driver": "Michael Reynoso",
@@ -4412,5 +4425,5 @@
     "97c8f056-4871-4029-a07b-68b89b567706",
     "7b06900d-0640-4cbd-b3c1-2ab50278f81f"
   ],
-  "_ts": "2026-07-09T23:48:18.866Z"
+  "_ts": "2026-07-09T23:48:57.656Z"
 }
