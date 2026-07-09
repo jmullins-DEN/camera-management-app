@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783613587396993",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "https://app.estrack.com/#/camera/events/6a4f008a9633518613dc3a09",
+      "ts": 1783613587396,
+      "synced": false
+    },
+    {
       "id": "L1783613258087150",
       "board": "UKkbYDchPMh",
       "driver": "Hubert (Butch) Bradley",
@@ -6245,5 +6258,5 @@
     "6dc34f33-0497-47bc-8e78-1e49286554fa",
     "b3595c6a-5843-411b-ab01-c5e1f7817441"
   ],
-  "_ts": "2026-07-09T16:07:39.367Z"
+  "_ts": "2026-07-09T16:13:07.420Z"
 }
