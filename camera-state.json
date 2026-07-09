@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783637114012674",
+      "board": "4rNDuSrCaap",
+      "driver": "Chris Jacobson",
+      "driverId": "b0536f51-f448-428b-b4d5-50c35bf69394",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 414526417; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f45afbfa-d7b9-4011-a6f1-a174fdbf09af.mp4",
+      "ts": 1783637114012,
+      "synced": false
+    },
+    {
       "id": "L1783632776456879",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -5786,5 +5799,5 @@
     "cac3ea82-8a59-4fae-ab55-15c0d5cf8763",
     "b56a5e7e-2e94-4a80-81d8-609b9e4607c4"
   ],
-  "_ts": "2026-07-09T22:43:24.876Z"
+  "_ts": "2026-07-09T22:45:14.032Z"
 }
