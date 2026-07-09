@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783600239380881",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "rolling stop ",
+      "ts": 1783600239380,
+      "synced": false
+    },
+    {
       "id": "L1783600127268860",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -7261,5 +7274,5 @@
     "0f790c14-4148-488b-b516-303741cd3741",
     "f70e0e07-6bac-49ad-91e1-10041f18077b"
   ],
-  "_ts": "2026-07-09T12:28:47.288Z"
+  "_ts": "2026-07-09T12:30:39.398Z"
 }
