@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783639012792833",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Allen",
+      "driverId": "e08a2195-1cac-4cab-b79f-ced77b9985b0",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "forward camera obstructed/inoperable",
+      "ts": 1783639012792,
+      "synced": false
+    },
+    {
       "id": "L178363895445372",
       "board": "YfVHuM3X87v",
       "driver": "Lannas Tedrow",
@@ -4991,5 +5004,5 @@
     "30a61244-813c-4e4e-a652-f9571b46b2b2",
     "c631a2d1-62df-4732-9529-6e4405c1c00c"
   ],
-  "_ts": "2026-07-09T23:16:00.232Z"
+  "_ts": "2026-07-09T23:16:52.809Z"
 }
