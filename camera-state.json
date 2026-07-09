@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783597014582681",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1235002113994686464; no seatbelt; Mike not in Truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0447ef30-f49d-4b98-b270-e0f0f502d0f4.mp4",
+      "ts": 1783597014582,
+      "synced": false
+    },
+    {
       "id": "L1783596953390526",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -7024,5 +7037,5 @@
     "e700acab-1cee-4d1b-aea5-032bcd296636",
     "993c4416-923d-4458-a145-b6f610fb4cd7"
   ],
-  "_ts": "2026-07-09T11:36:08.320Z"
+  "_ts": "2026-07-09T11:36:54.603Z"
 }
