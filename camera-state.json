@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783597927262520",
+      "board": "YfVHuM3X87v",
+      "driver": "John Reed",
+      "driverId": "978b68b6-ea08-41da-ac11-09768d0b5440",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "inattentive; possible phone usage",
+      "ts": 1783597927262,
+      "synced": false
+    },
+    {
       "id": "L1783597840300602",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -7515,5 +7528,5 @@
     "593b2dca-001a-421b-afb3-7c1fbb098efe",
     "52e4eff0-0027-41ac-9783-94ce430711ac"
   ],
-  "_ts": "2026-07-09T11:51:02.674Z"
+  "_ts": "2026-07-09T11:52:07.279Z"
 }
