@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783598638400639",
+      "board": "ebSND1QoyBs",
+      "driver": "Roderick Bush",
+      "driverId": "a184bb6e-8bb7-4db9-8bde-7e8bebbc604b",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1783598638401,
+      "synced": false
+    },
+    {
       "id": "L1783598327979943",
       "board": "YJNwKvzFhkj",
       "driver": "Brandon Bradford",
@@ -6934,5 +6947,5 @@
     "3ff60796-691e-4093-8e3d-2eabf3635bf5",
     "15010b6b-c67d-4bb0-8a7a-e2e257810e3d"
   ],
-  "_ts": "2026-07-09T12:03:13.775Z"
+  "_ts": "2026-07-09T12:03:58.417Z"
 }
