@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "inattentive; possible phone usage",
       "ts": 1783597927262,
-      "synced": false
+      "synced": true,
+      "infItemId": "db6eb1a1-b99c-4fe0-821d-b325ac38a84d",
+      "syncError": null
     },
     {
       "id": "L1783597840300602",
@@ -7526,7 +7528,8 @@
     "0b01049b-08a8-4740-a67f-f2f7e5667c61",
     "bd1e23af-d212-4f34-97dc-03abec57bdf0",
     "593b2dca-001a-421b-afb3-7c1fbb098efe",
-    "52e4eff0-0027-41ac-9783-94ce430711ac"
+    "52e4eff0-0027-41ac-9783-94ce430711ac",
+    "db6eb1a1-b99c-4fe0-821d-b325ac38a84d"
   ],
-  "_ts": "2026-07-09T11:52:07.279Z"
+  "_ts": "2026-07-09T11:52:09.350Z"
 }
