@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474980616004-1783524967316:  Truck # 234 Hand Held Device\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/64b5d420-b150-49cf-b3ad-99ccf14a3983.mp4\n",
       "ts": 1783596810126,
-      "synced": false
+      "synced": true,
+      "infItemId": "e700acab-1cee-4d1b-aea5-032bcd296636",
+      "syncError": null
     },
     {
       "id": "L1783596611167493",
@@ -7408,7 +7410,8 @@
     "b76ccc9f-0a46-47bf-97b6-43b9ac83d5d2",
     "6dd9e089-cd0c-4e3a-836a-d52f4e227c55",
     "ae891e21-c993-468c-8839-bf75ee9cd0c3",
-    "1e4900c2-67fc-4493-b597-e7b4caabe360"
+    "1e4900c2-67fc-4493-b597-e7b4caabe360",
+    "e700acab-1cee-4d1b-aea5-032bcd296636"
   ],
-  "_ts": "2026-07-09T11:33:30.230Z"
+  "_ts": "2026-07-09T11:33:33.529Z"
 }
