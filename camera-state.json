@@ -252,7 +252,9 @@
       "coaching": "System Alert",
       "notes": "forward camera obstructed/inoperable",
       "ts": 1783639012792,
-      "synced": false
+      "synced": true,
+      "infItemId": "83a2ae4c-bff3-45b4-a1d6-25617bb9fac1",
+      "syncError": null
     },
     {
       "id": "L178363895445372",
@@ -5002,7 +5004,8 @@
     "c7926f4c-8b44-4c27-a109-435ee12b8ebf",
     "e83593b2-72ec-470a-904a-0e129727fd22",
     "30a61244-813c-4e4e-a652-f9571b46b2b2",
-    "c631a2d1-62df-4732-9529-6e4405c1c00c"
+    "c631a2d1-62df-4732-9529-6e4405c1c00c",
+    "83a2ae4c-bff3-45b4-a1d6-25617bb9fac1"
   ],
-  "_ts": "2026-07-09T23:16:52.809Z"
+  "_ts": "2026-07-09T23:16:55.162Z"
 }
