@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783632776456879",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1235300318426857472; texting; vehicle # 163\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b2b381d5-8f43-4bb3-b9df-1c243df1fb13.mp4",
+      "ts": 1783632776456,
+      "synced": false
+    },
+    {
       "id": "L1783632168875469",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -6265,5 +6278,5 @@
     "e156175b-4a4c-43ec-a5df-988a52ce3ec9",
     "cac3ea82-8a59-4fae-ab55-15c0d5cf8763"
   ],
-  "_ts": "2026-07-09T21:22:52.265Z"
+  "_ts": "2026-07-09T21:32:56.475Z"
 }
