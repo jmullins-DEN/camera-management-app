@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783597466070508",
+      "board": "XVLVu2Du8hc",
+      "driver": "David Smart",
+      "driverId": "019a0810-437c-7aae-88b4-51a0a0af28a8",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "56 in 35",
+      "ts": 1783597466070,
+      "synced": false
+    },
+    {
       "id": "L1783597414532418",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Morris",
@@ -7403,5 +7416,5 @@
     "6d2b91cd-710b-4d7a-abea-bcce1f0de93f",
     "74b083c9-919d-45dc-a01f-508c79f34861"
   ],
-  "_ts": "2026-07-09T11:43:39.664Z"
+  "_ts": "2026-07-09T11:44:26.090Z"
 }
