@@ -951,6 +951,11 @@ async function apiPut(path,body){
     headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},body:JSON.stringify(body)});
   return r.json();
 }
+async function apiDel(path,body){
+  const r=await fetch(API_BASE+path,{method:'DELETE',
+    headers:{'Content-Type':'application/json','X-App-Key':APP_KEY},body:JSON.stringify(body)});
+  return r.json();
+}
 // Infinity Long Text renders Markdown; a bare URL stays plain text. Wrap each URL as a [url](url)
 // markdown link so it's clickable. Idempotent: first collapse any existing [url](url) back to bare,
 // then re-wrap — so re-saving an edited note never double-wraps. Local state keeps the clean URL.
@@ -1570,10 +1575,58 @@ function editEvent(bid,itemId){
     <div class="field"><label class="f">Behavior observed</label><select id="edBehavior"><option value="">— select a behavior —</option>${bopts}</select></div>
     <div class="field"><label class="f">Coaching needed</label><select id="edCoaching"><option value="">— none —</option>${copts}</select></div>
     <div class="field"><label class="f">Notes</label><textarea id="edNotes" rows="3" placeholder="Optional context — paste a link if needed…">${esc(ev.notes||'')}</textarea></div>
-    <div class="modal-foot">
-      <button onclick="closeModal()">Cancel</button>
-      <button class="primary" onclick="saveEventEdit('${bid}','${itemId}')">Save changes</button>
+    <div class="modal-foot" style="justify-content:space-between">
+      <button onclick="confirmDeleteEvent('${bid}','${itemId}')" style="background:var(--red);border-color:var(--red);color:#fff">Delete event</button>
+      <div style="display:flex;gap:10px">
+        <button onclick="closeModal()">Cancel</button>
+        <button class="primary" onclick="saveEventEdit('${bid}','${itemId}')">Save changes</button>
+      </div>
     </div>`);
+}
+// Two-step delete: confirm first (entered-in-error recovery), then remove from
+// Infinity AND scrub every local trace so it can't reappear on reload/refresh.
+function confirmDeleteEvent(bid,itemId){
+  const ev=eventsFor(bid).find(e=>e.itemId===itemId);
+  const b=boardById(bid)||{};
+  const who=ev&&ev.driver?esc(ev.driver):'this driver';
+  const when=ev&&ev.date?esc(mdOnly(ev.date)):'';
+  const beh=ev&&ev.behavior?esc(ev.behavior):'event';
+  openModal(`
+    <h2>Delete this event?</h2>
+    <div class="sub">${esc(b.name||'')} · <b>${who}</b></div>
+    <div class="warn" style="background:#fdecec;border-color:#f3c0c0;color:#a12020;margin-bottom:16px">
+      Permanently deletes the <b>${beh}</b> event${when?` from <b>${when}</b>`:''} from Infinity. This can’t be undone.
+    </div>
+    <div class="modal-foot" style="justify-content:space-between">
+      <button onclick="editEvent('${bid}','${itemId}')">← Back</button>
+      <button onclick="deleteEventNow('${bid}','${itemId}')" style="background:var(--red);border-color:var(--red);color:#fff">Delete event</button>
+    </div>`);
+}
+async function deleteEventNow(bid,itemId){
+  const wb=wbFor(bid);
+  if(!wb){ toast('This board isn’t live for write-back','⚠'); return; }
+  closeModal();
+  toast('Deleting event in Infinity…');
+  let res;
+  try{ res=await apiDel('/item',{board:bid,item_id:itemId}); }
+  catch(e){ console.error('event delete failed',e); }
+  // Only scrub locally if Infinity actually deleted it — otherwise a refresh would
+  // re-pull it and it'd come back as a confusing non-editable zombie. Keep + let retry.
+  if(!res||!res.ok){ toast('Infinity delete failed — event kept, try again','⚠'); return; }
+  removeEventLocally(bid,itemId);
+  toast('Event deleted ✓');
+  if(screen==='entry'&&ctx.board===bid) refreshEntryPanels(bid);
+  render();
+}
+// Remove an event from every place we hold it: the local queue, the entered-ids
+// set (green ✓ / editability), the in-memory board, and the persisted refresh cache.
+function removeEventLocally(bid,itemId){
+  LS.local=LS.local.filter(e=>!(e.board===bid && e.infItemId===itemId));
+  LS.entered=LS.entered.filter(id=>id!==itemId);
+  const b=boardById(bid); if(b&&Array.isArray(b.events)) b.events=b.events.filter(e=>e.item!==itemId);
+  const cache=LS.refreshed, rec=cache[bid];
+  if(rec&&Array.isArray(rec.events)){ rec.events=rec.events.filter(e=>e.item!==itemId); cache[bid]=rec; LS.refreshed=cache; }
+  pushState(true);
 }
 function saveEventEdit(bid,itemId){
   const beh=document.getElementById('edBehavior').value;
