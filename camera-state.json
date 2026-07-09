@@ -1457,21 +1457,6 @@
       "syncError": null
     },
     {
-      "id": "L1783514938370863",
-      "board": "xMfRLnqAN7y",
-      "driver": "Keith Smith",
-      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "inattentive; possible phone usage",
-      "ts": 1783514938370,
-      "synced": true,
-      "infItemId": "88032e53-9195-43ea-b549-dc90fcd91ba2",
-      "syncError": null
-    },
-    {
       "id": "L1783514577249141",
       "board": "XVLVu2Du8hc",
       "driver": "Micheal Morris",
@@ -3004,66 +2989,6 @@
       "ts": 1783354829859,
       "synced": true,
       "infItemId": "72c59c55-1590-4cda-a5d9-c442ad15f610",
-      "syncError": null
-    },
-    {
-      "id": "L1783354053001634",
-      "board": "xMfRLnqAN7y",
-      "driver": "Kraig Hausmann",
-      "driverId": "019bdd3f-d9fc-7997-8bde-3f7a22a7af3e",
-      "date": "2026-07-03",
-      "reviewed": "2026-07-06",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "66 in50",
-      "ts": 1783354053001,
-      "synced": true,
-      "infItemId": "698bc135-6456-454a-8572-680c93fb6472",
-      "syncError": null
-    },
-    {
-      "id": "L1783353927748813",
-      "board": "xMfRLnqAN7y",
-      "driver": "Ashlee Hobson",
-      "driverId": "019bdd40-2b9a-7997-8bde-70ccc61dbf9c",
-      "date": "2026-07-03",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "texting",
-      "ts": 1783353927748,
-      "synced": true,
-      "infItemId": "fc671dc7-5864-4bbe-86b7-c595de3965c1",
-      "syncError": null
-    },
-    {
-      "id": "L1783353841995269",
-      "board": "xMfRLnqAN7y",
-      "driver": "Paul Hyde",
-      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
-      "date": "2026-07-04",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "texting",
-      "ts": 1783353841995,
-      "synced": true,
-      "infItemId": "f0d71e0c-56d3-4b7f-bab9-6773c6da2eff",
-      "syncError": null
-    },
-    {
-      "id": "L1783353798482534",
-      "board": "xMfRLnqAN7y",
-      "driver": "Paul Hyde",
-      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
-      "date": "2026-07-04",
-      "reviewed": "2026-07-06",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "following too close",
-      "ts": 1783353798482,
-      "synced": true,
-      "infItemId": "0ff041ec-a59b-46ea-a130-c62e4d425d38",
       "syncError": null
     },
     {
@@ -5677,36 +5602,6 @@
       "syncError": null
     },
     {
-      "id": "L1782820782097628",
-      "board": "xMfRLnqAN7y",
-      "driver": "Keith Smith",
-      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "driver drowsy; safety review",
-      "ts": 1782820782097,
-      "synced": true,
-      "infItemId": "17a14c25-0b8a-41f8-971a-8eefe5271043",
-      "syncError": null
-    },
-    {
-      "id": "L1782820666709106",
-      "board": "xMfRLnqAN7y",
-      "driver": "Paul Hyde",
-      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-30",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Face to Face",
-      "notes": "multi-tasking loses lane",
-      "ts": 1782820666709,
-      "synced": true,
-      "infItemId": "c12abc19-6a82-461f-bb37-3ed88f78693b",
-      "syncError": null
-    },
-    {
       "id": "L1782819857322339",
       "board": "ioWX9hneUsk",
       "driver": "Mark Stephens",
@@ -7547,5 +7442,5 @@
     "db6eb1a1-b99c-4fe0-821d-b325ac38a84d",
     "a5983c35-6d71-4341-9a64-513ce54a3d9b"
   ],
-  "_ts": "2026-07-09T11:53:34.429Z"
+  "_ts": "2026-07-09T11:55:16.192Z"
 }
