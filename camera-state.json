@@ -242,6 +242,49 @@
   },
   "local": [
     {
+      "id": "L1783556802024633",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-08",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 6094062643\nSpeeding ; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/336a18f6-4617-4fe9-b3fd-215a612f534f.mp4",
+      "ts": 1783556802024,
+      "synced": false
+    },
+    {
+      "id": "L1783556572072298",
+      "board": "ic6o6QgzpVM",
+      "driver": "Reyna, Oscar",
+      "driverId": "019b3716-02f6-777d-9a41-ee887d873d4a",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-08",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6096037338\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/568377f5-c43b-4bd6-a067-faef63afc68b.mp4",
+      "ts": 1783556572072,
+      "synced": true,
+      "infItemId": "8f88d9ea-4402-4796-9fd2-562aaedac704",
+      "syncError": null
+    },
+    {
+      "id": "L1783556330635439",
+      "board": "ic6o6QgzpVM",
+      "driver": "Guerrero, Jose",
+      "driverId": "019ae9a6-a2ac-7555-abfb-6bf9f136fca3",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-08",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6096935769\nCab Distraction; Keep hands on the wheel;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/97d74980-6af3-4b18-845d-d6d976876dbd.mp4",
+      "ts": 1783556330635,
+      "synced": true,
+      "infItemId": "c379c540-347d-40c8-b8cf-60ae12739e8f",
+      "syncError": null
+    },
+    {
       "id": "L1783556059278430",
       "board": "AKJSkJj6Ch4",
       "driver": "Cory Volland",
@@ -7039,7 +7082,9 @@
     "f5edebdb-1d26-4e4e-862c-35ee1da30aa4",
     "c55c1455-12e2-4bc6-90a3-777cf41d08d0",
     "e662e1f5-424f-45d5-a7e7-b4849f594d1c",
-    "39133b53-4368-444b-9371-0fdb50b493bc"
+    "39133b53-4368-444b-9371-0fdb50b493bc",
+    "c379c540-347d-40c8-b8cf-60ae12739e8f",
+    "8f88d9ea-4402-4796-9fd2-562aaedac704"
   ],
-  "_ts": "2026-07-09T00:17:02.576Z"
+  "_ts": "2026-07-09T00:26:42.051Z"
 }
