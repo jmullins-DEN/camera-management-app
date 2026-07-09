@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783598702069347",
+      "board": "ebSND1QoyBs",
+      "driver": "Robert Ulrich",
+      "driverId": "ff647e84-cdc4-458e-9cdc-ea66009768cc",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1783598702069,
+      "synced": false
+    },
+    {
       "id": "L1783598661535625",
       "board": "ebSND1QoyBs",
       "driver": "Roderick Bush",
@@ -6966,5 +6979,5 @@
     "9542106e-4513-4382-9a8f-99c04319470e",
     "8f133e3a-e9bc-497e-8cce-07f5dfe7c504"
   ],
-  "_ts": "2026-07-09T12:04:24.449Z"
+  "_ts": "2026-07-09T12:05:02.085Z"
 }
