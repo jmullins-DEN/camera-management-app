@@ -252,7 +252,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a4e86869633518613db8925",
       "ts": 1783615003490,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783614859317969",
@@ -265,7 +266,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a4ed2669633518613dc0ade",
       "ts": 1783614859317,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L17836148077699",
@@ -278,7 +280,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a4e42469633518613db0c06",
       "ts": 1783614807769,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783614625178619",
@@ -291,7 +294,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a4e58369633518613db3a97",
       "ts": 1783614625178,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783614498841185",
@@ -304,7 +308,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a4e64bb9633518613db52d6",
       "ts": 1783614498841,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783614294993141",
@@ -317,7 +322,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a4e91899633518613db9b12",
       "ts": 1783614294993,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783613587396993",
@@ -386,7 +392,8 @@
       "coaching": "Face to Face",
       "notes": "texting",
       "ts": 1783600433348,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783600380393883",
@@ -8055,5 +8062,5 @@
     "0f790c14-4148-488b-b516-303741cd3741",
     "f70e0e07-6bac-49ad-91e1-10041f18077b"
   ],
-  "_ts": "2026-07-09T21:04:31.062Z"
+  "_ts": "2026-07-09T21:04:37.042Z"
 }
