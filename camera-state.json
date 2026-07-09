@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783640456191595",
+      "board": "xMfRLnqAN7y",
+      "driver": "Oscar Herrera",
+      "driverId": "019bdd40-0d98-7997-8bde-6bb3e96e20b0",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1783640456191,
+      "synced": false
+    },
+    {
       "id": "L1783639012792833",
       "board": "YfVHuM3X87v",
       "driver": "Charles Allen",
@@ -4887,5 +4900,5 @@
     "c631a2d1-62df-4732-9529-6e4405c1c00c",
     "83a2ae4c-bff3-45b4-a1d6-25617bb9fac1"
   ],
-  "_ts": "2026-07-09T23:40:34.977Z"
+  "_ts": "2026-07-09T23:40:56.210Z"
 }
