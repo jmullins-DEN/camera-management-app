@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783596810126802",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980616004-1783524967316:  Truck # 234 Hand Held Device\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/64b5d420-b150-49cf-b3ad-99ccf14a3983.mp4\n",
+      "ts": 1783596810126,
+      "synced": false
+    },
+    {
       "id": "L1783596611167493",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -7397,5 +7410,5 @@
     "ae891e21-c993-468c-8839-bf75ee9cd0c3",
     "1e4900c2-67fc-4493-b597-e7b4caabe360"
   ],
-  "_ts": "2026-07-09T11:30:18.275Z"
+  "_ts": "2026-07-09T11:33:30.230Z"
 }
