@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783637984917307",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1573040023; following too close; vehicle # 342\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9e1774d5-8ed3-48c8-a832-daf9284c2203.mp4",
+      "ts": 1783637984917,
+      "synced": false
+    },
+    {
       "id": "L1783637871285681",
       "board": "4rNDuSrCaap",
       "driver": "Unassigned",
@@ -5209,5 +5222,5 @@
     "f765f146-5898-4f70-ae61-514b5a99b2e7",
     "9eefebc4-c871-440b-96f8-0f2c95f13c5a"
   ],
-  "_ts": "2026-07-09T22:59:10.711Z"
+  "_ts": "2026-07-09T22:59:44.935Z"
 }
