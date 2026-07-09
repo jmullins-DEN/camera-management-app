@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783597574390835",
+      "board": "XVLVu2Du8hc",
+      "driver": "Tres Dimick",
+      "driverId": "019a0810-437c-7aae-88b5-85226a382d67",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "65 in 55",
+      "ts": 1783597574390,
+      "synced": false
+    },
+    {
       "id": "L1783597530739970",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -7435,5 +7448,5 @@
     "ccf35430-71bf-4522-b170-f4e74b624721",
     "3326ba61-23bf-4042-8b32-152ad4cf1d17"
   ],
-  "_ts": "2026-07-09T11:45:33.424Z"
+  "_ts": "2026-07-09T11:46:14.409Z"
 }
