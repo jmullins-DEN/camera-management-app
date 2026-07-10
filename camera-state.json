@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783717485621679",
+      "board": "JthqRmXvJ9v",
+      "driver": "Jose Patino",
+      "driverId": "019a7b18-0863-7330-ad9a-c77eb4952fc8",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Increase Following Distance\n",
+      "ts": 1783717485621,
+      "synced": false
+    },
+    {
       "id": "L1783717227840804",
       "board": "nWRsGRSm2Hn",
       "driver": "Nunez, Wally",
@@ -9529,5 +9542,5 @@
     "880f886f-0c59-44cf-b323-5eb0c1c0ddc2",
     "45f31305-c0cf-4e63-bfdf-4918149eb66e"
   ],
-  "_ts": "2026-07-10T21:00:27.865Z"
+  "_ts": "2026-07-10T21:04:45.646Z"
 }
