@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783683205848198",
+      "board": "KYqKJWuumPm",
+      "driver": "Aaron Whitford",
+      "driverId": "019dd5fc-b08f-776f-82ce-59816698b0cb",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474987560362-1783650408968: Sign Violationhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6a23f5de-0d18-4e27-8e3f-b518d7d6676a.mp4",
+      "ts": 1783683205848,
+      "synced": false
+    },
+    {
       "id": "L1783683039833212",
       "board": "KYqKJWuumPm",
       "driver": "Joseph Pulliam",
@@ -9406,5 +9419,5 @@
     "60a86f3b-832a-4d77-b18e-c0fb67048981",
     "98c10ce5-466d-4a66-b2bc-a11c24409e79"
   ],
-  "_ts": "2026-07-10T11:30:42.420Z"
+  "_ts": "2026-07-10T11:33:25.900Z"
 }
