@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783643048038585",
+      "board": "8gejhhHJj4e",
+      "driver": "Dylan Rouco",
+      "driverId": "019afe85-3d4a-7bb7-a390-405521644f21",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "eating with two hands",
+      "ts": 1783643048038,
+      "synced": false
+    },
+    {
       "id": "L1783642930155322",
       "board": "8gejhhHJj4e",
       "driver": "Ryan Frahm",
@@ -4670,5 +4683,5 @@
     "d254dd32-dc33-495e-bc01-268b49ba415e",
     "1028073c-9ea8-4434-93ac-2c9d97d88b43"
   ],
-  "_ts": "2026-07-10T00:22:10.172Z"
+  "_ts": "2026-07-10T00:24:08.055Z"
 }
