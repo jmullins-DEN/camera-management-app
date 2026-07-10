@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783681446864559",
+      "board": "UKkbYDchPMh",
+      "driver": "Billy Coughlin",
+      "driverId": "92b34bb4-ac11-4c5a-a257-a56a97e9adc2",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "https://app.estrack.com/#/camera/events/6a4fcade9633518613dcee8e comes up as diver phone but does not show rear facing view. Driver crosses line into oncoming traffic. ",
+      "ts": 1783681446864,
+      "synced": false
+    },
+    {
       "id": "L1783681317785561",
       "board": "UKkbYDchPMh",
       "driver": "Michael Cobb",
@@ -9252,5 +9265,5 @@
     "e2f23ad1-edd8-49b5-8235-aa7f7359b85a",
     "5c4d6461-e77c-4d49-8c5a-3d68b9a663d3"
   ],
-  "_ts": "2026-07-10T11:01:57.811Z"
+  "_ts": "2026-07-10T11:04:06.892Z"
 }
