@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783642051092516",
+      "board": "ebSND1QoyBs",
+      "driver": "DESHAWN SKIPWITH",
+      "driverId": "84b3fa58-49ba-4c2d-a356-732222f9f111",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close; texting/phone use",
+      "ts": 1783642051092,
+      "synced": false
+    },
+    {
       "id": "L1783641912086428",
       "board": "ebSND1QoyBs",
       "driver": "John Edmonson",
@@ -4508,5 +4521,5 @@
     "499c836b-bfd9-4607-8f4e-c83332282ca8",
     "dd39114a-16ff-4ea0-818a-a50ac6418bf8"
   ],
-  "_ts": "2026-07-10T00:05:14.761Z"
+  "_ts": "2026-07-10T00:07:31.109Z"
 }
