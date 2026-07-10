@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783642172387777",
+      "board": "ebSND1QoyBs",
+      "driver": "David Doney",
+      "driverId": "8769d984-cb0d-4e48-89a2-c08e5e79332f",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1783642172387,
+      "synced": false
+    },
+    {
       "id": "L1783642051092516",
       "board": "ebSND1QoyBs",
       "driver": "DESHAWN SKIPWITH",
@@ -4524,5 +4537,5 @@
     "dd39114a-16ff-4ea0-818a-a50ac6418bf8",
     "d254dd32-dc33-495e-bc01-268b49ba415e"
   ],
-  "_ts": "2026-07-10T00:07:33.331Z"
+  "_ts": "2026-07-10T00:09:32.405Z"
 }
