@@ -3539,21 +3539,6 @@
       "infItemId": null
     },
     {
-      "id": "L1783511348363558",
-      "board": "7d53dL31ioV",
-      "driver": "Walker Sims",
-      "driverId": "2af055b4-89b4-41a5-9936-a73e8f0233de",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6086407670: Following to closehttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1c7678cd-56be-49a7-aa99-c47d6747dece.mp4",
-      "ts": 1783511348363,
-      "synced": true,
-      "infItemId": "2b8a4f25-9820-4b7d-9ad4-a6268debb92c",
-      "syncError": null
-    },
-    {
       "id": "L1783510246835907",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -4000,21 +3985,6 @@
       "syncError": null
     },
     {
-      "id": "L1783425795143894",
-      "board": "7d53dL31ioV",
-      "driver": "SCHULTZ, JEREMY D",
-      "driverId": "d1a5d6cf-91b2-45a8-880c-79130105ae48",
-      "date": "2026-07-06",
-      "reviewed": "2026-07-07",
-      "behavior": "Following Distance",
-      "coaching": "Face to Face",
-      "notes": "Alert 6080546706: Following to Close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7feedf05-369d-4f7a-8292-c40291eb173e.mp4\n",
-      "ts": 1783425795143,
-      "synced": true,
-      "infItemId": "a586e51f-9ca7-4c19-89bd-fce781542af4",
-      "syncError": null
-    },
-    {
       "id": "L1783425781220522",
       "board": "YfVHuM3X87v",
       "driver": "Lannas Tedrow",
@@ -4090,21 +4060,6 @@
       "syncError": null
     },
     {
-      "id": "L1783425422625907",
-      "board": "7d53dL31ioV",
-      "driver": "FRIEND, SAMUEL A",
-      "driverId": "674d26e3-7514-488f-aa19-bb28f12adfe3",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-07",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6084375504: driver Drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a4ff5384-e14c-49d2-bf46-354e466d0eac.mp4",
-      "ts": 1783425422625,
-      "synced": true,
-      "infItemId": "260dec4e-1f96-4056-bbf4-34fd84c9858c",
-      "syncError": null
-    },
-    {
       "id": "L1783425402190396",
       "board": "XVLVu2Du8hc",
       "driver": "Tres Dimick",
@@ -4117,21 +4072,6 @@
       "ts": 1783425402190,
       "synced": true,
       "infItemId": "670b4acf-4fa5-48dc-aaeb-c47a652857bd",
-      "syncError": null
-    },
-    {
-      "id": "L1783425237578631",
-      "board": "7d53dL31ioV",
-      "driver": "ROBERTS, MATTHEW T",
-      "driverId": "ca1dc108-db05-4457-9a57-153853d886ca",
-      "date": "2026-07-06",
-      "reviewed": "2026-07-07",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "Alert 6082372743: Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7e9c7f0b-b817-46e7-9245-ef58cf131b61.mp4",
-      "ts": 1783425237578,
-      "synced": true,
-      "infItemId": "fff98147-1216-42e0-a011-88f2490f615b",
       "syncError": null
     },
     {
@@ -5407,51 +5347,6 @@
       "ts": 1783346722398,
       "synced": true,
       "infItemId": "c0312114-5a25-49db-aa71-d556c804f734",
-      "syncError": null
-    },
-    {
-      "id": "L1783346186684351",
-      "board": "7d53dL31ioV",
-      "driver": "Walker Sims",
-      "driverId": "2af055b4-89b4-41a5-9936-a73e8f0233de",
-      "date": "2026-07-03",
-      "reviewed": "2026-07-06",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "Alert 6069435139: Truck # 31 Speeding \n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/10009ff9-aa1b-426b-ba04-f05a793a6613.mp4\n",
-      "ts": 1783346186684,
-      "synced": true,
-      "infItemId": "5bdfc0a8-6190-4407-b81b-b4071c3310b8",
-      "syncError": null
-    },
-    {
-      "id": "L1783345772089553",
-      "board": "7d53dL31ioV",
-      "driver": "Walker Sims",
-      "driverId": "2af055b4-89b4-41a5-9936-a73e8f0233de",
-      "date": "2026-07-03",
-      "reviewed": "2026-07-06",
-      "behavior": "Seat Belt",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6068241959: No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/516d3ffa-dc20-4148-9e35-87fb1b8f9eda.mp4",
-      "ts": 1783345772089,
-      "synced": true,
-      "infItemId": "e7fd9f62-65f8-460c-b736-8e71bd243cb8",
-      "syncError": null
-    },
-    {
-      "id": "L1783345538903379",
-      "board": "7d53dL31ioV",
-      "driver": "unassigned",
-      "driverId": null,
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "Alert 6067294984: Truck # 28 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e735366b-292f-4d98-8c43-c05f1dc99710.mp4",
-      "ts": 1783345538904,
-      "synced": true,
-      "infItemId": "e73789eb-8021-44dd-b86f-6315a3ce24c9",
       "syncError": null
     },
     {
@@ -6970,36 +6865,6 @@
       "syncError": null
     },
     {
-      "id": "L178287401252912",
-      "board": "7d53dL31ioV",
-      "driver": "Truck 26",
-      "driverId": "0199c59e-c79e-7779-a3de-5b50f2c5a05f",
-      "date": "2026-06-30",
-      "reviewed": "2026-06-30",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6049872498: Truck 26 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f6065bfc-6530-45aa-837b-75dc28d28c79.mp4",
-      "ts": 1782874012529,
-      "synced": true,
-      "infItemId": "f87e5300-6801-4cc3-a1fc-426018740432",
-      "syncError": null
-    },
-    {
-      "id": "L1782873803958590",
-      "board": "7d53dL31ioV",
-      "driver": "unassigned",
-      "driverId": "d8f4a8e1-c854-48f7-81c9-f7ce79807828",
-      "date": "2026-06-30",
-      "reviewed": "2026-06-30",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6049045289: Truck # 2 Hand held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6221e32b-39c4-4068-904a-724807d5eb4a.mp4\n",
-      "ts": 1782873803959,
-      "synced": true,
-      "infItemId": "22039101-2136-4898-924f-160a14f7bd4f",
-      "syncError": null
-    },
-    {
       "id": "L1782864932893410",
       "board": "YfVHuM3X87v",
       "driver": "Richard Mire",
@@ -7507,36 +7372,6 @@
       "ts": 1782779741587,
       "synced": true,
       "infItemId": "93ba4ac2-dc86-4585-9a94-2144696211cb",
-      "syncError": null
-    },
-    {
-      "id": "L1782779011423463",
-      "board": "7d53dL31ioV",
-      "driver": "Walker Sims",
-      "driverId": "2af055b4-89b4-41a5-9936-a73e8f0233de",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6041490576: Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/14cb80a7-16d2-4f77-96ac-5cc96a1cf8f6.mp4",
-      "ts": 1782779011423,
-      "synced": true,
-      "infItemId": "2c01710e-3be0-4dfd-ac4d-46eadf10a5a6",
-      "syncError": null
-    },
-    {
-      "id": "L1782778732820863",
-      "board": "7d53dL31ioV",
-      "driver": "unnassigned",
-      "driverId": "d1e4004c-ed77-485c-a5b4-a6b42f67a74c",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "Alert 6041215849: Hand Held Phone Truck # 31\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/87decf1e-3a4f-465c-8faf-6fafe54e41bb.mp4",
-      "ts": 1782778732820,
-      "synced": true,
-      "infItemId": "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
       "syncError": null
     },
     {
@@ -9306,5 +9141,5 @@
     "61966642-8ba7-4fcd-9c8a-ac8ccc7e83ce",
     "880f886f-0c59-44cf-b323-5eb0c1c0ddc2"
   ],
-  "_ts": "2026-07-10T12:02:27.041Z"
+  "_ts": "2026-07-10T12:02:31.826Z"
 }
