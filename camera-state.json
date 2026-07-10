@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783649633885772",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jammie Singleton",
+      "driverId": "6e62fda9-cf01-40a0-950f-be951b2682e0",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1783649633885,
+      "synced": false
+    },
+    {
       "id": "L17836495536240",
       "board": "9RKrQRpDLcr",
       "driver": "Adam Johnson",
@@ -8261,5 +8274,5 @@
     "c0e91cb7-30bb-4817-9b95-96357961d8b1",
     "26bfdf70-caac-465d-a1b4-2bda665257be"
   ],
-  "_ts": "2026-07-10T02:12:36.654Z"
+  "_ts": "2026-07-10T02:13:53.908Z"
 }
