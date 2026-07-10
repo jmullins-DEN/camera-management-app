@@ -242,6 +242,32 @@
   },
   "local": [
     {
+      "id": "L1783651187315147",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joey Bybee",
+      "driverId": "6ef40755-ac1b-4acc-9407-af1efbd1de3a",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Alert 281474995718521-1783581213980\nCamera Obstruction Notice",
+      "ts": 1783651187315,
+      "synced": false
+    },
+    {
+      "id": "L1783650968486455",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Cruz",
+      "driverId": "6226ef1d-17b2-4c4e-bf06-47678c539cbc",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995728019-1783605971564\nFace to Face ; Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/569527fa-38a0-4c36-9747-be9eb89b9eb8.mp4",
+      "ts": 1783650968486,
+      "synced": false
+    },
+    {
       "id": "L1783650809973628",
       "board": "AKJSkJj6Ch4",
       "driver": "JD Chappell",
@@ -8355,5 +8381,5 @@
     "26bfdf70-caac-465d-a1b4-2bda665257be",
     "5b0f6be3-5f20-4e83-b3f3-028ded5549fd"
   ],
-  "_ts": "2026-07-10T02:33:29.996Z"
+  "_ts": "2026-07-10T02:39:47.341Z"
 }
