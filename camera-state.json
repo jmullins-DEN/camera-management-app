@@ -242,6 +242,45 @@
   },
   "local": [
     {
+      "id": "L1783650185525460",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Damien Strahl",
+      "driverId": "019e483c-6c91-75e1-84d2-171831d68b36",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474997805323-1783638908106\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5e6e834d-1188-40b0-86cc-91219df60492.mp4",
+      "ts": 1783650185525,
+      "synced": false
+    },
+    {
+      "id": "L1783650010491794",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995966045-1783612430674\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ac813cf2-9c0f-4fa4-a3bd-9cf27b7b5d10.mp4",
+      "ts": 1783650010491,
+      "synced": false
+    },
+    {
+      "id": "L1783649790142106",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Leonard Ramirez",
+      "driverId": "019a3cc9-4f91-7009-8261-1e1bde62b09c",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1783649790142,
+      "synced": false
+    },
+    {
       "id": "L1783649633885772",
       "board": "9RKrQRpDLcr",
       "driver": "Jammie Singleton",
@@ -8277,5 +8316,5 @@
     "26bfdf70-caac-465d-a1b4-2bda665257be",
     "5b0f6be3-5f20-4e83-b3f3-028ded5549fd"
   ],
-  "_ts": "2026-07-10T02:13:56.714Z"
+  "_ts": "2026-07-10T02:23:05.549Z"
 }
