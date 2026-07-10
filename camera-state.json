@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783641718155908",
+      "board": "ebSND1QoyBs",
+      "driver": "unassigned",
+      "driverId": "019ebc03-7646-7672-934b-3eafcabe7786",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "all cameras blocked",
+      "ts": 1783641718155,
+      "synced": false
+    },
+    {
       "id": "L1783641687131694",
       "board": "ebSND1QoyBs",
       "driver": "Bjorn Pinney",
@@ -4460,5 +4473,5 @@
     "82167733-6ccc-4c88-bc43-fac53720b5b7",
     "754762ac-210c-4c60-a334-a7d9c099876a"
   ],
-  "_ts": "2026-07-10T00:01:32.193Z"
+  "_ts": "2026-07-10T00:01:58.174Z"
 }
