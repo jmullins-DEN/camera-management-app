@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783683850290930",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281475000719319-1783613135735: Truck # 184F550\nPhone Distractionhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b7ed7a7a-7e02-4e29-b4e2-11870329c617.mp4",
+      "ts": 1783683850290,
+      "synced": false
+    },
+    {
       "id": "L1783683385384728",
       "board": "KYqKJWuumPm",
       "driver": "Bradley Ostling",
@@ -9438,5 +9451,5 @@
     "0f4d8c29-52e1-470c-82ae-227560e76f5a",
     "7dfd3508-316a-4ca5-8f8b-5975447ba9f4"
   ],
-  "_ts": "2026-07-10T11:36:28.053Z"
+  "_ts": "2026-07-10T11:44:10.353Z"
 }
