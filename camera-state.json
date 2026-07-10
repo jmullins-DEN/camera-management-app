@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783642864677211",
+      "board": "8gejhhHJj4e",
+      "driver": "Unassigned",
+      "driverId": "9bad2e5c-4daa-4557-af15-28cc2682a2aa",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "rolling stop; vehicle #PU 6815 SPARE",
+      "ts": 1783642864677,
+      "synced": false
+    },
+    {
       "id": "L1783642735987713",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -4631,5 +4644,5 @@
     "d254dd32-dc33-495e-bc01-268b49ba415e",
     "1028073c-9ea8-4434-93ac-2c9d97d88b43"
   ],
-  "_ts": "2026-07-10T00:18:56.003Z"
+  "_ts": "2026-07-10T00:21:04.695Z"
 }
