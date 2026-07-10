@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783649027859625",
+      "board": "JthqRmXvJ9v",
+      "driver": "Johnny Hernandez",
+      "driverId": "019a7b18-0863-7330-ad9a-be07bee10d98",
+      "date": "2026-07-08",
+      "reviewed": "2026-07-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction; Face to Face",
+      "ts": 1783649027859,
+      "synced": false
+    },
+    {
       "id": "L1783643421792104",
       "board": "4rNDuSrCaap",
       "driver": "Rodney Wilborn",
@@ -8594,5 +8607,5 @@
     "1028073c-9ea8-4434-93ac-2c9d97d88b43",
     "0cbe6e74-f7c1-4820-a961-dc5df93e7d14"
   ],
-  "_ts": "2026-07-10T01:59:29.452Z"
+  "_ts": "2026-07-10T02:03:47.882Z"
 }
