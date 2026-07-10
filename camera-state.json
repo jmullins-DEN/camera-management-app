@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281475000719319-1783613135735: Truck # 184F550\nPhone Distractionhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b7ed7a7a-7e02-4e29-b4e2-11870329c617.mp4",
       "ts": 1783683850290,
-      "synced": false
+      "synced": true,
+      "infItemId": "61966642-8ba7-4fcd-9c8a-ac8ccc7e83ce",
+      "syncError": null
     },
     {
       "id": "L1783683385384728",
@@ -9449,7 +9451,8 @@
     "60a86f3b-832a-4d77-b18e-c0fb67048981",
     "98c10ce5-466d-4a66-b2bc-a11c24409e79",
     "0f4d8c29-52e1-470c-82ae-227560e76f5a",
-    "7dfd3508-316a-4ca5-8f8b-5975447ba9f4"
+    "7dfd3508-316a-4ca5-8f8b-5975447ba9f4",
+    "61966642-8ba7-4fcd-9c8a-ac8ccc7e83ce"
   ],
-  "_ts": "2026-07-10T11:44:10.353Z"
+  "_ts": "2026-07-10T11:44:13.160Z"
 }
