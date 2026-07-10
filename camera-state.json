@@ -252,7 +252,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474980651678-1783606338749: Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f14c56de-fa5f-4bdd-be6b-6e03c95ee6f2.mp4",
       "ts": 1783682278180,
-      "synced": false
+      "synced": true,
+      "infItemId": "26b52bf9-8a57-46a8-ac7f-e3b8506730c5",
+      "syncError": null
     },
     {
       "id": "L1783682024383106",
@@ -9337,7 +9339,8 @@
     "567b60b9-2c33-4382-86dc-719fb02aff45",
     "93a6cbf6-b714-4c6c-a8f1-3e7938b26027",
     "e2f23ad1-edd8-49b5-8235-aa7f7359b85a",
-    "5c4d6461-e77c-4d49-8c5a-3d68b9a663d3"
+    "5c4d6461-e77c-4d49-8c5a-3d68b9a663d3",
+    "26b52bf9-8a57-46a8-ac7f-e3b8506730c5"
   ],
-  "_ts": "2026-07-10T11:17:58.232Z"
+  "_ts": "2026-07-10T11:18:01.426Z"
 }
