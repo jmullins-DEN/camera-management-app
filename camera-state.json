@@ -252,7 +252,9 @@
       "coaching": "System Alert",
       "notes": "all cameras blocked",
       "ts": 1783641718155,
-      "synced": false
+      "synced": true,
+      "infItemId": "0fd0a530-4d92-4c3a-92a1-8ba09166cb93",
+      "syncError": null
     },
     {
       "id": "L1783641687131694",
@@ -4471,7 +4473,8 @@
     "7b06900d-0640-4cbd-b3c1-2ab50278f81f",
     "73bcb556-1016-4c55-835b-7a9c821e039e",
     "82167733-6ccc-4c88-bc43-fac53720b5b7",
-    "754762ac-210c-4c60-a334-a7d9c099876a"
+    "754762ac-210c-4c60-a334-a7d9c099876a",
+    "0fd0a530-4d92-4c3a-92a1-8ba09166cb93"
   ],
-  "_ts": "2026-07-10T00:01:58.174Z"
+  "_ts": "2026-07-10T00:02:01.499Z"
 }
