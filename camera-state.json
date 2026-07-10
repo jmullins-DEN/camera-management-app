@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783641912086428",
+      "board": "ebSND1QoyBs",
+      "driver": "John Edmonson",
+      "driverId": "e7dc549e-d75e-4e4e-b344-b2a2fbf1b590",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1783641912087,
+      "synced": false
+    },
+    {
       "id": "L1783641818217702",
       "board": "ebSND1QoyBs",
       "driver": "unassigned",
@@ -4492,5 +4505,5 @@
     "0fd0a530-4d92-4c3a-92a1-8ba09166cb93",
     "499c836b-bfd9-4607-8f4e-c83332282ca8"
   ],
-  "_ts": "2026-07-10T00:03:41.207Z"
+  "_ts": "2026-07-10T00:05:12.101Z"
 }
