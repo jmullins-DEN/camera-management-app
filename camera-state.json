@@ -252,7 +252,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close; texting/phone use",
       "ts": 1783642051092,
-      "synced": false
+      "synced": true,
+      "infItemId": "d254dd32-dc33-495e-bc01-268b49ba415e",
+      "syncError": null
     },
     {
       "id": "L1783641912086428",
@@ -4519,7 +4521,8 @@
     "754762ac-210c-4c60-a334-a7d9c099876a",
     "0fd0a530-4d92-4c3a-92a1-8ba09166cb93",
     "499c836b-bfd9-4607-8f4e-c83332282ca8",
-    "dd39114a-16ff-4ea0-818a-a50ac6418bf8"
+    "dd39114a-16ff-4ea0-818a-a50ac6418bf8",
+    "d254dd32-dc33-495e-bc01-268b49ba415e"
   ],
-  "_ts": "2026-07-10T00:07:31.109Z"
+  "_ts": "2026-07-10T00:07:33.331Z"
 }
