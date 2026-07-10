@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "Vehicle 646 medium; Speeding ",
       "ts": 1783717731255,
-      "synced": false
+      "synced": true,
+      "infItemId": "41a498f8-0288-44dd-9438-7d3296aee958",
+      "syncError": null
     },
     {
       "id": "L1783717627973107",
@@ -9089,7 +9091,8 @@
     "61966642-8ba7-4fcd-9c8a-ac8ccc7e83ce",
     "880f886f-0c59-44cf-b323-5eb0c1c0ddc2",
     "45f31305-c0cf-4e63-bfdf-4918149eb66e",
-    "8468e645-f148-451f-a0b7-a0b92cabaf8e"
+    "8468e645-f148-451f-a0b7-a0b92cabaf8e",
+    "41a498f8-0288-44dd-9438-7d3296aee958"
   ],
-  "_ts": "2026-07-10T21:08:51.276Z"
+  "_ts": "2026-07-10T21:08:54.204Z"
 }
