@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783650331146390",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Damien Strahl",
+      "driverId": "019e483c-6c91-75e1-84d2-171831d68b36",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-09",
+      "behavior": "U-Turn",
+      "coaching": "Coaching Notes",
+      "notes": "U- Turn",
+      "ts": 1783650331146,
+      "synced": false
+    },
+    {
       "id": "L1783650185525460",
       "board": "AKJSkJj6Ch4",
       "driver": "Damien Strahl",
@@ -8316,5 +8329,5 @@
     "26bfdf70-caac-465d-a1b4-2bda665257be",
     "5b0f6be3-5f20-4e83-b3f3-028ded5549fd"
   ],
-  "_ts": "2026-07-10T02:23:05.549Z"
+  "_ts": "2026-07-10T02:25:31.174Z"
 }
