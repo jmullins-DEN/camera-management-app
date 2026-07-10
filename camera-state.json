@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L178371712097888",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Fofana, Mamadou",
+      "driverId": "2ee9e6c4-4ad0-4768-98f0-1b2939f97e08",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1783717120978,
+      "synced": false
+    },
+    {
       "id": "L1783685238275412",
       "board": "7d53dL31ioV",
       "driver": "SCHULTZ, JEREMY D",
@@ -9503,5 +9516,5 @@
     "880f886f-0c59-44cf-b323-5eb0c1c0ddc2",
     "45f31305-c0cf-4e63-bfdf-4918149eb66e"
   ],
-  "_ts": "2026-07-10T20:44:13.317Z"
+  "_ts": "2026-07-10T20:58:41.002Z"
 }
