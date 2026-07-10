@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783641818217702",
+      "board": "ebSND1QoyBs",
+      "driver": "unassigned",
+      "driverId": "019ebc03-7646-7672-934b-3eafcabe7786",
+      "date": "2026-07-09",
+      "reviewed": "2026-07-10",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "71 in 55; vehicle # 90",
+      "ts": 1783641818217,
+      "synced": false
+    },
+    {
       "id": "L1783641718155908",
       "board": "ebSND1QoyBs",
       "driver": "unassigned",
@@ -4476,5 +4489,5 @@
     "754762ac-210c-4c60-a334-a7d9c099876a",
     "0fd0a530-4d92-4c3a-92a1-8ba09166cb93"
   ],
-  "_ts": "2026-07-10T00:02:01.499Z"
+  "_ts": "2026-07-10T00:03:38.236Z"
 }
