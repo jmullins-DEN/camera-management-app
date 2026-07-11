@@ -252,7 +252,9 @@
       "coaching": "System Alert",
       "notes": "Alert 6108264426\nCamera Blocked; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/81b4da8c-f804-4607-a686-801d500ce0f6.mp4",
       "ts": 1783739236931,
-      "synced": false
+      "synced": true,
+      "infItemId": "519af2d5-926b-4799-8926-6fda5bf05d33",
+      "syncError": null
     },
     {
       "id": "L1783739087941576",
@@ -8842,7 +8844,8 @@
     "5dd3b71f-79b8-4bc3-b6d0-f8c7f12a3cb2",
     "5839055d-2ae3-4c3a-83c0-7a046bca88d7",
     "0423c241-1be3-4e08-93df-adb994bbf4cb",
-    "173484e9-ebc1-4969-9f99-4e2594de6d21"
+    "173484e9-ebc1-4969-9f99-4e2594de6d21",
+    "519af2d5-926b-4799-8926-6fda5bf05d33"
   ],
-  "_ts": "2026-07-11T03:07:16.953Z"
+  "_ts": "2026-07-11T03:07:19.316Z"
 }
