@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783781162965506",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Michael Parten",
+      "driverId": "e44ca515-8b58-498e-af1d-60e8b5a224b4",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-11",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 1235547195441315840; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8bee347e-33c2-481a-9380-bbb6547ec789.mp4\n\n",
+      "ts": 1783781162965,
+      "synced": false
+    },
+    {
       "id": "L1783781096266113",
       "board": "7W2SQKrNcXQ",
       "driver": "Michael Parten",
@@ -7710,5 +7723,5 @@
     "24eea923-339e-4bc8-8ae5-8d7ccaa58c2e",
     "750bf783-c9ea-4206-a70f-4cf43f59ac19"
   ],
-  "_ts": "2026-07-11T14:45:00.531Z"
+  "_ts": "2026-07-11T14:46:02.986Z"
 }
