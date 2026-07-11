@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783737849545214",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joey Bybee",
+      "driverId": "6ef40755-ac1b-4acc-9407-af1efbd1de3a",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-10",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995718521-1783729542342\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a8319d81-66df-4b5e-a814-33192d44e854.mp4",
+      "ts": 1783737849545,
+      "synced": false
+    },
+    {
       "id": "L1783718327003451",
       "board": "Wk4Si2ZgUVU",
       "driver": "Peyton Birchfield",
@@ -9123,5 +9136,5 @@
     "41a498f8-0288-44dd-9438-7d3296aee958",
     "5dd3b71f-79b8-4bc3-b6d0-f8c7f12a3cb2"
   ],
-  "_ts": "2026-07-10T21:18:47.030Z"
+  "_ts": "2026-07-11T02:44:09.575Z"
 }
