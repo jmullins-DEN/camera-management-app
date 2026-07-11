@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783739236931849",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-10",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Alert 6108264426\nCamera Blocked; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/81b4da8c-f804-4607-a686-801d500ce0f6.mp4",
+      "ts": 1783739236931,
+      "synced": false
+    },
+    {
       "id": "L1783739087941576",
       "board": "ic6o6QgzpVM",
       "driver": "Gonzales, Edgar",
@@ -8831,5 +8844,5 @@
     "0423c241-1be3-4e08-93df-adb994bbf4cb",
     "173484e9-ebc1-4969-9f99-4e2594de6d21"
   ],
-  "_ts": "2026-07-11T03:04:50.653Z"
+  "_ts": "2026-07-11T03:07:16.953Z"
 }
