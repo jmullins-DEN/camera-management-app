@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783861210326702",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Manny Flores",
+      "driverId": "874fc71f-0f95-4b73-a1ff-139c7a196dcf",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-12",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1235637474441723905; hard brake; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/da6f882e-1507-4c63-be64-41c0cacd6c88.mp4\n\n",
+      "ts": 1783861210327,
+      "synced": false
+    },
+    {
       "id": "L1783860996723924",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -7694,5 +7707,5 @@
     "71ba2f50-d215-46c5-aff3-a5134212b2c3",
     "fb65d792-e2be-4156-a401-8cb18a29e5fe"
   ],
-  "_ts": "2026-07-12T12:56:38.722Z"
+  "_ts": "2026-07-12T13:00:10.346Z"
 }
