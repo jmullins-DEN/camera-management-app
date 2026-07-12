@@ -417,7 +417,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995713058-1783696361277\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/321ecb37-2087-4483-ae43-ba44234e34e6.mp4",
       "ts": 1783738524945,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783738273947572",
@@ -430,7 +431,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995966045-1783713703449\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4e306490-c299-48c3-8a6b-77824e46abf2.mp4",
       "ts": 1783738273947,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783738134002690",
@@ -443,7 +445,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995719079-1783692281433\nPhone Distraction; Face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d1bce282-0fdf-4de2-97f5-9c4451d630c3.mp4",
       "ts": 1783738134002,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783737968340933",
@@ -456,7 +459,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995718521-1783714936978\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/13666c71-e341-4f9a-bb33-5fe08bc06560.mp4",
       "ts": 1783737968340,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783737849545214",
@@ -469,7 +473,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995718521-1783729542342\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a8319d81-66df-4b5e-a814-33192d44e854.mp4",
       "ts": 1783737849545,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783718327003451",
@@ -482,7 +487,8 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Turn",
       "ts": 1783718327003,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783717805436586",
@@ -540,7 +546,8 @@
       "coaching": "Coaching Notes",
       "notes": "Increase Following Distance\n",
       "ts": 1783717485621,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783717227840804",
@@ -553,7 +560,8 @@
       "coaching": "Coaching Notes",
       "notes": "Increase Following Distance\n",
       "ts": 1783717227841,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L178371712097888",
@@ -566,7 +574,8 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance",
       "ts": 1783717120978,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783685238275412",
@@ -7774,5 +7783,5 @@
     "f58d63bf-69c4-496a-9168-ff53b3961182",
     "71ba2f50-d215-46c5-aff3-a5134212b2c3"
   ],
-  "_ts": "2026-07-11T15:14:01.485Z"
+  "_ts": "2026-07-12T12:55:47.948Z"
 }
