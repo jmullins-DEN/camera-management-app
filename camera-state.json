@@ -432,7 +432,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a527bb25d34dfb47a495cf1",
       "ts": 1783881133438,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783880940146564",
@@ -445,7 +446,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a52c1cd5d34dfb47a497ae4",
       "ts": 1783880940146,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783880690632716",
@@ -458,7 +460,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a51d6785d34dfb47a491b4e",
       "ts": 1783880690632,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L178388004366991",
@@ -471,7 +474,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a50fe485d34dfb47a482814",
       "ts": 1783880043669,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783879867107269",
@@ -484,7 +488,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a515ae65d34dfb47a48bcd1",
       "ts": 1783879867107,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783878468633161",
@@ -497,7 +502,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5139f45d34dfb47a488730",
       "ts": 1783878468633,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783878429781252",
@@ -510,7 +516,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5156315d34dfb47a48b570",
       "ts": 1783878429781,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783878321109365",
@@ -523,7 +530,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a51b0e85d34dfb47a4914f6",
       "ts": 1783878321109,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783878256725874",
@@ -536,7 +544,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5085239633518613ddc274",
       "ts": 1783878256725,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783861861671923",
@@ -975,7 +984,8 @@
       "coaching": "System Alert",
       "notes": "https://app.estrack.com/#/camera/events/6a503dff9633518613ddab38",
       "ts": 1783682729296,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783682449414836",
@@ -9641,5 +9651,5 @@
     "03060212-4cae-46e3-9d41-ecaf39c34a0e",
     "79cbe772-e4f5-477e-af39-ee0dedc6f1eb"
   ],
-  "_ts": "2026-07-12T23:30:48.223Z"
+  "_ts": "2026-07-12T23:41:13.309Z"
 }
