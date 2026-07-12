@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 415517916; following too close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/215892ee-6d13-4618-bf08-90c3f30be037.mp4",
       "ts": 1783899717748,
-      "synced": false
+      "synced": true,
+      "infItemId": "692d5764-47ee-4b20-a429-3f111bb55e86",
+      "syncError": null
     },
     {
       "id": "L1783898460809968",
@@ -9542,7 +9544,8 @@
     "43a7ccf5-7793-4849-b49a-d9d49f20ffd0",
     "f02915d6-e1fd-48b5-b3a1-9e2165a492cf",
     "03060212-4cae-46e3-9d41-ecaf39c34a0e",
-    "79cbe772-e4f5-477e-af39-ee0dedc6f1eb"
+    "79cbe772-e4f5-477e-af39-ee0dedc6f1eb",
+    "692d5764-47ee-4b20-a429-3f111bb55e86"
   ],
-  "_ts": "2026-07-12T23:41:57.769Z"
+  "_ts": "2026-07-12T23:41:59.978Z"
 }
