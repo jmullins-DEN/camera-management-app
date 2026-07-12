@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783898460809968",
+      "board": "5gVKeGRDf8U",
+      "driver": "William Davis",
+      "driverId": "916ba624-793b-42cf-9cb5-6f7de228854b",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-12",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 415453453; hard brake; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d68bc9d8-6f8b-49e1-b63e-2f92ea993dc3.mp4",
+      "ts": 1783898460809,
+      "synced": false
+    },
+    {
       "id": "L1783898354434847",
       "board": "5gVKeGRDf8U",
       "driver": "Allen Edwards",
@@ -10007,5 +10020,5 @@
     "ae93101e-20d8-4445-934b-82d32f0e2405",
     "970252ad-aaa5-4aeb-8c28-aaea9a062990"
   ],
-  "_ts": "2026-07-12T23:19:17.185Z"
+  "_ts": "2026-07-12T23:21:00.827Z"
 }
