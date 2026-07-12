@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783860996723924",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-12",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1235632281796902912; texting; vehicle # 163\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3c32bbbf-509b-45e8-88ac-6937c25c6f0f.mp4\n",
+      "ts": 1783860996723,
+      "synced": false
+    },
+    {
       "id": "L1783739236931849",
       "board": "ic6o6QgzpVM",
       "driver": "Rios, Jesse",
@@ -7678,5 +7691,5 @@
     "f58d63bf-69c4-496a-9168-ff53b3961182",
     "71ba2f50-d215-46c5-aff3-a5134212b2c3"
   ],
-  "_ts": "2026-07-12T12:55:53.974Z"
+  "_ts": "2026-07-12T12:56:36.743Z"
 }
