@@ -115,6 +115,10 @@
         box-shadow:0 12px 36px rgba(0,0,0,.28);font-size:13.5px;font-weight:560;opacity:0;transform:translateY(8px);
         transition:.22s;z-index:100;display:flex;align-items:center;gap:9px}
   .toast.show{opacity:1;transform:none}
+  .syncbar{position:fixed;top:0;left:0;right:0;background:#b3261e;color:#fff;padding:10px 16px;font-size:13.5px;
+        font-weight:560;text-align:center;z-index:200;transform:translateY(-100%);transition:.22s;
+        box-shadow:0 4px 18px rgba(0,0,0,.25)}
+  .syncbar.show{transform:none}
   .count-chip{font-size:12px;color:var(--muted);background:#f1f3f8;border-radius:999px;padding:3px 10px;font-weight:600}
   .behgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px;margin-bottom:20px}
   .behbox{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 15px;cursor:pointer;
@@ -175,6 +179,7 @@
   </aside>
   <main id="main"></main>
 </div>
+<div class="syncbar" id="syncbar">⚠ Can't reach the DENvision server — you may be seeing stale data. Check your connection or ad-blocker, then reload the page.</div>
 <div class="toast" id="toast"></div>
 <div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()"><div class="modal" id="modalBox"></div></div>
 
@@ -279,9 +284,10 @@ function mergeLocal(a,b){
   }
   return Array.from(m.values()).sort((x,y)=>(y.ts||0)-(x.ts||0));
 }
+function syncBar(show){ const b=document.getElementById('syncbar'); if(b) b.classList.toggle('show',!!show); }
 async function pullState(){
   try{
-    const r=await fetch(API_BASE+'/state'); if(!r.ok) return;
+    const r=await fetch(API_BASE+'/state',{cache:'no-store'}); if(!r.ok) throw new Error('HTTP '+r.status);
     const j=await r.json(); _appState=j.data||{}; _appSha=j.sha||null;
     const mergedS=mergeSettings(LS.s,_appState.settings||{});
     const mergedL=mergeLocal(LS.local,_appState.local||[]);
@@ -290,8 +296,9 @@ async function pullState(){
                || JSON.stringify(mergedL)!==JSON.stringify(_appState.local||[])
                || JSON.stringify(mergedE.slice().sort())!==JSON.stringify((_appState.entered||[]).slice().sort());
     LS.s=mergedS; LS.local=mergedL; LS.entered=mergedE; render();
+    syncBar(false); // reached the server — clear any stale-data warning
     if(changed) pushState(true); // promote local-only settings/events up into the shared store
-  }catch(e){ /* offline / first run — stay on local data */ }
+  }catch(e){ syncBar(true); /* offline / unreachable — warn instead of silently showing stale data */ }
 }
 function pushState(now){ clearTimeout(_pushTimer); _pushTimer=setTimeout(_doPush, now?0:800); }
 async function _doPush(){

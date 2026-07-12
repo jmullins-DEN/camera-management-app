@@ -1,0 +1,10 @@
+# Force browsers to revalidate the app shell and board seed on every load.
+# ETag revalidation means unchanged files return a tiny 304, but a new deploy
+# reaches everyone immediately — no more stale cached copies causing different
+# people to see different boards.
+/index.html
+  Cache-Control: no-cache
+/seed.js
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
