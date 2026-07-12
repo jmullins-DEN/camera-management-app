@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783898180556299",
+      "board": "5gVKeGRDf8U",
+      "driver": "Dustin Porter",
+      "driverId": "914a4155-9f1f-40b8-b2a8-26a1ba330d0a",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-12",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 415352215; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9aa29c75-f953-4a21-a426-b4bb84e388b5.mp4",
+      "ts": 1783898180556,
+      "synced": false
+    },
+    {
       "id": "L1783898123784896",
       "board": "5gVKeGRDf8U",
       "driver": "William Davis",
@@ -9975,5 +9988,5 @@
     "90b219c5-0329-452d-b11b-7a2c4d1c381d",
     "0b6e5632-a719-4de8-b04f-6a6180f827c3"
   ],
-  "_ts": "2026-07-12T23:15:31.380Z"
+  "_ts": "2026-07-12T23:16:20.573Z"
 }
