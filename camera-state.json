@@ -252,7 +252,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6109187551: Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/690f658e-8f78-4dd2-9090-c22d43c04658.mp4",
       "ts": 1783947453468,
-      "synced": false
+      "synced": true,
+      "infItemId": "c0bee410-ff2f-4400-b280-2e3c6231dc80",
+      "syncError": null
     },
     {
       "id": "L178394713092365",
@@ -9688,7 +9690,8 @@
     "93b26bb1-99fc-48a8-a5cb-507483f060c5",
     "293e366b-852a-41d8-881f-76e5b0f956db",
     "21e81538-d3d1-42dc-95e3-d3f4eb4a723f",
-    "dd0eaf87-a2dd-493a-afd6-c0516d0198b3"
+    "dd0eaf87-a2dd-493a-afd6-c0516d0198b3",
+    "c0bee410-ff2f-4400-b280-2e3c6231dc80"
   ],
-  "_ts": "2026-07-13T12:57:33.529Z"
+  "_ts": "2026-07-13T12:57:36.028Z"
 }
