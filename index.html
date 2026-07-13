@@ -186,6 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
+const BUILD_ID='2026-07-13-diag'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -1182,7 +1183,7 @@ function enterBoard(bid){
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>go(b.dataset.screen));
 function render(){
   document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.screen===screen));
-  document.getElementById('genstamp').textContent='synced '+(SEED.generated||'');
+  document.getElementById('genstamp').textContent='build '+BUILD_ID+' · seed '+(SEED.generated||'?')+' · '+SEED.boards.length+' boards';
   ({customers:viewCustomers,entry:viewEntry,events:viewEvents}[screen]||viewCustomers)();
 }
 
@@ -1871,7 +1872,39 @@ backfillLogos();
 render();
 // pull shared settings + the shared event queue FIRST, then flush — so events
 // queued on another machine are merged in before we push them to Infinity.
-pullState().then(()=>{ backfillLogos(); flushQueued(); });
+// ---- on-screen diagnostic: open camera-management-app.pages.dev/?debug=1 and screenshot it. No console needed. ----
+async function showDiag(){
+  let server={}; let ok=false;
+  try{ const r=await fetch(API_BASE+'/state',{cache:'no-store'}); ok=r.ok; server=(await r.json()).data||{}; }catch(e){}
+  const srvHidden=(server.settings&&server.settings._hidden)||[];
+  const localHidden=[...hiddenSet()];
+  const seedNames=SEED.boards.map(b=>b.name).sort();
+  const scriptUrl=(document.querySelector('script[src*=seed]')||{}).src||'?';
+  const cached=Object.keys(LS.refreshed||{});
+  const verdict = !ok ? 'PROBLEM: this browser CANNOT reach the server (ad-blocker/VPN/offline). It is showing stale local data.'
+    : (JSON.stringify(localHidden.slice().sort())!==JSON.stringify(srvHidden.slice().sort())
+        ? 'PROBLEM: this browser\'s hidden-list disagrees with the server — sync has not applied. Local hidden='+JSON.stringify(localHidden)+' vs server='+JSON.stringify(srvHidden)
+        : 'OK: this browser matches the server. Build='+BUILD_ID+', '+SEED.boards.length+' boards visible='+visibleBoards().length);
+  const F='font:13px/1.5 monospace';
+  const d=document.createElement('div');
+  d.style.cssText='position:fixed;inset:0;background:#0b1220;color:#d7e2ff;z-index:99999;padding:24px;overflow:auto;'+F;
+  d.innerHTML='<h2 style="color:#7fd1ff;margin:0 0 12px">DENvision diagnostic — screenshot this whole box and send to Johnny</h2>'
+    +'<p style="color:#ffd27f;font-weight:bold">'+verdict+'</p>'
+    +'<pre style="white-space:pre-wrap">'
+    +'BUILD_ID (which HTML this browser runs): '+BUILD_ID+'\n'
+    +'seed script URL loaded              : '+scriptUrl+'\n'
+    +'SEED.generated (seed version)       : '+(SEED.generated||'?')+'\n'
+    +'boards in seed / visible            : '+SEED.boards.length+' / '+visibleBoards().length+'\n'
+    +'server reachable                    : '+ok+'\n'
+    +'hidden list — this browser          : '+JSON.stringify(localHidden)+'\n'
+    +'hidden list — server                : '+JSON.stringify(srvHidden)+'\n'
+    +'cam_refreshed cached board ids      : '+JSON.stringify(cached)+'\n'
+    +'\n--- visible board names ('+seedNames.length+') ---\n'+seedNames.join('\n')
+    +'</pre><button onclick="this.parentNode.remove()" style="padding:8px 16px;'+F+'">close</button>';
+  document.body.appendChild(d);
+}
+if(/[?&]debug=1/.test(location.search)) pullState().then(showDiag);
+else pullState().then(()=>{ backfillLogos(); flushQueued(); });
 </script>
 </body>
 </html>
