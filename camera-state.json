@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783905847356276",
+      "board": "8gejhhHJj4e",
+      "driver": "John Kinney",
+      "driverId": "019b0e57-4d1b-7ddc-8d9d-b1294631231d",
+      "date": "2026-07-12",
+      "reviewed": "2026-07-13",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop ",
+      "ts": 1783905847356,
+      "synced": false
+    },
+    {
       "id": "L1783905710698144",
       "board": "ebSND1QoyBs",
       "driver": "Sebastion Franco",
@@ -8250,5 +8263,5 @@
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8"
   ],
-  "_ts": "2026-07-13T01:21:54.141Z"
+  "_ts": "2026-07-13T01:24:07.375Z"
 }
