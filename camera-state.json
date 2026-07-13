@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783906472710882",
+      "board": "8gejhhHJj4e",
+      "driver": "Amie Roberts",
+      "driverId": "019e69ed-8223-71e8-9730-4c45c0c07ca7",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1783906472710,
+      "synced": false
+    },
+    {
       "id": "L1783906414590567",
       "board": "8gejhhHJj4e",
       "driver": "Victor Yanez",
@@ -8393,5 +8406,5 @@
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8"
   ],
-  "_ts": "2026-07-13T01:33:34.607Z"
+  "_ts": "2026-07-13T01:34:32.727Z"
 }
