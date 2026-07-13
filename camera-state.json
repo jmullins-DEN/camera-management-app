@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783906558578791",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Hernandez",
+      "driverId": "019b141b-9ef7-799a-8941-09727882b686",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop ",
+      "ts": 1783906558578,
+      "synced": false
+    },
+    {
       "id": "L1783906503139910",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -8419,5 +8432,5 @@
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8"
   ],
-  "_ts": "2026-07-13T01:35:03.157Z"
+  "_ts": "2026-07-13T01:35:58.596Z"
 }
