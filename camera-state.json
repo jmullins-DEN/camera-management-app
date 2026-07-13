@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783909157680448",
+      "board": "9RKrQRpDLcr",
+      "driver": "Paul Kunze Jr",
+      "driverId": "5251e559-3e8c-4f3b-b7b7-21415a31efea",
+      "date": "2026-07-12",
+      "reviewed": "2026-07-12",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\nFace to Face",
+      "ts": 1783909157680,
+      "synced": false
+    },
+    {
       "id": "L1783909066727170",
       "board": "9RKrQRpDLcr",
       "driver": "Unassigned",
@@ -252,7 +265,9 @@
       "coaching": "Face to Face",
       "notes": "Vehicle 658 Medium; Speeding",
       "ts": 1783909066727,
-      "synced": false
+      "synced": true,
+      "infItemId": "01a2a7fd-8e41-4f41-8403-93a75b6f99bb",
+      "syncError": null
     },
     {
       "id": "L1783908905416677",
@@ -10411,7 +10426,8 @@
     "3eccb7d2-8319-4d9c-92fe-7948836f7eb2",
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8",
-    "9ccb49a9-84c3-4491-9b02-5e28e48f6947"
+    "9ccb49a9-84c3-4491-9b02-5e28e48f6947",
+    "01a2a7fd-8e41-4f41-8403-93a75b6f99bb"
   ],
-  "_ts": "2026-07-13T02:17:46.762Z"
+  "_ts": "2026-07-13T02:19:17.706Z"
 }
