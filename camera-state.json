@@ -252,7 +252,9 @@
       "coaching": "System Alert",
       "notes": "Alert 6115247390\nCamera Obstruction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4368fa6a-3109-420b-9f03-f7d48ed63563.mp4",
       "ts": 1783959803137,
-      "synced": false
+      "synced": true,
+      "infItemId": "5689b47d-3519-4ddd-84c4-105d9c4210a0",
+      "syncError": null
     },
     {
       "id": "L1783959577758142",
@@ -10191,7 +10193,8 @@
     "293e366b-852a-41d8-881f-76e5b0f956db",
     "21e81538-d3d1-42dc-95e3-d3f4eb4a723f",
     "dd0eaf87-a2dd-493a-afd6-c0516d0198b3",
-    "c0bee410-ff2f-4400-b280-2e3c6231dc80"
+    "c0bee410-ff2f-4400-b280-2e3c6231dc80",
+    "5689b47d-3519-4ddd-84c4-105d9c4210a0"
   ],
-  "_ts": "2026-07-13T16:23:23.161Z"
+  "_ts": "2026-07-13T16:23:25.607Z"
 }
