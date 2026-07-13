@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-13-sharedboards'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-07-13-boardkey'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -259,8 +259,15 @@ function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=
 // dashboard membership is identical for everyone. The heavy driver/event payloads stay
 // per-browser in cam_refreshed (keeps /state small); each machine pulls its own live
 // data via a quiet refresh when a shared added-board first shows up.
-function addedBoards(){ const m=LS.s._boards; return (m&&typeof m==='object')?m:{}; }
-function registerAddedBoard(b){ const s=LS.s; const m={...(s._boards||{})}; m[b.board]={board:b.board,name:b.name,ws:b.ws||''}; s._boards=m; LS.s=s; pushState(); }
+// Read the shared registry, dropping any malformed entries (a prior field-name bug
+// stored added boards under the literal key "undefined" with board:undefined — filter
+// those out so they can never be stubbed onto the dashboard as a phantom board).
+function addedBoards(){ const m=LS.s._boards; if(!m||typeof m!=='object') return {};
+  const out={}; for(const k in m){ const v=m[k]; if(k&&k!=='undefined'&&v&&v.board) out[k]=v; } return out; }
+// Accept either {board,...} or the modal's {id,...} shape — the mismatch (b.board vs
+// picked.id) is what silently keyed everything under "undefined" and clobbered adds.
+function registerAddedBoard(b){ const id=b&&(b.board||b.id); if(!id) return;
+  const s=LS.s; const m={...(s._boards||{})}; delete m['undefined']; m[id]={board:id,name:b.name,ws:b.ws||''}; s._boards=m; LS.s=s; pushState(); }
 // Ensure every shared added-board exists in SEED.boards (as an empty stub if this
 // browser has no live data yet). Returns ids of boards it had to stub in, so the
 // caller can pull their data. Safe to call repeatedly — skips boards already present.
@@ -291,6 +298,10 @@ function mergeSettings(local,server){
     if(k==='_hidden') out._hidden=server._hidden;
     else if(server[k]&&typeof server[k]==='object') out[k]={...((local&&local[k])||{}),...server[k]};
     else out[k]=server[k];
+  }
+  if(out._boards&&typeof out._boards==='object'){ // scrub legacy malformed added-board keys
+    const clean={}; for(const k in out._boards){ const v=out._boards[k]; if(k&&k!=='undefined'&&v&&v.board) clean[k]=v; }
+    out._boards=clean;
   }
   return out;
 }
@@ -344,6 +355,7 @@ async function _doPush(){
     if(!res.ok){                                   // stale sha — re-read, RE-MERGE (don't clobber a concurrent queue), retry once
       const g=await fetch(API_BASE+'/state'); const gj=await g.json();
       _appState=gj.data||{}; _appSha=gj.sha||null;
+      LS.s=mergeSettings(LS.s,_appState.settings||{}); // union added-boards/hidden with a concurrent writer
       LS.local=mergeLocal(LS.local,_appState.local||[]);
       LS.entered=Array.from(new Set([...(LS.entered||[]),...(_appState.entered||[])]));
       res=await put();
