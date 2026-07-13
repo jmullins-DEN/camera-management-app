@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783902834087426",
+      "board": "XVLVu2Du8hc",
+      "driver": "Tres Dimick",
+      "driverId": "019a0810-437c-7aae-88b5-85226a382d67",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\n66 in 55",
+      "ts": 1783902834087,
+      "synced": false
+    },
+    {
       "id": "L1783902699288224",
       "board": "XVLVu2Du8hc",
       "driver": "Tres Dimick",
@@ -8907,5 +8920,5 @@
     "406c3f75-8bb6-4d88-8230-65d30b691b5d",
     "de2d2c16-a477-4ada-bf99-f45f5c9ed690"
   ],
-  "_ts": "2026-07-13T00:31:42.169Z"
+  "_ts": "2026-07-13T00:33:54.105Z"
 }
