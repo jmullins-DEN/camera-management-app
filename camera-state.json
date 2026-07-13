@@ -252,7 +252,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1236742335900057600; texting; assigned to Mark Cano; not Mark\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9926feb7-42c7-4bbe-b4ad-5a624f6157b4.mp4",
       "ts": 1783980582826,
-      "synced": false
+      "synced": true,
+      "infItemId": "cc22f8c8-462c-4e41-9768-d6abc6ab7e9e",
+      "syncError": null
     },
     {
       "id": "L1783980459882238",
@@ -11262,7 +11264,8 @@
     "750330c8-ab55-4db7-b0fa-984f5d3f1661",
     "672bec65-84b3-42db-bfaa-b678272f33c2",
     "139154da-181c-4701-b360-5e5cdf5017a0",
-    "6f1d0387-547d-4353-acd3-a3f9e8b1f788"
+    "6f1d0387-547d-4353-acd3-a3f9e8b1f788",
+    "cc22f8c8-462c-4e41-9768-d6abc6ab7e9e"
   ],
-  "_ts": "2026-07-13T22:09:42.849Z"
+  "_ts": "2026-07-13T22:09:45.416Z"
 }
