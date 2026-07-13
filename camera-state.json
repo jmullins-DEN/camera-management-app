@@ -242,6 +242,34 @@
   },
   "local": [
     {
+      "id": "L1783903284551481",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-07-12",
+      "reviewed": "2026-07-13",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "68 in 45",
+      "ts": 1783903284551,
+      "synced": false
+    },
+    {
+      "id": "L1783903122310870",
+      "board": "XVLVu2Du8hc",
+      "driver": "Chad Smith",
+      "driverId": "019a0810-437c-7aae-88b4-7558aa34aed8",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "63 in 45",
+      "ts": 1783903122310,
+      "synced": true,
+      "infItemId": "6b25abfe-4284-4978-9788-3453c2a27d5e",
+      "syncError": null
+    },
+    {
       "id": "L1783903034721325",
       "board": "XVLVu2Du8hc",
       "driver": "Benjamin Peppenger",
@@ -8953,7 +8981,8 @@
     "de2d2c16-a477-4ada-bf99-f45f5c9ed690",
     "27b8d1b9-1483-42dd-904d-7c3b78fc55a9",
     "826c9169-7555-487c-987a-e6a4f65a0dfb",
-    "1671501b-fd7c-4f01-9637-6b51fc1f18ea"
+    "1671501b-fd7c-4f01-9637-6b51fc1f18ea",
+    "6b25abfe-4284-4978-9788-3453c2a27d5e"
   ],
-  "_ts": "2026-07-13T00:37:17.231Z"
+  "_ts": "2026-07-13T00:41:24.571Z"
 }
