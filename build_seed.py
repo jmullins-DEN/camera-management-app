@@ -3,7 +3,7 @@
 Pulls, per camera board: driver field (reference roster OR label), driver list,
 camera attribute mapping, and recent camera events. Robust: skips what it can't map.
 """
-import json, sys, re, pathlib
+import json, sys, re, pathlib, hashlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / 'bin'))
 import infinity as inf
 
@@ -267,8 +267,16 @@ def main():
           'coaching_types':['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver']}
     (HERE/'seed.json').write_text(json.dumps(seed,indent=2,ensure_ascii=False))
     # seed.js lets index.html load data under file:// (no server / no fetch)
-    (HERE/'seed.js').write_text('window.SEED = ' + json.dumps(seed,ensure_ascii=False) + ';\n')
-    print(f"\nwrote seed.json + seed.js: {len(out)} boards", file=sys.stderr)
+    seedjs='window.SEED = ' + json.dumps(seed,ensure_ascii=False) + ';\n'
+    (HERE/'seed.js').write_text(seedjs)
+    # Stamp the seed's content hash into index.html's <script src> so every rebuild
+    # produces a fresh seed.js?v=<hash> URL. A changed URL can't match a browser's old
+    # cache entry, so this is what evicts anyone holding a stale seed.js. Identical
+    # content -> identical hash, so unchanged reloads still get a cheap 304.
+    ver=hashlib.md5(seedjs.encode()).hexdigest()[:8]
+    idx=HERE/'index.html'
+    idx.write_text(re.sub(r'seed\.js\?v=[0-9a-f]+', f'seed.js?v={ver}', idx.read_text()))
+    print(f"\nwrote seed.json + seed.js ({len(out)} boards), stamped index.html seed-ver={ver}", file=sys.stderr)
 
 if __name__ == '__main__':
     main()
