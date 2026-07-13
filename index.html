@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-13-converge'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-07-13-sharedboards'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -222,21 +222,10 @@ const LS = {
   get entered(){ try{return JSON.parse(localStorage.getItem('cam_entered')||'[]')}catch(e){return []} },
   set entered(v){ localStorage.setItem('cam_entered',JSON.stringify(Array.from(new Set(v)))) },
 };
-// ---- one-time forced convergence ----
-// localStorage survives a hard refresh, so a browser that ever hid boards ("edit
-// available boards") or cached a now-removed board keeps showing a divergent list
-// forever — no server fix reaches it. Bump RESET_VERSION to force EVERY browser to
-// drop its per-machine hidden-list + refresh cache once on next load, snapping the
-// whole team back to the shared server state (all boards visible). One-time per bump.
-const RESET_VERSION='2026-07-13-converge';
-try{
-  if(localStorage.getItem('cam_reset')!==RESET_VERSION){
-    const s=LS.s; s._hidden=[]; LS.s=s;              // stop hiding boards locally
-    localStorage.removeItem('cam_refreshed');        // drop resurrected/old boards
-    localStorage.removeItem('cam_seed_ver');         // force clean re-seed
-    localStorage.setItem('cam_reset',RESET_VERSION);
-  }
-}catch(e){}
+// NOTE (2026-07-13): an earlier "forced convergence" reset here wiped cam_refreshed
+// on load — but boards ADDED from Infinity live in cam_refreshed, so it deleted them
+// for everyone. Removed. Convergence is now handled the right way: the added-board
+// list is shared server state (LS.s._boards, synced via /state) — see addedBoards().
 function markEntered(itemId){ if(!itemId) return; const e=LS.entered; if(!e.includes(itemId)){ e.push(itemId); LS.entered=e; pushState(); } }
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
@@ -262,6 +251,26 @@ function setLogoSetting(id,patch){                     // write per-id AND mirro
 // boards the user has hidden from the dashboard (manual "edit available boards")
 function hiddenSet(){ const h=LS.s._hidden; return new Set(Array.isArray(h)?h:[]); }
 function setHidden(ids){ const s=LS.s; s._hidden=Array.from(new Set(ids)); LS.s=s; pushState(); }
+
+// ---- shared added-board registry ----
+// Boards added from Infinity beyond the static seed. These USED to live only in this
+// browser's cam_refreshed (never synced), so every person had a different board list.
+// Now we keep a lightweight {id:{board,name,ws}} map inside synced settings so the
+// dashboard membership is identical for everyone. The heavy driver/event payloads stay
+// per-browser in cam_refreshed (keeps /state small); each machine pulls its own live
+// data via a quiet refresh when a shared added-board first shows up.
+function addedBoards(){ const m=LS.s._boards; return (m&&typeof m==='object')?m:{}; }
+function registerAddedBoard(b){ const s=LS.s; const m={...(s._boards||{})}; m[b.board]={board:b.board,name:b.name,ws:b.ws||''}; s._boards=m; LS.s=s; pushState(); }
+// Ensure every shared added-board exists in SEED.boards (as an empty stub if this
+// browser has no live data yet). Returns ids of boards it had to stub in, so the
+// caller can pull their data. Safe to call repeatedly — skips boards already present.
+function injectAddedBoards(){
+  const fresh=[];
+  Object.values(addedBoards()).forEach(b=>{
+    if(!boardById(b.board)){ SEED.boards.push({board:b.board,name:b.name,ws:b.ws||'',drivers:[],events:[]}); fresh.push(b.board); }
+  });
+  return fresh;
+}
 
 /* ---------- shared app-state sync (settings + the event queue) ----------
    Two slices live in the worker's GitHub-backed /state store:
@@ -311,8 +320,11 @@ async function pullState(){
     const changed=JSON.stringify(mergedS)!==JSON.stringify(_appState.settings||{})
                || JSON.stringify(mergedL)!==JSON.stringify(_appState.local||[])
                || JSON.stringify(mergedE.slice().sort())!==JSON.stringify((_appState.entered||[]).slice().sort());
-    LS.s=mergedS; LS.local=mergedL; LS.entered=mergedE; render();
+    LS.s=mergedS; LS.local=mergedL; LS.entered=mergedE;
+    const freshBoards=injectAddedBoards(); // boards someone else added now appear here too
+    render();
     syncBar(false); // reached the server — clear any stale-data warning
+    freshBoards.forEach(id=>refreshBoard(id,{quiet:true})); // pull their live data on the spot
     if(changed) pushState(true); // promote local-only settings/events up into the shared store
   }catch(e){ syncBar(true); /* offline / unreachable — warn instead of silently showing stale data */ }
 }
@@ -934,19 +946,14 @@ function applyRefreshCache(){
       localStorage.setItem('cam_seed_ver',ver);
     }
   }catch(e){}
-  // Only overlay cached refreshes onto boards that STILL exist in the current seed.
-  // A cached record for a board dropped/renamed in a newer seed must NOT be re-added
-  // (applyBoardRecord would push it as a "new" board), or that removed board would
-  // resurrect on this browser only -> everyone ends up with a different board list.
-  // Seed is authoritative for WHICH boards exist; the cache only refreshes their data.
-  const cache=LS.refreshed, known=new Set(SEED.boards.map(b=>b.board)); let pruned=false;
-  Object.keys(cache).forEach(id=>{
-    if(known.has(id)) applyBoardRecord(cache[id]);
-    else { delete cache[id]; pruned=true; }
-  });
-  if(pruned) LS.refreshed=cache;
+  // Re-apply every cached refresh over the seed. Records for boards not in the static
+  // seed are ADDED boards (pulled from Infinity) — applyBoardRecord re-adds them so they
+  // survive a reload. (Shared membership lives in LS.s._boards; this restores their data.)
+  const cache=LS.refreshed;
+  Object.keys(cache).forEach(id=>applyBoardRecord(cache[id]));
 }
 applyRefreshCache();
+injectAddedBoards(); // make sure boards others added are present even before their data loads
 
 // Pull one board live from Infinity through the worker, merge, persist, re-render.
 async function refreshBoard(bid,opts){
@@ -1420,7 +1427,8 @@ async function addCheckedBoards(){
       if(!d||!d.ok||!d.board) throw new Error((d&&d.error)||'pull failed');
       const rec=d.board; rec._refreshedAt=new Date().toISOString();
       applyBoardRecord(rec);          // adds it to SEED.boards if new
-      cache[p.id]=rec; ok++;          // persist so it survives a reload
+      cache[p.id]=rec; ok++;          // persist live data per-browser (survives a reload)
+      registerAddedBoard(p);          // share membership so EVERYONE gets this board too
     }catch(e){ console.error('add board failed',p,e); fail++; }
   }
   LS.refreshed=cache;
