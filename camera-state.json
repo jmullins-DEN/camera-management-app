@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783903034721325",
+      "board": "XVLVu2Du8hc",
+      "driver": "Benjamin Peppenger",
+      "driverId": "019d9c45-1ec1-775e-ab94-00c243164179",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Speeding 98 in 75",
+      "ts": 1783903034722,
+      "synced": false
+    },
+    {
       "id": "L1783902885921944",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Morris",
@@ -8939,5 +8952,5 @@
     "27b8d1b9-1483-42dd-904d-7c3b78fc55a9",
     "826c9169-7555-487c-987a-e6a4f65a0dfb"
   ],
-  "_ts": "2026-07-13T00:34:49.950Z"
+  "_ts": "2026-07-13T00:37:14.740Z"
 }
