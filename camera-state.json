@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783906038708749",
+      "board": "8gejhhHJj4e",
+      "driver": "Francisco Lambar",
+      "driverId": "019ab61d-ab62-7770-b14b-9978eb6bfe30",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop ",
+      "ts": 1783906038708,
+      "synced": false
+    },
+    {
       "id": "L1783906011224123",
       "board": "8gejhhHJj4e",
       "driver": "Andrew Jacobs",
@@ -8289,5 +8302,5 @@
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8"
   ],
-  "_ts": "2026-07-13T01:26:51.242Z"
+  "_ts": "2026-07-13T01:27:18.724Z"
 }
