@@ -252,7 +252,9 @@
       "coaching": "System Alert",
       "notes": "obstructed camera; texting",
       "ts": 1783905506746,
-      "synced": false
+      "synced": true,
+      "infItemId": "3d700778-9591-40aa-81e7-cc6848068547",
+      "syncError": null
     },
     {
       "id": "L1783905070846374",
@@ -8181,7 +8183,8 @@
     "ac7337be-8713-49d4-8ce6-68c0b360e734",
     "31bc09e1-a753-43ea-9c5e-f3e4ba940cda",
     "0ef9eafa-9283-4153-9ca8-f93e18cbee8e",
-    "5b8879ea-4c88-47a7-bb4f-81d21e6daa85"
+    "5b8879ea-4c88-47a7-bb4f-81d21e6daa85",
+    "3d700778-9591-40aa-81e7-cc6848068547"
   ],
-  "_ts": "2026-07-13T01:18:26.765Z"
+  "_ts": "2026-07-13T01:18:29.176Z"
 }
