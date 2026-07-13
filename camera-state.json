@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783902459058720",
+      "board": "ioWX9hneUsk",
+      "driver": "Ray Pena",
+      "driverId": "019ab7f0-36ad-7661-a517-5820ce7e63c3",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 1235777615823011840; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6b51e345-6909-49c3-b922-1b64b4469c1e.mp4",
+      "ts": 1783902459058,
+      "synced": false
+    },
+    {
       "id": "L1783902378097122",
       "board": "ioWX9hneUsk",
       "driver": "Alexis Vega",
@@ -9638,5 +9651,5 @@
     "692d5764-47ee-4b20-a429-3f111bb55e86",
     "6d98555d-c16f-49e9-8482-dfb1c880d7fe"
   ],
-  "_ts": "2026-07-13T00:26:20.566Z"
+  "_ts": "2026-07-13T00:27:39.081Z"
 }
