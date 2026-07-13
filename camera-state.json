@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783903443108669",
+      "board": "xMfRLnqAN7y",
+      "driver": "Ryan Durrence",
+      "driverId": "019ef043-60c2-7796-aaa8-8bf92995fa58",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking",
+      "ts": 1783903443108,
+      "synced": false
+    },
+    {
       "id": "L1783903284551481",
       "board": "XVLVu2Du8hc",
       "driver": "Jeffrey Schnippel",
@@ -8837,5 +8850,5 @@
     "6b25abfe-4284-4978-9788-3453c2a27d5e",
     "34845822-2c39-4904-8e8a-c8ec64dd706a"
   ],
-  "_ts": "2026-07-13T00:43:23.223Z"
+  "_ts": "2026-07-13T00:44:03.125Z"
 }
