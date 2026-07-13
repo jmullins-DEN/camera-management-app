@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L17839448152310",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-12",
+      "reviewed": "2026-07-13",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980531324-1783887087323: Truck # 234 Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e88c8597-5fda-4b09-a5f5-c7f262dd3247.mp4",
+      "ts": 1783944815231,
+      "synced": false
+    },
+    {
       "id": "L1783910168664426",
       "board": "6aE7wVSK5Jq",
       "driver": "Colby Miller",
@@ -9956,5 +9969,5 @@
     "01a2a7fd-8e41-4f41-8403-93a75b6f99bb",
     "68bbc3b5-be52-4403-aada-3afa8b99b1d1"
   ],
-  "_ts": "2026-07-13T11:53:15.758Z"
+  "_ts": "2026-07-13T12:13:35.287Z"
 }
