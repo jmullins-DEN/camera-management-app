@@ -242,6 +242,21 @@
   },
   "local": [
     {
+      "id": "L1783904514375471",
+      "board": "YJNwKvzFhkj",
+      "driver": "Brandon Bradford",
+      "driverId": "019de571-9b44-708d-ac6c-bb75bd934615",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "safety review",
+      "ts": 1783904514375,
+      "synced": true,
+      "infItemId": "31bc09e1-a753-43ea-9c5e-f3e4ba940cda",
+      "syncError": null
+    },
+    {
       "id": "L1783904465853896",
       "board": "YJNwKvzFhkj",
       "driver": "Jonathan Hall",
@@ -8720,7 +8735,8 @@
     "90c28235-1084-4f80-a06c-6979ea564f03",
     "dc78dac9-94f7-4548-89e5-c6ee92009a4c",
     "a77898fc-9a0d-40b9-893d-f202d5484e91",
-    "ac7337be-8713-49d4-8ce6-68c0b360e734"
+    "ac7337be-8713-49d4-8ce6-68c0b360e734",
+    "31bc09e1-a753-43ea-9c5e-f3e4ba940cda"
   ],
-  "_ts": "2026-07-13T01:01:08.225Z"
+  "_ts": "2026-07-13T01:01:56.223Z"
 }
