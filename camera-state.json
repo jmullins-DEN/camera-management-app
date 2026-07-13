@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783905672653373",
+      "board": "ebSND1QoyBs",
+      "driver": "KARVELL OLIVER",
+      "driverId": "66820273-3d66-474d-b1fd-a0498b80b8d3",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1783905672653,
+      "synced": false
+    },
+    {
       "id": "L1783905642308424",
       "board": "ebSND1QoyBs",
       "driver": "KARVELL OLIVER",
@@ -8218,5 +8231,5 @@
     "e6e0419b-9d9d-47ec-bae8-6f96979268ce",
     "3eccb7d2-8319-4d9c-92fe-7948836f7eb2"
   ],
-  "_ts": "2026-07-13T01:20:45.261Z"
+  "_ts": "2026-07-13T01:21:12.671Z"
 }
