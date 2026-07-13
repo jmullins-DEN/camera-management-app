@@ -252,7 +252,9 @@
       "coaching": "Critical Event",
       "notes": "Speeding 98 in 75",
       "ts": 1783903034722,
-      "synced": false
+      "synced": true,
+      "infItemId": "1671501b-fd7c-4f01-9637-6b51fc1f18ea",
+      "syncError": null
     },
     {
       "id": "L1783902885921944",
@@ -8950,7 +8952,8 @@
     "406c3f75-8bb6-4d88-8230-65d30b691b5d",
     "de2d2c16-a477-4ada-bf99-f45f5c9ed690",
     "27b8d1b9-1483-42dd-904d-7c3b78fc55a9",
-    "826c9169-7555-487c-987a-e6a4f65a0dfb"
+    "826c9169-7555-487c-987a-e6a4f65a0dfb",
+    "1671501b-fd7c-4f01-9637-6b51fc1f18ea"
   ],
-  "_ts": "2026-07-13T00:37:14.740Z"
+  "_ts": "2026-07-13T00:37:17.231Z"
 }
