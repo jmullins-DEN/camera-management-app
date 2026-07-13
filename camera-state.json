@@ -242,6 +242,32 @@
   },
   "local": [
     {
+      "id": "L1783906323648288",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop ",
+      "ts": 1783906323648,
+      "synced": false
+    },
+    {
+      "id": "L1783906279385967",
+      "board": "8gejhhHJj4e",
+      "driver": "Moses Alvarez",
+      "driverId": "39f4e83b-6257-4e33-a7cd-87238fe0acd6",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "hard brake; near miss",
+      "ts": 1783906279385,
+      "synced": false
+    },
+    {
       "id": "L1783906226270711",
       "board": "8gejhhHJj4e",
       "driver": "Craig Rodriguez",
@@ -8328,5 +8354,5 @@
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8"
   ],
-  "_ts": "2026-07-13T01:30:26.287Z"
+  "_ts": "2026-07-13T01:32:03.664Z"
 }
