@@ -918,8 +918,17 @@ function applyRefreshCache(){
       localStorage.setItem('cam_seed_ver',ver);
     }
   }catch(e){}
-  const cache=LS.refreshed;
-  Object.keys(cache).forEach(id=>applyBoardRecord(cache[id]));
+  // Only overlay cached refreshes onto boards that STILL exist in the current seed.
+  // A cached record for a board dropped/renamed in a newer seed must NOT be re-added
+  // (applyBoardRecord would push it as a "new" board), or that removed board would
+  // resurrect on this browser only -> everyone ends up with a different board list.
+  // Seed is authoritative for WHICH boards exist; the cache only refreshes their data.
+  const cache=LS.refreshed, known=new Set(SEED.boards.map(b=>b.board)); let pruned=false;
+  Object.keys(cache).forEach(id=>{
+    if(known.has(id)) applyBoardRecord(cache[id]);
+    else { delete cache[id]; pruned=true; }
+  });
+  if(pruned) LS.refreshed=cache;
 }
 applyRefreshCache();
 

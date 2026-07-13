@@ -263,17 +263,22 @@ def main():
             print(f"OK  {name:32} type={r['driver_type']:9} drivers={len(r['drivers']):3} events={len(r['events']):3} attrs={ {k:bool(v) for k,v in r['attr'].items()} }", file=sys.stderr)
         except Exception as e:
             print(f"ERR {name}: {e}", file=sys.stderr)
-    seed={'generated':'2026-06-20','boards':out,
-          'coaching_types':['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver']}
+    coaching=['Coaching Notes','Critical Event','Blocked Camera','Unidentified Driver']
+    # Version = hash of the actual board content (NOT a frozen date). This value is
+    # written into SEED.generated, and the app wipes its per-browser cam_refreshed
+    # cache whenever SEED.generated changes (index.html applyRefreshCache). A frozen
+    # 'generated' meant that wipe NEVER fired, so stale per-browser board snapshots
+    # could resurrect removed boards forever -> different people saw different boards.
+    # Hashing the content makes it change exactly when the board set does.
+    ver=hashlib.md5(json.dumps([out,coaching],ensure_ascii=False).encode()).hexdigest()[:8]
+    seed={'generated':ver,'boards':out,'coaching_types':coaching}
     (HERE/'seed.json').write_text(json.dumps(seed,indent=2,ensure_ascii=False))
     # seed.js lets index.html load data under file:// (no server / no fetch)
     seedjs='window.SEED = ' + json.dumps(seed,ensure_ascii=False) + ';\n'
     (HERE/'seed.js').write_text(seedjs)
-    # Stamp the seed's content hash into index.html's <script src> so every rebuild
-    # produces a fresh seed.js?v=<hash> URL. A changed URL can't match a browser's old
-    # cache entry, so this is what evicts anyone holding a stale seed.js. Identical
-    # content -> identical hash, so unchanged reloads still get a cheap 304.
-    ver=hashlib.md5(seedjs.encode()).hexdigest()[:8]
+    # Stamp the same version into index.html's <script src> so every rebuild produces a
+    # fresh seed.js?v=<ver> URL. A changed URL can't match a browser's old cache entry,
+    # so this evicts anyone holding a stale seed.js. Unchanged content -> same ver -> 304.
     idx=HERE/'index.html'
     idx.write_text(re.sub(r'seed\.js\?v=[0-9a-f]+', f'seed.js?v={ver}', idx.read_text()))
     print(f"\nwrote seed.json + seed.js ({len(out)} boards), stamped index.html seed-ver={ver}", file=sys.stderr)
