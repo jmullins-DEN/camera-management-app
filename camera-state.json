@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783945890089122",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6115121973: Truck # 157741 Driver Drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dd62bf7a-723a-4626-a59d-53aa1200ac74.mp4",
+      "ts": 1783945890089,
+      "synced": false
+    },
+    {
       "id": "L1783945518758607",
       "board": "kQeF7EsAnVz",
       "driver": "Alejandro Soto",
@@ -9824,5 +9837,5 @@
     "109264a9-626e-45ec-b67f-3cf802439caa",
     "93b26bb1-99fc-48a8-a5cb-507483f060c5"
   ],
-  "_ts": "2026-07-13T12:25:21.478Z"
+  "_ts": "2026-07-13T12:31:30.149Z"
 }
