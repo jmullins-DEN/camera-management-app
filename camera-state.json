@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783945999065603",
+      "board": "kQeF7EsAnVz",
+      "driver": "Miguel Mora",
+      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6110041656: Driver Drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2408924b-d6d2-48fc-a4ad-4fc0264ebc22.mp4",
+      "ts": 1783945999065,
+      "synced": false
+    },
+    {
       "id": "L1783945890089122",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -9840,5 +9853,5 @@
     "93b26bb1-99fc-48a8-a5cb-507483f060c5",
     "293e366b-852a-41d8-881f-76e5b0f956db"
   ],
-  "_ts": "2026-07-13T12:31:33.403Z"
+  "_ts": "2026-07-13T12:33:19.126Z"
 }
