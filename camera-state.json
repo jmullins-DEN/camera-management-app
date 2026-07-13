@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783905710698144",
+      "board": "ebSND1QoyBs",
+      "driver": "Sebastion Franco",
+      "driverId": "7e2ef07c-00b0-457c-b11b-76ee6938e0bd",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "no seatbelt",
+      "ts": 1783905710698,
+      "synced": false
+    },
+    {
       "id": "L1783905672653373",
       "board": "ebSND1QoyBs",
       "driver": "KARVELL OLIVER",
@@ -8234,5 +8247,5 @@
     "3eccb7d2-8319-4d9c-92fe-7948836f7eb2",
     "f60d4b0d-792e-439b-afd9-080aa827d502"
   ],
-  "_ts": "2026-07-13T01:21:17.822Z"
+  "_ts": "2026-07-13T01:21:50.714Z"
 }
