@@ -6754,21 +6754,6 @@
       "syncError": null
     },
     {
-      "id": "L1783346722397302",
-      "board": "qnESNLC3JPR",
-      "driver": "Jimmy Mott",
-      "driverId": "019ab404-9009-7664-8db5-05b6082c4ade",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6063398027; Truck # 110 Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5fff4553-17bd-4909-b2a5-a0ab02a9035c.mp4",
-      "ts": 1783346722398,
-      "synced": true,
-      "infItemId": "c0312114-5a25-49db-aa71-d556c804f734",
-      "syncError": null
-    },
-    {
       "id": "L1783346186684351",
       "board": "7d53dL31ioV",
       "driver": "Walker Sims",
@@ -10828,5 +10813,5 @@
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8"
   ],
-  "_ts": "2026-07-13T02:00:13.773Z"
+  "_ts": "2026-07-13T02:00:35.764Z"
 }
