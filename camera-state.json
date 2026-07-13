@@ -357,7 +357,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995757668-1783903334463\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dd5bc836-6111-47a7-9b30-1d6b1a9b77ee.mp4",
       "ts": 1783959577758,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783959317467531",
@@ -370,7 +371,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995713058-1783893041959\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fa71b3b1-21f2-4289-834e-31bb402c0b46.mp4",
       "ts": 1783959317467,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783959085938774",
@@ -383,7 +385,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995713058-1783904902447\nPhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/06b419ad-62aa-4fd6-b991-078932689ac8.mp4hone Distraction; Face to Face",
       "ts": 1783959085938,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783958740149690",
@@ -396,7 +399,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995756588-1783912291084\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/60c5a57b-413f-4632-97cb-eb1f573a4bc3.mp4",
       "ts": 1783958740149,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1783947453468197",
@@ -11267,5 +11271,5 @@
     "6f1d0387-547d-4353-acd3-a3f9e8b1f788",
     "cc22f8c8-462c-4e41-9768-d6abc6ab7e9e"
   ],
-  "_ts": "2026-07-13T22:09:47.473Z"
+  "_ts": "2026-07-13T22:11:56.409Z"
 }
