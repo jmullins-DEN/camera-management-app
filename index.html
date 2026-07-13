@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-13-diag'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-07-13-converge'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -222,6 +222,21 @@ const LS = {
   get entered(){ try{return JSON.parse(localStorage.getItem('cam_entered')||'[]')}catch(e){return []} },
   set entered(v){ localStorage.setItem('cam_entered',JSON.stringify(Array.from(new Set(v)))) },
 };
+// ---- one-time forced convergence ----
+// localStorage survives a hard refresh, so a browser that ever hid boards ("edit
+// available boards") or cached a now-removed board keeps showing a divergent list
+// forever — no server fix reaches it. Bump RESET_VERSION to force EVERY browser to
+// drop its per-machine hidden-list + refresh cache once on next load, snapping the
+// whole team back to the shared server state (all boards visible). One-time per bump.
+const RESET_VERSION='2026-07-13-converge';
+try{
+  if(localStorage.getItem('cam_reset')!==RESET_VERSION){
+    const s=LS.s; s._hidden=[]; LS.s=s;              // stop hiding boards locally
+    localStorage.removeItem('cam_refreshed');        // drop resurrected/old boards
+    localStorage.removeItem('cam_seed_ver');         // force clean re-seed
+    localStorage.setItem('cam_reset',RESET_VERSION);
+  }
+}catch(e){}
 function markEntered(itemId){ if(!itemId) return; const e=LS.entered; if(!e.includes(itemId)){ e.push(itemId); LS.entered=e; pushState(); } }
 const boardById = id => SEED.boards.find(b=>b.board===id);
 const settingsFor = id => (LS.s[id]||{});
