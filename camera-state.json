@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783905506746284",
+      "board": "ebSND1QoyBs",
+      "driver": "unassigned",
+      "driverId": "019ebc03-7646-7672-934b-3eafcabe7786",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "obstructed camera; texting",
+      "ts": 1783905506746,
+      "synced": false
+    },
+    {
       "id": "L1783905070846374",
       "board": "ebSND1QoyBs",
       "driver": "John Edmonson",
@@ -8170,5 +8183,5 @@
     "0ef9eafa-9283-4153-9ca8-f93e18cbee8e",
     "5b8879ea-4c88-47a7-bb4f-81d21e6daa85"
   ],
-  "_ts": "2026-07-13T01:11:16.064Z"
+  "_ts": "2026-07-13T01:18:26.765Z"
 }
