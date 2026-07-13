@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783906414590567",
+      "board": "8gejhhHJj4e",
+      "driver": "Victor Yanez",
+      "driverId": "019a7351-1912-7881-81ed-94972ccad745",
+      "date": "2026-07-10",
+      "reviewed": "2026-07-13",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling stop ",
+      "ts": 1783906414590,
+      "synced": false
+    },
+    {
       "id": "L1783906372852213",
       "board": "8gejhhHJj4e",
       "driver": "Francisco Lambar",
@@ -8380,5 +8393,5 @@
     "f60d4b0d-792e-439b-afd9-080aa827d502",
     "548eff28-5988-40b8-aebe-05fe7567a3e8"
   ],
-  "_ts": "2026-07-13T01:32:52.870Z"
+  "_ts": "2026-07-13T01:33:34.607Z"
 }
