@@ -242,6 +242,19 @@
   },
   "local": [
     {
+      "id": "L1783980582826417",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-13",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1236742335900057600; texting; assigned to Mark Cano; not Mark\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9926feb7-42c7-4bbe-b4ad-5a624f6157b4.mp4",
+      "ts": 1783980582826,
+      "synced": false
+    },
+    {
       "id": "L1783980459882238",
       "board": "7W2SQKrNcXQ",
       "driver": "David Valdez",
@@ -11251,5 +11264,5 @@
     "139154da-181c-4701-b360-5e5cdf5017a0",
     "6f1d0387-547d-4353-acd3-a3f9e8b1f788"
   ],
-  "_ts": "2026-07-13T22:07:43.315Z"
+  "_ts": "2026-07-13T22:09:42.849Z"
 }
