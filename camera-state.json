@@ -242,6 +242,36 @@
   },
   "local": [
     {
+      "id": "L1783904299257532",
+      "board": "YJNwKvzFhkj",
+      "driver": "Kristy Graham",
+      "driverId": "019de575-77ce-75ef-bf96-7af7da26af37",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; inattentive",
+      "ts": 1783904299257,
+      "synced": true,
+      "infItemId": "a77898fc-9a0d-40b9-893d-f202d5484e91",
+      "syncError": null
+    },
+    {
+      "id": "L1783904233414876",
+      "board": "YJNwKvzFhkj",
+      "driver": "Kristy Graham",
+      "driverId": "019de575-77ce-75ef-bf96-7af7da26af37",
+      "date": "2026-07-11",
+      "reviewed": "2026-07-13",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1783904233414,
+      "synced": true,
+      "infItemId": "dc78dac9-94f7-4548-89e5-c6ee92009a4c",
+      "syncError": null
+    },
+    {
       "id": "L1783904055808684",
       "board": "xMfRLnqAN7y",
       "driver": "Paul Hyde",
@@ -8672,7 +8702,9 @@
     "6b25abfe-4284-4978-9788-3453c2a27d5e",
     "34845822-2c39-4904-8e8a-c8ec64dd706a",
     "d04b2d79-4acb-4e80-9159-138c53bc65cd",
-    "90c28235-1084-4f80-a06c-6979ea564f03"
+    "90c28235-1084-4f80-a06c-6979ea564f03",
+    "dc78dac9-94f7-4548-89e5-c6ee92009a4c",
+    "a77898fc-9a0d-40b9-893d-f202d5484e91"
   ],
-  "_ts": "2026-07-13T00:56:20.071Z"
+  "_ts": "2026-07-13T00:58:21.262Z"
 }
