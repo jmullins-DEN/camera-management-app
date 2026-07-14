@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784038875444380",
+      "board": "kQeF7EsAnVz",
+      "driver": "Miguel Mora",
+      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "U-Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 6124859456: U turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2383fea6-9545-4213-944d-100bc2f41f36.mp4",
+      "ts": 1784038875444,
+      "synced": false
+    },
+    {
       "id": "L1784030697691373",
       "board": "7d53dL31ioV",
       "driver": "SCHULTZ, JEREMY D",
@@ -11191,5 +11204,5 @@
     "61e28c54-72c5-4307-b394-b28463aa28d3",
     "4a840b24-a003-4b11-8e90-7e9dd54889c0"
   ],
-  "_ts": "2026-07-14T14:20:08.669Z"
+  "_ts": "2026-07-14T14:21:15.502Z"
 }
