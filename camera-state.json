@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L17840476969799",
+      "board": "ebSND1QoyBs",
+      "driver": "Damien Dunbar",
+      "driverId": "714d4c6f-a37e-4235-b62a-6fabcb87d93d",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "near miss; following too close; aggressive driving",
+      "ts": 1784047696979,
+      "synced": false
+    },
+    {
       "id": "L1784047599721971",
       "board": "ebSND1QoyBs",
       "driver": "Shamonte Jacobs",
@@ -10152,5 +10165,5 @@
     "9b906f91-f625-4b22-8984-5b5749bdece7",
     "a0f2448f-e33e-4e86-8d7b-f060913c5e25"
   ],
-  "_ts": "2026-07-14T16:46:42.553Z"
+  "_ts": "2026-07-14T16:48:16.996Z"
 }
