@@ -278,7 +278,8 @@
       "coaching": "Coaching Notes",
       "notes": "Rolling stop \n",
       "ts": 1784049629252,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1784049586661345",
@@ -10555,5 +10556,5 @@
     "507ab9ee-55ca-4c81-b66a-82d7e3fc6799",
     "eccdbba0-b242-4fd0-816b-51b71d3726c1"
   ],
-  "_ts": "2026-07-14T23:18:25.677Z"
+  "_ts": "2026-07-14T23:19:09.490Z"
 }
