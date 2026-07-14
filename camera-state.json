@@ -268,81 +268,6 @@
   },
   "local": [
     {
-      "id": "L1784045553642362",
-      "board": "XVLVu2Du8hc",
-      "driver": "Kyle Curtis",
-      "driverId": "019a0810-437c-7aae-88b4-7ddb6f8af72b",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Safety-Critical Event",
-      "coaching": "Critical Event",
-      "notes": "75 in 45",
-      "ts": 1784045553642,
-      "synced": true,
-      "infItemId": "a592520d-4e56-47f0-85dd-7819814bbe09",
-      "syncError": null
-    },
-    {
-      "id": "L1784045498979605",
-      "board": "XVLVu2Du8hc",
-      "driver": "Michael Schroeder",
-      "driverId": "019a0810-437c-7aae-88b4-88beabc4933d",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "78 in 55",
-      "ts": 1784045498979,
-      "synced": true,
-      "infItemId": "bab25b50-208c-4a13-80d6-a302a9316d66",
-      "syncError": null
-    },
-    {
-      "id": "L1784045453422131",
-      "board": "XVLVu2Du8hc",
-      "driver": "Michael Contreras",
-      "driverId": "019a0810-437c-7aae-88b5-5831db91703a",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "70 in 55",
-      "ts": 1784045453422,
-      "synced": true,
-      "infItemId": "13c5a72a-fee9-4e6a-bc9c-5780bec16ceb",
-      "syncError": null
-    },
-    {
-      "id": "L1784045404409736",
-      "board": "XVLVu2Du8hc",
-      "driver": "Alan Ashton",
-      "driverId": "019a0810-437c-7aae-88b4-c00ec76f72f6",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "81 in 65",
-      "ts": 1784045404409,
-      "synced": true,
-      "infItemId": "3886779c-d054-4993-b7db-d3e4e0486cae",
-      "syncError": null
-    },
-    {
-      "id": "L1784045285299671",
-      "board": "XVLVu2Du8hc",
-      "driver": "Alan Ashton",
-      "driverId": "019a0810-437c-7aae-88b4-c00ec76f72f6",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 1575624680; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/36b25749-c462-49d6-ac89-0463726747c3.mp4",
-      "ts": 1784045285299,
-      "synced": true,
-      "infItemId": "7d747194-ba85-4fcb-bab4-3ed501d85696",
-      "syncError": null
-    },
-    {
       "id": "L1784044037733748",
       "board": "ioWX9hneUsk",
       "driver": "Alexis Vega",
@@ -11411,5 +11336,5 @@
     "bab25b50-208c-4a13-80d6-a302a9316d66",
     "a592520d-4e56-47f0-85dd-7819814bbe09"
   ],
-  "_ts": "2026-07-14T16:13:22.500Z"
+  "_ts": "2026-07-14T16:13:32.730Z"
 }
