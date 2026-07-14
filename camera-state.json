@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784049330968514",
+      "board": "8gejhhHJj4e",
+      "driver": "Dustin Shackles #0969",
+      "driverId": "f8e26ee8-1448-4a69-8dd9-d696e90746e4",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1784049330968,
+      "synced": false
+    },
+    {
       "id": "L1784049310737937",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -10463,5 +10476,5 @@
     "edc30806-07f8-4aca-bad1-592b3eec5b96",
     "1617fb09-cc19-4146-9193-ebdaba993f0b"
   ],
-  "_ts": "2026-07-14T17:15:10.753Z"
+  "_ts": "2026-07-14T17:15:30.983Z"
 }
