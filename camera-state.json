@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784072987637383",
+      "board": "JthqRmXvJ9v",
+      "driver": "Zack Wyatt",
+      "driverId": "019c33e3-5a8b-7224-988a-bdee4f8c0027",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\nFace to Face",
+      "ts": 1784072987637,
+      "synced": false
+    },
+    {
       "id": "L1784072829341341",
       "board": "JthqRmXvJ9v",
       "driver": "Justin Hunter",
@@ -12714,5 +12727,5 @@
     "a2cfa243-6093-4a64-bf44-4f6c1b982dcc",
     "d3eb2469-456a-4099-b4e4-eb14a45bb043"
   ],
-  "_ts": "2026-07-14T23:47:11.776Z"
+  "_ts": "2026-07-14T23:49:47.659Z"
 }
