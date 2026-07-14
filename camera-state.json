@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784044037733748",
+      "board": "ioWX9hneUsk",
+      "driver": "Alexis Vega",
+      "driverId": "52e82bc0-8ce1-4fa1-8368-e13925a70493",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 1236627970567864320; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3cb97dd5-1e92-48f9-8769-a85730313b83.mp4\n",
+      "ts": 1784044037733,
+      "synced": true,
+      "infItemId": "a8b74ea4-64fa-40d7-a06e-446718366244",
+      "syncError": null
+    },
+    {
       "id": "L1784043903235277",
       "board": "ioWX9hneUsk",
       "driver": "unassigned",
@@ -368,7 +383,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5515895d34dfb47a4a8dc9",
       "ts": 1784043382380,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1784043364338963",
@@ -381,9 +397,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1575359604; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3b0ea2fa-c33f-4587-be1c-dab8a10672a5.mp4\n",
       "ts": 1784043364338,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "068e80bb-1ab6-4edc-b54d-17704a895903"
     },
     {
       "id": "L1784043310123285",
@@ -486,9 +502,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1574993380; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2dfeac44-b5d7-4b86-93df-c8f8ab745b4c.mp4",
       "ts": 1784042842610,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "73e4492c-81b6-4fc4-a365-964950037630"
     },
     {
       "id": "L1784042650370569",
@@ -531,7 +547,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a55534d5d34dfb47a4aeeaa",
       "ts": 1784042543248,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1784042467436694",
@@ -574,7 +591,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a551cb15d34dfb47a4a9768",
       "ts": 1784042386864,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1784042270468978",
@@ -587,7 +605,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a551d975d34dfb47a4a986a",
       "ts": 1784042270468,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1784042265205599",
@@ -657,9 +676,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281475002753530-1783980322159:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/03608e99-9919-4b27-ac9f-f66473e01efb.mp4",
       "ts": 1784041668655,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "6c6c18b0-a10a-4d2b-be35-5910da31a746"
     },
     {
       "id": "L1784041351070862",
@@ -12191,7 +12210,11 @@
     "4635fb60-ed15-484f-a082-648706486384",
     "46528736-d54d-4feb-9bbc-ed8ea299783a",
     "c34718d9-9fd5-4c49-a81e-93b9c1787812",
-    "26becaa9-d2df-4bb3-bc71-48c054816d48"
+    "26becaa9-d2df-4bb3-bc71-48c054816d48",
+    "a8b74ea4-64fa-40d7-a06e-446718366244",
+    "068e80bb-1ab6-4edc-b54d-17704a895903",
+    "73e4492c-81b6-4fc4-a365-964950037630",
+    "6c6c18b0-a10a-4d2b-be35-5910da31a746"
   ],
-  "_ts": "2026-07-14T15:45:08.799Z"
+  "_ts": "2026-07-14T15:56:14.705Z"
 }
