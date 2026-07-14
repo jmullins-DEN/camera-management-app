@@ -291,7 +291,7 @@
       "reviewed": "2026-07-14",
       "behavior": "Safety-Critical Event",
       "coaching": "Critical Event",
-      "notes": "driver drowsy",
+      "notes": "\nAlert 1236994627660316672;  driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/569601bc-b716-45a7-9508-97e18c75a1bd.mp4",
       "ts": 1784072038702,
       "synced": true,
       "infItemId": "8c7d6536-09a0-4d07-af13-feee6afe34fc",
@@ -12681,5 +12681,5 @@
     "8c7d6536-09a0-4d07-af13-feee6afe34fc",
     "a2cfa243-6093-4a64-bf44-4f6c1b982dcc"
   ],
-  "_ts": "2026-07-14T23:36:27.509Z"
+  "_ts": "2026-07-14T23:37:25.204Z"
 }
