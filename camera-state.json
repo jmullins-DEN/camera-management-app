@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784073081762757",
+      "board": "JthqRmXvJ9v",
+      "driver": "Tim Eurich",
+      "driverId": "019c8777-76e9-7dd6-9494-625ae7c24689",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1784073081762,
+      "synced": false
+    },
+    {
       "id": "L1784073027172249",
       "board": "JthqRmXvJ9v",
       "driver": "Jose Patino",
@@ -12740,5 +12753,5 @@
     "a2cfa243-6093-4a64-bf44-4f6c1b982dcc",
     "d3eb2469-456a-4099-b4e4-eb14a45bb043"
   ],
-  "_ts": "2026-07-14T23:50:27.194Z"
+  "_ts": "2026-07-14T23:51:21.785Z"
 }
