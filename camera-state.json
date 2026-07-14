@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784049446436664",
+      "board": "8gejhhHJj4e",
+      "driver": "Amie Roberts",
+      "driverId": "019e69ed-8223-71e8-9730-4c45c0c07ca7",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close; aggressive driving",
+      "ts": 1784049446436,
+      "synced": false
+    },
+    {
       "id": "L1784049330968514",
       "board": "8gejhhHJj4e",
       "driver": "Dustin Shackles #0969",
@@ -10476,5 +10489,5 @@
     "edc30806-07f8-4aca-bad1-592b3eec5b96",
     "1617fb09-cc19-4146-9193-ebdaba993f0b"
   ],
-  "_ts": "2026-07-14T17:15:30.983Z"
+  "_ts": "2026-07-14T17:17:26.452Z"
 }
