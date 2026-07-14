@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178402951774321",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6125194282: Truck # 157741 Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7979655b-f29d-447c-b145-54d334581a21.mp4",
+      "ts": 1784029517744,
+      "synced": false
+    },
+    {
       "id": "L1783994660576509",
       "board": "ic6o6QgzpVM",
       "driver": "Sergio Costillo de leon",
@@ -10010,5 +10023,5 @@
     "63cae5d6-3626-428d-af01-edd46c8e5382",
     "2f1bdae1-f0e6-449e-966b-b0f1dea838e3"
   ],
-  "_ts": "2026-07-14T11:39:46.712Z"
+  "_ts": "2026-07-14T11:45:17.822Z"
 }
