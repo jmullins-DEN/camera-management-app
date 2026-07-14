@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784047493785790",
+      "board": "ebSND1QoyBs",
+      "driver": "Juan Santiago",
+      "driverId": "0b04d3ca-97c7-4ea5-a371-5f0ab209f730",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1784047493785,
+      "synced": false
+    },
+    {
       "id": "L1784047466183971",
       "board": "ebSND1QoyBs",
       "driver": "DESHAWN SKIPWITH",
@@ -10088,5 +10101,5 @@
     "ef119472-356e-4b6b-bbbf-400e635108d6",
     "890a2d2a-2163-418c-ad3e-45774493110b"
   ],
-  "_ts": "2026-07-14T16:44:28.680Z"
+  "_ts": "2026-07-14T16:44:53.803Z"
 }
