@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784048574805874",
+      "board": "8gejhhHJj4e",
+      "driver": "Victor Yanez",
+      "driverId": "019a7351-1912-7881-81ed-94972ccad745",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling stop \n",
+      "ts": 1784048574805,
+      "synced": false
+    },
+    {
       "id": "L178404843806284",
       "board": "8gejhhHJj4e",
       "driver": "Ricardo Hernandez #3696",
@@ -10359,5 +10372,5 @@
     "edc30806-07f8-4aca-bad1-592b3eec5b96",
     "1617fb09-cc19-4146-9193-ebdaba993f0b"
   ],
-  "_ts": "2026-07-14T17:00:38.078Z"
+  "_ts": "2026-07-14T17:02:54.821Z"
 }
