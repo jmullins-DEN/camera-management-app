@@ -518,51 +518,6 @@
       "syncError": null
     },
     {
-      "id": "L1783945999065603",
-      "board": "kQeF7EsAnVz",
-      "driver": "Miguel Mora",
-      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-13",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6110041656: Driver Drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2408924b-d6d2-48fc-a4ad-4fc0264ebc22.mp4",
-      "ts": 1783945999065,
-      "synced": true,
-      "infItemId": "21e81538-d3d1-42dc-95e3-d3f4eb4a723f",
-      "syncError": null
-    },
-    {
-      "id": "L1783945890089122",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-07-11",
-      "reviewed": "2026-07-13",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6115121973: Truck # 157741 Driver Drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dd62bf7a-723a-4626-a59d-53aa1200ac74.mp4",
-      "ts": 1783945890089,
-      "synced": true,
-      "infItemId": "293e366b-852a-41d8-881f-76e5b0f956db",
-      "syncError": null
-    },
-    {
-      "id": "L1783945518758607",
-      "board": "kQeF7EsAnVz",
-      "driver": "Alejandro Soto",
-      "driverId": "04eb544e-5897-4561-a5e0-abd2389e9da7",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-13",
-      "behavior": "Traffic Light Violation",
-      "coaching": "Face to Face",
-      "notes": "Alert 6106928566: Traffic Light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5ed3ca64-d780-409e-a232-ed239cf0a6d2.mp4",
-      "ts": 1783945518758,
-      "synced": true,
-      "infItemId": "93b26bb1-99fc-48a8-a5cb-507483f060c5",
-      "syncError": null
-    },
-    {
       "id": "L1783910168664426",
       "board": "6aE7wVSK5Jq",
       "driver": "Colby Miller",
@@ -2005,21 +1960,6 @@
       "ts": 1783685238276,
       "synced": true,
       "infItemId": "45f31305-c0cf-4e63-bfdf-4918149eb66e",
-      "syncError": null
-    },
-    {
-      "id": "L1783684899385304",
-      "board": "kQeF7EsAnVz",
-      "driver": "Miguel Mora",
-      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
-      "date": "2026-07-09",
-      "reviewed": "2026-07-10",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Face to Face",
-      "notes": "Alert 6103064063: Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/06cdc65b-6355-4143-aee1-a83a6678e6f7.mp4",
-      "ts": 1783684899385,
-      "synced": true,
-      "infItemId": "880f886f-0c59-44cf-b323-5eb0c1c0ddc2",
       "syncError": null
     },
     {
@@ -3660,21 +3600,6 @@
       "syncError": null
     },
     {
-      "id": "L1783597840300602",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-07-08",
-      "reviewed": "2026-07-09",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6095991295: Truck # 226259 Driver Drowsyhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2070f56b-e865-4540-a4b9-eea18b8766e4.mp4",
-      "ts": 1783597840300,
-      "synced": true,
-      "infItemId": "52e4eff0-0027-41ac-9783-94ce430711ac",
-      "syncError": null
-    },
-    {
       "id": "L1783597671195602",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Stoner",
@@ -3687,21 +3612,6 @@
       "ts": 1783597671195,
       "synced": true,
       "infItemId": "bd1e23af-d212-4f34-97dc-03abec57bdf0",
-      "syncError": null
-    },
-    {
-      "id": "L1783597634112647",
-      "board": "kQeF7EsAnVz",
-      "driver": "Miguel Mora",
-      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
-      "date": "2026-07-08",
-      "reviewed": "2026-07-09",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6092979957: Driver Drowsy Alert 6089717438: Drowsy Driverhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5a86a8c4-d21f-4fcb-91cd-6a619175a18c.mp4",
-      "ts": 1783597634112,
-      "synced": true,
-      "infItemId": "593b2dca-001a-421b-afb3-7c1fbb098efe",
       "syncError": null
     },
     {
@@ -5079,21 +4989,6 @@
       "syncError": null
     },
     {
-      "id": "L1783510671391719",
-      "board": "kQeF7EsAnVz",
-      "driver": "Miguel Mora",
-      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6089717438: Drowsy Driverhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5a86a8c4-d21f-4fcb-91cd-6a619175a18c.mp4",
-      "ts": 1783510671391,
-      "synced": true,
-      "infItemId": "4b2e92f4-cc6d-42aa-8af1-93ba411abe0c",
-      "syncError": null
-    },
-    {
       "id": "L1783465484824620",
       "board": "7W2SQKrNcXQ",
       "driver": "Juan Napoles",
@@ -5372,21 +5267,6 @@
       "ts": 1783426390889,
       "synced": true,
       "infItemId": "c7f2db69-a722-479c-9d50-85938de63355",
-      "syncError": null
-    },
-    {
-      "id": "L1783426376297325",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-07-06",
-      "reviewed": "2026-07-07",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "Alert 6079730894: Truck # 403744 Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/00a9d71d-3bab-4757-a191-dee520b8cc1b.mp4",
-      "ts": 1783426376298,
-      "synced": true,
-      "infItemId": "bb26850b-3f96-40e6-b0d0-1fac9d4e74cc",
       "syncError": null
     },
     {
@@ -6770,51 +6650,6 @@
       "syncError": null
     },
     {
-      "id": "L178334433764040",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6067726694: Truck # 157741 \nFace to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b6b293c-c4fd-49aa-9009-313c2ca1dd5e.mp4",
-      "ts": 1783344337640,
-      "synced": true,
-      "infItemId": "2cb3abe6-ecf3-45af-825c-3c82c488d652",
-      "syncError": null
-    },
-    {
-      "id": "L1783343481431920",
-      "board": "kQeF7EsAnVz",
-      "driver": "Alejandro Soto",
-      "driverId": "04eb544e-5897-4561-a5e0-abd2389e9da7",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6062159219: Hand Held Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/93aa7cc3-1983-49b5-818a-be695ac0914e.mp4",
-      "ts": 1783343481431,
-      "synced": true,
-      "infItemId": "2dca70f1-bdae-43ac-b6d8-59d2b5416c76",
-      "syncError": null
-    },
-    {
-      "id": "L178334324284798",
-      "board": "kQeF7EsAnVz",
-      "driver": "Daniel Velasco",
-      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "Alert 6061106960: Phone Distraction \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6a7ee0b9-b157-4b4a-86bc-9ae152384f3f.mp4",
-      "ts": 1783343242847,
-      "synced": true,
-      "infItemId": "7455c17f-2756-4cb4-aacf-b5b9c590d838",
-      "syncError": null
-    },
-    {
       "id": "L178330732565448",
       "board": "ic6o6QgzpVM",
       "driver": "Rios, Jesse",
@@ -7520,21 +7355,6 @@
       "syncError": null
     },
     {
-      "id": "L178299411834561",
-      "board": "kQeF7EsAnVz",
-      "driver": "Daniel Velasco",
-      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
-      "date": "2026-07-01",
-      "reviewed": "2026-07-02",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6054174556: Truck #157741 Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/19031e17-7e2a-4ce1-be39-8abf7970b39f.mp4",
-      "ts": 1782994118345,
-      "synced": true,
-      "infItemId": "e7c67da4-e525-4e9f-8daa-008e3942748d",
-      "syncError": null
-    },
-    {
       "id": "L1782994090320419",
       "board": "4rNDuSrCaap",
       "driver": "Rodney Wilborn",
@@ -8060,36 +7880,6 @@
       "syncError": null
     },
     {
-      "id": "L1782872259773594",
-      "board": "kQeF7EsAnVz",
-      "driver": "Miguel Mora",
-      "driverId": "019d8c73-78e0-779e-a9e5-d016fa272935",
-      "date": "2026-06-30",
-      "reviewed": "2026-06-30",
-      "behavior": "Traffic Light Violation",
-      "coaching": "Face to Face",
-      "notes": "Alert 6048768467: Traffic light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/15aed216-9e86-49e6-a91a-40a9c650184f.mp4",
-      "ts": 1782872259773,
-      "synced": true,
-      "infItemId": "bac3499f-b4d8-49b7-bde0-41bc6d49b3ae",
-      "syncError": null
-    },
-    {
-      "id": "L1782871874460551",
-      "board": "kQeF7EsAnVz",
-      "driver": "Unassigned",
-      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
-      "date": "2026-06-30",
-      "reviewed": "2026-06-30",
-      "behavior": "Seat Belt",
-      "coaching": "Face to Face",
-      "notes": "Alert 6045673911: Truck # 170992 Seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0776b7b2-14c0-45dc-8779-934afa107eb3.mp4",
-      "ts": 1782871874461,
-      "synced": true,
-      "infItemId": "0b8f6439-6e56-425e-b229-e9218c5ad8ec",
-      "syncError": null
-    },
-    {
       "id": "L1782864358997975",
       "board": "7W2SQKrNcXQ",
       "driver": "Isaiah Cardenas",
@@ -8372,21 +8162,6 @@
       "ts": 1782778732820,
       "synced": true,
       "infItemId": "605aff66-fc67-41b0-b3bd-1d194a1c8a3f",
-      "syncError": null
-    },
-    {
-      "id": "L1782777712207320",
-      "board": "kQeF7EsAnVz",
-      "driver": "Daniel Velasco",
-      "driverId": "f041e66d-dc86-41ce-b9a0-81432182fdf5",
-      "date": "2026-06-29",
-      "reviewed": "2026-06-29",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "Alert 6043173https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/24485761-d728-4313-a018-59475e7432a3.mp4356: Driver Drowsy ",
-      "ts": 1782777712208,
-      "synced": true,
-      "infItemId": "04f8a45d-8cfc-4bce-914d-8c94f8abbbe8",
       "syncError": null
     },
     {
@@ -10235,5 +10010,5 @@
     "63cae5d6-3626-428d-af01-edd46c8e5382",
     "2f1bdae1-f0e6-449e-966b-b0f1dea838e3"
   ],
-  "_ts": "2026-07-14T11:27:39.631Z"
+  "_ts": "2026-07-14T11:39:46.712Z"
 }
