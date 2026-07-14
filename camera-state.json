@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784047527120188",
+      "board": "ebSND1QoyBs",
+      "driver": "Thomas Kelly",
+      "driverId": "019f2415-246c-775e-ad34-85473d7d1622",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1784047527120,
+      "synced": false
+    },
+    {
       "id": "L1784047493785790",
       "board": "ebSND1QoyBs",
       "driver": "Juan Santiago",
@@ -10104,5 +10117,5 @@
     "890a2d2a-2163-418c-ad3e-45774493110b",
     "ac1f010c-65d3-444c-92cc-6ebe88601311"
   ],
-  "_ts": "2026-07-14T16:44:56.770Z"
+  "_ts": "2026-07-14T16:45:27.137Z"
 }
