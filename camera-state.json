@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784072185157812",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Marco Nunez",
+      "driverId": "272e1ad8-9687-4e44-b5b6-6aae400c1c9b",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-14",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1237034437888344064; rolling stop \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e998d24d-92dc-4962-b35e-aa6d06afb283.mp4",
+      "ts": 1784072185157,
+      "synced": false
+    },
+    {
       "id": "L178407203870268",
       "board": "7W2SQKrNcXQ",
       "driver": "Marco Nunez",
@@ -12665,5 +12678,5 @@
     "766eec54-8355-4cde-a64e-a85a1af89ec3",
     "8c7d6536-09a0-4d07-af13-feee6afe34fc"
   ],
-  "_ts": "2026-07-14T23:34:05.337Z"
+  "_ts": "2026-07-14T23:36:25.172Z"
 }
