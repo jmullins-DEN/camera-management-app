@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784047726892467",
+      "board": "ebSND1QoyBs",
+      "driver": "Robert Ulrich",
+      "driverId": "ff647e84-cdc4-458e-9cdc-ea66009768cc",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked",
+      "ts": 1784047726892,
+      "synced": false
+    },
+    {
       "id": "L17840476969799",
       "board": "ebSND1QoyBs",
       "driver": "Damien Dunbar",
@@ -10168,5 +10181,5 @@
     "a0f2448f-e33e-4e86-8d7b-f060913c5e25",
     "e40cd2c1-fef3-42ed-bf52-55d7ced3d7fb"
   ],
-  "_ts": "2026-07-14T16:48:19.982Z"
+  "_ts": "2026-07-14T16:48:46.908Z"
 }
