@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close",
       "ts": 1784047466183,
-      "synced": false
+      "synced": true,
+      "infItemId": "890a2d2a-2163-418c-ad3e-45774493110b",
+      "syncError": null
     },
     {
       "id": "L17840470893170",
@@ -10083,7 +10085,8 @@
     "f6c309bc-fc76-458a-a427-73ca0aef745f",
     "7273c446-d186-4fc6-a5ca-77702b73ffd7",
     "48045b56-ba30-4d10-aadf-6f4b08040dcb",
-    "ef119472-356e-4b6b-bbbf-400e635108d6"
+    "ef119472-356e-4b6b-bbbf-400e635108d6",
+    "890a2d2a-2163-418c-ad3e-45774493110b"
   ],
-  "_ts": "2026-07-14T16:44:26.199Z"
+  "_ts": "2026-07-14T16:44:28.680Z"
 }
