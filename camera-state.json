@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784073027172249",
+      "board": "JthqRmXvJ9v",
+      "driver": "Jose Patino",
+      "driverId": "019a7b18-0863-7330-ad9a-c77eb4952fc8",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\nFace to Face",
+      "ts": 1784073027172,
+      "synced": false
+    },
+    {
       "id": "L1784072987637383",
       "board": "JthqRmXvJ9v",
       "driver": "Zack Wyatt",
@@ -12727,5 +12740,5 @@
     "a2cfa243-6093-4a64-bf44-4f6c1b982dcc",
     "d3eb2469-456a-4099-b4e4-eb14a45bb043"
   ],
-  "_ts": "2026-07-14T23:49:47.659Z"
+  "_ts": "2026-07-14T23:50:27.194Z"
 }
