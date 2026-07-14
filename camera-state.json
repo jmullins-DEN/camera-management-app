@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784073215423862",
+      "board": "9RKrQRpDLcr",
+      "driver": "Paul Kunze Jr",
+      "driverId": "5251e559-3e8c-4f3b-b7b7-21415a31efea",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\nFace to Face",
+      "ts": 1784073215423,
+      "synced": false
+    },
+    {
       "id": "L1784073081762757",
       "board": "JthqRmXvJ9v",
       "driver": "Tim Eurich",
@@ -12183,5 +12196,5 @@
     "a2cfa243-6093-4a64-bf44-4f6c1b982dcc",
     "d3eb2469-456a-4099-b4e4-eb14a45bb043"
   ],
-  "_ts": "2026-07-14T23:52:31.975Z"
+  "_ts": "2026-07-14T23:53:35.446Z"
 }
