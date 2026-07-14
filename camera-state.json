@@ -278,7 +278,9 @@
       "coaching": "Critical Event",
       "notes": "Alert 6125194282: Truck # 157741 Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7979655b-f29d-447c-b145-54d334581a21.mp4",
       "ts": 1784029517744,
-      "synced": false
+      "synced": true,
+      "infItemId": "0b393adb-fe3b-464e-9ab8-b865ec4a591f",
+      "syncError": null
     },
     {
       "id": "L1783994660576509",
@@ -10021,7 +10023,8 @@
     "2b33696a-2432-480b-9549-9b576c6cec85",
     "cf61a750-628a-48f9-8763-455746019889",
     "63cae5d6-3626-428d-af01-edd46c8e5382",
-    "2f1bdae1-f0e6-449e-966b-b0f1dea838e3"
+    "2f1bdae1-f0e6-449e-966b-b0f1dea838e3",
+    "0b393adb-fe3b-464e-9ab8-b865ec4a591f"
   ],
-  "_ts": "2026-07-14T11:45:17.822Z"
+  "_ts": "2026-07-14T11:45:21.441Z"
 }
