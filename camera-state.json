@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6128503257: Sign violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fe1d303d-1089-4f06-bd85-b688196adcf6.mp4",
       "ts": 1784039720838,
-      "synced": false
+      "synced": true,
+      "infItemId": "b84db497-59ab-4a55-a1a8-8b939dfa46f5",
+      "syncError": null
     },
     {
       "id": "L1784039405638478",
@@ -11486,7 +11488,8 @@
     "0b393adb-fe3b-464e-9ab8-b865ec4a591f",
     "61e28c54-72c5-4307-b394-b28463aa28d3",
     "4a840b24-a003-4b11-8e90-7e9dd54889c0",
-    "2dd58d87-136b-48cc-9056-e59d448078ca"
+    "2dd58d87-136b-48cc-9056-e59d448078ca",
+    "b84db497-59ab-4a55-a1a8-8b939dfa46f5"
   ],
-  "_ts": "2026-07-14T14:35:20.893Z"
+  "_ts": "2026-07-14T14:35:24.889Z"
 }
