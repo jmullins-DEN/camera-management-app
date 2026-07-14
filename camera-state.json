@@ -268,6 +268,33 @@
   },
   "local": [
     {
+      "id": "L1784042929979606",
+      "board": "aRcazTLT9iM",
+      "driver": "Curtis Daugherty",
+      "driverId": "2d2e380c-08f1-416c-8532-69fe60188610",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 1574994048; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/86be18a5-15c5-4b3a-8bc6-e9b1d4f35e19.mp4",
+      "ts": 1784042929980,
+      "synced": false
+    },
+    {
+      "id": "L1784042842610406",
+      "board": "aRcazTLT9iM",
+      "driver": "James Daniels",
+      "driverId": "8f767d00-2cc5-4206-ad17-c04182401514",
+      "date": "2026-07-12",
+      "reviewed": "2026-07-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1574993380; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2dfeac44-b5d7-4b86-93df-c8f8ab745b4c.mp4",
+      "ts": 1784042842610,
+      "synced": false,
+      "syncError": "Failed to fetch"
+    },
+    {
       "id": "L1784042650370569",
       "board": "aRcazTLT9iM",
       "driver": "Tyler Jackson",
@@ -278,7 +305,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1574989398; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/48b67e23-bcb0-4f93-a815-298a0f0ae339.mp4",
       "ts": 1784042650370,
-      "synced": false
+      "synced": true,
+      "infItemId": "62d62176-49b8-42f9-a5bf-7c1a4296a4cb",
+      "syncError": null
     },
     {
       "id": "L1784042547086329",
@@ -11910,7 +11939,8 @@
     "4f283363-0bfe-41f4-a35e-2b9550d4e588",
     "3ffe7c45-824d-45b2-9676-bc262cdb334e",
     "e3b212f3-bb8f-47a9-ba4d-1ec00e46cd8e",
-    "c587fef2-bf3a-492d-b343-1ff8771f7c72"
+    "c587fef2-bf3a-492d-b343-1ff8771f7c72",
+    "62d62176-49b8-42f9-a5bf-7c1a4296a4cb"
   ],
-  "_ts": "2026-07-14T15:24:10.396Z"
+  "_ts": "2026-07-14T15:28:50.008Z"
 }
