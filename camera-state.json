@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1783994660576509",
+      "board": "ic6o6QgzpVM",
+      "driver": "Sergio Costillo de leon",
+      "driverId": "019eb880-a7ce-779f-b1b1-b4a14b467a01",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-13",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6123769516\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/13939d95-2130-4058-b3a7-54b4f4654e42.mp4",
+      "ts": 1783994660576,
+      "synced": false
+    },
+    {
       "id": "L1783994541182253",
       "board": "ic6o6QgzpVM",
       "driver": "De La Garza, Beto",
@@ -10309,5 +10322,5 @@
     "cf61a750-628a-48f9-8763-455746019889",
     "63cae5d6-3626-428d-af01-edd46c8e5382"
   ],
-  "_ts": "2026-07-14T02:02:24.068Z"
+  "_ts": "2026-07-14T02:04:20.601Z"
 }
