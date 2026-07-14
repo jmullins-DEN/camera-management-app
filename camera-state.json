@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784071737774363",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Linnette Kennedy",
+      "driverId": "5dedca32-c874-41d9-ab33-248e39bedaae",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-14",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Disconnected",
+      "ts": 1784071737775,
+      "synced": false
+    },
+    {
       "id": "L1784071636468942",
       "board": "nWRsGRSm2Hn",
       "driver": "Myers, David",
@@ -12623,5 +12636,5 @@
     "eccdbba0-b242-4fd0-816b-51b71d3726c1",
     "766eec54-8355-4cde-a64e-a85a1af89ec3"
   ],
-  "_ts": "2026-07-14T23:27:16.493Z"
+  "_ts": "2026-07-14T23:28:57.798Z"
 }
