@@ -278,7 +278,9 @@
       "coaching": "System Alert",
       "notes": "backward camera blocked",
       "ts": 1784120572858,
-      "synced": false
+      "synced": true,
+      "infItemId": "69258b25-c2c7-4b6d-8efb-ffcf7a16c897",
+      "syncError": null
     },
     {
       "id": "L1784117746623646",
@@ -9948,7 +9950,8 @@
     "9ce9a7c1-995a-437e-b108-1050493d6054",
     "d4a3e278-08a6-485c-962c-baa462d8d876",
     "6ef46a93-1b40-4f84-9878-bfbb40d14f22",
-    "c17ef849-5a7e-4520-9f96-5ca601625d49"
+    "c17ef849-5a7e-4520-9f96-5ca601625d49",
+    "69258b25-c2c7-4b6d-8efb-ffcf7a16c897"
   ],
-  "_ts": "2026-07-15T13:02:52.873Z"
+  "_ts": "2026-07-15T13:02:55.950Z"
 }
