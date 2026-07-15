@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784120572858579",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jamie Ames",
+      "driverId": "019c9557-f684-7331-a7e6-f807aae5cb19",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked",
+      "ts": 1784120572858,
+      "synced": false
+    },
+    {
       "id": "L1784117746623646",
       "board": "YfVHuM3X87v",
       "driver": "Lannas Tedrow",
@@ -9937,5 +9950,5 @@
     "6ef46a93-1b40-4f84-9878-bfbb40d14f22",
     "c17ef849-5a7e-4520-9f96-5ca601625d49"
   ],
-  "_ts": "2026-07-15T13:02:25.166Z"
+  "_ts": "2026-07-15T13:02:52.873Z"
 }
