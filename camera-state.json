@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784156455030365",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Ben McGough",
+      "driverId": "579761a2-645c-48d4-80b1-f1608ea37075",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Cab Distraction",
+      "ts": 1784156455030,
+      "synced": false
+    },
+    {
       "id": "L178415633712578",
       "board": "Wk4Si2ZgUVU",
       "driver": "Kendall Mckerley",
@@ -13791,5 +13804,5 @@
     "d30de4cf-11c6-4ad1-bd8b-682cfedbd4f2",
     "06dbe8d2-9d31-4c5c-bbf0-2de99e562bb2"
   ],
-  "_ts": "2026-07-15T22:58:59.549Z"
+  "_ts": "2026-07-15T23:00:55.055Z"
 }
