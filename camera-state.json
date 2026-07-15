@@ -4479,21 +4479,6 @@
       "syncError": null
     },
     {
-      "id": "L1783718327003451",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "Peyton Birchfield",
-      "driverId": "019aebe1-9e56-7eef-b92a-985d119f227f",
-      "date": "2026-07-09",
-      "reviewed": "2026-07-10",
-      "behavior": "Hard Brake / Turn",
-      "coaching": "Coaching Notes",
-      "notes": "Hard Turn",
-      "ts": 1783718327003,
-      "synced": true,
-      "infItemId": "b6e70b0b-e64e-4659-ab13-3dc7f6ff36fd",
-      "syncError": null
-    },
-    {
       "id": "L1783685238275412",
       "board": "7d53dL31ioV",
       "driver": "SCHULTZ, JEREMY D",
@@ -6936,21 +6921,6 @@
       "ts": 1783550113952,
       "synced": true,
       "infItemId": "c929cc3e-a2c2-41cb-a92b-5afdfdb5c414",
-      "syncError": null
-    },
-    {
-      "id": "L1783519073023535",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "Robert Bailey",
-      "driverId": "710812d7-ba9e-4453-bbb0-d6dabd0fc689",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Phone Distraction",
-      "ts": 1783519073023,
-      "synced": true,
-      "infItemId": "4fe6055a-bcb0-4ac9-992d-6e38488f6c9f",
       "syncError": null
     },
     {
@@ -13805,5 +13775,5 @@
     "da90334b-a848-42e1-b914-5d4e5408d0e7",
     "d30de4cf-11c6-4ad1-bd8b-682cfedbd4f2"
   ],
-  "_ts": "2026-07-15T22:57:09.485Z"
+  "_ts": "2026-07-15T22:57:43.895Z"
 }
