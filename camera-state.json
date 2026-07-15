@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784121158297844",
+      "board": "ebSND1QoyBs",
+      "driver": "Oscar Hong",
+      "driverId": "84cb8b8e-2f16-4cd9-8f46-3c91a156ac8a",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1784121158297,
+      "synced": false
+    },
+    {
       "id": "L1784120988220878",
       "board": "ebSND1QoyBs",
       "driver": "Matthew Pickett",
@@ -9130,5 +9143,5 @@
     "f3cdb0ff-01f5-44b9-b109-b3c59684b0c4",
     "28e325f8-0047-416e-a500-c72e89f5329b"
   ],
-  "_ts": "2026-07-15T13:09:50.622Z"
+  "_ts": "2026-07-15T13:12:38.314Z"
 }
