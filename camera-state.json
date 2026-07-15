@@ -1996,6 +1996,21 @@
       "syncError": null
     },
     {
+      "id": "L1783994944865994",
+      "board": "ic6o6QgzpVM",
+      "driver": "Prisciliano, Aldair",
+      "driverId": "019ab5bd-dd02-7005-a05e-5aef4bd33f33",
+      "date": "2026-07-13",
+      "reviewed": "2026-07-13",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Alert 6121222006\nCamera Obstruction; System Alert\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c3bd47d3-ce45-4b0b-9310-c1451368df8b.mp4",
+      "ts": 1783994944865,
+      "synced": true,
+      "syncError": null,
+      "infItemId": "766eec54-8355-4cde-a64e-a85a1af89ec3"
+    },
+    {
       "id": "L1783994660576509",
       "board": "ic6o6QgzpVM",
       "driver": "Sergio Costillo de leon",
@@ -12839,5 +12854,5 @@
     "6e8760df-0bbe-41ee-8fa1-2d64aef50b38",
     "cb225035-c066-47a6-9afd-a85e64ca3f85"
   ],
-  "_ts": "2026-07-15T01:12:06.301Z"
+  "_ts": "2026-07-15T01:13:04.181Z"
 }
