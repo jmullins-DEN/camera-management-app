@@ -756,21 +756,6 @@
       "syncError": null
     },
     {
-      "id": "L1784117476924346",
-      "board": "aRcazTLT9iM",
-      "driver": "Robert Mills",
-      "driverId": "15841bda-ee49-40d6-86bf-eadeac6068db",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 1576818353; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/70b59580-673b-4412-a4ea-ea05266ab13c.mp4",
-      "ts": 1784117476924,
-      "synced": true,
-      "infItemId": "9ce9a7c1-995a-437e-b108-1050493d6054",
-      "syncError": null
-    },
-    {
       "id": "L1784117239559438",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Tanner",
@@ -9052,5 +9037,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T13:42:25.698Z"
+  "_ts": "2026-07-15T13:44:10.215Z"
 }
