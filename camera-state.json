@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784155512103519",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Moore, Royce",
+      "driverId": "53cd3e3a-cbed-425f-87b8-2665904fdc3c",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Possible Crash",
+      "ts": 1784155512103,
+      "synced": false
+    },
+    {
       "id": "L1784155376908622",
       "board": "nWRsGRSm2Hn",
       "driver": "Myers, David",
@@ -14625,5 +14638,5 @@
     "6cdbeaad-4744-467b-a71f-e1021989a074",
     "b46ed6c0-6416-4994-b2bd-cb1ed5e6d615"
   ],
-  "_ts": "2026-07-15T22:42:59.620Z"
+  "_ts": "2026-07-15T22:45:12.133Z"
 }
