@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784116590949240",
+      "board": "7d53dL31ioV",
+      "driver": "SCHULTZ, JEREMY D",
+      "driverId": "d1a5d6cf-91b2-45a8-880c-79130105ae48",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 6134485640: Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/40f4425f-2b0b-4274-b3cd-d09e905fec14.mp4",
+      "ts": 1784116590949,
+      "synced": false
+    },
+    {
       "id": "L1784115949506194",
       "board": "kQeF7EsAnVz",
       "driver": "Miguel Mora",
@@ -12477,5 +12490,5 @@
     "f84cc646-aead-4dbd-87d7-a3cc5f07d1d3",
     "eba7955a-ceef-4ceb-87d9-b965dfaa7b2d"
   ],
-  "_ts": "2026-07-15T11:53:06.631Z"
+  "_ts": "2026-07-15T11:56:31.004Z"
 }
