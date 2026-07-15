@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784125049093162",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980531324-1784057776075: Truck # 168\nTexting/Phone Distraction \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3fbbff91-65ff-433e-9a60-5dab73483fcb.mp4",
+      "ts": 1784125049093,
+      "synced": false
+    },
+    {
       "id": "L1784122862462710",
       "board": "8gejhhHJj4e",
       "driver": "Gage Dawkins",
@@ -12772,5 +12785,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T14:15:51.530Z"
+  "_ts": "2026-07-15T14:17:29.160Z"
 }
