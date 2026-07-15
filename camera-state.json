@@ -268,6 +268,71 @@
   },
   "local": [
     {
+      "id": "L1784122228974599",
+      "board": "8gejhhHJj4e",
+      "driver": "Efrain Sotelo",
+      "driverId": "019f1fa4-4d09-73de-8f47-8efba7958563",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "hand held phone",
+      "ts": 1784122228974,
+      "synced": false
+    },
+    {
+      "id": "L1784122157090637",
+      "board": "8gejhhHJj4e",
+      "driver": "Francisco Lambar",
+      "driverId": "019ab61d-ab62-7770-b14b-9978eb6bfe30",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting",
+      "ts": 1784122157090,
+      "synced": false
+    },
+    {
+      "id": "L1784122137478138",
+      "board": "8gejhhHJj4e",
+      "driver": "Diego Molina",
+      "driverId": "019c52f4-ef0c-7005-aff8-bf8f1567bc26",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting",
+      "ts": 1784122137478,
+      "synced": false
+    },
+    {
+      "id": "L1784122111716119",
+      "board": "8gejhhHJj4e",
+      "driver": "Andrew Jacobs",
+      "driverId": "931778e6-36dc-473e-a301-2c06f82a7553",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting",
+      "ts": 1784122111716,
+      "synced": false
+    },
+    {
+      "id": "L1784122088097942",
+      "board": "8gejhhHJj4e",
+      "driver": "Ricardo Hernandez #3696",
+      "driverId": "a46f3146-f241-41de-a81a-cc76d079da51",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop; backward camera blocked",
+      "ts": 1784122088097,
+      "synced": false
+    },
+    {
       "id": "L1784122025250314",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -9363,5 +9428,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T13:27:05.268Z"
+  "_ts": "2026-07-15T13:30:28.988Z"
 }
