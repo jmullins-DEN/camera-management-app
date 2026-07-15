@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784121217237550",
+      "board": "ebSND1QoyBs",
+      "driver": "Mark Shoemaker",
+      "driverId": "14f341e9-ed64-4a73-a493-54ef3ff5f07a",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked",
+      "ts": 1784121217237,
+      "synced": false
+    },
+    {
       "id": "L1784121158297844",
       "board": "ebSND1QoyBs",
       "driver": "Oscar Hong",
@@ -9146,5 +9159,5 @@
     "28e325f8-0047-416e-a500-c72e89f5329b",
     "fb465819-102a-4c0d-955e-5547a20baaac"
   ],
-  "_ts": "2026-07-15T13:12:43.834Z"
+  "_ts": "2026-07-15T13:13:37.253Z"
 }
