@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784079003709577",
+      "board": "aRcazTLT9iM",
+      "driver": "Daniel Garrett",
+      "driverId": "623c4a69-444f-4a25-9abb-79ceea06157a",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1576378677; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7d3c10e5-2658-470c-bff7-cc7f84621b47.mp4",
+      "ts": 1784079003709,
+      "synced": true,
+      "infItemId": "71d932ef-9d98-4894-b2cb-6ef53362d2c5",
+      "syncError": null
+    },
+    {
       "id": "L178407895739267",
       "board": "aRcazTLT9iM",
       "driver": "Tyler Baugh",
@@ -11848,7 +11863,8 @@
     "ac20318b-3d64-47e9-81ff-77b9950cc8ff",
     "ce443be1-964d-41b3-b115-2dc9a0e3f7cc",
     "2fa6c5bc-1d0f-4211-933a-ce6096af2e43",
-    "9d515058-6adc-44c9-8321-9b2532bbf85e"
+    "9d515058-6adc-44c9-8321-9b2532bbf85e",
+    "71d932ef-9d98-4894-b2cb-6ef53362d2c5"
   ],
-  "_ts": "2026-07-15T01:29:21.681Z"
+  "_ts": "2026-07-15T01:30:07.091Z"
 }
