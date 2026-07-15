@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-13-boardkey'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-07-15-7boards'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -380,6 +380,230 @@ const AUTO_CRITICAL=['Drowsy Driving','Safety-Critical Event'];
 const AUTO_COACH={'Camera Exception':'System Alert'};
 // boards with LIVE Infinity write-back (board-by-board rollout; all others stay local-queue)
 const BOARD_WB={
+  'UKkbYDchPMh':{ // ATR Towing (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). ATR Driver List (51)
+    cam_folder:'3LrRkTsS8Ag',
+    driver_type:'label',
+    driver_attr:'079a5162-56c6-4d72-ae6d-e027d8cec5ca',
+    behavior_attr:'403330a0-a1da-4568-a226-1dac4ef7836f', // Behavior Observed
+    coaching_attr:'288357fe-e9e8-40ca-b6a3-363e16829a0b', // Coaching Needed
+    date_attr:'735772e5-e8c8-4421-8210-fb9edcefd1a0',
+    reviewed_attr:'42b72c93-6284-460d-9f88-73370a9bd08d',
+    notes_attr:'aff2381c-e88e-4091-8b8e-d9f854009901', // "Coaching Note" longtext
+    link_attr:null,
+    behavior_labels:{
+      'Camera Exception':'5ef60e00-43f2-48ec-a3b4-105a0f8f7df5',
+      'Driver Distraction-Phone':'c9fd677a-6909-4c1a-9993-78ade7925924',
+      'Driver Distraction-Cab':'981594c1-06b6-454d-a864-33c184a87fd1',
+      'Drowsy Driving':'46189e61-6fe1-4a96-9d10-bd7d89b2fc0f',
+      'Following Distance':'30d50dbf-7335-461d-89f4-d9b367dc25ec',
+      'Hard Brake / Turn':'1e82ff54-6f64-4e1e-b197-5c2a78f4adb6',
+      'Safety-Critical Event':'0eb4b8ef-63cf-4d36-9c16-8067ff460fea',
+      'Sign Violation':'66dcff19-318e-4221-a9a3-832054c4040f', // board label "Sign Vilolation"
+      'Traffic Light Violation':'019eecbb-ff6c-77f6-8c28-b03620b945fc',
+      'Speeding':'c7af6ab3-040f-45d7-ba9b-494a84ed3378',
+      'U-Turn':'c92c5167-f890-4d77-baa6-d5a0d187157d',
+      'Seat Belt':'261bfcf6-2706-496c-bfc9-cf010beb5c94',
+    },
+    coaching_labels:{
+      'Coaching Notes':'9f979d0c-fada-44e4-b7ef-da92b027711c',
+      'Critical Event':'019c9115-2a4c-777e-915f-31048ee56dbf',
+      'Face to Face':'e113cb8f-08b6-407f-b325-ef750d996ce7',
+      'System Alert':'3dfc3523-f395-4e1e-b6ad-8b1e9d8e3ae6',
+      'Unidentified Driver':'0c0ce20a-be81-429c-877c-75e0b811a1a3',
+    },
+  },
+  'AKJSkJj6Ch4':{ // Brad's Towing (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). Driver Roster (40)
+    cam_folder:'WCrvxz4NSPZ',
+    driver_type:'label',
+    driver_attr:'b6691f8b-3a47-4acc-a926-5a13f85f243f',
+    behavior_attr:'e62fd890-a8de-45b6-9b34-b07096aeb3c3', // Behavior Observed
+    coaching_attr:'08aeb832-8b54-4ce2-b121-68c12e875c04', // Coaching Needed
+    date_attr:'b3215ea8-3a6d-4d9e-8b85-93b99077f66a',
+    reviewed_attr:'32e0314d-f8d9-4751-b2ac-235324a09643',
+    notes_attr:'e9f2f06c-741c-4dd4-a031-77e4caf5e713', // "Coaching Note" longtext
+    link_attr:null,
+    behavior_labels:{
+      'Camera Exception':'5ef60e00-43f2-48ec-a3b4-105a0f8f7df5',
+      'Driver Distraction-Phone':'c9fd677a-6909-4c1a-9993-78ade7925924',
+      'Driver Distraction-Cab':'981594c1-06b6-454d-a864-33c184a87fd1',
+      'Drowsy Driving':'46189e61-6fe1-4a96-9d10-bd7d89b2fc0f',
+      'Following Distance':'30d50dbf-7335-461d-89f4-d9b367dc25ec',
+      'Hard Brake / Turn':'1e82ff54-6f64-4e1e-b197-5c2a78f4adb6',
+      'Safety-Critical Event':'b22e276a-7544-4e0f-b810-dc310ae0412f',
+      'Sign Violation':'66dcff19-318e-4221-a9a3-832054c4040f', // board label "Sign Vilolation"
+      'Traffic Light Violation':'fa290f60-0c7d-4226-9f2d-ab5984761637',
+      'Speeding':'c7af6ab3-040f-45d7-ba9b-494a84ed3378',
+      'U-Turn':'c92c5167-f890-4d77-baa6-d5a0d187157d',
+      'Seat Belt':'261bfcf6-2706-496c-bfc9-cf010beb5c94',
+    },
+    coaching_labels:{
+      'Coaching Notes':'9f979d0c-fada-44e4-b7ef-da92b027711c',
+      'Critical Event':'0c0ce20a-be81-429c-877c-75e0b811a1a3',
+      'Face to Face':'e113cb8f-08b6-407f-b325-ef750d996ce7',
+      'System Alert':'3dfc3523-f395-4e1e-b6ad-8b1e9d8e3ae6',
+      'Unidentified Driver':'a50bd427-4048-4a6f-b3ef-a5bd3ed99ed6',
+    },
+  },
+  '8gejhhHJj4e':{ // Fiore & Sons (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). Fiore Driver list (151)
+    cam_folder:'72QxRu1wNmi',
+    driver_type:'label',
+    driver_attr:'d49aeb26-8e78-4021-bbf6-b3e238b342df',
+    behavior_attr:'1d7a8ad3-2a6f-489d-a6ae-f935ca055afd', // Behavior Observed
+    coaching_attr:'494c48a4-6980-4caf-8009-f1c7da45cbda', // Coaching Needed
+    date_attr:'3a5b5aa8-6cab-4187-87ac-f6945bc841fe',
+    reviewed_attr:'6ef1dfa9-748e-4965-bc4e-0e790f2371f0',
+    notes_attr:'7edb32d7-1f65-4010-8f65-ee1f6a8cdd5d', // "Coaching Note" longtext
+    link_attr:null,
+    behavior_labels:{
+      'Camera Exception':'5ef60e00-43f2-48ec-a3b4-105a0f8f7df5',
+      'Driver Distraction-Phone':'c9fd677a-6909-4c1a-9993-78ade7925924',
+      'Driver Distraction-Cab':'981594c1-06b6-454d-a864-33c184a87fd1',
+      'Drowsy Driving':'46189e61-6fe1-4a96-9d10-bd7d89b2fc0f',
+      'Following Distance':'30d50dbf-7335-461d-89f4-d9b367dc25ec',
+      'Hard Brake / Turn':'1e82ff54-6f64-4e1e-b197-5c2a78f4adb6',
+      'Safety-Critical Event':'b22e276a-7544-4e0f-b810-dc310ae0412f',
+      'Sign Violation':'66dcff19-318e-4221-a9a3-832054c4040f', // board label "Sign Vilolation"
+      'Traffic Light Violation':'fa290f60-0c7d-4226-9f2d-ab5984761637',
+      'Speeding':'c7af6ab3-040f-45d7-ba9b-494a84ed3378',
+      'U-Turn':'c92c5167-f890-4d77-baa6-d5a0d187157d',
+      'Seat Belt':'261bfcf6-2706-496c-bfc9-cf010beb5c94',
+    },
+    coaching_labels:{
+      'Coaching Notes':'9f979d0c-fada-44e4-b7ef-da92b027711c',
+      'Critical Event':'0c0ce20a-be81-429c-877c-75e0b811a1a3',
+      'Face to Face':'e113cb8f-08b6-407f-b325-ef750d996ce7',
+      'System Alert':'3dfc3523-f395-4e1e-b6ad-8b1e9d8e3ae6',
+      'Unidentified Driver':'783f6871-bb28-4abb-a4f2-4d98c633049e',
+    },
+  },
+  'Wk4Si2ZgUVU':{ // Mericle's Towing (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). Mericle Driver Roster (37); cam_folder=July Camera Management (live 49-event history)
+    cam_folder:'zGdWrft4SFM',
+    driver_type:'label',
+    driver_attr:'32d9cc0e-e35a-4b1c-97c1-b494799e4248',
+    behavior_attr:'0807a438-ed34-4c0e-8c85-90a6e5f7b909', // Behavior Observed
+    coaching_attr:'1b8eb2f7-3a8d-44a2-b477-bb7291f84e4c', // Coaching Needed
+    date_attr:'8375a658-bf36-43a9-a1d7-a0bb4475222f',
+    reviewed_attr:'c508700c-3ef8-4393-8f8c-6aba4f318e07',
+    notes_attr:'2a9df7de-273d-47da-b3f9-95b3ee32b31f', // "Notes:" longtext
+    link_attr:null,
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019a6f5f-0fff-7ee4-91cd-0e0d446bbdf8',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label "Sign Vilolation"
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'0adaa310-db15-4396-969b-0d27730e20a4',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'System Alert':'5952f686-b4da-42a5-973b-ebb1ac6da0fd',
+      'Unidentified Driver':'e514aa27-433a-4523-a07f-f93fd4d940b9',
+    },
+  },
+  '6aE7wVSK5Jq':{ // Neal Pool Rekers (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). driver attr is typo "Driver Namej" (34)
+    cam_folder:'JkR2UbnE1e2',
+    driver_type:'label',
+    driver_attr:'bbd87ece-b39e-4091-b874-96b9a887a5c4',
+    behavior_attr:'08013690-36e7-401b-be5f-196f38b03369', // Behavior Observed
+    coaching_attr:'94d279f4-fdab-4225-a726-8d8514368d8c', // Coaching Needed
+    date_attr:'60908c38-7714-435e-b169-f289386a0c34',
+    reviewed_attr:'74a04394-1b41-402e-97db-36f7b4651338',
+    notes_attr:'2b0b8b1b-0e04-4ef6-a5fc-cca2f3377c50', // "Notes:" longtext
+    link_attr:null,
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'9ac763f9-03e2-4ef4-8702-0ada1a92c13e',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label "Sign Vilolation"
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'0771489d-a900-4ce8-89b7-659946a37bbc',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'System Alert':'f00e1228-70ce-4fd2-b5d9-a8a292751a15',
+      'Unidentified Driver':'8764ed01-17cb-491d-88ff-4f813984951e',
+    },
+  },
+  'JthqRmXvJ9v':{ // T-Miller (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). T-Miller Driver List (22); ignore decoy empty "Driver Roster"
+    cam_folder:'9UzRRPDdiaq',
+    driver_type:'label',
+    driver_attr:'019a7b18-0863-7330-ad9a-9618258e485b',
+    behavior_attr:'72361b2f-ff3f-400a-8028-e87e7681f64e', // Behavior Observed
+    coaching_attr:'fe911153-7172-4d51-b827-0cc7f9aa420a', // Coaching Needed
+    date_attr:'1f2c5cfe-6489-481e-a9b4-ef3d7ee57fc2',
+    reviewed_attr:'c02edb6d-4c67-4a47-b699-da6a9c222c79',
+    notes_attr:'10abe1d3-1186-48f0-a84a-9ef5966545cf', // "Coaching Note" longtext
+    link_attr:null,
+    behavior_labels:{
+      'Camera Exception':'5ef60e00-43f2-48ec-a3b4-105a0f8f7df5',
+      'Driver Distraction-Phone':'c9fd677a-6909-4c1a-9993-78ade7925924',
+      'Driver Distraction-Cab':'981594c1-06b6-454d-a864-33c184a87fd1',
+      'Drowsy Driving':'46189e61-6fe1-4a96-9d10-bd7d89b2fc0f',
+      'Following Distance':'30d50dbf-7335-461d-89f4-d9b367dc25ec',
+      'Hard Brake / Turn':'1e82ff54-6f64-4e1e-b197-5c2a78f4adb6',
+      'Safety-Critical Event':'b22e276a-7544-4e0f-b810-dc310ae0412f',
+      'Sign Violation':'66dcff19-318e-4221-a9a3-832054c4040f', // board label "Sign Vilolation"
+      'Traffic Light Violation':'fa290f60-0c7d-4226-9f2d-ab5984761637',
+      'Speeding':'c7af6ab3-040f-45d7-ba9b-494a84ed3378',
+      'U-Turn':'c92c5167-f890-4d77-baa6-d5a0d187157d',
+      'Seat Belt':'261bfcf6-2706-496c-bfc9-cf010beb5c94',
+    },
+    coaching_labels:{
+      'Coaching Notes':'9f979d0c-fada-44e4-b7ef-da92b027711c',
+      'Critical Event':'0c0ce20a-be81-429c-877c-75e0b811a1a3',
+      'Face to Face':'e113cb8f-08b6-407f-b325-ef750d996ce7',
+      'System Alert':'3dfc3523-f395-4e1e-b6ad-8b1e9d8e3ae6',
+      'Unidentified Driver':'b2e4f713-7bd1-42ef-b223-10b695f9c1f7',
+    },
+  },
+  'nWRsGRSm2Hn':{ // Voyager Express (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). Driver Name (128)
+    cam_folder:'4HYWfRJ3ywc',
+    driver_type:'label',
+    driver_attr:'81049761-1ff9-47bf-b6a3-a792572ad821',
+    behavior_attr:'47b8c479-7434-44e2-a14e-7f09bcb2803a', // Behavior Observed
+    coaching_attr:'ab362b4f-fbd3-456f-981b-cb38b41d0207', // Coaching Needed
+    date_attr:'120ade76-7889-41a5-998d-dc311e1df3f1',
+    reviewed_attr:'30f98468-04fc-4df1-b771-6427325f6e8e',
+    notes_attr:'99365f2f-168d-4a28-b818-9b723db3a6fe', // "Notes:" longtext
+    link_attr:null,
+    behavior_labels:{
+      'Camera Exception':'a23e2713-f7aa-4101-a147-156f5ba8ac10',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'b080346e-ad2c-450a-b47b-ded03b01ded4',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label "Sign Vilolation"
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Critical Event':'2fc1d535-84db-49ba-acd7-4fd487315aed',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'System Alert':'a6677259-8c8c-4033-85fe-7e97ebd88624',
+      'Unidentified Driver':'cb46e46b-ee79-46d9-9b66-ccec54f87770',
+    },
+  },
   '7W2SQKrNcXQ':{ // Mission Wrecker (new board) — taken LIVE 2026-06-22
     cam_folder:'C8fbgdCmqQ2', roster_folder:'tRjA68oSQ5k',
     name_attr:'61f47954-3a5e-44ae-9319-44fd8a6db756',        // "Driver Name" text field (matches Test Board convention)
