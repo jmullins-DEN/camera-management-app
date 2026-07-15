@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784117695703645",
+      "board": "YfVHuM3X87v",
+      "driver": "Ethan Owens",
+      "driverId": "1085658d-2bf7-4d84-9fbc-cb7b53debf9b",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1784117695703,
+      "synced": false
+    },
+    {
       "id": "L1784117618175604",
       "board": "YfVHuM3X87v",
       "driver": "Martin Kenley",
@@ -10130,5 +10143,5 @@
     "9ce9a7c1-995a-437e-b108-1050493d6054",
     "d4a3e278-08a6-485c-962c-baa462d8d876"
   ],
-  "_ts": "2026-07-15T12:13:41.541Z"
+  "_ts": "2026-07-15T12:14:55.719Z"
 }
