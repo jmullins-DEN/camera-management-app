@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784121506196463",
+      "board": "8gejhhHJj4e",
+      "driver": "Brian Wisdom",
+      "driverId": "930344fa-9661-43bb-a95c-4071a8b353ff",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop ",
+      "ts": 1784121506196,
+      "synced": false
+    },
+    {
       "id": "L1784121378786770",
       "board": "ebSND1QoyBs",
       "driver": "Deadrian Thomas",
@@ -9194,5 +9207,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T13:16:24.320Z"
+  "_ts": "2026-07-15T13:18:26.213Z"
 }
