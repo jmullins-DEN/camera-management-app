@@ -696,21 +696,6 @@
       "syncError": null
     },
     {
-      "id": "L1784120572858579",
-      "board": "xMfRLnqAN7y",
-      "driver": "Jamie Ames",
-      "driverId": "019c9557-f684-7331-a7e6-f807aae5cb19",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "backward camera blocked",
-      "ts": 1784120572858,
-      "synced": true,
-      "infItemId": "69258b25-c2c7-4b6d-8efb-ffcf7a16c897",
-      "syncError": null
-    },
-    {
       "id": "L1784117239559438",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Tanner",
@@ -5482,5 +5467,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T13:45:49.337Z"
+  "_ts": "2026-07-15T13:46:12.214Z"
 }
