@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474980701926-1784055633318: Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bcaca743-8f22-4979-98df-8e029372185d.mp4",
       "ts": 1784115160334,
-      "synced": false
+      "synced": true,
+      "infItemId": "9afcde4b-fb5b-425d-a82e-9f5380bd7302",
+      "syncError": null
     },
     {
       "id": "L1784114980199621",
@@ -12935,7 +12937,8 @@
     "71d932ef-9d98-4894-b2cb-6ef53362d2c5",
     "6f67aba6-53e0-4ede-80d5-0a20db63d89e",
     "734a1b91-05cf-4524-9e00-ea9f27195ecf",
-    "e00c3d0f-2e30-46b1-a0ed-cbc84d0d3816"
+    "e00c3d0f-2e30-46b1-a0ed-cbc84d0d3816",
+    "9afcde4b-fb5b-425d-a82e-9f5380bd7302"
   ],
-  "_ts": "2026-07-15T11:32:40.414Z"
+  "_ts": "2026-07-15T11:32:43.088Z"
 }
