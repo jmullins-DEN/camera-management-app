@@ -801,81 +801,6 @@
       "syncError": null
     },
     {
-      "id": "L1784115343766771",
-      "board": "KYqKJWuumPm",
-      "driver": "Ethan Ball",
-      "driverId": "019dd5fe-e98e-7606-9da2-fd748b0c9992",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 281474980531320-1784070709450: Phone Distraction\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/96d1bfa8-4bd4-4607-bf6d-85083d254ab5.mp4",
-      "ts": 1784115343766,
-      "synced": true,
-      "infItemId": "f84cc646-aead-4dbd-87d7-a3cc5f07d1d3",
-      "syncError": null
-    },
-    {
-      "id": "L1784115160334292",
-      "board": "KYqKJWuumPm",
-      "driver": "Randall Davenport",
-      "driverId": "019f1666-4a1c-71cc-bb9a-909cdda760ec",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 281474980701926-1784055633318: Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bcaca743-8f22-4979-98df-8e029372185d.mp4",
-      "ts": 1784115160334,
-      "synced": true,
-      "infItemId": "9afcde4b-fb5b-425d-a82e-9f5380bd7302",
-      "syncError": null
-    },
-    {
-      "id": "L1784114980199621",
-      "board": "KYqKJWuumPm",
-      "driver": "Ryan Flanders",
-      "driverId": "019dd600-7de9-765e-8b3a-7c8308a3cf72",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 281474980616004-1784073238258: Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/765b9444-7680-49d8-b1fe-10ab119add54.mp4",
-      "ts": 1784114980199,
-      "synced": true,
-      "infItemId": "e00c3d0f-2e30-46b1-a0ed-cbc84d0d3816",
-      "syncError": null
-    },
-    {
-      "id": "L1784114749270958",
-      "board": "KYqKJWuumPm",
-      "driver": "Luke Davis",
-      "driverId": "019dd5ff-a17d-722a-b0bb-4990b52333e9",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 281474999198299-1784052658391: Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c4778d4d-66b1-42c6-889f-4e801e30791c.mp4",
-      "ts": 1784114749270,
-      "synced": true,
-      "infItemId": "734a1b91-05cf-4524-9e00-ea9f27195ecf",
-      "syncError": null
-    },
-    {
-      "id": "L1784114545144490",
-      "board": "KYqKJWuumPm",
-      "driver": "Doug McCosh",
-      "driverId": "019dd5fe-8c6e-730e-8433-e9c1bea56420",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "Alert 281474983617430-1784048101365:  Texting/Phone Distraction\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/65531af0-342b-4a71-b251-7942d5e190ea.mp4",
-      "ts": 1784114545144,
-      "synced": true,
-      "infItemId": "6f67aba6-53e0-4ede-80d5-0a20db63d89e",
-      "syncError": null
-    },
-    {
       "id": "L1784075979231686",
       "board": "ic6o6QgzpVM",
       "driver": "Gonzales, Edgar",
@@ -8212,5 +8137,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T13:44:44.487Z"
+  "_ts": "2026-07-15T13:44:54.589Z"
 }
