@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784155200035795",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Emery, Shane",
+      "driverId": "a227860a-3661-45e8-95fc-addf4e926cc5",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Increase Following Distance\nFace to Face",
+      "ts": 1784155200035,
+      "synced": false
+    },
+    {
       "id": "L1784147978663191",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -14577,5 +14590,5 @@
     "b6c9184c-d20f-4bdc-832c-0572deb02a05",
     "023b48b0-fc1b-4612-91b7-b9871fcd2f08"
   ],
-  "_ts": "2026-07-15T22:38:12.849Z"
+  "_ts": "2026-07-15T22:40:00.064Z"
 }
