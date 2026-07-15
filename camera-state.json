@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784117171170483",
+      "board": "XVLVu2Du8hc",
+      "driver": "Melissa Dowe",
+      "driverId": "019bfbcc-32d4-7ff1-b9bf-120d56014405",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1784117171170,
+      "synced": false
+    },
+    {
       "id": "L178411713083932",
       "board": "XVLVu2Du8hc",
       "driver": "Tres Dimick",
@@ -10066,5 +10079,5 @@
     "47788bd5-dec3-44b6-a040-b9a074fda514",
     "42262e69-16bc-439c-8b86-868d0f1c545c"
   ],
-  "_ts": "2026-07-15T12:05:33.441Z"
+  "_ts": "2026-07-15T12:06:11.185Z"
 }
