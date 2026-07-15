@@ -268,6 +268,36 @@
   },
   "local": [
     {
+      "id": "L1784078887940774",
+      "board": "4rNDuSrCaap",
+      "driver": "Unassigned",
+      "driverId": "fe8cbc13-5059-44ee-b9f1-8016a337a940",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 416604176; following too close; backward camera blocked; vehicle #475\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2d37f47b-80a9-41d3-b31d-24fed30f3215.mp4\n",
+      "ts": 1784078887940,
+      "synced": true,
+      "infItemId": "2fa6c5bc-1d0f-4211-933a-ce6096af2e43",
+      "syncError": null
+    },
+    {
+      "id": "L1784078817955459",
+      "board": "4rNDuSrCaap",
+      "driver": "Timothy Murphy",
+      "driverId": "166bc1a7-4d48-41a3-a1b9-e227112001ed",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 416578984; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3d71a15c-3dee-4114-863d-96f79e5c9ffc.mp4",
+      "ts": 1784078817955,
+      "synced": true,
+      "infItemId": "ce443be1-964d-41b3-b115-2dc9a0e3f7cc",
+      "syncError": null
+    },
+    {
       "id": "L1784078781566250",
       "board": "4rNDuSrCaap",
       "driver": "Steve McDowell",
@@ -278,7 +308,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 416575307; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/384b9bc5-11c8-465a-ae95-2ea723635d9e.mp4\n",
       "ts": 1784078781566,
-      "synced": false
+      "synced": true,
+      "infItemId": "ac20318b-3d64-47e9-81ff-77b9950cc8ff",
+      "syncError": null
     },
     {
       "id": "L1784078741647160",
@@ -12247,7 +12279,10 @@
     "51ce016b-448f-498a-a61f-62285aa5e1da",
     "5df6e921-3d48-45d9-9220-3b971ce9d45a",
     "81dff93e-6765-4437-aea9-9f6b59e18c22",
-    "2f6a3530-0146-49a1-84af-728898f18295"
+    "2f6a3530-0146-49a1-84af-728898f18295",
+    "ac20318b-3d64-47e9-81ff-77b9950cc8ff",
+    "ce443be1-964d-41b3-b115-2dc9a0e3f7cc",
+    "2fa6c5bc-1d0f-4211-933a-ce6096af2e43"
   ],
-  "_ts": "2026-07-15T01:26:21.582Z"
+  "_ts": "2026-07-15T01:28:10.053Z"
 }
