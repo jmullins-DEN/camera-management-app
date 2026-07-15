@@ -711,51 +711,6 @@
       "syncError": null
     },
     {
-      "id": "L1784117746623646",
-      "board": "YfVHuM3X87v",
-      "driver": "Lannas Tedrow",
-      "driverId": "a1b097f7-a6c5-4f69-952e-c7f0ffe7eac3",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "70 in 55",
-      "ts": 1784117746623,
-      "synced": true,
-      "infItemId": "c17ef849-5a7e-4520-9f96-5ca601625d49",
-      "syncError": null
-    },
-    {
-      "id": "L1784117695703645",
-      "board": "YfVHuM3X87v",
-      "driver": "Ethan Owens",
-      "driverId": "1085658d-2bf7-4d84-9fbc-cb7b53debf9b",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "texting",
-      "ts": 1784117695703,
-      "synced": true,
-      "infItemId": "6ef46a93-1b40-4f84-9878-bfbb40d14f22",
-      "syncError": null
-    },
-    {
-      "id": "L1784117618175604",
-      "board": "YfVHuM3X87v",
-      "driver": "Martin Kenley",
-      "driverId": "41440425-8dcd-43ff-a21e-c60958e5e90d",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "following too close",
-      "ts": 1784117618175,
-      "synced": true,
-      "infItemId": "d4a3e278-08a6-485c-962c-baa462d8d876",
-      "syncError": null
-    },
-    {
       "id": "L1784117239559438",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Tanner",
@@ -8272,5 +8227,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T13:44:13.096Z"
+  "_ts": "2026-07-15T13:44:29.668Z"
 }
