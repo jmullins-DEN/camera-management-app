@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784121308344122",
+      "board": "ebSND1QoyBs",
+      "driver": "Karon King",
+      "driverId": "65f4a1bd-f31e-4cfe-8a99-311af3253972",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1784121308344,
+      "synced": false
+    },
+    {
       "id": "L1784121217237550",
       "board": "ebSND1QoyBs",
       "driver": "Mark Shoemaker",
@@ -9162,5 +9175,5 @@
     "fb465819-102a-4c0d-955e-5547a20baaac",
     "33edf4d1-4b4d-428d-a375-fea657cc8dbf"
   ],
-  "_ts": "2026-07-15T13:13:39.663Z"
+  "_ts": "2026-07-15T13:15:08.360Z"
 }
