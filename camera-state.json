@@ -1363,66 +1363,6 @@
       "syncError": null
     },
     {
-      "id": "L178407180187360",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Nunez, Wally",
-      "driverId": "f7980c17-9623-49c0-9126-adbe8149094a",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Increase Following Distance\n",
-      "ts": 1784071801873,
-      "synced": true,
-      "infItemId": "1ee0eefc-51fe-4d46-8f03-16918236af43",
-      "syncError": null
-    },
-    {
-      "id": "L1784071737774363",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Linnette Kennedy",
-      "driverId": "5dedca32-c874-41d9-ab33-248e39bedaae",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "Camera Disconnected",
-      "ts": 1784071737775,
-      "synced": true,
-      "infItemId": "ffa77fcd-aed0-4417-bf2e-baaccdff9e08",
-      "syncError": null
-    },
-    {
-      "id": "L1784071636468942",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Myers, David",
-      "driverId": "065993cd-f325-4ac8-bfac-a13f2fb29011",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Following Distance",
-      "coaching": "Face to Face",
-      "notes": "Increase Following Distance\nFace to Face",
-      "ts": 1784071636468,
-      "synced": true,
-      "infItemId": "da045a8a-8569-4180-8e6f-6b96cb439660",
-      "syncError": null
-    },
-    {
-      "id": "L1784071574584659",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Emery, Shane",
-      "driverId": "a227860a-3661-45e8-95fc-addf4e926cc5",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Following Distance",
-      "coaching": "Face to Face",
-      "notes": "Increase Following Distance\n",
-      "ts": 1784071574584,
-      "synced": true,
-      "infItemId": "923751e0-6ada-4d52-bacb-f6917f72bcba",
-      "syncError": null
-    },
-    {
       "id": "L1784049629252240",
       "board": "8gejhhHJj4e",
       "driver": "Craig Rodriguez",
@@ -2258,8 +2198,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5515895d34dfb47a4a8dc9",
       "ts": 1784043382380,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "26a5da75-7521-4aab-a819-f663af9097c3",
+      "syncError": null
     },
     {
       "id": "L1784043364338963",
@@ -2422,8 +2363,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a55534d5d34dfb47a4aeeaa",
       "ts": 1784042543248,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "5a645e75-7fa6-4b00-acf7-af84f3c53b71",
+      "syncError": null
     },
     {
       "id": "L1784042467436694",
@@ -2466,8 +2408,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a551cb15d34dfb47a4a9768",
       "ts": 1784042386864,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "1b693aaf-f73a-49cb-a546-f4a89233dc97",
+      "syncError": null
     },
     {
       "id": "L1784042270468978",
@@ -2480,8 +2423,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a551d975d34dfb47a4a986a",
       "ts": 1784042270468,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "55d347d3-dbd0-4483-b4c1-396b3eae6204",
+      "syncError": null
     },
     {
       "id": "L1784042265205599",
@@ -2509,8 +2453,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5556a05d34dfb47a4af449",
       "ts": 1784041940940,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "bd2d9b63-de9a-4c47-b823-e2fff0051f4d",
+      "syncError": null
     },
     {
       "id": "L1784041900587389",
@@ -2523,8 +2468,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5566be5d34dfb47a4b10d1",
       "ts": 1784041900587,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "e44d1168-7384-4d3d-912d-37f8b1ae804d",
+      "syncError": null
     },
     {
       "id": "L1784041806503515",
@@ -2537,8 +2483,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5573615d34dfb47a4b2448",
       "ts": 1784041806503,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "63ef76fb-17f2-4eea-bdca-5cad3abf34d8",
+      "syncError": null
     },
     {
       "id": "L1784041668655175",
@@ -2581,8 +2528,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a5511ad5d34dfb47a4a881f",
       "ts": 1784041234827,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "5f67642c-82e7-4bd3-ba96-0bfecf4eb349",
+      "syncError": null
     },
     {
       "id": "L1784041204111220",
@@ -2640,8 +2588,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a54f2625d34dfb47a4a522d",
       "ts": 1784040962370,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "2b969f36-1fe0-49d0-833d-e33c1b2c6dee",
+      "syncError": null
     },
     {
       "id": "L1784040866773191",
@@ -3583,21 +3532,6 @@
       "syncError": null
     },
     {
-      "id": "L1783907004526353",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Trevizo, Estaban",
-      "driverId": "c9b16d17-726b-4d08-93df-093e7ee7a099",
-      "date": "2026-07-11",
-      "reviewed": "2026-07-12",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Following Distance",
-      "ts": 1783907004526,
-      "synced": true,
-      "infItemId": "28b46fae-8682-488e-b334-50dc6ad3c246",
-      "syncError": null
-    },
-    {
       "id": "L1783906966434161",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -3625,21 +3559,6 @@
       "ts": 1783906944777,
       "synced": true,
       "infItemId": "032f7372-e91f-496b-bb1c-a52ede02f869",
-      "syncError": null
-    },
-    {
-      "id": "L1783906899253951",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Kelly Gneiting",
-      "driverId": "019dcba2-b90b-741e-a193-ee5fab1165f4",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-12",
-      "behavior": "Following Distance",
-      "coaching": "Face to Face",
-      "notes": "Following Distance",
-      "ts": 1783906899253,
-      "synced": true,
-      "infItemId": "a5254c1d-31c4-4cff-af2b-f1c28c1baa9c",
       "syncError": null
     },
     {
@@ -4756,36 +4675,6 @@
       "ts": 1783717485621,
       "synced": true,
       "infItemId": "fcc6a1b2-a422-4233-b80e-9ac75cb9b6af",
-      "syncError": null
-    },
-    {
-      "id": "L1783717227840804",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Nunez, Wally",
-      "driverId": "f7980c17-9623-49c0-9126-adbe8149094a",
-      "date": "2026-07-09",
-      "reviewed": "2026-07-10",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Increase Following Distance\n",
-      "ts": 1783717227841,
-      "synced": true,
-      "infItemId": "c30e7529-e9e0-4983-a380-ccc15d927735",
-      "syncError": null
-    },
-    {
-      "id": "L178371712097888",
-      "board": "nWRsGRSm2Hn",
-      "driver": "Fofana, Mamadou",
-      "driverId": "2ee9e6c4-4ad0-4768-98f0-1b2939f97e08",
-      "date": "2026-07-09",
-      "reviewed": "2026-07-10",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "Following Distance",
-      "ts": 1783717120978,
-      "synced": true,
-      "infItemId": "29657436-84e3-4da0-bf7d-f447aa59f56c",
       "syncError": null
     },
     {
@@ -14583,7 +14472,16 @@
     "47c62753-107b-4525-a34a-f22faea63499",
     "63d7565d-228a-4379-9d32-0d1e2510afb8",
     "1f26cc3d-d6ed-423e-a4ff-3fb65e806fef",
-    "a8c84744-2ebc-479f-b926-9242458f05d5"
+    "a8c84744-2ebc-479f-b926-9242458f05d5",
+    "26a5da75-7521-4aab-a819-f663af9097c3",
+    "5a645e75-7fa6-4b00-acf7-af84f3c53b71",
+    "1b693aaf-f73a-49cb-a546-f4a89233dc97",
+    "55d347d3-dbd0-4483-b4c1-396b3eae6204",
+    "bd2d9b63-de9a-4c47-b823-e2fff0051f4d",
+    "e44d1168-7384-4d3d-912d-37f8b1ae804d",
+    "63ef76fb-17f2-4eea-bdca-5cad3abf34d8",
+    "5f67642c-82e7-4bd3-ba96-0bfecf4eb349",
+    "2b969f36-1fe0-49d0-833d-e33c1b2c6dee"
   ],
-  "_ts": "2026-07-15T22:37:37.301Z"
+  "_ts": "2026-07-15T22:37:43.512Z"
 }
