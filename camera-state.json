@@ -268,6 +268,45 @@
   },
   "local": [
     {
+      "id": "L1784075788981991",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Mike Jones",
+      "driverId": "1734e96a-35d4-48e2-9391-38717f92a421",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-14",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995718105-1784043775654\nFollowing Distance; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/aefbc0d1-374a-4326-97b0-b37099bce7f2.mp4",
+      "ts": 1784075788981,
+      "synced": false
+    },
+    {
+      "id": "L1784075599362582",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-14",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995756588-1784031008417\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/012acd21-ec69-471e-ac9d-a65f95466d9f.mp4",
+      "ts": 1784075599362,
+      "synced": false
+    },
+    {
+      "id": "L1784075396157674",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-14",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995756588-1784052031379\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4dc91b86-6d5b-4e83-83a1-ea3638aa22b9.mp4",
+      "ts": 1784075396157,
+      "synced": false
+    },
+    {
       "id": "L1784074987956773",
       "board": "AKJSkJj6Ch4",
       "driver": "JD Chappell",
@@ -12799,5 +12838,5 @@
     "d3eb2469-456a-4099-b4e4-eb14a45bb043",
     "6e8760df-0bbe-41ee-8fa1-2d64aef50b38"
   ],
-  "_ts": "2026-07-15T00:23:07.982Z"
+  "_ts": "2026-07-15T00:36:29.014Z"
 }
