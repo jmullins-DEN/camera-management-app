@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784122411947906",
+      "board": "8gejhhHJj4e",
+      "driver": "Efrain Sotelo",
+      "driverId": "019f1fa4-4d09-73de-8f47-8efba7958563",
+      "date": "2026-07-14",
+      "reviewed": "2026-07-15",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop ",
+      "ts": 1784122411947,
+      "synced": false
+    },
+    {
       "id": "L1784122345772832",
       "board": "8gejhhHJj4e",
       "driver": "WENDY COLTON #1939",
@@ -9467,5 +9480,5 @@
     "6a8eaaf3-b2fa-426d-a5ab-4e9782af14f9",
     "4035378d-de37-4661-9568-63897d33077c"
   ],
-  "_ts": "2026-07-15T13:32:25.786Z"
+  "_ts": "2026-07-15T13:33:31.963Z"
 }
