@@ -278,7 +278,9 @@
       "coaching": "Critical Event",
       "notes": "https://app.estrack.com/#/camera/events/6a57a29c5d34dfb47a4d7627 driver looking at phone and has to hard break because does not see farm equipment on the road ",
       "ts": 1784214348522,
-      "synced": false
+      "synced": true,
+      "infItemId": "5181763d-d31e-4398-b0fd-9c8576f9859b",
+      "syncError": null
     },
     {
       "id": "L1784213863357864",
@@ -14854,7 +14856,8 @@
     "b83bcca5-da85-4d87-aeda-88caabedaf0e",
     "02c9547b-1cbf-462b-9ad5-37d9e282f2d9",
     "a7ccd470-1a8e-4bcb-ad8d-4ca075403828",
-    "984363d9-0f66-4aad-ad47-5fdf516b81bb"
+    "984363d9-0f66-4aad-ad47-5fdf516b81bb",
+    "5181763d-d31e-4398-b0fd-9c8576f9859b"
   ],
-  "_ts": "2026-07-16T15:05:48.568Z"
+  "_ts": "2026-07-16T15:05:50.515Z"
 }
