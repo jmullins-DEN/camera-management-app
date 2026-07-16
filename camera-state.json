@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784204548461375",
+      "board": "aRcazTLT9iM",
+      "driver": "Unassigned",
+      "driverId": null,
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1577302616; following too close; vehicle #AN 108\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a34f0501-2ed7-47a1-8a06-4996b867b723.mp4\n",
+      "ts": 1784204548461,
+      "synced": false
+    },
+    {
       "id": "L1784204469370945",
       "board": "aRcazTLT9iM",
       "driver": "Tyler Baugh",
@@ -12340,5 +12353,5 @@
     "eab88263-bab5-45b1-b2cc-8bafcda067f3",
     "80eecc86-ab27-4fe4-b692-5601778ce7f8"
   ],
-  "_ts": "2026-07-16T12:21:12.674Z"
+  "_ts": "2026-07-16T12:22:28.479Z"
 }
