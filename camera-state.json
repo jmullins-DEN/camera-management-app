@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784205884299790",
+      "board": "XVLVu2Du8hc",
+      "driver": "Daniel Brophy",
+      "driverId": "019c8c23-bef0-7223-85dc-72a71c033a1c",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "68 in 55",
+      "ts": 1784205884299,
+      "synced": false
+    },
+    {
       "id": "L178420584942193",
       "board": "XVLVu2Du8hc",
       "driver": "Alan Ashton",
@@ -11004,5 +11017,5 @@
     "12bcfaf7-89ec-4c75-be6c-873264de6a22",
     "a6cf4703-3da8-4051-b9d2-8e2a718f1b0f"
   ],
-  "_ts": "2026-07-16T12:44:12.248Z"
+  "_ts": "2026-07-16T12:44:44.314Z"
 }
