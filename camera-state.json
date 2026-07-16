@@ -1363,36 +1363,6 @@
       "syncError": null
     },
     {
-      "id": "L1784156455030365",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "Ben McGough",
-      "driverId": "579761a2-645c-48d4-80b1-f1608ea37075",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "Cab Distraction",
-      "ts": 1784156455030,
-      "synced": true,
-      "infItemId": "2bf9ecc0-4dcd-4371-9929-a31616006345",
-      "syncError": null
-    },
-    {
-      "id": "L178415633712578",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "Kendall Mckerley",
-      "driverId": "019ac1fb-e214-744c-b3f7-a3d58286c14d",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "Speeding",
-      "ts": 1784156337125,
-      "synced": true,
-      "infItemId": "06dbe8d2-9d31-4c5c-bbf0-2de99e562bb2",
-      "syncError": null
-    },
-    {
       "id": "L1784147978663191",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -5484,21 +5454,6 @@
       "syncError": null
     },
     {
-      "id": "L1783718327003451",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "Peyton Birchfield",
-      "driverId": "019aebe1-9e56-7eef-b92a-985d119f227f",
-      "date": "2026-07-09",
-      "reviewed": "2026-07-10",
-      "behavior": "Hard Brake / Turn",
-      "coaching": "Coaching Notes",
-      "notes": "Hard Turn",
-      "ts": 1783718327003,
-      "synced": true,
-      "infItemId": "b6e70b0b-e64e-4659-ab13-3dc7f6ff36fd",
-      "syncError": null
-    },
-    {
       "id": "L1783685238275412",
       "board": "7d53dL31ioV",
       "driver": "SCHULTZ, JEREMY D",
@@ -7941,21 +7896,6 @@
       "ts": 1783550113952,
       "synced": true,
       "infItemId": "c929cc3e-a2c2-41cb-a92b-5afdfdb5c414",
-      "syncError": null
-    },
-    {
-      "id": "L1783519073023535",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "Robert Bailey",
-      "driverId": "710812d7-ba9e-4453-bbb0-d6dabd0fc689",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Phone Distraction",
-      "ts": 1783519073023,
-      "synced": true,
-      "infItemId": "4fe6055a-bcb0-4ac9-992d-6e38488f6c9f",
       "syncError": null
     },
     {
@@ -14925,5 +14865,5 @@
     "306f456e-df04-40e2-9ca4-70c649c69940",
     "4028493f-6a50-4d5f-9252-e80c0321a9e8"
   ],
-  "_ts": "2026-07-16T22:10:45.419Z"
+  "_ts": "2026-07-16T22:11:29.763Z"
 }
