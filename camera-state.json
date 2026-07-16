@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Rolling stop ; vehicle # PU 5244 crew cab spare",
       "ts": 1784207662768,
-      "synced": false
+      "synced": true,
+      "infItemId": "bed0a1fd-83de-485f-8a53-21dac0b7c72c",
+      "syncError": null
     },
     {
       "id": "L1784207607746427",
@@ -8037,7 +8039,8 @@
     "b3fd6603-4d9b-482c-9801-53817c3bf01c",
     "8edf43d7-099c-4e15-9eb8-7a7e7a277b1e",
     "d5142a2a-4b83-4d9a-b318-f154da23088b",
-    "8e04c6f1-0e43-4913-ac45-84eb02c608a0"
+    "8e04c6f1-0e43-4913-ac45-84eb02c608a0",
+    "bed0a1fd-83de-485f-8a53-21dac0b7c72c"
   ],
-  "_ts": "2026-07-16T13:14:22.784Z"
+  "_ts": "2026-07-16T13:14:25.516Z"
 }
