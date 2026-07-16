@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784205066594812",
+      "board": "ioWX9hneUsk",
+      "driver": "unassigned",
+      "driverId": "9669c94a-0fb2-4153-ba7d-4cab706d1837",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1237554796651773952; no seatbelt ; vehicle # 406\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c06ff09e-77f0-4f24-a1cc-a95a800eba7f.mp4\n",
+      "ts": 1784205066594,
+      "synced": false
+    },
+    {
       "id": "L1784204999834975",
       "board": "ioWX9hneUsk",
       "driver": "unassigned",
@@ -11868,5 +11881,5 @@
     "44a241aa-a295-4812-a246-2a5768571fb4",
     "e93eb5cd-dfb5-4b07-be06-dffa3965f3c1"
   ],
-  "_ts": "2026-07-16T12:30:02.679Z"
+  "_ts": "2026-07-16T12:31:06.613Z"
 }
