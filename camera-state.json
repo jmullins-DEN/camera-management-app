@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6144164207\nPossible Drowsiness; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2576eee1-6142-4a10-8b38-ac81fca52c51.mp4",
       "ts": 1784241341316,
-      "synced": false
+      "synced": true,
+      "infItemId": "0341b08d-ed32-4753-a2a1-b702c6fca6dc",
+      "syncError": null
     },
     {
       "id": "L1784241003899818",
@@ -13830,7 +13832,8 @@
     "da47c024-3a8f-4be1-8bff-692ce147a756",
     "4d98868a-c624-4a09-bee1-cf7c057200a2",
     "8becc19b-28d4-4394-a300-5301fbb9f004",
-    "0308d44f-1865-4cf2-9cda-b5cdd60dc21c"
+    "0308d44f-1865-4cf2-9cda-b5cdd60dc21c",
+    "0341b08d-ed32-4753-a2a1-b702c6fca6dc"
   ],
-  "_ts": "2026-07-16T22:35:41.347Z"
+  "_ts": "2026-07-16T22:35:43.196Z"
 }
