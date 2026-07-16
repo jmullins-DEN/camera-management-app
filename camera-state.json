@@ -3173,8 +3173,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5515895d34dfb47a4a8dc9",
       "ts": 1784043382380,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "304f9031-21bc-4ac0-9e6e-f5d30ece8072",
+      "syncError": null
     },
     {
       "id": "L1784043364338963",
@@ -3337,8 +3338,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a55534d5d34dfb47a4aeeaa",
       "ts": 1784042543248,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "b5af75a4-f1c8-4454-bf63-34c678d7adf7",
+      "syncError": null
     },
     {
       "id": "L1784042467436694",
@@ -15641,7 +15643,9 @@
     "02c9547b-1cbf-462b-9ad5-37d9e282f2d9",
     "a7ccd470-1a8e-4bcb-ad8d-4ca075403828",
     "984363d9-0f66-4aad-ad47-5fdf516b81bb",
-    "5181763d-d31e-4398-b0fd-9c8576f9859b"
+    "5181763d-d31e-4398-b0fd-9c8576f9859b",
+    "304f9031-21bc-4ac0-9e6e-f5d30ece8072",
+    "b5af75a4-f1c8-4454-bf63-34c678d7adf7"
   ],
-  "_ts": "2026-07-16T15:30:53.931Z"
+  "_ts": "2026-07-16T15:30:58.179Z"
 }
