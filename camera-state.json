@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784214348522540",
+      "board": "UKkbYDchPMh",
+      "driver": "Kristopher Reasons",
+      "driverId": "470c17ef-0f1b-48f9-9ac6-df334c8edf7e",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "https://app.estrack.com/#/camera/events/6a57a29c5d34dfb47a4d7627 driver looking at phone and has to hard break because does not see farm equipment on the road ",
+      "ts": 1784214348522,
+      "synced": false
+    },
+    {
       "id": "L1784213863357864",
       "board": "UKkbYDchPMh",
       "driver": "Shawn Young",
@@ -14843,5 +14856,5 @@
     "a7ccd470-1a8e-4bcb-ad8d-4ca075403828",
     "984363d9-0f66-4aad-ad47-5fdf516b81bb"
   ],
-  "_ts": "2026-07-16T14:57:45.104Z"
+  "_ts": "2026-07-16T15:05:48.568Z"
 }
