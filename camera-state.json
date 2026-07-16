@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784237515603183",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Bill Mayville",
+      "driverId": "faeb2fb6-b5c0-44b0-a06b-98e4e32207aa",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1237835827745292288; texting; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ddb725af-212b-4861-9ed4-831e2bb4ff43.mp4",
+      "ts": 1784237515603,
+      "synced": false
+    },
+    {
       "id": "L1784237454942737",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -13789,5 +13802,5 @@
     "20b9e098-7ed7-4e05-98a4-c549d93cc37a",
     "05a5dc0a-157a-49b5-922d-df489e8aeda4"
   ],
-  "_ts": "2026-07-16T21:30:58.228Z"
+  "_ts": "2026-07-16T21:31:55.619Z"
 }
