@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Rolling stop ; vehicle # PU 6815 SPARE",
       "ts": 1784208361093,
-      "synced": false
+      "synced": true,
+      "infItemId": "b23fdba9-a2e6-4e45-8e16-d73aa8a29e4d",
+      "syncError": null
     },
     {
       "id": "L178420829452585",
@@ -7973,7 +7975,8 @@
     "70de70c4-98ae-4f19-a9e9-822ec4beb685",
     "4805df22-2fe3-4766-b4e5-797f2a8fc4a1",
     "9b8e9571-0a38-48a4-86ee-3d0f215c533a",
-    "92410aad-a7b7-4648-bd97-35ab9004677a"
+    "92410aad-a7b7-4648-bd97-35ab9004677a",
+    "b23fdba9-a2e6-4e45-8e16-d73aa8a29e4d"
   ],
-  "_ts": "2026-07-16T13:26:01.110Z"
+  "_ts": "2026-07-16T13:26:03.684Z"
 }
