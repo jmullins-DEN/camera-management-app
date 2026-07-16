@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474980674620-1784152182229: Handheld phone Distractionhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/77486bb6-ea97-44c6-9f17-e911028cc349.mp4",
       "ts": 1784200774901,
-      "synced": false
+      "synced": true,
+      "infItemId": "f776f6eb-8fb8-4ccf-88d8-eaaf5eb956d6",
+      "syncError": null
     },
     {
       "id": "L1784157315264950",
@@ -14318,7 +14320,8 @@
     "2a4408eb-e16e-4690-b1ff-fe881c4a8fab",
     "8d22ee8b-bc8e-4bfe-a6c2-88c44c88f63f",
     "2d87bdb6-dc09-4a12-bc70-e4661089e929",
-    "243dd37c-c5d6-4bed-98af-e548531afbfb"
+    "243dd37c-c5d6-4bed-98af-e548531afbfb",
+    "f776f6eb-8fb8-4ccf-88d8-eaaf5eb956d6"
   ],
-  "_ts": "2026-07-16T11:19:34.966Z"
+  "_ts": "2026-07-16T11:19:37.985Z"
 }
