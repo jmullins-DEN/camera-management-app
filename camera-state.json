@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784207097112263",
+      "board": "ebSND1QoyBs",
+      "driver": "Deadrian Thomas",
+      "driverId": "a9ff3b1a-18f5-4d62-8b61-db80dcbf2017",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1784207097112,
+      "synced": false
+    },
+    {
       "id": "L1784207028461740",
       "board": "ebSND1QoyBs",
       "driver": "Damien Dunbar",
@@ -9814,5 +9827,5 @@
     "aa730caf-7407-47c0-ae85-8c6e6e467ab7",
     "3622492a-14fc-4222-aa01-7ac4e5a71954"
   ],
-  "_ts": "2026-07-16T13:03:51.013Z"
+  "_ts": "2026-07-16T13:04:57.128Z"
 }
