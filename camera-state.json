@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784207419062849",
+      "board": "8gejhhHJj4e",
+      "driver": "Arron Goodson #1402",
+      "driverId": "d0cabfd8-176e-491a-a7de-9468f1efd002",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; looking down",
+      "ts": 1784207419062,
+      "synced": false
+    },
+    {
       "id": "L1784207268099886",
       "board": "ebSND1QoyBs",
       "driver": "DESHAWN SKIPWITH",
@@ -7914,5 +7927,5 @@
     "5817c921-c6d1-43fc-8606-3b2a883ca36d",
     "5c7c20a7-619d-4df8-a4e7-67aeaf1ff6ed"
   ],
-  "_ts": "2026-07-16T13:08:08.147Z"
+  "_ts": "2026-07-16T13:10:19.076Z"
 }
