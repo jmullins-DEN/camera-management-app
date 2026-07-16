@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784239160095974",
+      "board": "JthqRmXvJ9v",
+      "driver": "Justin Hunter",
+      "driverId": "019a7b18-0863-7330-ad9a-cc0bf4364f38",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1784239160095,
+      "synced": false
+    },
+    {
       "id": "L1784238750327479",
       "board": "nWRsGRSm2Hn",
       "driver": "Fofana, Mamadou",
@@ -15473,5 +15486,5 @@
     "8770848c-7d1a-4cd7-ad11-5297ab7a9fa7",
     "13ac2445-7682-4b2c-ab6f-62cf10ce2a48"
   ],
-  "_ts": "2026-07-16T21:59:00.448Z"
+  "_ts": "2026-07-16T21:59:20.128Z"
 }
