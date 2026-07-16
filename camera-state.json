@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784207009332633",
+      "board": "ebSND1QoyBs",
+      "driver": "unassigned",
+      "driverId": "019ebc03-7646-7672-934b-3eafcabe7786",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "all cameras blocked",
+      "ts": 1784207009332,
+      "synced": false
+    },
+    {
       "id": "L178420688533037",
       "board": "YJNwKvzFhkj",
       "driver": "Michael Woodson",
@@ -9782,5 +9795,5 @@
     "04e6d182-3a13-4d65-a95b-8a2794953e39",
     "236b01a6-35a7-4855-9b5d-bdfc6122bc5f"
   ],
-  "_ts": "2026-07-16T13:03:03.110Z"
+  "_ts": "2026-07-16T13:03:29.347Z"
 }
