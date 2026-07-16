@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784208254117989",
+      "board": "8gejhhHJj4e",
+      "driver": "Mark Davis",
+      "driverId": "5b9399e6-ef51-4916-bcf7-87008a03290c",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked",
+      "ts": 1784208254117,
+      "synced": false
+    },
+    {
       "id": "L1784207268099886",
       "board": "ebSND1QoyBs",
       "driver": "DESHAWN SKIPWITH",
@@ -7930,5 +7943,5 @@
     "70de70c4-98ae-4f19-a9e9-822ec4beb685",
     "4805df22-2fe3-4766-b4e5-797f2a8fc4a1"
   ],
-  "_ts": "2026-07-16T13:23:52.820Z"
+  "_ts": "2026-07-16T13:24:14.134Z"
 }
