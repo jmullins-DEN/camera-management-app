@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784201308442797",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-15",
+      "reviewed": "2026-07-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980531324-1784133515909: TRUCK # 168 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c9ab7cd0-1076-482d-a5e3-860f71686aff.mp4",
+      "ts": 1784201308442,
+      "synced": false
+    },
+    {
       "id": "L1784200774901692",
       "board": "KYqKJWuumPm",
       "driver": "Thomas Larsen",
@@ -14323,5 +14336,5 @@
     "243dd37c-c5d6-4bed-98af-e548531afbfb",
     "f776f6eb-8fb8-4ccf-88d8-eaaf5eb956d6"
   ],
-  "_ts": "2026-07-16T11:19:37.985Z"
+  "_ts": "2026-07-16T11:28:28.500Z"
 }
