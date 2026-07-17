@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784293744833844",
+      "board": "8gejhhHJj4e",
+      "driver": "Dylan Rouco",
+      "driverId": "019afe85-3d4a-7bb7-a390-405521644f21",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling stop ",
+      "ts": 1784293744833,
+      "synced": false
+    },
+    {
       "id": "L1784293713335588",
       "board": "8gejhhHJj4e",
       "driver": "Moses Alvarez",
@@ -17027,5 +17040,5 @@
     "5a577cba-2e76-42f6-abc8-872e5c88f584",
     "72170662-7a0b-43ee-92f3-bc69f0686ea3"
   ],
-  "_ts": "2026-07-17T13:08:36.180Z"
+  "_ts": "2026-07-17T13:09:04.871Z"
 }
