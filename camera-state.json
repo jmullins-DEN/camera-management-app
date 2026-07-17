@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too c lose",
       "ts": 1784292662504,
-      "synced": false
+      "synced": true,
+      "infItemId": "d8bb4d4a-3915-44c7-8397-f2889d2e344c",
+      "syncError": null
     },
     {
       "id": "L178429262950380",
@@ -9669,7 +9671,8 @@
     "0dae3f52-fd12-4b8e-b15d-6b5fb13fef61",
     "5ac67a3d-06b4-490b-a24d-8c1b80793d07",
     "0465f0e6-e8bf-48b8-a098-041d8a68eb79",
-    "2e85bfba-c575-4fb8-9832-182e2fea7a8d"
+    "2e85bfba-c575-4fb8-9832-182e2fea7a8d",
+    "d8bb4d4a-3915-44c7-8397-f2889d2e344c"
   ],
-  "_ts": "2026-07-17T12:51:02.538Z"
+  "_ts": "2026-07-17T12:51:04.796Z"
 }
