@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 417580035; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8252da25-c1e4-4e75-b25a-b65675d88cba.mp4",
       "ts": 1784289900394,
-      "synced": false
+      "synced": true,
+      "infItemId": "3ee5e0c6-a65d-4424-871a-3f0e1bf15058",
+      "syncError": null
     },
     {
       "id": "L1784289138334728",
@@ -14107,7 +14109,8 @@
     "95884b89-d85e-4d8d-95ef-66b800919b8b",
     "fc390530-64f9-48f4-863c-1c8eb87fc1e1",
     "cbf25e0f-4ff4-43bd-9cac-a1cc01ba1da6",
-    "74ade758-8b0e-4c46-acbd-19f52fc32c4b"
+    "74ade758-8b0e-4c46-acbd-19f52fc32c4b",
+    "3ee5e0c6-a65d-4424-871a-3f0e1bf15058"
   ],
-  "_ts": "2026-07-17T12:05:00.428Z"
+  "_ts": "2026-07-17T12:05:03.111Z"
 }
