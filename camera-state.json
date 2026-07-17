@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Rolling stop; texting",
       "ts": 1784292972237,
-      "synced": false
+      "synced": true,
+      "infItemId": "44959e62-c31a-4e44-b987-9a15c86fce1a",
+      "syncError": null
     },
     {
       "id": "L1784292916706929",
@@ -9797,7 +9799,8 @@
     "25852311-846a-4397-a66b-15c831afe48c",
     "aa34aa76-dfc9-4af6-9abc-ba928eed3674",
     "3d5e6358-ae4d-4117-9cbf-70855b3c36a6",
-    "8eb28db9-863f-4d68-9d7b-a0c65dacadd3"
+    "8eb28db9-863f-4d68-9d7b-a0c65dacadd3",
+    "44959e62-c31a-4e44-b987-9a15c86fce1a"
   ],
-  "_ts": "2026-07-17T12:56:12.270Z"
+  "_ts": "2026-07-17T12:56:16.799Z"
 }
