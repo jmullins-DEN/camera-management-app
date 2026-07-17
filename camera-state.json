@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784292508346367",
+      "board": "ebSND1QoyBs",
+      "driver": "Thomas Kelly",
+      "driverId": "019f2415-246c-775e-ad34-85473d7d1622",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera misaligned",
+      "ts": 1784292508346,
+      "synced": false
+    },
+    {
       "id": "L1784292432681625",
       "board": "ebSND1QoyBs",
       "driver": "KARVELL OLIVER",
@@ -11665,5 +11678,5 @@
     "badd2bde-cb00-43ba-b925-e96572204c6c",
     "0dae3f52-fd12-4b8e-b15d-6b5fb13fef61"
   ],
-  "_ts": "2026-07-17T12:47:15.437Z"
+  "_ts": "2026-07-17T12:48:28.379Z"
 }
