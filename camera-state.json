@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784293713335588",
+      "board": "8gejhhHJj4e",
+      "driver": "Moses Alvarez",
+      "driverId": "39f4e83b-6257-4e33-a7cd-87238fe0acd6",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "forward collision warning; near miss",
+      "ts": 1784293713335,
+      "synced": false
+    },
+    {
       "id": "L1784293652177501",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -17011,5 +17024,5 @@
     "aa7a0586-2b86-4656-a429-1670e322b37a",
     "5a577cba-2e76-42f6-abc8-872e5c88f584"
   ],
-  "_ts": "2026-07-17T13:07:38.205Z"
+  "_ts": "2026-07-17T13:08:33.374Z"
 }
