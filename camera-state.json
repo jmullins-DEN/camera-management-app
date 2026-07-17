@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178429299341740",
+      "board": "8gejhhHJj4e",
+      "driver": "Craig Rodriguez",
+      "driverId": "019f1fb9-a8f4-719f-8068-56673fa1856d",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling stop ",
+      "ts": 1784292993417,
+      "synced": false
+    },
+    {
       "id": "L1784292972237820",
       "board": "8gejhhHJj4e",
       "driver": "Eric Bailey",
@@ -9802,5 +9815,5 @@
     "8eb28db9-863f-4d68-9d7b-a0c65dacadd3",
     "44959e62-c31a-4e44-b987-9a15c86fce1a"
   ],
-  "_ts": "2026-07-17T12:56:16.799Z"
+  "_ts": "2026-07-17T12:56:33.452Z"
 }
