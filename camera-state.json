@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784291291066838",
+      "board": "XVLVu2Du8hc",
+      "driver": "Tres Dimick",
+      "driverId": "019a0810-437c-7aae-88b5-85226a382d67",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "67 in 55",
+      "ts": 1784291291066,
+      "synced": false
+    },
+    {
       "id": "L1784291252107797",
       "board": "XVLVu2Du8hc",
       "driver": "Chad Smith",
@@ -12674,5 +12687,5 @@
     "8739adb5-2c27-4611-943d-5ade63e5bc34",
     "fc4d6a05-0776-42f7-8946-2bb989ad7421"
   ],
-  "_ts": "2026-07-17T12:27:34.513Z"
+  "_ts": "2026-07-17T12:28:11.099Z"
 }
