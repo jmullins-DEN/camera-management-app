@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784291393584349",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Stoner",
+      "driverId": "019a0810-437c-7aae-88b4-4e906ca1ff77",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "68 in 45",
+      "ts": 1784291393584,
+      "synced": false
+    },
+    {
       "id": "L1784291345219277",
       "board": "XVLVu2Du8hc",
       "driver": "Kyle Curtis",
@@ -12706,5 +12719,5 @@
     "8f64c5f1-478a-48a9-93e7-3c4362ad9809",
     "70c3a855-2b83-4dbe-a0ab-c26397b08c8f"
   ],
-  "_ts": "2026-07-17T12:29:07.443Z"
+  "_ts": "2026-07-17T12:29:53.616Z"
 }
