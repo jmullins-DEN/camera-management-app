@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784247608671374",
+      "board": "KYqKJWuumPm",
+      "driver": "Joseph Pulliam",
+      "driverId": "019dd5ff-32f9-7761-84fc-14cc7b029e7d",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474992542337-1784235164842: No Seat belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8d3deba8-d497-4040-bb68-0d7ddb3b66d6.mp4",
+      "ts": 1784247608671,
+      "synced": false
+    },
+    {
       "id": "L1784241534909464",
       "board": "ic6o6QgzpVM",
       "driver": "Reyna, Oscar",
@@ -15531,5 +15544,5 @@
     "0341b08d-ed32-4753-a2a1-b702c6fca6dc",
     "db4be183-a22b-40f5-ba36-cf226a784070"
   ],
-  "_ts": "2026-07-17T00:13:42.796Z"
+  "_ts": "2026-07-17T00:20:08.731Z"
 }
