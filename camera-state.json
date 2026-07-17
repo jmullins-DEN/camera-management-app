@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784292804004941",
+      "board": "8gejhhHJj4e",
+      "driver": "Jason Jolley",
+      "driverId": "a88420c2-2954-4786-b3b2-bdd7e755a954",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling stop ",
+      "ts": 1784292804004,
+      "synced": false
+    },
+    {
       "id": "L1784292778231887",
       "board": "8gejhhHJj4e",
       "driver": "Chris Luthye #705",
@@ -9722,5 +9735,5 @@
     "edf8afc8-5902-4edc-bc6e-f1d689c815be",
     "064c33be-e392-48bb-a208-e715be5717f1"
   ],
-  "_ts": "2026-07-17T12:53:01.115Z"
+  "_ts": "2026-07-17T12:53:24.037Z"
 }
