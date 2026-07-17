@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784292778231887",
+      "board": "8gejhhHJj4e",
+      "driver": "Chris Luthye #705",
+      "driverId": "e74297c7-9b0c-4382-a91a-b7c1372386ec",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1784292778231,
+      "synced": false
+    },
+    {
       "id": "L1784292740784643",
       "board": "8gejhhHJj4e",
       "driver": "Amie Roberts",
@@ -9706,5 +9719,5 @@
     "cdf68581-6b0d-4a2e-9d34-453c20e8c8fb",
     "edf8afc8-5902-4edc-bc6e-f1d689c815be"
   ],
-  "_ts": "2026-07-17T12:52:23.258Z"
+  "_ts": "2026-07-17T12:52:58.268Z"
 }
