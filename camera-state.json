@@ -268,21 +268,6 @@
   },
   "local": [
     {
-      "id": "L1784306941066778",
-      "board": "aRcazTLT9iM",
-      "driver": "Alex Atkins",
-      "driverId": "d6084d94-da99-4d8e-8fe7-911c3128ef01",
-      "date": "2026-07-16",
-      "reviewed": "2026-07-17",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Face to Face",
-      "notes": "",
-      "ts": 1784306941066,
-      "synced": true,
-      "infItemId": "8bfe7930-e3c4-4eb5-bec1-79c5949eaaf0",
-      "syncError": null
-    },
-    {
       "id": "L1784294228490316",
       "board": "UKkbYDchPMh",
       "driver": "Alexander Gilbertson",
@@ -16371,5 +16356,5 @@
     "501637eb-4c5f-4432-b031-a64df5a23d3f",
     "8bfe7930-e3c4-4eb5-bec1-79c5949eaaf0"
   ],
-  "_ts": "2026-07-17T16:49:05.689Z"
+  "_ts": "2026-07-17T16:50:00.861Z"
 }
