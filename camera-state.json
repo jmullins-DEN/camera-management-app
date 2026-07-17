@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784291848012416",
+      "board": "xMfRLnqAN7y",
+      "driver": "Keith Smith",
+      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking; inattentive; possible phone",
+      "ts": 1784291848012,
+      "synced": false
+    },
+    {
       "id": "L1784291797247469",
       "board": "xMfRLnqAN7y",
       "driver": "Oscar Herrera",
@@ -12545,5 +12558,5 @@
     "6fbd4087-a5c3-4471-b67d-e0b5e2aecb5d",
     "5333434a-46bf-4fdc-bac9-34436b3762c7"
   ],
-  "_ts": "2026-07-17T12:36:40.226Z"
+  "_ts": "2026-07-17T12:37:28.050Z"
 }
