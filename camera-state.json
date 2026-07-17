@@ -268,51 +268,6 @@
   },
   "local": [
     {
-      "id": "L1784289794613448",
-      "board": "5gVKeGRDf8U",
-      "driver": "Dustin Porter",
-      "driverId": "914a4155-9f1f-40b8-b2a8-26a1ba330d0a",
-      "date": "2026-07-16",
-      "reviewed": "2026-07-17",
-      "behavior": "Following Distance",
-      "coaching": "Face to Face",
-      "notes": "\nAlert 417662949; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7a5211f0-aba0-47cb-8507-482b6bd23591.mp4\n",
-      "ts": 1784289794613,
-      "synced": true,
-      "infItemId": "74ade758-8b0e-4c46-acbd-19f52fc32c4b",
-      "syncError": null
-    },
-    {
-      "id": "L178428972957734",
-      "board": "5gVKeGRDf8U",
-      "driver": "Demetrius Palmer",
-      "driverId": "c4509aa9-267c-47a8-bf6c-1a9dcc11e43d",
-      "date": "2026-07-16",
-      "reviewed": "2026-07-17",
-      "behavior": "Following Distance",
-      "coaching": "Face to Face",
-      "notes": "\nAlert 417661351; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/89df240b-5a58-4bb4-874c-f9135d729e0b.mp4",
-      "ts": 1784289729577,
-      "synced": true,
-      "infItemId": "cbf25e0f-4ff4-43bd-9cac-a1cc01ba1da6",
-      "syncError": null
-    },
-    {
-      "id": "L1784289635695449",
-      "board": "5gVKeGRDf8U",
-      "driver": "Michael Roberts",
-      "driverId": "177dbc9d-d2ad-45ba-8529-d89e873f85aa",
-      "date": "2026-07-16",
-      "reviewed": "2026-07-17",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Face to Face",
-      "notes": "\nAlert 417305364; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e7ce0345-40e6-4be4-a091-3ede5b0e5170.mp4\n",
-      "ts": 1784289635695,
-      "synced": true,
-      "infItemId": "fc390530-64f9-48f4-863c-1c8eb87fc1e1",
-      "syncError": null
-    },
-    {
       "id": "L1784289138334728",
       "board": "8BUntjK1TqV",
       "driver": "Salazar, Hipolito",
@@ -14966,5 +14921,5 @@
     "cbf25e0f-4ff4-43bd-9cac-a1cc01ba1da6",
     "74ade758-8b0e-4c46-acbd-19f52fc32c4b"
   ],
-  "_ts": "2026-07-17T12:03:17.760Z"
+  "_ts": "2026-07-17T12:04:07.379Z"
 }
