@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a58fda45d34dfb47a4f1837",
       "ts": 1784294228490,
-      "synced": false
+      "synced": true,
+      "infItemId": "501637eb-4c5f-4432-b031-a64df5a23d3f",
+      "syncError": null
     },
     {
       "id": "L1784293750916252",
@@ -17070,7 +17072,8 @@
     "e52ce986-300c-4c40-9ffe-ec0dfa305d69",
     "ae96a007-4164-4c5a-9b24-deb03cb28267",
     "72170662-7a0b-43ee-92f3-bc69f0686ea3",
-    "2725cdeb-782b-4c3d-8168-b8869852930c"
+    "2725cdeb-782b-4c3d-8168-b8869852930c",
+    "501637eb-4c5f-4432-b031-a64df5a23d3f"
   ],
-  "_ts": "2026-07-17T13:17:08.524Z"
+  "_ts": "2026-07-17T13:17:11.205Z"
 }
