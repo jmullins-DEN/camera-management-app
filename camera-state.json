@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784291607642865",
+      "board": "YfVHuM3X87v",
+      "driver": "Luis Saborit Lozada",
+      "driverId": "576036e1-4394-4b8e-acc0-4306445d4046",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; distracted",
+      "ts": 1784291607642,
+      "synced": false
+    },
+    {
       "id": "L1784291557548526",
       "board": "YfVHuM3X87v",
       "driver": "Charles Allen",
@@ -12738,5 +12751,5 @@
     "ed9c1080-f580-47fd-aa96-02c72ac12383",
     "c6f2d119-e837-429f-b8a4-4c1781a54f70"
   ],
-  "_ts": "2026-07-17T12:32:39.709Z"
+  "_ts": "2026-07-17T12:33:27.675Z"
 }
