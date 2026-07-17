@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784247770599376",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980531324-1784218375859: Truck # 168 Text/Hand held Phone\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d2798ce4-d19d-4552-8fe6-2e864359d8a3.mp4",
+      "ts": 1784247770599,
+      "synced": false
+    },
+    {
       "id": "L1784247608671374",
       "board": "KYqKJWuumPm",
       "driver": "Joseph Pulliam",
@@ -15547,5 +15560,5 @@
     "db4be183-a22b-40f5-ba36-cf226a784070",
     "6b4d504e-5ab5-4909-a51b-36e14f83d33c"
   ],
-  "_ts": "2026-07-17T00:20:11.306Z"
+  "_ts": "2026-07-17T00:22:50.664Z"
 }
