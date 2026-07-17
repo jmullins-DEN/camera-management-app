@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1784290930063100",
+      "board": "ioWX9hneUsk",
+      "driver": "Mark Stephens",
+      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1237781198391115776; labeled as No Seatbelt; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e5a8ed6d-4bef-45ca-bd07-1e79b6cef1b5.mp4",
+      "ts": 1784290930063,
+      "synced": false
+    },
+    {
+      "id": "L1784290876367999",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "Alert 1237778922222026752; no seatbelt; Mike not in DEN database\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c0ce788d-496e-404e-a12e-4f08b36eddf0.mp4\n",
+      "ts": 1784290876367,
+      "synced": true,
+      "infItemId": "0323642e-ae7c-4075-88f5-4df9c6d7fe63",
+      "syncError": null
+    },
+    {
       "id": "L1784290785632295",
       "board": "ioWX9hneUsk",
       "driver": "Julio Mendoza",
@@ -13641,7 +13669,8 @@
     "0c7f9882-d9db-4b6f-9f0c-530299d08500",
     "d141e0af-f995-400f-ba31-8f8668282730",
     "116a8eed-2739-454a-b4d9-c3fe301cb600",
-    "1b9b2ef4-4c19-421b-9f3e-7e377bd7d725"
+    "1b9b2ef4-4c19-421b-9f3e-7e377bd7d725",
+    "0323642e-ae7c-4075-88f5-4df9c6d7fe63"
   ],
-  "_ts": "2026-07-17T12:19:48.225Z"
+  "_ts": "2026-07-17T12:22:10.098Z"
 }
