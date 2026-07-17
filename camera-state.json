@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474980531324-1784218375859: Truck # 168 Text/Hand held Phone\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d2798ce4-d19d-4552-8fe6-2e864359d8a3.mp4",
       "ts": 1784247770599,
-      "synced": false
+      "synced": true,
+      "infItemId": "f655ce37-9e98-4cd7-a936-7dc18c622750",
+      "syncError": null
     },
     {
       "id": "L1784247608671374",
@@ -15558,7 +15560,8 @@
     "0308d44f-1865-4cf2-9cda-b5cdd60dc21c",
     "0341b08d-ed32-4753-a2a1-b702c6fca6dc",
     "db4be183-a22b-40f5-ba36-cf226a784070",
-    "6b4d504e-5ab5-4909-a51b-36e14f83d33c"
+    "6b4d504e-5ab5-4909-a51b-36e14f83d33c",
+    "f655ce37-9e98-4cd7-a936-7dc18c622750"
   ],
-  "_ts": "2026-07-17T00:22:50.664Z"
+  "_ts": "2026-07-17T00:22:53.055Z"
 }
