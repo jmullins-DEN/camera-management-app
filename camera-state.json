@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784292362151309",
+      "board": "ebSND1QoyBs",
+      "driver": "Bjorn Pinney",
+      "driverId": "2c0d3d42-d894-4a55-ac44-4ebba76e3f14",
+      "date": "2026-07-16",
+      "reviewed": "2026-07-17",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1784292362151,
+      "synced": false
+    },
+    {
       "id": "L1784291913710685",
       "board": "xMfRLnqAN7y",
       "driver": "Mark Hyde",
@@ -11617,5 +11630,5 @@
     "a55297ff-d28d-4438-90c3-d80156573f0d",
     "04864351-014e-495f-8e14-7b61f2b568bf"
   ],
-  "_ts": "2026-07-17T12:40:24.969Z"
+  "_ts": "2026-07-17T12:46:02.187Z"
 }
