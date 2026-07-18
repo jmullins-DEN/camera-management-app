@@ -278,7 +278,9 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction; Face to Face",
       "ts": 1784334634028,
-      "synced": false
+      "synced": true,
+      "infItemId": "e4dbb17e-fec5-46b6-adde-3856c6f407e8",
+      "syncError": null
     },
     {
       "id": "L1784334520685513",
@@ -15845,7 +15847,8 @@
     "8bfe7930-e3c4-4eb5-bec1-79c5949eaaf0",
     "bd32fba5-c13b-4c91-a7ab-22ed893eaa53",
     "258fe518-0a9a-4801-ace8-cc8334d532ef",
-    "9dd7dcbb-a266-45d3-9243-caed7f40f575"
+    "9dd7dcbb-a266-45d3-9243-caed7f40f575",
+    "e4dbb17e-fec5-46b6-adde-3856c6f407e8"
   ],
-  "_ts": "2026-07-18T00:30:34.066Z"
+  "_ts": "2026-07-18T00:30:36.850Z"
 }
