@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Cab Distractiion",
       "ts": 1784334924864,
-      "synced": false
+      "synced": true,
+      "infItemId": "b702f153-f2c4-4edd-91cd-f2d3bb66c5e2",
+      "syncError": null
     },
     {
       "id": "L178433477885140",
@@ -15818,7 +15820,8 @@
     "9dd7dcbb-a266-45d3-9243-caed7f40f575",
     "e4dbb17e-fec5-46b6-adde-3856c6f407e8",
     "ba387c3e-d3e2-4d1f-bfa8-a8ad69062eac",
-    "35a2ea86-3d2b-4301-8928-dac718ddf202"
+    "35a2ea86-3d2b-4301-8928-dac718ddf202",
+    "b702f153-f2c4-4edd-91cd-f2d3bb66c5e2"
   ],
-  "_ts": "2026-07-18T00:35:24.889Z"
+  "_ts": "2026-07-18T00:35:26.881Z"
 }
