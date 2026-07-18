@@ -278,7 +278,9 @@
       "coaching": "Critical Event",
       "notes": "Safety Critical Event ;  Labeled as Crash ",
       "ts": 1784335331107,
-      "synced": false
+      "synced": true,
+      "infItemId": "926c9c57-84ae-4f22-9330-48f28a319e1f",
+      "syncError": null
     },
     {
       "id": "L1784334924864451",
@@ -15759,7 +15761,8 @@
     "e4dbb17e-fec5-46b6-adde-3856c6f407e8",
     "ba387c3e-d3e2-4d1f-bfa8-a8ad69062eac",
     "35a2ea86-3d2b-4301-8928-dac718ddf202",
-    "b702f153-f2c4-4edd-91cd-f2d3bb66c5e2"
+    "b702f153-f2c4-4edd-91cd-f2d3bb66c5e2",
+    "926c9c57-84ae-4f22-9330-48f28a319e1f"
   ],
-  "_ts": "2026-07-18T00:42:11.142Z"
+  "_ts": "2026-07-18T00:42:13.428Z"
 }
