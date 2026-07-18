@@ -2202,21 +2202,6 @@
       "syncError": null
     },
     {
-      "id": "L1784156226567482",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Nathan Roe",
-      "driverId": "f8aa8cbf-2d9f-4b84-9728-28d0fedcf550",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Phone Distraction\n",
-      "ts": 1784156226567,
-      "synced": true,
-      "infItemId": "d30de4cf-11c6-4ad1-bd8b-682cfedbd4f2",
-      "syncError": null
-    },
-    {
       "id": "L1784147978663191",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -5138,36 +5123,6 @@
       "syncError": null
     },
     {
-      "id": "L1783910168664426",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Colby Miller",
-      "driverId": "68559404-db70-4150-a9e5-f1bd46caaa53",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-12",
-      "behavior": "Safety-Critical Event",
-      "coaching": "Critical Event",
-      "notes": "Event has been sent in for evaluation.",
-      "ts": 1783910168664,
-      "synced": true,
-      "infItemId": "a4ce0e10-9305-4667-a810-10bbc53271fa",
-      "syncError": null
-    },
-    {
-      "id": "L1783909502291140",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Nick Rodecap",
-      "driverId": "bf2a60df-c3bd-4e62-8d3b-1c2170e287a6",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-12",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "Speeding",
-      "ts": 1783909502291,
-      "synced": true,
-      "infItemId": "16a1b441-8e5d-44a0-aabf-f0bbc33a6951",
-      "syncError": null
-    },
-    {
       "id": "L1783907362289151",
       "board": "8gejhhHJj4e",
       "driver": "Sterling Steed",
@@ -6920,21 +6875,6 @@
       "ts": 1783650010491,
       "synced": true,
       "infItemId": "9bcf4f01-a2f3-409c-adab-b9ea0b0bf1bf",
-      "syncError": null
-    },
-    {
-      "id": "L1783649790142106",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Leonard Ramirez",
-      "driverId": "019a3cc9-4f91-7009-8261-1e1bde62b09c",
-      "date": "2026-07-08",
-      "reviewed": "2026-07-09",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "Camera Obstruction",
-      "ts": 1783649790142,
-      "synced": true,
-      "infItemId": "de7733bd-38fc-49c9-a162-a280b5d25f4a",
       "syncError": null
     },
     {
@@ -9065,21 +9005,6 @@
       "ts": 1783516766926,
       "synced": true,
       "infItemId": "67c8080a-edfc-4d10-8c11-9d9e070e9663",
-      "syncError": null
-    },
-    {
-      "id": "L1783516763018702",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Leonard Ramirez",
-      "driverId": "019a3cc9-4f91-7009-8261-1e1bde62b09c",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "Camera Obstruction",
-      "ts": 1783516763018,
-      "synced": true,
-      "infItemId": "2f292d98-e04b-4fa5-8f56-96da8aec511c",
       "syncError": null
     },
     {
@@ -15882,5 +15807,5 @@
     "ba387c3e-d3e2-4d1f-bfa8-a8ad69062eac",
     "35a2ea86-3d2b-4301-8928-dac718ddf202"
   ],
-  "_ts": "2026-07-18T00:33:01.376Z"
+  "_ts": "2026-07-18T00:33:40.356Z"
 }
