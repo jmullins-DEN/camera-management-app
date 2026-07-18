@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784336491449398",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Dominic Moore",
+      "driverId": "830bc87c-98f3-40d3-81fc-dd78d89acca6",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-17",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Harsh Turn",
+      "ts": 1784336491449,
+      "synced": false
+    },
+    {
       "id": "L1784336256004858",
       "board": "AKJSkJj6Ch4",
       "driver": "JD Chappell",
@@ -15244,5 +15257,5 @@
     "50a97088-fd1b-4d12-b314-4cfc627d0e79",
     "61a00573-da9b-4706-942c-240a65b6d667"
   ],
-  "_ts": "2026-07-18T00:57:40.596Z"
+  "_ts": "2026-07-18T01:01:31.476Z"
 }
