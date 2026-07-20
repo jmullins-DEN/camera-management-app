@@ -2727,21 +2727,6 @@
       "syncError": null
     },
     {
-      "id": "L1784146077931589",
-      "board": "MZerRFmhSHa",
-      "driver": "Tanner Rodgers",
-      "driverId": "046870a4-f444-49c2-bc4c-1655d8f86f39",
-      "date": "2026-07-15",
-      "reviewed": "2026-07-15",
-      "behavior": "Sign Violation",
-      "coaching": "Face to Face",
-      "notes": "\nAlert 6136775284; rolling stop ; vehicle unassigned; no coaching notes possible\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a8f95c66-e2e0-4a1e-b9f2-7d9bf92aee32.mp4",
-      "ts": 1784146077931,
-      "synced": true,
-      "infItemId": "1343d9e9-343d-4425-9ff4-5bec1961744a",
-      "syncError": null
-    },
-    {
       "id": "L1784145024269195",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -9008,21 +8993,6 @@
       "syncError": null
     },
     {
-      "id": "L178355279949296",
-      "board": "MZerRFmhSHa",
-      "driver": "Travis Burton",
-      "driverId": "5379c8dd-fdc8-4ad0-b387-54dba66d518a",
-      "date": "2026-07-08",
-      "reviewed": "2026-07-08",
-      "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6092629170; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b894f48b-171c-4f62-b5ff-a876fc31d1ca.mp4",
-      "ts": 1783552799492,
-      "synced": true,
-      "infItemId": "8cc402fa-2988-4b92-a74d-51c9078256bb",
-      "syncError": null
-    },
-    {
       "id": "L1783552485943670",
       "board": "7W2SQKrNcXQ",
       "driver": "Juan Napoles",
@@ -9890,21 +9860,6 @@
       "ts": 1783513653134,
       "synced": true,
       "infItemId": "7c45b58a-51f7-4ffb-83fc-8560d7924353",
-      "syncError": null
-    },
-    {
-      "id": "L178351350061599",
-      "board": "MZerRFmhSHa",
-      "driver": "Jacob Bannister",
-      "driverId": "2e572f72-529d-439f-9129-e8c6d325f72a",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6085740469; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2da45d3f-c402-499d-84fb-685add3946da.mp4",
-      "ts": 1783513500615,
-      "synced": true,
-      "infItemId": "3ee80da5-39f8-42bd-b585-e1a3d14c10e6",
       "syncError": null
     },
     {
@@ -16067,5 +16022,5 @@
     "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024",
     "d93fefce-b7cc-492c-bbef-2761b6d67b89"
   ],
-  "_ts": "2026-07-20T14:33:05.624Z"
+  "_ts": "2026-07-20T14:33:21.370Z"
 }
