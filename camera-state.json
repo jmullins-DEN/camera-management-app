@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 418946187; following too close; backward camera blocked; \n\nAlert 418946187",
       "ts": 1784591587824,
-      "synced": false
+      "synced": true,
+      "infItemId": "587a5d7c-3904-4b1d-902c-230dfa3a87c0",
+      "syncError": null
     },
     {
       "id": "L1784591510620948",
@@ -19101,7 +19103,8 @@
     "e17d0578-f0e8-47d0-9a33-fd322bc064ee",
     "83db7d7c-f87d-442d-85e6-67327b62b8a0",
     "fd271be3-e97e-4273-b6dd-dcff564e952a",
-    "41bc2374-83b3-4e17-81c8-4a91f08c37e3"
+    "41bc2374-83b3-4e17-81c8-4a91f08c37e3",
+    "587a5d7c-3904-4b1d-902c-230dfa3a87c0"
   ],
-  "_ts": "2026-07-20T23:53:07.864Z"
+  "_ts": "2026-07-20T23:53:11.589Z"
 }
