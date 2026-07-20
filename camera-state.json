@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784555180140229",
+      "board": "qnESNLC3JPR",
+      "driver": "unassigned",
+      "driverId": "019be0a2-2e31-700a-a914-4e84e4941764",
+      "date": "2026-07-19",
+      "reviewed": "2026-07-20",
+      "behavior": "U-Turn",
+      "coaching": "Unidentified Driver",
+      "notes": "https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db84b4c7-17dd-4c02-8d34-2deb3734ed92.mp4",
+      "ts": 1784555180140,
+      "synced": false
+    },
+    {
       "id": "L178454904692754",
       "board": "7d53dL31ioV",
       "driver": "Truck 28",
@@ -17191,5 +17204,5 @@
     "ae0162d7-b57c-4bac-8e48-e280c929e385",
     "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024"
   ],
-  "_ts": "2026-07-20T13:34:05.145Z"
+  "_ts": "2026-07-20T13:46:20.187Z"
 }
