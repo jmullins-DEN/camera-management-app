@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178454904692754",
+      "board": "7d53dL31ioV",
+      "driver": "Truck 28",
+      "driverId": "c2851caa-aaf4-48b0-8fd8-53bd8500ff7f",
+      "date": "2026-07-18",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6156954665:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a1eb5ecc-0e67-4af3-a99e-b43575fb43dc.mp4",
+      "ts": 1784549046927,
+      "synced": false
+    },
+    {
       "id": "L1784548862936966",
       "board": "7d53dL31ioV",
       "driver": "ROBERTS, MATTHEW T",
@@ -16199,5 +16212,5 @@
     "e8fbcc1a-b144-4e33-961a-56840fee8c21",
     "e6df9e76-40d1-412d-8f15-43a08bb8ce4e"
   ],
-  "_ts": "2026-07-20T12:01:06.405Z"
+  "_ts": "2026-07-20T12:04:06.987Z"
 }
