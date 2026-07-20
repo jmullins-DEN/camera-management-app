@@ -278,7 +278,9 @@
       "coaching": "Unidentified Driver",
       "notes": "https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db84b4c7-17dd-4c02-8d34-2deb3734ed92.mp4",
       "ts": 1784555180140,
-      "synced": false
+      "synced": true,
+      "infItemId": "d93fefce-b7cc-492c-bbef-2761b6d67b89",
+      "syncError": null
     },
     {
       "id": "L178454904692754",
@@ -17202,7 +17204,8 @@
     "e8fbcc1a-b144-4e33-961a-56840fee8c21",
     "e6df9e76-40d1-412d-8f15-43a08bb8ce4e",
     "ae0162d7-b57c-4bac-8e48-e280c929e385",
-    "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024"
+    "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024",
+    "d93fefce-b7cc-492c-bbef-2761b6d67b89"
   ],
-  "_ts": "2026-07-20T13:46:20.187Z"
+  "_ts": "2026-07-20T13:46:22.263Z"
 }
