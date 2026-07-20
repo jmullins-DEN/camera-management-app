@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6150486591: Truck # 113 No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db84b4c7-17dd-4c02-8d34-2deb3734ed92.mp4",
       "ts": 1784549608677,
-      "synced": false
+      "synced": true,
+      "infItemId": "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024",
+      "syncError": null
     },
     {
       "id": "L178454904692754",
@@ -16181,7 +16183,8 @@
     "991a892f-4901-4190-8163-bf591d3c2dd3",
     "e8fbcc1a-b144-4e33-961a-56840fee8c21",
     "e6df9e76-40d1-412d-8f15-43a08bb8ce4e",
-    "ae0162d7-b57c-4bac-8e48-e280c929e385"
+    "ae0162d7-b57c-4bac-8e48-e280c929e385",
+    "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024"
   ],
-  "_ts": "2026-07-20T12:13:28.741Z"
+  "_ts": "2026-07-20T12:13:31.266Z"
 }
