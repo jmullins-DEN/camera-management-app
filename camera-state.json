@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1784582573616206",
+      "board": "AKJSkJj6Ch4",
+      "driver": "unassigned",
+      "driverId": "b276d55c-5996-4aa7-bb6e-ddad178def51",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995752151-1784556590145\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/11e36634-f4a7-4d32-91d8-016369d34ff0.mp4; \nCab Distraction; Face to  Face \nVehicle 553 BigJoe",
+      "ts": 1784582573616,
+      "synced": false
+    },
+    {
+      "id": "L1784582406889570",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Cory Volland",
+      "driverId": "f7a6f6a7-b72b-4bd6-80da-d74934dfe595",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-20",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995729932-1784557287157\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/626ee896-c2ec-410d-9188-13f3a025e80d.mp4",
+      "ts": 1784582406890,
+      "synced": true,
+      "infItemId": "554ed5b4-0c12-47e3-a13c-2f67c1a306f9",
+      "syncError": null
+    },
+    {
       "id": "L1784582244051549",
       "board": "AKJSkJj6Ch4",
       "driver": "Josh Dobney",
@@ -18787,7 +18815,8 @@
     "e3b4a595-2b87-4a17-9f6b-5705ff17d009",
     "64f5d56f-266a-478d-a565-6faf87cdc06c",
     "90839509-a572-4702-97e9-e8ec4e213e95",
-    "f264be6a-3eb5-40ee-9e72-05ad20b283a7"
+    "f264be6a-3eb5-40ee-9e72-05ad20b283a7",
+    "554ed5b4-0c12-47e3-a13c-2f67c1a306f9"
   ],
-  "_ts": "2026-07-20T21:17:27.557Z"
+  "_ts": "2026-07-20T21:22:53.657Z"
 }
