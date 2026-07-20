@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake",
       "ts": 1784577389976,
-      "synced": false
+      "synced": true,
+      "infItemId": "9e99a6bf-4364-4e8e-9365-53bc68053603",
+      "syncError": null
     },
     {
       "id": "L1784577264344207",
@@ -17128,7 +17130,8 @@
     "af53f286-781e-44c6-a8e6-c8bcefc289d8",
     "56ff2fd3-c264-4a98-ae2d-ddb631e66334",
     "3e1d96d8-6ab8-4fd7-9b31-7fd0b55451ff",
-    "38dffb03-a8dd-4c48-b3b3-d43651f81022"
+    "38dffb03-a8dd-4c48-b3b3-d43651f81022",
+    "9e99a6bf-4364-4e8e-9365-53bc68053603"
   ],
-  "_ts": "2026-07-20T19:56:30.014Z"
+  "_ts": "2026-07-20T19:56:32.846Z"
 }
