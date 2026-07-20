@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784562196848801",
+      "board": "XVLVu2Du8hc",
+      "driver": "David Smart",
+      "driverId": "019a0810-437c-7aae-88b4-51a0a0af28a8",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1579562263; tailgating; aggressive driving\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/817b53c4-bcc4-4003-98f3-08173955a770.mp4",
+      "ts": 1784562196848,
+      "synced": false
+    },
+    {
       "id": "L1784562141625497",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Schroeder",
@@ -15668,5 +15681,5 @@
     "8cfa8f9c-2855-4f79-b70c-5a9615ec9707",
     "03f561d2-81ba-4d7c-a77c-714a18d18d70"
   ],
-  "_ts": "2026-07-20T15:42:25.818Z"
+  "_ts": "2026-07-20T15:43:16.885Z"
 }
