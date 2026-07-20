@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784583863230649",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-20",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6164064624\nHard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3b78a5f2-f5de-405e-96b7-dfe3907f1993.mp4",
+      "ts": 1784583863230,
+      "synced": false
+    },
+    {
       "id": "L1784583630629578",
       "board": "AKJSkJj6Ch4",
       "driver": "John Sandstrom",
@@ -18365,5 +18378,5 @@
     "cb555fea-5db2-46de-8c41-2279ee22d947",
     "76b713e6-4ccf-4e31-bce3-10f639ee8c5f"
   ],
-  "_ts": "2026-07-20T21:42:26.056Z"
+  "_ts": "2026-07-20T21:44:23.267Z"
 }
