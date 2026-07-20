@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1238093971771785216; texting; Mike not in truckspy; no coaching notes\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0e52ddb8-8a36-4526-8540-064fde2be99d.mp4",
       "ts": 1784561741013,
-      "synced": false
+      "synced": true,
+      "infItemId": "f844901a-3a06-41b3-8c0f-32cc3088d097",
+      "syncError": null
     },
     {
       "id": "L1784561357702540",
@@ -16785,7 +16787,8 @@
     "729237c3-6739-4d61-8a39-cf8a42292a5d",
     "bce6ab7c-ffaf-4413-b446-9a0bd4793f28",
     "317ccd52-3ad5-41b7-bece-743907cd382f",
-    "3ca96deb-7789-4c61-a321-91f20597c85f"
+    "3ca96deb-7789-4c61-a321-91f20597c85f",
+    "f844901a-3a06-41b3-8c0f-32cc3088d097"
   ],
-  "_ts": "2026-07-20T15:35:41.052Z"
+  "_ts": "2026-07-20T15:35:45.110Z"
 }
