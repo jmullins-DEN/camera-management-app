@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784575845838599",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Magee London, Tressel",
+      "driverId": "e30fd264-2ebc-4526-9ba2-f5a18710b087",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Increase Following Distance\n",
+      "ts": 1784575845838,
+      "synced": false
+    },
+    {
       "id": "L1784564778831517",
       "board": "UKkbYDchPMh",
       "driver": "Shawn Young",
@@ -17989,5 +18002,5 @@
     "7f437dc3-9c9d-4b96-8f32-8cab6a78871d",
     "47c53035-a124-4df4-ba56-45a6d68f4ee5"
   ],
-  "_ts": "2026-07-20T19:28:42.751Z"
+  "_ts": "2026-07-20T19:30:45.885Z"
 }
