@@ -1108,21 +1108,6 @@
       "syncError": null
     },
     {
-      "id": "L1784334924864451",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Nathan Roe",
-      "driverId": "f8aa8cbf-2d9f-4b84-9728-28d0fedcf550",
-      "date": "2026-07-16",
-      "reviewed": "2026-07-17",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "Cab Distractiion",
-      "ts": 1784334924864,
-      "synced": true,
-      "infItemId": "b702f153-f2c4-4edd-91cd-f2d3bb66c5e2",
-      "syncError": null
-    },
-    {
       "id": "L1784334288471892",
       "board": "JthqRmXvJ9v",
       "driver": "Tim Eurich",
@@ -3009,21 +2994,6 @@
       "ts": 1784156590626,
       "synced": true,
       "infItemId": "f91a78dc-5a8f-4c12-86c8-73cb839f480a",
-      "syncError": null
-    },
-    {
-      "id": "L1784156226567482",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Nathan Roe",
-      "driverId": "f8aa8cbf-2d9f-4b84-9728-28d0fedcf550",
-      "date": "2026-07-14",
-      "reviewed": "2026-07-15",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Phone Distraction\n",
-      "ts": 1784156226567,
-      "synced": true,
-      "infItemId": "d30de4cf-11c6-4ad1-bd8b-682cfedbd4f2",
       "syncError": null
     },
     {
@@ -5978,36 +5948,6 @@
       "syncError": null
     },
     {
-      "id": "L1783910168664426",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Colby Miller",
-      "driverId": "68559404-db70-4150-a9e5-f1bd46caaa53",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-12",
-      "behavior": "Safety-Critical Event",
-      "coaching": "Critical Event",
-      "notes": "Event has been sent in for evaluation.",
-      "ts": 1783910168664,
-      "synced": true,
-      "infItemId": "a4ce0e10-9305-4667-a810-10bbc53271fa",
-      "syncError": null
-    },
-    {
-      "id": "L1783909502291140",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Nick Rodecap",
-      "driverId": "bf2a60df-c3bd-4e62-8d3b-1c2170e287a6",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-12",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "Speeding",
-      "ts": 1783909502291,
-      "synced": true,
-      "infItemId": "16a1b441-8e5d-44a0-aabf-f0bbc33a6951",
-      "syncError": null
-    },
-    {
       "id": "L1783908492402312",
       "board": "JthqRmXvJ9v",
       "driver": "Tim Eurich",
@@ -7790,21 +7730,6 @@
       "ts": 1783650010491,
       "synced": true,
       "infItemId": "9bcf4f01-a2f3-409c-adab-b9ea0b0bf1bf",
-      "syncError": null
-    },
-    {
-      "id": "L1783649790142106",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Leonard Ramirez",
-      "driverId": "019a3cc9-4f91-7009-8261-1e1bde62b09c",
-      "date": "2026-07-08",
-      "reviewed": "2026-07-09",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "Camera Obstruction",
-      "ts": 1783649790142,
-      "synced": true,
-      "infItemId": "de7733bd-38fc-49c9-a162-a280b5d25f4a",
       "syncError": null
     },
     {
@@ -9920,21 +9845,6 @@
       "ts": 1783516766926,
       "synced": true,
       "infItemId": "67c8080a-edfc-4d10-8c11-9d9e070e9663",
-      "syncError": null
-    },
-    {
-      "id": "L1783516763018702",
-      "board": "6aE7wVSK5Jq",
-      "driver": "Leonard Ramirez",
-      "driverId": "019a3cc9-4f91-7009-8261-1e1bde62b09c",
-      "date": "2026-07-07",
-      "reviewed": "2026-07-08",
-      "behavior": "Camera Exception",
-      "coaching": "System Alert",
-      "notes": "Camera Obstruction",
-      "ts": 1783516763018,
-      "synced": true,
-      "infItemId": "2f292d98-e04b-4fa5-8f56-96da8aec511c",
       "syncError": null
     },
     {
@@ -16534,5 +16444,5 @@
     "7f437dc3-9c9d-4b96-8f32-8cab6a78871d",
     "47c53035-a124-4df4-ba56-45a6d68f4ee5"
   ],
-  "_ts": "2026-07-20T16:33:20.911Z"
+  "_ts": "2026-07-20T16:33:38.667Z"
 }
