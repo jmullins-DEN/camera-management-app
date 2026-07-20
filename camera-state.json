@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Speeding; Vehicle 658 Heavy",
       "ts": 1784577778026,
-      "synced": false
+      "synced": true,
+      "infItemId": "b8442275-98a1-41ad-a8b7-480eae8d9d7c",
+      "syncError": null
     },
     {
       "id": "L1784577721051596",
@@ -17206,7 +17208,8 @@
     "9e99a6bf-4364-4e8e-9365-53bc68053603",
     "aa3b9641-d0f3-4330-a164-709778899d2d",
     "eb89ec63-ea7a-405d-9a96-6f92ee11e691",
-    "318e0660-6778-4804-9c3c-aebcc1015a06"
+    "318e0660-6778-4804-9c3c-aebcc1015a06",
+    "b8442275-98a1-41ad-a8b7-480eae8d9d7c"
   ],
-  "_ts": "2026-07-20T20:02:58.059Z"
+  "_ts": "2026-07-20T20:03:00.893Z"
 }
