@@ -268,19 +268,17 @@
   },
   "local": [
     {
-      "id": "L1784582573616206",
+      "id": "L178458276890393",
       "board": "AKJSkJj6Ch4",
-      "driver": "unassigned",
-      "driverId": "b276d55c-5996-4aa7-bb6e-ddad178def51",
+      "driver": "Joey Bybee",
+      "driverId": "6ef40755-ac1b-4acc-9407-af1efbd1de3a",
       "date": "2026-07-20",
       "reviewed": "2026-07-20",
-      "behavior": "Driver Distraction-Cab",
+      "behavior": "Sign Violation",
       "coaching": "Face to Face",
-      "notes": "Alert 281474995752151-1784556590145\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/11e36634-f4a7-4d32-91d8-016369d34ff0.mp4; \nCab Distraction; Face to  Face \nVehicle 553 BigJoe",
-      "ts": 1784582573616,
-      "synced": true,
-      "infItemId": "fc2e1caa-1339-429a-b2d6-5ff06ce91864",
-      "syncError": null
+      "notes": "Alert 281474995752151-1784554896975\nRolling Stop; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1fcfa27a-e44c-4f1b-abaa-11e0fe65f2b0.mp4",
+      "ts": 1784582768904,
+      "synced": false
     },
     {
       "id": "L1784582406889570",
@@ -18818,8 +18816,7 @@
     "64f5d56f-266a-478d-a565-6faf87cdc06c",
     "90839509-a572-4702-97e9-e8ec4e213e95",
     "f264be6a-3eb5-40ee-9e72-05ad20b283a7",
-    "554ed5b4-0c12-47e3-a13c-2f67c1a306f9",
-    "fc2e1caa-1339-429a-b2d6-5ff06ce91864"
+    "554ed5b4-0c12-47e3-a13c-2f67c1a306f9"
   ],
-  "_ts": "2026-07-20T21:22:57.111Z"
+  "_ts": "2026-07-20T21:26:08.936Z"
 }
