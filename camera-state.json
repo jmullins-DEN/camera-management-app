@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1784562615039475",
+      "board": "UKkbYDchPMh",
+      "driver": "Shawn Young",
+      "driverId": "019d2aaa-3755-7776-a7ed-94463e039b79",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a5a5c8efc8579ea631e803b",
+      "ts": 1784562615039,
+      "synced": false
+    },
+    {
+      "id": "L1784562446735556",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "https://app.estrack.com/#/camera/events/6a5a7422fc8579ea631ea647 Camera Blocked",
+      "ts": 1784562446735,
+      "synced": true,
+      "infItemId": "1bdaf5a1-6c9f-4068-8885-2b7ec58149a8",
+      "syncError": null
+    },
+    {
       "id": "L178456239333987",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -16704,7 +16732,8 @@
     "03f561d2-81ba-4d7c-a77c-714a18d18d70",
     "eaf613b2-2e1f-402d-a3b3-87eb197ad6d1",
     "2e4183d3-172a-4c41-ade0-627404f5f5e2",
-    "800f3406-478c-482b-950e-bb004ff0984f"
+    "800f3406-478c-482b-950e-bb004ff0984f",
+    "1bdaf5a1-6c9f-4068-8885-2b7ec58149a8"
   ],
-  "_ts": "2026-07-20T15:46:36.156Z"
+  "_ts": "2026-07-20T15:50:15.072Z"
 }
