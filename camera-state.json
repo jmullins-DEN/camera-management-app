@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784577389976969",
+      "board": "9RKrQRpDLcr",
+      "driver": "Paul Kunze Jr",
+      "driverId": "5251e559-3e8c-4f3b-b7b7-21415a31efea",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Hard Brake",
+      "ts": 1784577389976,
+      "synced": false
+    },
+    {
       "id": "L1784577264344207",
       "board": "9RKrQRpDLcr",
       "driver": "Drew Template",
@@ -17117,5 +17130,5 @@
     "3e1d96d8-6ab8-4fd7-9b31-7fd0b55451ff",
     "38dffb03-a8dd-4c48-b3b3-d43651f81022"
   ],
-  "_ts": "2026-07-20T19:54:26.786Z"
+  "_ts": "2026-07-20T19:56:30.014Z"
 }
