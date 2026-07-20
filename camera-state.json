@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1784584556582440",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-07-18",
+      "reviewed": "2026-07-20",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6155046567\nTraffic Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9f5f3983-8ec8-4795-a820-c7c40fcf340d.mp4",
+      "ts": 1784584556582,
+      "synced": false
+    },
+    {
+      "id": "L178458439560674",
+      "board": "ic6o6QgzpVM",
+      "driver": "Gonzales, Edgar",
+      "driverId": "019abaac-b46a-7998-b535-41973fa8d994",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-20",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6163510377\nSpeeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2c81c2e6-732b-4034-8162-4823af05c49f.mp4",
+      "ts": 1784584395606,
+      "synced": true,
+      "infItemId": "fd271be3-e97e-4273-b6dd-dcff564e952a",
+      "syncError": null
+    },
+    {
       "id": "L1784584256915965",
       "board": "ic6o6QgzpVM",
       "driver": "Gonzales, Edgar",
@@ -18427,7 +18455,8 @@
     "6b7d3994-af6a-4d3a-8113-24fa49acbeaf",
     "50d8e6b3-2c60-4793-9255-7175f21e7a94",
     "e17d0578-f0e8-47d0-9a33-fd322bc064ee",
-    "83db7d7c-f87d-442d-85e6-67327b62b8a0"
+    "83db7d7c-f87d-442d-85e6-67327b62b8a0",
+    "fd271be3-e97e-4273-b6dd-dcff564e952a"
   ],
-  "_ts": "2026-07-20T21:51:00.559Z"
+  "_ts": "2026-07-20T21:55:56.614Z"
 }
