@@ -278,7 +278,9 @@
       "coaching": "System Alert",
       "notes": "Camera needs adjusted",
       "ts": 1784576636546,
-      "synced": false
+      "synced": true,
+      "infItemId": "7ef65224-ac6a-4541-892e-de9ebfad93ed",
+      "syncError": null
     },
     {
       "id": "L1784576565642679",
@@ -17735,7 +17737,8 @@
     "1c5b61e5-8a43-4fe1-8162-1c60eb0e6ecc",
     "1d00d146-b918-4fac-b54c-c7df419082f4",
     "d4084d27-b959-4c33-aad3-cdab51202759",
-    "71d317af-f3c8-4cc7-b334-fb84438690e1"
+    "71d317af-f3c8-4cc7-b334-fb84438690e1",
+    "7ef65224-ac6a-4541-892e-de9ebfad93ed"
   ],
-  "_ts": "2026-07-20T19:43:56.581Z"
+  "_ts": "2026-07-20T19:43:59.622Z"
 }
