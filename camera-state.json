@@ -276,7 +276,7 @@
       "reviewed": "2026-07-20",
       "behavior": "Following Distance",
       "coaching": "Face to Face",
-      "notes": "\nAlert 418946187; following too close; backward camera blocked; \n\nAlert 418946187",
+      "notes": "Alert 418946187; following too close; backward camera blocked; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/82156670-51dc-414c-8a77-909c74096fe9.mp4\n",
       "ts": 1784591587824,
       "synced": true,
       "infItemId": "587a5d7c-3904-4b1d-902c-230dfa3a87c0",
@@ -19106,5 +19106,5 @@
     "41bc2374-83b3-4e17-81c8-4a91f08c37e3",
     "587a5d7c-3904-4b1d-902c-230dfa3a87c0"
   ],
-  "_ts": "2026-07-20T23:53:11.589Z"
+  "_ts": "2026-07-20T23:53:25.485Z"
 }
