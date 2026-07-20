@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1784563647790739",
+      "board": "YfVHuM3X87v",
+      "driver": "John Reed",
+      "driverId": "978b68b6-ea08-41da-ac11-09768d0b5440",
+      "date": "2026-07-19",
+      "reviewed": "2026-07-20",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1784563647790,
+      "synced": false
+    },
+    {
+      "id": "L1784563607635112",
+      "board": "YfVHuM3X87v",
+      "driver": "Richard Mire",
+      "driverId": "692796af-adb0-4839-b924-65c4e91a78fc",
+      "date": "2026-07-19",
+      "reviewed": "2026-07-20",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1784563607635,
+      "synced": true,
+      "infItemId": "71c6bd50-acef-4596-bcde-dc286bf5533e",
+      "syncError": null
+    },
+    {
       "id": "L1784563401546528",
       "board": "XVLVu2Du8hc",
       "driver": "William Burch",
@@ -17678,7 +17706,8 @@
     "408ba83d-10d7-4299-88b0-54465d15f8e0",
     "e6daa9a1-f9ca-4b4d-bfae-d1280f535ba0",
     "ec7a1795-cd93-4411-bcfb-fb43b580d1eb",
-    "030614fa-e0e9-454d-a34f-aad7505e0da2"
+    "030614fa-e0e9-454d-a34f-aad7505e0da2",
+    "71c6bd50-acef-4596-bcde-dc286bf5533e"
   ],
-  "_ts": "2026-07-20T16:06:10.026Z"
+  "_ts": "2026-07-20T16:07:27.830Z"
 }
