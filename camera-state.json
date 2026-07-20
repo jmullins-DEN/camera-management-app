@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784561741013178",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1238093971771785216; texting; Mike not in truckspy; no coaching notes\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0e52ddb8-8a36-4526-8540-064fde2be99d.mp4",
+      "ts": 1784561741013,
+      "synced": false
+    },
+    {
       "id": "L1784561357702540",
       "board": "aRcazTLT9iM",
       "driver": "Brennan Chism",
@@ -16774,5 +16787,5 @@
     "317ccd52-3ad5-41b7-bece-743907cd382f",
     "3ca96deb-7789-4c61-a321-91f20597c85f"
   ],
-  "_ts": "2026-07-20T15:34:38.706Z"
+  "_ts": "2026-07-20T15:35:41.052Z"
 }
