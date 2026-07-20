@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 418899415; following too close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c605d903-5309-49b7-9607-13784541c931.mp4\n",
       "ts": 1784591980787,
-      "synced": false
+      "synced": true,
+      "infItemId": "340ea411-07ab-4a60-ac9d-d1e9eb2e213e",
+      "syncError": null
     },
     {
       "id": "L1784591896878185",
@@ -18207,7 +18209,8 @@
     "825813fd-17db-4c50-ac36-bb2597dc944a",
     "fb773780-aa5e-49ba-ada8-6917b5aa6980",
     "e3632b6c-a8b4-4372-83cc-07249eb77b5d",
-    "77a6f4a3-0f3b-4642-9826-92de91e1b1e5"
+    "77a6f4a3-0f3b-4642-9826-92de91e1b1e5",
+    "340ea411-07ab-4a60-ac9d-d1e9eb2e213e"
   ],
-  "_ts": "2026-07-20T23:59:40.824Z"
+  "_ts": "2026-07-20T23:59:43.329Z"
 }
