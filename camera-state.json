@@ -268,6 +268,49 @@
   },
   "local": [
     {
+      "id": "L1784582244051549",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Josh Dobney",
+      "driverId": "019ef636-b886-763b-bb8f-e38427e5bbb7",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995831300-1784561750461\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b6c22133-a8d0-4f02-82ff-17a93338e547.mp4",
+      "ts": 1784582244051,
+      "synced": false
+    },
+    {
+      "id": "L1784581201622506",
+      "board": "AKJSkJj6Ch4",
+      "driver": "JD Chappell",
+      "driverId": "bcf7d324-7297-4505-b505-5d1b9bba07b4",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995713058-1784565122337\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4b85f5b9-69ac-4215-893a-6a67f04deccc.mp4",
+      "ts": 1784581201622,
+      "synced": true,
+      "infItemId": "90839509-a572-4702-97e9-e8ec4e213e95",
+      "syncError": null
+    },
+    {
+      "id": "L1784580958964303",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995966045-1784572136949\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3449a7dd-33ff-460d-8082-8ddd499222ba.mp4",
+      "ts": 1784580958964,
+      "synced": true,
+      "infItemId": "64f5d56f-266a-478d-a565-6faf87cdc06c",
+      "syncError": null
+    },
+    {
       "id": "L1784580701735546",
       "board": "8gejhhHJj4e",
       "driver": "Andrew Jacobs",
@@ -18739,7 +18782,9 @@
     "44219deb-b852-4103-9fbb-4b6b4e1f239f",
     "5f67f931-e801-4296-ac73-2a0b78aeb02d",
     "d9ecdc8d-9676-4111-8ce9-0f98f5952ac3",
-    "e3b4a595-2b87-4a17-9f6b-5705ff17d009"
+    "e3b4a595-2b87-4a17-9f6b-5705ff17d009",
+    "64f5d56f-266a-478d-a565-6faf87cdc06c",
+    "90839509-a572-4702-97e9-e8ec4e213e95"
   ],
-  "_ts": "2026-07-20T20:54:04.866Z"
+  "_ts": "2026-07-20T21:17:24.093Z"
 }
