@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784579317646740",
+      "board": "8gejhhHJj4e",
+      "driver": "Arron Goodson #1402",
+      "driverId": "d0cabfd8-176e-491a-a7de-9468f1efd002",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1784579317646,
+      "synced": false
+    },
+    {
       "id": "L1784579219226625",
       "board": "8gejhhHJj4e",
       "driver": "Andrew Jacobs",
@@ -14893,5 +14906,5 @@
     "965d5ddf-6193-4cca-982b-130b3cc9ae26",
     "68ea9191-8095-4b48-955a-7ef851a57041"
   ],
-  "_ts": "2026-07-20T20:27:02.138Z"
+  "_ts": "2026-07-20T20:28:37.678Z"
 }
