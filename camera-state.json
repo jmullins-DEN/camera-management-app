@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784548054231352",
+      "board": "7d53dL31ioV",
+      "driver": "Truck 26",
+      "driverId": "0199c59e-c79e-7779-a3de-5b50f2c5a05f",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6150432924: Truck # 26  Phone Distraction \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/93861a3a-1376-466c-82bd-b3c15cb9d3b5.mp4",
+      "ts": 1784548054231,
+      "synced": false
+    },
+    {
       "id": "L1784547464804454",
       "board": "kQeF7EsAnVz",
       "driver": "Alejandro Soto",
@@ -16151,5 +16164,5 @@
     "c19ac1bf-ee53-479a-8afe-406987ddd523",
     "f0b9f973-d439-4d0e-adbb-2c388149dc14"
   ],
-  "_ts": "2026-07-20T11:41:11.361Z"
+  "_ts": "2026-07-20T11:47:34.290Z"
 }
