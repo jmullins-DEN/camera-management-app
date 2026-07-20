@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784558075897166",
+      "board": "MZerRFmhSHa",
+      "driver": "unassigned",
+      "driverId": "0752edcb-1775-4cf7-9390-a3d64d7be4bd",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 6149158320;  backward camera partially blocked; truck unassigned; driver unassigned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/66c2e014-3b71-4c02-b15c-cf6a4ab5b0b9.mp4",
+      "ts": 1784558075897,
+      "synced": false
+    },
+    {
       "id": "L1784555180140229",
       "board": "qnESNLC3JPR",
       "driver": "unassigned",
@@ -16022,5 +16035,5 @@
     "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024",
     "d93fefce-b7cc-492c-bbef-2761b6d67b89"
   ],
-  "_ts": "2026-07-20T14:33:21.370Z"
+  "_ts": "2026-07-20T14:34:35.938Z"
 }
