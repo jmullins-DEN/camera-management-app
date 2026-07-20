@@ -276,7 +276,7 @@
       "reviewed": "2026-07-20",
       "behavior": "Following Distance",
       "coaching": "Face to Face",
-      "notes": "\nAlert 417899388; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e6261114-630f-4dfe-824e-88911688e2eb.mp4\n",
+      "notes": "Alert 417899388; following too close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e6261114-630f-4dfe-824e-88911688e2eb.mp4\n",
       "ts": 1784558164199,
       "synced": true,
       "infItemId": "3afffaf1-68ee-4313-953e-ef204c47eab3",
@@ -16054,5 +16054,5 @@
     "ac9d2623-49c8-4220-a93d-9d80eb572a0c",
     "3afffaf1-68ee-4313-953e-ef204c47eab3"
   ],
-  "_ts": "2026-07-20T14:36:07.464Z"
+  "_ts": "2026-07-20T14:38:41.625Z"
 }
