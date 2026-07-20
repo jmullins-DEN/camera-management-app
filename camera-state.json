@@ -276,7 +276,7 @@
       "reviewed": "2026-07-20",
       "behavior": "Speeding",
       "coaching": "Coaching Notes",
-      "notes": "Speeding; Vehicle 658 Heavy",
+      "notes": "Speeding; Vehicle 658 Medium",
       "ts": 1784577778026,
       "synced": true,
       "infItemId": "b8442275-98a1-41ad-a8b7-480eae8d9d7c",
@@ -17211,5 +17211,5 @@
     "318e0660-6778-4804-9c3c-aebcc1015a06",
     "b8442275-98a1-41ad-a8b7-480eae8d9d7c"
   ],
-  "_ts": "2026-07-20T20:03:00.893Z"
+  "_ts": "2026-07-20T20:04:40.686Z"
 }
