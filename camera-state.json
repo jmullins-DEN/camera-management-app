@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995752151-1784554896975\nRolling Stop; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1fcfa27a-e44c-4f1b-abaa-11e0fe65f2b0.mp4",
       "ts": 1784582768904,
-      "synced": false
+      "synced": true,
+      "infItemId": "4759ad2e-f688-4110-9558-887037ef9aa9",
+      "syncError": null
     },
     {
       "id": "L1784582406889570",
@@ -18816,7 +18818,8 @@
     "64f5d56f-266a-478d-a565-6faf87cdc06c",
     "90839509-a572-4702-97e9-e8ec4e213e95",
     "f264be6a-3eb5-40ee-9e72-05ad20b283a7",
-    "554ed5b4-0c12-47e3-a13c-2f67c1a306f9"
+    "554ed5b4-0c12-47e3-a13c-2f67c1a306f9",
+    "4759ad2e-f688-4110-9558-887037ef9aa9"
   ],
-  "_ts": "2026-07-20T21:26:08.936Z"
+  "_ts": "2026-07-20T21:26:11.370Z"
 }
