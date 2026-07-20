@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784549608677477",
+      "board": "qnESNLC3JPR",
+      "driver": "unassigned",
+      "driverId": "019be0a2-2e31-700a-a914-4e84e4941764",
+      "date": "2026-07-17",
+      "reviewed": "2026-07-20",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "Alert 6150486591: Truck # 113 No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db84b4c7-17dd-4c02-8d34-2deb3734ed92.mp4",
+      "ts": 1784549608677,
+      "synced": false
+    },
+    {
       "id": "L178454904692754",
       "board": "7d53dL31ioV",
       "driver": "Truck 28",
@@ -16170,5 +16183,5 @@
     "e6df9e76-40d1-412d-8f15-43a08bb8ce4e",
     "ae0162d7-b57c-4bac-8e48-e280c929e385"
   ],
-  "_ts": "2026-07-20T12:08:38.370Z"
+  "_ts": "2026-07-20T12:13:28.741Z"
 }
