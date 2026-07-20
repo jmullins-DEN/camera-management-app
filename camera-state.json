@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784576636546620",
+      "board": "JthqRmXvJ9v",
+      "driver": "Daniel Brown",
+      "driverId": "019a7b18-0863-7330-ad9a-afe7951dac3b",
+      "date": "2026-07-19",
+      "reviewed": "2026-07-20",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera needs adjusted",
+      "ts": 1784576636546,
+      "synced": false
+    },
+    {
       "id": "L1784576565642679",
       "board": "JthqRmXvJ9v",
       "driver": "Tim Eurich",
@@ -17724,5 +17737,5 @@
     "d4084d27-b959-4c33-aad3-cdab51202759",
     "71d317af-f3c8-4cc7-b334-fb84438690e1"
   ],
-  "_ts": "2026-07-20T19:42:47.940Z"
+  "_ts": "2026-07-20T19:43:56.581Z"
 }
