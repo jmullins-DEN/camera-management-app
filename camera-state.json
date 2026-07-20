@@ -5126,21 +5126,6 @@
       "infItemId": null
     },
     {
-      "id": "L1784040113648723",
-      "board": "qnESNLC3JPR",
-      "driver": "Adam Anglin",
-      "driverId": "019ab404-9009-7664-8db4-e80c860c7d87",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Traffic Light Violation",
-      "coaching": "Face to Face",
-      "notes": "Alert 6124928204: Traffic Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b59f6495-00f3-48e2-9659-4a7ba0f25f5a.mp4",
-      "ts": 1784040113648,
-      "synced": true,
-      "infItemId": "3012ec61-e2cd-46ea-b8ce-6987de7849d2",
-      "syncError": null
-    },
-    {
       "id": "L1784040081334266",
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Domingo",
@@ -5465,21 +5450,6 @@
       "ts": 1783958740149,
       "synced": true,
       "infItemId": "c574aa04-cd25-4502-a6e8-b92da3b86719",
-      "syncError": null
-    },
-    {
-      "id": "L1783947453468197",
-      "board": "qnESNLC3JPR",
-      "driver": "Adam Anglin",
-      "driverId": "019ab404-9009-7664-8db4-e80c860c7d87",
-      "date": "2026-07-10",
-      "reviewed": "2026-07-13",
-      "behavior": "Traffic Light Violation",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6109187551: Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/690f658e-8f78-4dd2-9090-c22d43c04658.mp4",
-      "ts": 1783947453468,
-      "synced": true,
-      "infItemId": "c0bee410-ff2f-4400-b280-2e3c6231dc80",
       "syncError": null
     },
     {
@@ -11858,21 +11828,6 @@
       "syncError": null
     },
     {
-      "id": "L1783346722397302",
-      "board": "qnESNLC3JPR",
-      "driver": "Jimmy Mott",
-      "driverId": "019ab404-9009-7664-8db5-05b6082c4ade",
-      "date": "2026-07-02",
-      "reviewed": "2026-07-06",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6063398027; Truck # 110 Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5fff4553-17bd-4909-b2a5-a0ab02a9035c.mp4",
-      "ts": 1783346722398,
-      "synced": true,
-      "infItemId": "c0312114-5a25-49db-aa71-d556c804f734",
-      "syncError": null
-    },
-    {
       "id": "L178330732565448",
       "board": "ic6o6QgzpVM",
       "driver": "Rios, Jesse",
@@ -16215,5 +16170,5 @@
     "e6df9e76-40d1-412d-8f15-43a08bb8ce4e",
     "ae0162d7-b57c-4bac-8e48-e280c929e385"
   ],
-  "_ts": "2026-07-20T12:04:09.682Z"
+  "_ts": "2026-07-20T12:08:38.370Z"
 }
