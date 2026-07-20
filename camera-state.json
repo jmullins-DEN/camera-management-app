@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178457827457980",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Josh Caldwell",
+      "driverId": "4f24d471-c019-4408-a8ae-d6485f7d6538",
+      "date": "2026-07-19",
+      "reviewed": "2026-07-20",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Harsh Turn",
+      "ts": 1784578274579,
+      "synced": false
+    },
+    {
       "id": "L1784577948054650",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -17107,5 +17120,5 @@
     "b8442275-98a1-41ad-a8b7-480eae8d9d7c",
     "6a652c04-b6d5-4f8e-9d4b-72e1dfd838f7"
   ],
-  "_ts": "2026-07-20T20:07:39.831Z"
+  "_ts": "2026-07-20T20:11:14.613Z"
 }
