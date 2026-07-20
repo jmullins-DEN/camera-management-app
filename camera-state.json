@@ -278,7 +278,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 6149158320;  backward camera partially blocked; truck unassigned; driver unassigned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/66c2e014-3b71-4c02-b15c-cf6a4ab5b0b9.mp4",
       "ts": 1784558075897,
-      "synced": false
+      "synced": true,
+      "infItemId": "ac9d2623-49c8-4220-a93d-9d80eb572a0c",
+      "syncError": null
     },
     {
       "id": "L1784555180140229",
@@ -16033,7 +16035,8 @@
     "e6df9e76-40d1-412d-8f15-43a08bb8ce4e",
     "ae0162d7-b57c-4bac-8e48-e280c929e385",
     "d8cf2e96-3b4a-40aa-80a4-6a4da78f1024",
-    "d93fefce-b7cc-492c-bbef-2761b6d67b89"
+    "d93fefce-b7cc-492c-bbef-2761b6d67b89",
+    "ac9d2623-49c8-4220-a93d-9d80eb572a0c"
   ],
-  "_ts": "2026-07-20T14:34:35.938Z"
+  "_ts": "2026-07-20T14:34:38.917Z"
 }
