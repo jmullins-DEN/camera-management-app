@@ -308,8 +308,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1239217053261529088; hand held phone; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2a00a234-ae41-4dd9-95a3-4cb795e31924.mp4",
       "ts": 1784592940607,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bce771a3-579a-4454-89a9-cff7b57f6100"
     },
     {
       "id": "L1784592889778131",
@@ -637,7 +638,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6155046567\nTraffic Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9f5f3983-8ec8-4795-a820-c7c40fcf340d.mp4",
       "ts": 1784584556582,
-      "synced": false
+      "synced": true,
+      "infItemId": "07055cc7-b7b8-4491-92bf-5c420a45eade",
+      "syncError": null
     },
     {
       "id": "L178458439560674",
@@ -1190,9 +1193,9 @@
       "coaching": "Coaching Notes",
       "notes": "Phone Distraction\n",
       "ts": 1784577642311,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f741e9da-babd-42b1-a795-6f8df4054708"
     },
     {
       "id": "L1784577570023859",
@@ -19124,7 +19127,10 @@
     "68d634c9-9dcf-4c2b-8e1a-f0a923fae351",
     "57a0f8be-93a7-4c6b-9921-f7f964431098",
     "bb463851-1e2a-4979-b628-f56cd04b3d8a",
-    "8fc23c3e-7fe1-4343-8321-c947be9ca42a"
+    "8fc23c3e-7fe1-4343-8321-c947be9ca42a",
+    "bce771a3-579a-4454-89a9-cff7b57f6100",
+    "07055cc7-b7b8-4491-92bf-5c420a45eade",
+    "f741e9da-babd-42b1-a795-6f8df4054708"
   ],
-  "_ts": "2026-07-21T11:19:25.250Z"
+  "_ts": "2026-07-21T11:19:28.607Z"
 }
