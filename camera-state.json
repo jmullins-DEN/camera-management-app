@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "multi-tasking",
       "ts": 1784636105269,
-      "synced": false
+      "synced": true,
+      "infItemId": "81306bba-1ebc-4aa5-8ca5-26c19d7d4da3",
+      "syncError": null
     },
     {
       "id": "L1784635927702891",
@@ -15537,7 +15539,8 @@
     "ed3081f5-63e9-4938-b405-8d879b876cab",
     "5a1bdd1b-7bf1-42b9-ac11-37a462d1c048",
     "105141ea-bb70-4fb0-abad-48f6bfe2d330",
-    "038b7c3f-3812-45c3-9f34-ad687c911d39"
+    "038b7c3f-3812-45c3-9f34-ad687c911d39",
+    "81306bba-1ebc-4aa5-8ca5-26c19d7d4da3"
   ],
-  "_ts": "2026-07-21T12:15:05.305Z"
+  "_ts": "2026-07-21T12:15:08.268Z"
 }
