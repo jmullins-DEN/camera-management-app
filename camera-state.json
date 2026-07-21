@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178463452380495",
+      "board": "8BUntjK1TqV",
+      "driver": "Alejandre, Nestor",
+      "driverId": "cf57fad8-b9cf-437d-9ea1-98cb2cabbcdd",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6166263456; multi-tasking; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a24aa9ab-9ce6-4c9f-aa78-16b21cd36bd1.mp4\n",
+      "ts": 1784634523804,
+      "synced": false
+    },
+    {
       "id": "L178463430776253",
       "board": "8BUntjK1TqV",
       "driver": "Smith, William",
@@ -19236,5 +19249,5 @@
     "dffa3c38-4e4a-4b52-81fb-637c41d3c51f",
     "99ec07cc-9015-495b-8a65-7d44d8b86b89"
   ],
-  "_ts": "2026-07-21T11:47:09.563Z"
+  "_ts": "2026-07-21T11:48:43.840Z"
 }
