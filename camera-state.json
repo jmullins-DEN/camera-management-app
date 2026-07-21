@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784658475049201",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Josh Gregory",
+      "driverId": "5acaed8a-0d1d-4169-9253-3157c3f3c35b",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "Harsh Brake ",
+      "ts": 1784658475049,
+      "synced": false
+    },
+    {
       "id": "L1784658185540871",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -18153,5 +18166,5 @@
     "f86e8b52-5acb-4207-b5a8-93b15df4ae4e",
     "cbcf791c-7845-4ae8-a1ed-7e1291248a03"
   ],
-  "_ts": "2026-07-21T18:25:20.209Z"
+  "_ts": "2026-07-21T18:27:55.081Z"
 }
