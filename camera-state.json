@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784657283057744",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Gervacio, Arnold",
+      "driverId": "c5bd9fc7-1e63-42e7-a437-9280c4031608",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Increase Following Distance\n",
+      "ts": 1784657283057,
+      "synced": false
+    },
+    {
       "id": "L1784642959630897",
       "board": "7d53dL31ioV",
       "driver": "Truck 26",
@@ -19480,5 +19493,5 @@
     "808596f1-cadc-45b4-a5a3-1873e11a18a4",
     "a501046e-4736-4be5-9b54-fc43f84a9198"
   ],
-  "_ts": "2026-07-21T18:06:25.382Z"
+  "_ts": "2026-07-21T18:08:03.096Z"
 }
