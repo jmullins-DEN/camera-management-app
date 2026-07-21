@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1784665342162828",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Marco Nunez",
+      "driverId": "272e1ad8-9687-4e44-b5b6-6aae400c1c9b",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-21",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1239624417093517312; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cd2e4857-cbdb-47b9-a676-5747acd25bea.mp4",
+      "ts": 1784665342162,
+      "synced": false
+    },
+    {
+      "id": "L1784663755121849",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Marco Nunez",
+      "driverId": "272e1ad8-9687-4e44-b5b6-6aae400c1c9b",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-21",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1239529155121545216; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c948ec6f-fdad-43ef-9a7f-0f82e411bbaf.mp4",
+      "ts": 1784663755121,
+      "synced": true,
+      "infItemId": "dbf14577-02b0-474f-a748-763823873329",
+      "syncError": null
+    },
+    {
       "id": "L1784663709916306",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -278,7 +306,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 1239520452758634496; texting; vehicle #163\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b92f3c16-a5aa-4010-a457-7f3bdf697483.mp4",
       "ts": 1784663709916,
-      "synced": false
+      "synced": true,
+      "infItemId": "b64ff78e-2515-4e11-b9f4-5ca27b2bbdaf",
+      "syncError": null
     },
     {
       "id": "L1784663571723496",
@@ -18045,7 +18075,9 @@
     "2e1b0649-2cd4-415b-941d-0c4852d39c98",
     "b454eb38-26a0-4e78-a588-f2a2f7788be5",
     "cc2b5ff4-55cd-4ea2-903d-32ef01cdddf8",
-    "53a0ea14-b14c-454a-a592-776ac491bb9d"
+    "53a0ea14-b14c-454a-a592-776ac491bb9d",
+    "b64ff78e-2515-4e11-b9f4-5ca27b2bbdaf",
+    "dbf14577-02b0-474f-a748-763823873329"
   ],
-  "_ts": "2026-07-21T19:55:09.951Z"
+  "_ts": "2026-07-21T20:22:22.202Z"
 }
