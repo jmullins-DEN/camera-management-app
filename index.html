@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-20-unassigned-lock+motts-link'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-07-21-wire-panhandle-express'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -380,6 +380,42 @@ const AUTO_CRITICAL=['Drowsy Driving','Safety-Critical Event'];
 const AUTO_COACH={'Camera Exception':'System Alert'};
 // boards with LIVE Infinity write-back (board-by-board rollout; all others stay local-queue)
 const BOARD_WB={
+  '8BUntjK1TqV':{ // Panhandle Express / PEX (DEN) — LABEL-driver board, wired 2026-07-21 (10-event backlog: 6 pushed, 4 were hand-entered). Driver Roster (187)
+    cam_folder:'CqBX8tn3mna',
+    driver_type:'label',
+    driver_attr:'af52c156-3c30-4ed8-915a-7f4eb9d75d08', // Driver Roster
+    behavior_attr:'1f78b4bf-9745-4247-bef0-20e8e78aa8f0', // Behavior Observed
+    coaching_attr:'26f87460-8ca3-45d2-a44b-d06269beb264', // Coaching Needed
+    date_attr:'104d9c3b-3056-49bf-b0f6-247d10fa1ab1', // Camera Event Date
+    reviewed_attr:'a2889118-9bf7-42f5-90ec-9e64841cc3fd', // Date Event Reviewed
+    notes_attr:'6614cfdf-c490-4f7e-a376-0c3e9c0cd880', // "Notes:" longtext (seed pointed at wrong attr 019ac156)
+    link_attr:'bcd19e5b-fd91-4cbf-bc65-c1d0e3b0b863', // Link to Violation (clickable)
+    behavior_labels:{
+      "Driver Distraction-Phone":"bdaa0f0c-476a-4a50-9fdb-e73682d4f178",
+      "Driver Distraction-Cab":"fbd5bd68-c728-47ac-8726-5fe3260bd2c3",
+      "Following Distance":"0a08d3b9-07a7-43d1-869a-5cfa642da077",
+      "Hard Brake / Turn":"3a37a090-8c34-4d2a-8c1d-0d20e0a4242b",
+      "Safety-Critical Event":"d436c28c-c283-4232-b336-9490ceb7e256",
+      "Sign Violation":"c0793c61-fa3d-489f-9a68-b49cba92fbdc",
+      "Traffic Light Violation":"ec3ab189-b73f-489c-aa50-db86eaa119de",
+      "Speeding":"357c51ce-0836-4cb8-a3b1-4d48f1154dd8",
+      "U-Turn":"c5454e14-fd4b-4986-9e83-80f00402d7c7",
+      "Seat Belt":"fb3460d4-ebaf-4f68-a5e2-0b1911f6280a",
+      "Camera Exception":"28f5c6e7-887f-469c-a6e9-632c39024726",
+      "Drowsy Driving":"c162263c-a3d0-487e-84d8-a9fbd3b41581",
+      "Incident":"07d4140f-eada-41a9-8354-8c699b6bd324",
+    },
+    coaching_labels:{
+      "Coaching Notes":"f1bcc69f-96ed-4521-8496-cee67d663f6a",
+      "Face to Face":"3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa",
+      "Critical Event":"a9011159-9da8-4ae5-8f3d-4ecaca83f0ef",
+      "Write Up":"41b598a8-9102-4692-9b97-f99ccb28ca3a",
+      "Remedial Training":"3ca6bc0c-999d-44c0-883a-ef2309bdb507",
+      "In Person F2F":"019d793c-8f06-73f3-b1be-a0a53b6ffb2f",
+      "System Alert":"439d8570-ca9e-4c9e-a9cf-f0d68d429974",
+      "Unidentified Driver":"7b431f45-9afc-4f6e-a9d1-6660f100c7c1",
+    },
+  },
   'UKkbYDchPMh':{ // ATR Towing (DEN) — LABEL-driver board, wired 2026-07-15 (queued-event backlog). ATR Driver List (51)
     cam_folder:'3LrRkTsS8Ag',
     driver_type:'label',
