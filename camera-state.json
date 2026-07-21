@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784592592595820",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1581107294; following too close; vehicle # AN 106",
+      "ts": 1784592592595,
+      "synced": false
+    },
+    {
       "id": "L178459253460639",
       "board": "aRcazTLT9iM",
       "driver": "James Simms",
@@ -278,7 +291,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1581033245; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1bbb6736-c0b4-4c0e-b2a4-e11d4d3bade6.mp4",
       "ts": 1784592534606,
-      "synced": false
+      "synced": true,
+      "infItemId": "00c8350f-4d70-46e9-8c3b-66f92ecc1137",
+      "syncError": null
     },
     {
       "id": "L1784592463224766",
@@ -17496,7 +17511,8 @@
     "292fec9b-9f17-4a2f-bfab-c9b520014fb7",
     "bf2211ef-a396-45fc-9a8c-03e8b7fa9aa5",
     "06e82bb2-1d10-466d-ba6f-c8b5c55f2f1a",
-    "3d414ca6-8284-4446-bb44-2a2286fa659d"
+    "3d414ca6-8284-4446-bb44-2a2286fa659d",
+    "00c8350f-4d70-46e9-8c3b-66f92ecc1137"
   ],
-  "_ts": "2026-07-21T00:08:54.640Z"
+  "_ts": "2026-07-21T00:09:52.634Z"
 }
