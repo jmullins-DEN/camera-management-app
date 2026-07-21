@@ -278,7 +278,8 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 6164767048; hard brake; lane violation; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bd333146-682b-47d1-84bf-6fa8d641ae81.mp4",
       "ts": 1784634307762,
-      "synced": false
+      "synced": false,
+      "infItemId": null
     },
     {
       "id": "L1784634220549387",
@@ -19235,5 +19236,5 @@
     "dffa3c38-4e4a-4b52-81fb-637c41d3c51f",
     "99ec07cc-9015-495b-8a65-7d44d8b86b89"
   ],
-  "_ts": "2026-07-21T11:45:11.122Z"
+  "_ts": "2026-07-21T11:47:09.563Z"
 }
