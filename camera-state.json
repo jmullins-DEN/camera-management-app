@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784663709916306",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-21",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1239520452758634496; texting; vehicle #163\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b92f3c16-a5aa-4010-a457-7f3bdf697483.mp4",
+      "ts": 1784663709916,
+      "synced": false
+    },
+    {
       "id": "L1784663571723496",
       "board": "7W2SQKrNcXQ",
       "driver": "Juan Napoles",
@@ -18034,5 +18047,5 @@
     "cc2b5ff4-55cd-4ea2-903d-32ef01cdddf8",
     "53a0ea14-b14c-454a-a592-776ac491bb9d"
   ],
-  "_ts": "2026-07-21T19:52:55.565Z"
+  "_ts": "2026-07-21T19:55:09.951Z"
 }
