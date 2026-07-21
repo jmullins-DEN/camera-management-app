@@ -278,7 +278,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 1581266412; following too close; forward camera partially blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/855611f5-deca-433f-8d4e-6831dcda2847.mp4",
       "ts": 1784635150528,
-      "synced": false
+      "synced": true,
+      "infItemId": "a26b002d-7b2c-4f55-9dee-42b90be1cc83",
+      "syncError": null
     },
     {
       "id": "L1784634784437362",
@@ -17523,7 +17525,8 @@
     "dffa3c38-4e4a-4b52-81fb-637c41d3c51f",
     "99ec07cc-9015-495b-8a65-7d44d8b86b89",
     "cf54919d-a7d2-407f-8727-40d8b66d4114",
-    "1014aee1-441b-46c6-8891-78a87a377dd8"
+    "1014aee1-441b-46c6-8891-78a87a377dd8",
+    "a26b002d-7b2c-4f55-9dee-42b90be1cc83"
   ],
-  "_ts": "2026-07-21T11:59:10.564Z"
+  "_ts": "2026-07-21T11:59:12.584Z"
 }
