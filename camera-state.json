@@ -3518,8 +3518,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 6141607571; 77 in 70\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7faa7a8e-0aee-4c51-b557-85af67c11b72.mp4\n",
       "ts": 1784289138334,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "ff8d4ce9-50d7-4b41-a8b5-16f81cd8d515",
+      "syncError": null
     },
     {
       "id": "L1784248050515225",
@@ -7462,8 +7463,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 6124754459; driver drowsy/ multi-tasking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7e475583-c71b-4e17-8c23-f42b32fcdab9.mp4\n",
       "ts": 1784040151687,
-      "synced": false,
-      "infItemId": null
+      "synced": true,
+      "infItemId": "e026dfe1-c9b3-46dc-a9ee-44cbd60a6a9e",
+      "syncError": null
     },
     {
       "id": "L1784040113648723",
@@ -19753,7 +19755,9 @@
     "019f6fec-7ffb-7244-86ba-02e2dd172347",
     "019f62f1-b3c4-73c4-b5c0-c61e2a186f6f",
     "019f62f0-c698-717e-80bf-654cb7514f91",
-    "6158fb92-9542-4534-9bbe-9cb6583ea64f"
+    "6158fb92-9542-4534-9bbe-9cb6583ea64f",
+    "ff8d4ce9-50d7-4b41-a8b5-16f81cd8d515",
+    "e026dfe1-c9b3-46dc-a9ee-44cbd60a6a9e"
   ],
-  "_ts": "2026-07-21T18:06:16.893Z"
+  "_ts": "2026-07-21T18:06:19.641Z"
 }
