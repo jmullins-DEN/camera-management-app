@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784592679180717",
+      "board": "ioWX9hneUsk",
+      "driver": "Ray Pena",
+      "driverId": "019ab7f0-36ad-7661-a517-5820ce7e63c3",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1239054265121669120; 74 in 60\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/75564240-0ed4-4b2a-b1b5-9f489513bc24.mp4",
+      "ts": 1784592679180,
+      "synced": false
+    },
+    {
       "id": "L1784592592595820",
       "board": "aRcazTLT9iM",
       "driver": "unassigned",
@@ -16782,5 +16795,5 @@
     "00c8350f-4d70-46e9-8c3b-66f92ecc1137",
     "960fdf0e-ceaf-45e0-8a5e-ee6aa9db2d6f"
   ],
-  "_ts": "2026-07-21T00:10:39.344Z"
+  "_ts": "2026-07-21T00:11:19.216Z"
 }
