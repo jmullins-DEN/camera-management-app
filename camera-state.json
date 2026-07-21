@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "lane violation",
       "ts": 1784636482236,
-      "synced": false
+      "synced": true,
+      "infItemId": "7f0bbd39-27ea-4af0-b2a0-3f2995cc4fa4",
+      "syncError": null
     },
     {
       "id": "L1784636105269564",
@@ -15223,7 +15225,8 @@
     "5a1bdd1b-7bf1-42b9-ac11-37a462d1c048",
     "105141ea-bb70-4fb0-abad-48f6bfe2d330",
     "038b7c3f-3812-45c3-9f34-ad687c911d39",
-    "81306bba-1ebc-4aa5-8ca5-26c19d7d4da3"
+    "81306bba-1ebc-4aa5-8ca5-26c19d7d4da3",
+    "7f0bbd39-27ea-4af0-b2a0-3f2995cc4fa4"
   ],
-  "_ts": "2026-07-21T12:21:22.273Z"
+  "_ts": "2026-07-21T12:21:25.268Z"
 }
