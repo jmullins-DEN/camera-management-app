@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784635927702891",
+      "board": "YfVHuM3X87v",
+      "driver": "Martin Kenley",
+      "driverId": "41440425-8dcd-43ff-a21e-c60958e5e90d",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "70 in 55",
+      "ts": 1784635927702,
+      "synced": false
+    },
+    {
       "id": "L1784635826636942",
       "board": "YfVHuM3X87v",
       "driver": "Odas Higginbotham",
@@ -15780,5 +15793,5 @@
     "5a1bdd1b-7bf1-42b9-ac11-37a462d1c048",
     "105141ea-bb70-4fb0-abad-48f6bfe2d330"
   ],
-  "_ts": "2026-07-21T12:10:30.202Z"
+  "_ts": "2026-07-21T12:12:07.737Z"
 }
