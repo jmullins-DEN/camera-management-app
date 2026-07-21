@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1581107294; following too close; vehicle # AN 106",
       "ts": 1784592592595,
-      "synced": false
+      "synced": true,
+      "infItemId": "960fdf0e-ceaf-45e0-8a5e-ee6aa9db2d6f",
+      "syncError": null
     },
     {
       "id": "L178459253460639",
@@ -17512,7 +17514,8 @@
     "bf2211ef-a396-45fc-9a8c-03e8b7fa9aa5",
     "06e82bb2-1d10-466d-ba6f-c8b5c55f2f1a",
     "3d414ca6-8284-4446-bb44-2a2286fa659d",
-    "00c8350f-4d70-46e9-8c3b-66f92ecc1137"
+    "00c8350f-4d70-46e9-8c3b-66f92ecc1137",
+    "960fdf0e-ceaf-45e0-8a5e-ee6aa9db2d6f"
   ],
-  "_ts": "2026-07-21T00:09:52.634Z"
+  "_ts": "2026-07-21T00:09:56.394Z"
 }
