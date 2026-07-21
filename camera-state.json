@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784636742053926",
+      "board": "ebSND1QoyBs",
+      "driver": "Kevin Richardson",
+      "driverId": "0f1a0453-155c-4403-9447-f2985948f8f5",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "hard brake; near miss",
+      "ts": 1784636742053,
+      "synced": false
+    },
+    {
       "id": "L1784636691032265",
       "board": "ebSND1QoyBs",
       "driver": "Sebastion Franco",
@@ -14240,5 +14253,5 @@
     "6ab8173e-c2f5-4c06-91a7-c648c4545c8f",
     "1a48e7ca-4a70-42c8-8e38-ec02aeed9575"
   ],
-  "_ts": "2026-07-21T12:24:53.354Z"
+  "_ts": "2026-07-21T12:25:42.085Z"
 }
