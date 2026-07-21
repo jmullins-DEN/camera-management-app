@@ -278,7 +278,9 @@
       "coaching": "System Alert",
       "notes": "Alert 6164916074; camera unsecured; driver unassigned; vehicle-unassigned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4c470d7d-5a2f-44e8-8197-68b28cb48b77.mp4",
       "ts": 1784593104644,
-      "synced": false
+      "synced": true,
+      "infItemId": "8fc23c3e-7fe1-4343-8321-c947be9ca42a",
+      "syncError": null
     },
     {
       "id": "L1784592981018268",
@@ -16871,7 +16873,8 @@
     "dbac25fa-2a9f-4bcc-b546-66925c68dfa4",
     "68d634c9-9dcf-4c2b-8e1a-f0a923fae351",
     "57a0f8be-93a7-4c6b-9921-f7f964431098",
-    "bb463851-1e2a-4979-b628-f56cd04b3d8a"
+    "bb463851-1e2a-4979-b628-f56cd04b3d8a",
+    "8fc23c3e-7fe1-4343-8321-c947be9ca42a"
   ],
-  "_ts": "2026-07-21T00:18:24.682Z"
+  "_ts": "2026-07-21T00:18:28.916Z"
 }
