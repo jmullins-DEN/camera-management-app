@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784592745239634",
+      "board": "ioWX9hneUsk",
+      "driver": "Julio Mendoza",
+      "driverId": "019ce77c-8a80-744b-ad6c-b732fb4236e9",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1239179351833083904; 74 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dfef5d9b-d0a4-4991-81d4-10e165ca43a7.mp4",
+      "ts": 1784592745239,
+      "synced": true,
+      "infItemId": "68d634c9-9dcf-4c2b-8e1a-f0a923fae351",
+      "syncError": null
+    },
+    {
       "id": "L1784592679180717",
       "board": "ioWX9hneUsk",
       "driver": "Ray Pena",
@@ -16796,7 +16811,8 @@
     "3d414ca6-8284-4446-bb44-2a2286fa659d",
     "00c8350f-4d70-46e9-8c3b-66f92ecc1137",
     "960fdf0e-ceaf-45e0-8a5e-ee6aa9db2d6f",
-    "dbac25fa-2a9f-4bcc-b546-66925c68dfa4"
+    "dbac25fa-2a9f-4bcc-b546-66925c68dfa4",
+    "68d634c9-9dcf-4c2b-8e1a-f0a923fae351"
   ],
-  "_ts": "2026-07-21T00:11:23.832Z"
+  "_ts": "2026-07-21T00:12:26.985Z"
 }
