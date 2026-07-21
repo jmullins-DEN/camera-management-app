@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784661403372759",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Adam Wright",
+      "driverId": "8f07542f-02e2-4aa9-90b4-8ab3e2c25ba7",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-21",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995757668-1784655995970\nStop  Sign Violation; Face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/10727db2-7ccc-4663-9d5c-8bd3fb0daec7.mp4",
+      "ts": 1784661403372,
+      "synced": false
+    },
+    {
       "id": "L1784661190548794",
       "board": "AKJSkJj6Ch4",
       "driver": "Michael Colvin",
@@ -15205,5 +15218,5 @@
     "37f20b9d-4730-4665-b45e-9e87ab47b075",
     "9524c1db-b261-4e55-afb7-e2b1f51d0e12"
   ],
-  "_ts": "2026-07-21T19:13:14.030Z"
+  "_ts": "2026-07-21T19:16:43.409Z"
 }
