@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784636482236549",
+      "board": "YJNwKvzFhkj",
+      "driver": "Travarius Walker",
+      "driverId": "019de579-ea85-70e1-ad00-c45e5e6209d6",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "lane violation",
+      "ts": 1784636482236,
+      "synced": false
+    },
+    {
       "id": "L1784636105269564",
       "board": "xMfRLnqAN7y",
       "driver": "Oscar Herrera",
@@ -15212,5 +15225,5 @@
     "038b7c3f-3812-45c3-9f34-ad687c911d39",
     "81306bba-1ebc-4aa5-8ca5-26c19d7d4da3"
   ],
-  "_ts": "2026-07-21T12:18:15.869Z"
+  "_ts": "2026-07-21T12:21:22.273Z"
 }
