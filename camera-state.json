@@ -278,7 +278,9 @@
       "coaching": "System Alert",
       "notes": "camera obscured; hand held phone",
       "ts": 1784636691032,
-      "synced": false
+      "synced": true,
+      "infItemId": "1a48e7ca-4a70-42c8-8e38-ec02aeed9575",
+      "syncError": null
     },
     {
       "id": "L1784636624857299",
@@ -14235,7 +14237,8 @@
     "038b7c3f-3812-45c3-9f34-ad687c911d39",
     "81306bba-1ebc-4aa5-8ca5-26c19d7d4da3",
     "7f0bbd39-27ea-4af0-b2a0-3f2995cc4fa4",
-    "6ab8173e-c2f5-4c06-91a7-c648c4545c8f"
+    "6ab8173e-c2f5-4c06-91a7-c648c4545c8f",
+    "1a48e7ca-4a70-42c8-8e38-ec02aeed9575"
   ],
-  "_ts": "2026-07-21T12:24:51.072Z"
+  "_ts": "2026-07-21T12:24:53.354Z"
 }
