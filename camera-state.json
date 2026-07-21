@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784636624857299",
+      "board": "ebSND1QoyBs",
+      "driver": "KARVELL OLIVER",
+      "driverId": "66820273-3d66-474d-b1fd-a0498b80b8d3",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "72 in 45",
+      "ts": 1784636624857,
+      "synced": false
+    },
+    {
       "id": "L1784636482236549",
       "board": "YJNwKvzFhkj",
       "driver": "Travarius Walker",
@@ -14208,5 +14221,5 @@
     "81306bba-1ebc-4aa5-8ca5-26c19d7d4da3",
     "7f0bbd39-27ea-4af0-b2a0-3f2995cc4fa4"
   ],
-  "_ts": "2026-07-21T12:22:53.430Z"
+  "_ts": "2026-07-21T12:23:44.890Z"
 }
