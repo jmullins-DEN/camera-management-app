@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a5e4d6580313a5cf5e8ea79 this comes up as seatbelt but it is phone also in traffic ",
       "ts": 1784638594800,
-      "synced": false
+      "synced": true,
+      "infItemId": "a46f082d-77ad-462b-9435-c7a145d36944",
+      "syncError": null
     },
     {
       "id": "L1784638507966709",
@@ -18364,7 +18366,8 @@
     "6ab8173e-c2f5-4c06-91a7-c648c4545c8f",
     "1a48e7ca-4a70-42c8-8e38-ec02aeed9575",
     "32b53932-c5db-4c4d-b488-36da9ead6683",
-    "bd255287-eb53-4395-812a-01f5f07f2e16"
+    "bd255287-eb53-4395-812a-01f5f07f2e16",
+    "a46f082d-77ad-462b-9435-c7a145d36944"
   ],
-  "_ts": "2026-07-21T12:56:34.837Z"
+  "_ts": "2026-07-21T12:56:37.981Z"
 }
