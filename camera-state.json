@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178463543577315",
+      "board": "XVLVu2Du8hc",
+      "driver": "Kyle Curtis",
+      "driverId": "019a0810-437c-7aae-88b4-7ddb6f8af72b",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "77 in 45",
+      "ts": 1784635435773,
+      "synced": false
+    },
+    {
       "id": "L1784635332343657",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Stoner",
@@ -16179,5 +16192,5 @@
     "a26b002d-7b2c-4f55-9dee-42b90be1cc83",
     "47e10ebc-cab5-47ca-82e1-2debca77e78a"
   ],
-  "_ts": "2026-07-21T12:02:15.014Z"
+  "_ts": "2026-07-21T12:03:55.810Z"
 }
