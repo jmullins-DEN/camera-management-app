@@ -278,7 +278,9 @@
       "coaching": "Critical Event",
       "notes": "77 in 45",
       "ts": 1784635435773,
-      "synced": false
+      "synced": true,
+      "infItemId": "f70e6bc2-8336-4162-b418-8a204272c2a1",
+      "syncError": null
     },
     {
       "id": "L1784635332343657",
@@ -16190,7 +16192,8 @@
     "cf54919d-a7d2-407f-8727-40d8b66d4114",
     "1014aee1-441b-46c6-8891-78a87a377dd8",
     "a26b002d-7b2c-4f55-9dee-42b90be1cc83",
-    "47e10ebc-cab5-47ca-82e1-2debca77e78a"
+    "47e10ebc-cab5-47ca-82e1-2debca77e78a",
+    "f70e6bc2-8336-4162-b418-8a204272c2a1"
   ],
-  "_ts": "2026-07-21T12:03:55.810Z"
+  "_ts": "2026-07-21T12:03:58.083Z"
 }
