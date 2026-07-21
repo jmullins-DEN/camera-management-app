@@ -305,8 +305,8 @@
       "date": "2026-07-20",
       "reviewed": "2026-07-21",
       "behavior": "Following Distance",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 1580488482; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/aa1f3985-e478-40be-bbf8-61cd4a4b62a0.mp4",
+      "coaching": "Face to Face",
+      "notes": "Alert 1580488482; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/aa1f3985-e478-40be-bbf8-61cd4a4b62a0.mp4",
       "ts": 1784592114358,
       "synced": true,
       "infItemId": "27eb07ba-533a-4d58-8406-90804d397c6f",
@@ -17405,5 +17405,5 @@
     "f0db9161-c3f9-4320-b1c5-6c84b3350c41",
     "4337a3fa-6683-4cd6-8521-2915ab22ce8d"
   ],
-  "_ts": "2026-07-21T00:03:29.534Z"
+  "_ts": "2026-07-21T00:03:33.438Z"
 }
