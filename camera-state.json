@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784636691032265",
+      "board": "ebSND1QoyBs",
+      "driver": "Sebastion Franco",
+      "driverId": "7e2ef07c-00b0-457c-b11b-76ee6938e0bd",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera obscured; hand held phone",
+      "ts": 1784636691032,
+      "synced": false
+    },
+    {
       "id": "L1784636624857299",
       "board": "ebSND1QoyBs",
       "driver": "KARVELL OLIVER",
@@ -14224,5 +14237,5 @@
     "7f0bbd39-27ea-4af0-b2a0-3f2995cc4fa4",
     "6ab8173e-c2f5-4c06-91a7-c648c4545c8f"
   ],
-  "_ts": "2026-07-21T12:23:47.327Z"
+  "_ts": "2026-07-21T12:24:51.072Z"
 }
