@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784593104644290",
+      "board": "ioWX9hneUsk",
+      "driver": "unassigned",
+      "driverId": "9669c94a-0fb2-4153-ba7d-4cab706d1837",
+      "date": "2026-07-20",
+      "reviewed": "2026-07-21",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Alert 6164916074; camera unsecured; driver unassigned; vehicle-unassigned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4c470d7d-5a2f-44e8-8197-68b28cb48b77.mp4",
+      "ts": 1784593104644,
+      "synced": false
+    },
+    {
       "id": "L1784592981018268",
       "board": "ioWX9hneUsk",
       "driver": "Alexis Vega",
@@ -16860,5 +16873,5 @@
     "57a0f8be-93a7-4c6b-9921-f7f964431098",
     "bb463851-1e2a-4979-b628-f56cd04b3d8a"
   ],
-  "_ts": "2026-07-21T00:16:23.268Z"
+  "_ts": "2026-07-21T00:18:24.682Z"
 }
