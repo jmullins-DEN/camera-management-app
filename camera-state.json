@@ -278,7 +278,9 @@
       "coaching": "Critical Event",
       "notes": "Possible Drowsiness; Hard Brake",
       "ts": 1784660651310,
-      "synced": false
+      "synced": true,
+      "infItemId": "e7ab6bf5-3135-4474-ba70-809e7f446f81",
+      "syncError": null
     },
     {
       "id": "L1784660560728270",
@@ -15946,7 +15948,8 @@
     "3228831d-7f93-4aff-b270-b39e20cc0091",
     "dbae9391-57c4-4826-9621-97cdbe20f6b1",
     "d2569e9b-c375-4ed3-a698-009cb3160a9e",
-    "dda4235c-f711-4875-b6a7-a15ed6663757"
+    "dda4235c-f711-4875-b6a7-a15ed6663757",
+    "e7ab6bf5-3135-4474-ba70-809e7f446f81"
   ],
-  "_ts": "2026-07-21T19:04:11.340Z"
+  "_ts": "2026-07-21T19:04:13.986Z"
 }
