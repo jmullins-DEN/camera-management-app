@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784760372189620",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Josh Dobney",
+      "driverId": "019ef636-b886-763b-bb8f-e38427e5bbb7",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995831300-1784736081971\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f8c36851-b395-4d51-8a3f-fe0c8b1dcfc2.mp4",
+      "ts": 1784760372189,
+      "synced": true,
+      "infItemId": "a49085a4-f665-44ac-b0bf-52d44bc1ec01",
+      "syncError": null
+    },
+    {
       "id": "L1784760175397993",
       "board": "AKJSkJj6Ch4",
       "driver": "Joey Bybee",
@@ -22027,7 +22042,8 @@
     "2b1d04d5-bf07-4e47-a251-bc947b9c025c",
     "c78fd420-f9b8-4924-8d9f-b0d7ffbdf447",
     "fa48284a-3984-44ad-a1a5-a9f2c91cb853",
-    "ae7e9684-ed3e-47dd-a79b-bf142c388751"
+    "ae7e9684-ed3e-47dd-a79b-bf142c388751",
+    "a49085a4-f665-44ac-b0bf-52d44bc1ec01"
   ],
-  "_ts": "2026-07-22T22:42:57.733Z"
+  "_ts": "2026-07-22T22:46:14.957Z"
 }
