@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6177946767\nRed Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ac8bd7c-ec62-4c17-8b43-396c6824a2a1.mp4",
       "ts": 1784762161867,
-      "synced": false
+      "synced": true,
+      "infItemId": "9881facb-66d1-4c3a-82ad-055dd9a354bd",
+      "syncError": null
     },
     {
       "id": "L1784762031383728",
@@ -22136,7 +22138,8 @@
     "d4dde99e-441e-4ab1-b79b-bddda9489431",
     "304f84e2-2e8f-4072-916b-97083f1e0f94",
     "f95a9821-f014-40dd-8c1b-01c2fd541ced",
-    "a0dca9bc-9d86-4dd1-80ad-5379b8401cb8"
+    "a0dca9bc-9d86-4dd1-80ad-5379b8401cb8",
+    "9881facb-66d1-4c3a-82ad-055dd9a354bd"
   ],
-  "_ts": "2026-07-22T23:16:01.903Z"
+  "_ts": "2026-07-22T23:16:05.381Z"
 }
