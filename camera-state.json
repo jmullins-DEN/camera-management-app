@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784723830700977",
+      "board": "MZerRFmhSHa",
+      "driver": "Jon Fellers",
+      "driverId": "7c309f39-1e87-4fd6-ac4e-6563a422b65e",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6171686403; rolling stop \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3e0169f5-67f0-49d1-822b-ab55cdb91eb5.mp4",
+      "ts": 1784723830701,
+      "synced": false
+    },
+    {
       "id": "L1784723748769234",
       "board": "MZerRFmhSHa",
       "driver": "Jon Fellers",
@@ -20859,5 +20872,5 @@
     "6c5a8a03-9869-41b9-977d-3c31c9147816",
     "1b3659d2-81a5-4791-94c7-3929916c3f22"
   ],
-  "_ts": "2026-07-22T12:35:51.351Z"
+  "_ts": "2026-07-22T12:37:10.743Z"
 }
