@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784726462563891",
+      "board": "ebSND1QoyBs",
+      "driver": "John Boerger",
+      "driverId": "2c91226d-ff75-4682-8176-cd97361ce342",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera blocked",
+      "ts": 1784726462563,
+      "synced": false
+    },
+    {
       "id": "L1784726416225135",
       "board": "ebSND1QoyBs",
       "driver": "Misteer Greene",
@@ -14442,5 +14455,5 @@
     "f7a9707a-be66-430d-b8cf-685c65411562",
     "ff9d37f3-15c6-41c6-9d21-7d0ceeecc51c"
   ],
-  "_ts": "2026-07-22T13:20:19.272Z"
+  "_ts": "2026-07-22T13:21:02.600Z"
 }
