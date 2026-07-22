@@ -278,7 +278,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6171356328:  Truck # 170992  Hand Held Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9f80cc5a-d38a-4646-91b1-db3764168e34.mp4",
       "ts": 1784719739136,
-      "synced": false
+      "synced": true,
+      "infItemId": "8ca49955-b368-470f-9b52-1717253bb251",
+      "syncError": null
     },
     {
       "id": "L1784719430057658",
@@ -19521,7 +19523,8 @@
     "551c2543-09b1-4ad1-ac0e-2ed06306b6e1",
     "4749ff8f-8e2d-4581-908a-02f57bf472ad",
     "01a08530-3d44-4589-98d5-8202dbf3f4a5",
-    "5f94f5b2-8a93-4834-9490-8221beaedb1d"
+    "5f94f5b2-8a93-4834-9490-8221beaedb1d",
+    "8ca49955-b368-470f-9b52-1717253bb251"
   ],
-  "_ts": "2026-07-22T11:28:59.207Z"
+  "_ts": "2026-07-22T11:29:01.731Z"
 }
