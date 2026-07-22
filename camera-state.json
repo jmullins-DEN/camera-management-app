@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784719893915359",
+      "board": "kQeF7EsAnVz",
+      "driver": "Alejandro Soto",
+      "driverId": "04eb544e-5897-4561-a5e0-abd2389e9da7",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6171404981:  Hand Held Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/300549f2-5dc0-441b-9049-fc670104185c.mp4",
+      "ts": 1784719893915,
+      "synced": false
+    },
+    {
       "id": "L1784719739136525",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -19526,5 +19539,5 @@
     "5f94f5b2-8a93-4834-9490-8221beaedb1d",
     "8ca49955-b368-470f-9b52-1717253bb251"
   ],
-  "_ts": "2026-07-22T11:29:01.731Z"
+  "_ts": "2026-07-22T11:31:33.976Z"
 }
