@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784730556855756",
+      "board": "9RKrQRpDLcr",
+      "driver": "Adam Johnson",
+      "driverId": "53dd3c8a-6ea8-4c98-bec0-6a61811c70a8",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Hard Brake/ Distracted",
+      "ts": 1784730556855,
+      "synced": false
+    },
+    {
       "id": "L1784730474725586",
       "board": "9RKrQRpDLcr",
       "driver": "Adam Johnson",
@@ -278,7 +291,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding",
       "ts": 1784730474725,
-      "synced": false
+      "synced": true,
+      "infItemId": "136edcc0-96d4-4c5f-b3ca-c3a4a06cbc45",
+      "syncError": null
     },
     {
       "id": "L1784730387621404",
@@ -19776,7 +19791,8 @@
     "d5893441-172b-43e8-99b4-b2687e7e59b4",
     "4bea4b43-8074-4c0d-87be-9f3553f5cfd1",
     "63c18f41-7da6-4688-be58-077ddbcff045",
-    "cba9f2ef-d415-47d8-a109-a6725b222e8d"
+    "cba9f2ef-d415-47d8-a109-a6725b222e8d",
+    "136edcc0-96d4-4c5f-b3ca-c3a4a06cbc45"
   ],
-  "_ts": "2026-07-22T14:27:54.763Z"
+  "_ts": "2026-07-22T14:29:16.887Z"
 }
