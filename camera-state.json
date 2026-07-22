@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L178476182493916",
+      "board": "ic6o6QgzpVM",
+      "driver": "Gonzales, Edgar",
+      "driverId": "019abaac-b46a-7998-b535-41973fa8d994",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6178752005\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7776e36e-f9b2-4c2c-97d6-3f505b55e01e.mp4",
+      "ts": 1784761824939,
+      "synced": false
+    },
+    {
+      "id": "L178476161797524",
+      "board": "ic6o6QgzpVM",
+      "driver": "Reyna, Oscar",
+      "driverId": "019b3716-02f6-777d-9a41-ee887d873d4a",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6180789474\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bd09f5e5-bb0f-4ccd-81c1-1c2d16a6d07e.mp4",
+      "ts": 1784761617975,
+      "synced": true,
+      "infItemId": "304f84e2-2e8f-4072-916b-97083f1e0f94",
+      "syncError": null
+    },
+    {
       "id": "L1784761470795848",
       "board": "ic6o6QgzpVM",
       "driver": "De La Garza, Beto",
@@ -22075,7 +22103,8 @@
     "ae7e9684-ed3e-47dd-a79b-bf142c388751",
     "a49085a4-f665-44ac-b0bf-52d44bc1ec01",
     "16de3517-37a3-464b-8ce9-3f900e5bfe3c",
-    "d4dde99e-441e-4ab1-b79b-bddda9489431"
+    "d4dde99e-441e-4ab1-b79b-bddda9489431",
+    "304f84e2-2e8f-4072-916b-97083f1e0f94"
   ],
-  "_ts": "2026-07-22T23:04:34.456Z"
+  "_ts": "2026-07-22T23:10:24.971Z"
 }
