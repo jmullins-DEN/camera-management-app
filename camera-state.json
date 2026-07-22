@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784762161867897",
+      "board": "ic6o6QgzpVM",
+      "driver": "Prisciliano, Aldair",
+      "driverId": "019ab5bd-dd02-7005-a05e-5aef4bd33f33",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6177946767\nRed Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ac8bd7c-ec62-4c17-8b43-396c6824a2a1.mp4",
+      "ts": 1784762161867,
+      "synced": false
+    },
+    {
       "id": "L1784762031383728",
       "board": "ic6o6QgzpVM",
       "driver": "Gonzales, Edgar",
@@ -22125,5 +22138,5 @@
     "f95a9821-f014-40dd-8c1b-01c2fd541ced",
     "a0dca9bc-9d86-4dd1-80ad-5379b8401cb8"
   ],
-  "_ts": "2026-07-22T23:13:54.743Z"
+  "_ts": "2026-07-22T23:16:01.903Z"
 }
