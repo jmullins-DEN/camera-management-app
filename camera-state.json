@@ -278,7 +278,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 419622677; passing in a no passing zone/railroad tracks; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b9b5691d-fc0e-484d-8ba3-7497a205caac.mp4\n",
       "ts": 1784750587166,
-      "synced": false
+      "synced": true,
+      "infItemId": "2a3e9d68-f1fe-4152-90b3-abb5ce4438ed",
+      "syncError": null
     },
     {
       "id": "L1784750289848116",
@@ -21418,7 +21420,8 @@
     "80438d73-ee8d-4fae-a321-226f9198f9f2",
     "fb350380-de51-4bd1-8c2e-7e779017dfc9",
     "26d0a753-a517-4855-9030-f43f23b94223",
-    "f2952004-5532-462e-877b-8b2154e223b4"
+    "f2952004-5532-462e-877b-8b2154e223b4",
+    "2a3e9d68-f1fe-4152-90b3-abb5ce4438ed"
   ],
-  "_ts": "2026-07-22T20:03:07.206Z"
+  "_ts": "2026-07-22T20:03:11.092Z"
 }
