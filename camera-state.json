@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784718949934210",
+      "board": "KYqKJWuumPm",
+      "driver": "Paul Grenier",
+      "driverId": "019dd5ff-ef9d-726c-8233-8d3e067a0e84",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980701050-1784655106195: Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/334a291b-f01c-4c3d-8694-86a6f053c40c.mp4",
+      "ts": 1784718949935,
+      "synced": false
+    },
+    {
       "id": "L1784680188273301",
       "board": "7W2SQKrNcXQ",
       "driver": "Bill Mayville",
@@ -19821,5 +19834,5 @@
     "7562f030-80e8-4db2-9237-6d0398f464a0",
     "10402726-127d-4caa-9b3d-f081fdfba198"
   ],
-  "_ts": "2026-07-22T11:10:57.719Z"
+  "_ts": "2026-07-22T11:15:50.001Z"
 }
