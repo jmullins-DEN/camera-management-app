@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784758860739482",
+      "board": "8gejhhHJj4e",
+      "driver": "John Kinney",
+      "driverId": "019b0e57-4d1b-7ddc-8d9d-b1294631231d",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Increase Following Distance\nFace to Face",
+      "ts": 1784758860739,
+      "synced": false
+    },
+    {
       "id": "L1784758794498868",
       "board": "8gejhhHJj4e",
       "driver": "Francisco Lambar",
@@ -278,7 +291,9 @@
       "coaching": "Face to Face",
       "notes": "Stop Sign Violation\n",
       "ts": 1784758794498,
-      "synced": false
+      "synced": true,
+      "infItemId": "37aa0d19-b80e-4dc6-a324-143b0060d4fa",
+      "syncError": null
     },
     {
       "id": "L1784758603806258",
@@ -21832,7 +21847,8 @@
     "f85e089c-1882-4350-ae50-66d38363c91b",
     "e02d4e01-bf28-481d-9b96-bb2f52a6060d",
     "074e843a-1dc3-46ae-b676-6335f825422d",
-    "5e792d1f-a051-4700-b7d6-7d09d986d82e"
+    "5e792d1f-a051-4700-b7d6-7d09d986d82e",
+    "37aa0d19-b80e-4dc6-a324-143b0060d4fa"
   ],
-  "_ts": "2026-07-22T22:19:54.537Z"
+  "_ts": "2026-07-22T22:21:00.775Z"
 }
