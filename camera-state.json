@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784759927077879",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Manny Rodenberg",
+      "driverId": "86532fab-197e-45ce-96a0-2f766a877d42",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995756588-1784754349472\nHard Brake ; Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e5be414c-fcaa-4e99-b9a6-cb07f327104b.mp4",
+      "ts": 1784759927077,
+      "synced": true,
+      "infItemId": "c78fd420-f9b8-4924-8d9f-b0d7ffbdf447",
+      "syncError": null
+    },
+    {
       "id": "L1784759689208147",
       "board": "8gejhhHJj4e",
       "driver": "William Esslinger",
@@ -21979,7 +21994,8 @@
     "76ef4fee-2516-494e-ac78-64f2010cb247",
     "a5d6ba18-3550-4fa3-89f4-c0666abe1a8d",
     "c19a0666-7bb3-4d13-9b65-5be5eee3bbe1",
-    "2b1d04d5-bf07-4e47-a251-bc947b9c025c"
+    "2b1d04d5-bf07-4e47-a251-bc947b9c025c",
+    "c78fd420-f9b8-4924-8d9f-b0d7ffbdf447"
   ],
-  "_ts": "2026-07-22T22:34:51.369Z"
+  "_ts": "2026-07-22T22:38:49.141Z"
 }
