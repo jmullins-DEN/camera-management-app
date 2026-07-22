@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-21-wire-panhandle-express'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-07-22-writeonly-dedupe'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -1241,13 +1241,16 @@ async function refreshBoard(bid,opts){
   }catch(e){ console.error('refresh failed',e); toast('Could not reach the server','⚠'); return; }
   if(!d||!d.ok||!d.board){ toast('Refresh failed'+(d&&d.error?': '+d.error:''),'⚠'); return; }
   const rec=d.board; rec._refreshedAt=new Date().toISOString();
+  // WRITE-ONLY: never import Infinity EVENTS into the app. Now that events are entered only in
+  // DENvision (never by hand in Infinity), the local queue (LS.local) is the single source of
+  // truth for events. We still refresh the DRIVER ROSTER so the picker stays current, but we
+  // freeze the event history at whatever was last pulled and never ingest new Infinity rows —
+  // that closes the pull-in / push-back-out duplicate vector at the source.
+  const prev=LS.refreshed[bid];
+  rec.events=(prev&&Array.isArray(prev.events))?prev.events:[];
   applyBoardRecord(rec);
   const cache=LS.refreshed; cache[bid]=rec; LS.refreshed=cache;
-  // drop local queued events now mirrored from Infinity (synced + their item is in the fresh pull)
-  const liveItems=new Set((rec.events||[]).map(e=>e.item).filter(Boolean));
-  const kept=LS.local.filter(e=>!(e.board===bid && e.synced && e.infItemId && liveItems.has(e.infItemId)));
-  if(kept.length!==LS.local.length){ LS.local=kept; pushState(true); } // mirror the trim to the shared queue
-  toast(`${b.name} refreshed — ${(rec.drivers||[]).length} drivers, ${(rec.events||[]).length} events`);
+  toast(`${b.name} refreshed — ${(rec.drivers||[]).length} drivers`);
   if(screen==='entry'&&ctx.board===bid){ b._rosterLoaded=false; }
   render();
 }
@@ -1308,7 +1311,7 @@ async function pushEventBack(ev,opts){
   const stamp=(patch)=>{ const arr=LS.local, i=arr.findIndex(x=>x.id===ev.id); if(i>=0){ Object.assign(arr[i],patch); LS.local=arr; pushState(true); } };
   try{
     // retry-safe: if the item was already created on a prior attempt, skip creation and resume at the driver link
-    let itemId=ev.infItemId;
+    let itemId=ev.infItemId, deduped=false;
     if(!itemId){
       const values=[];
       const blab=wb.behavior_labels[ev.behavior]; if(blab) values.push({attribute_id:wb.behavior_attr,data:[blab]});
@@ -1325,12 +1328,18 @@ async function pushEventBack(ev,opts){
       // shadow so the dashboard can read it back (the API can't read the ref off
       // the event). The roster reference itself is linked after create, below.
       if(dmode==='reference' && wb.driver_name_attr && ev.driver) values.push({attribute_id:wb.driver_name_attr,data:ev.driver});
-      const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values});
+      // server-side idempotency key: the attrs that identify this event (date/behavior/driver/video).
+      // The worker skips creation and returns the existing item if one already matches — so a re-push
+      // (lost local state, a second device, a re-run) can never create a duplicate Infinity row.
+      const driverKeyAttr=(dmode==='reference')?wb.driver_name_attr:wb.driver_attr;
+      const dedupe_on=[wb.date_attr,wb.behavior_attr,driverKeyAttr,wb.link_attr].filter(Boolean);
+      const res=await apiPost('/item',{board:ev.board,folder_id:wb.cam_folder,values,dedupe_on,dedupe_since:ev.date||null});
       if(!res.ok||!(res.item&&res.item.id)) throw new Error('item '+(res.status||'')+' '+JSON.stringify(res.item||res.error||''));
-      itemId=res.item.id;
+      itemId=res.item.id; deduped=!!res.deduped; // deduped = worker matched an existing item, nothing new created
       stamp({infItemId:itemId}); // record immediately so a later failure can't duplicate the item
     }
-    if((wb.driver_type||'reference')==='reference' && ev.driverId){
+    // skip the reference link when deduped — the existing item already has its driver linked
+    if(!deduped && (wb.driver_type||'reference')==='reference' && ev.driverId){
       const rf=await apiPost('/reference',{board:ev.board,attribute_id:wb.driver_ref_attr,from_item_id:itemId,to_item_id:ev.driverId});
       if(!rf.ok) throw new Error('reference '+(rf.status||''));
     }
@@ -1418,8 +1427,10 @@ function eventsFor(id){
   const b=boardById(id); if(!b) return [];
   const wb=!!wbFor(id);
   const enteredSet=new Set(LS.entered);
-  const inf=(b.events||[]).map(e=>({...e,board:id,source:'infinity',itemId:e.item||null}));
   const loc=LS.local.filter(e=>e.board===id).map(e=>({...e,source:'local',itemId:e.infItemId||null}));
+  // never show an event twice: if we hold it locally (our own write), drop the frozen Infinity mirror twin
+  const localItemIds=new Set(loc.map(e=>e.itemId).filter(Boolean));
+  const inf=(b.events||[]).filter(e=>!(e.item&&localItemIds.has(e.item))).map(e=>({...e,board:id,source:'infinity',itemId:e.item||null}));
   return [...loc,...inf].map(e=>{
     const ours = !!(e.itemId && (enteredSet.has(e.itemId) || (e.source==='local'&&e.synced)));
     return {...e, ours, editable: ours && wb};
@@ -1470,14 +1481,12 @@ function trendInfo(bid,driverName,behavior,asOf){
 /* ---------- router ---------- */
 let screen='customers', ctx={};
 function go(s,c){ screen=s; ctx=c||{}; render(); }
-// Open a company's Event Entry screen AND immediately pull it fresh from Infinity.
-// The refresh trims this board's already-synced events out of the local queue
-// (refreshBoard drops synced events confirmed in the live pull) and replaces the
-// roster/events with Infinity's authoritative copy — so switching companies or
-// re-opening entry always starts from Infinity, not stale local state.
+// Open a company's Event Entry screen AND refresh its DRIVER ROSTER from Infinity.
+// Write-only: refreshBoard pulls the roster (so the picker is current) but never
+// imports Infinity events — the local queue stays the source of truth for events.
 function enterBoard(bid){
   go('entry',{board:bid});                 // render from cache instantly
-  if(bid) refreshBoard(bid,{quiet:true});  // then pull fresh + clear synced queue for this company
+  if(bid) refreshBoard(bid,{quiet:true});  // then refresh this company's roster
 }
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>go(b.dataset.screen));
 function render(){
@@ -1504,7 +1513,7 @@ function viewCustomers(){
       <td><div class="logo-cell" title="Click to set logo" style="cursor:pointer" onclick="setLogo('${b.board}')">${logo}</div></td>
       <td><div style="display:flex;align-items:center;gap:8px">
         <div><b>${esc(b.name)}</b></div>
-        <button class="sm" title="Pull this board's latest drivers & events from Infinity" onclick="refreshBoard('${b.board}')">↻ Refresh</button>
+        <button class="sm" title="Pull this board's latest drivers from Infinity (events are write-only — never pulled in)" onclick="refreshBoard('${b.board}')">↻ Refresh</button>
       </div></td>
       <td><span class="pill ${tcls}">${b.driver_type||'?'}</span></td>
       <td class="right">${(b.drivers||[]).length}</td>
@@ -1764,7 +1773,7 @@ function viewEntry(){
           <label class="f">Customer board</label>
           <select onchange="enterBoard(this.value)">${opts}</select>
         </div>
-        <button class="sm" style="margin-bottom:1px" title="Pull this board's latest drivers & events from Infinity" onclick="refreshBoard('${bid}')">↻ Refresh</button>
+        <button class="sm" style="margin-bottom:1px" title="Pull this board's latest drivers from Infinity (events are write-only — never pulled in)" onclick="refreshBoard('${bid}')">↻ Refresh</button>
       </div>
     </div>
     <div class="grid2">
