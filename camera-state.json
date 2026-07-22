@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "labeled as Camera Obstruction; hand held phone",
       "ts": 1784726569763,
-      "synced": false
+      "synced": true,
+      "infItemId": "d8ff3ac6-a0d8-40a3-a14c-ace6ff83e7f8",
+      "syncError": null
     },
     {
       "id": "L1784726528213428",
@@ -14501,7 +14503,8 @@
     "ff9d37f3-15c6-41c6-9d21-7d0ceeecc51c",
     "bc41f096-259e-431e-8e7a-9dbc758e690c",
     "45bdc259-dc2c-4230-81a4-9d20981aaaf6",
-    "1289fd65-36cd-495e-9651-09b4c3895c3f"
+    "1289fd65-36cd-495e-9651-09b4c3895c3f",
+    "d8ff3ac6-a0d8-40a3-a14c-ace6ff83e7f8"
   ],
-  "_ts": "2026-07-22T13:22:49.803Z"
+  "_ts": "2026-07-22T13:22:52.272Z"
 }
