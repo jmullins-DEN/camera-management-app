@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784761470795848",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6181753598\nFollowing Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f75e00b4-df67-4b55-b8d8-92f5c090524a.mp4",
+      "ts": 1784761470795,
+      "synced": false
+    },
+    {
       "id": "L1784760489751862",
       "board": "AKJSkJj6Ch4",
       "driver": "Michael Colvin",
@@ -22061,5 +22074,5 @@
     "a49085a4-f665-44ac-b0bf-52d44bc1ec01",
     "16de3517-37a3-464b-8ce9-3f900e5bfe3c"
   ],
-  "_ts": "2026-07-22T22:48:13.679Z"
+  "_ts": "2026-07-22T23:04:30.830Z"
 }
