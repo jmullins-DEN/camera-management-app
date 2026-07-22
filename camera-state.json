@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6170728071: No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0c726326-26d9-4fb5-bde5-180c00dafeac.mp4",
       "ts": 1784719430057,
-      "synced": false
+      "synced": true,
+      "infItemId": "5f94f5b2-8a93-4834-9490-8221beaedb1d",
+      "syncError": null
     },
     {
       "id": "L1784719200479740",
@@ -19505,7 +19507,8 @@
     "10402726-127d-4caa-9b3d-f081fdfba198",
     "551c2543-09b1-4ad1-ac0e-2ed06306b6e1",
     "4749ff8f-8e2d-4581-908a-02f57bf472ad",
-    "01a08530-3d44-4589-98d5-8202dbf3f4a5"
+    "01a08530-3d44-4589-98d5-8202dbf3f4a5",
+    "5f94f5b2-8a93-4834-9490-8221beaedb1d"
   ],
-  "_ts": "2026-07-22T11:23:50.116Z"
+  "_ts": "2026-07-22T11:23:53.676Z"
 }
