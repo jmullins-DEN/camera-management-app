@@ -278,7 +278,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 6170914941; backward camera blocked;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4f084e09-1459-4b10-b1b9-8b6fe9230e53.mp4",
       "ts": 1784723748769,
-      "synced": false
+      "synced": true,
+      "infItemId": "1b3659d2-81a5-4791-94c7-3929916c3f22",
+      "syncError": null
     },
     {
       "id": "L1784723611244773",
@@ -20854,7 +20856,8 @@
     "6bbad6ea-48de-4b0d-95a4-5a3c990f5068",
     "d68ba5cb-0e92-4dde-aba2-854ba14cedf6",
     "8bcd9159-7d72-4aab-9c48-710c0a3bb74a",
-    "6c5a8a03-9869-41b9-977d-3c31c9147816"
+    "6c5a8a03-9869-41b9-977d-3c31c9147816",
+    "1b3659d2-81a5-4791-94c7-3929916c3f22"
   ],
-  "_ts": "2026-07-22T12:35:48.812Z"
+  "_ts": "2026-07-22T12:35:51.351Z"
 }
