@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784750587165394",
+      "board": "5gVKeGRDf8U",
+      "driver": "Mason Douglas",
+      "driverId": "2f919a72-90f9-496e-ac9d-1bb31eb29372",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 419622677; passing in a no passing zone/railroad tracks; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b9b5691d-fc0e-484d-8ba3-7497a205caac.mp4\n",
+      "ts": 1784750587166,
+      "synced": false
+    },
+    {
       "id": "L1784750289848116",
       "board": "7W2SQKrNcXQ",
       "driver": "Daniel Rios",
@@ -21407,5 +21420,5 @@
     "26d0a753-a517-4855-9030-f43f23b94223",
     "f2952004-5532-462e-877b-8b2154e223b4"
   ],
-  "_ts": "2026-07-22T20:02:15.709Z"
+  "_ts": "2026-07-22T20:03:07.206Z"
 }
