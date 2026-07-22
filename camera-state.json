@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784725387247666",
+      "board": "ioWX9hneUsk",
+      "driver": "unassigned",
+      "driverId": "9669c94a-0fb2-4153-ba7d-4cab706d1837",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1582098596; following too close; vehicle #673\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7f99fed4-8c53-4763-9097-7d4681e9f2f0.mp4",
+      "ts": 1784725387247,
+      "synced": true,
+      "infItemId": "72191a26-5a5d-4d40-a144-1b00dae35694",
+      "syncError": null
+    },
+    {
       "id": "L1784725270029129",
       "board": "ioWX9hneUsk",
       "driver": "Mike Moreno",
@@ -17951,7 +17966,8 @@
     "8aef1dff-4c41-4ed9-a4d4-784622c8db0b",
     "52d78d35-ca83-4929-b0c3-b4f6588eadb2",
     "ce9c9f31-8476-4d2e-a20f-6ed615510960",
-    "dbdb989a-f82b-425a-bfdb-12947667504f"
+    "dbdb989a-f82b-425a-bfdb-12947667504f",
+    "72191a26-5a5d-4d40-a144-1b00dae35694"
   ],
-  "_ts": "2026-07-22T13:01:13.066Z"
+  "_ts": "2026-07-22T13:03:09.281Z"
 }
