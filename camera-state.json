@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake/ Distracted",
       "ts": 1784730556855,
-      "synced": false
+      "synced": true,
+      "infItemId": "c83585a6-0dfb-444c-ac21-9ca27cead31f",
+      "syncError": null
     },
     {
       "id": "L1784730474725586",
@@ -19792,7 +19794,8 @@
     "4bea4b43-8074-4c0d-87be-9f3553f5cfd1",
     "63c18f41-7da6-4688-be58-077ddbcff045",
     "cba9f2ef-d415-47d8-a109-a6725b222e8d",
-    "136edcc0-96d4-4c5f-b3ca-c3a4a06cbc45"
+    "136edcc0-96d4-4c5f-b3ca-c3a4a06cbc45",
+    "c83585a6-0dfb-444c-ac21-9ca27cead31f"
   ],
-  "_ts": "2026-07-22T14:29:16.887Z"
+  "_ts": "2026-07-22T14:29:19.365Z"
 }
