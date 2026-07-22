@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784760175397993",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joey Bybee",
+      "driverId": "6ef40755-ac1b-4acc-9407-af1efbd1de3a",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-22",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995718521-1784748158325\nFollowing Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/68bd0237-6789-4328-b1b8-49c56dac4473.mp4",
+      "ts": 1784760175397,
+      "synced": true,
+      "infItemId": "ae7e9684-ed3e-47dd-a79b-bf142c388751",
+      "syncError": null
+    },
+    {
       "id": "L1784760032501132",
       "board": "AKJSkJj6Ch4",
       "driver": "Kenny Mayfield",
@@ -22011,7 +22026,8 @@
     "c19a0666-7bb3-4d13-9b65-5be5eee3bbe1",
     "2b1d04d5-bf07-4e47-a251-bc947b9c025c",
     "c78fd420-f9b8-4924-8d9f-b0d7ffbdf447",
-    "fa48284a-3984-44ad-a1a5-a9f2c91cb853"
+    "fa48284a-3984-44ad-a1a5-a9f2c91cb853",
+    "ae7e9684-ed3e-47dd-a79b-bf142c388751"
   ],
-  "_ts": "2026-07-22T22:40:34.816Z"
+  "_ts": "2026-07-22T22:42:57.733Z"
 }
