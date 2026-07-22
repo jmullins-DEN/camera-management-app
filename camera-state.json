@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784719739136525",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6171356328:  Truck # 170992  Hand Held Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9f80cc5a-d38a-4646-91b1-db3764168e34.mp4",
+      "ts": 1784719739136,
+      "synced": false
+    },
+    {
       "id": "L1784719430057658",
       "board": "kQeF7EsAnVz",
       "driver": "Miguel Mora",
@@ -19510,5 +19523,5 @@
     "01a08530-3d44-4589-98d5-8202dbf3f4a5",
     "5f94f5b2-8a93-4834-9490-8221beaedb1d"
   ],
-  "_ts": "2026-07-22T11:23:53.676Z"
+  "_ts": "2026-07-22T11:28:59.207Z"
 }
