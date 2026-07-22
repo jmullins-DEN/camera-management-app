@@ -268,6 +268,49 @@
   },
   "local": [
     {
+      "id": "L1784725270029129",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1239681904312221696; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5bcbe3db-9473-42e4-a486-f68227a48bcc.mp4",
+      "ts": 1784725270029,
+      "synced": false
+    },
+    {
+      "id": "L1784725236041613",
+      "board": "ioWX9hneUsk",
+      "driver": "Eli",
+      "driverId": "019dba65-8d60-72bb-b1c5-01717b6707ff",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1239685781841412096; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1a2cf25c-916c-442c-b974-9c347239debe.mp4",
+      "ts": 1784725236041,
+      "synced": true,
+      "infItemId": "ce9c9f31-8476-4d2e-a20f-6ed615510960",
+      "syncError": null
+    },
+    {
+      "id": "L1784725154157335",
+      "board": "ioWX9hneUsk",
+      "driver": "Julio Mendoza",
+      "driverId": "019ce77c-8a80-744b-ad6c-b732fb4236e9",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1239614901182431233; rolling stop\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b41ed3e8-3d8e-4d59-be17-b649972bb791.mp4",
+      "ts": 1784725154157,
+      "synced": true,
+      "infItemId": "52d78d35-ca83-4929-b0c3-b4f6588eadb2",
+      "syncError": null
+    },
+    {
       "id": "L1784725104552430",
       "board": "ioWX9hneUsk",
       "driver": "Mike Moreno",
@@ -278,7 +321,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1239602467428270080; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0df3e5f0-7656-4f8f-8d2d-0338115fe12c.mp4",
       "ts": 1784725104552,
-      "synced": false
+      "synced": true,
+      "infItemId": "8aef1dff-4c41-4ed9-a4d4-784622c8db0b",
+      "syncError": null
     },
     {
       "id": "L1784725060101831",
@@ -17900,7 +17945,10 @@
     "977f44d5-1600-438d-a3d2-b9c672e4f8ef",
     "34fad6fc-e677-4e7e-8a4c-c8ceafc5170a",
     "6aaa700e-438d-49ee-ad0a-671dbcf81f23",
-    "720d4d62-416d-45f4-88b6-bf7dfc17cb7a"
+    "720d4d62-416d-45f4-88b6-bf7dfc17cb7a",
+    "8aef1dff-4c41-4ed9-a4d4-784622c8db0b",
+    "52d78d35-ca83-4929-b0c3-b4f6588eadb2",
+    "ce9c9f31-8476-4d2e-a20f-6ed615510960"
   ],
-  "_ts": "2026-07-22T12:58:24.589Z"
+  "_ts": "2026-07-22T13:01:10.064Z"
 }
