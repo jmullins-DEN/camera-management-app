@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784726308191148",
+      "board": "YJNwKvzFhkj",
+      "driver": "Alpherd Jones",
+      "driverId": "019f268c-e7f1-7271-8005-bee54018a5f1",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close; passing too close",
+      "ts": 1784726308191,
+      "synced": false
+    },
+    {
       "id": "L1784726242263322",
       "board": "YJNwKvzFhkj",
       "driver": "DeErick Powe",
@@ -278,7 +291,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1784726242263,
-      "synced": false
+      "synced": true,
+      "infItemId": "9588661b-6eff-4a3e-8ad5-67677cee2c41",
+      "syncError": null
     },
     {
       "id": "L1784726118433969",
@@ -15470,7 +15485,8 @@
     "a65effd6-25a2-4500-a38d-dd8cfb83ea9c",
     "cd2da514-3f8e-429f-8662-4d047e52402e",
     "e2a84ff5-065a-41e1-a73d-f1e37762aea2",
-    "1c074432-c2a8-4ddb-a69b-ed6c0de33fb4"
+    "1c074432-c2a8-4ddb-a69b-ed6c0de33fb4",
+    "9588661b-6eff-4a3e-8ad5-67677cee2c41"
   ],
-  "_ts": "2026-07-22T13:17:22.296Z"
+  "_ts": "2026-07-22T13:18:28.224Z"
 }
