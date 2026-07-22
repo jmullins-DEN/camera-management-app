@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1784725595075286",
+      "board": "XVLVu2Du8hc",
+      "driver": "William Burch",
+      "driverId": "019d2ff7-d3fe-7776-a7f6-1f3a8e56c41b",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "82 in 65",
+      "ts": 1784725595075,
+      "synced": true,
+      "infItemId": "e032d392-81bd-44c9-8ec5-73a932805001",
+      "syncError": null
+    },
+    {
       "id": "L1784725560259587",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -16575,7 +16590,8 @@
     "72191a26-5a5d-4d40-a144-1b00dae35694",
     "5b066518-cbc4-4ba2-b8af-d7e1bdbf6e9a",
     "15c77dad-f8f1-438e-857d-2eaec48fdeff",
-    "cd760294-0634-41ab-82b9-34c9cd55fedc"
+    "cd760294-0634-41ab-82b9-34c9cd55fedc",
+    "e032d392-81bd-44c9-8ec5-73a932805001"
   ],
-  "_ts": "2026-07-22T13:06:02.269Z"
+  "_ts": "2026-07-22T13:06:37.606Z"
 }
