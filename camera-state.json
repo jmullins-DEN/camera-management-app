@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784758091717457",
+      "board": "8gejhhHJj4e",
+      "driver": "Michael Quintana",
+      "driverId": "5d1f12cd-bf52-4f36-8e56-6a57df702312",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1784758091717,
+      "synced": false
+    },
+    {
       "id": "L1784752230390203",
       "board": "7W2SQKrNcXQ",
       "driver": "Juan Napoles",
@@ -21725,5 +21738,5 @@
     "2a3e9d68-f1fe-4152-90b3-abb5ce4438ed",
     "333ca308-4eb4-4efc-b798-9b1c027d5017"
   ],
-  "_ts": "2026-07-22T21:59:05.983Z"
+  "_ts": "2026-07-22T22:08:11.759Z"
 }
