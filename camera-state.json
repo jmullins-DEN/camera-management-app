@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1784730229611133",
+      "board": "9RKrQRpDLcr",
+      "driver": "Thomas Neff III",
+      "driverId": "bc3a13e2-3010-49de-9d4f-9923ee1f5af0",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1784730229611,
+      "synced": false
+    },
+    {
+      "id": "L1784730193491665",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jesus Carbajal",
+      "driverId": "cbe1d163-e372-4df5-a323-002f7ff54199",
+      "date": "2026-07-21",
+      "reviewed": "2026-07-22",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1784730193491,
+      "synced": true,
+      "infItemId": "d5893441-172b-43e8-99b4-b2687e7e59b4",
+      "syncError": null
+    },
+    {
       "id": "L1784730145993848",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -19699,7 +19727,8 @@
     "c7cb07db-a8c3-4668-98e9-a4ef04d8d89a",
     "0d89cbe6-ba4a-494d-a0fd-007c2b0aa4c7",
     "c72e4319-826e-40fd-89c6-35ce9ffbe460",
-    "d8e0d91b-04d5-46a5-9ab5-3f7d44790ae3"
+    "d8e0d91b-04d5-46a5-9ab5-3f7d44790ae3",
+    "d5893441-172b-43e8-99b4-b2687e7e59b4"
   ],
-  "_ts": "2026-07-22T14:22:28.657Z"
+  "_ts": "2026-07-22T14:23:49.644Z"
 }
