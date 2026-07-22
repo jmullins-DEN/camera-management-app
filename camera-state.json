@@ -838,36 +838,6 @@
       "syncError": null
     },
     {
-      "id": "L1784723611244773",
-      "board": "8BUntjK1TqV",
-      "driver": "Smith, William",
-      "driverId": "a770d1e8-621d-4db7-bc8b-1475d03c4263",
-      "date": "2026-07-21",
-      "reviewed": "2026-07-22",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6172307064; 72 in 55\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5b1824ee-93b6-4a75-9712-2144237ea890.mp4\n",
-      "ts": 1784723611244,
-      "synced": true,
-      "infItemId": "6c5a8a03-9869-41b9-977d-3c31c9147816",
-      "syncError": null
-    },
-    {
-      "id": "L1784723536101626",
-      "board": "8BUntjK1TqV",
-      "driver": "Lockhart, Devin",
-      "driverId": "019f6c90-ae4a-7144-8077-bda912f164fe",
-      "date": "2026-07-21",
-      "reviewed": "2026-07-22",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6174000394; 60 in 50\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3e7525bb-c503-4c74-a5ef-9b1305c014be.mp4\n",
-      "ts": 1784723536101,
-      "synced": true,
-      "infItemId": "da9d6465-9d71-4280-b755-492457845de6",
-      "syncError": null
-    },
-    {
       "id": "L1784721556817276",
       "board": "UKkbYDchPMh",
       "driver": "Hubert (Butch) Bradley",
@@ -2038,36 +2008,6 @@
       "syncError": null
     },
     {
-      "id": "L178463452380495",
-      "board": "8BUntjK1TqV",
-      "driver": "Alejandre, Nestor",
-      "driverId": "cf57fad8-b9cf-437d-9ea1-98cb2cabbcdd",
-      "date": "2026-07-20",
-      "reviewed": "2026-07-21",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Face to Face",
-      "notes": "\nAlert 6166263456; multi-tasking; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a24aa9ab-9ce6-4c9f-aa78-16b21cd36bd1.mp4\n",
-      "ts": 1784634523804,
-      "synced": true,
-      "infItemId": "d4daec29-9e8a-4625-846e-011c75ee6a8f",
-      "syncError": null
-    },
-    {
-      "id": "L178463430776253",
-      "board": "8BUntjK1TqV",
-      "driver": "Smith, William",
-      "driverId": "a770d1e8-621d-4db7-bc8b-1475d03c4263",
-      "date": "2026-07-20",
-      "reviewed": "2026-07-21",
-      "behavior": "Hard Brake / Turn",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6164767048; hard brake; lane violation; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bd333146-682b-47d1-84bf-6fa8d641ae81.mp4",
-      "ts": 1784634307762,
-      "synced": true,
-      "infItemId": "091d0c16-7564-4a55-a39d-4a1514844aae",
-      "syncError": null
-    },
-    {
       "id": "L1784634220549387",
       "board": "kQeF7EsAnVz",
       "driver": "Alejandro Soto",
@@ -2080,51 +2020,6 @@
       "ts": 1784634220549,
       "synced": true,
       "infItemId": "99ec07cc-9015-495b-8a65-7d44d8b86b89",
-      "syncError": null
-    },
-    {
-      "id": "L1784634202448141",
-      "board": "8BUntjK1TqV",
-      "driver": "Alejandre, Nestor",
-      "driverId": "cf57fad8-b9cf-437d-9ea1-98cb2cabbcdd",
-      "date": "2026-07-20",
-      "reviewed": "2026-07-21",
-      "behavior": "Seat Belt",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6164409390; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0c27cf9a-943c-4b0b-b2e6-0ca7b0920249.mp4",
-      "ts": 1784634202448,
-      "synced": true,
-      "infItemId": "2301cfc3-4fe0-4e2b-867a-df2b9435de44",
-      "syncError": null
-    },
-    {
-      "id": "L1784634147373683",
-      "board": "8BUntjK1TqV",
-      "driver": "Rubio, Carlos",
-      "driverId": "2cec491e-d17f-45c1-90a1-3179ca087cf9",
-      "date": "2026-07-20",
-      "reviewed": "2026-07-21",
-      "behavior": "Driver Distraction-Cab",
-      "coaching": "Coaching Notes",
-      "notes": "Alert 6164176929; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/923610ae-c3f2-4f46-b330-39194a7cb249.mp4",
-      "ts": 1784634147373,
-      "synced": true,
-      "infItemId": "d8b580e2-5684-4ac4-a5ed-452124877cb7",
-      "syncError": null
-    },
-    {
-      "id": "L1784634000896126",
-      "board": "8BUntjK1TqV",
-      "driver": "Mahan, Jeffrey",
-      "driverId": "633efa67-1c45-4641-b4f7-db8811abb8a3",
-      "date": "2026-07-20",
-      "reviewed": "2026-07-21",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "\nAlert 6163408594; driver drowsy; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/26733a7d-bd77-4fe8-9e37-f5a69a6b63d1.mp4",
-      "ts": 1784634000896,
-      "synced": true,
-      "infItemId": "f8fb1eea-48e7-4a0c-a557-52d4e40a9638",
       "syncError": null
     },
     {
@@ -5080,21 +4975,6 @@
       "ts": 1784289900394,
       "synced": true,
       "infItemId": "3ee5e0c6-a65d-4424-871a-3f0e1bf15058",
-      "syncError": null
-    },
-    {
-      "id": "L1784289138334728",
-      "board": "8BUntjK1TqV",
-      "driver": "Salazar, Hipolito",
-      "driverId": "35683c74-a732-484b-b2f1-045dc10adc45",
-      "date": "2026-07-16",
-      "reviewed": "2026-07-17",
-      "behavior": "Speeding",
-      "coaching": "Face to Face",
-      "notes": "\nAlert 6141607571; 77 in 70\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7faa7a8e-0aee-4c51-b557-85af67c11b72.mp4\n",
-      "ts": 1784289138334,
-      "synced": true,
-      "infItemId": "38a87ac4-52e4-4c57-b9d2-dda8b47d01d4",
       "syncError": null
     },
     {
@@ -9028,21 +8908,6 @@
       "syncError": null
     },
     {
-      "id": "L1784040151687531",
-      "board": "8BUntjK1TqV",
-      "driver": "Rodriguez, Ricardo",
-      "driverId": "019ead82-79c2-748d-894b-5aae384d7322",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "\nAlert 6124754459; driver drowsy/ multi-tasking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7e475583-c71b-4e17-8c23-f42b32fcdab9.mp4\n",
-      "ts": 1784040151687,
-      "synced": true,
-      "infItemId": "e959491c-4e7a-4901-b747-f0c0b92740a5",
-      "syncError": null
-    },
-    {
       "id": "L1784040113648723",
       "board": "qnESNLC3JPR",
       "driver": "Adam Anglin",
@@ -9058,36 +8923,6 @@
       "syncError": null
     },
     {
-      "id": "L1784040081334266",
-      "board": "8BUntjK1TqV",
-      "driver": "Martinez, Domingo",
-      "driverId": "fb71d638-1be8-4f27-a9f4-3e412507118f",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6122639640; 64 in 55\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d1bb8b4f-4a68-4dcc-a950-e5dba9ac26ed.mp4\n",
-      "ts": 1784040081334,
-      "synced": true,
-      "infItemId": "0ccee65d-8078-42a2-951a-b72661b61146",
-      "syncError": null
-    },
-    {
-      "id": "L1784039753165543",
-      "board": "8BUntjK1TqV",
-      "driver": "Rodriguez, Daniel",
-      "driverId": "caab1b59-816a-49eb-a048-f9194c5fc898",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Drowsy Driving",
-      "coaching": "Critical Event",
-      "notes": "\nAlert 6121423578; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3e57d7c3-f7ee-4ece-a40f-959cdd76df55.mp4\n",
-      "ts": 1784039753165,
-      "synced": true,
-      "infItemId": "7562f030-80e8-4db2-9237-6d0398f464a0",
-      "syncError": null
-    },
-    {
       "id": "L1784039720838317",
       "board": "7d53dL31ioV",
       "driver": "FRIEND, SAMUEL A",
@@ -9100,21 +8935,6 @@
       "ts": 1784039720838,
       "synced": true,
       "infItemId": "b84db497-59ab-4a55-a1a8-8b939dfa46f5",
-      "syncError": null
-    },
-    {
-      "id": "L1784039405638478",
-      "board": "8BUntjK1TqV",
-      "driver": "Salazar, Hipolito",
-      "driverId": "35683c74-a732-484b-b2f1-045dc10adc45",
-      "date": "2026-07-13",
-      "reviewed": "2026-07-14",
-      "behavior": "Speeding",
-      "coaching": "Coaching Notes",
-      "notes": "\nAlert 6120801845; 79 in 70\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6195bb6a-41b7-4100-9815-b21d403959ab.mp4\n",
-      "ts": 1784039405638,
-      "synced": true,
-      "infItemId": "10402726-127d-4caa-9b3d-f081fdfba198",
       "syncError": null
     },
     {
@@ -21451,5 +21271,5 @@
     "1289fd65-36cd-495e-9651-09b4c3895c3f",
     "d8ff3ac6-a0d8-40a3-a14c-ace6ff83e7f8"
   ],
-  "_ts": "2026-07-22T13:26:11.150Z"
+  "_ts": "2026-07-22T13:26:19.379Z"
 }
