@@ -354,7 +354,8 @@
       "notes": "Increase Following Distance\n",
       "ts": 1784812845972,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "Failed to fetch",
+      "infItemId": null
     },
     {
       "id": "L1784812691043777",
@@ -23170,5 +23171,5 @@
     "4a64066a-03ca-4a23-b764-fb5cb47b2a4d",
     "d18a3137-b928-4aaa-8c91-7a7fda7995a0"
   ],
-  "_ts": "2026-07-23T14:13:14.516Z"
+  "_ts": "2026-07-23T14:13:19.446Z"
 }
