@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178481248143312",
+      "board": "8gejhhHJj4e",
+      "driver": "Brian Valencia",
+      "driverId": "fb9c97e3-bb92-4434-b0fb-63005ff4e7a9",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-23",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1784812481433,
+      "synced": false
+    },
+    {
       "id": "L1784812426802951",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -22996,5 +23009,5 @@
     "2fbd80e0-b79b-4a48-ae75-8fcbcdfa4534",
     "f22d794f-e33d-45b6-a4c4-18327db4b41f"
   ],
-  "_ts": "2026-07-23T13:13:55.021Z"
+  "_ts": "2026-07-23T13:14:41.471Z"
 }
