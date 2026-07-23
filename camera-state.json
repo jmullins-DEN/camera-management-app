@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L178481288167891",
+      "board": "UKkbYDchPMh",
+      "driver": "Jon Wright",
+      "driverId": "69f9d90c-8860-4629-8866-e8460e1f383e",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-23",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "https://app.estrack.com/#/camera/events/6a610557b59f972828ef7222",
+      "ts": 1784812881678,
+      "synced": false
+    },
+    {
       "id": "L1784812592182801",
       "board": "UKkbYDchPMh",
       "driver": "Kristopher Reasons",
@@ -23060,5 +23073,5 @@
     "4daaa530-8f90-4b21-acee-471b9ed26da9",
     "2af6c62f-7ed5-4291-bbef-c51869169e82"
   ],
-  "_ts": "2026-07-23T13:16:36.731Z"
+  "_ts": "2026-07-23T13:21:21.714Z"
 }
