@@ -278,7 +278,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 6180860603; cameras misaligned; vehicle # unassigned;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/21f6d129-80ce-48cd-8e11-70396b619554.mp4",
       "ts": 1784807117030,
-      "synced": false
+      "synced": true,
+      "infItemId": "420a22a3-a3d4-4a13-bae6-fd9c41b4786b",
+      "syncError": null
     },
     {
       "id": "L1784807017590479",
@@ -21980,7 +21982,8 @@
     "1f1ac6e7-dd99-4511-9e73-b8fe6eee425b",
     "b272354a-a195-46d6-86aa-2b2f0fb49e07",
     "ffa77926-d395-45cc-b822-84342a3cdd0a",
-    "378ed591-05d3-4da6-8cdb-b328692ec963"
+    "378ed591-05d3-4da6-8cdb-b328692ec963",
+    "420a22a3-a3d4-4a13-bae6-fd9c41b4786b"
   ],
-  "_ts": "2026-07-23T11:45:17.072Z"
+  "_ts": "2026-07-23T11:45:19.869Z"
 }
