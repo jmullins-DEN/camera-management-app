@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784806915812356",
+      "board": "8BUntjK1TqV",
+      "driver": "unassigned",
+      "driverId": "3111c34f-9af4-4713-a299-41121dca9bbd",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-23",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6177116430; inattentive; possible phone; vehicle #4182\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3583d11a-51c2-4e3c-9f1d-8066b29307c4.mp4",
+      "ts": 1784806915812,
+      "synced": false
+    },
+    {
       "id": "L178480684353346",
       "board": "8BUntjK1TqV",
       "driver": "Badillo, Derek",
@@ -21937,5 +21950,5 @@
     "1f1ac6e7-dd99-4511-9e73-b8fe6eee425b",
     "b272354a-a195-46d6-86aa-2b2f0fb49e07"
   ],
-  "_ts": "2026-07-23T11:40:46.860Z"
+  "_ts": "2026-07-23T11:41:55.856Z"
 }
