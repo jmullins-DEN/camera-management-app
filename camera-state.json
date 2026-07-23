@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474983617430-1784750697067: Distracted Driver Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f9c84026-b58b-4644-bf9d-8dd96917ed09.mp4",
       "ts": 1784774198746,
-      "synced": false
+      "synced": true,
+      "infItemId": "433af540-ce00-41f6-9b65-9021c51c6d65",
+      "syncError": null
     },
     {
       "id": "L1784762161867897",
@@ -22287,7 +22289,8 @@
     "304f84e2-2e8f-4072-916b-97083f1e0f94",
     "f95a9821-f014-40dd-8c1b-01c2fd541ced",
     "a0dca9bc-9d86-4dd1-80ad-5379b8401cb8",
-    "9881facb-66d1-4c3a-82ad-055dd9a354bd"
+    "9881facb-66d1-4c3a-82ad-055dd9a354bd",
+    "433af540-ce00-41f6-9b65-9021c51c6d65"
   ],
-  "_ts": "2026-07-23T02:36:38.808Z"
+  "_ts": "2026-07-23T02:36:41.386Z"
 }
