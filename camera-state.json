@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784808105794866",
+      "board": "XVLVu2Du8hc",
+      "driver": "Blair Roberts",
+      "driverId": "019a0810-437c-7aae-88b4-e7dbf150856c",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-23",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "67 in 55",
+      "ts": 1784808105794,
+      "synced": false
+    },
+    {
       "id": "L1784807931421305",
       "board": "ioWX9hneUsk",
       "driver": "Alexis Vega",
@@ -22161,5 +22174,5 @@
     "05918cf9-533e-4202-8ce1-adf40e90008f",
     "8ad4f39d-00e7-43ff-b0d3-e6c90f3e427e"
   ],
-  "_ts": "2026-07-23T11:58:54.708Z"
+  "_ts": "2026-07-23T12:01:45.834Z"
 }
