@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784774198746718",
+      "board": "KYqKJWuumPm",
+      "driver": "Doug McCosh",
+      "driverId": "019dd5fe-8c6e-730e-8433-e9c1bea56420",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-23",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474983617430-1784750697067: Distracted Driver Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f9c84026-b58b-4644-bf9d-8dd96917ed09.mp4",
+      "ts": 1784774198746,
+      "synced": false
+    },
+    {
       "id": "L1784762161867897",
       "board": "ic6o6QgzpVM",
       "driver": "Prisciliano, Aldair",
@@ -22276,5 +22289,5 @@
     "a0dca9bc-9d86-4dd1-80ad-5379b8401cb8",
     "9881facb-66d1-4c3a-82ad-055dd9a354bd"
   ],
-  "_ts": "2026-07-23T02:35:14.270Z"
+  "_ts": "2026-07-23T02:36:38.808Z"
 }
