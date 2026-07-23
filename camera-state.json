@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6179127518: Hand Held Phone \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1453a8fb-00d3-44bf-b544-21d05ed77059.mp4",
       "ts": 1784775255573,
-      "synced": false
+      "synced": true,
+      "infItemId": "1f1ac6e7-dd99-4511-9e73-b8fe6eee425b",
+      "syncError": null
     },
     {
       "id": "L1784774807412535",
@@ -21916,7 +21918,8 @@
     "433af540-ce00-41f6-9b65-9021c51c6d65",
     "0ac037e9-270c-4a28-b61a-5c4b6b7176a9",
     "b12e7616-d5aa-4fad-81db-4cbcd4fa89d8",
-    "8105a3d4-f534-4160-93f0-9bbbaf058596"
+    "8105a3d4-f534-4160-93f0-9bbbaf058596",
+    "1f1ac6e7-dd99-4511-9e73-b8fe6eee425b"
   ],
-  "_ts": "2026-07-23T02:54:15.628Z"
+  "_ts": "2026-07-23T02:54:20.434Z"
 }
