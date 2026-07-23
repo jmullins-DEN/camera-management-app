@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L17848082017886",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Tanner",
+      "driverId": "019a0810-437c-7aae-88b4-dfecb414cf7f",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-23",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "78 in 55",
+      "ts": 1784808201788,
+      "synced": false
+    },
+    {
       "id": "L1784808153653331",
       "board": "XVLVu2Du8hc",
       "driver": "William Burch",
@@ -22193,5 +22206,5 @@
     "f1cd2e13-0923-4d3a-8a99-2f04affabfc9",
     "90a90598-78e9-4476-aeac-5d185c5bad15"
   ],
-  "_ts": "2026-07-23T12:02:37.008Z"
+  "_ts": "2026-07-23T12:03:21.830Z"
 }
