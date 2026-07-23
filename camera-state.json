@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784807017590479",
+      "board": "8BUntjK1TqV",
+      "driver": "Rodriguez, Ricardo",
+      "driverId": "019ead82-79c2-748d-894b-5aae384d7322",
+      "date": "2026-07-22",
+      "reviewed": "2026-07-23",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6182288466; inattentive; possible phone usage\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/affd431a-608f-453a-8945-e56db5d39eda.mp4",
+      "ts": 1784807017590,
+      "synced": false
+    },
+    {
       "id": "L1784806915812356",
       "board": "8BUntjK1TqV",
       "driver": "unassigned",
@@ -21953,5 +21966,5 @@
     "b272354a-a195-46d6-86aa-2b2f0fb49e07",
     "ffa77926-d395-45cc-b822-84342a3cdd0a"
   ],
-  "_ts": "2026-07-23T11:41:58.858Z"
+  "_ts": "2026-07-23T11:43:37.634Z"
 }
