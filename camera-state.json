@@ -353,9 +353,9 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\n",
       "ts": 1784812845972,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "ad4603d8-a48e-491b-8c3b-25099dbf53e0"
     },
     {
       "id": "L1784812691043777",
@@ -23169,7 +23169,8 @@
     "bf0d368f-f4a0-453b-a28a-288c037aace6",
     "8d5a3118-a9b3-4a79-89d9-6d0586654c93",
     "4a64066a-03ca-4a23-b764-fb5cb47b2a4d",
-    "d18a3137-b928-4aaa-8c91-7a7fda7995a0"
+    "d18a3137-b928-4aaa-8c91-7a7fda7995a0",
+    "ad4603d8-a48e-491b-8c3b-25099dbf53e0"
   ],
-  "_ts": "2026-07-23T14:13:19.446Z"
+  "_ts": "2026-07-23T14:13:22.539Z"
 }
