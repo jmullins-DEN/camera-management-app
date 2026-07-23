@@ -278,7 +278,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6177929062: Truck # 326741 Texting/Phone Distraction\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e5d857b4-2b74-4208-a6c5-b71d1ab48256.mp4",
       "ts": 1784774609924,
-      "synced": false
+      "synced": true,
+      "infItemId": "b12e7616-d5aa-4fad-81db-4cbcd4fa89d8",
+      "syncError": null
     },
     {
       "id": "L1784774348775895",
@@ -21884,7 +21886,8 @@
     "a0dca9bc-9d86-4dd1-80ad-5379b8401cb8",
     "9881facb-66d1-4c3a-82ad-055dd9a354bd",
     "433af540-ce00-41f6-9b65-9021c51c6d65",
-    "0ac037e9-270c-4a28-b61a-5c4b6b7176a9"
+    "0ac037e9-270c-4a28-b61a-5c4b6b7176a9",
+    "b12e7616-d5aa-4fad-81db-4cbcd4fa89d8"
   ],
-  "_ts": "2026-07-23T02:43:30.004Z"
+  "_ts": "2026-07-23T02:43:33.758Z"
 }
