@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784930129705180",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Kendall Mckerley",
+      "driverId": "019ac1fb-e214-744c-b3f7-a3d58286c14d",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1784930129705,
+      "synced": false
+    },
+    {
       "id": "L1784929564734233",
       "board": "9RKrQRpDLcr",
       "driver": "unassigned",
@@ -24404,5 +24417,5 @@
     "eefe5716-30ff-4506-a97c-705856aca88a",
     "b0354d3a-4f71-41b0-b161-ffad2260a16e"
   ],
-  "_ts": "2026-07-24T21:46:13.394Z"
+  "_ts": "2026-07-24T21:55:29.739Z"
 }
