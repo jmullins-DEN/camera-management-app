@@ -268,6 +268,125 @@
   },
   "local": [
     {
+      "id": "L1784902237399999",
+      "board": "YJNwKvzFhkj",
+      "driver": "DeErick Powe",
+      "driverId": "019dd5f1-4f6e-73b7-b34e-c69709a4b66b",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1784902237399,
+      "synced": true,
+      "infItemId": "dd394930-07d0-4b80-a3ed-80aed41682d6",
+      "syncError": null
+    },
+    {
+      "id": "L178490207336850",
+      "board": "xMfRLnqAN7y",
+      "driver": "Paul Hyde",
+      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking; loses lane",
+      "ts": 1784902073368,
+      "synced": true,
+      "infItemId": "aa75fa46-7252-4754-ad36-f6530d88e488",
+      "syncError": null
+    },
+    {
+      "id": "L1784901913857284",
+      "board": "YfVHuM3X87v",
+      "driver": "Richard Mire",
+      "driverId": "692796af-adb0-4839-b924-65c4e91a78fc",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1784901913857,
+      "synced": true,
+      "infItemId": "32f353d6-f1ce-44e4-9ca1-c69debad5718",
+      "syncError": null
+    },
+    {
+      "id": "L1784901664170919",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1784901664170,
+      "synced": true,
+      "infItemId": "d77efc55-b763-4aba-819d-6769e84bfab4",
+      "syncError": null
+    },
+    {
+      "id": "L1784901593421597",
+      "board": "XVLVu2Du8hc",
+      "driver": "Wesley Tallon",
+      "driverId": "019e02aa-2e61-7754-8e73-924a35b04e11",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "72 in 50",
+      "ts": 1784901593421,
+      "synced": true,
+      "infItemId": "fda31e85-d5a2-4760-b489-e8466811f7ee",
+      "syncError": null
+    },
+    {
+      "id": "L1784901533070696",
+      "board": "XVLVu2Du8hc",
+      "driver": "Moroni Holm",
+      "driverId": "019a0810-437c-7aae-88b4-81ec07855773",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1784901533070,
+      "synced": true,
+      "infItemId": "cedc2701-1b85-4be9-9aef-9cbbd10023ea",
+      "syncError": null
+    },
+    {
+      "id": "L1784901323382102",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1240360493491847168; labeled as Drowsiness; distracted; reading\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bd0d47f4-ecfc-4240-add2-efd4be108ad3.mp4\n",
+      "ts": 1784901323382,
+      "synced": false,
+      "syncError": "Failed to fetch"
+    },
+    {
+      "id": "L1784901227312883",
+      "board": "ioWX9hneUsk",
+      "driver": "Eli",
+      "driverId": "019dba65-8d60-72bb-b1c5-01717b6707ff",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1240354740387348480; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ba40b8a0-6732-4d31-8706-94cc7b0ea1b4.mp4\n",
+      "ts": 1784901227312,
+      "synced": true,
+      "infItemId": "ad765321-99bf-4c14-836f-fde5516acf33",
+      "syncError": null
+    },
+    {
       "id": "L1784901170269350",
       "board": "ioWX9hneUsk",
       "driver": "Mark Stephens",
@@ -339,7 +458,8 @@
       "notes": "Alert 1583915962; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/80f3c8c7-e257-45ee-a3c2-45cd66fc64ad.mp4",
       "ts": 1784900754471,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "Failed to fetch",
+      "infItemId": null
     },
     {
       "id": "L1784900694970256",
@@ -533,7 +653,8 @@
       "notes": "\nAlert 420459248; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/be8922b0-d5e9-496e-8434-fb6a38e45fba.mp4",
       "ts": 1784898801038,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "Failed to fetch",
+      "infItemId": null
     },
     {
       "id": "L1784898761236531",
@@ -592,7 +713,8 @@
       "notes": "\nAlert 6184996452; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1d5b9cc8-27bd-4916-a61e-90d34c9c92a1.mp4",
       "ts": 1784898567994,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "Failed to fetch",
+      "infItemId": null
     },
     {
       "id": "L1784898509419133",
@@ -24092,7 +24214,14 @@
     "2611436b-4d20-4e07-954e-aea7ac4e0acc",
     "f710fd12-4f21-4541-9288-28c7138a5fb4",
     "f8491c45-e6d3-42b9-a530-bcb091537273",
-    "33a94c6c-07d8-49bc-8fb3-cfe4440609de"
+    "33a94c6c-07d8-49bc-8fb3-cfe4440609de",
+    "ad765321-99bf-4c14-836f-fde5516acf33",
+    "cedc2701-1b85-4be9-9aef-9cbbd10023ea",
+    "fda31e85-d5a2-4760-b489-e8466811f7ee",
+    "d77efc55-b763-4aba-819d-6769e84bfab4",
+    "32f353d6-f1ce-44e4-9ca1-c69debad5718",
+    "aa75fa46-7252-4754-ad36-f6530d88e488",
+    "dd394930-07d0-4b80-a3ed-80aed41682d6"
   ],
-  "_ts": "2026-07-24T13:52:53.004Z"
+  "_ts": "2026-07-24T14:12:02.700Z"
 }
