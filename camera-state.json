@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784928646338569",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Wallace, Andrew",
+      "driverId": "0dd75953-8de9-4240-91fe-d160715484a6",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Increase Following Distance\n",
+      "ts": 1784928646338,
+      "synced": false
+    },
+    {
       "id": "L1784928534182386",
       "board": "nWRsGRSm2Hn",
       "driver": "Emery, Shane",
@@ -24260,5 +24273,5 @@
     "9310c698-1489-484a-9f70-8139c04462f7",
     "ad7cfbe1-4a48-4f42-a995-4386112d2439"
   ],
-  "_ts": "2026-07-24T21:29:01.246Z"
+  "_ts": "2026-07-24T21:30:46.375Z"
 }
