@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784900694970256",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1583879226; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c8c1630a-2a3a-42f1-931e-7abb8977e673.mp4",
+      "ts": 1784900694970,
+      "synced": false
+    },
+    {
       "id": "L1784900528585163",
       "board": "aRcazTLT9iM",
       "driver": "Nathaniel Demoss",
@@ -24000,5 +24013,5 @@
     "d0fef4ef-4628-4e7d-8757-733a3e5df7f2",
     "680281b6-74cd-4d32-b83b-7570c713a7c8"
   ],
-  "_ts": "2026-07-24T13:42:12.038Z"
+  "_ts": "2026-07-24T13:44:55.012Z"
 }
