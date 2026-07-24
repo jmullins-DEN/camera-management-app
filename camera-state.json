@@ -368,8 +368,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1240360493491847168; labeled as Drowsiness; distracted; reading\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bd0d47f4-ecfc-4240-add2-efd4be108ad3.mp4\n",
       "ts": 1784901323382,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "5594f941-2c49-4535-9244-bc01c7d18351"
     },
     {
       "id": "L1784901227312883",
@@ -24221,7 +24222,8 @@
     "d77efc55-b763-4aba-819d-6769e84bfab4",
     "32f353d6-f1ce-44e4-9ca1-c69debad5718",
     "aa75fa46-7252-4754-ad36-f6530d88e488",
-    "dd394930-07d0-4b80-a3ed-80aed41682d6"
+    "dd394930-07d0-4b80-a3ed-80aed41682d6",
+    "5594f941-2c49-4535-9244-bc01c7d18351"
   ],
-  "_ts": "2026-07-24T14:12:02.700Z"
+  "_ts": "2026-07-24T14:12:10.009Z"
 }
