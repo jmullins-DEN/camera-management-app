@@ -276,7 +276,7 @@
       "reviewed": "2026-07-24",
       "behavior": "Following Distance",
       "coaching": "Unidentified Driver",
-      "notes": "\nAlert 1583879226; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c8c1630a-2a3a-42f1-931e-7abb8977e673.mp4",
+      "notes": "Alert 1583879226; following too close; AN 108\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c8c1630a-2a3a-42f1-931e-7abb8977e673.mp4",
       "ts": 1784900694970,
       "synced": true,
       "infItemId": "af937893-50be-4e66-83b7-bd5742d95bff",
@@ -24016,5 +24016,5 @@
     "680281b6-74cd-4d32-b83b-7570c713a7c8",
     "af937893-50be-4e66-83b7-bd5742d95bff"
   ],
-  "_ts": "2026-07-24T13:44:57.948Z"
+  "_ts": "2026-07-24T13:45:09.100Z"
 }
