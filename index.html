@@ -1275,9 +1275,12 @@ async function apiDel(path,body){
 // then re-wrap — so re-saving an edited note never double-wraps. Local state keeps the clean URL.
 function linkifyNotes(text){
   if(!text) return text;
-  // Infinity longtext renders raw text (not Markdown), so leave bare URLs bare —
-  // wrapping as [url](url) makes the link show twice. Collapse any existing wraps to bare.
-  return String(text).replace(/\[(https?:\/\/[^\]\s]+)\]\((https?:\/\/[^)\s]+)\)/g,'$2');
+  // Infinity longtext DOES render Markdown links clickable — and the Infinity automation
+  // emails the Notes field verbatim, so the URL must be clickable *here* (a separate link
+  // column doesn't reach the email). Collapse any existing [url](url) first (idempotent),
+  // then re-wrap bare URLs so re-saving never double-wraps.
+  const t=String(text).replace(/\[(https?:\/\/[^\]\s]+)\]\((https?:\/\/[^)\s]+)\)/g,'$2');
+  return t.replace(/\bhttps?:\/\/[^\s<>()\]]+/g, m=>'['+m+']('+m+')');
 }
 // pull bare URLs out of a note (collapsing any [url](url) markdown first), de-duped, order preserved
 function extractUrls(text){
