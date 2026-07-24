@@ -268,6 +268,33 @@
   },
   "local": [
     {
+      "id": "L1784898660298324",
+      "board": "4rNDuSrCaap",
+      "driver": "Logan Hertel",
+      "driverId": "eb1dd260-4f84-4a4e-8aac-61850ece4268",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 420375781; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a84c1854-4019-42e2-976d-dadb9173cfc0.mp4\n",
+      "ts": 1784898660298,
+      "synced": false
+    },
+    {
+      "id": "L1784898567994741",
+      "board": "MZerRFmhSHa",
+      "driver": "Jon Fellers",
+      "driverId": "7c309f39-1e87-4fd6-ac4e-6563a422b65e",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 6184996452; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1d5b9cc8-27bd-4916-a61e-90d34c9c92a1.mp4",
+      "ts": 1784898567994,
+      "synced": false,
+      "syncError": "Failed to fetch"
+    },
+    {
       "id": "L1784898509419133",
       "board": "MZerRFmhSHa",
       "driver": "Estrada, Arrick",
@@ -23748,5 +23775,5 @@
     "e6dde22a-1ab5-45b6-ba7c-2d1629c6b1cd",
     "777382b6-472f-4282-b2ad-a20634047cdb"
   ],
-  "_ts": "2026-07-24T13:08:36.464Z"
+  "_ts": "2026-07-24T13:11:00.337Z"
 }
