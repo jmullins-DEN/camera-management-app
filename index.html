@@ -1887,25 +1887,32 @@ function refreshEntryPanels(bid){
 function resetEntry(){ ctx.driver=null; viewEntry(); }
 
 /* ---------- edit an already-entered event (green ✓) and push the change to Infinity ---------- */
-function editEvent(bid,itemId){
+async function editEvent(bid,itemId){
   const ev=eventsFor(bid).find(e=>e.itemId===itemId);
   if(!ev){ toast('Could not find that event'); return; }
   if(!ev.editable){ toast('This event isn’t live for editing yet','⚠'); return; }
+  // make sure the roster is loaded so identifying the driver has the full list to pick from
+  if(wbFor(bid) && !(boardById(bid)||{})._rosterLoaded){ toast('Loading drivers…'); await loadRoster(bid); }
   const b=boardById(bid)||{};
   const bopts=ENTRY_BEHAVIORS.map(x=>`<option ${x===ev.behavior?'selected':''}>${esc(x)}</option>`).join('');
-  // Unassigned driver ⇒ coaching is locked to Unidentified Driver (see autoCoaching)
+  // driver picker — identify a previously-Unassigned driver (or correct a mis-assignment) after entry
+  const drs=driversFor(bid);
+  if(ev.driver && !drs.some(d=>d.name===ev.driver)) drs.unshift({id:ev.driverId||null,name:ev.driver});
+  const dopts=drs.map(d=>`<option ${d.name===ev.driver?'selected':''}>${esc(d.name)}</option>`).join('');
+  // Unassigned driver ⇒ coaching is locked to Unidentified Driver (see autoCoaching); picking a named driver unlocks it
   const unassigned=!!(ev.driver && ev.driver.trim().toLowerCase()==='unassigned') && COACHING.includes('Unidentified Driver');
   const coachSel=unassigned?'Unidentified Driver':ev.coaching;
   const copts=COACHING.slice().sort((a,b)=>a.localeCompare(b)).map(x=>`<option ${x===coachSel?'selected':''}>${esc(x)}</option>`).join('');
   openModal(`
     <h2>Edit event</h2>
-    <div class="sub">${esc(b.name||'')} · <b>${esc(ev.driver||'—')}</b> — changes are written straight back to Infinity.</div>
+    <div class="sub">${esc(b.name||'')} — changes are written straight back to Infinity.</div>
+    <div class="field"><label class="f">Driver</label><select id="edDriver" onchange="editDriverPick('${bid}')">${dopts}</select></div>
     <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:4px">
       <div class="field" style="margin:0"><label class="f">Camera event date</label><input type="date" id="edDate" value="${esc(ev.date||'')}" style="width:160px"></div>
       <div class="field" style="margin:0"><label class="f">Date reviewed</label><input type="date" id="edReviewed" value="${esc(ev.reviewed||'')}" style="width:160px"></div>
     </div>
     <div class="field"><label class="f">Behavior observed</label><select id="edBehavior"><option value="">— select a behavior —</option>${bopts}</select></div>
-    <div class="field"><label class="f">Coaching needed</label><select id="edCoaching" ${unassigned?'disabled':''}><option value="">— none —</option>${copts}</select>${unassigned?`<div class="faint" style="font-size:11px;margin-top:4px">Locked to Unidentified Driver — the driver is Unassigned.</div>`:''}</div>
+    <div class="field"><label class="f">Coaching needed</label><select id="edCoaching" ${unassigned?'disabled':''}><option value="">— none —</option>${copts}</select><div id="edCoachNote" class="faint" style="font-size:11px;margin-top:4px">${unassigned?'Locked to Unidentified Driver — the driver is Unassigned. Pick a named driver to unlock this field.':''}</div></div>
     <div class="field"><label class="f">Notes</label><textarea id="edNotes" rows="3" placeholder="Optional context — paste a link if needed…">${esc(ev.notes||'')}</textarea></div>
     <div class="modal-foot" style="justify-content:space-between">
       <button onclick="confirmDeleteEvent('${bid}','${itemId}')" style="background:var(--red);border-color:var(--red);color:#fff">Delete event</button>
@@ -1914,6 +1921,20 @@ function editEvent(bid,itemId){
         <button class="primary" onclick="saveEventEdit('${bid}','${itemId}')">Save changes</button>
       </div>
     </div>`);
+}
+// picking a driver in the edit modal mirrors the entry-form lock: Unassigned ⇒ force
+// & lock Unidentified Driver; any named driver unlocks Coaching Needed so it can be set
+function editDriverPick(bid){
+  const ds=document.getElementById('edDriver'), co=document.getElementById('edCoaching'), note=document.getElementById('edCoachNote');
+  if(!ds||!co) return;
+  const unassigned=ds.value.trim().toLowerCase()==='unassigned' && COACHING.includes('Unidentified Driver');
+  if(unassigned){
+    co.value='Unidentified Driver'; co.disabled=true;
+    if(note) note.textContent='Locked to Unidentified Driver — the driver is Unassigned. Pick a named driver to unlock this field.';
+  } else {
+    if(co.disabled){ co.disabled=false; if(co.value==='Unidentified Driver') co.value=''; }
+    if(note) note.textContent='';
+  }
 }
 // Two-step delete: confirm first (entered-in-error recovery), then remove from
 // Infinity AND scrub every local trace so it can't reappear on reload/refresh.
@@ -1961,15 +1982,21 @@ function removeEventLocally(bid,itemId){
   pushState(true);
 }
 function saveEventEdit(bid,itemId){
+  const ev0=eventsFor(bid).find(e=>e.itemId===itemId)||{};
+  const drvSel=document.getElementById('edDriver');
+  const driver=drvSel?drvSel.value:ev0.driver;
   const beh=document.getElementById('edBehavior').value;
   const co=document.getElementById('edCoaching').value;
   const date=document.getElementById('edDate').value;
   const reviewed=document.getElementById('edReviewed').value;
   const notes=document.getElementById('edNotes').value;
-  const need=[[date,'edDate','Set the camera event date'],[reviewed,'edReviewed','Set the date reviewed'],
+  const need=[[driver,'edDriver','Pick the driver'],[date,'edDate','Set the camera event date'],[reviewed,'edReviewed','Set the date reviewed'],
               [beh,'edBehavior','Pick the behavior observed'],[co,'edCoaching','Pick the coaching needed']];
   for(const [val,id,msg] of need){ if(!val){ toast(msg); const el=document.getElementById(id); if(el)el.focus(); return; } }
-  const patch={behavior:beh,coaching:co,date,reviewed};
+  // resolve the roster id for the chosen driver (needed to write label/reference boards back)
+  const drec=driversFor(bid).find(d=>d.name===driver);
+  const driverId=drec?drec.id:null;
+  const patch={behavior:beh,coaching:co,date,reviewed,driver,driverId};
   if(notes) patch.notes=notes; // only set notes when non-empty so we never blank an existing note we didn't load
   // reflect the change locally right away (whichever copy of the event we hold)
   const arr=LS.local, li=arr.findIndex(e=>e.infItemId===itemId);
@@ -1978,9 +2005,9 @@ function saveEventEdit(bid,itemId){
   if(b&&Array.isArray(b.events)){ const me=b.events.find(e=>e.item===itemId); if(me) Object.assign(me,patch); }
   closeModal();
   toast('Updating event in Infinity…');
-  pushEventUpdate(bid,itemId,{behavior:beh,coaching:co,date,reviewed,notes});
+  pushEventUpdate(bid,itemId,{behavior:beh,coaching:co,date,reviewed,notes,driver,driverId,oldDriver:ev0.driver,oldDriverId:ev0.driverId});
 }
-// PUT the changed values to the existing Infinity item (driver/reference unchanged)
+// PUT the changed values to the existing Infinity item; also re-assigns the driver when it changed
 async function pushEventUpdate(bid,itemId,ev){
   const wb=wbFor(bid);
   if(!wb){ toast('This board isn’t live for write-back','⚠'); if(screen==='entry'&&ctx.board===bid) refreshEntryPanels(bid); return false; }
@@ -1992,8 +2019,29 @@ async function pushEventUpdate(bid,itemId,ev){
     if(ev.reviewed) values.push({attribute_id:wb.reviewed_attr,data:ev.reviewed});
     if(ev.notes) values.push({attribute_id:wb.notes_attr,data:linkifyNotes(ev.notes)});
     if(wb.link_attr){ const lv=linkValues(ev.notes); if(lv.length) values.push({attribute_id:wb.link_attr,data:lv}); }
+    // driver re-assignment (only when it actually changed): label rides on the item as a
+    // single-select id; text writes the name; reference writes the readable "Driver Name"
+    // shadow (the ref link itself is re-linked after the PUT, below)
+    const dmode=wb.driver_type||'reference';
+    const driverChanged=ev.driver!==undefined && ev.driver!==ev.oldDriver;
+    if(driverChanged){
+      if(dmode==='label' && ev.driverId) values.push({attribute_id:wb.driver_attr,data:[ev.driverId]});
+      else if(dmode==='text') values.push({attribute_id:wb.driver_attr,data:ev.driver});
+      else if(dmode==='reference' && wb.driver_name_attr) values.push({attribute_id:wb.driver_name_attr,data:ev.driver});
+    }
     const res=await apiPut('/item',{board:bid,item_id:itemId,values});
     if(!res.ok) throw new Error('update '+(res.status||''));
+    // reference boards: link the newly-identified driver's roster item. Only when the
+    // event had NO prior reference (e.g. was Unassigned) — Infinity can't remove a ref via
+    // this API, so re-linking over an existing one would leave two drivers on the item.
+    if(driverChanged && dmode==='reference' && ev.driverId){
+      if(!ev.oldDriverId){
+        const rf=await apiPost('/reference',{board:bid,attribute_id:wb.driver_ref_attr,from_item_id:itemId,to_item_id:ev.driverId});
+        if(!rf.ok) throw new Error('reference '+(rf.status||''));
+      } else {
+        toast('Driver name updated — re-link the Driver Roster reference in Infinity by hand','⚠');
+      }
+    }
     toast('Event updated in Infinity ✓');
     if(screen==='entry'&&ctx.board===bid) refreshEntryPanels(bid);
     return true;
