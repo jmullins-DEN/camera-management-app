@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784902346097309",
+      "board": "YJNwKvzFhkj",
+      "driver": "Christopher Cooper",
+      "driverId": "aa1ee7ec-66aa-473e-a42c-5848084ab2ab",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1784902346097,
+      "synced": false
+    },
+    {
       "id": "L1784902237399999",
       "board": "YJNwKvzFhkj",
       "driver": "DeErick Powe",
@@ -653,9 +666,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 420459248; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/be8922b0-d5e9-496e-8434-fb6a38e45fba.mp4",
       "ts": 1784898801038,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "5b30fa34-e2b7-49f2-927d-f2b5b77d139d"
     },
     {
       "id": "L1784898761236531",
@@ -24224,7 +24237,8 @@
     "aa75fa46-7252-4754-ad36-f6530d88e488",
     "dd394930-07d0-4b80-a3ed-80aed41682d6",
     "5594f941-2c49-4535-9244-bc01c7d18351",
-    "f7369bbd-27b1-461a-b2e7-3dd47bf0f6d4"
+    "f7369bbd-27b1-461a-b2e7-3dd47bf0f6d4",
+    "5b30fa34-e2b7-49f2-927d-f2b5b77d139d"
   ],
-  "_ts": "2026-07-24T14:12:18.451Z"
+  "_ts": "2026-07-24T14:12:26.336Z"
 }
