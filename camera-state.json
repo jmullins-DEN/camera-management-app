@@ -278,7 +278,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995718521-1784832338972\nStop Sign Violation; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b0a729f-896d-4f3d-b97d-ce8503538fbf.mp4",
       "ts": 1784851943807,
-      "synced": false
+      "synced": true,
+      "infItemId": "9b94c0fd-7347-4beb-8a0c-62b402510e83",
+      "syncError": null
     },
     {
       "id": "L1784851781616981",
@@ -23359,7 +23361,8 @@
     "07433ab1-961e-470a-a8d6-82430596b312",
     "0cd1c731-149c-4e8f-9ca0-ba09e121cb38",
     "fb081cdb-c262-48b1-9b29-107cf380cc88",
-    "395d350c-328e-4bb1-9d06-20a02cfa887e"
+    "395d350c-328e-4bb1-9d06-20a02cfa887e",
+    "9b94c0fd-7347-4beb-8a0c-62b402510e83"
   ],
-  "_ts": "2026-07-24T00:12:23.843Z"
+  "_ts": "2026-07-24T00:12:27.460Z"
 }
