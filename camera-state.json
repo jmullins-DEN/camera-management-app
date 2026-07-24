@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784929327809642",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jesus Carbajal",
+      "driverId": "cbe1d163-e372-4df5-a323-002f7ff54199",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1784929327809,
+      "synced": false
+    },
+    {
       "id": "L1784929252946437",
       "board": "9RKrQRpDLcr",
       "driver": "Eddie Bowden",
@@ -24356,5 +24369,5 @@
     "5d215606-ce54-4174-b8c9-66219a2a2d35",
     "6aa9a952-1529-4f88-b316-f75f521e7c73"
   ],
-  "_ts": "2026-07-24T21:40:59.034Z"
+  "_ts": "2026-07-24T21:42:07.848Z"
 }
