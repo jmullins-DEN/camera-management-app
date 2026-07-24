@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784929564734233",
+      "board": "9RKrQRpDLcr",
+      "driver": "unassigned",
+      "driverId": "d78eb603-f8fb-4d97-b3af-690cb70e5616",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Drowsy Driving",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle 685 medium\nPossible Drowsiness",
+      "ts": 1784929564734,
+      "synced": false
+    },
+    {
       "id": "L178492943958215",
       "board": "9RKrQRpDLcr",
       "driver": "Jonathan Walters",
@@ -278,7 +291,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding",
       "ts": 1784929439582,
-      "synced": false
+      "synced": true,
+      "infItemId": "eefe5716-30ff-4506-a97c-705856aca88a",
+      "syncError": null
     },
     {
       "id": "L1784929327809642",
@@ -24383,7 +24398,8 @@
     "4ce72378-f900-4a52-99de-e559696ee4a7",
     "5d215606-ce54-4174-b8c9-66219a2a2d35",
     "6aa9a952-1529-4f88-b316-f75f521e7c73",
-    "1e800eab-37d7-4661-b55c-bc0cbe72d00a"
+    "1e800eab-37d7-4661-b55c-bc0cbe72d00a",
+    "eefe5716-30ff-4506-a97c-705856aca88a"
   ],
-  "_ts": "2026-07-24T21:43:59.625Z"
+  "_ts": "2026-07-24T21:46:04.778Z"
 }
