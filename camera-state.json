@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784852732723866",
+      "board": "7d53dL31ioV",
+      "driver": "SCHULTZ, JEREMY D",
+      "driverId": "d1a5d6cf-91b2-45a8-880c-79130105ae48",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-24",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 6187573690:  Following Distance \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b1d7243f-d507-4bb3-9338-f739b80f2fab.mp4",
+      "ts": 1784852732723,
+      "synced": false
+    },
+    {
       "id": "L1784852469990784",
       "board": "kQeF7EsAnVz",
       "driver": "Miguel Mora",
@@ -23428,5 +23441,5 @@
     "9dc5b7f4-1dda-49c5-a056-19bd5dc4d628",
     "c767fb2c-8ff3-4771-aebd-0b2c69af7535"
   ],
-  "_ts": "2026-07-24T00:21:15.459Z"
+  "_ts": "2026-07-24T00:25:32.784Z"
 }
