@@ -278,7 +278,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 685 medium\nPossible Drowsiness",
       "ts": 1784929564734,
-      "synced": false
+      "synced": true,
+      "infItemId": "b0354d3a-4f71-41b0-b161-ffad2260a16e",
+      "syncError": null
     },
     {
       "id": "L178492943958215",
@@ -24399,7 +24401,8 @@
     "5d215606-ce54-4174-b8c9-66219a2a2d35",
     "6aa9a952-1529-4f88-b316-f75f521e7c73",
     "1e800eab-37d7-4661-b55c-bc0cbe72d00a",
-    "eefe5716-30ff-4506-a97c-705856aca88a"
+    "eefe5716-30ff-4506-a97c-705856aca88a",
+    "b0354d3a-4f71-41b0-b161-ffad2260a16e"
   ],
-  "_ts": "2026-07-24T21:46:04.778Z"
+  "_ts": "2026-07-24T21:46:13.394Z"
 }
