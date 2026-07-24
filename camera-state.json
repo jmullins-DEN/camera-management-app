@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1784852872126824",
+      "board": "ic6o6QgzpVM",
+      "driver": "Stephen Hails",
+      "driverId": "019e4c3d-9396-7129-95d9-dd136a99b786",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-23",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 6184734979\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/05248583-dec2-40ea-8ba3-f7bcde713bb1.mp4",
+      "ts": 1784852872126,
+      "synced": false
+    },
+    {
       "id": "L1784852791123326",
       "board": "ic6o6QgzpVM",
       "driver": "Stephen Hails",
@@ -23460,5 +23473,5 @@
     "9dc5b7f4-1dda-49c5-a056-19bd5dc4d628",
     "c87da2d9-4a42-4d71-8e4f-3a9e30a1ec6d"
   ],
-  "_ts": "2026-07-24T00:26:34.636Z"
+  "_ts": "2026-07-24T00:27:52.163Z"
 }
