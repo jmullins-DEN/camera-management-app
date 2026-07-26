@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785109726283758",
+      "board": "4rNDuSrCaap",
+      "driver": "Unassigned",
+      "driverId": "fe8cbc13-5059-44ee-b9f1-8016a337a940",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-26",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 421145958; texting; vehicle # 475\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f159359b-d8d7-4adf-9188-4c62d2e7e5e0.mp4",
+      "ts": 1785109726283,
+      "synced": false
+    },
+    {
       "id": "L1785109560314192",
       "board": "4rNDuSrCaap",
       "driver": "Chris Crofford",
@@ -24676,5 +24689,5 @@
     "7457bf1a-a89c-41ed-b47b-90a02247ae9c",
     "810385e7-1ff7-46c7-86d1-47676a3a7cfe"
   ],
-  "_ts": "2026-07-26T23:46:05.919Z"
+  "_ts": "2026-07-26T23:48:46.321Z"
 }
