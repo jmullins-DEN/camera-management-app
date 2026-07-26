@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785107114441102",
+      "board": "5gVKeGRDf8U",
+      "driver": "Allen Edwards",
+      "driverId": "0199cea6-ac5c-777d-b6cf-a65e4d88e166",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-26",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 421031481; multi-tasking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b0bd1815-8326-42a6-a0e5-11bf533f72b7.mp4",
+      "ts": 1785107114441,
+      "synced": false
+    },
+    {
       "id": "L1785107007436878",
       "board": "5gVKeGRDf8U",
       "driver": "Allen Edwards",
@@ -24532,5 +24545,5 @@
     "35a939a6-4182-42a3-a57d-e2dd86ca57c5",
     "e14844cf-8a03-46b3-8bd4-72860f1c1e7c"
   ],
-  "_ts": "2026-07-26T23:03:31.965Z"
+  "_ts": "2026-07-26T23:05:14.481Z"
 }
