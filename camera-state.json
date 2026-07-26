@@ -278,7 +278,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 421145958; texting; vehicle # 475\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f159359b-d8d7-4adf-9188-4c62d2e7e5e0.mp4",
       "ts": 1785109726283,
-      "synced": false
+      "synced": true,
+      "infItemId": "9b5b7ff0-3bc7-4ba2-94df-7bff99c87893",
+      "syncError": null
     },
     {
       "id": "L1785109560314192",
@@ -24687,7 +24689,8 @@
     "63b320d3-1eb2-4d63-a6d1-1b3e25216e19",
     "33590a1d-98f9-4e7b-ba06-ee145c575989",
     "7457bf1a-a89c-41ed-b47b-90a02247ae9c",
-    "810385e7-1ff7-46c7-86d1-47676a3a7cfe"
+    "810385e7-1ff7-46c7-86d1-47676a3a7cfe",
+    "9b5b7ff0-3bc7-4ba2-94df-7bff99c87893"
   ],
-  "_ts": "2026-07-26T23:48:46.321Z"
+  "_ts": "2026-07-26T23:48:50.958Z"
 }
