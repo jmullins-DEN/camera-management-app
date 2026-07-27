@@ -2,6 +2,19 @@
   "settings": {},
   "local": [
     {
+      "id": "L1785114012501682",
+      "board": "XVLVu2Du8hc",
+      "driver": "Moroni Holm",
+      "driverId": "019a0810-437c-7aae-88b4-81ec07855773",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "70 in 55",
+      "ts": 1785114012501,
+      "synced": false
+    },
+    {
       "id": "L1785113959906570",
       "board": "XVLVu2Du8hc",
       "driver": "TJ (Ty) Shepherd",
@@ -20,5 +33,5 @@
   "entered": [
     "56cfbe23-4c51-44fe-8bcb-dff0ddad032c"
   ],
-  "_ts": "2026-07-27T00:59:22.918Z"
+  "_ts": "2026-07-27T01:00:12.521Z"
 }
