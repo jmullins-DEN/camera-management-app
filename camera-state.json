@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1785113184772503",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1584354639; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9171fe3d-f730-4085-80cf-f61509f37c9f.mp4",
+      "ts": 1785113184772,
+      "synced": false
+    },
+    {
+      "id": "L1785112660364689",
+      "board": "ioWX9hneUsk",
+      "driver": "Mark Stephens",
+      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
+      "date": "2026-07-26",
+      "reviewed": "2026-07-27",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1241361504712949760; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a5c5194a-dfd6-47b3-b9d8-88f6398c99bd.mp4",
+      "ts": 1785112660364,
+      "synced": true,
+      "infItemId": "0d73ca23-a573-4cfb-8ed6-03e1e493c1e5",
+      "syncError": null
+    },
+    {
       "id": "L1785112511019250",
       "board": "ioWX9hneUsk",
       "driver": "Mark Stephens",
@@ -24914,7 +24942,8 @@
     "a1028f67-0e0d-42f5-b443-3ea06d6fb091",
     "6c1e0545-5bde-499f-8d64-71ffac640799",
     "333db243-3a58-415a-991b-535edbbe2baa",
-    "155411e1-5243-49f9-afaa-25e78371e351"
+    "155411e1-5243-49f9-afaa-25e78371e351",
+    "0d73ca23-a573-4cfb-8ed6-03e1e493c1e5"
   ],
-  "_ts": "2026-07-27T00:35:17.546Z"
+  "_ts": "2026-07-27T00:46:24.815Z"
 }
