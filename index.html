@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-22-writeonly-dedupe'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-07-27-logo-dedupe'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -241,11 +241,14 @@ function logoFor(id){                                  // resolve id-first, then
   if(k&&m[k]&&m[k].logo) return {logo:m[k].logo, logoZoom:m[k].logoZoom||1};
   return {logo:'', logoZoom:st.logoZoom||1};
 }
-function setLogoSetting(id,patch){                     // write per-id AND mirror to the name store
-  setSetting(id,patch);
-  const k=logoKey(id); if(!k) return;
-  const st=settingsFor(id), s=LS.s, m={...(s._logos||{})};
-  if(st.logo) m[k]={logo:st.logo, logoZoom:st.logoZoom||1}; else delete m[k];
+function setLogoSetting(id,patch){                     // heavy image lives ONCE in the name-keyed _logos store, never per-id
+  const perid={...patch}; delete perid.logo;           // keep zoom (tiny) per-id; never duplicate the base64 image per board id
+  if(Object.keys(perid).length) setSetting(id,perid);
+  const k=logoKey(id); if(!k){ setSetting(id,patch); return; } // unnamed board → fall back to per-id logo
+  const s=LS.s, m={...(s._logos||{})}, cur=m[k]||{};
+  const logo = ('logo' in patch)? patch.logo : cur.logo;
+  const zoom = (patch.logoZoom!=null)? patch.logoZoom : (cur.logoZoom!=null?cur.logoZoom:1);
+  if(logo) m[k]={logo, logoZoom:zoom}; else delete m[k];
   s._logos=m; LS.s=s; pushState();
 }
 // boards the user has hidden from the dashboard (manual "edit available boards")
@@ -1603,12 +1606,14 @@ function logoUpload(id,input){
   r.onload=()=>{
     const img=new Image();
     img.onload=()=>{
-      const max=240, scale=Math.min(1,max/Math.max(img.width,img.height));
+      const max=160, scale=Math.min(1,max/Math.max(img.width,img.height));
       const w=Math.round(img.width*scale), h=Math.round(img.height*scale);
       const c=document.createElement('canvas'); c.width=w; c.height=h;
-      c.getContext('2d').drawImage(img,0,0,w,h);
-      // PNG preserves transparency for logos; falls back fine for photos
-      let url; try{ url=c.toDataURL('image/png'); }catch(e){ url=r.result; }
+      const g=c.getContext('2d');
+      g.fillStyle='#fafbff'; g.fillRect(0,0,w,h);       // logos render on the light card bg — flatten transparency onto it
+      g.drawImage(img,0,0,w,h);
+      // JPEG on a white matte keeps each stored logo ~5KB (vs ~26KB PNG) so /state stays under the 1MB sync limit
+      let url; try{ url=c.toDataURL('image/jpeg',0.82); }catch(e){ url=r.result; }
       approveLogo(id,url);
     };
     img.onerror=()=>{ toast('Could not read that image'); };
@@ -2222,12 +2227,19 @@ function viewEvents(){
 
 // seed the name-keyed logo store from any logos already set per-id, so boards
 // whose logo predates this feature still reload after a remove/re-add.
+// De-dupe logos: the heavy base64 image must live ONCE, in the name-keyed _logos store,
+// never ALSO per board id — storing it both places doubled /state past 2MB and broke sync
+// ("network error"). Mirror any per-id logo into _logos if missing, then strip the per-id
+// copy. Only strip when we have a name to preserve it under, so an orphan is never lost.
 function backfillLogos(){
   const s=LS.s, m={...(s._logos||{})}; let changed=false;
-  for(const b of SEED.boards){
-    const st=s[b.board]; if(!st||!st.logo) continue;
-    const k=normName(b.name); if(!k||m[k]) continue;
-    m[k]={logo:st.logo, logoZoom:st.logoZoom||1}; changed=true;
+  for(const k in s){
+    if(k==='_logos'||k==='_boards'||k==='_hidden') continue;
+    const st=s[k]; if(!st||typeof st!=='object'||!st.logo) continue;
+    const b=boardById(k), nk=b?normName(b.name):'';
+    if(!nk) continue;                                   // board not loaded yet → leave per-id logo this pass
+    if(!(m[nk]&&m[nk].logo)) m[nk]={logo:st.logo, logoZoom:st.logoZoom||1};
+    delete st.logo; changed=true;                       // safely mirrored → drop the per-id duplicate
   }
   if(changed){ s._logos=m; LS.s=s; pushState(); }
 }
