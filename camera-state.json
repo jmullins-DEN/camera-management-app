@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785151956969106",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-27",
+      "behavior": "Seat Belt",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474988376823-1785015615639: Truck # 224\nNo Seat Belt/Hand Held Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dd5d9612-f247-415c-b000-5170d060e88d.mp4",
+      "ts": 1785151956969,
+      "synced": false
+    },
+    {
       "id": "L1785151676885937",
       "board": "KYqKJWuumPm",
       "driver": "Nick Mcfadin",
@@ -24451,5 +24464,5 @@
     "077f493c-f1cf-49ff-9943-8c8c7bcea76a",
     "4f6a7b23-1063-41c6-9a2f-5a3bf9f08102"
   ],
-  "_ts": "2026-07-27T11:28:14.632Z"
+  "_ts": "2026-07-27T11:32:37.033Z"
 }
