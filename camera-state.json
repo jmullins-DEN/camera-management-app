@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785115505967767",
+      "board": "YfVHuM3X87v",
+      "driver": "Brent Mellott",
+      "driverId": "5dd5859a-0dd1-4d5e-a990-952d96cbd7d9",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-27",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "70 in 55",
+      "ts": 1785115505967,
+      "synced": false
+    },
+    {
       "id": "L1785115472348395",
       "board": "YfVHuM3X87v",
       "driver": "Charles Jefride",
@@ -24132,5 +24145,5 @@
     "6fd238b3-62cd-442f-9faf-e4a7f679555e",
     "7fdecac7-a206-4815-802e-b23f4356fdc1"
   ],
-  "_ts": "2026-07-27T01:24:40.219Z"
+  "_ts": "2026-07-27T01:25:06.006Z"
 }
