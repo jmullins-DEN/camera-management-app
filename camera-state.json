@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785151342192451",
+      "board": "KYqKJWuumPm",
+      "driver": "Timothy Ferris",
+      "driverId": "019dd600-f444-7651-b440-c8f8d12fe1f6",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474996410029-1784896601314: Hand Held Device Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b92f1458-7783-49a9-a46a-6e2afd68fae8.mp4",
+      "ts": 1785151342192,
+      "synced": false
+    },
+    {
       "id": "L1785150963730427",
       "board": "KYqKJWuumPm",
       "driver": "Kevin Wilson",
@@ -24419,5 +24432,5 @@
     "3476efd1-839e-4639-8bde-af79dfb3773f",
     "db187cb9-5197-4b60-beee-34caeb609b12"
   ],
-  "_ts": "2026-07-27T11:16:07.182Z"
+  "_ts": "2026-07-27T11:22:22.261Z"
 }
