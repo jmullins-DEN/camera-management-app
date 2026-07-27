@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178517042584177",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-27",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Speeding",
+      "ts": 1785170425841,
+      "synced": false
+    },
+    {
       "id": "L1785170270583991",
       "board": "8gejhhHJj4e",
       "driver": "Luis Martinez",
@@ -25831,5 +25844,5 @@
     "7095d4bb-68b3-4628-a615-019c6b3d93f5",
     "3ca80d1f-582c-420f-bc8c-12f14001a9e4"
   ],
-  "_ts": "2026-07-27T16:37:52.671Z"
+  "_ts": "2026-07-27T16:40:25.876Z"
 }
