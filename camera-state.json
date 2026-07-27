@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178517111115768",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-27",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Hard Brake",
+      "ts": 1785171111157,
+      "synced": false
+    },
+    {
       "id": "L1785171017342618",
       "board": "8gejhhHJj4e",
       "driver": "Larry Gertson",
@@ -25927,5 +25940,5 @@
     "6f293c2c-187d-49d0-9e58-f204df126e8d",
     "af419c65-5e5e-40ee-932e-e68ab5d19c7b"
   ],
-  "_ts": "2026-07-27T16:50:19.281Z"
+  "_ts": "2026-07-27T16:51:51.185Z"
 }
