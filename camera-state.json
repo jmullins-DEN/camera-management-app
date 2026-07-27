@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785192161988105",
+      "board": "4rNDuSrCaap",
+      "driver": "Grant Betts-Norman",
+      "driverId": "019e40ff-27d9-76e0-be8a-f730ad2856af",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 421456853; multi-tasking with two hands; Grant not in Truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/68234ce0-662f-4b83-8abc-47f24167a19d.mp4",
+      "ts": 1785192161988,
+      "synced": false
+    },
+    {
       "id": "L1785191948097888",
       "board": "5gVKeGRDf8U",
       "driver": "Michael Roberts",
@@ -26295,5 +26308,5 @@
     "cab97c30-b8eb-4600-a600-4f99a0a989f3",
     "71407210-671f-4467-ac63-83ff67cc42b5"
   ],
-  "_ts": "2026-07-27T22:39:11.084Z"
+  "_ts": "2026-07-27T22:42:42.025Z"
 }
