@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785170270583991",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-27",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1785170270583,
+      "synced": false
+    },
+    {
       "id": "L1785170142295133",
       "board": "8gejhhHJj4e",
       "driver": "Aimee Roberts",
@@ -25815,5 +25828,5 @@
     "bb248afa-8bed-4b37-982c-689f777e7538",
     "7095d4bb-68b3-4628-a615-019c6b3d93f5"
   ],
-  "_ts": "2026-07-27T16:35:44.421Z"
+  "_ts": "2026-07-27T16:37:50.610Z"
 }
