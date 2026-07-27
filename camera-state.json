@@ -268,6 +268,34 @@
   },
   "local": [
     {
+      "id": "L1785113726166354",
+      "board": "8BUntjK1TqV",
+      "driver": "Ochoa, Jeremy",
+      "driverId": "019db174-a17c-72aa-bdd6-68ea3c717b44",
+      "date": "2026-07-26",
+      "reviewed": "2026-07-27",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6203506947; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9b7b5619-9130-4ec2-8b8e-702094806d9b.mp4\n",
+      "ts": 1785113726166,
+      "synced": false
+    },
+    {
+      "id": "L1785113645988497",
+      "board": "8BUntjK1TqV",
+      "driver": "Camacho, Roy",
+      "driverId": "019eb1f9-7c37-705d-9c61-e013aa53ee35",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-27",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6200377716; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9b792530-5a4e-468a-beb7-bba39c128b1b.mp4",
+      "ts": 1785113645988,
+      "synced": true,
+      "infItemId": "84cfb28a-aeba-4025-bdb1-e3b5f88ced19",
+      "syncError": null
+    },
+    {
       "id": "L1785113577297483",
       "board": "8BUntjK1TqV",
       "driver": "Rodriguez, Ricardo",
@@ -24994,7 +25022,8 @@
     "a2db7e7b-e13f-4cb7-8861-75711f4bd712",
     "8add6e10-f247-41cd-b9d7-7786f1a14493",
     "64c96ed4-3580-4156-99bd-5d8b8295c0b8",
-    "d28cfb29-e9d1-4e80-969c-37f3def8eb89"
+    "d28cfb29-e9d1-4e80-969c-37f3def8eb89",
+    "84cfb28a-aeba-4025-bdb1-e3b5f88ced19"
   ],
-  "_ts": "2026-07-27T00:53:22.745Z"
+  "_ts": "2026-07-27T00:55:26.205Z"
 }
