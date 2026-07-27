@@ -268,6 +268,21 @@
   },
   "local": [
     {
+      "id": "L1785116641198150",
+      "board": "ebSND1QoyBs",
+      "driver": "David Doney",
+      "driverId": "8769d984-cb0d-4e48-89a2-c08e5e79332f",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Sign Violation",
+      "coaching": "Critical Event",
+      "notes": "no stop; no slowdown",
+      "ts": 1785116641198,
+      "synced": true,
+      "infItemId": "3476efd1-839e-4639-8bde-af79dfb3773f",
+      "syncError": null
+    },
+    {
       "id": "L1785116602169210",
       "board": "ebSND1QoyBs",
       "driver": "John Edmonson",
@@ -278,7 +293,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close",
       "ts": 1785116602169,
-      "synced": false
+      "synced": true,
+      "infItemId": "a1aaa13d-6f63-47c2-bed9-9de5f01f7e92",
+      "syncError": null
     },
     {
       "id": "L1785116548261202",
@@ -24319,7 +24336,9 @@
     "d277d610-b533-4394-a03d-3487e2b9b2a9",
     "46f45a03-0ad6-4817-ae89-287ef20c5344",
     "82ca3074-bd52-4e93-b11c-5440aa6528a0",
-    "bee4d726-532f-4792-881a-6c0db5348dd7"
+    "bee4d726-532f-4792-881a-6c0db5348dd7",
+    "a1aaa13d-6f63-47c2-bed9-9de5f01f7e92",
+    "3476efd1-839e-4639-8bde-af79dfb3773f"
   ],
-  "_ts": "2026-07-27T01:43:22.211Z"
+  "_ts": "2026-07-27T01:48:52.810Z"
 }
