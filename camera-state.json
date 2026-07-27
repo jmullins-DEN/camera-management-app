@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995771683-1784950214952\nHard Brake/ Ran Stop Sign\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bd63b515-d7e0-4651-8410-96c2ebb746a5.mp4",
       "ts": 1785189600820,
-      "synced": false
+      "synced": true,
+      "infItemId": "eceecee2-0527-4c74-8f3c-334dd36b3b73",
+      "syncError": null
     },
     {
       "id": "L1785189471934350",
@@ -26242,7 +26244,8 @@
     "ef17b795-64b1-44c8-b268-372574737149",
     "5ca1f0ed-de1a-4e92-bd76-40bdd8756653",
     "b78c0a69-5e0c-4f79-b605-0e68a0f2a096",
-    "5869aeea-0143-433a-91d0-3164561f6887"
+    "5869aeea-0143-433a-91d0-3164561f6887",
+    "eceecee2-0527-4c74-8f3c-334dd36b3b73"
   ],
-  "_ts": "2026-07-27T22:00:00.847Z"
+  "_ts": "2026-07-27T22:00:03.158Z"
 }
