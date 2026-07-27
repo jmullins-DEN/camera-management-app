@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785171017342618",
+      "board": "8gejhhHJj4e",
+      "driver": "Larry Gertson",
+      "driverId": "ac5faa5c-6d80-44e7-9d63-848dcaa52f57",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1785171017342,
+      "synced": false
+    },
+    {
       "id": "L1785170944944271",
       "board": "8gejhhHJj4e",
       "driver": "Chad Tinklenberg",
@@ -25911,5 +25924,5 @@
     "f5234084-f918-46a9-aa36-1ea32719146e",
     "6f293c2c-187d-49d0-9e58-f204df126e8d"
   ],
-  "_ts": "2026-07-27T16:49:07.081Z"
+  "_ts": "2026-07-27T16:50:17.370Z"
 }
