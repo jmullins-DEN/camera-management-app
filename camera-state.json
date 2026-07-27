@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785168327697198",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jesus Carbajal",
+      "driverId": "cbe1d163-e372-4df5-a323-002f7ff54199",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1785168327697,
+      "synced": false
+    },
+    {
       "id": "L1785168265374769",
       "board": "9RKrQRpDLcr",
       "driver": "Jonathan Walters",
@@ -25639,5 +25652,5 @@
     "4c4b4644-4f17-4caf-b808-60c9ac370408",
     "0b9b2579-eb68-40a2-841c-eae51f0e0b98"
   ],
-  "_ts": "2026-07-27T16:04:27.588Z"
+  "_ts": "2026-07-27T16:05:27.722Z"
 }
