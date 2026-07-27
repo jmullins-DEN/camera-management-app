@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785192263742261",
+      "board": "4rNDuSrCaap",
+      "driver": "Rodney Wilborn",
+      "driverId": "a79955fb-5af1-4b9a-aba5-c97b9c42445c",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 421473857; following too close; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5421fd40-6d4f-4b09-af9e-3e0815628bd2.mp4\n",
+      "ts": 1785192263742,
+      "synced": false
+    },
+    {
       "id": "L1785192161988105",
       "board": "4rNDuSrCaap",
       "driver": "Grant Betts-Norman",
@@ -26311,5 +26324,5 @@
     "71407210-671f-4467-ac63-83ff67cc42b5",
     "2f0e43d6-5048-485e-b839-5b4ae0b7528d"
   ],
-  "_ts": "2026-07-27T22:42:44.364Z"
+  "_ts": "2026-07-27T22:44:23.776Z"
 }
