@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785114149296895",
+      "board": "XVLVu2Du8hc",
+      "driver": "Chad Smith",
+      "driverId": "019a0810-437c-7aae-88b4-7558aa34aed8",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1785114149296,
+      "synced": false
+    },
+    {
       "id": "L1785114112109986",
       "board": "XVLVu2Du8hc",
       "driver": "Jeffrey Schnippel",
@@ -23780,5 +23793,5 @@
     "6ebf7978-ac54-41b7-a6c7-f4132b24cb1c",
     "777382b6-472f-4282-b2ad-a20634047cdb"
   ],
-  "_ts": "2026-07-27T01:01:59.792Z"
+  "_ts": "2026-07-27T01:02:29.333Z"
 }
