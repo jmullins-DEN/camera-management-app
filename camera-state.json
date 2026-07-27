@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Turn ; Not slowing for Yield sign",
       "ts": 1785169619012,
-      "synced": false
+      "synced": true,
+      "infItemId": "f4248cd7-6b3a-437a-bfae-472756759bfb",
+      "syncError": null
     },
     {
       "id": "L1785169509054276",
@@ -25746,7 +25748,8 @@
     "5b62b114-30e2-41ad-92c2-8862d72b84a9",
     "b6a418bf-5d15-4246-a554-3fc18ad67ad0",
     "c4febca9-a198-42b8-9e3a-e8283ca1dc7b",
-    "2b7129b8-4edf-400a-bc61-19a711ef8f33"
+    "2b7129b8-4edf-400a-bc61-19a711ef8f33",
+    "f4248cd7-6b3a-437a-bfae-472756759bfb"
   ],
-  "_ts": "2026-07-27T16:26:59.047Z"
+  "_ts": "2026-07-27T16:27:01.317Z"
 }
