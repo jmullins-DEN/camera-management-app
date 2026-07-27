@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\nVehicle : PU 7751 Spare Matt Graves loaner",
       "ts": 1785170051185,
-      "synced": false
+      "synced": true,
+      "infItemId": "bb248afa-8bed-4b37-982c-689f777e7538",
+      "syncError": null
     },
     {
       "id": "L1785169886899409",
@@ -25794,7 +25796,8 @@
     "2b7129b8-4edf-400a-bc61-19a711ef8f33",
     "f4248cd7-6b3a-437a-bfae-472756759bfb",
     "0b6184af-b473-47a5-8e96-e39fd5195415",
-    "50a77b8d-5872-41f6-ae09-d0fbb2f8e039"
+    "50a77b8d-5872-41f6-ae09-d0fbb2f8e039",
+    "bb248afa-8bed-4b37-982c-689f777e7538"
   ],
-  "_ts": "2026-07-27T16:34:11.214Z"
+  "_ts": "2026-07-27T16:34:13.336Z"
 }
