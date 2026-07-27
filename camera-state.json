@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785170142295133",
+      "board": "8gejhhHJj4e",
+      "driver": "Aimee Roberts",
+      "driverId": "019de359-afe5-71bc-8fff-67ca6d0e36c3",
+      "date": "2026-07-23",
+      "reviewed": "2026-07-27",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Forward Collision Warning",
+      "ts": 1785170142295,
+      "synced": false
+    },
+    {
       "id": "L1785170051185240",
       "board": "8gejhhHJj4e",
       "driver": "Matt Graves",
@@ -25799,5 +25812,5 @@
     "50a77b8d-5872-41f6-ae09-d0fbb2f8e039",
     "bb248afa-8bed-4b37-982c-689f777e7538"
   ],
-  "_ts": "2026-07-27T16:34:13.336Z"
+  "_ts": "2026-07-27T16:35:42.324Z"
 }
