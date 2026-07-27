@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "Cab Distraction",
       "ts": 1785168878969,
-      "synced": false
+      "synced": true,
+      "infItemId": "c4febca9-a198-42b8-9e3a-e8283ca1dc7b",
+      "syncError": null
     },
     {
       "id": "L1785168656366159",
@@ -25714,7 +25716,8 @@
     "f9e032a3-c0fd-4272-9e94-231eb01eef1a",
     "2dfc5ac6-f43e-4a56-b436-9561a83b689d",
     "5b62b114-30e2-41ad-92c2-8862d72b84a9",
-    "b6a418bf-5d15-4246-a554-3fc18ad67ad0"
+    "b6a418bf-5d15-4246-a554-3fc18ad67ad0",
+    "c4febca9-a198-42b8-9e3a-e8283ca1dc7b"
   ],
-  "_ts": "2026-07-27T16:14:38.995Z"
+  "_ts": "2026-07-27T16:14:40.840Z"
 }
