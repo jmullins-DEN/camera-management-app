@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Phone Distraction\n",
       "ts": 1785187464101,
-      "synced": false
+      "synced": true,
+      "infItemId": "2ce779ca-dab6-4572-8bca-936b713620ea",
+      "syncError": null
     },
     {
       "id": "L1785187322068867",
@@ -26018,7 +26020,8 @@
     "df9a55b8-82b1-4cf0-b0e0-93fa6ff3cbfa",
     "1d51edd1-9db0-4653-a145-b67af758de11",
     "2e2aa8d2-ddde-421b-844e-7c488e600f7b",
-    "f4606627-ed87-41bd-bae1-4702d0155117"
+    "f4606627-ed87-41bd-bae1-4702d0155117",
+    "2ce779ca-dab6-4572-8bca-936b713620ea"
   ],
-  "_ts": "2026-07-27T21:24:24.135Z"
+  "_ts": "2026-07-27T21:24:26.199Z"
 }
