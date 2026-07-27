@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "65 in 50; truck #340; Intermodel Euclides\n",
       "ts": 1785194087305,
-      "synced": false
+      "synced": true,
+      "infItemId": "c5102eeb-414c-453e-a24c-4ba49e9920b3",
+      "syncError": null
     },
     {
       "id": "L1785193969158421",
@@ -26578,7 +26580,8 @@
     "07788f8c-00f0-4d10-a77e-3cdbf279c014",
     "8885fc19-9e8e-48f9-b4be-f353de19ac7b",
     "02887317-5998-4bee-8e5e-87bea89e19b1",
-    "97c1053a-6ef6-4272-a227-77f6fdd54910"
+    "97c1053a-6ef6-4272-a227-77f6fdd54910",
+    "c5102eeb-414c-453e-a24c-4ba49e9920b3"
   ],
-  "_ts": "2026-07-27T23:14:47.342Z"
+  "_ts": "2026-07-27T23:14:50.045Z"
 }
