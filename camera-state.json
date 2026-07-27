@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785169509054276",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Ben McGough",
+      "driverId": "579761a2-645c-48d4-80b1-f1608ea37075",
+      "date": "2026-07-26",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Cab Distraction; Looking Down",
+      "ts": 1785169509054,
+      "synced": false
+    },
+    {
       "id": "L1785168878969852",
       "board": "6aE7wVSK5Jq",
       "driver": "Nathan Roe",
@@ -25719,5 +25732,5 @@
     "b6a418bf-5d15-4246-a554-3fc18ad67ad0",
     "c4febca9-a198-42b8-9e3a-e8283ca1dc7b"
   ],
-  "_ts": "2026-07-27T16:14:40.840Z"
+  "_ts": "2026-07-27T16:25:09.088Z"
 }
