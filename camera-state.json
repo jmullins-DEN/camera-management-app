@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785116247147686",
+      "board": "YJNwKvzFhkj",
+      "driver": "Brandon Bradford",
+      "driverId": "019de571-9b44-708d-ac6c-bb75bd934615",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1785116247147,
+      "synced": false
+    },
+    {
       "id": "L178511620315488",
       "board": "YJNwKvzFhkj",
       "driver": "Jonathan Hall",
@@ -24228,5 +24241,5 @@
     "487bb006-d2ed-46fe-b4d4-2a11d54365a1",
     "35b727ea-790c-43fa-b7a0-64aee25d7bfa"
   ],
-  "_ts": "2026-07-27T01:36:57.266Z"
+  "_ts": "2026-07-27T01:37:27.188Z"
 }
