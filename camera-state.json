@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785110399819948",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-26",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1584563252; following too close; camera misaligned/obscured; vehicle #AN 74\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/58f0fe3b-68e4-4cbf-aed5-94c3b07e83bb.mp4\n",
+      "ts": 1785110399819,
+      "synced": false
+    },
+    {
       "id": "L1785110277765160",
       "board": "aRcazTLT9iM",
       "driver": "Nathaniel Demoss",
@@ -24788,5 +24801,5 @@
     "834d2db4-7704-4571-ad7b-cd4fde5ad8bb",
     "385b4324-1d0b-4d3c-aa94-767a9aec946f"
   ],
-  "_ts": "2026-07-26T23:58:02.776Z"
+  "_ts": "2026-07-26T23:59:59.861Z"
 }
