@@ -12,9 +12,13 @@
       "coaching": "Coaching Notes",
       "notes": "86 in 65",
       "ts": 1785113959906,
-      "synced": false
+      "synced": true,
+      "infItemId": "56cfbe23-4c51-44fe-8bcb-dff0ddad032c",
+      "syncError": null
     }
   ],
-  "entered": [],
-  "_ts": "2026-07-27T00:59:19.928Z"
+  "entered": [
+    "56cfbe23-4c51-44fe-8bcb-dff0ddad032c"
+  ],
+  "_ts": "2026-07-27T00:59:22.918Z"
 }
