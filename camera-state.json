@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178519503968286",
+      "board": "8BUntjK1TqV",
+      "driver": "Alejandre, Nestor",
+      "driverId": "cf57fad8-b9cf-437d-9ea1-98cb2cabbcdd",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6207543141; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/007ed241-467b-4def-8182-83e8dc8a6a45.mp4\n",
+      "ts": 1785195039682,
+      "synced": false
+    },
+    {
       "id": "L1785194951820906",
       "board": "ebSND1QoyBs",
       "driver": "Charles Smith",
@@ -26727,5 +26740,5 @@
     "8d370007-bb9d-45e4-b7e1-a41b79730d1c",
     "88c74b17-9c45-43e1-9c0e-5bcef88c3ee7"
   ],
-  "_ts": "2026-07-27T23:29:15.862Z"
+  "_ts": "2026-07-27T23:30:39.716Z"
 }
