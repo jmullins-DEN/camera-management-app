@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785194232504392",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting",
+      "ts": 1785194232504,
+      "synced": false
+    },
+    {
       "id": "L1785194187905636",
       "board": "YfVHuM3X87v",
       "driver": "Luis Saborit Lozada",
@@ -26615,5 +26628,5 @@
     "fae1ce49-a672-4bb6-bf44-64bcdb2c3ecc",
     "828e346c-8c16-4d52-b7c9-2b8d51b9f24c"
   ],
-  "_ts": "2026-07-27T23:16:32.096Z"
+  "_ts": "2026-07-27T23:17:12.540Z"
 }
