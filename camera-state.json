@@ -320,6 +320,34 @@
   },
   "local": [
     {
+      "id": "L1785193537202157",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1585911109; following too close; vehicle #AN 106\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cb482653-7cc1-4d73-80e6-3067be718822.mp4",
+      "ts": 1785193537202,
+      "synced": false
+    },
+    {
+      "id": "L1785193472314773",
+      "board": "aRcazTLT9iM",
+      "driver": "Brennan Chism",
+      "driverId": "1ed147e1-ab89-4466-ad98-404fa2259a47",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 1585855719; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0a759c16-1a27-4267-b27c-568dd357ee8a.mp4",
+      "ts": 1785193472314,
+      "synced": true,
+      "infItemId": "07788f8c-00f0-4d10-a77e-3cdbf279c014",
+      "syncError": null
+    },
+    {
       "id": "L1785193404003381",
       "board": "aRcazTLT9iM",
       "driver": "Jeff Clark",
@@ -26501,7 +26529,8 @@
     "c74ed0a8-7f7b-422a-bb76-5e52af504fec",
     "153e825b-a7e8-4678-902c-ef7163634314",
     "ef9d1339-f43e-4d73-81c8-defe9ccd9c10",
-    "00a5a023-82ab-4dac-976c-399896d267a8"
+    "00a5a023-82ab-4dac-976c-399896d267a8",
+    "07788f8c-00f0-4d10-a77e-3cdbf279c014"
   ],
-  "_ts": "2026-07-27T23:03:28.761Z"
+  "_ts": "2026-07-27T23:05:37.238Z"
 }
