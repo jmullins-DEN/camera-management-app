@@ -268,6 +268,19 @@
   },
   "local": [
     {
+      "id": "L1785152179756350",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474988376823-1785015707892: Truck # 224 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b60681d4-e0f9-4e3e-96cc-f4449dff8ebc.mp4\n",
+      "ts": 1785152179756,
+      "synced": false
+    },
+    {
       "id": "L1785151956969106",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -24467,5 +24480,5 @@
     "4f6a7b23-1063-41c6-9a2f-5a3bf9f08102",
     "72ea64e9-eede-4e2c-849b-2e42abe52685"
   ],
-  "_ts": "2026-07-27T11:32:50.489Z"
+  "_ts": "2026-07-27T11:36:19.819Z"
 }
