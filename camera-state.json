@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785167812873570",
+      "board": "JthqRmXvJ9v",
+      "driver": "Daniel Brown",
+      "driverId": "019a7b18-0863-7330-ad9a-afe7951dac3b",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-27",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera upside down",
+      "ts": 1785167812873,
+      "synced": false
+    },
+    {
       "id": "L1785167756401270",
       "board": "JthqRmXvJ9v",
       "driver": "Zack Wyatt",
@@ -25559,5 +25572,5 @@
     "c77ec0ca-0c7f-4df5-9f6e-741c42cce7db",
     "2e980624-587f-4547-8d67-4dc2ea7104d9"
   ],
-  "_ts": "2026-07-27T15:55:58.457Z"
+  "_ts": "2026-07-27T15:56:52.900Z"
 }
