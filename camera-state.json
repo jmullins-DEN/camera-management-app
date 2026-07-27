@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6193425195: Truck # 157741  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/638d3668-284c-4eab-a376-7ac052b8a8e7.mp4",
       "ts": 1785161323228,
-      "synced": false
+      "synced": true,
+      "infItemId": "2c61805f-91f3-41af-8046-fb45f84d1124",
+      "syncError": null
     },
     {
       "id": "L1785161060143838",
@@ -24578,7 +24580,8 @@
     "72ea64e9-eede-4e2c-849b-2e42abe52685",
     "dd06444b-fe1c-4468-944e-44435ff175e8",
     "b504e2d2-0376-4a26-9e92-1b896efcedb1",
-    "fcba8a7d-6ed5-4024-b29a-a78285b54700"
+    "fcba8a7d-6ed5-4024-b29a-a78285b54700",
+    "2c61805f-91f3-41af-8046-fb45f84d1124"
   ],
-  "_ts": "2026-07-27T14:08:43.263Z"
+  "_ts": "2026-07-27T14:08:50.943Z"
 }
