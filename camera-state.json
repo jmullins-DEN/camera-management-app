@@ -278,7 +278,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474996410029-1784896601314: Hand Held Device Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b92f1458-7783-49a9-a46a-6e2afd68fae8.mp4",
       "ts": 1785151342192,
-      "synced": false
+      "synced": true,
+      "infItemId": "077f493c-f1cf-49ff-9943-8c8c7bcea76a",
+      "syncError": null
     },
     {
       "id": "L1785150963730427",
@@ -24430,7 +24432,8 @@
     "bee4d726-532f-4792-881a-6c0db5348dd7",
     "a1aaa13d-6f63-47c2-bed9-9de5f01f7e92",
     "3476efd1-839e-4639-8bde-af79dfb3773f",
-    "db187cb9-5197-4b60-beee-34caeb609b12"
+    "db187cb9-5197-4b60-beee-34caeb609b12",
+    "077f493c-f1cf-49ff-9943-8c8c7bcea76a"
   ],
-  "_ts": "2026-07-27T11:22:22.261Z"
+  "_ts": "2026-07-27T11:22:25.684Z"
 }
