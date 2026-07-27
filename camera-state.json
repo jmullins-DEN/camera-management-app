@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178518786799065",
+      "board": "8gejhhHJj4e",
+      "driver": "Ricardo Hernandez #3696",
+      "driverId": "a46f3146-f241-41de-a81a-cc76d079da51",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Cab Distraction",
+      "ts": 1785187867990,
+      "synced": false
+    },
+    {
       "id": "L1785187755745795",
       "board": "8gejhhHJj4e",
       "driver": "Michael Quintana",
@@ -26071,5 +26084,5 @@
     "92682abb-7a90-44ed-b323-a6725e17d761",
     "26f8d531-4140-4bf3-bb81-232e8e019595"
   ],
-  "_ts": "2026-07-27T21:29:18.415Z"
+  "_ts": "2026-07-27T21:31:08.014Z"
 }
