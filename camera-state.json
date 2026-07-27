@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178519474087033",
+      "board": "ebSND1QoyBs",
+      "driver": "Shamonte Jacobs",
+      "driverId": "d894f236-6b02-433e-9b97-786045a5d4e2",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; reading",
+      "ts": 1785194740870,
+      "synced": false
+    },
+    {
       "id": "L1785194347877750",
       "board": "YfVHuM3X87v",
       "driver": "Odas Higginbotham",
@@ -26663,5 +26676,5 @@
     "811c98c7-487d-436b-a5bb-bfc0a26ff4bc",
     "09442af5-453e-4caa-b169-cc3740cbafcf"
   ],
-  "_ts": "2026-07-27T23:19:15.337Z"
+  "_ts": "2026-07-27T23:25:40.907Z"
 }
