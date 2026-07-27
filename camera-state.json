@@ -320,6 +320,34 @@
   },
   "local": [
     {
+      "id": "L1785194905769355",
+      "board": "ebSND1QoyBs",
+      "driver": "Maroni Vargas",
+      "driverId": "99adb324-9bdf-4194-bca2-3b7c9c3039f7",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera misaligned",
+      "ts": 1785194905769,
+      "synced": false
+    },
+    {
+      "id": "L1785194832944829",
+      "board": "ebSND1QoyBs",
+      "driver": "Shamonte Jacobs",
+      "driverId": "d894f236-6b02-433e-9b97-786045a5d4e2",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1785194832944,
+      "synced": true,
+      "infItemId": "768324d4-c4c1-4663-b441-65467713ce1b",
+      "syncError": null
+    },
+    {
       "id": "L178519474087033",
       "board": "ebSND1QoyBs",
       "driver": "Shamonte Jacobs",
@@ -26677,7 +26705,8 @@
     "4faf4bd8-3364-4106-8c8f-0cfa7b34e18b",
     "811c98c7-487d-436b-a5bb-bfc0a26ff4bc",
     "09442af5-453e-4caa-b169-cc3740cbafcf",
-    "95a1a0c2-0338-406a-9a64-8b05c92c2cae"
+    "95a1a0c2-0338-406a-9a64-8b05c92c2cae",
+    "768324d4-c4c1-4663-b441-65467713ce1b"
   ],
-  "_ts": "2026-07-27T23:25:46.009Z"
+  "_ts": "2026-07-27T23:28:25.806Z"
 }
