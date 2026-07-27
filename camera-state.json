@@ -268,6 +268,49 @@
   },
   "local": [
     {
+      "id": "L178511648916369",
+      "board": "ebSND1QoyBs",
+      "driver": "KARVELL OLIVER",
+      "driverId": "66820273-3d66-474d-b1fd-a0498b80b8d3",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1785116489163,
+      "synced": false
+    },
+    {
+      "id": "L1785116431626570",
+      "board": "ebSND1QoyBs",
+      "driver": "Oscar Hong",
+      "driverId": "84cb8b8e-2f16-4cd9-8f46-3c91a156ac8a",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1785116431626,
+      "synced": true,
+      "infItemId": "46f45a03-0ad6-4817-ae89-287ef20c5344",
+      "syncError": null
+    },
+    {
+      "id": "L1785116392471743",
+      "board": "ebSND1QoyBs",
+      "driver": "unassigned",
+      "driverId": "019ebc03-7646-7672-934b-3eafcabe7786",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-27",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "camera misaligned",
+      "ts": 1785116392471,
+      "synced": true,
+      "infItemId": "d277d610-b533-4394-a03d-3487e2b9b2a9",
+      "syncError": null
+    },
+    {
       "id": "L1785116247147686",
       "board": "YJNwKvzFhkj",
       "driver": "Brandon Bradford",
@@ -24242,7 +24285,9 @@
     "272a02ae-ca75-40af-b003-b479c87527b7",
     "487bb006-d2ed-46fe-b4d4-2a11d54365a1",
     "35b727ea-790c-43fa-b7a0-64aee25d7bfa",
-    "568d83c9-d2c9-40b5-abee-184cd37d10d1"
+    "568d83c9-d2c9-40b5-abee-184cd37d10d1",
+    "d277d610-b533-4394-a03d-3487e2b9b2a9",
+    "46f45a03-0ad6-4817-ae89-287ef20c5344"
   ],
-  "_ts": "2026-07-27T01:37:35.093Z"
+  "_ts": "2026-07-27T01:41:29.201Z"
 }
