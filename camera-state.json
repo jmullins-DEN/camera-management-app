@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785192787459264",
+      "board": "4rNDuSrCaap",
+      "driver": "Wess Floyd",
+      "driverId": "b59fd51c-1dd1-4cb0-8158-69c494f5d212",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 421702323; eating distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b3060c9a-e47b-46e4-a3d8-cb0170732d22.mp4",
+      "ts": 1785192787459,
+      "synced": false
+    },
+    {
       "id": "L1785192730814878",
       "board": "4rNDuSrCaap",
       "driver": "Steve McDowell",
@@ -26423,5 +26436,5 @@
     "04eb0ae8-444d-428d-a51e-bdade0091836",
     "06fe27f9-4046-4a69-afdf-30df392e1de5"
   ],
-  "_ts": "2026-07-27T22:52:14.428Z"
+  "_ts": "2026-07-27T22:53:07.497Z"
 }
