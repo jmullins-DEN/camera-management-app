@@ -320,6 +320,34 @@
   },
   "local": [
     {
+      "id": "L1785194087305384",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Speeding",
+      "coaching": "Unidentified Driver",
+      "notes": "65 in 50; truck #340; Intermodel Euclides\n",
+      "ts": 1785194087305,
+      "synced": false
+    },
+    {
+      "id": "L1785193969158421",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Tanner",
+      "driverId": "019a0810-437c-7aae-88b4-dfecb414cf7f",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1586207491; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d9315b99-8670-4122-95da-e2e749f6221d.mp4",
+      "ts": 1785193969158,
+      "synced": true,
+      "infItemId": "97c1053a-6ef6-4272-a227-77f6fdd54910",
+      "syncError": null
+    },
+    {
       "id": "L178519360328666",
       "board": "aRcazTLT9iM",
       "driver": "Josiah Garrett",
@@ -26549,7 +26577,8 @@
     "00a5a023-82ab-4dac-976c-399896d267a8",
     "07788f8c-00f0-4d10-a77e-3cdbf279c014",
     "8885fc19-9e8e-48f9-b4be-f353de19ac7b",
-    "02887317-5998-4bee-8e5e-87bea89e19b1"
+    "02887317-5998-4bee-8e5e-87bea89e19b1",
+    "97c1053a-6ef6-4272-a227-77f6fdd54910"
   ],
-  "_ts": "2026-07-27T23:06:48.230Z"
+  "_ts": "2026-07-27T23:14:47.342Z"
 }
