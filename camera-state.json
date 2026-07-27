@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785187755745795",
+      "board": "8gejhhHJj4e",
+      "driver": "Michael Quintana",
+      "driverId": "5d1f12cd-bf52-4f36-8e56-6a57df702312",
+      "date": "2026-07-24",
+      "reviewed": "2026-07-27",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1785187755745,
+      "synced": false
+    },
+    {
       "id": "L1785187676132118",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -26055,5 +26068,5 @@
     "6fcfd991-a670-4e70-82d9-95c7562f2f1a",
     "92682abb-7a90-44ed-b323-a6725e17d761"
   ],
-  "_ts": "2026-07-27T21:27:59.427Z"
+  "_ts": "2026-07-27T21:29:15.779Z"
 }
