@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785161557394570",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-27",
+      "behavior": "Drowsy Driving",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6207188749: Truck # 193269 Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a5c3c6c4-48dc-4ea5-951e-e91254cba8e5.mp4",
+      "ts": 1785161557394,
+      "synced": false
+    },
+    {
       "id": "L1785161323228452",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -24583,5 +24596,5 @@
     "fcba8a7d-6ed5-4024-b29a-a78285b54700",
     "2c61805f-91f3-41af-8046-fb45f84d1124"
   ],
-  "_ts": "2026-07-27T14:08:50.943Z"
+  "_ts": "2026-07-27T14:12:37.429Z"
 }
