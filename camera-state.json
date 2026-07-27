@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785161060143838",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-07-25",
+      "reviewed": "2026-07-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6199296073: Truck # 1257741 Distracted Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dab88421-84b3-41d0-932b-001dde2dd23e.mp4",
+      "ts": 1785161060144,
+      "synced": false
+    },
+    {
       "id": "L1785152926313480",
       "board": "KYqKJWuumPm",
       "driver": "Rylee Yonker",
@@ -24551,5 +24564,5 @@
     "dd06444b-fe1c-4468-944e-44435ff175e8",
     "b504e2d2-0376-4a26-9e92-1b896efcedb1"
   ],
-  "_ts": "2026-07-27T13:55:51.856Z"
+  "_ts": "2026-07-27T14:04:20.180Z"
 }
