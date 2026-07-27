@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785189353115646",
+      "board": "AKJSkJj6Ch4",
+      "driver": "unassigned",
+      "driverId": "b276d55c-5996-4aa7-bb6e-ddad178def51",
+      "date": "2026-07-26",
+      "reviewed": "2026-07-27",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474995752151-1785096013290\nVehicle 553 BigJoe; Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1a61036d-7a64-4cde-9f5a-a713b4583979.mp4",
+      "ts": 1785189353115,
+      "synced": false
+    },
+    {
       "id": "L1785189064301252",
       "board": "AKJSkJj6Ch4",
       "driver": "JD Chappell",
@@ -26199,5 +26212,5 @@
     "ef17b795-64b1-44c8-b268-372574737149",
     "5ca1f0ed-de1a-4e92-bd76-40bdd8756653"
   ],
-  "_ts": "2026-07-27T21:51:06.441Z"
+  "_ts": "2026-07-27T21:55:53.142Z"
 }
