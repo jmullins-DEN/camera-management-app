@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785201643190451",
+      "board": "UKkbYDchPMh",
+      "driver": "Hubert (Butch) Bradley",
+      "driverId": "6ca902d1-e616-46f0-b7cf-35b56b959362",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "https://app.estrack.com/#/camera/events/6a67d777883a79857c233086 driver lost lane and almost hit median while on phone ",
+      "ts": 1785201643190,
+      "synced": false
+    },
+    {
       "id": "L1785201571654937",
       "board": "UKkbYDchPMh",
       "driver": "Hubert (Butch) Bradley",
@@ -26807,5 +26820,5 @@
     "99300812-9c67-4182-b46c-5d41f889ee06",
     "41a01c91-6f24-44a8-85c1-d2cef7027a75"
   ],
-  "_ts": "2026-07-28T01:19:34.286Z"
+  "_ts": "2026-07-28T01:20:43.245Z"
 }
