@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785270085406259",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jonathan Dubose",
+      "driverId": "31bf6dc1-8fd0-47b1-af62-196620855180",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1785270085406,
+      "synced": false
+    },
+    {
       "id": "L1785270006697555",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -27159,5 +27172,5 @@
     "cdae2b76-813e-47a2-9d74-1488647eaae8",
     "cd9591d8-ba12-4bec-9739-4d5d93b740c0"
   ],
-  "_ts": "2026-07-28T20:20:08.674Z"
+  "_ts": "2026-07-28T20:21:25.431Z"
 }
