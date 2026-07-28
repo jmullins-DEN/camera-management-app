@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785237795000257",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6208067781:  Truck # 193296 Phone Distraction/texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f1327df7-55d3-48b8-8a44-dc237a235565.mp4",
+      "ts": 1785237795001,
+      "synced": false
+    },
+    {
       "id": "L1785237512646473",
       "board": "KYqKJWuumPm",
       "driver": "Cory Hott",
@@ -26951,5 +26964,5 @@
     "12d9bc27-b7fd-4586-80f3-4773f80f3d6f",
     "1d75e040-cea7-49ab-98fe-56b0658e8acc"
   ],
-  "_ts": "2026-07-28T11:18:35.262Z"
+  "_ts": "2026-07-28T11:23:15.051Z"
 }
