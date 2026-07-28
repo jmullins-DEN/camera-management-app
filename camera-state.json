@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785269632434592",
+      "board": "JthqRmXvJ9v",
+      "driver": "Zack Wyatt",
+      "driverId": "019c33e3-5a8b-7224-988a-bdee4f8c0027",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "NO SEATBELT\n",
+      "ts": 1785269632434,
+      "synced": false
+    },
+    {
       "id": "L1785269597635139",
       "board": "JthqRmXvJ9v",
       "driver": "Matthew Beard",
@@ -27079,5 +27092,5 @@
     "4d5690d6-be4e-4bc6-b9f6-0f858ed39846",
     "aeedda09-0d6e-446c-bc58-42fda0e5e86e"
   ],
-  "_ts": "2026-07-28T20:13:19.914Z"
+  "_ts": "2026-07-28T20:13:52.462Z"
 }
