@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1241769501964533760: Severe Brake/Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8315c09f-3ab5-4c45-b2f5-be8a2c7765b5.mp4",
       "ts": 1785238770422,
-      "synced": false
+      "synced": true,
+      "infItemId": "ba23d699-1f59-4e53-9c7a-a81346d6c995",
+      "syncError": null
     },
     {
       "id": "L1785238614795904",
@@ -27010,7 +27012,8 @@
     "1d75e040-cea7-49ab-98fe-56b0658e8acc",
     "40f426c6-f1e8-4a6f-951d-6a5e3e41333f",
     "629a2e6a-9372-4cbb-b322-8fefcb54bc40",
-    "e5f45890-9cfe-4093-98b1-4b894da1d648"
+    "e5f45890-9cfe-4093-98b1-4b894da1d648",
+    "ba23d699-1f59-4e53-9c7a-a81346d6c995"
   ],
-  "_ts": "2026-07-28T11:39:30.454Z"
+  "_ts": "2026-07-28T11:39:33.473Z"
 }
