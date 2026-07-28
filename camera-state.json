@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785271152078987",
+      "board": "8gejhhHJj4e",
+      "driver": "Diego Garcia Duarte",
+      "driverId": "93469780-38f2-4891-9cd0-8f788058f8fe",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1785271152078,
+      "synced": false
+    },
+    {
       "id": "L1785271027486594",
       "board": "8gejhhHJj4e",
       "driver": "Diego Molina",
@@ -27303,5 +27316,5 @@
     "39354248-d793-49b1-a856-4965eab8aa51",
     "106b416a-ea9a-461d-b5fc-f0745ccb6d0e"
   ],
-  "_ts": "2026-07-28T20:37:09.835Z"
+  "_ts": "2026-07-28T20:39:12.113Z"
 }
