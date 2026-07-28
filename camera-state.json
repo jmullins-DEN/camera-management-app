@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785272917005372",
+      "board": "ic6o6QgzpVM",
+      "driver": "Gonzales, Edgar",
+      "driverId": "019abaac-b46a-7998-b535-41973fa8d994",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-28",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 6214465976\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b906ea24-affb-4db4-aa1f-7f2689f9fc49.mp4",
+      "ts": 1785272917006,
+      "synced": false
+    },
+    {
       "id": "L1785272812229878",
       "board": "ic6o6QgzpVM",
       "driver": "Gonzales, Edgar",
@@ -27495,5 +27508,5 @@
     "c5ebdd98-9956-4129-aa4f-20b3bf1bed79",
     "3a95d729-9d07-4004-8a4c-03079fd32d00"
   ],
-  "_ts": "2026-07-28T21:06:54.831Z"
+  "_ts": "2026-07-28T21:08:37.033Z"
 }
