@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785270788523440",
+      "board": "8gejhhHJj4e",
+      "driver": "Chris Luthye #705",
+      "driverId": "e74297c7-9b0c-4382-a91a-b7c1372386ec",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Increase Following Distance\n",
+      "ts": 1785270788523,
+      "synced": false
+    },
+    {
       "id": "L178527073266043",
       "board": "8gejhhHJj4e",
       "driver": "Aimee Roberts",
@@ -27255,5 +27268,5 @@
     "a800e40c-996f-45c7-a5ca-a4c25c716401",
     "f3e6d099-ec0f-47e6-a0a0-3cd3d9704981"
   ],
-  "_ts": "2026-07-28T20:32:14.874Z"
+  "_ts": "2026-07-28T20:33:08.557Z"
 }
