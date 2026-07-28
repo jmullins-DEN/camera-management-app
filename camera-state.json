@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "NO SEATBELT\n",
       "ts": 1785269632434,
-      "synced": false
+      "synced": true,
+      "infItemId": "1bc08a27-24f1-48ed-887c-9f337bb158d3",
+      "syncError": null
     },
     {
       "id": "L1785269597635139",
@@ -27090,7 +27092,8 @@
     "dc649387-2ebc-4c57-a8f3-91cee9641da7",
     "f621dddd-6d50-4f83-b94b-42b24177a4c8",
     "4d5690d6-be4e-4bc6-b9f6-0f858ed39846",
-    "aeedda09-0d6e-446c-bc58-42fda0e5e86e"
+    "aeedda09-0d6e-446c-bc58-42fda0e5e86e",
+    "1bc08a27-24f1-48ed-887c-9f337bb158d3"
   ],
-  "_ts": "2026-07-28T20:13:52.462Z"
+  "_ts": "2026-07-28T20:13:54.640Z"
 }
