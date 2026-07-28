@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785238614795904",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Luis Longoria",
+      "driverId": "49e59c0a-5419-4beb-bf1f-da4094d1ea21",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1241772081750900736: Phone Distraction/Severe Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bd95dd0d-4f44-46c7-8157-6b83fec935ac.mp4",
+      "ts": 1785238614795,
+      "synced": false
+    },
+    {
       "id": "L1785238462191131",
       "board": "7W2SQKrNcXQ",
       "driver": "Juan Napoles",
@@ -26983,5 +26996,5 @@
     "40f426c6-f1e8-4a6f-951d-6a5e3e41333f",
     "629a2e6a-9372-4cbb-b322-8fefcb54bc40"
   ],
-  "_ts": "2026-07-28T11:34:25.949Z"
+  "_ts": "2026-07-28T11:36:54.829Z"
 }
