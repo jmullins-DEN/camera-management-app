@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785270943100637",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1785270943100,
+      "synced": false
+    },
+    {
       "id": "L1785270788523440",
       "board": "8gejhhHJj4e",
       "driver": "Chris Luthye #705",
@@ -27271,5 +27284,5 @@
     "f3e6d099-ec0f-47e6-a0a0-3cd3d9704981",
     "5c115785-cd2d-479c-8288-338aa4913b2e"
   ],
-  "_ts": "2026-07-28T20:33:10.519Z"
+  "_ts": "2026-07-28T20:35:43.127Z"
 }
