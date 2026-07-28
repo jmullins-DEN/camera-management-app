@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785271487097285",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Increase Following Distance\n",
+      "ts": 1785271487097,
+      "synced": false
+    },
+    {
       "id": "L1785271426971465",
       "board": "8gejhhHJj4e",
       "driver": "Bernardo Gomez",
@@ -27367,5 +27380,5 @@
     "4893b900-9e48-4a9c-9c11-16e2a1faefeb",
     "ecd2c6b7-887e-497f-a834-51635376ce0d"
   ],
-  "_ts": "2026-07-28T20:43:49.832Z"
+  "_ts": "2026-07-28T20:44:47.125Z"
 }
