@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785238770422700",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Juan Napoles",
+      "driverId": "b66af6a8-5b96-4ec0-8ee2-c6f743271a7f",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1241769501964533760: Severe Brake/Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8315c09f-3ab5-4c45-b2f5-be8a2c7765b5.mp4",
+      "ts": 1785238770422,
+      "synced": false
+    },
+    {
       "id": "L1785238614795904",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -26999,5 +27012,5 @@
     "629a2e6a-9372-4cbb-b322-8fefcb54bc40",
     "e5f45890-9cfe-4093-98b1-4b894da1d648"
   ],
-  "_ts": "2026-07-28T11:37:00.069Z"
+  "_ts": "2026-07-28T11:39:30.454Z"
 }
