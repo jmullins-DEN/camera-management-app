@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1242047956685848576: Stop Sign/Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b381978a-f4b8-40c2-94e9-7eb125914564.mp4",
       "ts": 1785239484992,
-      "synced": false
+      "synced": true,
+      "infItemId": "4d5690d6-be4e-4bc6-b9f6-0f858ed39846",
+      "syncError": null
     },
     {
       "id": "L1785239291734586",
@@ -27058,7 +27060,8 @@
     "e5f45890-9cfe-4093-98b1-4b894da1d648",
     "ba23d699-1f59-4e53-9c7a-a81346d6c995",
     "dc649387-2ebc-4c57-a8f3-91cee9641da7",
-    "f621dddd-6d50-4f83-b94b-42b24177a4c8"
+    "f621dddd-6d50-4f83-b94b-42b24177a4c8",
+    "4d5690d6-be4e-4bc6-b9f6-0f858ed39846"
   ],
-  "_ts": "2026-07-28T11:51:25.031Z"
+  "_ts": "2026-07-28T11:51:27.450Z"
 }
