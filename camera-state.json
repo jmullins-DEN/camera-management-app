@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785239484992311",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Marco Nunez",
+      "driverId": "272e1ad8-9687-4e44-b5b6-6aae400c1c9b",
+      "date": "2026-07-27",
+      "reviewed": "2026-07-28",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1242047956685848576: Stop Sign/Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b381978a-f4b8-40c2-94e9-7eb125914564.mp4",
+      "ts": 1785239484992,
+      "synced": false
+    },
+    {
       "id": "L1785239291734586",
       "board": "7W2SQKrNcXQ",
       "driver": "Chris Kavel",
@@ -27047,5 +27060,5 @@
     "dc649387-2ebc-4c57-a8f3-91cee9641da7",
     "f621dddd-6d50-4f83-b94b-42b24177a4c8"
   ],
-  "_ts": "2026-07-28T11:48:18.231Z"
+  "_ts": "2026-07-28T11:51:25.031Z"
 }
