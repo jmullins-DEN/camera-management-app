@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785333475906183",
+      "board": "xMfRLnqAN7y",
+      "driver": "Paul Hyde",
+      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking; loses lane",
+      "ts": 1785333475906,
+      "synced": false
+    },
+    {
       "id": "L1785333120966736",
       "board": "YfVHuM3X87v",
       "driver": "Ethan Owens",
@@ -28135,5 +28148,5 @@
     "a06a3d60-f3cf-4f4f-9260-9205c1767f92",
     "199c7003-7014-4a36-ac3c-a883d6c871e0"
   ],
-  "_ts": "2026-07-29T13:52:04.769Z"
+  "_ts": "2026-07-29T13:57:55.978Z"
 }
