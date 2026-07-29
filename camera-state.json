@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785332718239840",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Swenson",
+      "driverId": "019a0810-437c-7aae-88b5-558e38740aa3",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "65 in 50",
+      "ts": 1785332718239,
+      "synced": false
+    },
+    {
       "id": "L1785332678540411",
       "board": "XVLVu2Du8hc",
       "driver": "Chad Smith",
@@ -28071,5 +28084,5 @@
     "c77182d2-bbe4-4432-bc6a-7f281c4a9f8a",
     "f0b6527d-19ea-4f74-ab88-0a077d1bd889"
   ],
-  "_ts": "2026-07-29T13:44:40.863Z"
+  "_ts": "2026-07-29T13:45:18.282Z"
 }
