@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785331476268558",
+      "board": "4rNDuSrCaap",
+      "driver": "Gavin Fleming",
+      "driverId": "019eb6e0-0462-72df-8e63-8cac800a0cdd",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 422507813; texting; vehicle #469; Gavin not in Truckspy \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/488bd3de-85dd-4392-8e39-d21da49c90ea.mp4",
+      "ts": 1785331476268,
+      "synced": false
+    },
+    {
       "id": "L1785331376826595",
       "board": "4rNDuSrCaap",
       "driver": "Franklin King",
@@ -27815,5 +27828,5 @@
     "53b731ea-ee71-4cb8-8d07-6448cce8ba3a",
     "0e8b70fe-9c8e-4100-8640-7b5ebb2316f9"
   ],
-  "_ts": "2026-07-29T13:22:59.872Z"
+  "_ts": "2026-07-29T13:24:36.316Z"
 }
