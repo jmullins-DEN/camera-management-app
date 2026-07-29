@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785330711821651",
+      "board": "8BUntjK1TqV",
+      "driver": "Jimenez, Jose II",
+      "driverId": "684b6f02-1740-4077-bce5-0307d25bc21b",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6217205694; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5afde600-0b58-4a49-aaba-a6a5944cfa24.mp4",
+      "ts": 1785330711821,
+      "synced": false
+    },
+    {
       "id": "L1785330600452890",
       "board": "8BUntjK1TqV",
       "driver": "Jimenez, Jose II",
@@ -27687,5 +27700,5 @@
     "f89ac5ea-a8a7-4a81-8bd9-dd8dc8e92bd6",
     "4fb3fabe-8e01-41f9-a3d7-14eed98dbdd8"
   ],
-  "_ts": "2026-07-29T13:10:03.868Z"
+  "_ts": "2026-07-29T13:11:51.868Z"
 }
