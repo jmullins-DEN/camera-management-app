@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785330824811641",
+      "board": "8BUntjK1TqV",
+      "driver": "De La Cruz Solis, Jaime",
+      "driverId": "bc465836-b958-4238-93ad-50ac0ea9a8dd",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6217507992; 74 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/68315964-bad6-45de-a048-799c1b46a2f3.mp4",
+      "ts": 1785330824811,
+      "synced": false
+    },
+    {
       "id": "L1785330711821651",
       "board": "8BUntjK1TqV",
       "driver": "Jimenez, Jose II",
@@ -27703,5 +27716,5 @@
     "4fb3fabe-8e01-41f9-a3d7-14eed98dbdd8",
     "e474b497-600d-455f-b786-bab4085072b1"
   ],
-  "_ts": "2026-07-29T13:11:54.873Z"
+  "_ts": "2026-07-29T13:13:44.860Z"
 }
