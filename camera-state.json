@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Phone Distraction\nVehicle 8420 Oiler",
       "ts": 1785364393148,
-      "synced": false
+      "synced": true,
+      "infItemId": "5f4c942b-d163-4b94-aa49-cc260d67e076",
+      "syncError": null
     },
     {
       "id": "L178536431080981",
@@ -28066,7 +28068,8 @@
     "0b602fbf-f216-416f-af50-bb5d8858ee83",
     "7188f494-c9bc-4257-9b17-d1afef599254",
     "690d587d-2c85-4dbe-a5c6-7c29a997ba6d",
-    "fdf32735-dfbb-4818-a2bd-2cebf2209ad7"
+    "fdf32735-dfbb-4818-a2bd-2cebf2209ad7",
+    "5f4c942b-d163-4b94-aa49-cc260d67e076"
   ],
-  "_ts": "2026-07-29T22:33:13.176Z"
+  "_ts": "2026-07-29T22:33:15.334Z"
 }
