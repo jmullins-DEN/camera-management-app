@@ -324,11 +324,11 @@
       "board": "aRcazTLT9iM",
       "driver": "Robert Mills",
       "driverId": "15841bda-ee49-40d6-86bf-eadeac6068db",
-      "date": "2026-07-28",
+      "date": "2026-07-27",
       "reviewed": "2026-07-29",
       "behavior": "Following Distance",
       "coaching": "Face to Face",
-      "notes": "\nAlert 1586250484; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a7399f24-e589-43c9-a06d-68e4078a36a6.mp4\n",
+      "notes": "Alert 1586250484; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a7399f24-e589-43c9-a06d-68e4078a36a6.mp4\n",
       "ts": 1785331573205,
       "synced": true,
       "infItemId": "5e17908c-7137-4326-abb9-fb8e5f0807f3",
@@ -27847,5 +27847,5 @@
     "0b7e48de-9fac-4d99-a503-b98de4b48033",
     "5e17908c-7137-4326-abb9-fb8e5f0807f3"
   ],
-  "_ts": "2026-07-29T13:26:16.803Z"
+  "_ts": "2026-07-29T13:26:55.598Z"
 }
