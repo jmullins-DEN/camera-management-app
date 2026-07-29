@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178533031627885",
+      "board": "8BUntjK1TqV",
+      "driver": "Irlbeck, Ken",
+      "driverId": "0b957bb2-b283-4102-b7fc-aa403a5257fe",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6213058321; sign violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d9755c38-d7e0-41bd-8c0e-3991f39d80ea.mp4",
+      "ts": 1785330316278,
+      "synced": false
+    },
+    {
       "id": "L1785330229648225",
       "board": "8BUntjK1TqV",
       "driver": "LaFuente, Richard",
@@ -27607,5 +27620,5 @@
     "65076405-8afa-41fa-96ed-8a05e812f9f1",
     "d0933e11-50bf-491a-96ef-9df1ea7e65e4"
   ],
-  "_ts": "2026-07-29T13:03:54.694Z"
+  "_ts": "2026-07-29T13:05:16.323Z"
 }
