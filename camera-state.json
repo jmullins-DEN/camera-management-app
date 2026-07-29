@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a68d459883a79857c243292 this driver is also blocking his camera on and off ",
       "ts": 1785336620500,
-      "synced": false
+      "synced": true,
+      "infItemId": "5a7a46bd-1703-443a-9d32-4531f1fd713c",
+      "syncError": null
     },
     {
       "id": "L1785336540226190",
@@ -27010,7 +27012,8 @@
     "ca191643-a401-446e-a9da-8d60a7af0074",
     "05186daa-0548-4355-9f2e-b2c206aae32e",
     "d68cd870-c751-4dd1-b5d0-2df3f58fd381",
-    "2b4dbdb3-f1ab-4a59-9c78-b3d0c75abb9c"
+    "2b4dbdb3-f1ab-4a59-9c78-b3d0c75abb9c",
+    "5a7a46bd-1703-443a-9d32-4531f1fd713c"
   ],
-  "_ts": "2026-07-29T14:50:20.532Z"
+  "_ts": "2026-07-29T14:50:23.308Z"
 }
