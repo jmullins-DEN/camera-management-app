@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785364918049507",
+      "board": "8gejhhHJj4e",
+      "driver": "Michael Quintana",
+      "driverId": "5d1f12cd-bf52-4f36-8e56-6a57df702312",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1785364918049,
+      "synced": false
+    },
+    {
       "id": "L1785364877427647",
       "board": "8gejhhHJj4e",
       "driver": "Victor Sena",
@@ -28118,5 +28131,5 @@
     "bc79a742-ce1a-45f2-92a0-38b7c20c1f8d",
     "11455150-713b-4644-8fee-fa84df9de73a"
   ],
-  "_ts": "2026-07-29T22:41:19.403Z"
+  "_ts": "2026-07-29T22:41:58.086Z"
 }
