@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785332987173565",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking; inattentive",
+      "ts": 1785332987173,
+      "synced": false
+    },
+    {
       "id": "L1785332771932638",
       "board": "XVLVu2Du8hc",
       "driver": "William Burch",
@@ -28103,5 +28116,5 @@
     "a72573cd-a72c-4450-8a46-80847c962703",
     "a725dbd8-3ef4-4a38-80b7-7a51ac084b9e"
   ],
-  "_ts": "2026-07-29T13:46:14.859Z"
+  "_ts": "2026-07-29T13:49:47.218Z"
 }
