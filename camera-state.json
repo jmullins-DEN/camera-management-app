@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 1242131716248862720: Truck # RS102 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e1e088a0-df05-47ec-bca7-edc0046fb6ed.mp4",
       "ts": 1785324351057,
-      "synced": false
+      "synced": true,
+      "infItemId": "65076405-8afa-41fa-96ed-8a05e812f9f1",
+      "syncError": null
     },
     {
       "id": "L1785323998357905",
@@ -27570,7 +27572,8 @@
     "6d25ca1c-d3d6-4485-950e-749049d94424",
     "ae392039-8e58-4cd8-bc25-0aaa85fc162e",
     "3980a8de-121b-43d3-8030-8516aaa934b5",
-    "cd3c3cd3-c152-40f6-a543-2f6c2886f29c"
+    "cd3c3cd3-c152-40f6-a543-2f6c2886f29c",
+    "65076405-8afa-41fa-96ed-8a05e812f9f1"
   ],
-  "_ts": "2026-07-29T11:25:51.100Z"
+  "_ts": "2026-07-29T11:25:53.487Z"
 }
