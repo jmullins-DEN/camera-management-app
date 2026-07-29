@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6222237469\nTraffic Light Violation; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6af2cf74-23c4-4a1b-9af9-86b349feb2ae.mp4",
       "ts": 1785366053067,
-      "synced": false
+      "synced": true,
+      "infItemId": "a7472a0a-ba23-4a1c-a953-8c6028041d21",
+      "syncError": null
     },
     {
       "id": "L1785365895553928",
@@ -28225,7 +28227,8 @@
     "724ffe46-38d8-4d91-a558-c9e36014de91",
     "2ef735d9-07d6-4939-a87b-20c0733914fc",
     "53ea3673-0bf5-4c0b-a6ea-ff360306002f",
-    "421fad85-ca6e-4bf9-a84b-ff3e726ed251"
+    "421fad85-ca6e-4bf9-a84b-ff3e726ed251",
+    "a7472a0a-ba23-4a1c-a953-8c6028041d21"
   ],
-  "_ts": "2026-07-29T23:00:53.093Z"
+  "_ts": "2026-07-29T23:00:55.131Z"
 }
