@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785324351056468",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1242131716248862720: Truck # RS102 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e1e088a0-df05-47ec-bca7-edc0046fb6ed.mp4",
+      "ts": 1785324351057,
+      "synced": false
+    },
+    {
       "id": "L1785323998357905",
       "board": "7W2SQKrNcXQ",
       "driver": "Bill Mayville",
@@ -27559,5 +27572,5 @@
     "3980a8de-121b-43d3-8030-8516aaa934b5",
     "cd3c3cd3-c152-40f6-a543-2f6c2886f29c"
   ],
-  "_ts": "2026-07-29T11:20:02.020Z"
+  "_ts": "2026-07-29T11:25:51.100Z"
 }
