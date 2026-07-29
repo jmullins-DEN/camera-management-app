@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "Stop Sign Violation",
       "ts": 1785364109291,
-      "synced": false
+      "synced": true,
+      "infItemId": "ef7fb1ac-c3de-4e6d-9cbd-fbd0ef826bd3",
+      "syncError": null
     },
     {
       "id": "L178536401926896",
@@ -27986,7 +27988,8 @@
     "661f2507-f10e-4936-9762-ae11fc791a08",
     "4677b43f-30c3-46e0-b0bf-edfbd78080ce",
     "c508ae3f-ddab-445f-978f-8b969eb98884",
-    "c926c19f-6840-4957-88c2-4578d8bf7c66"
+    "c926c19f-6840-4957-88c2-4578d8bf7c66",
+    "ef7fb1ac-c3de-4e6d-9cbd-fbd0ef826bd3"
   ],
-  "_ts": "2026-07-29T22:28:29.336Z"
+  "_ts": "2026-07-29T22:28:31.496Z"
 }
