@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Increase Following Distance\n",
       "ts": 1785362014930,
-      "synced": false
+      "synced": true,
+      "infItemId": "ee14da04-0da9-4d24-b9f5-786bea793500",
+      "syncError": null
     },
     {
       "id": "L1785361961754256",
@@ -27794,7 +27796,8 @@
     "158bf016-3e3f-4cd7-8b6d-52d2f02108d7",
     "74abe028-dba2-4c9a-9116-1f063f3d4671",
     "be6a84b1-215b-4cc8-94dc-b54ca7f143b4",
-    "08580371-9013-4b4a-aeb2-940ab9801afc"
+    "08580371-9013-4b4a-aeb2-940ab9801afc",
+    "ee14da04-0da9-4d24-b9f5-786bea793500"
   ],
-  "_ts": "2026-07-29T21:53:34.956Z"
+  "_ts": "2026-07-29T21:53:37.152Z"
 }
