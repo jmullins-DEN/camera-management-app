@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785362939275566",
+      "board": "JthqRmXvJ9v",
+      "driver": "Daniel Brown",
+      "driverId": "019a7b18-0863-7330-ad9a-afe7951dac3b",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1785362939275,
+      "synced": false
+    },
+    {
       "id": "L1785362014930595",
       "board": "nWRsGRSm2Hn",
       "driver": "Loper, William",
@@ -27799,5 +27812,5 @@
     "08580371-9013-4b4a-aeb2-940ab9801afc",
     "ee14da04-0da9-4d24-b9f5-786bea793500"
   ],
-  "_ts": "2026-07-29T21:53:37.152Z"
+  "_ts": "2026-07-29T22:08:59.302Z"
 }
