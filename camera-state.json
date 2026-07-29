@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785334206027897",
+      "board": "ebSND1QoyBs",
+      "driver": "Jerand Townsel",
+      "driverId": "9bc760f9-c271-4133-87f0-a6766264c5f1",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1785334206027,
+      "synced": false
+    },
+    {
       "id": "L1785334034413914",
       "board": "ebSND1QoyBs",
       "driver": "Roderick Bush",
@@ -330,7 +343,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close",
       "ts": 1785334034413,
-      "synced": false
+      "synced": true,
+      "infItemId": "04b40b7f-ca85-4e00-898c-5eeb9efbe42f",
+      "syncError": null
     },
     {
       "id": "L1785334010960410",
@@ -28210,7 +28225,8 @@
     "16a3eb88-d15b-480f-adb1-bbeb8dc9696f",
     "a67c1924-71f2-43c2-bdc5-134e9e9418c7",
     "58ecbeaa-f0d9-4652-9df8-3914e4e22561",
-    "90984166-6100-4200-a1bb-06b20dd7fe2e"
+    "90984166-6100-4200-a1bb-06b20dd7fe2e",
+    "04b40b7f-ca85-4e00-898c-5eeb9efbe42f"
   ],
-  "_ts": "2026-07-29T14:07:14.451Z"
+  "_ts": "2026-07-29T14:10:06.066Z"
 }
