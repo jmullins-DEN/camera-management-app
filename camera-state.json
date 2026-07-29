@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785330881691932",
+      "board": "8BUntjK1TqV",
+      "driver": "Walker, Darien",
+      "driverId": "019e40d8-2d16-7431-9372-f5acb1e77ffb",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6217785571; 62 in 50\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0d411290-45d0-4528-9e85-d30335ca5b91.mp4\n",
+      "ts": 1785330881691,
+      "synced": false
+    },
+    {
       "id": "L1785330824811641",
       "board": "8BUntjK1TqV",
       "driver": "De La Cruz Solis, Jaime",
@@ -27719,5 +27732,5 @@
     "e474b497-600d-455f-b786-bab4085072b1",
     "e5e55347-ba7b-4cc5-a39b-232c253002d9"
   ],
-  "_ts": "2026-07-29T13:13:47.078Z"
+  "_ts": "2026-07-29T13:14:41.736Z"
 }
