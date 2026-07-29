@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178536401926896",
+      "board": "8gejhhHJj4e",
+      "driver": "Chris Luthye #705",
+      "driverId": "e74297c7-9b0c-4382-a91a-b7c1372386ec",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1785364019268,
+      "synced": false
+    },
+    {
       "id": "L1785363953538470",
       "board": "8gejhhHJj4e",
       "driver": "Efrain Sotelo",
@@ -27959,5 +27972,5 @@
     "4677b43f-30c3-46e0-b0bf-edfbd78080ce",
     "c508ae3f-ddab-445f-978f-8b969eb98884"
   ],
-  "_ts": "2026-07-29T22:25:56.113Z"
+  "_ts": "2026-07-29T22:26:59.296Z"
 }
