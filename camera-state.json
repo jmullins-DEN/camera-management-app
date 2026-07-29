@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785332678540411",
+      "board": "XVLVu2Du8hc",
+      "driver": "Chad Smith",
+      "driverId": "019a0810-437c-7aae-88b4-7558aa34aed8",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "71 in 60",
+      "ts": 1785332678540,
+      "synced": false
+    },
+    {
       "id": "L1785332642281178",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Stoner",
@@ -28055,5 +28068,5 @@
     "12965e8e-1946-4253-b39e-a1f3dca007f6",
     "c77182d2-bbe4-4432-bc6a-7f281c4a9f8a"
   ],
-  "_ts": "2026-07-29T13:44:05.254Z"
+  "_ts": "2026-07-29T13:44:38.582Z"
 }
