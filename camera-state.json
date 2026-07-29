@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Phone Distraction\nVehicle PU 3215 Half ton Spare SLE",
       "ts": 1785364553500,
-      "synced": false
+      "synced": true,
+      "infItemId": "5f4c942b-d163-4b94-aa49-cc260d67e076",
+      "syncError": null
     },
     {
       "id": "L1785364393148953",
@@ -28084,5 +28086,5 @@
     "fdf32735-dfbb-4818-a2bd-2cebf2209ad7",
     "5f4c942b-d163-4b94-aa49-cc260d67e076"
   ],
-  "_ts": "2026-07-29T22:35:53.529Z"
+  "_ts": "2026-07-29T22:35:55.456Z"
 }
