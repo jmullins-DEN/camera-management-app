@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785364877427647",
+      "board": "8gejhhHJj4e",
+      "driver": "Victor Sena",
+      "driverId": "97ba581a-289e-48cb-bbd8-b6b047471096",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Increase Following Distance",
+      "ts": 1785364877427,
+      "synced": false
+    },
+    {
       "id": "L1785364616080351",
       "board": "8gejhhHJj4e",
       "driver": "Diego Garcia Duarte",
@@ -28102,5 +28115,5 @@
     "5f4c942b-d163-4b94-aa49-cc260d67e076",
     "bc79a742-ce1a-45f2-92a0-38b7c20c1f8d"
   ],
-  "_ts": "2026-07-29T22:36:59.120Z"
+  "_ts": "2026-07-29T22:41:17.456Z"
 }
