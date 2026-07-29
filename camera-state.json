@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785363953538470",
+      "board": "8gejhhHJj4e",
+      "driver": "Efrain Sotelo",
+      "driverId": "019f1fa4-4d09-73de-8f47-8efba7958563",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1785363953538,
+      "synced": false
+    },
+    {
       "id": "L1785363894125630",
       "board": "8gejhhHJj4e",
       "driver": "Matt Graves",
@@ -27943,5 +27956,5 @@
     "661f2507-f10e-4936-9762-ae11fc791a08",
     "4677b43f-30c3-46e0-b0bf-edfbd78080ce"
   ],
-  "_ts": "2026-07-29T22:24:57.128Z"
+  "_ts": "2026-07-29T22:25:53.566Z"
 }
