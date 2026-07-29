@@ -320,6 +320,34 @@
   },
   "local": [
     {
+      "id": "L1785366552466381",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-29",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 6221157656\nCab Violation; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e5af52e3-7990-499e-85c5-a00a66d728c1.mp4",
+      "ts": 1785366552466,
+      "synced": false
+    },
+    {
+      "id": "L178536647058347",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-29",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6221216182\nFollowing Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bafedd2f-9a6d-4ffe-88ac-fb50b00d04a0.mp4",
+      "ts": 1785366470584,
+      "synced": true,
+      "infItemId": "bcf0bc74-4dcb-40e6-a120-71b25f076a72",
+      "syncError": null
+    },
+    {
       "id": "L1785366363639235",
       "board": "ic6o6QgzpVM",
       "driver": "Prisciliano, Aldair",
@@ -28260,7 +28288,8 @@
     "421fad85-ca6e-4bf9-a84b-ff3e726ed251",
     "a7472a0a-ba23-4a1c-a953-8c6028041d21",
     "a78d40a4-8693-4155-801f-d2f485170c77",
-    "a2f29459-df9d-472c-9caa-f47e207d21af"
+    "a2f29459-df9d-472c-9caa-f47e207d21af",
+    "bcf0bc74-4dcb-40e6-a120-71b25f076a72"
   ],
-  "_ts": "2026-07-29T23:06:05.740Z"
+  "_ts": "2026-07-29T23:09:12.491Z"
 }
