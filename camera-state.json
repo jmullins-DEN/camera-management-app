@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785366053067469",
+      "board": "ic6o6QgzpVM",
+      "driver": "Reyna, Oscar",
+      "driverId": "019b3716-02f6-777d-9a41-ee887d873d4a",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-29",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 6222237469\nTraffic Light Violation; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6af2cf74-23c4-4a1b-9af9-86b349feb2ae.mp4",
+      "ts": 1785366053067,
+      "synced": false
+    },
+    {
       "id": "L1785365895553928",
       "board": "ic6o6QgzpVM",
       "driver": "Reyna, Oscar",
@@ -28214,5 +28227,5 @@
     "53ea3673-0bf5-4c0b-a6ea-ff360306002f",
     "421fad85-ca6e-4bf9-a84b-ff3e726ed251"
   ],
-  "_ts": "2026-07-29T22:58:18.127Z"
+  "_ts": "2026-07-29T23:00:53.093Z"
 }
