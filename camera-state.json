@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785333120966736",
+      "board": "YfVHuM3X87v",
+      "driver": "Ethan Owens",
+      "driverId": "1085658d-2bf7-4d84-9fbc-cb7b53debf9b",
+      "date": "2026-07-28",
+      "reviewed": "2026-07-29",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1785333120966,
+      "synced": false
+    },
+    {
       "id": "L1785332987173565",
       "board": "YfVHuM3X87v",
       "driver": "Jeffery Gertiser",
@@ -28119,5 +28132,5 @@
     "a725dbd8-3ef4-4a38-80b7-7a51ac084b9e",
     "a06a3d60-f3cf-4f4f-9260-9205c1767f92"
   ],
-  "_ts": "2026-07-29T13:49:52.389Z"
+  "_ts": "2026-07-29T13:52:01.038Z"
 }
