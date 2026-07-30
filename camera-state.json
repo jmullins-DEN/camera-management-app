@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785412160354287",
+      "board": "8BUntjK1TqV",
+      "driver": "LaFuente, Richard",
+      "driverId": "886bf1f9-0646-4107-b50f-7c75c232adff",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6220184561; 74 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3154081c-a751-47e7-b4d3-0a9b804b1c41.mp4",
+      "ts": 1785412160354,
+      "synced": false
+    },
+    {
       "id": "L1785379604860856",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -29302,5 +29315,5 @@
     "1a69b392-1cee-4b96-af54-206fab320591",
     "aaa68762-ca37-45c0-beff-e508d28f24f0"
   ],
-  "_ts": "2026-07-30T10:39:44.689Z"
+  "_ts": "2026-07-30T11:49:20.390Z"
 }
