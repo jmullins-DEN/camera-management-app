@@ -330,7 +330,9 @@
       "coaching": "System Alert",
       "notes": "Camera upside down",
       "ts": 1785424359380,
-      "synced": false
+      "synced": true,
+      "infItemId": "ce269f57-b771-42d8-8cc3-cd890d1a655a",
+      "syncError": null
     },
     {
       "id": "L178542403155155",
@@ -30048,7 +30050,8 @@
     "cc2d65c9-8b9b-4ca6-8e37-fe4f9e84dce9",
     "32e1be4a-f3e7-499e-96e3-e91b18fefffc",
     "dd05de0e-76ed-4e17-bb08-acca695eaf02",
-    "b52dcab0-3b77-45e6-9b1a-d2860643d7ab"
+    "b52dcab0-3b77-45e6-9b1a-d2860643d7ab",
+    "ce269f57-b771-42d8-8cc3-cd890d1a655a"
   ],
-  "_ts": "2026-07-30T15:12:39.427Z"
+  "_ts": "2026-07-30T15:12:41.652Z"
 }
