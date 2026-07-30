@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L17854253534289",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1785425353428,
+      "synced": false
+    },
+    {
       "id": "L1785425286163738",
       "board": "8gejhhHJj4e",
       "driver": "Diego Molina",
@@ -330,7 +343,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1785425286163,
-      "synced": false
+      "synced": true,
+      "infItemId": "7698e941-ac12-4e80-99e9-755587f96ced",
+      "syncError": null
     },
     {
       "id": "L1785425240510448",
@@ -30176,7 +30191,8 @@
     "7cbb9e4f-53ce-4699-bb42-70f64a850589",
     "4dd8010b-0e7b-4bab-a6f8-dd439057af16",
     "a25c480a-2f7a-44fc-be7c-2ada8881c767",
-    "6aa7660f-ba44-4884-842c-ddb3b7e481f6"
+    "6aa7660f-ba44-4884-842c-ddb3b7e481f6",
+    "7698e941-ac12-4e80-99e9-755587f96ced"
   ],
-  "_ts": "2026-07-30T15:28:06.192Z"
+  "_ts": "2026-07-30T15:29:13.457Z"
 }
