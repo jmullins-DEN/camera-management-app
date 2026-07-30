@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785415753464732",
+      "board": "xMfRLnqAN7y",
+      "driver": "Gerard Barahona",
+      "driverId": "019bdd3f-8843-7997-8bde-2a0b0d86c8bc",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1785415753464,
+      "synced": false
+    },
+    {
       "id": "L1785415649233233",
       "board": "xMfRLnqAN7y",
       "driver": "Mark Hyde",
@@ -29909,5 +29922,5 @@
     "26c11d93-95b4-417b-8925-5145bf3bce99",
     "3861d4ca-2825-488d-831a-8e6108d63de4"
   ],
-  "_ts": "2026-07-30T12:47:32.239Z"
+  "_ts": "2026-07-30T12:49:13.500Z"
 }
