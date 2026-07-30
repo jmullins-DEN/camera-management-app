@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "78 in 55",
       "ts": 1785416266635,
-      "synced": false
+      "synced": true,
+      "infItemId": "32e1be4a-f3e7-499e-96e3-e91b18fefffc",
+      "syncError": null
     },
     {
       "id": "L1785416220053597",
@@ -30000,7 +30002,8 @@
     "5c2d6974-cdb7-4f27-a708-4948d37bc566",
     "4debe909-05da-4f60-a4df-a6468f6279ed",
     "275a5efc-7b5e-4f2c-8d6f-b0ae1ed05c30",
-    "cc2d65c9-8b9b-4ca6-8e37-fe4f9e84dce9"
+    "cc2d65c9-8b9b-4ca6-8e37-fe4f9e84dce9",
+    "32e1be4a-f3e7-499e-96e3-e91b18fefffc"
   ],
-  "_ts": "2026-07-30T12:57:46.676Z"
+  "_ts": "2026-07-30T12:57:48.584Z"
 }
