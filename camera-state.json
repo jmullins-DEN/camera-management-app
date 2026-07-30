@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785379486142591",
+      "board": "UKkbYDchPMh",
+      "driver": "Shawn Young",
+      "driverId": "019d2aaa-3755-7776-a7ed-94463e039b79",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-29",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a6a09bd883a79857c25a4b6",
+      "ts": 1785379486142,
+      "synced": false
+    },
+    {
       "id": "L1785379367705802",
       "board": "UKkbYDchPMh",
       "driver": "Cory Mills",
@@ -28502,5 +28515,5 @@
     "4941b1ac-1144-48d8-8a93-8b2f2464d70c",
     "4722b54a-0fdc-4449-8395-e299a0e4455e"
   ],
-  "_ts": "2026-07-30T02:42:50.631Z"
+  "_ts": "2026-07-30T02:44:46.200Z"
 }
