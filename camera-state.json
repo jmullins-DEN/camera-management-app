@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785424359380323",
+      "board": "JthqRmXvJ9v",
+      "driver": "Daniel Brown",
+      "driverId": "019a7b18-0863-7330-ad9a-afe7951dac3b",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera upside down",
+      "ts": 1785424359380,
+      "synced": false
+    },
+    {
       "id": "L178542403155155",
       "board": "nWRsGRSm2Hn",
       "driver": "Emery, Shane",
@@ -330,7 +343,9 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\n",
       "ts": 1785424031551,
-      "synced": false
+      "synced": true,
+      "infItemId": "b52dcab0-3b77-45e6-9b1a-d2860643d7ab",
+      "syncError": null
     },
     {
       "id": "L1785416351539960",
@@ -30032,7 +30047,8 @@
     "275a5efc-7b5e-4f2c-8d6f-b0ae1ed05c30",
     "cc2d65c9-8b9b-4ca6-8e37-fe4f9e84dce9",
     "32e1be4a-f3e7-499e-96e3-e91b18fefffc",
-    "dd05de0e-76ed-4e17-bb08-acca695eaf02"
+    "dd05de0e-76ed-4e17-bb08-acca695eaf02",
+    "b52dcab0-3b77-45e6-9b1a-d2860643d7ab"
   ],
-  "_ts": "2026-07-30T15:07:11.581Z"
+  "_ts": "2026-07-30T15:12:39.427Z"
 }
