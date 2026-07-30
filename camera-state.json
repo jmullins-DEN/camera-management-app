@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785426186310932",
+      "board": "8gejhhHJj4e",
+      "driver": "Dylan Rouco",
+      "driverId": "019afe85-3d4a-7bb7-a390-405521644f21",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Cab Distraction / Keep hands on the wheel",
+      "ts": 1785426186310,
+      "synced": false
+    },
+    {
       "id": "L1785425961899664",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -30309,5 +30322,5 @@
     "fc7d3547-c872-4492-958a-dc25743b30a9",
     "6d26e215-3540-49c4-a93b-1dc4cf1e5fb4"
   ],
-  "_ts": "2026-07-30T15:39:24.501Z"
+  "_ts": "2026-07-30T15:43:06.347Z"
 }
