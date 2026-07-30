@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "driver distracted",
       "ts": 1785415442666,
-      "synced": false
+      "synced": true,
+      "infItemId": "5164d8cd-ddde-40ec-a10a-116046fad9e0",
+      "syncError": null
     },
     {
       "id": "L1785415392366698",
@@ -29856,7 +29858,8 @@
     "b613f07a-d346-44c5-b6b8-d08a4a707331",
     "0236af5d-e98a-4296-a6ee-b05fdc0e00b7",
     "57f1b8bd-70ed-4a89-8885-5c3c2239e8ec",
-    "06f8f97b-1058-4083-896c-0001bee52966"
+    "06f8f97b-1058-4083-896c-0001bee52966",
+    "5164d8cd-ddde-40ec-a10a-116046fad9e0"
   ],
-  "_ts": "2026-07-30T12:44:02.707Z"
+  "_ts": "2026-07-30T12:44:06.285Z"
 }
