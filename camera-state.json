@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785415216268395",
+      "board": "XVLVu2Du8hc",
+      "driver": "Johnnie Gates",
+      "driverId": "019ab5c6-21a1-7ffa-96ac-df5f1f9d8653",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "74 in 55",
+      "ts": 1785415216268,
+      "synced": false
+    },
+    {
       "id": "L1785415160214124",
       "board": "XVLVu2Du8hc",
       "driver": "Susan Cobleigh",
@@ -29813,5 +29826,5 @@
     "b613f07a-d346-44c5-b6b8-d08a4a707331",
     "0236af5d-e98a-4296-a6ee-b05fdc0e00b7"
   ],
-  "_ts": "2026-07-30T12:39:23.236Z"
+  "_ts": "2026-07-30T12:40:16.307Z"
 }
