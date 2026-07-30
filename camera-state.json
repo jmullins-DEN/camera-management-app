@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178541437099337",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1587773980; following too close; truck #AN74\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9ed472d4-fa2a-469a-9cf7-c445d3bd66e2.mp4",
+      "ts": 1785414370993,
+      "synced": false
+    },
+    {
       "id": "L1785414251855569",
       "board": "aRcazTLT9iM",
       "driver": "Edward Rourke",
@@ -29654,5 +29667,5 @@
     "42d80106-49db-477a-979e-14d582dd05a5",
     "57614af8-e3b5-4ecc-ac11-d43106058dc2"
   ],
-  "_ts": "2026-07-30T12:24:16.732Z"
+  "_ts": "2026-07-30T12:26:11.033Z"
 }
