@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785415649233233",
+      "board": "xMfRLnqAN7y",
+      "driver": "Mark Hyde",
+      "driverId": "019bdd40-5456-7997-8bde-7fd8641dd43a",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1785415649233,
+      "synced": false
+    },
+    {
       "id": "L1785415544283992",
       "board": "YfVHuM3X87v",
       "driver": "Charles Allen",
@@ -29893,5 +29906,5 @@
     "6084a7ce-99d8-46c0-8f5c-e288758a7a42",
     "26c11d93-95b4-417b-8925-5145bf3bce99"
   ],
-  "_ts": "2026-07-30T12:45:48.585Z"
+  "_ts": "2026-07-30T12:47:29.275Z"
 }
