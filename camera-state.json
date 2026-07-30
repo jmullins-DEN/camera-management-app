@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Phone Distraction\n PU 4660 Crew Cab Spare",
       "ts": 1785425961899,
-      "synced": false
+      "synced": true,
+      "infItemId": "6d26e215-3540-49c4-a93b-1dc4cf1e5fb4",
+      "syncError": null
     },
     {
       "id": "L1785425847230277",
@@ -30304,7 +30306,8 @@
     "13ecfc09-c9ec-4cee-a207-48ac96acfaa2",
     "2f736af9-7cc5-4aa2-8e90-9f3902d42252",
     "d2ce980a-194d-4638-a6b4-8f84d3acf862",
-    "fc7d3547-c872-4492-958a-dc25743b30a9"
+    "fc7d3547-c872-4492-958a-dc25743b30a9",
+    "6d26e215-3540-49c4-a93b-1dc4cf1e5fb4"
   ],
-  "_ts": "2026-07-30T15:39:21.929Z"
+  "_ts": "2026-07-30T15:39:24.501Z"
 }
