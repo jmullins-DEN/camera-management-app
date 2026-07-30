@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785425163194511",
+      "board": "8gejhhHJj4e",
+      "driver": "Efrain Sotelo",
+      "driverId": "019f1fa4-4d09-73de-8f47-8efba7958563",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1785425163194,
+      "synced": false
+    },
+    {
       "id": "L1785424946483238",
       "board": "9RKrQRpDLcr",
       "driver": "Jonathan Walters",
@@ -30117,5 +30130,5 @@
     "27d5d427-1af3-43dd-be88-98a07efca783",
     "7cbb9e4f-53ce-4699-bb42-70f64a850589"
   ],
-  "_ts": "2026-07-30T15:22:28.670Z"
+  "_ts": "2026-07-30T15:26:03.221Z"
 }
