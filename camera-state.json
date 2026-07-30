@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "Cab Distraction / Keep hands on the wheel",
       "ts": 1785426186310,
-      "synced": false
+      "synced": true,
+      "infItemId": "c666ef14-9e70-423e-b585-3a56bfb0840f",
+      "syncError": null
     },
     {
       "id": "L1785425961899664",
@@ -30320,7 +30322,8 @@
     "2f736af9-7cc5-4aa2-8e90-9f3902d42252",
     "d2ce980a-194d-4638-a6b4-8f84d3acf862",
     "fc7d3547-c872-4492-958a-dc25743b30a9",
-    "6d26e215-3540-49c4-a93b-1dc4cf1e5fb4"
+    "6d26e215-3540-49c4-a93b-1dc4cf1e5fb4",
+    "c666ef14-9e70-423e-b585-3a56bfb0840f"
   ],
-  "_ts": "2026-07-30T15:43:06.347Z"
+  "_ts": "2026-07-30T15:43:09.492Z"
 }
