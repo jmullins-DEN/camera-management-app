@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785414200064296",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-07-29",
+      "reviewed": "2026-07-30",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1587758933; following too close; truck # AN 108\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b80f52c1-9848-4ba2-993c-0c8d99999b2a.mp4\n\n",
+      "ts": 1785414200064,
+      "synced": false
+    },
+    {
       "id": "L1785414116126462",
       "board": "aRcazTLT9iM",
       "driver": "Jeff Clark",
@@ -29622,5 +29635,5 @@
     "eb94b730-e29d-4e6b-9209-9d2c2561475c",
     "60519e9e-d2f9-432f-8cd6-5d8bf072337c"
   ],
-  "_ts": "2026-07-30T12:22:01.342Z"
+  "_ts": "2026-07-30T12:23:20.102Z"
 }
