@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785496363922703",
+      "board": "aRcazTLT9iM",
+      "driver": "Zach Risley",
+      "driverId": "14bbe6ad-14f2-4bce-98db-b478fe751dba",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1588473597; no stop \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/49b752ec-066f-4501-bda1-0de8302007b2.mp4\n",
+      "ts": 1785496363922,
+      "synced": false
+    },
+    {
       "id": "L1785496315372923",
       "board": "aRcazTLT9iM",
       "driver": "Jonathan Pencka",
@@ -31172,5 +31185,5 @@
     "04ddf086-16f0-4012-a15c-0c642ddca238",
     "40899289-f794-4217-a1a1-3bf5fcc58617"
   ],
-  "_ts": "2026-07-31T11:11:59.669Z"
+  "_ts": "2026-07-31T11:12:43.965Z"
 }
