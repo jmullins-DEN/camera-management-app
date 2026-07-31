@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 6227894160; lane swerve; in cab distraction; vehicle # 8052\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/be75eaf4-98fb-4edb-8630-6f0e99f5cd6d.mp4",
       "ts": 1785495298092,
-      "synced": false
+      "synced": true,
+      "infItemId": "413810fa-4469-4da6-bae7-89f3b29cd70a",
+      "syncError": null
     },
     {
       "id": "L1785466575869458",
@@ -30911,7 +30913,8 @@
     "f77625aa-fa61-4266-908d-106a0cf1c047",
     "bb24e8dd-fbdf-4f81-bf46-a4e817d014bd",
     "e9d5002a-fa30-4d06-8528-a167807c7547",
-    "6ccfd12b-e078-40ca-a838-d3caedbc292d"
+    "6ccfd12b-e078-40ca-a838-d3caedbc292d",
+    "413810fa-4469-4da6-bae7-89f3b29cd70a"
   ],
-  "_ts": "2026-07-31T10:54:58.132Z"
+  "_ts": "2026-07-31T10:55:01.469Z"
 }
