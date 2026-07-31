@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785497353360206",
+      "board": "YfVHuM3X87v",
+      "driver": "Luis Saborit Lozada",
+      "driverId": "576036e1-4394-4b8e-acc0-4306445d4046",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1785497353360,
+      "synced": false
+    },
+    {
       "id": "L1785497309305389",
       "board": "YfVHuM3X87v",
       "driver": "Christian Snow",
@@ -31444,5 +31457,5 @@
     "8408983e-6383-41f8-8284-943ff2d23dee",
     "fe640ee0-b4a0-47a4-b375-b6ce1dc7f3f7"
   ],
-  "_ts": "2026-07-31T11:28:33.218Z"
+  "_ts": "2026-07-31T11:29:13.398Z"
 }
