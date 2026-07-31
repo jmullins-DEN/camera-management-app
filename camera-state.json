@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6231726249\nHard Brake: \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8446881b-43ca-4979-bc39-2f15b2b0d3c4.mp4\n      https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8446881b-43ca-4979-bc39-2f15b2b0d3c4.mp4",
       "ts": 1785459688880,
-      "synced": false
+      "synced": true,
+      "infItemId": "c0f3d9ff-c60b-480c-bcbf-9412a51304e4",
+      "syncError": null
     },
     {
       "id": "L1785459478526643",
@@ -30655,7 +30657,8 @@
     "1050e696-966b-43e8-8acf-ad9abf48d7b4",
     "eb5eabb9-fff8-4dcc-823e-e898c3677f62",
     "5797a3a1-9490-43e4-ac3a-4926e9527cdd",
-    "2e4f2780-03c6-4249-86e1-e95c33f8e48c"
+    "2e4f2780-03c6-4249-86e1-e95c33f8e48c",
+    "c0f3d9ff-c60b-480c-bcbf-9412a51304e4"
   ],
-  "_ts": "2026-07-31T01:01:28.920Z"
+  "_ts": "2026-07-31T01:01:32.494Z"
 }
