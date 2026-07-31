@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785497309305389",
+      "board": "YfVHuM3X87v",
+      "driver": "Christian Snow",
+      "driverId": "41326440-b18c-4467-9dac-5a08177b84db",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; ",
+      "ts": 1785497309305,
+      "synced": false
+    },
+    {
       "id": "L1785497236469491",
       "board": "YfVHuM3X87v",
       "driver": "Charles Jefride",
@@ -31428,5 +31441,5 @@
     "d50c9916-9eca-481d-b034-071232fa3f53",
     "8408983e-6383-41f8-8284-943ff2d23dee"
   ],
-  "_ts": "2026-07-31T11:27:20.657Z"
+  "_ts": "2026-07-31T11:28:29.345Z"
 }
