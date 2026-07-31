@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785495554804598",
+      "board": "8BUntjK1TqV",
+      "driver": "Jimenez, Jose II",
+      "driverId": "684b6f02-1740-4077-bce5-0307d25bc21b",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6230516532; writing\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ce88e051-e0e5-4147-af8a-b7c18b71f029.mp4",
+      "ts": 1785495554804,
+      "synced": false
+    },
+    {
       "id": "L1785495495447169",
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Luis",
@@ -30964,5 +30977,5 @@
     "9982ab75-b02e-4d5d-8cb1-f7b094d285da",
     "9d2a9437-a445-4839-b76a-2e2b0ad5a245"
   ],
-  "_ts": "2026-07-31T10:58:18.473Z"
+  "_ts": "2026-07-31T10:59:14.845Z"
 }
