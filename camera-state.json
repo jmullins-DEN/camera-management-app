@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785458664149443",
+      "board": "AKJSkJj6Ch4",
+      "driver": "unassigned",
+      "driverId": "b276d55c-5996-4aa7-bb6e-ddad178def51",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474995752151-1785440872280\nCab Distraction;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/22da6211-df60-4694-ab68-db633fe0b772.mp4",
+      "ts": 1785458664149,
+      "synced": false
+    },
+    {
       "id": "L1785458341076237",
       "board": "AKJSkJj6Ch4",
       "driver": "Michael Colvin",
@@ -30516,5 +30529,5 @@
     "94c2291a-1a35-4627-aba4-c36bd93d59a2",
     "82533193-9ed0-4bbb-adc1-56eea3a6d0cb"
   ],
-  "_ts": "2026-07-31T00:39:04.490Z"
+  "_ts": "2026-07-31T00:44:24.175Z"
 }
