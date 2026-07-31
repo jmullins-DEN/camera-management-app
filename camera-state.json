@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L17854952980926",
+      "board": "8BUntjK1TqV",
+      "driver": "unassigned",
+      "driverId": "3111c34f-9af4-4713-a299-41121dca9bbd",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6227894160; lane swerve; in cab distraction; vehicle # 8052\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/be75eaf4-98fb-4edb-8630-6f0e99f5cd6d.mp4",
+      "ts": 1785495298092,
+      "synced": false
+    },
+    {
       "id": "L1785466575869458",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -30900,5 +30913,5 @@
     "e9d5002a-fa30-4d06-8528-a167807c7547",
     "6ccfd12b-e078-40ca-a838-d3caedbc292d"
   ],
-  "_ts": "2026-07-31T02:56:19.346Z"
+  "_ts": "2026-07-31T10:54:58.132Z"
 }
