@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "78 in 55",
       "ts": 1785456218954,
-      "synced": false
+      "synced": true,
+      "infItemId": "1aba2e5d-fc27-40ca-9719-4be04aaacedf",
+      "syncError": null
     },
     {
       "id": "L1785443585188283",
@@ -30415,7 +30417,8 @@
     "dab137eb-0d67-42ea-b977-322d2ed32798",
     "e7005b9e-027d-40e4-86db-7d2a6888dabc",
     "060752d4-0c1a-4271-a74a-a9e64f050094",
-    "05c444dc-899d-4274-80db-c2d5baa94ac8"
+    "05c444dc-899d-4274-80db-c2d5baa94ac8",
+    "1aba2e5d-fc27-40ca-9719-4be04aaacedf"
   ],
-  "_ts": "2026-07-31T00:03:39.000Z"
+  "_ts": "2026-07-31T00:03:41.271Z"
 }
