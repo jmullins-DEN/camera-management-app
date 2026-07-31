@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785465516690416",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-30",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "https://app.estrack.com/#/camera/events/6a6b5d20883a79857c274cb2",
+      "ts": 1785465516691,
+      "synced": false
+    },
+    {
       "id": "L1785460202218224",
       "board": "ic6o6QgzpVM",
       "driver": "Gonzales, Edgar",
@@ -30724,5 +30737,5 @@
     "9d2c6514-aac6-4b7b-976b-dd3ca8375adc",
     "d4911b91-d767-4f5e-be43-2f8cec9e3fba"
   ],
-  "_ts": "2026-07-31T01:10:05.503Z"
+  "_ts": "2026-07-31T02:38:36.743Z"
 }
