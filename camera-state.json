@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785456275514939",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "60 in 35",
+      "ts": 1785456275514,
+      "synced": false
+    },
+    {
       "id": "L1785456218954333",
       "board": "XVLVu2Du8hc",
       "driver": "unassigned",
@@ -30420,5 +30433,5 @@
     "05c444dc-899d-4274-80db-c2d5baa94ac8",
     "1aba2e5d-fc27-40ca-9719-4be04aaacedf"
   ],
-  "_ts": "2026-07-31T00:03:41.271Z"
+  "_ts": "2026-07-31T00:04:35.554Z"
 }
