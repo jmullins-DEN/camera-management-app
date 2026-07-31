@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785495673970874",
+      "board": "8BUntjK1TqV",
+      "driver": "Jimenez, Jose II",
+      "driverId": "684b6f02-1740-4077-bce5-0307d25bc21b",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6232010318; 70 in 60\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8af1698f-2729-4db9-8ba3-332691e348f4.mp4",
+      "ts": 1785495673970,
+      "synced": false
+    },
+    {
       "id": "L1785495610837339",
       "board": "8BUntjK1TqV",
       "driver": "Jimenez, Jose II",
@@ -30996,5 +31009,5 @@
     "c30c07c9-2ca9-46ae-a45a-d50ee6e44415",
     "ae1355c1-7fea-489f-9abd-0367d66d90a9"
   ],
-  "_ts": "2026-07-31T11:00:13.467Z"
+  "_ts": "2026-07-31T11:01:14.010Z"
 }
