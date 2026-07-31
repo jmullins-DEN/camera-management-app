@@ -330,7 +330,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 1242878832621551616; driver drowsy; Eli not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ce07b910-fab0-4673-b5de-3f7339707ee3.mp4",
       "ts": 1785496808676,
-      "synced": false
+      "synced": true,
+      "infItemId": "da47b090-ca2d-42bd-b629-44e184b00231",
+      "syncError": null
     },
     {
       "id": "L1785496765957300",
@@ -31327,7 +31329,8 @@
     "ffae041d-4117-420f-92ec-e7a72cd96c69",
     "8bbf10fb-9a46-454b-9352-1a1eaf7fafe7",
     "980c820b-916a-4ea0-a257-16da7e6e4f82",
-    "f2d65a1e-8c7e-40c1-9697-d8c81be02acd"
+    "f2d65a1e-8c7e-40c1-9697-d8c81be02acd",
+    "da47b090-ca2d-42bd-b629-44e184b00231"
   ],
-  "_ts": "2026-07-31T11:20:08.714Z"
+  "_ts": "2026-07-31T11:20:11.472Z"
 }
