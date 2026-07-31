@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785459821612605",
+      "board": "ic6o6QgzpVM",
+      "driver": "Stephen Hails",
+      "driverId": "019e4c3d-9396-7129-95d9-dd136a99b786",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6230540401\nSpeeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cdc6d11b-3827-4fa9-86b2-f1caf98ca373.mp4\n",
+      "ts": 1785459821612,
+      "synced": false
+    },
+    {
       "id": "L1785459688879534",
       "board": "ic6o6QgzpVM",
       "driver": "Stephen Hails",
@@ -30660,5 +30673,5 @@
     "2e4f2780-03c6-4249-86e1-e95c33f8e48c",
     "c0f3d9ff-c60b-480c-bcbf-9412a51304e4"
   ],
-  "_ts": "2026-07-31T01:01:32.494Z"
+  "_ts": "2026-07-31T01:03:41.642Z"
 }
