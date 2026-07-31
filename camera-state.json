@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785497472180821",
+      "board": "YfVHuM3X87v",
+      "driver": "Luis Saborit Lozada",
+      "driverId": "576036e1-4394-4b8e-acc0-4306445d4046",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "lane swerve; texting",
+      "ts": 1785497472180,
+      "synced": false
+    },
+    {
       "id": "L1785497423839383",
       "board": "YfVHuM3X87v",
       "driver": "Jeffery Gertiser",
@@ -31492,5 +31505,5 @@
     "2853060d-ff42-4f42-9aa9-01ad7525b759",
     "9630894d-403c-4b73-8e38-678700f454dc"
   ],
-  "_ts": "2026-07-31T11:30:27.796Z"
+  "_ts": "2026-07-31T11:31:12.223Z"
 }
