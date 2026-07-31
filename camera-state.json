@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1242794873178980352; hand held phone; Eli not in truckspy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/95ee35a5-afaa-48bd-9a6a-bbdac6aa9df4.mp4",
       "ts": 1785496765957,
-      "synced": false
+      "synced": true,
+      "infItemId": "f2d65a1e-8c7e-40c1-9697-d8c81be02acd",
+      "syncError": null
     },
     {
       "id": "L1785496694268593",
@@ -31311,7 +31313,8 @@
     "e53f60f1-8a5d-4727-ba02-cc3551310fb7",
     "ffae041d-4117-420f-92ec-e7a72cd96c69",
     "8bbf10fb-9a46-454b-9352-1a1eaf7fafe7",
-    "980c820b-916a-4ea0-a257-16da7e6e4f82"
+    "980c820b-916a-4ea0-a257-16da7e6e4f82",
+    "f2d65a1e-8c7e-40c1-9697-d8c81be02acd"
   ],
-  "_ts": "2026-07-31T11:19:25.997Z"
+  "_ts": "2026-07-31T11:19:27.957Z"
 }
