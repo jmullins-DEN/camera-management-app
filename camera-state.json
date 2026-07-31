@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785456218954333",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Speeding",
+      "coaching": "Unidentified Driver",
+      "notes": "78 in 55",
+      "ts": 1785456218954,
+      "synced": false
+    },
+    {
       "id": "L1785443585188283",
       "board": "7W2SQKrNcXQ",
       "driver": "Chris Kavel",
@@ -30404,5 +30417,5 @@
     "060752d4-0c1a-4271-a74a-a9e64f050094",
     "05c444dc-899d-4274-80db-c2d5baa94ac8"
   ],
-  "_ts": "2026-07-30T20:33:08.802Z"
+  "_ts": "2026-07-31T00:03:39.000Z"
 }
