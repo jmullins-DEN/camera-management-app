@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 423475622; hand held phone; J Rodrigues not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/85c01e2c-61ca-49e0-a744-c94d4e93356e.mp4",
       "ts": 1785496235421,
-      "synced": false
+      "synced": true,
+      "infItemId": "04ddf086-16f0-4012-a15c-0c642ddca238",
+      "syncError": null
     },
     {
       "id": "L1785496147613899",
@@ -31151,7 +31153,8 @@
     "c4c6ea8b-384b-4379-8657-3662c8697299",
     "37dab7a5-0a19-4c59-8197-e3ee4a25d99e",
     "a117d289-d0c4-4411-ae1e-ae1efd03c01a",
-    "33d6bb30-f26b-4ba1-8678-4fdf53deb789"
+    "33d6bb30-f26b-4ba1-8678-4fdf53deb789",
+    "04ddf086-16f0-4012-a15c-0c642ddca238"
   ],
-  "_ts": "2026-07-31T11:10:35.459Z"
+  "_ts": "2026-07-31T11:10:38.470Z"
 }
