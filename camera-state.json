@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785497817159138",
+      "board": "YJNwKvzFhkj",
+      "driver": "Omar Bowers",
+      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "hand held phone",
+      "ts": 1785497817159,
+      "synced": false
+    },
+    {
       "id": "L1785497685988739",
       "board": "xMfRLnqAN7y",
       "driver": "Paul Hyde",
@@ -330,7 +343,9 @@
       "coaching": "Face to Face",
       "notes": "multi-tasking; loses lane",
       "ts": 1785497685988,
-      "synced": false
+      "synced": true,
+      "infItemId": "6f329959-1bcb-406a-9f40-ec1f0723f4be",
+      "syncError": null
     },
     {
       "id": "L1785497526158202",
@@ -31535,7 +31550,8 @@
     "2853060d-ff42-4f42-9aa9-01ad7525b759",
     "9630894d-403c-4b73-8e38-678700f454dc",
     "fcc56613-314c-4ba9-b5f6-367eb65816d2",
-    "11a05daf-137b-4b5c-84e4-bfa6edcac233"
+    "11a05daf-137b-4b5c-84e4-bfa6edcac233",
+    "6f329959-1bcb-406a-9f40-ec1f0723f4be"
   ],
-  "_ts": "2026-07-31T11:34:46.030Z"
+  "_ts": "2026-07-31T11:36:57.200Z"
 }
