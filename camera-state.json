@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 423273765; following  too close; Alex not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4f13e388-aaf2-4dd5-88b3-d794f17bd069.mp4\n",
       "ts": 1785495947795,
-      "synced": false
+      "synced": true,
+      "infItemId": "77a70b23-d0a0-478e-bd31-cd4e532cb143",
+      "syncError": null
     },
     {
       "id": "L1785495890417644",
@@ -31071,7 +31073,8 @@
     "c682ab65-f253-4009-9875-6b8eca506965",
     "3942991b-d64e-451e-bce7-774e05b76888",
     "649ef24c-db19-4d28-900b-84b3ffd3f360",
-    "f460ce32-56c4-48bc-96b4-19e2d715c5dc"
+    "f460ce32-56c4-48bc-96b4-19e2d715c5dc",
+    "77a70b23-d0a0-478e-bd31-cd4e532cb143"
   ],
-  "_ts": "2026-07-31T11:05:47.837Z"
+  "_ts": "2026-07-31T11:05:51.465Z"
 }
