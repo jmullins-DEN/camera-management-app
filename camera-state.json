@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785495391424358",
+      "board": "8BUntjK1TqV",
+      "driver": "Rubio, Carlos",
+      "driverId": "2cec491e-d17f-45c1-90a1-3179ca087cf9",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6227940861; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a8acd54d-e178-4aa2-b171-a2a8d4f9b651.mp4",
+      "ts": 1785495391424,
+      "synced": false
+    },
+    {
       "id": "L17854952980926",
       "board": "8BUntjK1TqV",
       "driver": "unassigned",
@@ -30916,5 +30929,5 @@
     "6ccfd12b-e078-40ca-a838-d3caedbc292d",
     "413810fa-4469-4da6-bae7-89f3b29cd70a"
   ],
-  "_ts": "2026-07-31T10:55:01.469Z"
+  "_ts": "2026-07-31T10:56:31.463Z"
 }
