@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785497236469491",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Jefride",
+      "driverId": "21eef7a7-b5da-4ae9-9f3f-d02d12617054",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "potential collision",
+      "ts": 1785497236469,
+      "synced": false
+    },
+    {
       "id": "L178549703875129",
       "board": "ioWX9hneUsk",
       "driver": "Ray Pena",
@@ -31412,5 +31425,5 @@
     "35746299-b573-49ba-b5df-c6d22d957053",
     "d50c9916-9eca-481d-b034-071232fa3f53"
   ],
-  "_ts": "2026-07-31T11:25:09.100Z"
+  "_ts": "2026-07-31T11:27:16.510Z"
 }
