@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785456416045656",
+      "board": "XVLVu2Du8hc",
+      "driver": "Wesley Tallon",
+      "driverId": "019e02aa-2e61-7754-8e73-924a35b04e11",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "72 in 50",
+      "ts": 1785456416045,
+      "synced": false
+    },
+    {
       "id": "L1785456375331468",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Tanner",
@@ -30468,5 +30481,5 @@
     "6c034f29-534a-4e66-96f0-191553426a66",
     "e0f83ea0-7d57-48ff-9093-deffcd51d3ef"
   ],
-  "_ts": "2026-07-31T00:06:18.466Z"
+  "_ts": "2026-07-31T00:06:56.087Z"
 }
