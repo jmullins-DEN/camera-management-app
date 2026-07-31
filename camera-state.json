@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785459688879534",
+      "board": "ic6o6QgzpVM",
+      "driver": "Stephen Hails",
+      "driverId": "019e4c3d-9396-7129-95d9-dd136a99b786",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6231726249\nHard Brake: \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8446881b-43ca-4979-bc39-2f15b2b0d3c4.mp4\n      https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8446881b-43ca-4979-bc39-2f15b2b0d3c4.mp4",
+      "ts": 1785459688880,
+      "synced": false
+    },
+    {
       "id": "L1785459478526643",
       "board": "ic6o6QgzpVM",
       "driver": "De La Garza, Beto",
@@ -30644,5 +30657,5 @@
     "5797a3a1-9490-43e4-ac3a-4926e9527cdd",
     "2e4f2780-03c6-4249-86e1-e95c33f8e48c"
   ],
-  "_ts": "2026-07-31T00:58:00.661Z"
+  "_ts": "2026-07-31T01:01:28.920Z"
 }
