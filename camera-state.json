@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785497423839383",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "inattentive; possible phone",
+      "ts": 1785497423839,
+      "synced": false
+    },
+    {
       "id": "L1785497387416497",
       "board": "YfVHuM3X87v",
       "driver": "Ethan Owens",
@@ -31476,5 +31489,5 @@
     "16859174-b4d1-4d21-a9af-1436e4094d7d",
     "2853060d-ff42-4f42-9aa9-01ad7525b759"
   ],
-  "_ts": "2026-07-31T11:29:51.727Z"
+  "_ts": "2026-07-31T11:30:23.878Z"
 }
