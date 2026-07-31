@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785495424364948",
+      "board": "8BUntjK1TqV",
+      "driver": "Castillo-Castro, Edgar",
+      "driverId": "d3b0ac46-bd6e-464b-8d73-eb7e9de4567d",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6228081960; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9e707ea4-fc8c-426c-a6cd-e37b294f853f.mp4",
+      "ts": 1785495424364,
+      "synced": false
+    },
+    {
       "id": "L1785495391424358",
       "board": "8BUntjK1TqV",
       "driver": "Rubio, Carlos",
@@ -30932,5 +30945,5 @@
     "413810fa-4469-4da6-bae7-89f3b29cd70a",
     "eeca8d4f-6e50-4514-95ed-b00c874883b2"
   ],
-  "_ts": "2026-07-31T10:56:33.800Z"
+  "_ts": "2026-07-31T10:57:04.404Z"
 }
