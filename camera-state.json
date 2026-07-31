@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785496808676527",
+      "board": "ioWX9hneUsk",
+      "driver": "Eli",
+      "driverId": "019dba65-8d60-72bb-b1c5-01717b6707ff",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1242878832621551616; driver drowsy; Eli not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ce07b910-fab0-4673-b5de-3f7339707ee3.mp4",
+      "ts": 1785496808676,
+      "synced": false
+    },
+    {
       "id": "L1785496765957300",
       "board": "ioWX9hneUsk",
       "driver": "Eli",
@@ -31316,5 +31329,5 @@
     "980c820b-916a-4ea0-a257-16da7e6e4f82",
     "f2d65a1e-8c7e-40c1-9697-d8c81be02acd"
   ],
-  "_ts": "2026-07-31T11:19:27.957Z"
+  "_ts": "2026-07-31T11:20:08.714Z"
 }
