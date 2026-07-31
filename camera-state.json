@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785495610837339",
+      "board": "8BUntjK1TqV",
+      "driver": "Jimenez, Jose II",
+      "driverId": "684b6f02-1740-4077-bce5-0307d25bc21b",
+      "date": "2026-07-30",
+      "reviewed": "2026-07-31",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6231455245; no stop; no slowdown\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ed69339a-caf4-4222-963d-55ab440fda93.mp4\n",
+      "ts": 1785495610837,
+      "synced": false
+    },
+    {
       "id": "L1785495554804598",
       "board": "8BUntjK1TqV",
       "driver": "Jimenez, Jose II",
@@ -30980,5 +30993,5 @@
     "9d2a9437-a445-4839-b76a-2e2b0ad5a245",
     "c30c07c9-2ca9-46ae-a45a-d50ee6e44415"
   ],
-  "_ts": "2026-07-31T10:59:17.470Z"
+  "_ts": "2026-07-31T11:00:10.879Z"
 }
