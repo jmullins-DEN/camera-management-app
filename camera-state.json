@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 6228211743; texting; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4b550bdd-c8ac-48f7-927a-7556b2b2ab71.mp4",
       "ts": 1785495495447,
-      "synced": false
+      "synced": true,
+      "infItemId": "9d2a9437-a445-4839-b76a-2e2b0ad5a245",
+      "syncError": null
     },
     {
       "id": "L1785495424364948",
@@ -30959,7 +30961,8 @@
     "6ccfd12b-e078-40ca-a838-d3caedbc292d",
     "413810fa-4469-4da6-bae7-89f3b29cd70a",
     "eeca8d4f-6e50-4514-95ed-b00c874883b2",
-    "9982ab75-b02e-4d5d-8cb1-f7b094d285da"
+    "9982ab75-b02e-4d5d-8cb1-f7b094d285da",
+    "9d2a9437-a445-4839-b76a-2e2b0ad5a245"
   ],
-  "_ts": "2026-07-31T10:58:15.488Z"
+  "_ts": "2026-07-31T10:58:18.473Z"
 }
