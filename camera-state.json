@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1242960475390640128: Texting/Hard Braking\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ea6ac2f4-50a0-4063-843d-9771e1c7e94c.mp4",
       "ts": 1785459081503,
-      "synced": false
+      "synced": true,
+      "infItemId": "eb5eabb9-fff8-4dcc-823e-e898c3677f62",
+      "syncError": null
     },
     {
       "id": "L178545894031315",
@@ -30591,7 +30593,8 @@
     "4a1b6afe-fcda-4393-b278-8e2ad4c3186f",
     "e7e7b6ee-b881-4d19-a9ec-63b075208d21",
     "1050e696-966b-43e8-8acf-ad9abf48d7b4",
-    "4602f625-0b30-4c96-bed1-afc6208351bd"
+    "4602f625-0b30-4c96-bed1-afc6208351bd",
+    "eb5eabb9-fff8-4dcc-823e-e898c3677f62"
   ],
-  "_ts": "2026-07-31T00:51:21.647Z"
+  "_ts": "2026-07-31T00:51:25.076Z"
 }
