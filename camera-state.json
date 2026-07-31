@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "lane swerve; texting",
       "ts": 1785497472180,
-      "synced": false
+      "synced": true,
+      "infItemId": "fcc56613-314c-4ba9-b5f6-367eb65816d2",
+      "syncError": null
     },
     {
       "id": "L1785497423839383",
@@ -31503,7 +31505,8 @@
     "fe640ee0-b4a0-47a4-b375-b6ce1dc7f3f7",
     "16859174-b4d1-4d21-a9af-1436e4094d7d",
     "2853060d-ff42-4f42-9aa9-01ad7525b759",
-    "9630894d-403c-4b73-8e38-678700f454dc"
+    "9630894d-403c-4b73-8e38-678700f454dc",
+    "fcc56613-314c-4ba9-b5f6-367eb65816d2"
   ],
-  "_ts": "2026-07-31T11:31:12.223Z"
+  "_ts": "2026-07-31T11:31:14.175Z"
 }
