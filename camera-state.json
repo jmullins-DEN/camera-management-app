@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 281474995752151-1785440872280\nCab Distraction;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/22da6211-df60-4694-ab68-db633fe0b772.mp4",
       "ts": 1785458664149,
-      "synced": false
+      "synced": true,
+      "infItemId": "4a1b6afe-fcda-4393-b278-8e2ad4c3186f",
+      "syncError": null
     },
     {
       "id": "L1785458341076237",
@@ -30527,7 +30529,8 @@
     "e0f83ea0-7d57-48ff-9093-deffcd51d3ef",
     "6574354a-a1ea-46d8-a417-7ad6a0b8db43",
     "94c2291a-1a35-4627-aba4-c36bd93d59a2",
-    "82533193-9ed0-4bbb-adc1-56eea3a6d0cb"
+    "82533193-9ed0-4bbb-adc1-56eea3a6d0cb",
+    "4a1b6afe-fcda-4393-b278-8e2ad4c3186f"
   ],
-  "_ts": "2026-07-31T00:44:24.175Z"
+  "_ts": "2026-07-31T00:44:27.133Z"
 }
