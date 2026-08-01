@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785546502783697",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-07-31",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6236240765\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a2797e99-0bc3-400c-a860-244ddd3cf788.mp4",
+      "ts": 1785546502783,
+      "synced": false
+    },
+    {
       "id": "L1785546321169379",
       "board": "ic6o6QgzpVM",
       "driver": "Stephen Hails",
@@ -330,7 +343,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6237311590\nSpeeding ; Face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/53062813-7b56-4b54-999d-adb4a990c433.mp4",
       "ts": 1785546321169,
-      "synced": false
+      "synced": true,
+      "infItemId": "038affe3-3ce5-41b3-8400-c2d27d70bd40",
+      "syncError": null
     },
     {
       "id": "L1785546228218673",
@@ -31999,7 +32014,8 @@
     "e1c957f7-bccc-4752-b4d3-88786691343f",
     "e5185a94-d99f-4014-bc95-cdf22bb0dbc9",
     "5ff81988-a6ea-4ebd-b7d9-ebd99b3b6ccb",
-    "d1291b3a-1dc4-4221-b264-a88ca33670b5"
+    "d1291b3a-1dc4-4221-b264-a88ca33670b5",
+    "038affe3-3ce5-41b3-8400-c2d27d70bd40"
   ],
-  "_ts": "2026-08-01T01:05:21.207Z"
+  "_ts": "2026-08-01T01:08:22.822Z"
 }
