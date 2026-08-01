@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "Driver Distraction/ Harsh Brake\nAlert 281474995831300-1785505868156\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/34067d0f-839c-4d86-92f0-f87021b41c7f.mp4\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/64a30332-8560-438c-995d-03a8bd897ce2.mp4",
       "ts": 1785545753454,
-      "synced": false
+      "synced": true,
+      "infItemId": "e1c957f7-bccc-4752-b4d3-88786691343f",
+      "syncError": null
     },
     {
       "id": "L1785545673004425",
@@ -31935,7 +31937,8 @@
     "7b606446-67f7-42bd-b5fb-b12fe97b0086",
     "7e42ef64-622e-4cc8-b502-256e76bb93ec",
     "bc2dc612-b918-4b6d-8f7b-b6ec46be65b0",
-    "c05878a8-3c8a-4fd6-afaa-29ea42fe1962"
+    "c05878a8-3c8a-4fd6-afaa-29ea42fe1962",
+    "e1c957f7-bccc-4752-b4d3-88786691343f"
   ],
-  "_ts": "2026-08-01T00:55:53.486Z"
+  "_ts": "2026-08-01T00:55:55.576Z"
 }
