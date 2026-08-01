@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Harsh Turns",
       "ts": 1785543496407,
-      "synced": false
+      "synced": true,
+      "infItemId": "786addd5-66cf-41b4-afa6-2f10a494aa25",
+      "syncError": null
     },
     {
       "id": "L178554312384710",
@@ -31839,7 +31841,8 @@
     "63fc45a3-6041-4e3f-8d83-25a7b709f650",
     "79e5ec49-74a9-45e3-ad26-91c0681e901c",
     "f1fbc95d-ff2b-4065-95dd-161919e4cd69",
-    "d671ae1a-8d6b-4a94-844f-1fd98d2a8852"
+    "d671ae1a-8d6b-4a94-844f-1fd98d2a8852",
+    "786addd5-66cf-41b4-afa6-2f10a494aa25"
   ],
-  "_ts": "2026-08-01T00:18:16.437Z"
+  "_ts": "2026-08-01T00:18:18.808Z"
 }
