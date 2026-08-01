@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785545673004425",
+      "board": "AKJSkJj6Ch4",
+      "driver": "unassigned",
+      "driverId": "b276d55c-5996-4aa7-bb6e-ddad178def51",
+      "date": "2026-07-31",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle 553 Big Joe\nAlert 281474995752151-1785509301842\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/39c3d962-d94b-4950-9356-1a55567e58dd.mp4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "ts": 1785545673004,
+      "synced": false
+    },
+    {
       "id": "L1785545276437319",
       "board": "AKJSkJj6Ch4",
       "driver": "Michael Colvin",
@@ -31908,5 +31921,5 @@
     "7e42ef64-622e-4cc8-b502-256e76bb93ec",
     "bc2dc612-b918-4b6d-8f7b-b6ec46be65b0"
   ],
-  "_ts": "2026-08-01T00:47:59.861Z"
+  "_ts": "2026-08-01T00:54:33.035Z"
 }
