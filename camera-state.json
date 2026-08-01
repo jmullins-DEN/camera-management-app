@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 553 Big Joe\nAlert 281474995752151-1785509301842\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/39c3d962-d94b-4950-9356-1a55567e58dd.mp4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
       "ts": 1785545673004,
-      "synced": false
+      "synced": true,
+      "infItemId": "c05878a8-3c8a-4fd6-afaa-29ea42fe1962",
+      "syncError": null
     },
     {
       "id": "L1785545276437319",
@@ -31919,7 +31921,8 @@
     "d612bc45-8fe6-4b5b-9711-57927933c1bb",
     "7b606446-67f7-42bd-b5fb-b12fe97b0086",
     "7e42ef64-622e-4cc8-b502-256e76bb93ec",
-    "bc2dc612-b918-4b6d-8f7b-b6ec46be65b0"
+    "bc2dc612-b918-4b6d-8f7b-b6ec46be65b0",
+    "c05878a8-3c8a-4fd6-afaa-29ea42fe1962"
   ],
-  "_ts": "2026-08-01T00:54:33.035Z"
+  "_ts": "2026-08-01T00:54:35.409Z"
 }
