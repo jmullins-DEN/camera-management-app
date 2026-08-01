@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1785542560485,
-      "synced": false
+      "synced": true,
+      "infItemId": "d0c41a45-a6fe-4736-bd57-a79445ed1213",
+      "syncError": null
     },
     {
       "id": "L1785542534272585",
@@ -31727,7 +31729,8 @@
     "54b98754-6807-4c43-ae09-459c429e7c40",
     "4e3c0d5b-a54b-4d68-acf1-ab44ff6c676d",
     "fcf1c431-4517-4c72-bace-948b1d0042b0",
-    "9b06006f-85a8-40ce-aa1e-6638a2254003"
+    "9b06006f-85a8-40ce-aa1e-6638a2254003",
+    "d0c41a45-a6fe-4736-bd57-a79445ed1213"
   ],
-  "_ts": "2026-08-01T00:02:42.262Z"
+  "_ts": "2026-08-01T00:02:43.814Z"
 }
