@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785542950750797",
+      "board": "8gejhhHJj4e",
+      "driver": "Sterling Steed",
+      "driverId": "f8486905-1a91-43fe-ac33-d2766430c244",
+      "date": "2026-07-30",
+      "reviewed": "2026-08-01",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1785542950750,
+      "synced": false
+    },
+    {
       "id": "L1785542764473164",
       "board": "8gejhhHJj4e",
       "driver": "Victor Yanez",
@@ -31780,5 +31793,5 @@
     "0ea327be-41b9-4b0b-b413-db64fce9e786",
     "63fc45a3-6041-4e3f-8d83-25a7b709f650"
   ],
-  "_ts": "2026-08-01T00:06:07.812Z"
+  "_ts": "2026-08-01T00:09:10.781Z"
 }
