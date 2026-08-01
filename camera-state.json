@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785545753454656",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Josh Dobney",
+      "driverId": "019ef636-b886-763b-bb8f-e38427e5bbb7",
+      "date": "2026-07-31",
+      "reviewed": "2026-07-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Driver Distraction/ Harsh Brake\nAlert 281474995831300-1785505868156\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/34067d0f-839c-4d86-92f0-f87021b41c7f.mp4\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/64a30332-8560-438c-995d-03a8bd897ce2.mp4",
+      "ts": 1785545753454,
+      "synced": false
+    },
+    {
       "id": "L1785545673004425",
       "board": "AKJSkJj6Ch4",
       "driver": "unassigned",
@@ -31924,5 +31937,5 @@
     "bc2dc612-b918-4b6d-8f7b-b6ec46be65b0",
     "c05878a8-3c8a-4fd6-afaa-29ea42fe1962"
   ],
-  "_ts": "2026-08-01T00:54:35.409Z"
+  "_ts": "2026-08-01T00:55:53.486Z"
 }
