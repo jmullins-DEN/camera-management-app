@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785711949597667",
+      "board": "9RKrQRpDLcr",
+      "driver": "Drew Template",
+      "driverId": "019cc67d-3f46-7886-b441-ede31717a5c3",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-02",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1785711949597,
+      "synced": false
+    },
+    {
       "id": "L1785711874999366",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -32132,5 +32145,5 @@
     "09f0925d-229f-4e6f-8f48-a4e43f423e6d",
     "df66fc11-0e4c-4399-9505-f5f87a06cf10"
   ],
-  "_ts": "2026-08-02T23:04:37.275Z"
+  "_ts": "2026-08-02T23:05:49.627Z"
 }
