@@ -330,7 +330,9 @@
       "coaching": "System Alert",
       "notes": "Camera Problems",
       "ts": 1785711651619,
-      "synced": false
+      "synced": true,
+      "infItemId": "3c31eefe-53ec-472d-8b02-4773540d02b9",
+      "syncError": null
     },
     {
       "id": "L1785711126041498",
@@ -32079,7 +32081,8 @@
     "2f651b67-ffd5-4364-b002-9b33f3f1718e",
     "5a7f8e67-3d98-4007-a9dd-e9d56aaac12f",
     "c833f4a1-7772-4968-a56d-53c98e14dfd5",
-    "44b720c1-f4d2-4398-8126-f752d2af2b62"
+    "44b720c1-f4d2-4398-8126-f752d2af2b62",
+    "3c31eefe-53ec-472d-8b02-4773540d02b9"
   ],
-  "_ts": "2026-08-02T23:00:51.648Z"
+  "_ts": "2026-08-02T23:00:53.576Z"
 }
