@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178571378314712",
+      "board": "8gejhhHJj4e",
+      "driver": "John Kinney",
+      "driverId": "019b0e57-4d1b-7ddc-8d9d-b1294631231d",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-02",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1785713783147,
+      "synced": false
+    },
+    {
       "id": "L1785713709350537",
       "board": "8gejhhHJj4e",
       "driver": "Diego Molina",
@@ -32420,5 +32433,5 @@
     "e46a97d4-456b-4df0-b358-47732f1fba8d",
     "6e9c2002-7266-4b12-88de-4047a2f252de"
   ],
-  "_ts": "2026-08-02T23:35:11.473Z"
+  "_ts": "2026-08-02T23:36:23.175Z"
 }
