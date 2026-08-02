@@ -328,7 +328,7 @@
       "reviewed": "2026-08-02",
       "behavior": "Driver Distraction-Cab",
       "coaching": "Face to Face",
-      "notes": "Distracted in the cab",
+      "notes": "Alert 281474995831300-1785558870778\nDistracted in the Cab; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4ec9ba77-f500-4bb6-8233-b5f2e6d3df96.mp4",
       "ts": 1785714101508,
       "synced": true,
       "infItemId": "0b0ee197-2493-48f7-960b-6434ad84b11a",
@@ -32468,5 +32468,5 @@
     "8dcfa512-3999-4cf4-850f-04f12c13a459",
     "0b0ee197-2493-48f7-960b-6434ad84b11a"
   ],
-  "_ts": "2026-08-02T23:41:44.276Z"
+  "_ts": "2026-08-02T23:42:48.496Z"
 }
