@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785713564671130",
+      "board": "8gejhhHJj4e",
+      "driver": "Travis Rizzi",
+      "driverId": "019ac5a8-bb08-700d-9722-995c252f72d5",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1785713564671,
+      "synced": false
+    },
+    {
       "id": "L1785713522113209",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -32372,5 +32385,5 @@
     "0a2918bc-0676-4ffd-8a47-c2b58c622941",
     "67849cb1-61c5-4a19-b782-8803d2f107b3"
   ],
-  "_ts": "2026-08-02T23:32:04.271Z"
+  "_ts": "2026-08-02T23:32:44.708Z"
 }
