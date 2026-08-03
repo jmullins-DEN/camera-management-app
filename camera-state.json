@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1243235019430985728; no seatbelt; Brandt not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2b4c6a2d-bbab-4a98-81af-4bd20dbe31f8.mp4",
       "ts": 1785776784394,
-      "synced": false
+      "synced": true,
+      "infItemId": "ec15c805-c213-49a1-bbda-e7d3c5828cdb",
+      "syncError": null
     },
     {
       "id": "L1785776313922505",
@@ -33423,7 +33425,8 @@
     "ada9a941-9060-4150-9f02-f7ae27d25c52",
     "1afbfdf1-de23-49ad-a98a-2037f101fb66",
     "48544996-e6d5-42c1-9276-847cc6bb894c",
-    "09c8a8d1-79cd-4e10-b76c-bed676790eb5"
+    "09c8a8d1-79cd-4e10-b76c-bed676790eb5",
+    "ec15c805-c213-49a1-bbda-e7d3c5828cdb"
   ],
-  "_ts": "2026-08-03T17:06:24.436Z"
+  "_ts": "2026-08-03T17:06:26.878Z"
 }
