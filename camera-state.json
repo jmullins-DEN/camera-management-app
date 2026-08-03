@@ -320,6 +320,64 @@
   },
   "local": [
     {
+      "id": "L1785801334767954",
+      "board": "aRcazTLT9iM",
+      "driver": "Curtis Daugherty",
+      "driverId": "2d2e380c-08f1-416c-8532-69fe60188610",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1591292134; face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ef5ec18-6c3b-4f54-80c6-e08f1606f970.mp4",
+      "ts": 1785801334767,
+      "synced": false
+    },
+    {
+      "id": "L178580129183066",
+      "board": "aRcazTLT9iM",
+      "driver": "Edward Rourke",
+      "driverId": "f5cee6f1-77b1-4293-8466-a9b235859d8e",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1591073795; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d21d9cb3-fe7e-4e5b-aab7-eea4788ce296.mp4",
+      "ts": 1785801291830,
+      "synced": true,
+      "infItemId": "a156e799-8f55-4714-9ba5-22a38bfcc7a1",
+      "syncError": null
+    },
+    {
+      "id": "L1785801246863722",
+      "board": "aRcazTLT9iM",
+      "driver": "Jeff Clark",
+      "driverId": "5805b06f-42b8-421a-91f2-24e8355ce25e",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1591057339; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/73bb9798-9372-474f-a081-dcd09c6f5c2a.mp4\n",
+      "ts": 1785801246863,
+      "synced": true,
+      "infItemId": "ee833048-513d-41a5-ba85-1f271a703b18",
+      "syncError": null
+    },
+    {
+      "id": "L1785801210402733",
+      "board": "aRcazTLT9iM",
+      "driver": "James Simms",
+      "driverId": "7feb3041-b33b-4ead-ae9f-6d7be3677ffd",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1590941765; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4525b685-6b1f-4c85-8ed9-a819ae249327.mp4",
+      "ts": 1785801210402,
+      "synced": true,
+      "infItemId": "b27731df-9e71-443f-b798-b6468d647af4",
+      "syncError": null
+    },
+    {
       "id": "L1785801175489789",
       "board": "aRcazTLT9iM",
       "driver": "Daniel Garrett",
@@ -34194,7 +34252,10 @@
     "f08d96aa-71e2-4423-aaff-f856ee35de7c",
     "47a1a9a0-19cb-421f-a0f8-2fb554e11eca",
     "fd6b9f8a-ca0b-4044-95d1-5b3a9f3689ee",
-    "b5f428a6-1a3e-4edf-8f33-35d50ea62f31"
+    "b5f428a6-1a3e-4edf-8f33-35d50ea62f31",
+    "b27731df-9e71-443f-b798-b6468d647af4",
+    "ee833048-513d-41a5-ba85-1f271a703b18",
+    "a156e799-8f55-4714-9ba5-22a38bfcc7a1"
   ],
-  "_ts": "2026-08-03T23:52:57.780Z"
+  "_ts": "2026-08-03T23:55:34.806Z"
 }
