@@ -330,7 +330,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy",
       "ts": 1785779067473,
-      "synced": false
+      "synced": true,
+      "infItemId": "c27d0e55-4090-45e4-9f6f-80f8b6d3e051",
+      "syncError": null
     },
     {
       "id": "L1785778944799948",
@@ -33609,7 +33611,8 @@
     "35bbb6c7-a40c-49cf-8099-bc51161e97c0",
     "e6adab7c-4e91-4a74-95e8-c4a56464a651",
     "c69d1e02-3510-4400-be44-a91da3753952",
-    "43929d42-30de-4416-8a9b-2675495dce11"
+    "43929d42-30de-4416-8a9b-2675495dce11",
+    "c27d0e55-4090-45e4-9f6f-80f8b6d3e051"
   ],
-  "_ts": "2026-08-03T17:44:27.517Z"
+  "_ts": "2026-08-03T17:44:30.061Z"
 }
