@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 424428515; hand held phone; Rodrigues not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/06033daa-7880-4a5a-a34e-1d5ffb7f201d.mp4",
       "ts": 1785800804540,
-      "synced": false
+      "synced": true,
+      "infItemId": "f34af01b-2d60-4277-b338-df222c7c1ddd",
+      "syncError": null
     },
     {
       "id": "L1785800752144764",
@@ -34095,7 +34097,8 @@
     "397632a6-26ce-4564-9e8c-b882a0443d6e",
     "bd65fcc4-b739-438f-bc71-4fef482053ae",
     "527ef4b4-8462-4dda-a3ad-94db82f26712",
-    "57627432-cf34-40ab-ae91-fec7fee61657"
+    "57627432-cf34-40ab-ae91-fec7fee61657",
+    "f34af01b-2d60-4277-b338-df222c7c1ddd"
   ],
-  "_ts": "2026-08-03T23:46:44.584Z"
+  "_ts": "2026-08-03T23:46:47.787Z"
 }
