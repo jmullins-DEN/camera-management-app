@@ -324,11 +324,11 @@
       "board": "8BUntjK1TqV",
       "driver": "Costilla, Ralph",
       "driverId": "797cecd9-a774-4711-a16e-e44b0fd96bc3",
-      "date": "2026-08-02",
+      "date": "2026-07-31",
       "reviewed": "2026-08-03",
       "behavior": "Driver Distraction-Cab",
       "coaching": "Coaching Notes",
-      "notes": "\nAlert 6235567994; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8cb51d8d-7476-4ea9-9d42-8c84107c29e8.mp4\n",
+      "notes": "Alert 6235567994; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8cb51d8d-7476-4ea9-9d42-8c84107c29e8.mp4\n",
       "ts": 1785766600974,
       "synced": true,
       "infItemId": "a92a6ad9-ca11-49f8-8e98-5dae111277ec",
@@ -32788,5 +32788,5 @@
     "df71b933-ca96-43c8-90dc-e2f81f0f1dc3",
     "a92a6ad9-ca11-49f8-8e98-5dae111277ec"
   ],
-  "_ts": "2026-08-03T14:16:43.869Z"
+  "_ts": "2026-08-03T14:17:04.909Z"
 }
