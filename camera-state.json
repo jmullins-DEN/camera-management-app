@@ -330,7 +330,8 @@
       "coaching": "Coaching Notes",
       "notes": "58 in 35",
       "ts": 1785778197699,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1785778105465133",
@@ -33521,5 +33522,5 @@
     "07543712-f7c0-419c-92ac-f35fee16e5ab",
     "35bbb6c7-a40c-49cf-8099-bc51161e97c0"
   ],
-  "_ts": "2026-08-03T17:29:57.742Z"
+  "_ts": "2026-08-03T17:30:00.445Z"
 }
