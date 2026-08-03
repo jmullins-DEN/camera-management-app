@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785779169419429",
+      "board": "YfVHuM3X87v",
+      "driver": "Lannas Tedrow",
+      "driverId": "a1b097f7-a6c5-4f69-952e-c7f0ffe7eac3",
+      "date": "2026-08-01",
+      "reviewed": "2026-08-03",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "no stop; no slowdown",
+      "ts": 1785779169419,
+      "synced": false
+    },
+    {
       "id": "L1785779067473231",
       "board": "YfVHuM3X87v",
       "driver": "Charles Jefride",
@@ -33614,5 +33627,5 @@
     "43929d42-30de-4416-8a9b-2675495dce11",
     "c27d0e55-4090-45e4-9f6f-80f8b6d3e051"
   ],
-  "_ts": "2026-08-03T17:44:30.061Z"
+  "_ts": "2026-08-03T17:46:09.460Z"
 }
