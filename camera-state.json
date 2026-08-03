@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178578022301469",
+      "board": "ebSND1QoyBs",
+      "driver": "Juan Santiago",
+      "driverId": "0b04d3ca-97c7-4ea5-a371-5f0ab209f730",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1785780223014,
+      "synced": false
+    },
+    {
       "id": "L1785780127022109",
       "board": "ebSND1QoyBs",
       "driver": "Kurt Purdie",
@@ -33758,5 +33771,5 @@
     "edd5246c-8060-4f88-a138-44c715dcdd30",
     "0438dcd3-aa34-4a40-a124-5c16a47fffbd"
   ],
-  "_ts": "2026-08-03T18:02:35.575Z"
+  "_ts": "2026-08-03T18:03:43.059Z"
 }
