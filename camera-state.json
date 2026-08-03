@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "80 in 65",
       "ts": 1785778105465,
-      "synced": false
+      "synced": true,
+      "infItemId": "07543712-f7c0-419c-92ac-f35fee16e5ab",
+      "syncError": null
     },
     {
       "id": "L1785778068058591",
@@ -358,8 +360,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 1590349391; following too close; vehicle #459\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1480ecc1-542e-4a1a-b24f-86a45045a63c.mp4",
       "ts": 1785777964007,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "35bbb6c7-a40c-49cf-8099-bc51161e97c0"
     },
     {
       "id": "L1785777113411618",
@@ -33501,7 +33504,9 @@
     "ec15c805-c213-49a1-bbda-e7d3c5828cdb",
     "63d285d3-89bb-4306-a369-73deb9685727",
     "b9b395b9-2395-4b5f-a0b0-14e75277266e",
-    "e6f9c844-5bb9-48c9-9d3a-72f8dc3ecff1"
+    "e6f9c844-5bb9-48c9-9d3a-72f8dc3ecff1",
+    "07543712-f7c0-419c-92ac-f35fee16e5ab",
+    "35bbb6c7-a40c-49cf-8099-bc51161e97c0"
   ],
-  "_ts": "2026-08-03T17:28:25.509Z"
+  "_ts": "2026-08-03T17:29:20.417Z"
 }
