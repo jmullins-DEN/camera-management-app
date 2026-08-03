@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785800875636966",
+      "board": "4rNDuSrCaap",
+      "driver": "Alex Rounsaville",
+      "driverId": "019e40fd-857f-70bf-90b0-70ec34c25f64",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 424456765; following too close; Rounsaville not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/124158c0-f9da-48d7-a610-554e7410c5ad.mp4",
+      "ts": 1785800875636,
+      "synced": false
+    },
+    {
       "id": "L1785800804540759",
       "board": "4rNDuSrCaap",
       "driver": "Unassigned",
@@ -34100,5 +34113,5 @@
     "57627432-cf34-40ab-ae91-fec7fee61657",
     "f34af01b-2d60-4277-b338-df222c7c1ddd"
   ],
-  "_ts": "2026-08-03T23:46:47.787Z"
+  "_ts": "2026-08-03T23:47:55.682Z"
 }
