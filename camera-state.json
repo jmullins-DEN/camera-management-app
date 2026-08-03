@@ -330,8 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1244017072275619840: No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b1e00337-593a-4d4f-a2c4-7d8363fcf296.mp4",
       "ts": 1785725617194,
-      "synced": false,
-      "infItemId": "eff37d26-63ad-494d-91cc-afb64cb4369e"
+      "synced": true,
+      "infItemId": "eff37d26-63ad-494d-91cc-afb64cb4369e",
+      "syncError": null
     },
     {
       "id": "L1785723085417956",
@@ -32496,7 +32497,8 @@
     "93986f78-7b40-4361-9ee0-1924b223a17e",
     "8dcfa512-3999-4cf4-850f-04f12c13a459",
     "0b0ee197-2493-48f7-960b-6434ad84b11a",
-    "0efc5ffa-26a7-4933-a7b8-8772e5c3dae2"
+    "0efc5ffa-26a7-4933-a7b8-8772e5c3dae2",
+    "eff37d26-63ad-494d-91cc-afb64cb4369e"
   ],
-  "_ts": "2026-08-03T02:53:39.669Z"
+  "_ts": "2026-08-03T02:53:41.751Z"
 }
