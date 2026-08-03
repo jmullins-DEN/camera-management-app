@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785767268979600",
+      "board": "8BUntjK1TqV",
+      "driver": "LaFuente, Richard",
+      "driverId": "886bf1f9-0646-4107-b50f-7c75c232adff",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6236503465; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4677b9e0-ef54-4c89-ad8f-df6c71a158b5.mp4\n",
+      "ts": 1785767268979,
+      "synced": false
+    },
+    {
       "id": "L178576718104175",
       "board": "8BUntjK1TqV",
       "driver": "Rodriguez, Daniel",
@@ -32820,5 +32833,5 @@
     "8410c4cd-27c1-4cda-975e-844b0dcb3e74",
     "edf471b9-1fbc-40cd-9d5f-3a6046ffae68"
   ],
-  "_ts": "2026-08-03T14:26:23.880Z"
+  "_ts": "2026-08-03T14:27:49.019Z"
 }
