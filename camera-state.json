@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785766292607901",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Luis",
+      "driverId": "019f1545-41de-72cb-8bfc-515504891b6a",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6234644590; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f87671e3-5ede-4b90-964d-1a5cb5d3a044.mp4",
+      "ts": 1785766292607,
+      "synced": false
+    },
+    {
       "id": "L178576622996194",
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Luis",
@@ -32740,5 +32753,5 @@
     "2206f43e-29be-47c4-b505-77665ac8e87a",
     "092cc2a9-0a7f-4bf8-9f4e-49a2bb9f7aa1"
   ],
-  "_ts": "2026-08-03T14:10:32.872Z"
+  "_ts": "2026-08-03T14:11:32.646Z"
 }
