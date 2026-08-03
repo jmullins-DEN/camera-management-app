@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "multi-tasking with two hands",
       "ts": 1785779314416,
-      "synced": false
+      "synced": true,
+      "infItemId": "3720a9cc-4da1-48f7-b094-8ddc8d00f2f1",
+      "syncError": null
     },
     {
       "id": "L1785779231661301",
@@ -33657,7 +33659,8 @@
     "43929d42-30de-4416-8a9b-2675495dce11",
     "c27d0e55-4090-45e4-9f6f-80f8b6d3e051",
     "c4af7354-6988-43f2-bedb-510461fe3353",
-    "3483423e-3743-4fde-aae9-c1c50836604d"
+    "3483423e-3743-4fde-aae9-c1c50836604d",
+    "3720a9cc-4da1-48f7-b094-8ddc8d00f2f1"
   ],
-  "_ts": "2026-08-03T17:48:34.459Z"
+  "_ts": "2026-08-03T17:48:37.024Z"
 }
