@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785800804540759",
+      "board": "4rNDuSrCaap",
+      "driver": "Unassigned",
+      "driverId": "fe8cbc13-5059-44ee-b9f1-8016a337a940",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 424428515; hand held phone; Rodrigues not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/06033daa-7880-4a5a-a34e-1d5ffb7f201d.mp4",
+      "ts": 1785800804540,
+      "synced": false
+    },
+    {
       "id": "L1785800752144764",
       "board": "4rNDuSrCaap",
       "driver": "J.  Rodrigues",
@@ -34084,5 +34097,5 @@
     "527ef4b4-8462-4dda-a3ad-94db82f26712",
     "57627432-cf34-40ab-ae91-fec7fee61657"
   ],
-  "_ts": "2026-08-03T23:45:56.306Z"
+  "_ts": "2026-08-03T23:46:44.584Z"
 }
