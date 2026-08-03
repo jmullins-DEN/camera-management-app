@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-07-27-logo-dedupe'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-08-03-autosync'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -1244,19 +1244,49 @@ async function refreshBoard(bid,opts){
   }catch(e){ console.error('refresh failed',e); toast('Could not reach the server','⚠'); return; }
   if(!d||!d.ok||!d.board){ toast('Refresh failed'+(d&&d.error?': '+d.error:''),'⚠'); return; }
   const rec=d.board; rec._refreshedAt=new Date().toISOString();
-  // WRITE-ONLY: never import Infinity EVENTS into the app. Now that events are entered only in
-  // DENvision (never by hand in Infinity), the local queue (LS.local) is the single source of
-  // truth for events. We still refresh the DRIVER ROSTER so the picker stays current, but we
-  // freeze the event history at whatever was last pulled and never ingest new Infinity rows —
-  // that closes the pull-in / push-back-out duplicate vector at the source.
-  const prev=LS.refreshed[bid];
-  rec.events=(prev&&Array.isArray(prev.events))?prev.events:[];
+  // Ingest live Infinity events as READ-ONLY history. Safe on both sides:
+  //  • display: eventsFor() de-dupes these against LS.local by item id, so a locally-entered
+  //    event that has since landed in Infinity shows once, never twice.
+  //  • write-back: the push path only ever reads LS.local, never b.events — so pulled events
+  //    are never re-pushed, and no duplicate Infinity rows can be created.
+  // Trusting the live 90-day pull (the same source a full reseed uses) is what surfaces events
+  // entered DIRECTLY in Infinity — e.g. a hand-keyed speeding row — that the old write-only
+  // freeze hid. That freeze is exactly what dropped a driver's third event and silently kept a
+  // face-to-face escalation stuck on coaching notes.
+  rec.events=Array.isArray(rec.events)?rec.events:[];
   applyBoardRecord(rec);
   const cache=LS.refreshed; cache[bid]=rec; LS.refreshed=cache;
-  toast(`${b.name} refreshed — ${(rec.drivers||[]).length} drivers`);
+  if(!opts.quiet) toast(`${b.name} refreshed — ${(rec.drivers||[]).length} drivers`);
   if(screen==='entry'&&ctx.board===bid){ b._rosterLoaded=false; }
-  render();
+  if(!opts.noRender) render();
 }
+
+// ---------- auto-sync: keep every board's events current (on open + daily) ----------
+// Pull live Infinity data for all visible boards so the dashboard's trends reflect events
+// entered straight into Infinity, not just what's baked into the seed. Concurrency-capped and
+// floored to once per few minutes so re-opening the app can't hammer the Infinity API.
+const AUTOSYNC_FLOOR_MS=5*60*1000;      // don't re-pull the whole set more than once per 5 min
+const AUTOSYNC_DAILY_MS=24*60*60*1000;  // and at least once a day if the tab is left open
+let _autoSyncAt=0, _autoSyncing=false;
+async function syncAllBoards(opts){
+  opts=opts||{};
+  const now=Date.now();
+  if(_autoSyncing) return;
+  if(!opts.force && now-_autoSyncAt<AUTOSYNC_FLOOR_MS) return;
+  _autoSyncing=true; _autoSyncAt=now;
+  try{
+    const boards=visibleBoards().slice();
+    let i=0; const CONC=4;                 // at most 4 boards pulling from Infinity at once
+    const worker=async()=>{ while(i<boards.length){ const b=boards[i++]; try{ await refreshBoard(b.board,{quiet:true,noRender:true}); }catch(e){} } };
+    await Promise.all(Array.from({length:Math.min(CONC,boards.length)},worker));
+    render();
+    if(opts.announce) toast('Dashboard synced — '+boards.length+' boards');
+  } finally { _autoSyncing=false; }
+}
+// daily refresh for a tab that's been left open
+setInterval(()=>syncAllBoards({force:true}), AUTOSYNC_DAILY_MS);
+// re-sync when the app is brought back to the foreground — covers "each time we open it"
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden) syncAllBoards(); });
 
 async function apiPost(path,body){
   const r=await fetch(API_BASE+path,{method:'POST',
@@ -2279,7 +2309,7 @@ async function showDiag(){
   document.body.appendChild(d);
 }
 if(/[?&]debug=1/.test(location.search)) pullState().then(showDiag);
-else pullState().then(()=>{ backfillLogos(); flushQueued(); });
+else pullState().then(()=>{ backfillLogos(); flushQueued(); syncAllBoards({force:true}); });
 </script>
 </body>
 </html>
