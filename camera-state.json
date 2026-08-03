@@ -320,6 +320,49 @@
   },
   "local": [
     {
+      "id": "L178577796400722",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-08-01",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1590349391; following too close; vehicle #459\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1480ecc1-542e-4a1a-b24f-86a45045a63c.mp4",
+      "ts": 1785777964007,
+      "synced": false
+    },
+    {
+      "id": "L1785777113411618",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-08-01",
+      "reviewed": "2026-08-03",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1243383233161363456; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c86ff5a1-d6af-41c2-beca-6b34b267cf9d.mp4",
+      "ts": 1785777113411,
+      "synced": true,
+      "infItemId": "b9b395b9-2395-4b5f-a0b0-14e75277266e",
+      "syncError": null
+    },
+    {
+      "id": "L1785777034658605",
+      "board": "ioWX9hneUsk",
+      "driver": "Dustin Smith",
+      "driverId": "0ddd84c9-5731-4971-8eaf-5d530f11ac93",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1243356217871597568; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8fe9afb8-b23f-4cd8-a659-8dc5d61d0787.mp4",
+      "ts": 1785777034658,
+      "synced": true,
+      "infItemId": "63d285d3-89bb-4306-a369-73deb9685727",
+      "syncError": null
+    },
+    {
       "id": "L1785776784394497",
       "board": "ioWX9hneUsk",
       "driver": "Brandt Taylor",
@@ -33426,7 +33469,9 @@
     "1afbfdf1-de23-49ad-a98a-2037f101fb66",
     "48544996-e6d5-42c1-9276-847cc6bb894c",
     "09c8a8d1-79cd-4e10-b76c-bed676790eb5",
-    "ec15c805-c213-49a1-bbda-e7d3c5828cdb"
+    "ec15c805-c213-49a1-bbda-e7d3c5828cdb",
+    "63d285d3-89bb-4306-a369-73deb9685727",
+    "b9b395b9-2395-4b5f-a0b0-14e75277266e"
   ],
-  "_ts": "2026-08-03T17:06:26.878Z"
+  "_ts": "2026-08-03T17:26:04.050Z"
 }
