@@ -320,6 +320,21 @@
   },
   "local": [
     {
+      "id": "L1785779472771295",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jason Allen",
+      "driverId": "019bdd3f-6648-7997-8bde-259709e2a152",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking",
+      "ts": 1785779472771,
+      "synced": true,
+      "infItemId": "bc1f98f5-261b-40d6-9339-25eadf10707d",
+      "syncError": null
+    },
+    {
       "id": "L1785779377523812",
       "board": "YfVHuM3X87v",
       "driver": "unassigned",
@@ -330,7 +345,9 @@
       "coaching": "Unidentified Driver",
       "notes": "following too close; vehicle #338801",
       "ts": 1785779377523,
-      "synced": false
+      "synced": true,
+      "infItemId": "977a5fc5-6a14-44f5-a86c-a876e315de27",
+      "syncError": null
     },
     {
       "id": "L1785779314416276",
@@ -33673,7 +33690,9 @@
     "c27d0e55-4090-45e4-9f6f-80f8b6d3e051",
     "c4af7354-6988-43f2-bedb-510461fe3353",
     "3483423e-3743-4fde-aae9-c1c50836604d",
-    "3720a9cc-4da1-48f7-b094-8ddc8d00f2f1"
+    "3720a9cc-4da1-48f7-b094-8ddc8d00f2f1",
+    "977a5fc5-6a14-44f5-a86c-a876e315de27",
+    "bc1f98f5-261b-40d6-9339-25eadf10707d"
   ],
-  "_ts": "2026-08-03T17:49:37.564Z"
+  "_ts": "2026-08-03T17:51:15.020Z"
 }
