@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6248562809: Truck # 111 Cab Distraction/ Watch\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fac53675-726f-45dc-b4e7-ea9db08af81f.mp4",
       "ts": 1785755596205,
-      "synced": false
+      "synced": true,
+      "infItemId": "4842d144-d915-4430-85e9-3f14917fd53b",
+      "syncError": null
     },
     {
       "id": "L1785727763079483",
@@ -32575,7 +32577,8 @@
     "62e3f96f-74ed-4bc2-8de0-4532ac4b11a8",
     "8535f001-9607-4f9c-b9da-0c6fc3917bc4",
     "ce6001e5-1554-48ba-8565-1e836e1854ca",
-    "c727fc24-b4bb-4405-8653-e0d3727394a4"
+    "c727fc24-b4bb-4405-8653-e0d3727394a4",
+    "4842d144-d915-4430-85e9-3f14917fd53b"
   ],
-  "_ts": "2026-08-03T11:13:16.243Z"
+  "_ts": "2026-08-03T11:13:19.369Z"
 }
