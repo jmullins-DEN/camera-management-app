@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785798058870550",
+      "board": "JthqRmXvJ9v",
+      "driver": "Jose Patino",
+      "driverId": "019a7b18-0863-7330-ad9a-c77eb4952fc8",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1785798058870,
+      "synced": false
+    },
+    {
       "id": "L1785798026117791",
       "board": "JthqRmXvJ9v",
       "driver": "Tim Eurich",
@@ -33892,5 +33905,5 @@
     "70a0b2af-4ffb-4057-9558-33494d603ea3",
     "580cab3a-5e86-437c-9e21-5a39fc65ad91"
   ],
-  "_ts": "2026-08-03T23:00:28.750Z"
+  "_ts": "2026-08-03T23:00:58.904Z"
 }
