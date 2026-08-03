@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Cab Distraction; ",
       "ts": 1785800330987,
-      "synced": false
+      "synced": true,
+      "infItemId": "57627432-cf34-40ab-ae91-fec7fee61657",
+      "syncError": null
     },
     {
       "id": "L1785800024619974",
@@ -34063,7 +34065,8 @@
     "fa53b948-092d-4db0-a6c0-9d39ca9e5d63",
     "397632a6-26ce-4564-9e8c-b882a0443d6e",
     "bd65fcc4-b739-438f-bc71-4fef482053ae",
-    "527ef4b4-8462-4dda-a3ad-94db82f26712"
+    "527ef4b4-8462-4dda-a3ad-94db82f26712",
+    "57627432-cf34-40ab-ae91-fec7fee61657"
   ],
-  "_ts": "2026-08-03T23:38:51.018Z"
+  "_ts": "2026-08-03T23:38:53.739Z"
 }
