@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785758209043869",
+      "board": "7d53dL31ioV",
+      "driver": "ROBERTS, MATTHEW T",
+      "driverId": "ca1dc108-db05-4457-9a57-153853d886ca",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 6247022377: Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/524f6db1-858d-4b76-b58d-1c1752ebd4d5.mp4",
+      "ts": 1785758209043,
+      "synced": false
+    },
+    {
       "id": "L1785757921284171",
       "board": "7d53dL31ioV",
       "driver": "ROBERTS, MATTHEW T",
@@ -32708,5 +32721,5 @@
     "91877f24-29e4-43c5-842f-7d205196c945",
     "58693e04-d4e8-4bf6-963a-86aebb6cb14c"
   ],
-  "_ts": "2026-08-03T11:52:03.767Z"
+  "_ts": "2026-08-03T11:56:49.087Z"
 }
