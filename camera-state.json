@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785766555052434",
+      "board": "8BUntjK1TqV",
+      "driver": "Terrell, Pat",
+      "driverId": "4703c4ca-692a-4471-b0d3-ddd51884dd86",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6235277007; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e2316b48-2af5-47f1-8d6c-f5e86127349e.mp4",
+      "ts": 1785766555052,
+      "synced": false
+    },
+    {
       "id": "L1785766292607901",
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Luis",
@@ -32756,5 +32769,5 @@
     "092cc2a9-0a7f-4bf8-9f4e-49a2bb9f7aa1",
     "e2a7cc46-8ec5-48a2-a41d-a55bbc228546"
   ],
-  "_ts": "2026-08-03T14:11:35.877Z"
+  "_ts": "2026-08-03T14:15:55.091Z"
 }
