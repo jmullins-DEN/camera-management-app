@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785756196834909",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281475000719319-1785728402997: Truck # 184F550\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dedd6aa0-a0ff-4e09-a9a5-ac8b3bc5f282.mp4",
+      "ts": 1785756196834,
+      "synced": false
+    },
+    {
       "id": "L1785755889002658",
       "board": "qnESNLC3JPR",
       "driver": "Jimmy Mott",
@@ -32596,5 +32609,5 @@
     "4842d144-d915-4430-85e9-3f14917fd53b",
     "035728e6-b14a-47e1-bbfe-00be22ceb6a1"
   ],
-  "_ts": "2026-08-03T11:18:11.742Z"
+  "_ts": "2026-08-03T11:23:16.877Z"
 }
