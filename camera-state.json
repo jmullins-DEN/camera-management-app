@@ -369,11 +369,11 @@
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Luis",
       "driverId": "019f1545-41de-72cb-8bfc-515504891b6a",
-      "date": "2026-08-31",
+      "date": "2026-07-31",
       "reviewed": "2026-08-03",
       "behavior": "Driver Distraction-Phone",
       "coaching": "Coaching Notes",
-      "notes": "\nAlert 6234495890; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/269c7c7f-d84a-46b1-a810-2e6bb819bfd4.mp4",
+      "notes": "Alert 6234495890; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/269c7c7f-d84a-46b1-a810-2e6bb819bfd4.mp4",
       "ts": 1785766229961,
       "synced": true,
       "infItemId": "092cc2a9-0a7f-4bf8-9f4e-49a2bb9f7aa1",
@@ -32788,5 +32788,5 @@
     "df71b933-ca96-43c8-90dc-e2f81f0f1dc3",
     "a92a6ad9-ca11-49f8-8e98-5dae111277ec"
   ],
-  "_ts": "2026-08-03T14:17:04.909Z"
+  "_ts": "2026-08-03T14:17:14.814Z"
 }
