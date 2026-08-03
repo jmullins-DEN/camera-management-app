@@ -330,7 +330,9 @@
       "coaching": "Critical Event",
       "notes": "distracted; hard brake; near miss",
       "ts": 1785780127022,
-      "synced": false
+      "synced": true,
+      "infItemId": "0438dcd3-aa34-4a40-a124-5c16a47fffbd",
+      "syncError": null
     },
     {
       "id": "L1785779849113212",
@@ -33753,7 +33755,8 @@
     "bc1f98f5-261b-40d6-9339-25eadf10707d",
     "69dcf62b-259f-4395-a424-43c84b60086e",
     "08a78dae-be08-4621-95a3-13bf97d886f9",
-    "edd5246c-8060-4f88-a138-44c715dcdd30"
+    "edd5246c-8060-4f88-a138-44c715dcdd30",
+    "0438dcd3-aa34-4a40-a124-5c16a47fffbd"
   ],
-  "_ts": "2026-08-03T18:02:07.068Z"
+  "_ts": "2026-08-03T18:02:09.065Z"
 }
