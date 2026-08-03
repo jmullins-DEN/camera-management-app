@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785767074264405",
+      "board": "8BUntjK1TqV",
+      "driver": "Chavez, Robert Jr",
+      "driverId": "99373bec-e252-401b-8d68-1a54908878ad",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6236106447; 62 in 50\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8b0780e2-a823-4355-a2be-1c7e3f1c45fa.mp4\n",
+      "ts": 1785767074264,
+      "synced": false
+    },
+    {
       "id": "L178576660097418",
       "board": "8BUntjK1TqV",
       "driver": "Costilla, Ralph",
@@ -32788,5 +32801,5 @@
     "df71b933-ca96-43c8-90dc-e2f81f0f1dc3",
     "a92a6ad9-ca11-49f8-8e98-5dae111277ec"
   ],
-  "_ts": "2026-08-03T14:17:21.504Z"
+  "_ts": "2026-08-03T14:24:34.307Z"
 }
