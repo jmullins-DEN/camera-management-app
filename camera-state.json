@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785778636899452",
+      "board": "XVLVu2Du8hc",
+      "driver": "Larry Simons",
+      "driverId": "019be2d2-f9b3-7445-b65d-4feb9f8a58ca",
+      "date": "2026-08-01",
+      "reviewed": "2026-08-03",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "78 in 65",
+      "ts": 1785778636899,
+      "synced": false
+    },
+    {
       "id": "L178577830920140",
       "board": "XVLVu2Du8hc",
       "driver": "Wesley Tallon",
@@ -33570,5 +33583,5 @@
     "c69d1e02-3510-4400-be44-a91da3753952",
     "43929d42-30de-4416-8a9b-2675495dce11"
   ],
-  "_ts": "2026-08-03T17:31:51.883Z"
+  "_ts": "2026-08-03T17:37:16.940Z"
 }
