@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785776784394497",
+      "board": "ioWX9hneUsk",
+      "driver": "Brandt Taylor",
+      "driverId": "7705f2dc-a34b-4542-9245-51229318c448",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1243235019430985728; no seatbelt; Brandt not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2b4c6a2d-bbab-4a98-81af-4bd20dbe31f8.mp4",
+      "ts": 1785776784394,
+      "synced": false
+    },
+    {
       "id": "L1785776313922505",
       "board": "aRcazTLT9iM",
       "driver": "Brennan Chism",
@@ -33412,5 +33425,5 @@
     "48544996-e6d5-42c1-9276-847cc6bb894c",
     "09c8a8d1-79cd-4e10-b76c-bed676790eb5"
   ],
-  "_ts": "2026-08-03T17:05:10.614Z"
+  "_ts": "2026-08-03T17:06:24.436Z"
 }
