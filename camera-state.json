@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785780378315726",
+      "board": "ebSND1QoyBs",
+      "driver": "Andrew Fierro",
+      "driverId": "51aa5f26-e5e1-4f3b-bddd-046b80604115",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "no stop; no slow down",
+      "ts": 1785780378315,
+      "synced": false
+    },
+    {
       "id": "L1785780310525344",
       "board": "ebSND1QoyBs",
       "driver": "Roderick Bush",
@@ -33806,5 +33819,5 @@
     "9fe5f48c-9d31-4956-a9e5-ac8c5ee9adf1",
     "68abb21e-430f-4e89-b4ab-b2aced0c8e5e"
   ],
-  "_ts": "2026-08-03T18:05:14.846Z"
+  "_ts": "2026-08-03T18:06:18.359Z"
 }
