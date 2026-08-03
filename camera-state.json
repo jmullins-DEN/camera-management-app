@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178572561719383",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Roberto Ramirez",
+      "driverId": "960d7485-5877-40ed-bee3-f91e47767d40",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1244017072275619840: No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b1e00337-593a-4d4f-a2c4-7d8363fcf296.mp4",
+      "ts": 1785725617194,
+      "synced": false
+    },
+    {
       "id": "L1785723085417956",
       "board": "7W2SQKrNcXQ",
       "driver": "Mark Cano",
@@ -32484,5 +32497,5 @@
     "0b0ee197-2493-48f7-960b-6434ad84b11a",
     "0efc5ffa-26a7-4933-a7b8-8772e5c3dae2"
   ],
-  "_ts": "2026-08-03T02:11:29.598Z"
+  "_ts": "2026-08-03T02:53:37.233Z"
 }
