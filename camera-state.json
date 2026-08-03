@@ -320,6 +320,49 @@
   },
   "local": [
     {
+      "id": "L1785774507807139",
+      "board": "aRcazTLT9iM",
+      "driver": "Tyler Baugh",
+      "driverId": "b22709b6-08c0-4c3d-aef2-31a650f2f509",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 1590165123; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4d4319d6-09a8-4630-a2c2-754fc6cf6288.mp4",
+      "ts": 1785774507807,
+      "synced": false
+    },
+    {
+      "id": "L1785774454808873",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1589891835; following too close; truck #AN 108\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b3a6874e-1875-48f8-9d01-b36364088fca.mp4",
+      "ts": 1785774454808,
+      "synced": true,
+      "infItemId": "f598edfa-288a-4043-a003-96ee1cfecd01",
+      "syncError": null
+    },
+    {
+      "id": "L1785774383692756",
+      "board": "aRcazTLT9iM",
+      "driver": "Ray Baird",
+      "driverId": "fb282806-6dcd-4396-a58a-90ef1fbbb12d",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1589836085; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/71ac8b47-bd87-47ce-9120-6149e29ecdc7.mp4",
+      "ts": 1785774383692,
+      "synced": true,
+      "infItemId": "3a8ec806-3379-4804-af8a-3e17cd2fc1a0",
+      "syncError": null
+    },
+    {
       "id": "L1785774301755496",
       "board": "aRcazTLT9iM",
       "driver": "Justin McKenzie",
@@ -33342,7 +33385,9 @@
     "0350a49c-a6ed-4355-a702-3a63642b341e",
     "3e57c6d6-bdcf-4d33-af53-0a1cb719e992",
     "c8fe61f5-fd0f-4813-a477-3855def3d680",
-    "8c3d1665-3c50-4c98-bcd6-876dbebcd2e5"
+    "8c3d1665-3c50-4c98-bcd6-876dbebcd2e5",
+    "3a8ec806-3379-4804-af8a-3e17cd2fc1a0",
+    "f598edfa-288a-4043-a003-96ee1cfecd01"
   ],
-  "_ts": "2026-08-03T16:25:05.771Z"
+  "_ts": "2026-08-03T16:28:27.849Z"
 }
