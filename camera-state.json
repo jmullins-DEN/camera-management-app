@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785756450849818",
+      "board": "KYqKJWuumPm",
+      "driver": "Chase Burch",
+      "driverId": "019dd5fd-c488-7160-802d-c9ac587de82e",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474981504188-1785711090649: Hand held Distraction \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dfdd4d74-51dd-45b0-834a-4549e1d10fba.mp4",
+      "ts": 1785756450849,
+      "synced": false
+    },
+    {
       "id": "L1785756196834909",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -32612,5 +32625,5 @@
     "035728e6-b14a-47e1-bbfe-00be22ceb6a1",
     "e29eda23-4547-4d24-a397-c0bdc20069ee"
   ],
-  "_ts": "2026-08-03T11:23:19.596Z"
+  "_ts": "2026-08-03T11:27:30.885Z"
 }
