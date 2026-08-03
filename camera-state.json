@@ -346,7 +346,8 @@
       "notes": "following too close",
       "ts": 1785780606285,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785780488883690",
@@ -585,7 +586,8 @@
       "notes": "following too close",
       "ts": 1785778944799,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785778636899452",
@@ -599,7 +601,8 @@
       "notes": "78 in 65",
       "ts": 1785778636899,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178577830920140",
@@ -658,7 +661,8 @@
       "notes": "58 in 35",
       "ts": 1785778197699,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785778105465133",
@@ -33868,5 +33872,5 @@
     "501faba1-eb81-4abe-b80a-17a003ae81c0",
     "966b6acd-919c-42cd-8805-5e0cb389dd81"
   ],
-  "_ts": "2026-08-03T18:10:55.496Z"
+  "_ts": "2026-08-03T18:18:41.556Z"
 }
