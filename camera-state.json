@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L178577823363664",
+      "board": "XVLVu2Du8hc",
+      "driver": "Chad Smith",
+      "driverId": "019a0810-437c-7aae-88b4-7558aa34aed8",
+      "date": "2026-07-31",
+      "reviewed": "2026-08-03",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1785778233636,
+      "synced": false
+    },
+    {
       "id": "L1785778197699423",
       "board": "XVLVu2Du8hc",
       "driver": "Julia Green",
@@ -33522,5 +33535,5 @@
     "07543712-f7c0-419c-92ac-f35fee16e5ab",
     "35bbb6c7-a40c-49cf-8099-bc51161e97c0"
   ],
-  "_ts": "2026-08-03T17:30:00.445Z"
+  "_ts": "2026-08-03T17:30:33.676Z"
 }
