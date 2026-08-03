@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785755596205315",
+      "board": "qnESNLC3JPR",
+      "driver": "unassigned",
+      "driverId": "019be0a2-2e31-700a-a914-4e84e4941764",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6248562809: Truck # 111 Cab Distraction/ Watch\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fac53675-726f-45dc-b4e7-ea9db08af81f.mp4",
+      "ts": 1785755596205,
+      "synced": false
+    },
+    {
       "id": "L1785727763079483",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -32564,5 +32577,5 @@
     "ce6001e5-1554-48ba-8565-1e836e1854ca",
     "c727fc24-b4bb-4405-8653-e0d3727394a4"
   ],
-  "_ts": "2026-08-03T11:11:48.811Z"
+  "_ts": "2026-08-03T11:13:16.243Z"
 }
