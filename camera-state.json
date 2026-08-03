@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785768774896319",
+      "board": "8BUntjK1TqV",
+      "driver": "Wood, Gregory",
+      "driverId": "019e84be-bcf0-76e3-8380-9db5f70b01c5",
+      "date": "2026-08-02",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6246639842; looking down; inattentive; possible phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b68d9687-7eef-4381-a930-c47ae4f77320.mp4\n",
+      "ts": 1785768774896,
+      "synced": false
+    },
+    {
       "id": "L1785768655550714",
       "board": "8BUntjK1TqV",
       "driver": "Irlbeck, Ken",
@@ -32900,5 +32913,5 @@
     "2a13207b-c25d-45c4-9b78-4f4f332d65a8",
     "d3e4f565-e081-49a9-8155-ca84c538e994"
   ],
-  "_ts": "2026-08-03T14:50:58.171Z"
+  "_ts": "2026-08-03T14:52:54.935Z"
 }
