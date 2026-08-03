@@ -320,6 +320,21 @@
   },
   "local": [
     {
+      "id": "L1785727763079483",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Luis Longoria",
+      "driverId": "49e59c0a-5419-4beb-bf1f-da4094d1ea21",
+      "date": "2026-08-01",
+      "reviewed": "2026-08-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1243638815218892800: Phone Distraction/Passing Vehicle\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a87a2540-126b-4c11-a608-a3259a6f5431.mp4",
+      "ts": 1785727763079,
+      "synced": true,
+      "infItemId": "c727fc24-b4bb-4405-8653-e0d3727394a4",
+      "syncError": null
+    },
+    {
       "id": "L1785727611602881",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -32546,7 +32561,8 @@
     "eff37d26-63ad-494d-91cc-afb64cb4369e",
     "62e3f96f-74ed-4bc2-8de0-4532ac4b11a8",
     "8535f001-9607-4f9c-b9da-0c6fc3917bc4",
-    "ce6001e5-1554-48ba-8565-1e836e1854ca"
+    "ce6001e5-1554-48ba-8565-1e836e1854ca",
+    "c727fc24-b4bb-4405-8653-e0d3727394a4"
   ],
-  "_ts": "2026-08-03T03:26:55.823Z"
+  "_ts": "2026-08-03T11:11:48.811Z"
 }
