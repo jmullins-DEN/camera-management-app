@@ -585,9 +585,9 @@
       "coaching": "Face to Face",
       "notes": "following too close",
       "ts": 1785778944799,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "8b3d6819-1a0a-4715-9cf6-0b1d25d24f03"
     },
     {
       "id": "L1785778636899452",
@@ -600,9 +600,9 @@
       "coaching": "Face to Face",
       "notes": "78 in 65",
       "ts": 1785778636899,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "3c101e3a-f26d-4e62-b800-7d9a6c8e9ff8"
     },
     {
       "id": "L178577830920140",
@@ -660,9 +660,9 @@
       "coaching": "Coaching Notes",
       "notes": "58 in 35",
       "ts": 1785778197699,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "70a0b2af-4ffb-4057-9558-33494d603ea3"
     },
     {
       "id": "L1785778105465133",
@@ -33871,7 +33871,10 @@
     "d4e96ceb-6ef1-45cf-bb3d-cc3a4577233a",
     "501faba1-eb81-4abe-b80a-17a003ae81c0",
     "966b6acd-919c-42cd-8805-5e0cb389dd81",
-    "7d27fd73-a9cf-40b3-9ec0-0fa364bc37ed"
+    "7d27fd73-a9cf-40b3-9ec0-0fa364bc37ed",
+    "8b3d6819-1a0a-4715-9cf6-0b1d25d24f03",
+    "3c101e3a-f26d-4e62-b800-7d9a6c8e9ff8",
+    "70a0b2af-4ffb-4057-9558-33494d603ea3"
   ],
-  "_ts": "2026-08-03T18:18:43.730Z"
+  "_ts": "2026-08-03T18:18:46.717Z"
 }
