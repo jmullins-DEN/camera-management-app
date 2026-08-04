@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785845747825610",
+      "board": "ebSND1QoyBs",
+      "driver": "KARVELL OLIVER",
+      "driverId": "66820273-3d66-474d-b1fd-a0498b80b8d3",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1785845747825,
+      "synced": false
+    },
+    {
       "id": "L1785845689966601",
       "board": "ebSND1QoyBs",
       "driver": "Roy Carney",
@@ -34642,5 +34655,5 @@
     "8cfe9e37-5cf0-4f55-8f39-84820a7a2b78",
     "5a396411-e507-4779-95f0-23cb6c75ae18"
   ],
-  "_ts": "2026-08-04T12:14:54.571Z"
+  "_ts": "2026-08-04T12:15:47.869Z"
 }
