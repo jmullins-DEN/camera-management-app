@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785886341642543",
+      "board": "8gejhhHJj4e",
+      "driver": "Brian Soto",
+      "driverId": "019e4591-96d7-75a0-8746-1212334c523b",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1785886341642,
+      "synced": false
+    },
+    {
       "id": "L1785886251090673",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -34958,5 +34971,5 @@
     "4fb54bf6-31ff-46dd-81ff-523d888dbdb7",
     "232f2327-1a40-4aff-a4ad-4f7ae2f7ad34"
   ],
-  "_ts": "2026-08-04T23:30:53.234Z"
+  "_ts": "2026-08-04T23:32:21.684Z"
 }
