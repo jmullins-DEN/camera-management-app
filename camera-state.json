@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785845689966601",
+      "board": "ebSND1QoyBs",
+      "driver": "Roy Carney",
+      "driverId": "2f364254-29f0-49dc-9930-2b9444b2e1d2",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; looking down",
+      "ts": 1785845689966,
+      "synced": false
+    },
+    {
       "id": "L1785845588596712",
       "board": "ebSND1QoyBs",
       "driver": "Joseph Hartmeier",
@@ -34626,5 +34639,5 @@
     "2daeb61f-dcd7-45b0-859f-21335a0323f8",
     "8cfe9e37-5cf0-4f55-8f39-84820a7a2b78"
   ],
-  "_ts": "2026-08-04T12:13:13.957Z"
+  "_ts": "2026-08-04T12:14:50.011Z"
 }
