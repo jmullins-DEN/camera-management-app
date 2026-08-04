@@ -320,6 +320,34 @@
   },
   "local": [
     {
+      "id": "L1785801836862439",
+      "board": "XVLVu2Du8hc",
+      "driver": "Tres Dimick",
+      "driverId": "019a0810-437c-7aae-88b5-85226a382d67",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "62 in 45",
+      "ts": 1785801836862,
+      "synced": false
+    },
+    {
+      "id": "L1785801800802809",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "71 in 55",
+      "ts": 1785801800802,
+      "synced": true,
+      "infItemId": "b319c88f-034a-44ce-aaca-6e48f9c6a0b0",
+      "syncError": null
+    },
+    {
       "id": "L1785801770575564",
       "board": "XVLVu2Du8hc",
       "driver": "Aaron Mutulo",
@@ -330,7 +358,9 @@
       "coaching": "Face to Face",
       "notes": "44 in 30",
       "ts": 1785801770575,
-      "synced": false
+      "synced": true,
+      "infItemId": "89c75362-5206-4e19-a5c4-7d2290b03669",
+      "syncError": null
     },
     {
       "id": "L1785801728720406",
@@ -34315,7 +34345,9 @@
     "ee833048-513d-41a5-ba85-1f271a703b18",
     "a156e799-8f55-4714-9ba5-22a38bfcc7a1",
     "64e0bd93-c2b4-4c7f-9520-7fb17b7fec14",
-    "40d84508-0bb7-4dcf-9463-fe546cac4718"
+    "40d84508-0bb7-4dcf-9463-fe546cac4718",
+    "89c75362-5206-4e19-a5c4-7d2290b03669",
+    "b319c88f-034a-44ce-aaca-6e48f9c6a0b0"
   ],
-  "_ts": "2026-08-04T00:02:50.618Z"
+  "_ts": "2026-08-04T00:03:56.907Z"
 }
