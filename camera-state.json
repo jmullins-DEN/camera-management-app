@@ -451,7 +451,8 @@
       "notes": "Hard Brake/ Speeding",
       "ts": 1785885741823,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785884235953164",
@@ -465,7 +466,8 @@
       "notes": "Stop Sign Violation",
       "ts": 1785884235953,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785883986674300",
@@ -494,7 +496,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1785883467083,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785883189023577",
@@ -34974,5 +34977,5 @@
     "232f2327-1a40-4aff-a4ad-4f7ae2f7ad34",
     "bd5f7d0a-9cba-4043-a9ad-a1c3f3c8c44b"
   ],
-  "_ts": "2026-08-04T23:32:24.242Z"
+  "_ts": "2026-08-04T23:40:02.744Z"
 }
