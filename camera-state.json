@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785886146673735",
+      "board": "8gejhhHJj4e",
+      "driver": "Francisco Lambar",
+      "driverId": "019ab61d-ab62-7770-b14b-9978eb6bfe30",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1785886146673,
+      "synced": false
+    },
+    {
       "id": "L1785885998172398",
       "board": "8gejhhHJj4e",
       "driver": "Chris Luthye #705",
@@ -34894,5 +34907,5 @@
     "cdfeb5d0-beb4-4372-b36c-52f1fc75d1c7",
     "3404d8be-cb39-4a18-b9a5-db64c9170456"
   ],
-  "_ts": "2026-08-04T23:26:41.240Z"
+  "_ts": "2026-08-04T23:29:06.716Z"
 }
