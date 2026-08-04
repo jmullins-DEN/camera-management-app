@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785844333342107",
+      "board": "8BUntjK1TqV",
+      "driver": "Camacho, Roy",
+      "driverId": "019eb1f9-7c37-705d-9c61-e013aa53ee35",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6252568663; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5b0cecc2-e1bb-46c5-bb22-4897eb378714.mp4\n",
+      "ts": 1785844333342,
+      "synced": false
+    },
+    {
       "id": "L1785844253688658",
       "board": "8BUntjK1TqV",
       "driver": "Camacho, Roy",
@@ -34466,5 +34479,5 @@
     "4902d242-c2a5-45c5-a55a-6d5dd4b4e7b1",
     "4f05f792-a8b1-44fc-8f34-ade76b7966d1"
   ],
-  "_ts": "2026-08-04T11:50:57.779Z"
+  "_ts": "2026-08-04T11:52:13.386Z"
 }
