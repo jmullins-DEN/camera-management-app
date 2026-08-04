@@ -507,8 +507,8 @@
       "date": "2026-08-03",
       "reviewed": "2026-08-04",
       "behavior": "Safety-Critical Event",
-      "coaching": "Critical Event",
-      "notes": "\nAlert 6254535139; passing in no passing zone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1315277f-d838-4a8c-bb70-0a7b41af59c3.mp4",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6254535139; passing in no passing zone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1315277f-d838-4a8c-bb70-0a7b41af59c3.mp4",
       "ts": 1785844437895,
       "synced": true,
       "syncError": null,
@@ -34708,5 +34708,5 @@
     "090164c8-094c-4eac-9a45-8d8e52f99a03",
     "e0240fdd-9686-47ac-93e0-11f5767ef3e3"
   ],
-  "_ts": "2026-08-04T19:23:21.286Z"
+  "_ts": "2026-08-04T19:28:06.483Z"
 }
