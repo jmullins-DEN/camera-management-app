@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785883189023577",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Emery, Shane",
+      "driverId": "a227860a-3661-45e8-95fc-addf4e926cc5",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1785883189023,
+      "synced": false
+    },
+    {
       "id": "L1785883138895534",
       "board": "nWRsGRSm2Hn",
       "driver": "Loper, William",
@@ -34772,5 +34785,5 @@
     "42c77923-ae57-4e0a-a3c6-a037feaedfff",
     "23c87c49-6ad1-4c76-8900-4ce4f609b3b2"
   ],
-  "_ts": "2026-08-04T22:39:00.905Z"
+  "_ts": "2026-08-04T22:39:49.058Z"
 }
