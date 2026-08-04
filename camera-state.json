@@ -375,8 +375,8 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1785845747825,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "090164c8-094c-4eac-9a45-8d8e52f99a03"
     },
     {
@@ -435,9 +435,9 @@
       "coaching": "Coaching Notes",
       "notes": "multi-tasking ",
       "ts": 1785845430743,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e0240fdd-9686-47ac-93e0-11f5767ef3e3"
     },
     {
       "id": "L1785845176348544",
@@ -34704,7 +34704,9 @@
     "5a396411-e507-4779-95f0-23cb6c75ae18",
     "7a0bcfee-2ec6-47eb-b5da-124225801a21",
     "41fb04e2-b970-4c53-9412-5bcfae248e46",
-    "f8401e84-eb1c-4577-9431-63c924ec3835"
+    "f8401e84-eb1c-4577-9431-63c924ec3835",
+    "090164c8-094c-4eac-9a45-8d8e52f99a03",
+    "e0240fdd-9686-47ac-93e0-11f5767ef3e3"
   ],
-  "_ts": "2026-08-04T19:23:18.736Z"
+  "_ts": "2026-08-04T19:23:21.286Z"
 }
