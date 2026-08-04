@@ -330,8 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1244406993100374016: Hard breaking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5480fb60-4368-4516-b652-4488efe35056.mp4",
       "ts": 1785844586052,
-      "synced": false,
-      "infItemId": "9a9ff46c-030e-4b86-a77c-e6c2d04df95b"
+      "synced": true,
+      "infItemId": "9a9ff46c-030e-4b86-a77c-e6c2d04df95b",
+      "syncError": null
     },
     {
       "id": "L1785844437895639",
@@ -34524,7 +34525,8 @@
     "c7ce14f4-9e42-48e4-a803-8c57bfbdc650",
     "4902d242-c2a5-45c5-a55a-6d5dd4b4e7b1",
     "4f05f792-a8b1-44fc-8f34-ade76b7966d1",
-    "ebc8e7be-7ac9-49ae-ba1c-4602537ed65e"
+    "ebc8e7be-7ac9-49ae-ba1c-4602537ed65e",
+    "9a9ff46c-030e-4b86-a77c-e6c2d04df95b"
   ],
-  "_ts": "2026-08-04T11:56:27.856Z"
+  "_ts": "2026-08-04T11:56:29.635Z"
 }
