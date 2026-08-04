@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785883138895534",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Loper, William",
+      "driverId": "4554dbc1-4d5e-4de8-b4af-2917020f5e39",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance\n",
+      "ts": 1785883138895,
+      "synced": false
+    },
+    {
       "id": "L1785873231817199",
       "board": "7W2SQKrNcXQ",
       "driver": "Marco Nunez",
@@ -34756,5 +34769,5 @@
     "b0fd2d9b-ca32-4794-8b36-e4e00c6ceea7",
     "42c77923-ae57-4e0a-a3c6-a037feaedfff"
   ],
-  "_ts": "2026-08-04T22:35:36.969Z"
+  "_ts": "2026-08-04T22:38:58.928Z"
 }
