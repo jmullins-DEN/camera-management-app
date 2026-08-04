@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785845563487431",
+      "board": "ebSND1QoyBs",
+      "driver": "Andrew Fierro",
+      "driverId": "51aa5f26-e5e1-4f3b-bddd-046b80604115",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1785845563487,
+      "synced": false
+    },
+    {
       "id": "L1785845430743397",
       "board": "YJNwKvzFhkj",
       "driver": "Alpherd Jones",
@@ -34594,5 +34607,5 @@
     "57b160ee-5e7e-4cf1-9dd4-53f2fa0ab4e7",
     "79dd225a-9e7b-4f44-ade1-fc1527616469"
   ],
-  "_ts": "2026-08-04T12:10:32.677Z"
+  "_ts": "2026-08-04T12:12:43.532Z"
 }
