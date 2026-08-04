@@ -320,6 +320,21 @@
   },
   "local": [
     {
+      "id": "L1785844133789515",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Bill Mayville",
+      "driverId": "faeb2fb6-b5c0-44b0-a06b-98e4e32207aa",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1244398034394185728:  Phone Distraction\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f33be2d6-890c-4a5a-afb8-de0cb1ff7e70.mp4",
+      "ts": 1785844133789,
+      "synced": true,
+      "infItemId": "2524992c-0d65-4464-b872-a161f3b0684b",
+      "syncError": null
+    },
+    {
       "id": "L1785844131624566",
       "board": "8BUntjK1TqV",
       "driver": "Ochoa, Jeremy",
@@ -34385,14 +34400,15 @@
     "8b3d6819-1a0a-4715-9cf6-0b1d25d24f03",
     "3c101e3a-f26d-4e62-b800-7d9a6c8e9ff8",
     "70a0b2af-4ffb-4057-9558-33494d603ea3",
-    "4b6598d4-09bd-4126-9000-75cfd3c23a87",
+    "fccbb4cf-e7f8-4770-b434-cf905e01976c",
     "580cab3a-5e86-437c-9e21-5a39fc65ad91",
     "25a50804-21e8-4957-b45f-5f3772c60d1f",
     "957b3534-dfc0-43b0-9e0d-76ea986dd94b",
     "fd11a41c-3ef4-465d-8080-eb30091b15be",
     "bcc688a8-2c57-48f0-b010-61ec2049139c",
+    "4541e681-0ee7-460a-9d16-e2bf919acdb4",
+    "4b6598d4-09bd-4126-9000-75cfd3c23a87",
     "d19069bd-fb55-4d00-87c6-cc0074d5115f",
-    "fccbb4cf-e7f8-4770-b434-cf905e01976c",
     "fa53b948-092d-4db0-a6c0-9d39ca9e5d63",
     "397632a6-26ce-4564-9e8c-b882a0443d6e",
     "bd65fcc4-b739-438f-bc71-4fef482053ae",
@@ -34413,10 +34429,10 @@
     "89c75362-5206-4e19-a5c4-7d2290b03669",
     "b319c88f-034a-44ce-aaca-6e48f9c6a0b0",
     "e96ff51c-ed61-465e-951f-995064c36d00",
-    "4541e681-0ee7-460a-9d16-e2bf919acdb4",
     "b0921972-5d83-4ad8-9c30-190c2ca93b51",
     "f6eaba7b-8edd-4b38-9c89-1959ad5d5e45",
+    "2524992c-0d65-4464-b872-a161f3b0684b",
     "ca95f6a7-4234-4b6c-8806-661a0b1953a8"
   ],
-  "_ts": "2026-08-04T11:48:54.785Z"
+  "_ts": "2026-08-04T11:48:59.529Z"
 }
