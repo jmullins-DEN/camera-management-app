@@ -330,7 +330,8 @@
       "coaching": "Coaching Notes",
       "notes": "inattentive; looking down",
       "ts": 1785845689966,
-      "synced": false
+      "synced": false,
+      "infItemId": "5a396411-e507-4779-95f0-23cb6c75ae18"
     },
     {
       "id": "L1785845588596712",
@@ -34639,5 +34640,5 @@
     "2daeb61f-dcd7-45b0-859f-21335a0323f8",
     "8cfe9e37-5cf0-4f55-8f39-84820a7a2b78"
   ],
-  "_ts": "2026-08-04T12:14:50.011Z"
+  "_ts": "2026-08-04T12:14:51.892Z"
 }
