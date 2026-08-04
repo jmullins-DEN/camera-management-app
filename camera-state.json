@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785885998172398",
+      "board": "8gejhhHJj4e",
+      "driver": "Chris Luthye #705",
+      "driverId": "e74297c7-9b0c-4382-a91a-b7c1372386ec",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1785885998172,
+      "synced": false
+    },
+    {
       "id": "L1785885906877427",
       "board": "8gejhhHJj4e",
       "driver": "Brian Valencia",
@@ -34878,5 +34891,5 @@
     "b73e4e0e-13e0-45af-a40e-e717be452f02",
     "cdfeb5d0-beb4-4372-b36c-52f1fc75d1c7"
   ],
-  "_ts": "2026-08-04T23:25:09.228Z"
+  "_ts": "2026-08-04T23:26:38.204Z"
 }
