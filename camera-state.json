@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785845588596712",
+      "board": "ebSND1QoyBs",
+      "driver": "Joseph Hartmeier",
+      "driverId": "3b527d24-1457-4ea6-8a3d-41dcf96146d3",
+      "date": "2026-08-03",
+      "reviewed": "2026-08-04",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "cameras blocked",
+      "ts": 1785845588596,
+      "synced": false
+    },
+    {
       "id": "L1785845563487431",
       "board": "ebSND1QoyBs",
       "driver": "Andrew Fierro",
@@ -34610,5 +34623,5 @@
     "79dd225a-9e7b-4f44-ade1-fc1527616469",
     "2daeb61f-dcd7-45b0-859f-21335a0323f8"
   ],
-  "_ts": "2026-08-04T12:12:47.286Z"
+  "_ts": "2026-08-04T12:13:08.641Z"
 }
