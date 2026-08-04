@@ -330,7 +330,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Phone Distraction;\nVehicle  PU 8807 Extended Cab Spare",
       "ts": 1785886966089,
-      "synced": false
+      "synced": true,
+      "infItemId": "21767090-b913-47ef-b76e-020e01428fad",
+      "syncError": null
     },
     {
       "id": "L1785886341642543",
@@ -34991,7 +34993,8 @@
     "bd5f7d0a-9cba-4043-a9ad-a1c3f3c8c44b",
     "745ce2e2-8074-4556-8bc4-5457c826b0e6",
     "7430787c-1c86-46ae-bade-b7d6420bd748",
-    "bd2e509e-0b71-43c0-9c83-b1af68fa0b44"
+    "bd2e509e-0b71-43c0-9c83-b1af68fa0b44",
+    "21767090-b913-47ef-b76e-020e01428fad"
   ],
-  "_ts": "2026-08-04T23:42:46.132Z"
+  "_ts": "2026-08-04T23:42:48.849Z"
 }
