@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "eating with two hands",
       "ts": 1785845176348,
-      "synced": false
+      "synced": true,
+      "infItemId": "79dd225a-9e7b-4f44-ade1-fc1527616469",
+      "syncError": null
     },
     {
       "id": "L1785844730406334",
@@ -34575,7 +34577,8 @@
     "4c5c56ab-4a39-403d-9b2d-a9dba3d278d3",
     "b9781396-6540-4d9a-b6b8-0473f4155071",
     "72ee80d1-fb27-4f76-9fdb-24bd558a02b9",
-    "57b160ee-5e7e-4cf1-9dd4-53f2fa0ab4e7"
+    "57b160ee-5e7e-4cf1-9dd4-53f2fa0ab4e7",
+    "79dd225a-9e7b-4f44-ade1-fc1527616469"
   ],
-  "_ts": "2026-08-04T12:06:16.390Z"
+  "_ts": "2026-08-04T12:06:19.776Z"
 }
