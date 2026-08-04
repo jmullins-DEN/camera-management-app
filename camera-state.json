@@ -450,9 +450,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake/ Speeding",
       "ts": 1785885741823,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "745ce2e2-8074-4556-8bc4-5457c826b0e6"
     },
     {
       "id": "L1785884235953164",
@@ -34975,7 +34975,8 @@
     "8e6ad661-0b21-47c6-9a0e-e57604c74e95",
     "4fb54bf6-31ff-46dd-81ff-523d888dbdb7",
     "232f2327-1a40-4aff-a4ad-4f7ae2f7ad34",
-    "bd5f7d0a-9cba-4043-a9ad-a1c3f3c8c44b"
+    "bd5f7d0a-9cba-4043-a9ad-a1c3f3c8c44b",
+    "745ce2e2-8074-4556-8bc4-5457c826b0e6"
   ],
-  "_ts": "2026-08-04T23:40:02.744Z"
+  "_ts": "2026-08-04T23:40:05.034Z"
 }
