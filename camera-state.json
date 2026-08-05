@@ -390,9 +390,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1785936428888,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c4dd4a39-243d-4498-a64f-cba41b09b80d"
     },
     {
       "id": "L1785936325240937",
@@ -405,9 +405,9 @@
       "coaching": "Face to Face",
       "notes": "looking down more than 3 seconds; distracted; possible phone",
       "ts": 1785936325240,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b117c82d-3775-4712-928e-374e64d9ee01"
     },
     {
       "id": "L1785936259251333",
@@ -450,9 +450,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a732a27883a79857c2e3587",
       "ts": 1785936051365,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f944896f-3a72-4e59-af0f-f7eb1fed63ad"
     },
     {
       "id": "L1785935906340987",
@@ -36126,7 +36126,10 @@
     "6b0dcef3-4fbb-428a-948e-f191e470047a",
     "e0453aea-2df6-4d4d-b8d7-00f95c00013e",
     "42807a0f-8e0c-475a-a43f-bba1b8e11d42",
-    "8e6a31f5-be55-4e9a-ad61-8b076d939560"
+    "8e6a31f5-be55-4e9a-ad61-8b076d939560",
+    "c4dd4a39-243d-4498-a64f-cba41b09b80d",
+    "b117c82d-3775-4712-928e-374e64d9ee01",
+    "f944896f-3a72-4e59-af0f-f7eb1fed63ad"
   ],
-  "_ts": "2026-08-05T13:42:40.937Z"
+  "_ts": "2026-08-05T13:42:45.779Z"
 }
