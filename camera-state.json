@@ -588,8 +588,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction",
       "ts": 1785961784598,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "1e2287be-fc00-4f57-ba43-97ef00206ea9"
     },
     {
       "id": "L1785961668299715",
@@ -707,8 +708,9 @@
       "coaching": "Face to Face",
       "notes": "Heavy Speeding",
       "ts": 1785960673473,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "96c69ad5-9e11-4f63-b374-ae4278385d1c"
     },
     {
       "id": "L1785960410902576",
@@ -751,8 +753,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1785960297003,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e47da161-1e22-4ef3-b86d-8ee128cddf87"
     },
     {
       "id": "L1785959924241531",
@@ -765,8 +768,9 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction",
       "ts": 1785959924241,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "dd4589b1-f157-48db-9c4f-17c3aed37869"
     },
     {
       "id": "L1785942861917334",
@@ -36635,7 +36639,11 @@
     "7e8ecbad-d8e6-4be7-90b8-4b036fe24d85",
     "56018aba-beae-49b0-bf42-928b4b5bd411",
     "3f81f3b1-d3fd-49c3-96e9-66cb7012a2a6",
-    "d1e43b00-9aad-4723-ba8c-9b9f38fc7cc3"
+    "d1e43b00-9aad-4723-ba8c-9b9f38fc7cc3",
+    "1e2287be-fc00-4f57-ba43-97ef00206ea9",
+    "96c69ad5-9e11-4f63-b374-ae4278385d1c",
+    "e47da161-1e22-4ef3-b86d-8ee128cddf87",
+    "dd4589b1-f157-48db-9c4f-17c3aed37869"
   ],
-  "_ts": "2026-08-05T21:44:32.838Z"
+  "_ts": "2026-08-05T21:44:38.600Z"
 }
