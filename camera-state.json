@@ -330,7 +330,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 425076573; following too close; Alex not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/02e97a23-7b52-45f4-b1fc-6bb188314909.mp4",
       "ts": 1785933155366,
-      "synced": false
+      "synced": true,
+      "infItemId": "8076be22-33f4-4bc2-ac38-9477cbceeb85",
+      "syncError": null
     },
     {
       "id": "L178593306537627",
@@ -35626,7 +35628,8 @@
     "eee1e66f-b741-457a-accd-827ea19f61c4",
     "ded7526e-4991-4698-8c1a-11b293f5b83e",
     "d5d0b881-3ced-4580-8803-5bea5b8afb7a",
-    "d839454a-c1b6-4dd6-b978-b9045a3beeb8"
+    "d839454a-c1b6-4dd6-b978-b9045a3beeb8",
+    "8076be22-33f4-4bc2-ac38-9477cbceeb85"
   ],
-  "_ts": "2026-08-05T12:32:35.413Z"
+  "_ts": "2026-08-05T12:32:38.779Z"
 }
