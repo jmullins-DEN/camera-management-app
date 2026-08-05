@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785961405088801",
+      "board": "8gejhhHJj4e",
+      "driver": "Amie Roberts",
+      "driverId": "019e69ed-8223-71e8-9730-4c45c0c07ca7",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1785961405088,
+      "synced": false
+    },
+    {
       "id": "L1785961222611230",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -36303,5 +36316,5 @@
     "0ad5ebd0-0e5a-447c-9530-bcde805eeda6",
     "5bb042b0-4ef9-45e9-9f4f-dcf7f526ee77"
   ],
-  "_ts": "2026-08-05T20:20:25.170Z"
+  "_ts": "2026-08-05T20:23:25.173Z"
 }
