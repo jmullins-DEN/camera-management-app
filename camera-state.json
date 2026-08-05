@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785959924241531",
+      "board": "JthqRmXvJ9v",
+      "driver": "Daniel Brown",
+      "driverId": "019a7b18-0863-7330-ad9a-afe7951dac3b",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1785959924241,
+      "synced": false
+    },
+    {
       "id": "L1785942861917334",
       "board": "7W2SQKrNcXQ",
       "driver": "Isaiah Cardenas",
@@ -36181,5 +36194,5 @@
     "de11ff37-2e9c-49bf-bd0a-5d9ba0892c78",
     "d5bdc795-e7b8-4201-a07b-9ebb3e1f0b6c"
   ],
-  "_ts": "2026-08-05T19:52:18.554Z"
+  "_ts": "2026-08-05T19:58:44.287Z"
 }
