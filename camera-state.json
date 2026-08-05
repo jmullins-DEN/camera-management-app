@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785963839948668",
+      "board": "AKJSkJj6Ch4",
+      "driver": "JD Chappell",
+      "driverId": "bcf7d324-7297-4505-b505-5d1b9bba07b4",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-05",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995713058-1785953620965\nRolling Stop; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/460a9ac3-8f54-4caa-820f-585b94560cc6.mp4",
+      "ts": 1785963839948,
+      "synced": false
+    },
+    {
       "id": "L1785963579858453",
       "board": "AKJSkJj6Ch4",
       "driver": "Michael Colvin",
@@ -36571,5 +36584,5 @@
     "794c46ce-e85d-4697-b1f2-4c1805c95f52",
     "64e6caca-c58c-4537-b009-7483c9df0fa8"
   ],
-  "_ts": "2026-08-05T20:59:42.413Z"
+  "_ts": "2026-08-05T21:04:00.021Z"
 }
