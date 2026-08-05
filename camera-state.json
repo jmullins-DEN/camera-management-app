@@ -391,7 +391,8 @@
       "notes": "texting",
       "ts": 1785936428888,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785936325240937",
@@ -405,7 +406,8 @@
       "notes": "looking down more than 3 seconds; distracted; possible phone",
       "ts": 1785936325240,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1785936259251333",
@@ -36126,5 +36128,5 @@
     "42807a0f-8e0c-475a-a43f-bba1b8e11d42",
     "8e6a31f5-be55-4e9a-ad61-8b076d939560"
   ],
-  "_ts": "2026-08-05T13:34:59.561Z"
+  "_ts": "2026-08-05T13:42:40.937Z"
 }
