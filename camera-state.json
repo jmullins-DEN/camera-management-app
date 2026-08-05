@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785932297377789",
+      "board": "8BUntjK1TqV",
+      "driver": "Camacho, Roy",
+      "driverId": "019eb1f9-7c37-705d-9c61-e013aa53ee35",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 6260386093; camera misaligned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/24dd37c3-ffe9-425d-8748-c12d0dec02e5.mp4",
+      "ts": 1785932297377,
+      "synced": false
+    },
+    {
       "id": "L1785932257707288",
       "board": "8BUntjK1TqV",
       "driver": "Leoffler, David (Dave)",
@@ -35459,5 +35472,5 @@
     "a00af586-a3a4-4c10-8777-128773f3ff44",
     "bd94f8be-8d6c-4097-b076-1fbf773c115b"
   ],
-  "_ts": "2026-08-05T12:17:40.072Z"
+  "_ts": "2026-08-05T12:18:17.426Z"
 }
