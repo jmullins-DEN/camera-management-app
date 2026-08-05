@@ -348,7 +348,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995728369-1785957759215\nHard Brake/ Rolling Stop\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ea182719-d3c9-42e1-9a85-e3e172532fcc.mp4",
       "ts": 1785963579858,
-      "synced": false
+      "synced": true,
+      "infItemId": "64e6caca-c58c-4537-b009-7483c9df0fa8",
+      "syncError": null
     },
     {
       "id": "L1785963424135432",
@@ -36566,7 +36568,8 @@
     "32d5cb07-c866-4397-934c-4f6fe57bbb5f",
     "f571fc1d-abca-46c2-83a7-d2b1fb7015a2",
     "ff1f7e4d-1dca-4cf9-b0d9-813a9c62469b",
-    "794c46ce-e85d-4697-b1f2-4c1805c95f52"
+    "794c46ce-e85d-4697-b1f2-4c1805c95f52",
+    "64e6caca-c58c-4537-b009-7483c9df0fa8"
   ],
-  "_ts": "2026-08-05T20:59:39.930Z"
+  "_ts": "2026-08-05T20:59:42.413Z"
 }
