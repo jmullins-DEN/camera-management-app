@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785962314640620",
+      "board": "8gejhhHJj4e",
+      "driver": "GILBERT NAVA #1690",
+      "driverId": "733163e1-bd03-47c6-a3ec-4fc46177b3d6",
+      "date": "2026-08-01",
+      "reviewed": "2026-08-05",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Cab Distraction",
+      "ts": 1785962314640,
+      "synced": false
+    },
+    {
       "id": "L1785962199485500",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -36459,5 +36472,5 @@
     "783048b5-75e8-453f-b66f-6d00cab1728a",
     "42ba51d2-a97d-4e6d-a2a2-9e8f44562b88"
   ],
-  "_ts": "2026-08-05T20:36:41.529Z"
+  "_ts": "2026-08-05T20:38:34.688Z"
 }
