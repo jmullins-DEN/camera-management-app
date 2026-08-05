@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785889744571576",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6258356041\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/470d8187-c1bc-465e-bbcc-602c9d74c16e.mp4",
+      "ts": 1785889744571,
+      "synced": false
+    },
+    {
       "id": "L1785889592135992",
       "board": "ic6o6QgzpVM",
       "driver": "Gonzales, Edgar",
@@ -35200,5 +35213,5 @@
     "91fedfec-223d-4ad0-b631-8134c7223d93",
     "835556d8-9b5d-4588-a9e4-86bd2e5ec1e2"
   ],
-  "_ts": "2026-08-05T00:26:35.832Z"
+  "_ts": "2026-08-05T00:29:04.602Z"
 }
