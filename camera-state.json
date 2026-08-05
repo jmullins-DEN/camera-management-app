@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785961867194409",
+      "board": "8gejhhHJj4e",
+      "driver": "Jeremy Maynes",
+      "driverId": "0b31c366-b0a8-47d2-9562-c0bcb4ff8527",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1785961867194,
+      "synced": false
+    },
+    {
       "id": "L178596178459880",
       "board": "8gejhhHJj4e",
       "driver": "Efrain Sotelo",
@@ -348,7 +361,8 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction",
       "ts": 1785961784598,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1785961668299715",
@@ -36380,5 +36394,5 @@
     "31fbf8cb-5a90-4a66-99da-4960ba13f0e6",
     "d3958d45-77f3-4259-83ff-97085794dccb"
   ],
-  "_ts": "2026-08-05T20:29:44.642Z"
+  "_ts": "2026-08-05T20:31:07.263Z"
 }
