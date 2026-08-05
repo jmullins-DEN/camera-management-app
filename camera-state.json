@@ -405,9 +405,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995756588-1785855910930\nHard Brake; Distracted\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3c70a4d0-a225-4cd5-a694-aa50ad84ca90.mp4\n",
       "ts": 1785888853250,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "8bead56f-b797-423c-a069-0fbea446b1c8"
     },
     {
       "id": "L1785888657529171",
@@ -35232,7 +35232,8 @@
     "835556d8-9b5d-4588-a9e4-86bd2e5ec1e2",
     "8832279e-68d9-462f-90b4-15b8a2542ed4",
     "c2a0fea4-5089-4213-a5a5-c9238ce5c8e2",
-    "41509347-1b4a-4eed-bfb5-c3024fb214e1"
+    "41509347-1b4a-4eed-bfb5-c3024fb214e1",
+    "8bead56f-b797-423c-a069-0fbea446b1c8"
   ],
-  "_ts": "2026-08-05T00:37:24.278Z"
+  "_ts": "2026-08-05T00:37:26.744Z"
 }
