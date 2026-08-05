@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785936259251333",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jason Allen",
+      "driverId": "019bdd3f-6648-7997-8bde-259709e2a152",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1785936259251,
+      "synced": false
+    },
+    {
       "id": "L1785936125313490",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -36018,5 +36031,5 @@
     "8dcbd28d-2b6c-4f33-86d0-099e475785ed",
     "d08e6b96-a5ef-4a83-910f-a5faa6a7898b"
   ],
-  "_ts": "2026-08-05T13:23:08.014Z"
+  "_ts": "2026-08-05T13:24:19.301Z"
 }
