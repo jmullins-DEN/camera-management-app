@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785936895441208",
+      "board": "ebSND1QoyBs",
+      "driver": "John Boerger",
+      "driverId": "2c91226d-ff75-4682-8176-cd97361ce342",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "hard brake; near miss",
+      "ts": 1785936895441,
+      "synced": false
+    },
+    {
       "id": "L1785936846798705",
       "board": "ebSND1QoyBs",
       "driver": "Deadrian Thomas",
@@ -36110,5 +36123,5 @@
     "e0453aea-2df6-4d4d-b8d7-00f95c00013e",
     "42807a0f-8e0c-475a-a43f-bba1b8e11d42"
   ],
-  "_ts": "2026-08-05T13:34:11.547Z"
+  "_ts": "2026-08-05T13:34:55.491Z"
 }
