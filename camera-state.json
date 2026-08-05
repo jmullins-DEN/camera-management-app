@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785961574357813",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling Stop",
+      "ts": 1785961574357,
+      "synced": false
+    },
+    {
       "id": "L1785961484894128",
       "board": "8gejhhHJj4e",
       "driver": "Samuel Huber",
@@ -36335,5 +36348,5 @@
     "6092c5af-d173-41d5-a675-991bfc346e67",
     "06286379-d229-4a6e-ae6f-c4bb7cda75eb"
   ],
-  "_ts": "2026-08-05T20:24:47.599Z"
+  "_ts": "2026-08-05T20:26:14.406Z"
 }
