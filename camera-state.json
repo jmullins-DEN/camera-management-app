@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785961484894128",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance/ Speeding",
+      "ts": 1785961484894,
+      "synced": false
+    },
+    {
       "id": "L1785961405088801",
       "board": "8gejhhHJj4e",
       "driver": "Amie Roberts",
@@ -36319,5 +36332,5 @@
     "5bb042b0-4ef9-45e9-9f4f-dcf7f526ee77",
     "6092c5af-d173-41d5-a675-991bfc346e67"
   ],
-  "_ts": "2026-08-05T20:23:28.408Z"
+  "_ts": "2026-08-05T20:24:44.962Z"
 }
