@@ -330,7 +330,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 6260386093; camera misaligned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/24dd37c3-ffe9-425d-8748-c12d0dec02e5.mp4",
       "ts": 1785932297377,
-      "synced": false
+      "synced": true,
+      "infItemId": "eafbf40b-4fa8-4400-bf31-5ba02e4a24e8",
+      "syncError": null
     },
     {
       "id": "L1785932257707288",
@@ -35470,7 +35472,8 @@
     "2761a6f7-68c8-419b-b175-88e9b4a6a217",
     "b59d8d88-9458-46bb-b1f7-b357a74e9d2a",
     "a00af586-a3a4-4c10-8777-128773f3ff44",
-    "bd94f8be-8d6c-4097-b076-1fbf773c115b"
+    "bd94f8be-8d6c-4097-b076-1fbf773c115b",
+    "eafbf40b-4fa8-4400-bf31-5ba02e4a24e8"
   ],
-  "_ts": "2026-08-05T12:18:17.426Z"
+  "_ts": "2026-08-05T12:18:19.932Z"
 }
