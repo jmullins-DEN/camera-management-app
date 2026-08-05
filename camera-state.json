@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1785963579858453",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-05",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995728369-1785957759215\nHard Brake/ Rolling Stop\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ea182719-d3c9-42e1-9a85-e3e172532fcc.mp4",
+      "ts": 1785963579858,
+      "synced": false
+    },
+    {
       "id": "L1785963424135432",
       "board": "AKJSkJj6Ch4",
       "driver": "Michael Colvin",
@@ -36555,5 +36568,5 @@
     "ff1f7e4d-1dca-4cf9-b0d9-813a9c62469b",
     "794c46ce-e85d-4697-b1f2-4c1805c95f52"
   ],
-  "_ts": "2026-08-05T20:57:06.352Z"
+  "_ts": "2026-08-05T20:59:39.930Z"
 }
