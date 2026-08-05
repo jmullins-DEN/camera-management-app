@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785932726510469",
+      "board": "4rNDuSrCaap",
+      "driver": "Ronald Stamm",
+      "driverId": "a743c382-95a1-427c-ad4b-03bf3b9d12f3",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 424887186; labeled as following too close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0a6f8d81-f9d6-46aa-8b60-0da99bdcc859.mp4",
+      "ts": 1785932726510,
+      "synced": false
+    },
+    {
       "id": "L1785932670618549",
       "board": "4rNDuSrCaap",
       "driver": "James Brown",
@@ -35537,5 +35550,5 @@
     "69e38175-ee12-4e4b-9665-fe83889927dd",
     "f5038212-6f54-4336-9892-2da88b5b37e3"
   ],
-  "_ts": "2026-08-05T12:24:34.215Z"
+  "_ts": "2026-08-05T12:25:26.552Z"
 }
