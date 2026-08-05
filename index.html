@@ -383,6 +383,72 @@ const AUTO_CRITICAL=['Drowsy Driving','Safety-Critical Event'];
 const AUTO_COACH={'Camera Exception':'System Alert'};
 // boards with LIVE Infinity write-back (board-by-board rollout; all others stay local-queue)
 const BOARD_WB={
+  'AtuX3hnUhum':{ // Ski Country Towing (DEN) — REFERENCE-driver Master clone, wired 2026-08-05. Labels standardized same day. Roster empty until Johnny populates in Infinity.
+    cam_folder:'ULDKTfCBkDK', roster_folder:'vmxhwtaTiHy',
+    name_attr:'122dc507-2fdf-43fa-988f-3e76f92c81d4',        // "Driver Name" text
+    driver_ref_attr:'cdcaa667-ec5f-4bdf-bf1d-652fb19fac7f',  // "Driver Roster" reference -> vmxhwtaTiHy
+    driver_name_attr:'122dc507-2fdf-43fa-988f-3e76f92c81d4', // text shadow stamped on write
+    behavior_attr:'d50c2a1e-d250-4c97-aa3b-1a91487f8452',
+    coaching_attr:'3f6b825f-ea3d-4cc3-94b1-9466b527b3af',
+    date_attr:'75dd716a-d04e-43b7-868f-a73f728e02f0',        // Camera Event Date
+    reviewed_attr:'092a0fae-9f7c-4881-8a02-069280b048b6',    // Date Event Reviewed
+    notes_attr:'9c385dfe-ec54-45c9-af5d-cc19d1b37272',       // "Notes:" longtext
+    link_attr:'18cf771c-8791-4252-bdf5-977d9a6d886e',        // Link to Violation
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo); id correct
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
+      'System Alert':'019eef3a-0371-7065-90d1-4104fece3dea',
+      'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
+    },
+  },
+  '26kYABTpRcf':{ // Design Logistics (DEN) — REFERENCE-driver Master clone, wired 2026-08-05. Labels standardized same day. Roster empty until Johnny populates in Infinity.
+    cam_folder:'39dWYsyPqDJ', roster_folder:'2dXJxKwYFYw',
+    name_attr:'3e55d55a-c9ca-4d89-b18a-a0cb30adf4a7',        // "Driver Name" text
+    driver_ref_attr:'5d26fd3a-9de8-425e-8303-9b9902b2ac0d',  // "Driver Roster" reference -> 2dXJxKwYFYw
+    driver_name_attr:'3e55d55a-c9ca-4d89-b18a-a0cb30adf4a7', // text shadow stamped on write
+    behavior_attr:'57a4f53f-a4b9-4392-bd67-283560ed6ed7',
+    coaching_attr:'9ecdd28a-9eab-41c8-abd2-adc944b0431e',
+    date_attr:'e8d95714-ba33-40bc-9998-45a8779cf08d',        // Camera Event Date
+    reviewed_attr:'c7a30615-04b1-48e4-9757-33d8ddbcd498',    // Date Event Reviewed
+    notes_attr:'7d9e02fa-a711-4e11-a3cc-b2dfc2bb4376',       // "Notes:" longtext
+    link_attr:'84266e80-d005-4f0d-8248-1a4e5450491d',        // Link to Violation
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo); id correct
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
+      'System Alert':'019eef3a-0371-7065-90d1-4104fece3dea',
+      'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
+    },
+  },
   '8BUntjK1TqV':{ // Panhandle Express / PEX (DEN) — LABEL-driver board, wired 2026-07-21 (10-event backlog: 6 pushed, 4 were hand-entered). Driver Roster (187)
     cam_folder:'CqBX8tn3mna',
     driver_type:'label',
