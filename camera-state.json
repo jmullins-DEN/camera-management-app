@@ -330,7 +330,8 @@
       "coaching": "Face to Face",
       "notes": "looking down more than 3 seconds; distracted; possible phone",
       "ts": 1785936325240,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1785936259251333",
@@ -36047,5 +36048,5 @@
     "d08e6b96-a5ef-4a83-910f-a5faa6a7898b",
     "a622bec3-5ea1-407b-b42a-d4667aeedb3b"
   ],
-  "_ts": "2026-08-05T13:25:25.290Z"
+  "_ts": "2026-08-05T13:25:27.746Z"
 }
