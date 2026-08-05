@@ -348,7 +348,9 @@
       "coaching": "Face to Face",
       "notes": "Rolling Stop",
       "ts": 1785961574357,
-      "synced": false
+      "synced": true,
+      "infItemId": "31fbf8cb-5a90-4a66-99da-4960ba13f0e6",
+      "syncError": null
     },
     {
       "id": "L1785961484894128",
@@ -36346,7 +36348,8 @@
     "0ad5ebd0-0e5a-447c-9530-bcde805eeda6",
     "5bb042b0-4ef9-45e9-9f4f-dcf7f526ee77",
     "6092c5af-d173-41d5-a675-991bfc346e67",
-    "06286379-d229-4a6e-ae6f-c4bb7cda75eb"
+    "06286379-d229-4a6e-ae6f-c4bb7cda75eb",
+    "31fbf8cb-5a90-4a66-99da-4960ba13f0e6"
   ],
-  "_ts": "2026-08-05T20:26:14.406Z"
+  "_ts": "2026-08-05T20:26:16.564Z"
 }
