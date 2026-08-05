@@ -330,9 +330,9 @@
       "coaching": "Face to Face",
       "notes": "65 in 35",
       "ts": 1785935600256,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "9379da60-d465-4c44-9102-8c3445413ae7"
     },
     {
       "id": "L1785935169425212",
@@ -35965,7 +35965,8 @@
     "8ab49b23-4e1e-4a6c-a197-12bfbc342eb5",
     "a18cc74d-315d-4a17-baab-ec98fee2034e",
     "81e9cc9d-6c06-4414-8a4b-8ad72399f728",
-    "10a2b077-f4f8-4b38-9930-48e098cda303"
+    "10a2b077-f4f8-4b38-9930-48e098cda303",
+    "9379da60-d465-4c44-9102-8c3445413ae7"
   ],
-  "_ts": "2026-08-05T13:17:09.442Z"
+  "_ts": "2026-08-05T13:17:12.140Z"
 }
