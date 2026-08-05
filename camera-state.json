@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785932165003760",
+      "board": "8BUntjK1TqV",
+      "driver": "Johnnie Sims",
+      "driverId": "019afefb-4ebe-7224-9059-7d9dcd44c3e6",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6258165865; driver drowsy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ea22582e-9f60-4172-9988-7d33e3a82a29.mp4",
+      "ts": 1785932165003,
+      "synced": false
+    },
+    {
       "id": "L1785932100973122",
       "board": "8BUntjK1TqV",
       "driver": "Walker, Darien",
@@ -35427,5 +35440,5 @@
     "2761a6f7-68c8-419b-b175-88e9b4a6a217",
     "b59d8d88-9458-46bb-b1f7-b357a74e9d2a"
   ],
-  "_ts": "2026-08-05T12:15:03.375Z"
+  "_ts": "2026-08-05T12:16:05.047Z"
 }
