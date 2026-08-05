@@ -348,7 +348,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle PU 5244 Crew Cab Spare\nPhone Distraction",
       "ts": 1785961222611,
-      "synced": false
+      "synced": true,
+      "infItemId": "5bb042b0-4ef9-45e9-9f4f-dcf7f526ee77",
+      "syncError": null
     },
     {
       "id": "L1785960946592703",
@@ -36298,7 +36300,8 @@
     "ec53ed40-789d-4dcd-b412-28f80383eb17",
     "dd1afde9-14fc-4aa7-b313-0cf56d7a650f",
     "a0af28e6-a3e2-4ba1-a998-dc91a04deaf3",
-    "0ad5ebd0-0e5a-447c-9530-bcde805eeda6"
+    "0ad5ebd0-0e5a-447c-9530-bcde805eeda6",
+    "5bb042b0-4ef9-45e9-9f4f-dcf7f526ee77"
   ],
-  "_ts": "2026-08-05T20:20:22.700Z"
+  "_ts": "2026-08-05T20:20:25.170Z"
 }
