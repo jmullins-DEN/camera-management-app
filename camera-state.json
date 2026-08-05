@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785935086017928",
+      "board": "UKkbYDchPMh",
+      "driver": "Kristopher Reasons",
+      "driverId": "470c17ef-0f1b-48f9-9ac6-df334c8edf7e",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a724c8f883a79857c2d7aea",
+      "ts": 1785935086017,
+      "synced": false
+    },
+    {
       "id": "L1785934847173353",
       "board": "UKkbYDchPMh",
       "driver": "Kristopher Reasons",
@@ -330,7 +343,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a722b30883a79857c2d3f99",
       "ts": 1785934847173,
-      "synced": false
+      "synced": true,
+      "infItemId": "81e9cc9d-6c06-4414-8a4b-8ad72399f728",
+      "syncError": null
     },
     {
       "id": "L1785934632123865",
@@ -35914,7 +35929,8 @@
     "d46f1e44-286a-41ae-b817-a81d467f5c64",
     "83d1a8dd-50cc-484e-add6-e16446ab7067",
     "8ab49b23-4e1e-4a6c-a197-12bfbc342eb5",
-    "a18cc74d-315d-4a17-baab-ec98fee2034e"
+    "a18cc74d-315d-4a17-baab-ec98fee2034e",
+    "81e9cc9d-6c06-4414-8a4b-8ad72399f728"
   ],
-  "_ts": "2026-08-05T13:00:47.210Z"
+  "_ts": "2026-08-05T13:04:46.051Z"
 }
