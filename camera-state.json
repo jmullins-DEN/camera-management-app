@@ -330,7 +330,9 @@
       "coaching": "Coaching Notes",
       "notes": "labeled as Smoking; texting",
       "ts": 1785936633567,
-      "synced": false
+      "synced": true,
+      "infItemId": "e0453aea-2df6-4d4d-b8d7-00f95c00013e",
+      "syncError": null
     },
     {
       "id": "L1785936508949613",
@@ -36089,7 +36091,8 @@
     "8dcbd28d-2b6c-4f33-86d0-099e475785ed",
     "d08e6b96-a5ef-4a83-910f-a5faa6a7898b",
     "a622bec3-5ea1-407b-b42a-d4667aeedb3b",
-    "6b0dcef3-4fbb-428a-948e-f191e470047a"
+    "6b0dcef3-4fbb-428a-948e-f191e470047a",
+    "e0453aea-2df6-4d4d-b8d7-00f95c00013e"
   ],
-  "_ts": "2026-08-05T13:30:33.622Z"
+  "_ts": "2026-08-05T13:30:36.779Z"
 }
