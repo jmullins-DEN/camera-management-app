@@ -330,7 +330,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 424887186; labeled as following too close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0a6f8d81-f9d6-46aa-8b60-0da99bdcc859.mp4",
       "ts": 1785932726510,
-      "synced": false
+      "synced": true,
+      "infItemId": "eee1e66f-b741-457a-accd-827ea19f61c4",
+      "syncError": null
     },
     {
       "id": "L1785932670618549",
@@ -35548,7 +35550,8 @@
     "eafbf40b-4fa8-4400-bf31-5ba02e4a24e8",
     "5632f3f1-7996-426a-87ed-135a000016bf",
     "69e38175-ee12-4e4b-9665-fe83889927dd",
-    "f5038212-6f54-4336-9892-2da88b5b37e3"
+    "f5038212-6f54-4336-9892-2da88b5b37e3",
+    "eee1e66f-b741-457a-accd-827ea19f61c4"
   ],
-  "_ts": "2026-08-05T12:25:26.552Z"
+  "_ts": "2026-08-05T12:25:29.448Z"
 }
