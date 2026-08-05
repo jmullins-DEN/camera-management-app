@@ -320,6 +320,19 @@
   },
   "local": [
     {
+      "id": "L1785937447437566",
+      "board": "YfVHuM3X87v",
+      "driver": "Gustavo Guerrero",
+      "driverId": "a4e68fa4-2e5c-4a40-a2c5-53c9df28e160",
+      "date": "2026-08-04",
+      "reviewed": "2026-08-05",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; safety review",
+      "ts": 1785937447437,
+      "synced": false
+    },
+    {
       "id": "L1785936895441208",
       "board": "ebSND1QoyBs",
       "driver": "John Boerger",
@@ -36131,5 +36144,5 @@
     "b117c82d-3775-4712-928e-374e64d9ee01",
     "f944896f-3a72-4e59-af0f-f7eb1fed63ad"
   ],
-  "_ts": "2026-08-05T13:42:45.779Z"
+  "_ts": "2026-08-05T13:44:07.485Z"
 }
