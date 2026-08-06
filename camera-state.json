@@ -408,8 +408,9 @@
       "coaching": "Face to Face",
       "notes": "inattentive driving; multi-tasking",
       "ts": 1786020652636,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "88af2471-a4bd-4020-95d3-7de7b88f8e66"
     },
     {
       "id": "L178602049212368",
@@ -37243,7 +37244,8 @@
     "9e996f0b-f595-4fc3-8169-40da469ab46b",
     "86e142c0-b457-4d79-9adc-59f2293a0bce",
     "113fad49-c1f2-46cb-b20b-911aa37a6641",
-    "2f80bbda-057c-40a9-ba28-644fccfe58f3"
+    "2f80bbda-057c-40a9-ba28-644fccfe58f3",
+    "88af2471-a4bd-4020-95d3-7de7b88f8e66"
   ],
-  "_ts": "2026-08-06T13:46:17.484Z"
+  "_ts": "2026-08-06T13:46:19.927Z"
 }
