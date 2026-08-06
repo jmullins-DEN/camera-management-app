@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786017056433719",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474986567390-1785969418021:  Truck # 9048\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e61218b8-8938-45b3-bed4-d21094f68671.mp4",
+      "ts": 1786017056433,
+      "synced": false
+    },
+    {
       "id": "L178601675650993",
       "board": "KYqKJWuumPm",
       "driver": "Kevin Wilson",
@@ -36709,5 +36722,5 @@
     "fd22640b-0b81-4a2e-aa40-61b7842419cb",
     "9dada04e-d2ca-4f80-ad00-fd65668e6d41"
   ],
-  "_ts": "2026-08-06T11:45:59.607Z"
+  "_ts": "2026-08-06T11:50:56.479Z"
 }
