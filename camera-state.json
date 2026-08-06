@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786045597698169",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1786045597698,
+      "synced": false
+    },
+    {
       "id": "L178604546493487",
       "board": "8gejhhHJj4e",
       "driver": "Efrain Sotelo",
@@ -37569,5 +37582,5 @@
     "34fa1da7-7189-4998-9d47-dda58dad96e5",
     "ba85d003-b398-4fc5-8aff-c5dc0f74f35d"
   ],
-  "_ts": "2026-08-06T19:44:27.675Z"
+  "_ts": "2026-08-06T19:46:37.751Z"
 }
