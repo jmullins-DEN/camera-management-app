@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786015821678538",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Marco Nunez",
+      "driverId": "272e1ad8-9687-4e44-b5b6-6aae400c1c9b",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 1245094500599234560: Sign violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/38c16c9d-f9fe-4446-af26-deabbcb669d4.mp4",
+      "ts": 1786015821678,
+      "synced": false
+    },
+    {
       "id": "L178596455102244",
       "board": "ic6o6QgzpVM",
       "driver": "Jose Cerda",
@@ -36645,5 +36658,5 @@
     "e47da161-1e22-4ef3-b86d-8ee128cddf87",
     "dd4589b1-f157-48db-9c4f-17c3aed37869"
   ],
-  "_ts": "2026-08-06T11:26:26.330Z"
+  "_ts": "2026-08-06T11:30:21.721Z"
 }
