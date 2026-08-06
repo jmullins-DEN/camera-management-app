@@ -348,7 +348,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle PU5244 Crew Cab Spare;\nPhone Distraction",
       "ts": 1786046549223,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786046427301791",
@@ -37738,5 +37739,5 @@
     "1d399fc3-5193-4b1a-9ef3-5141365383c5",
     "756e3829-ab3c-4cad-9fe4-d1a4e6b0ec9c"
   ],
-  "_ts": "2026-08-06T20:02:29.306Z"
+  "_ts": "2026-08-06T20:02:32.248Z"
 }
