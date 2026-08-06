@@ -348,7 +348,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 425587243; labeled as Forward Collision Warning; stop light violation\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6badf8dd-8079-4f26-ade5-8bce4c3ee10f.mp4",
       "ts": 1786018786396,
-      "synced": false
+      "synced": true,
+      "infItemId": "b9a8aaf2-14b2-4f81-867e-e53efd8c3651",
+      "syncError": null
     },
     {
       "id": "L1786018657163837",
@@ -36782,7 +36784,8 @@
     "9dada04e-d2ca-4f80-ad00-fd65668e6d41",
     "f514302c-12de-4f86-8d98-06c2d2c32221",
     "1fb01cd5-ee98-4c96-bcb2-1544e4420210",
-    "ac6d08c7-b0b1-41b4-9dad-f2bda26bc338"
+    "ac6d08c7-b0b1-41b4-9dad-f2bda26bc338",
+    "b9a8aaf2-14b2-4f81-867e-e53efd8c3651"
   ],
-  "_ts": "2026-08-06T12:19:46.443Z"
+  "_ts": "2026-08-06T12:19:49.239Z"
 }
