@@ -348,7 +348,9 @@
       "coaching": "System Alert",
       "notes": "camera misaligned/detached",
       "ts": 1786021074278,
-      "synced": false
+      "synced": true,
+      "infItemId": "86e142c0-b457-4d79-9adc-59f2293a0bce",
+      "syncError": null
     },
     {
       "id": "L1786020847646899",
@@ -37208,7 +37210,8 @@
     "a8f4b301-291a-4b6d-a9c0-381a78afd3c7",
     "da96fb32-34c4-4afc-9d61-819f9edd046e",
     "1d47f4c8-7a0e-4ac6-b21a-16b8e6bf17da",
-    "9e996f0b-f595-4fc3-8169-40da469ab46b"
+    "9e996f0b-f595-4fc3-8169-40da469ab46b",
+    "86e142c0-b457-4d79-9adc-59f2293a0bce"
   ],
-  "_ts": "2026-08-06T12:57:54.323Z"
+  "_ts": "2026-08-06T12:57:56.437Z"
 }
