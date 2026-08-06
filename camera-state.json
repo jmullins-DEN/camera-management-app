@@ -348,7 +348,9 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction",
       "ts": 1786045597698,
-      "synced": false
+      "synced": true,
+      "infItemId": "97381ca2-ffd7-4a53-88e5-80ebabffded1",
+      "syncError": null
     },
     {
       "id": "L178604546493487",
@@ -37580,7 +37582,8 @@
     "29ad3cb7-1bbd-415a-b4cc-119265d8a76f",
     "657ff519-5ddb-4fdc-8af9-dd7883533d9f",
     "34fa1da7-7189-4998-9d47-dda58dad96e5",
-    "ba85d003-b398-4fc5-8aff-c5dc0f74f35d"
+    "ba85d003-b398-4fc5-8aff-c5dc0f74f35d",
+    "97381ca2-ffd7-4a53-88e5-80ebabffded1"
   ],
-  "_ts": "2026-08-06T19:46:37.751Z"
+  "_ts": "2026-08-06T19:46:40.244Z"
 }
