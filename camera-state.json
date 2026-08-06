@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786020439933879",
+      "board": "YfVHuM3X87v",
+      "driver": "Benigno Vazquez",
+      "driverId": "89fd4ace-dde4-4442-88f5-2ab8eaf042c7",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1786020439934,
+      "synced": false
+    },
+    {
       "id": "L1786020393780602",
       "board": "YfVHuM3X87v",
       "driver": "Richard Mire",
@@ -37135,5 +37148,5 @@
     "065bd2c1-79ef-4745-80da-39bbf3a9a7da",
     "a8f4b301-291a-4b6d-a9c0-381a78afd3c7"
   ],
-  "_ts": "2026-08-06T12:46:38.320Z"
+  "_ts": "2026-08-06T12:47:19.979Z"
 }
