@@ -348,7 +348,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6265025587: U Turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9b7b1503-338f-465f-9990-50510c810efa.mp4",
       "ts": 1786017318196,
-      "synced": false
+      "synced": true,
+      "infItemId": "1fb01cd5-ee98-4c96-bcb2-1544e4420210",
+      "syncError": null
     },
     {
       "id": "L1786017056433719",
@@ -36736,7 +36738,8 @@
     "7942c99c-d165-427b-a001-797cf568fd8b",
     "fd22640b-0b81-4a2e-aa40-61b7842419cb",
     "9dada04e-d2ca-4f80-ad00-fd65668e6d41",
-    "f514302c-12de-4f86-8d98-06c2d2c32221"
+    "f514302c-12de-4f86-8d98-06c2d2c32221",
+    "1fb01cd5-ee98-4c96-bcb2-1544e4420210"
   ],
-  "_ts": "2026-08-06T11:55:18.245Z"
+  "_ts": "2026-08-06T11:55:21.606Z"
 }
