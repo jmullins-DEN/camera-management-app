@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786019283802654",
+      "board": "4rNDuSrCaap",
+      "driver": "Charles Hernandez",
+      "driverId": "019e40fd-3586-7387-9fea-fb0c6072ea83",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": " \nAlert 425538511; following too close; Hernandez not in truckspy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f4989cc0-6b8c-4a41-85a2-5bb63e08134f.mp4\n",
+      "ts": 1786019283802,
+      "synced": false
+    },
+    {
       "id": "L1786019190670517",
       "board": "4rNDuSrCaap",
       "driver": "Zachary Sprague",
@@ -36881,5 +36894,5 @@
     "500ed2a8-88bd-4c6b-afb6-677bcef8ae56",
     "6de39c4e-587b-4600-9569-78c753b1cba0"
   ],
-  "_ts": "2026-08-06T12:26:33.297Z"
+  "_ts": "2026-08-06T12:28:03.844Z"
 }
