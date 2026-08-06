@@ -348,7 +348,9 @@
       "coaching": "Face to Face",
       "notes": "\n\nAlert 1245047069270507521; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c6229576-8515-48f8-baa7-e4110387676d.mp4",
       "ts": 1786019976357,
-      "synced": false
+      "synced": true,
+      "infItemId": "e07a3c5c-c88f-42ca-9ab1-a9b4baadcec7",
+      "syncError": null
     },
     {
       "id": "L1786019911656392",
@@ -37050,7 +37052,8 @@
     "87ce7041-0724-4df0-a83c-6c415be3f9f9",
     "e1bfa723-8a44-4dbf-a826-be967c19899b",
     "8f462757-1ab9-47c2-8742-dbe5c81be0b5",
-    "19567811-b069-4ca1-b21a-4b58014a22bb"
+    "19567811-b069-4ca1-b21a-4b58014a22bb",
+    "e07a3c5c-c88f-42ca-9ab1-a9b4baadcec7"
   ],
-  "_ts": "2026-08-06T12:39:36.397Z"
+  "_ts": "2026-08-06T12:39:39.230Z"
 }
