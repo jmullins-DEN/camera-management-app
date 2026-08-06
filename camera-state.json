@@ -348,7 +348,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 425317376; following too close; Rodrigues not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/51dbe9b3-d215-497a-977c-cb45a2b55550.mp4",
       "ts": 1786018927543,
-      "synced": false
+      "synced": true,
+      "infItemId": "811649e9-d560-47e9-be0e-f00633872ac6",
+      "syncError": null
     },
     {
       "id": "L1786018860850764",
@@ -36812,7 +36814,8 @@
     "f514302c-12de-4f86-8d98-06c2d2c32221",
     "1fb01cd5-ee98-4c96-bcb2-1544e4420210",
     "ac6d08c7-b0b1-41b4-9dad-f2bda26bc338",
-    "b9a8aaf2-14b2-4f81-867e-e53efd8c3651"
+    "b9a8aaf2-14b2-4f81-867e-e53efd8c3651",
+    "811649e9-d560-47e9-be0e-f00633872ac6"
   ],
-  "_ts": "2026-08-06T12:22:07.588Z"
+  "_ts": "2026-08-06T12:22:10.226Z"
 }
