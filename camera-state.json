@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786018786396747",
+      "board": "5gVKeGRDf8U",
+      "driver": "Allen Edwards",
+      "driverId": "0199cea6-ac5c-777d-b6cf-a65e4d88e166",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 425587243; labeled as Forward Collision Warning; stop light violation\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6badf8dd-8079-4f26-ade5-8bce4c3ee10f.mp4",
+      "ts": 1786018786396,
+      "synced": false
+    },
+    {
       "id": "L1786018657163837",
       "board": "8BUntjK1TqV",
       "driver": "Kimbley, James",
@@ -36771,5 +36784,5 @@
     "1fb01cd5-ee98-4c96-bcb2-1544e4420210",
     "ac6d08c7-b0b1-41b4-9dad-f2bda26bc338"
   ],
-  "_ts": "2026-08-06T12:17:40.231Z"
+  "_ts": "2026-08-06T12:19:46.443Z"
 }
