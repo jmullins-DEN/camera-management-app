@@ -348,7 +348,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 646 Medium\nSpeeding",
       "ts": 1786044824547,
-      "synced": false
+      "synced": true,
+      "infItemId": "45de87b3-c837-4a4f-8202-d411220e7725",
+      "syncError": null
     },
     {
       "id": "L1786044769903841",
@@ -37486,7 +37488,8 @@
     "e2dadec6-60f5-4587-87c6-e62422a94064",
     "8b4b5fad-d387-434d-ba5f-06872d6164da",
     "ec430f06-df1d-43a0-adaf-ee9e4aa1d3fa",
-    "5639b5eb-b243-415d-b15b-fc443f694825"
+    "5639b5eb-b243-415d-b15b-fc443f694825",
+    "45de87b3-c837-4a4f-8202-d411220e7725"
   ],
-  "_ts": "2026-08-06T19:33:44.602Z"
+  "_ts": "2026-08-06T19:33:47.761Z"
 }
