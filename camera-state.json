@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L178602049212368",
+      "board": "YfVHuM3X87v",
+      "driver": "Luis Saborit Lozada",
+      "driverId": "576036e1-4394-4b8e-acc0-4306445d4046",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; loses lane",
+      "ts": 1786020492123,
+      "synced": false
+    },
+    {
       "id": "L1786020439933879",
       "board": "YfVHuM3X87v",
       "driver": "Benigno Vazquez",
@@ -37151,5 +37164,5 @@
     "a8f4b301-291a-4b6d-a9c0-381a78afd3c7",
     "da96fb32-34c4-4afc-9d61-819f9edd046e"
   ],
-  "_ts": "2026-08-06T12:47:24.081Z"
+  "_ts": "2026-08-06T12:48:12.172Z"
 }
