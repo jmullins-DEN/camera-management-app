@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786019190670517",
+      "board": "4rNDuSrCaap",
+      "driver": "Zachary Sprague",
+      "driverId": "019a0354-82d9-7dd5-b03d-10ff7e25897f",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 425399146; following too close\n\n",
+      "ts": 1786019190670,
+      "synced": false
+    },
+    {
       "id": "L1786019058739460",
       "board": "4rNDuSrCaap",
       "driver": "Wess Floyd",
@@ -36865,5 +36878,5 @@
     "f310b3c8-f0ae-48c3-ac66-8f4a9d40ac76",
     "500ed2a8-88bd-4c6b-afb6-677bcef8ae56"
   ],
-  "_ts": "2026-08-06T12:24:21.234Z"
+  "_ts": "2026-08-06T12:26:30.715Z"
 }
