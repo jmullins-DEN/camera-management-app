@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786044082434475",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Wade, Adam",
+      "driverId": "11866ae2-bb6b-4296-b766-fb8d80b1c6fc",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1786044082434,
+      "synced": false
+    },
+    {
       "id": "L1786038380216216",
       "board": "7W2SQKrNcXQ",
       "driver": "Wyatt Hankinson",
@@ -37397,5 +37410,5 @@
     "a5bed9d7-1a78-4a3c-91fa-73d41c4318d0",
     "475f133b-76f9-423e-a9aa-a52abbeef492"
   ],
-  "_ts": "2026-08-06T19:19:03.672Z"
+  "_ts": "2026-08-06T19:21:22.506Z"
 }
