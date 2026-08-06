@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786044293508566",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Wallace, Andrew",
+      "driverId": "0dd75953-8de9-4240-91fe-d160715484a6",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1786044293508,
+      "synced": false
+    },
+    {
       "id": "L1786044082434475",
       "board": "nWRsGRSm2Hn",
       "driver": "Wade, Adam",
@@ -37413,5 +37426,5 @@
     "475f133b-76f9-423e-a9aa-a52abbeef492",
     "e2dadec6-60f5-4587-87c6-e62422a94064"
   ],
-  "_ts": "2026-08-06T19:21:26.766Z"
+  "_ts": "2026-08-06T19:24:53.579Z"
 }
