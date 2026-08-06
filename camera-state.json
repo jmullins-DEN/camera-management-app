@@ -348,7 +348,9 @@
       "coaching": "Face to Face",
       "notes": " \nAlert 425538511; following too close; Hernandez not in truckspy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f4989cc0-6b8c-4a41-85a2-5bb63e08134f.mp4\n",
       "ts": 1786019283802,
-      "synced": false
+      "synced": true,
+      "infItemId": "3f428ad5-2ee5-46ad-96d6-be51d434b368",
+      "syncError": null
     },
     {
       "id": "L1786019190670517",
@@ -36892,7 +36894,8 @@
     "117252f1-d0c4-4c44-a7e3-654bf3c3276a",
     "f310b3c8-f0ae-48c3-ac66-8f4a9d40ac76",
     "500ed2a8-88bd-4c6b-afb6-677bcef8ae56",
-    "6de39c4e-587b-4600-9569-78c753b1cba0"
+    "6de39c4e-587b-4600-9569-78c753b1cba0",
+    "3f428ad5-2ee5-46ad-96d6-be51d434b368"
   ],
-  "_ts": "2026-08-06T12:28:03.844Z"
+  "_ts": "2026-08-06T12:28:06.237Z"
 }
