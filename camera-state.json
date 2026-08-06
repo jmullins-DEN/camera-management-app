@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L178602107427866",
+      "board": "ebSND1QoyBs",
+      "driver": "Thomas Kelly",
+      "driverId": "019f2415-246c-775e-ad34-85473d7d1622",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera misaligned/detached",
+      "ts": 1786021074278,
+      "synced": false
+    },
+    {
       "id": "L1786020847646899",
       "board": "YJNwKvzFhkj",
       "driver": "Christopher Cooper",
@@ -348,7 +361,9 @@
       "coaching": "Coaching Notes",
       "notes": "inattentive driving; multi-tasking; loses lane",
       "ts": 1786020847646,
-      "synced": false
+      "synced": true,
+      "infItemId": "9e996f0b-f595-4fc3-8169-40da469ab46b",
+      "syncError": null
     },
     {
       "id": "L178602065263695",
@@ -37192,7 +37207,8 @@
     "065bd2c1-79ef-4745-80da-39bbf3a9a7da",
     "a8f4b301-291a-4b6d-a9c0-381a78afd3c7",
     "da96fb32-34c4-4afc-9d61-819f9edd046e",
-    "1d47f4c8-7a0e-4ac6-b21a-16b8e6bf17da"
+    "1d47f4c8-7a0e-4ac6-b21a-16b8e6bf17da",
+    "9e996f0b-f595-4fc3-8169-40da469ab46b"
   ],
-  "_ts": "2026-08-06T12:54:07.693Z"
+  "_ts": "2026-08-06T12:57:54.323Z"
 }
