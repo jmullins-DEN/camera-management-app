@@ -348,7 +348,8 @@
       "coaching": "Face to Face",
       "notes": "Speeding",
       "ts": 1786044940329,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786044886523104",
@@ -37520,5 +37521,5 @@
     "45de87b3-c837-4a4f-8202-d411220e7725",
     "29ad3cb7-1bbd-415a-b4cc-119265d8a76f"
   ],
-  "_ts": "2026-08-06T19:35:40.400Z"
+  "_ts": "2026-08-06T19:35:43.019Z"
 }
