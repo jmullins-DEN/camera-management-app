@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786046854445157",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Riley",
+      "driverId": "ac24ef3b-c620-445a-a2d7-cec0d8211e69",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-06",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1786046854445,
+      "synced": false
+    },
+    {
       "id": "L1786046638030768",
       "board": "8gejhhHJj4e",
       "driver": "Matt Graves",
@@ -37755,5 +37768,5 @@
     "756e3829-ab3c-4cad-9fe4-d1a4e6b0ec9c",
     "0664bc95-f6bb-4665-a90e-d8838f06a24f"
   ],
-  "_ts": "2026-08-06T20:04:00.197Z"
+  "_ts": "2026-08-06T20:07:34.524Z"
 }
