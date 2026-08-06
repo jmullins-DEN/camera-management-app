@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L178602008661351",
+      "board": "ioWX9hneUsk",
+      "driver": "Mark Stephens",
+      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
+      "date": "2026-08-05",
+      "reviewed": "2026-08-06",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1245081881389727744; labeled as no seatbelt; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fb2474af-1879-4fbc-8b8f-7a9856f4c694.mp4",
+      "ts": 1786020086613,
+      "synced": false
+    },
+    {
       "id": "L1786020029778172",
       "board": "ioWX9hneUsk",
       "driver": "Mike Moreno",
@@ -37071,5 +37084,5 @@
     "e07a3c5c-c88f-42ca-9ab1-a9b4baadcec7",
     "3d51340d-59d0-4a5b-85ed-d6ff8a4015a4"
   ],
-  "_ts": "2026-08-06T12:40:35.236Z"
+  "_ts": "2026-08-06T12:41:26.656Z"
 }
