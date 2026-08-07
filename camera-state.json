@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786113187654661",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Jefride",
+      "driverId": "21eef7a7-b5da-4ae9-9f3f-d02d12617054",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1786113187654,
+      "synced": false
+    },
+    {
       "id": "L1786113131077974",
       "board": "YfVHuM3X87v",
       "driver": "Odas Higginbotham",
@@ -38595,5 +38608,5 @@
     "493d2c6d-ee47-4bf3-801a-05f024a91102",
     "b086b4ed-98db-4d2d-bec3-50979927795d"
   ],
-  "_ts": "2026-08-07T14:32:14.128Z"
+  "_ts": "2026-08-07T14:33:07.700Z"
 }
