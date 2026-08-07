@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786135362558113",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Marvin Cogle",
+      "driverId": "a3a24b57-85ba-4eac-9ab9-078e135b7660",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-07",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995731919-1786126318974\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/686e0545-b9dd-4187-8845-87b492eb6f51.mp4",
+      "ts": 1786135362558,
+      "synced": false
+    },
+    {
       "id": "L1786135254262705",
       "board": "AKJSkJj6Ch4",
       "driver": "Joe Riley",
@@ -39164,5 +39177,5 @@
     "0ba8f38c-a79a-4dca-9746-ee8d9e269657",
     "273360c6-99e3-4e6d-afa7-1f4ef75d5a7c"
   ],
-  "_ts": "2026-08-07T20:40:56.862Z"
+  "_ts": "2026-08-07T20:42:42.632Z"
 }
