@@ -348,7 +348,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1245517763175415808: U-turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/61a92a6f-0c52-41ee-86ba-0b3dedb752dc.mp4",
       "ts": 1786103998367,
-      "synced": false
+      "synced": true,
+      "infItemId": "328155b7-85f3-45a5-8919-0538882655fc",
+      "syncError": null
     },
     {
       "id": "L178610378828680",
@@ -37962,7 +37964,8 @@
     "6d93c9c9-c150-43e0-9e84-48a7c70542ac",
     "993c0f54-5d15-4258-a99c-67926a7cc79b",
     "89de8dbd-d3f2-4aa9-87a2-67d6d71238fc",
-    "39b35d4b-71fe-44a2-8a09-01e32c6af5a3"
+    "39b35d4b-71fe-44a2-8a09-01e32c6af5a3",
+    "328155b7-85f3-45a5-8919-0538882655fc"
   ],
-  "_ts": "2026-08-07T11:59:58.409Z"
+  "_ts": "2026-08-07T12:00:00.955Z"
 }
