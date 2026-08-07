@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786131987025967",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Meyers, David",
+      "driverId": "41cb89ee-8c95-4d54-85c9-4ac1e6728248",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance\n",
+      "ts": 1786131987025,
+      "synced": false
+    },
+    {
       "id": "L1786131925620164",
       "board": "nWRsGRSm2Hn",
       "driver": "Wade, Adam",
@@ -38837,5 +38850,5 @@
     "1122bab5-c768-4335-951d-7c50ab3764c3",
     "40e23e57-4b21-4071-8246-f24886a955c0"
   ],
-  "_ts": "2026-08-07T19:45:27.894Z"
+  "_ts": "2026-08-07T19:46:27.094Z"
 }
