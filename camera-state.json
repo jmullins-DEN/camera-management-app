@@ -348,7 +348,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6273637458: Seat Belt Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/57135722-f666-4acc-b0af-3ad88524c63c.mp4",
       "ts": 1786101776798,
-      "synced": false
+      "synced": true,
+      "infItemId": "5c9d7d38-0a0c-46cc-8b53-d71cbbb9b2a6",
+      "syncError": null
     },
     {
       "id": "L1786101346389380",
@@ -37882,7 +37884,8 @@
     "345f3826-5fc9-4f19-a7c0-9ba43a24f853",
     "a022db20-fec1-4890-b3dc-797db7634cde",
     "1b362be0-2dfa-4ded-adb8-1a4221ab2a50",
-    "9c1406e6-73bc-4896-b9bb-48ee7cbf59db"
+    "9c1406e6-73bc-4896-b9bb-48ee7cbf59db",
+    "5c9d7d38-0a0c-46cc-8b53-d71cbbb9b2a6"
   ],
-  "_ts": "2026-08-07T11:22:56.858Z"
+  "_ts": "2026-08-07T11:22:59.328Z"
 }
