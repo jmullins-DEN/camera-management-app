@@ -348,7 +348,8 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 425780100; hand held phone; Rodrigues not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/750cfd67-293c-4427-b983-039f405e564e.mp4",
       "ts": 1786110777120,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786110708984359",
@@ -38193,5 +38194,5 @@
     "4b962da8-a887-49f5-aeac-8e09c1038d72",
     "371dc63e-17a7-4369-ad5f-3451ca762747"
   ],
-  "_ts": "2026-08-07T13:52:57.165Z"
+  "_ts": "2026-08-07T13:52:59.249Z"
 }
