@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786133789638533",
+      "board": "8gejhhHJj4e",
+      "driver": "DENNIS GREER #144",
+      "driverId": "61246fc9-4ab1-43ce-a392-6db5ad95b7af",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1786133789638,
+      "synced": false
+    },
+    {
       "id": "L1786133307319322",
       "board": "8gejhhHJj4e",
       "driver": "Samuel Huber",
@@ -38991,5 +39004,5 @@
     "154f2590-786a-4cfd-8666-fd2d26938fd7",
     "ffd89296-f50f-488b-951d-f3d95249ac32"
   ],
-  "_ts": "2026-08-07T20:08:29.981Z"
+  "_ts": "2026-08-07T20:16:29.688Z"
 }
