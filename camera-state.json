@@ -348,7 +348,9 @@
       "coaching": "Unidentified Driver",
       "notes": "5944 Spare Vehicle\nPhone Distraction",
       "ts": 1786134065637,
-      "synced": false
+      "synced": true,
+      "infItemId": "93024c58-e928-46ba-934f-bb967c2412df",
+      "syncError": null
     },
     {
       "id": "L1786133984273321",
@@ -39064,7 +39066,8 @@
     "ffd89296-f50f-488b-951d-f3d95249ac32",
     "635236cb-2717-42a8-8a66-8fce97bddbf1",
     "160dec18-5d51-4412-8640-ac8f6ec97ec4",
-    "e43b294b-6b40-470f-9154-7d80e56af051"
+    "e43b294b-6b40-470f-9154-7d80e56af051",
+    "93024c58-e928-46ba-934f-bb967c2412df"
   ],
-  "_ts": "2026-08-07T20:21:05.719Z"
+  "_ts": "2026-08-07T20:21:09.853Z"
 }
