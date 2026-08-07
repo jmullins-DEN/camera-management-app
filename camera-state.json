@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786132305872199",
+      "board": "JthqRmXvJ9v",
+      "driver": "Daniel Brown",
+      "driverId": "019a7b18-0863-7330-ad9a-afe7951dac3b",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1786132305872,
+      "synced": false
+    },
+    {
       "id": "L1786132238921447",
       "board": "JthqRmXvJ9v",
       "driver": "Jose Patino",
@@ -38885,5 +38898,5 @@
     "5e68c1e8-d2f3-474d-90d2-a1cd6f1a8651",
     "7c1f52aa-abc9-4b3d-9b11-e1955dde49b5"
   ],
-  "_ts": "2026-08-07T19:50:41.846Z"
+  "_ts": "2026-08-07T19:51:45.905Z"
 }
