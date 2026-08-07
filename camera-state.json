@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786110034466702",
+      "board": "8BUntjK1TqV",
+      "driver": "Manzanares, Mario",
+      "driverId": "019fc903-1596-76dd-b4e3-dd615af7c594",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6273982889; stop light violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bb02c058-95ef-4e15-bef4-d158c6c362da.mp4",
+      "ts": 1786110034466,
+      "synced": false
+    },
+    {
       "id": "L1786109973122702",
       "board": "8BUntjK1TqV",
       "driver": "Manzanares, Mario",
@@ -38037,5 +38050,5 @@
     "7c84823c-eff3-410f-8363-e1ed05df7a77",
     "63f753db-ab45-475b-ab9a-3296f67a6ea2"
   ],
-  "_ts": "2026-08-07T13:39:35.792Z"
+  "_ts": "2026-08-07T13:40:34.510Z"
 }
