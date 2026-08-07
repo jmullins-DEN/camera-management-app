@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786101776798791",
+      "board": "7d53dL31ioV",
+      "driver": "Curtis, Cole",
+      "driverId": "019d3f40-eb14-7139-ae62-88db65227fcd",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "Alert 6273637458: Seat Belt Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/57135722-f666-4acc-b0af-3ad88524c63c.mp4",
+      "ts": 1786101776798,
+      "synced": false
+    },
+    {
       "id": "L1786101346389380",
       "board": "7d53dL31ioV",
       "driver": "FRIEND, SAMUEL A",
@@ -37871,5 +37884,5 @@
     "1b362be0-2dfa-4ded-adb8-1a4221ab2a50",
     "9c1406e6-73bc-4896-b9bb-48ee7cbf59db"
   ],
-  "_ts": "2026-08-07T11:15:49.765Z"
+  "_ts": "2026-08-07T11:22:56.858Z"
 }
