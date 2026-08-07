@@ -423,8 +423,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance",
       "ts": 1786046854445,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "345f3826-5fc9-4f19-a7c0-9ba43a24f853"
     },
     {
       "id": "L1786046638030768",
@@ -452,8 +453,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle PU5244 Crew Cab Spare;\nPhone Distraction",
       "ts": 1786046549223,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a022db20-fec1-4890-b3dc-797db7634cde"
     },
     {
       "id": "L1786046427301791",
@@ -37847,7 +37849,9 @@
     "f69fbc56-2b56-4db6-88f4-8ed34a2b07b5",
     "5ae91fd0-5dff-4115-9493-1652e8ec59a4",
     "00c626c5-58b9-42f3-895d-e62d5f31d18d",
-    "01be49e0-4ada-4710-b2bd-fa0e60394f16"
+    "01be49e0-4ada-4710-b2bd-fa0e60394f16",
+    "345f3826-5fc9-4f19-a7c0-9ba43a24f853",
+    "a022db20-fec1-4890-b3dc-797db7634cde"
   ],
-  "_ts": "2026-08-07T11:14:34.253Z"
+  "_ts": "2026-08-07T11:14:36.282Z"
 }
