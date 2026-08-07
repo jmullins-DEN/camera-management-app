@@ -348,7 +348,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 426202300; following too close; Rounsaville not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bcfa186b-cbfe-4ca4-8b00-cbfd601c5f8d.mp4",
       "ts": 1786111508365,
-      "synced": false
+      "synced": true,
+      "infItemId": "95c79082-a1eb-4ca2-bb23-0b392c4cfeda",
+      "syncError": null
     },
     {
       "id": "L1786111414949819",
@@ -38314,7 +38316,8 @@
     "109a88c8-833d-48e9-ba62-942f48fa421b",
     "a815c3ba-8ad9-41dd-a5d4-d00b2fe71562",
     "bac971b5-0ae7-4512-907f-41819d59bb0b",
-    "e715df41-d7ff-40c1-8c8b-eb21d740352f"
+    "e715df41-d7ff-40c1-8c8b-eb21d740352f",
+    "95c79082-a1eb-4ca2-bb23-0b392c4cfeda"
   ],
-  "_ts": "2026-08-07T14:05:08.407Z"
+  "_ts": "2026-08-07T14:05:10.792Z"
 }
