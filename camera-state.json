@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786133830038996",
+      "board": "8gejhhHJj4e",
+      "driver": "Efrain Sotelo",
+      "driverId": "019f1fa4-4d09-73de-8f47-8efba7958563",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1786133830038,
+      "synced": false
+    },
+    {
       "id": "L1786133789638533",
       "board": "8gejhhHJj4e",
       "driver": "DENNIS GREER #144",
@@ -39005,5 +39018,5 @@
     "154f2590-786a-4cfd-8666-fd2d26938fd7",
     "ffd89296-f50f-488b-951d-f3d95249ac32"
   ],
-  "_ts": "2026-08-07T20:16:31.726Z"
+  "_ts": "2026-08-07T20:17:10.117Z"
 }
