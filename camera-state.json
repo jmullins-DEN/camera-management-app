@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786112772068629",
+      "board": "XVLVu2Du8hc",
+      "driver": "Larry Simons",
+      "driverId": "019be2d2-f9b3-7445-b65d-4feb9f8a58ca",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "77 in 55",
+      "ts": 1786112772068,
+      "synced": false
+    },
+    {
       "id": "L1786112736941481",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -348,7 +361,9 @@
       "coaching": "Face to Face",
       "notes": "70 in 55",
       "ts": 1786112736941,
-      "synced": false
+      "synced": true,
+      "infItemId": "c4900bdb-4a7d-45d6-b2d1-192d020f6f19",
+      "syncError": null
     },
     {
       "id": "L1786112680505727",
@@ -38542,7 +38557,8 @@
     "f05bc904-01a0-40ca-984d-34d34c47a7fd",
     "1fd3cbfe-b0b4-48cc-95e1-392682c7fdc5",
     "393bcc69-6981-4f51-a4a9-f93850367370",
-    "21c706b2-52c3-4132-88c7-7cc8bcc9df09"
+    "21c706b2-52c3-4132-88c7-7cc8bcc9df09",
+    "c4900bdb-4a7d-45d6-b2d1-192d020f6f19"
   ],
-  "_ts": "2026-08-07T14:25:36.983Z"
+  "_ts": "2026-08-07T14:26:12.112Z"
 }
