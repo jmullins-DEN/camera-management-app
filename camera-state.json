@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786109799080381",
+      "board": "8BUntjK1TqV",
+      "driver": "De La Cruz Solis, Jaime",
+      "driverId": "bc465836-b958-4238-93ad-50ac0ea9a8dd",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6271749929; multi-tasking with two hands\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e5c034b1-1420-4d95-9c26-6adb471c2d37.mp4",
+      "ts": 1786109799080,
+      "synced": false
+    },
+    {
       "id": "L1786105545912447",
       "board": "7W2SQKrNcXQ",
       "driver": "Adan Casillas",
@@ -37989,5 +38002,5 @@
     "f3737ede-3a9d-4eca-b215-86498fa74775",
     "72198c3e-3026-4b02-bbf0-2d2c3b757324"
   ],
-  "_ts": "2026-08-07T13:35:40.801Z"
+  "_ts": "2026-08-07T13:36:39.128Z"
 }
