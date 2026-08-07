@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786133916749976",
+      "board": "8gejhhHJj4e",
+      "driver": "Eric Bailey",
+      "driverId": "44cdc612-d6b6-4808-b3c0-d118305e844f",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Distracted",
+      "ts": 1786133916749,
+      "synced": false
+    },
+    {
       "id": "L1786133830038996",
       "board": "8gejhhHJj4e",
       "driver": "Efrain Sotelo",
@@ -39021,5 +39034,5 @@
     "ffd89296-f50f-488b-951d-f3d95249ac32",
     "635236cb-2717-42a8-8a66-8fce97bddbf1"
   ],
-  "_ts": "2026-08-07T20:17:12.847Z"
+  "_ts": "2026-08-07T20:18:36.786Z"
 }
