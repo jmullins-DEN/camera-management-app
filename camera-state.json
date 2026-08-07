@@ -348,7 +348,9 @@
       "coaching": "Coaching Notes",
       "notes": "Speeding",
       "ts": 1786132709358,
-      "synced": false
+      "synced": true,
+      "infItemId": "d1e18aca-ae28-4e3e-80ed-779e5977f431",
+      "syncError": null
     },
     {
       "id": "L1786132644107119",
@@ -38926,7 +38928,8 @@
     "443723ba-0c19-4ceb-93d8-a70b944578f8",
     "5e68c1e8-d2f3-474d-90d2-a1cd6f1a8651",
     "7c1f52aa-abc9-4b3d-9b11-e1955dde49b5",
-    "25eba7a6-cfc0-4a9c-84f6-e997694ec500"
+    "25eba7a6-cfc0-4a9c-84f6-e997694ec500",
+    "d1e18aca-ae28-4e3e-80ed-779e5977f431"
   ],
-  "_ts": "2026-08-07T19:58:29.438Z"
+  "_ts": "2026-08-07T19:58:32.595Z"
 }
