@@ -348,7 +348,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 5944 Spare;\n Stop Sign Violation",
       "ts": 1786134570282,
-      "synced": false
+      "synced": true,
+      "infItemId": "82735ef6-49af-4795-b8d3-e52a0bcecacb",
+      "syncError": null
     },
     {
       "id": "L1786134483951288",
@@ -39111,7 +39113,8 @@
     "160dec18-5d51-4412-8640-ac8f6ec97ec4",
     "e43b294b-6b40-470f-9154-7d80e56af051",
     "93024c58-e928-46ba-934f-bb967c2412df",
-    "a7950bb8-641b-4513-aee8-c7bc3937e00d"
+    "a7950bb8-641b-4513-aee8-c7bc3937e00d",
+    "82735ef6-49af-4795-b8d3-e52a0bcecacb"
   ],
-  "_ts": "2026-08-07T20:29:30.364Z"
+  "_ts": "2026-08-07T20:29:34.079Z"
 }
