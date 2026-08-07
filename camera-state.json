@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786134483951288",
+      "board": "8gejhhHJj4e",
+      "driver": "Andrew Jacobs",
+      "driverId": "931778e6-36dc-473e-a301-2c06f82a7553",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Stop Sign Violation",
+      "ts": 1786134483951,
+      "synced": false
+    },
+    {
       "id": "L1786134242876532",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -348,7 +361,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 8420 ; Phone Distraction",
       "ts": 1786134242876,
-      "synced": false
+      "synced": true,
+      "infItemId": "93024c58-e928-46ba-934f-bb967c2412df",
+      "syncError": null
     },
     {
       "id": "L1786134065637944",
@@ -39082,5 +39097,5 @@
     "e43b294b-6b40-470f-9154-7d80e56af051",
     "93024c58-e928-46ba-934f-bb967c2412df"
   ],
-  "_ts": "2026-08-07T20:24:02.956Z"
+  "_ts": "2026-08-07T20:28:03.990Z"
 }
