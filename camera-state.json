@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786134771254291",
+      "board": "8gejhhHJj4e",
+      "driver": "Efrain Sotelo",
+      "driverId": "019f1fa4-4d09-73de-8f47-8efba7958563",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling Stop",
+      "ts": 1786134771254,
+      "synced": false
+    },
+    {
       "id": "L1786134700647278",
       "board": "8gejhhHJj4e",
       "driver": "Ricardo Hernandez #3696",
@@ -39132,5 +39145,5 @@
     "82735ef6-49af-4795-b8d3-e52a0bcecacb",
     "d55cce75-83ba-4cf4-827d-53ef736c6916"
   ],
-  "_ts": "2026-08-07T20:31:42.857Z"
+  "_ts": "2026-08-07T20:32:51.295Z"
 }
