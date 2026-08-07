@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786109973122702",
+      "board": "8BUntjK1TqV",
+      "driver": "Manzanares, Mario",
+      "driverId": "019fc903-1596-76dd-b4e3-dd615af7c594",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6271956661; 74 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2e591ea0-6ce3-49e9-b673-7a17e183951b.mp4",
+      "ts": 1786109973122,
+      "synced": false
+    },
+    {
       "id": "L1786109893060937",
       "board": "8BUntjK1TqV",
       "driver": "Contreras, Olegario",
@@ -38021,5 +38034,5 @@
     "2333c864-4467-4bfe-a6ec-1db22bba6c0e",
     "7c84823c-eff3-410f-8363-e1ed05df7a77"
   ],
-  "_ts": "2026-08-07T13:38:15.788Z"
+  "_ts": "2026-08-07T13:39:33.164Z"
 }
