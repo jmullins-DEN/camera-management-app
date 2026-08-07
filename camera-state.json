@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786131925620164",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Wade, Adam",
+      "driverId": "11866ae2-bb6b-4296-b766-fb8d80b1c6fc",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1786131925620,
+      "synced": false
+    },
+    {
       "id": "L1786114433008564",
       "board": "ebSND1QoyBs",
       "driver": "Charles Smith",
@@ -38821,5 +38834,5 @@
     "f611f634-2f13-4f2e-a072-254103a0cc6c",
     "1122bab5-c768-4335-951d-7c50ab3764c3"
   ],
-  "_ts": "2026-08-07T19:40:34.513Z"
+  "_ts": "2026-08-07T19:45:25.698Z"
 }
