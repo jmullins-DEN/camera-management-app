@@ -338,6 +338,34 @@
   },
   "local": [
     {
+      "id": "L1786114433008564",
+      "board": "ebSND1QoyBs",
+      "driver": "Charles Smith",
+      "driverId": "7d9f1f73-fa5c-4891-b622-c25e76fab1bc",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1786114433008,
+      "synced": false
+    },
+    {
+      "id": "L1786114267440370",
+      "board": "ebSND1QoyBs",
+      "driver": "Brian Kelly",
+      "driverId": "445912af-1bc9-496b-befd-16d7a04c0dbb",
+      "date": "2026-08-06",
+      "reviewed": "2026-08-07",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "hard brake; near miss",
+      "ts": 1786114267440,
+      "synced": true,
+      "infItemId": "8dc1f888-c07a-4016-a335-bdc009be2c3f",
+      "syncError": null
+    },
+    {
       "id": "L1786114167941698",
       "board": "ebSND1QoyBs",
       "driver": "Jose Hondolero",
@@ -38770,7 +38798,8 @@
     "fbdfdc13-fd2e-4b1a-9246-88e819542564",
     "291d1dcf-f00a-4606-8d69-2845cca2efc7",
     "89e4e7dc-774e-4fe5-b613-8851b7e064f4",
-    "41f96265-b3d7-436b-89f4-eaf6470d2dc7"
+    "41f96265-b3d7-436b-89f4-eaf6470d2dc7",
+    "8dc1f888-c07a-4016-a335-bdc009be2c3f"
   ],
-  "_ts": "2026-08-07T14:49:31.553Z"
+  "_ts": "2026-08-07T14:53:53.057Z"
 }
