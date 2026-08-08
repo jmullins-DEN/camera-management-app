@@ -663,8 +663,9 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction",
       "ts": 1786132644108,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "76671e8d-84ff-40a1-9379-b64fe476691d"
     },
     {
       "id": "L1786132305872199",
@@ -39248,7 +39249,8 @@
     "eb2c89a4-2a15-48d8-ae31-e5625bf5eab0",
     "1ca39fb5-766b-46aa-8461-4f9685e7f0a3",
     "ecabfcc4-e894-4062-9d2b-30ac499ba5e1",
-    "d17452f1-8786-43b5-a94e-69a78deb44ec"
+    "d17452f1-8786-43b5-a94e-69a78deb44ec",
+    "76671e8d-84ff-40a1-9379-b64fe476691d"
   ],
-  "_ts": "2026-08-08T00:25:37.589Z"
+  "_ts": "2026-08-08T00:25:39.269Z"
 }
