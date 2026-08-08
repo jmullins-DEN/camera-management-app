@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786152094291263",
+      "board": "kQeF7EsAnVz",
+      "driver": "Alejandro Catarino",
+      "driverId": "b2883b0b-3c0f-4c77-b95f-c716d0bc0e9c",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-08",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 6279586750: Traffic Light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/485d2eac-2727-4a75-a51c-db315f62d99c.mp4",
+      "ts": 1786152094291,
+      "synced": false
+    },
+    {
       "id": "L1786150935110693",
       "board": "7W2SQKrNcXQ",
       "driver": "Marcello Franco",
@@ -39296,5 +39309,5 @@
     "76671e8d-84ff-40a1-9379-b64fe476691d",
     "dfaf452c-b4a5-4698-92f3-bd174f8c5ca8"
   ],
-  "_ts": "2026-08-08T01:02:17.128Z"
+  "_ts": "2026-08-08T01:21:34.346Z"
 }
