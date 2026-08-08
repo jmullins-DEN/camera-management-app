@@ -348,7 +348,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 1245760458758193152:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/618ba416-84d4-4bc9-85a1-f316910e68e5.mp4",
       "ts": 1786150105608,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786136031268196",
@@ -39265,5 +39266,5 @@
     "d17452f1-8786-43b5-a94e-69a78deb44ec",
     "76671e8d-84ff-40a1-9379-b64fe476691d"
   ],
-  "_ts": "2026-08-08T00:48:25.652Z"
+  "_ts": "2026-08-08T00:48:27.622Z"
 }
