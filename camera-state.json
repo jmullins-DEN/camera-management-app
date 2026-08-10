@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786333261418889",
+      "board": "ic6o6QgzpVM",
+      "driver": "Jose Cerda",
+      "driverId": "019e4c46-f364-706a-b256-e92e74bd77ca",
+      "date": "2026-08-08",
+      "reviewed": "2026-08-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera direction",
+      "ts": 1786333261419,
+      "synced": false
+    },
+    {
       "id": "L1786332948067985",
       "board": "AKJSkJj6Ch4",
       "driver": "Cory Volland",
@@ -39838,5 +39851,5 @@
     "c96b82d9-fa76-44de-866a-fc16aac7a435",
     "355515b8-0f05-40ad-80b6-42fd6125fd0e"
   ],
-  "_ts": "2026-08-10T03:35:50.371Z"
+  "_ts": "2026-08-10T03:41:01.455Z"
 }
