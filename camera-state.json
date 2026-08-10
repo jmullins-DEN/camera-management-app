@@ -378,8 +378,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6279586750: Traffic Light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/485d2eac-2727-4a75-a51c-db315f62d99c.mp4",
       "ts": 1786152094291,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "49fa2b96-4a73-48a8-a43c-269f6d221de3"
     },
     {
       "id": "L1786150935110693",
@@ -393,7 +394,8 @@
       "notes": "Alert 1245827070232264704:  Hard braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0cfc27f5-bee3-4ed4-8e83-1a2bb0418d71.mp4",
       "ts": 1786150935110,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": "8275127f-9a23-4309-b701-4095efa1e86a"
     },
     {
       "id": "L1786150532953918",
@@ -39340,7 +39342,8 @@
     "76671e8d-84ff-40a1-9379-b64fe476691d",
     "dfaf452c-b4a5-4698-92f3-bd174f8c5ca8",
     "75f35232-0417-435f-968c-1f60ae524eeb",
-    "d7078793-34a2-4d95-b2d9-2f744d5d521f"
+    "d7078793-34a2-4d95-b2d9-2f744d5d521f",
+    "49fa2b96-4a73-48a8-a43c-269f6d221de3"
   ],
-  "_ts": "2026-08-08T01:33:00.168Z"
+  "_ts": "2026-08-10T00:07:27.062Z"
 }
