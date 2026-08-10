@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786364637254746",
+      "board": "8BUntjK1TqV",
+      "driver": "Manzanares, Mario",
+      "driverId": "019fc903-1596-76dd-b4e3-dd615af7c594",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-10",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6279304915; inattentive; possible phone \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/933027e7-31d7-4a5e-aa2c-1f3142a46079.mp4",
+      "ts": 1786364637254,
+      "synced": false
+    },
+    {
       "id": "L1786360127487991",
       "board": "KYqKJWuumPm",
       "driver": "Cory Hott",
@@ -39915,5 +39928,5 @@
     "355515b8-0f05-40ad-80b6-42fd6125fd0e",
     "deb4c3f0-0004-40e2-9821-542f14bd2cae"
   ],
-  "_ts": "2026-08-10T12:16:56.489Z"
+  "_ts": "2026-08-10T12:23:57.302Z"
 }
