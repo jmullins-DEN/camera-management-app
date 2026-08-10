@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786329474597779",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jonathan Dubose",
+      "driverId": "31bf6dc1-8fd0-47b1-af62-196620855180",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-10",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Speeding",
+      "ts": 1786329474597,
+      "synced": false
+    },
+    {
       "id": "L178632943157547",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -39566,5 +39579,5 @@
     "a43c8457-9a01-4c62-be83-f7ed8aada0bd",
     "33df577f-45f8-459e-848b-e0cc6bb49119"
   ],
-  "_ts": "2026-08-10T02:37:15.502Z"
+  "_ts": "2026-08-10T02:37:54.634Z"
 }
