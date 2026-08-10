@@ -423,9 +423,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6283268982\nRed Light Violation;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/57dcffc1-b7d8-41fa-a5ff-2b41baca0034.mp4",
       "ts": 1786333474100,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f00c91ae-6d75-46cf-9004-9afa0d0ab2a2"
     },
     {
       "id": "L1786333261418889",
@@ -468,9 +468,9 @@
       "coaching": "Face to Face",
       "notes": "Rolling Stop",
       "ts": 1786332279260,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "5d0caff7-a878-4c23-a578-3946733c9366"
     },
     {
       "id": "L1786332164481409",
@@ -39964,7 +39964,9 @@
     "deb4c3f0-0004-40e2-9821-542f14bd2cae",
     "ffb38c4b-d4ce-4dd1-8a26-e5fb3c3e8da8",
     "4f79ae25-a42b-4221-8510-d81a54b98809",
-    "c7a2243f-5e21-4931-89e0-26017e76f805"
+    "c7a2243f-5e21-4931-89e0-26017e76f805",
+    "f00c91ae-6d75-46cf-9004-9afa0d0ab2a2",
+    "5d0caff7-a878-4c23-a578-3946733c9366"
   ],
-  "_ts": "2026-08-10T12:33:00.903Z"
+  "_ts": "2026-08-10T12:33:03.064Z"
 }
