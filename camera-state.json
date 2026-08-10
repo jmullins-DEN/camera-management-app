@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L178633178973794",
+      "board": "8gejhhHJj4e",
+      "driver": "Efrain Sotelo",
+      "driverId": "019f1fa4-4d09-73de-8f47-8efba7958563",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1786331789737,
+      "synced": false
+    },
+    {
       "id": "L1786331758678361",
       "board": "8gejhhHJj4e",
       "driver": "GILBERT NAVA #1690",
@@ -39746,5 +39759,5 @@
     "f1a94fe6-6385-4f90-b0e3-01b6cb86e5f6",
     "9d1437a5-4079-4eb4-8788-c02fdf38365b"
   ],
-  "_ts": "2026-08-10T03:16:00.854Z"
+  "_ts": "2026-08-10T03:16:29.775Z"
 }
