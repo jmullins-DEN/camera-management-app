@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786332279260306",
+      "board": "8gejhhHJj4e",
+      "driver": "Luis Martinez",
+      "driverId": "019afe8d-492d-7bb7-a391-928b19bad1cf",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-10",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling Stop",
+      "ts": 1786332279260,
+      "synced": false
+    },
+    {
       "id": "L1786332164481409",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -39808,5 +39821,5 @@
     "93df8b70-fe5e-4cdd-803d-dba3548d9671",
     "c96b82d9-fa76-44de-866a-fc16aac7a435"
   ],
-  "_ts": "2026-08-10T03:22:46.862Z"
+  "_ts": "2026-08-10T03:24:39.299Z"
 }
