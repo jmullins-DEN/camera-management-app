@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786369569957908",
+      "board": "XVLVu2Du8hc",
+      "driver": "Melissa Dowe",
+      "driverId": "019bfbcc-32d4-7ff1-b9bf-120d56014405",
+      "date": "2026-08-08",
+      "reviewed": "2026-08-10",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "68 in 55",
+      "ts": 1786369569957,
+      "synced": false
+    },
+    {
       "id": "L1786369288612729",
       "board": "XVLVu2Du8hc",
       "driver": "TJ (Ty) Shepherd",
@@ -40814,5 +40827,5 @@
     "83cab3b6-7f74-4123-9820-89612b0ec308",
     "c9b56300-036a-43c2-bc66-5c239241dc37"
   ],
-  "_ts": "2026-08-10T13:41:31.853Z"
+  "_ts": "2026-08-10T13:46:10.006Z"
 }
