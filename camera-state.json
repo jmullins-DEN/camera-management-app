@@ -377,8 +377,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 1594842618; following too close; vehicle # 840\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d173de01-90d8-455d-9686-d7e4bd2c7936.mp4\n",
       "ts": 1786368770784,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e21b0c05-98e5-4029-98fa-b7e08d07553c"
     },
     {
       "id": "L1786368669784756",
@@ -40687,5 +40688,5 @@
     "89928591-a8bf-4dc1-b5e7-e7e65c25b758",
     "d3f2a9cb-7dc6-49a7-8771-9e9a23d8325a"
   ],
-  "_ts": "2026-08-10T13:34:07.777Z"
+  "_ts": "2026-08-10T13:34:39.780Z"
 }
