@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786324334254516",
+      "board": "4rNDuSrCaap",
+      "driver": "Alex Rounsaville",
+      "driverId": "019e40fd-857f-70bf-90b0-70ec34c25f64",
+      "date": "2026-08-08",
+      "reviewed": "2026-08-10",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 426680466; following too close; hard brake; lane violation; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cda3c232-e91d-4890-9176-e6a136b6c0ca.mp4\n",
+      "ts": 1786324334254,
+      "synced": false
+    },
+    {
       "id": "L1786320806533666",
       "board": "8BUntjK1TqV",
       "driver": "Goodman, James",
@@ -39362,5 +39375,5 @@
     "8275127f-9a23-4309-b701-4095efa1e86a",
     "952a6326-66c6-47f9-b33b-bfed17bca304"
   ],
-  "_ts": "2026-08-10T00:13:28.532Z"
+  "_ts": "2026-08-10T01:12:14.302Z"
 }
