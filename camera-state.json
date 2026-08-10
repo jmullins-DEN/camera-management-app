@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786364896817118",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Luis",
+      "driverId": "019f1545-41de-72cb-8bfc-515504891b6a",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-10",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6280613394; inattentive; phone distraction; camera misaligned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/53e79d2a-5f42-4499-9b26-7a9ced3940e7.mp4",
+      "ts": 1786364896817,
+      "synced": false
+    },
+    {
       "id": "L1786364637254746",
       "board": "8BUntjK1TqV",
       "driver": "Manzanares, Mario",
@@ -39929,5 +39942,5 @@
     "355515b8-0f05-40ad-80b6-42fd6125fd0e",
     "deb4c3f0-0004-40e2-9821-542f14bd2cae"
   ],
-  "_ts": "2026-08-10T12:23:59.467Z"
+  "_ts": "2026-08-10T12:28:16.864Z"
 }
