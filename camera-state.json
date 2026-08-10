@@ -348,7 +348,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 1594462690; tailgating; passing in no-passing zone; aggressive driving\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/03d3f14c-1637-4da7-beed-3b88c67839e4.mp4\n",
       "ts": 1786367181557,
-      "synced": false
+      "synced": true,
+      "infItemId": "78ec206e-c546-402c-8051-34bb69f55fe6",
+      "syncError": null
     },
     {
       "id": "L178636706458470",
@@ -40297,7 +40299,8 @@
     "a144dfff-6bdd-4325-88e4-bea53dee2b87",
     "d9d84530-3490-4a10-8798-b7fd974bc629",
     "e322e53d-87a0-4927-9327-1ede5194aeb8",
-    "84c75b69-59dc-4a52-a6c7-4610a1f3f1b0"
+    "84c75b69-59dc-4a52-a6c7-4610a1f3f1b0",
+    "78ec206e-c546-402c-8051-34bb69f55fe6"
   ],
-  "_ts": "2026-08-10T13:06:21.601Z"
+  "_ts": "2026-08-10T13:06:24.063Z"
 }
