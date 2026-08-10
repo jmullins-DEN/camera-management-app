@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786329987524495",
+      "board": "9RKrQRpDLcr",
+      "driver": "Paul Kunze Jr",
+      "driverId": "5251e559-3e8c-4f3b-b7b7-21415a31efea",
+      "date": "2026-08-09",
+      "reviewed": "2026-08-09",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Hard Brake",
+      "ts": 1786329987524,
+      "synced": false
+    },
+    {
       "id": "L1786329857344917",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -39596,5 +39609,5 @@
     "33df577f-45f8-459e-848b-e0cc6bb49119",
     "27b8ad53-475c-41d8-bd50-c4a5b3b33edb"
   ],
-  "_ts": "2026-08-10T02:44:19.361Z"
+  "_ts": "2026-08-10T02:46:27.557Z"
 }
