@@ -352,6 +352,34 @@
   },
   "local": [
     {
+      "id": "L1786368669784756",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-10",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1594815382; following too close; vehicle #339\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7a9347c5-7146-4338-9e3d-7ea445c5cc07.mp4",
+      "ts": 1786368669784,
+      "synced": false
+    },
+    {
+      "id": "L1786368547443986",
+      "board": "ioWX9hneUsk",
+      "driver": "Alexis Vega",
+      "driverId": "52e82bc0-8ce1-4fa1-8368-e13925a70493",
+      "date": "2026-08-09",
+      "reviewed": "2026-08-10",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 1246319676808658944; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ad8c42e6-1e1c-4bdc-b73c-aa2fbd6767a9.mp4",
+      "ts": 1786368547443,
+      "synced": true,
+      "infItemId": "8128d997-3e06-4387-b278-bf0dd6530e34",
+      "syncError": null
+    },
+    {
       "id": "L1786368481138732",
       "board": "ioWX9hneUsk",
       "driver": "Julio Mendoza",
@@ -40621,7 +40649,8 @@
     "d0607c43-d048-405d-aec7-e67298276423",
     "6447914b-5f5b-4397-b558-ae582e968278",
     "bddcce80-0990-4afe-80db-5c06594b2a0f",
-    "9132a73b-a0c1-498d-8577-a21df7e45128"
+    "9132a73b-a0c1-498d-8577-a21df7e45128",
+    "8128d997-3e06-4387-b278-bf0dd6530e34"
   ],
-  "_ts": "2026-08-10T13:28:03.781Z"
+  "_ts": "2026-08-10T13:31:09.832Z"
 }
