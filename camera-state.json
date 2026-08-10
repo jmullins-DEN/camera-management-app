@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786328562903170",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Garcia, Francisco",
+      "driverId": "40b6eb86-2200-4683-a59c-2b115bfa720f",
+      "date": "2026-08-09",
+      "reviewed": "2026-08-09",
+      "behavior": "U-Turn",
+      "coaching": "Coaching Notes",
+      "notes": "U-Turn",
+      "ts": 1786328562903,
+      "synced": false
+    },
+    {
       "id": "L1786328391780240",
       "board": "nWRsGRSm2Hn",
       "driver": "Wade, Adam",
@@ -39428,5 +39441,5 @@
     "a9aa143d-4717-482c-ae3c-3df499f0d513",
     "168a0056-5026-4550-abe5-61acc4132f79"
   ],
-  "_ts": "2026-08-10T02:19:55.399Z"
+  "_ts": "2026-08-10T02:22:42.936Z"
 }
