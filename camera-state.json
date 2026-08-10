@@ -1023,9 +1023,9 @@
       "coaching": "Coaching Notes",
       "notes": "U-Turn",
       "ts": 1786328562903,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d9d84530-3490-4a10-8798-b7fd974bc629"
     },
     {
       "id": "L1786328391780240",
@@ -40192,7 +40192,8 @@
     "21b6d1c0-4ba1-4476-bb6a-70c3124f3760",
     "8459c637-53ee-45a1-8a5a-9a79667dbb49",
     "b8ddf26a-4078-4094-9258-b1d981605788",
-    "a144dfff-6bdd-4325-88e4-bea53dee2b87"
+    "a144dfff-6bdd-4325-88e4-bea53dee2b87",
+    "d9d84530-3490-4a10-8798-b7fd974bc629"
   ],
-  "_ts": "2026-08-10T12:57:17.344Z"
+  "_ts": "2026-08-10T12:57:19.830Z"
 }
