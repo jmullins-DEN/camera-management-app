@@ -362,9 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1786371389055,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "5f84d124-30e2-44f8-856a-fafe20d37e47"
     },
     {
       "id": "L1786371267094340",
@@ -407,9 +407,9 @@
       "coaching": "Face to Face",
       "notes": "multi-tasking with two hands",
       "ts": 1786371024949,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "3e1ea46f-a2a3-4507-908e-bab610a3eb2b"
     },
     {
       "id": "L1786370618864769",
@@ -422,9 +422,9 @@
       "coaching": "Face to Face",
       "notes": "texting",
       "ts": 1786370618864,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "478620bf-fdcd-46f7-8086-c67a6b21fa0a"
     },
     {
       "id": "L178637054598685",
@@ -40983,7 +40983,10 @@
     "5619b333-99f5-4825-804e-ba104a509f72",
     "28c837e2-df13-4ef2-8eb6-9e04ccd34b7c",
     "a0641af5-1421-4df4-869c-e9a1a73ef1e9",
-    "dda31c5f-89fe-454d-9fb2-9aa360c9d213"
+    "dda31c5f-89fe-454d-9fb2-9aa360c9d213",
+    "5f84d124-30e2-44f8-856a-fafe20d37e47",
+    "3e1ea46f-a2a3-4507-908e-bab610a3eb2b",
+    "478620bf-fdcd-46f7-8086-c67a6b21fa0a"
   ],
-  "_ts": "2026-08-10T14:17:20.711Z"
+  "_ts": "2026-08-10T14:17:23.595Z"
 }
