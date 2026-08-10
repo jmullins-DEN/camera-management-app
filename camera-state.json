@@ -348,7 +348,9 @@
       "coaching": "System Alert",
       "notes": "Camera direction",
       "ts": 1786333261419,
-      "synced": false
+      "synced": true,
+      "infItemId": "deb4c3f0-0004-40e2-9821-542f14bd2cae",
+      "syncError": null
     },
     {
       "id": "L1786332948067985",
@@ -39849,7 +39851,8 @@
     "ab5909c7-909c-4bb6-86a8-80a4d3e837ce",
     "93df8b70-fe5e-4cdd-803d-dba3548d9671",
     "c96b82d9-fa76-44de-866a-fc16aac7a435",
-    "355515b8-0f05-40ad-80b6-42fd6125fd0e"
+    "355515b8-0f05-40ad-80b6-42fd6125fd0e",
+    "deb4c3f0-0004-40e2-9821-542f14bd2cae"
   ],
-  "_ts": "2026-08-10T03:41:01.455Z"
+  "_ts": "2026-08-10T03:41:03.864Z"
 }
