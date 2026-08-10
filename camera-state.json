@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786329286441953",
+      "board": "9RKrQRpDLcr",
+      "driver": "Tommy Scott",
+      "driverId": "8acebdd2-9ea9-4ef9-9665-c0033037b6de",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Speeding",
+      "ts": 1786329286441,
+      "synced": false
+    },
+    {
       "id": "L1786329227636451",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -39502,5 +39515,5 @@
     "62c7facc-a722-4447-b346-82d067747647",
     "0e8c0331-863f-4e15-9e66-f0e79b5bb479"
   ],
-  "_ts": "2026-08-10T02:33:49.618Z"
+  "_ts": "2026-08-10T02:34:46.485Z"
 }
