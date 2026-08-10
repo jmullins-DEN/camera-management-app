@@ -379,7 +379,8 @@
       "notes": "\nAlert 6279304915; inattentive; possible phone \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/933027e7-31d7-4a5e-aa2c-1f3142a46079.mp4",
       "ts": 1786364637254,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786360127487991",
@@ -423,7 +424,8 @@
       "notes": "Alert 6283268982\nRed Light Violation;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/57dcffc1-b7d8-41fa-a5ff-2b41baca0034.mp4",
       "ts": 1786333474100,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786333261418889",
@@ -467,7 +469,8 @@
       "notes": "Rolling Stop",
       "ts": 1786332279260,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786332164481409",
@@ -511,7 +514,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1786331929122,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178633178973794",
@@ -39961,5 +39965,5 @@
     "ffb38c4b-d4ce-4dd1-8a26-e5fb3c3e8da8",
     "4f79ae25-a42b-4221-8510-d81a54b98809"
   ],
-  "_ts": "2026-08-10T12:32:48.229Z"
+  "_ts": "2026-08-10T12:32:58.568Z"
 }
