@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-08-03-autosync'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-08-10-panchos-npw'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -383,6 +383,72 @@ const AUTO_CRITICAL=['Drowsy Driving','Safety-Critical Event'];
 const AUTO_COACH={'Camera Exception':'System Alert'};
 // boards with LIVE Infinity write-back (board-by-board rollout; all others stay local-queue)
 const BOARD_WB={
+  'kdYbqScWu22':{ // Panchos (DEN) — REFERENCE-driver Master clone, wired 2026-08-10. Labels already standardized (shared global option ids). Roster populated in Infinity.
+    cam_folder:'q1C9oL6cm1K', roster_folder:'H1USSTvum2S',
+    name_attr:'a6846c0c-7871-48d2-876e-ff0100297c45',        // "Driver Name" text
+    driver_ref_attr:'4e1f4a60-2cea-463a-a803-2e9974a71c27',  // "Driver Roster" reference -> H1USSTvum2S
+    driver_name_attr:'a6846c0c-7871-48d2-876e-ff0100297c45', // text shadow stamped on write
+    behavior_attr:'13648e88-d379-43b5-bdac-895febfae59a',
+    coaching_attr:'704f9fc7-3dca-46aa-8958-bc23e245750d',
+    date_attr:'fb335126-3654-46b7-898c-7db028ca4967',        // Camera Event Date
+    reviewed_attr:'3f6cbda4-a034-4c81-9664-04f1c8b28cf4',    // Date Event Reviewed
+    notes_attr:'14a6598a-a43f-41f5-8133-0f33a2ad0776',       // "Notes:" longtext
+    link_attr:'36388f70-8d82-4cee-9b93-b6fefefc0d77',        // Link to Violation
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo); id correct
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
+      'System Alert':'019eef3a-0371-7065-90d1-4104fece3dea',
+      'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
+    },
+  },
+  'i9q7BgfFkSZ':{ // NPW Contracting (DEN) — REFERENCE-driver Master clone, wired 2026-08-10. Labels already standardized (shared global option ids). Roster populated in Infinity.
+    cam_folder:'iLX9uLyvRcg', roster_folder:'7dCy6sZGMZB',
+    name_attr:'4023ca66-ed54-4c34-81a4-6c0e90f72553',        // "Driver Name" text
+    driver_ref_attr:'6f6600cd-0e16-4740-bb31-704227d80a1c',  // "Driver Roster" reference -> 7dCy6sZGMZB
+    driver_name_attr:'4023ca66-ed54-4c34-81a4-6c0e90f72553', // text shadow stamped on write
+    behavior_attr:'3d563f33-f8e1-46f6-9768-c39ac170736e',
+    coaching_attr:'59e52d95-5fc2-4dea-96a8-50cb1b6ef5be',
+    date_attr:'d3389ef8-69aa-4fc5-a337-de3346d66134',        // Camera Event Date
+    reviewed_attr:'68bc4c41-5a64-4de6-bab6-3d56fdb997bd',    // Date Event Reviewed
+    notes_attr:'081a035d-f55e-496e-969c-fd6eefe05e77',       // "Notes:" longtext
+    link_attr:'eab2fecd-8c02-42e0-a960-0ab9552ec1e6',        // Link to Violation
+    behavior_labels:{
+      'Camera Exception':'28f5c6e7-887f-469c-a6e9-632c39024726',
+      'Driver Distraction-Phone':'bdaa0f0c-476a-4a50-9fdb-e73682d4f178',
+      'Driver Distraction-Cab':'fbd5bd68-c728-47ac-8726-5fe3260bd2c3',
+      'Drowsy Driving':'019eeaa5-1683-7378-9cf0-8b2e5c3de63b',
+      'Following Distance':'0a08d3b9-07a7-43d1-869a-5cfa642da077',
+      'Hard Brake / Turn':'3a37a090-8c34-4d2a-8c1d-0d20e0a4242b',
+      'Safety-Critical Event':'d436c28c-c283-4232-b336-9490ceb7e256',
+      'Seat Belt':'fb3460d4-ebaf-4f68-a5e2-0b1911f6280a',
+      'Sign Violation':'c0793c61-fa3d-489f-9a68-b49cba92fbdc', // board label is "Sign Vilolation" (typo); id correct
+      'Speeding':'357c51ce-0836-4cb8-a3b1-4d48f1154dd8',
+      'Traffic Light Violation':'ec3ab189-b73f-489c-aa50-db86eaa119de',
+      'U-Turn':'c5454e14-fd4b-4986-9e83-80f00402d7c7',
+    },
+    coaching_labels:{
+      'Coaching Notes':'f1bcc69f-96ed-4521-8496-cee67d663f6a',
+      'Face to Face':'3a2254bd-1ec8-48a1-a1f5-4bcf4f0e2faa',
+      'Critical Event':'9fbbe818-46e5-4afa-82ee-b081cdadf8e2',
+      'System Alert':'019eef3a-0371-7065-90d1-4104fece3dea',
+      'Unidentified Driver':'019eeaa0-fdb9-71fd-9d25-cad08bbbc661',
+    },
+  },
   'AtuX3hnUhum':{ // Ski Country Towing (DEN) — REFERENCE-driver Master clone, wired 2026-08-05. Labels standardized same day. Roster empty until Johnny populates in Infinity.
     cam_folder:'ULDKTfCBkDK', roster_folder:'vmxhwtaTiHy',
     name_attr:'122dc507-2fdf-43fa-988f-3e76f92c81d4',        // "Driver Name" text
