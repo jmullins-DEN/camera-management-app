@@ -338,6 +338,20 @@
   },
   "local": [
     {
+      "id": "L1786330342829419",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Fabian Velasco",
+      "driverId": "a03641b9-19dc-4038-8e56-2d71bd9569cb",
+      "date": "2026-08-09",
+      "reviewed": "2026-08-09",
+      "behavior": "U-Turn",
+      "coaching": "Coaching Notes",
+      "notes": "U-Turn",
+      "ts": 1786330342829,
+      "synced": false,
+      "syncError": "Failed to fetch"
+    },
+    {
       "id": "L1786330276307491",
       "board": "6aE7wVSK5Jq",
       "driver": "Fabian Velasco",
@@ -349,7 +363,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1786330276307,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786330118014172",
@@ -39660,5 +39675,5 @@
     "12828070-c34f-4f74-92cd-6b3536d23bac",
     "a67a505e-5f11-4c4a-a08e-d3b0e3138b3f"
   ],
-  "_ts": "2026-08-10T02:51:19.890Z"
+  "_ts": "2026-08-10T03:01:38.485Z"
 }
