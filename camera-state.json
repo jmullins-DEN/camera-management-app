@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786365166060205",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Edgar",
+      "driverId": "b9264849-0688-4ec0-87b7-179a9e9670a8",
+      "date": "2026-08-08",
+      "reviewed": "2026-08-10",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6285284811; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/67cb41ff-6e20-4375-a9eb-59f2dd3e062e.mp4",
+      "ts": 1786365166060,
+      "synced": false
+    },
+    {
       "id": "L1786364896817118",
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Luis",
@@ -39945,5 +39958,5 @@
     "deb4c3f0-0004-40e2-9821-542f14bd2cae",
     "ffb38c4b-d4ce-4dd1-8a26-e5fb3c3e8da8"
   ],
-  "_ts": "2026-08-10T12:28:19.650Z"
+  "_ts": "2026-08-10T12:32:46.106Z"
 }
