@@ -348,7 +348,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 426291780; labeled as Forward Collision Warning; forward camera blocked\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/81a605b9-81ea-4c98-851e-a007e08c0998.mp4",
       "ts": 1786365321128,
-      "synced": false
+      "synced": true,
+      "infItemId": "e7edf9e6-c898-4fdb-90fb-e18ac41cbfce",
+      "syncError": null
     },
     {
       "id": "L1786365216851255",
@@ -39995,7 +39997,8 @@
     "f00c91ae-6d75-46cf-9004-9afa0d0ab2a2",
     "5d0caff7-a878-4c23-a578-3946733c9366",
     "c65cc328-dc6d-44ff-9b54-b3a503d7afb2",
-    "a8fb81f2-1196-4ecb-8eec-1d9b139d9125"
+    "a8fb81f2-1196-4ecb-8eec-1d9b139d9125",
+    "e7edf9e6-c898-4fdb-90fb-e18ac41cbfce"
   ],
-  "_ts": "2026-08-10T12:35:21.179Z"
+  "_ts": "2026-08-10T12:35:23.661Z"
 }
