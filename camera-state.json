@@ -363,7 +363,8 @@
       "notes": "texting",
       "ts": 1786371389055,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786371267094340",
@@ -407,7 +408,8 @@
       "notes": "multi-tasking with two hands",
       "ts": 1786371024949,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786370618864769",
@@ -421,7 +423,8 @@
       "notes": "texting",
       "ts": 1786370618864,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "Failed to fetch",
+      "infItemId": null
     },
     {
       "id": "L178637054598685",
@@ -435,7 +438,8 @@
       "notes": "following too close",
       "ts": 1786370545986,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178637037891549",
@@ -464,7 +468,8 @@
       "notes": "70 in 50",
       "ts": 1786369870235,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L17863698258997",
@@ -508,7 +513,8 @@
       "notes": "68 in 55",
       "ts": 1786369569957,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786369288612729",
@@ -537,7 +543,8 @@
       "notes": "79 in 65",
       "ts": 1786369251609,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786369212074227",
@@ -40978,5 +40985,5 @@
     "a0641af5-1421-4df4-869c-e9a1a73ef1e9",
     "dda31c5f-89fe-454d-9fb2-9aa360c9d213"
   ],
-  "_ts": "2026-08-10T14:16:31.745Z"
+  "_ts": "2026-08-10T14:17:20.711Z"
 }
