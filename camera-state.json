@@ -348,7 +348,9 @@
       "coaching": "Face to Face",
       "notes": "\n\nAlert 426254572; following too close; Grant not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4bc4d296-524d-4803-8e81-a4ce15464e8b.mp4\n",
       "ts": 1786366118830,
-      "synced": false
+      "synced": true,
+      "infItemId": "84992d2f-983d-4585-b930-fa347453f812",
+      "syncError": null
     },
     {
       "id": "L1786366020855592",
@@ -40075,7 +40077,8 @@
     "8de7a29c-af2e-45d0-8e44-519585351167",
     "10b80e44-c095-4991-bb37-a5455b668e51",
     "530276f7-a6b6-4058-91a0-f2b73416f538",
-    "c50d7226-ce69-44f0-992c-5ecbbde52b7f"
+    "c50d7226-ce69-44f0-992c-5ecbbde52b7f",
+    "84992d2f-983d-4585-b930-fa347453f812"
   ],
-  "_ts": "2026-08-10T12:48:38.878Z"
+  "_ts": "2026-08-10T12:48:41.775Z"
 }
