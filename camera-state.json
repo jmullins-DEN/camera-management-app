@@ -348,8 +348,9 @@
       "coaching": "Coaching Notes",
       "notes": "U-Turn",
       "ts": 1786330342829,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bf159856-1fc2-44f8-91b8-d43908afc8c1"
     },
     {
       "id": "L1786330276307491",
@@ -39673,7 +39674,8 @@
     "27b8ad53-475c-41d8-bd50-c4a5b3b33edb",
     "85c4518a-0762-4be5-b645-70bd1cd2059b",
     "12828070-c34f-4f74-92cd-6b3536d23bac",
-    "a67a505e-5f11-4c4a-a08e-d3b0e3138b3f"
+    "a67a505e-5f11-4c4a-a08e-d3b0e3138b3f",
+    "bf159856-1fc2-44f8-91b8-d43908afc8c1"
   ],
-  "_ts": "2026-08-10T03:01:38.485Z"
+  "_ts": "2026-08-10T03:01:40.437Z"
 }
