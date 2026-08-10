@@ -348,7 +348,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 426680466; following too close; hard brake; lane violation; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cda3c232-e91d-4890-9176-e6a136b6c0ca.mp4\n",
       "ts": 1786324334254,
-      "synced": false
+      "synced": true,
+      "infItemId": "d4b70b91-b1d4-4efe-b577-cfa4b04ef916",
+      "syncError": null
     },
     {
       "id": "L1786320806533666",
@@ -39373,7 +39375,8 @@
     "d7078793-34a2-4d95-b2d9-2f744d5d521f",
     "49fa2b96-4a73-48a8-a43c-269f6d221de3",
     "8275127f-9a23-4309-b701-4095efa1e86a",
-    "952a6326-66c6-47f9-b33b-bfed17bca304"
+    "952a6326-66c6-47f9-b33b-bfed17bca304",
+    "d4b70b91-b1d4-4efe-b577-cfa4b04ef916"
   ],
-  "_ts": "2026-08-10T01:12:14.302Z"
+  "_ts": "2026-08-10T01:12:17.156Z"
 }
