@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786367181557673",
+      "board": "aRcazTLT9iM",
+      "driver": "Jonathan Pencka",
+      "driverId": "88d58cfe-5bf0-4ac6-8024-f588028582f6",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-10",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1594462690; tailgating; passing in no-passing zone; aggressive driving\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/03d3f14c-1637-4da7-beed-3b88c67839e4.mp4\n",
+      "ts": 1786367181557,
+      "synced": false
+    },
+    {
       "id": "L178636706458470",
       "board": "4rNDuSrCaap",
       "driver": "David Plott",
@@ -40286,5 +40299,5 @@
     "e322e53d-87a0-4927-9327-1ede5194aeb8",
     "84c75b69-59dc-4a52-a6c7-4610a1f3f1b0"
   ],
-  "_ts": "2026-08-10T13:04:28.893Z"
+  "_ts": "2026-08-10T13:06:21.601Z"
 }
