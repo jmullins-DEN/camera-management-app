@@ -352,6 +352,34 @@
   },
   "local": [
     {
+      "id": "L178636987023593",
+      "board": "XVLVu2Du8hc",
+      "driver": "Wesley Tallon",
+      "driverId": "019e02aa-2e61-7754-8e73-924a35b04e11",
+      "date": "2026-08-09",
+      "reviewed": "2026-08-10",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 50",
+      "ts": 1786369870235,
+      "synced": false
+    },
+    {
+      "id": "L17863698258997",
+      "board": "XVLVu2Du8hc",
+      "driver": "Chad Smith",
+      "driverId": "019a0810-437c-7aae-88b4-7558aa34aed8",
+      "date": "2026-08-09",
+      "reviewed": "2026-08-10",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "74 in 55",
+      "ts": 1786369825899,
+      "synced": true,
+      "infItemId": "5619b333-99f5-4825-804e-ba104a509f72",
+      "syncError": null
+    },
+    {
       "id": "L1786369773870731",
       "board": "XVLVu2Du8hc",
       "driver": "Tres Dimick",
@@ -40842,7 +40870,8 @@
     "4c5b31bc-15c2-49c2-bce3-bbc5a60cc89d",
     "83cab3b6-7f74-4123-9820-89612b0ec308",
     "c9b56300-036a-43c2-bc66-5c239241dc37",
-    "97ef0dcf-0c3b-40a4-a596-8743c17804c7"
+    "97ef0dcf-0c3b-40a4-a596-8743c17804c7",
+    "5619b333-99f5-4825-804e-ba104a509f72"
   ],
-  "_ts": "2026-08-10T13:49:37.781Z"
+  "_ts": "2026-08-10T13:51:10.279Z"
 }
