@@ -409,7 +409,7 @@
       "ts": 1786367614675,
       "synced": false,
       "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "infItemId": "7f291665-d97b-4ae8-8827-54fff54bad9c"
     },
     {
       "id": "L1786367565274403",
@@ -40527,5 +40527,5 @@
     "9606c58f-b222-4600-8d65-bc07dd6ddaca",
     "e8349b76-8733-4f05-bc42-1593cb484d99"
   ],
-  "_ts": "2026-08-10T13:16:03.194Z"
+  "_ts": "2026-08-10T13:19:58.642Z"
 }
