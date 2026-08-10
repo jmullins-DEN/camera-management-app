@@ -338,6 +338,19 @@
   },
   "local": [
     {
+      "id": "L1786320806533666",
+      "board": "8BUntjK1TqV",
+      "driver": "Goodman, James",
+      "driverId": "e53fd37f-de54-44b1-9f57-c3936de8fd9f",
+      "date": "2026-08-07",
+      "reviewed": "2026-08-10",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6280753674; hard brake; near miss; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/51b01aaf-d0b1-4a85-b3e8-5e5f0da2ba5d.mp4\n",
+      "ts": 1786320806533,
+      "synced": false
+    },
+    {
       "id": "L1786152777259148",
       "board": "KYqKJWuumPm",
       "driver": "Rylee Yonker",
@@ -39348,5 +39361,5 @@
     "8275127f-9a23-4309-b701-4095efa1e86a",
     "952a6326-66c6-47f9-b33b-bfed17bca304"
   ],
-  "_ts": "2026-08-10T00:07:32.888Z"
+  "_ts": "2026-08-10T00:13:26.576Z"
 }
