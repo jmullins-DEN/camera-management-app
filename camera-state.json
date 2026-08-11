@@ -362,7 +362,8 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 427272700; eating with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/49c8e0d0-bc55-431e-aae9-6b8ea971b166.mp4",
       "ts": 1786412812013,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786412722004265",
@@ -41493,5 +41494,5 @@
     "aec5be6a-f89a-4a0d-b593-5de4605f7352",
     "c0ea89fd-aca9-4529-85a6-291f2cfede83"
   ],
-  "_ts": "2026-08-11T01:46:52.058Z"
+  "_ts": "2026-08-11T01:46:54.216Z"
 }
