@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786412412970124",
+      "board": "4rNDuSrCaap",
+      "driver": "J.  Rodrigues",
+      "driverId": "069aecd1-3f4d-4320-a1f3-6d16147b675e",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 427006062; handheld phone; Rodrigues not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2075e7b8-aa29-4a80-9563-88162fc4c9c6.mp4\n",
+      "ts": 1786412412970,
+      "synced": false
+    },
+    {
       "id": "L1786412356667259",
       "board": "4rNDuSrCaap",
       "driver": "Chris Jacobson",
@@ -41386,5 +41399,5 @@
     "0947a883-2bfe-4435-8d1b-34274cb146eb",
     "c9e36afc-46df-465e-94e5-dee27b438945"
   ],
-  "_ts": "2026-08-11T01:39:26.114Z"
+  "_ts": "2026-08-11T01:40:13.014Z"
 }
