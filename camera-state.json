@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6299483416:  Truck #226260 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2fcc3db2-201e-401d-9f17-e2580e690dda.mp4",
       "ts": 1786448813480,
-      "synced": false
+      "synced": true,
+      "infItemId": "cff226a8-ad2b-4c2f-b812-daedb69ef609",
+      "syncError": null
     },
     {
       "id": "L1786414345951705",
@@ -41657,7 +41659,8 @@
     "52e32807-8af7-4531-bb53-2c26ca2a159c",
     "b05bc00a-adca-4c3a-8fb2-a8714e6ecf92",
     "8b58defd-9dba-4a9c-af07-4fc7998d6ecb",
-    "f4c66508-e3f4-430f-a93e-26d419032656"
+    "f4c66508-e3f4-430f-a93e-26d419032656",
+    "cff226a8-ad2b-4c2f-b812-daedb69ef609"
   ],
-  "_ts": "2026-08-11T11:46:53.529Z"
+  "_ts": "2026-08-11T11:46:56.226Z"
 }
