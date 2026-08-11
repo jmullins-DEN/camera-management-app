@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786451198391511",
+      "board": "YfVHuM3X87v",
+      "driver": "Eric McGuire",
+      "driverId": "194ceaea-781f-4402-a130-e1e7ad2413e7",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking",
+      "ts": 1786451198391,
+      "synced": false
+    },
+    {
       "id": "L1786450916098900",
       "board": "XVLVu2Du8hc",
       "driver": "Jeffrey Schnippel",
@@ -42078,5 +42091,5 @@
     "039d4f4b-080c-480d-a498-bbb7559452d2",
     "7d54f9a7-11c1-4f86-b6fe-c056d2c49ddb"
   ],
-  "_ts": "2026-08-11T12:25:10.508Z"
+  "_ts": "2026-08-11T12:26:38.434Z"
 }
