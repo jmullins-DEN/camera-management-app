@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178641141150019",
+      "board": "8BUntjK1TqV",
+      "driver": "Contreras, Olegario",
+      "driverId": "019db175-eae8-763d-8456-824030ee1c58",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6296331207; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4a45b377-839b-453b-bcb3-755f3c5e1967.mp4",
+      "ts": 1786411411500,
+      "synced": false
+    },
+    {
       "id": "L1786411348292885",
       "board": "8BUntjK1TqV",
       "driver": "Ochoa, Jeremy",
@@ -41230,5 +41243,5 @@
     "51b5c094-6bf8-4789-a588-e398fd6e43f8",
     "b738393d-9839-4ff7-b0b7-34b3d2a2dadf"
   ],
-  "_ts": "2026-08-11T01:22:30.780Z"
+  "_ts": "2026-08-11T01:23:31.543Z"
 }
