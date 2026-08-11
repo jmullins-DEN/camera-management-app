@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786409677819879",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Speeding",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6297899954: Truck # 157741 Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1a03f381-6cce-4d9b-aae4-6900be173ff5.mp4",
+      "ts": 1786409677819,
+      "synced": false
+    },
+    {
       "id": "L1786409501706589",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -41102,5 +41115,5 @@
     "8181bcb3-1449-4bf5-be3d-8389b08fa085",
     "e9276237-3c0c-4dd1-9986-699e32e40e3c"
   ],
-  "_ts": "2026-08-11T00:51:44.303Z"
+  "_ts": "2026-08-11T00:54:37.865Z"
 }
