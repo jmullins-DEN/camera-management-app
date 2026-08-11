@@ -483,7 +483,8 @@
       "notes": "\nAlert 1246657141943730176; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2fc041f2-8429-4326-9788-3c3ce652bb39.mp4",
       "ts": 1786450130675,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786450044212742",
@@ -42073,5 +42074,5 @@
     "1759b592-8c8e-4f13-a01d-dc5f5fbdc436",
     "65c59c52-d62a-4e8e-8b16-82dc822d838a"
   ],
-  "_ts": "2026-08-11T12:21:58.436Z"
+  "_ts": "2026-08-11T12:25:01.277Z"
 }
