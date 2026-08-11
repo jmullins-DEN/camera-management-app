@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786451822037908",
+      "board": "ebSND1QoyBs",
+      "driver": "John Edmonson",
+      "driverId": "e7dc549e-d75e-4e4e-b344-b2a2fbf1b590",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "77 in 55",
+      "ts": 1786451822037,
+      "synced": false
+    },
+    {
       "id": "L1786451738803246",
       "board": "ebSND1QoyBs",
       "driver": "Jose Hondolero",
@@ -42172,5 +42185,5 @@
     "0917661d-aac5-41bd-85a2-71adec9978ca",
     "e0059001-ecd0-4ee6-a2b6-1d55e9e858f9"
   ],
-  "_ts": "2026-08-11T12:35:42.295Z"
+  "_ts": "2026-08-11T12:37:02.084Z"
 }
