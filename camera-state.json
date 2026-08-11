@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786491926248156",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Wade, Adam",
+      "driverId": "11866ae2-bb6b-4296-b766-fb8d80b1c6fc",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1786491926248,
+      "synced": false
+    },
+    {
       "id": "L1786461363654975",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -42350,5 +42363,5 @@
     "b780108e-8729-4c3e-8d2b-75644234800a",
     "7dde33e6-3688-4a00-8928-fba7e18a6d03"
   ],
-  "_ts": "2026-08-11T23:41:53.285Z"
+  "_ts": "2026-08-11T23:45:26.294Z"
 }
