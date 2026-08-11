@@ -352,6 +352,21 @@
   },
   "local": [
     {
+      "id": "L178645195483280",
+      "board": "ebSND1QoyBs",
+      "driver": "Charles Smith",
+      "driverId": "7d9f1f73-fa5c-4891-b622-c25e76fab1bc",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "80 in 55",
+      "ts": 1786451954832,
+      "synced": true,
+      "infItemId": "9c2a1d42-a59d-4821-81d4-68a9d2535410",
+      "syncError": null
+    },
+    {
       "id": "L1786451902891135",
       "board": "ebSND1QoyBs",
       "driver": "Mykiel James",
@@ -42204,7 +42219,8 @@
     "e0059001-ecd0-4ee6-a2b6-1d55e9e858f9",
     "4882d2b0-558f-45a5-800e-ae4a47145f6a",
     "85525a0a-c0fb-42e9-9165-58939bcb7999",
+    "9c2a1d42-a59d-4821-81d4-68a9d2535410",
     "a21d7636-e70a-4ae0-bda9-7577005fb809"
   ],
-  "_ts": "2026-08-11T12:38:41.856Z"
+  "_ts": "2026-08-11T12:39:17.398Z"
 }
