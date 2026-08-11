@@ -352,6 +352,21 @@
   },
   "local": [
     {
+      "id": "L1786406638866887",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Marco Nunez",
+      "driverId": "272e1ad8-9687-4e44-b5b6-6aae400c1c9b",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 1246778056643870720: Drowsy Driver/ face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5dced33e-6330-4eba-904a-64ee12a5a729.mp4",
+      "ts": 1786406638866,
+      "synced": true,
+      "infItemId": "4645f91f-9e9e-46f0-884e-b233f11afb92",
+      "syncError": null
+    },
+    {
       "id": "L1786371929725538",
       "board": "ebSND1QoyBs",
       "driver": "Charles Smith",
@@ -40918,12 +40933,12 @@
     "dfaf452c-b4a5-4698-92f3-bd174f8c5ca8",
     "75f35232-0417-435f-968c-1f60ae524eeb",
     "d7078793-34a2-4d95-b2d9-2f744d5d521f",
+    "168a0056-5026-4550-abe5-61acc4132f79",
+    "a80f5b37-9e35-48d0-9daf-e28b155b576f",
     "49fa2b96-4a73-48a8-a43c-269f6d221de3",
     "8275127f-9a23-4309-b701-4095efa1e86a",
     "952a6326-66c6-47f9-b33b-bfed17bca304",
     "d4b70b91-b1d4-4efe-b577-cfa4b04ef916",
-    "168a0056-5026-4550-abe5-61acc4132f79",
-    "a80f5b37-9e35-48d0-9daf-e28b155b576f",
     "e1422a2b-6d2b-4350-bef3-11a0482648b0",
     "a9aa143d-4717-482c-ae3c-3df499f0d513",
     "62c7facc-a722-4447-b346-82d067747647",
@@ -41022,7 +41037,8 @@
     "c9a82e53-0af3-4787-8c9b-802cd824eb0d",
     "3de3248b-b2ab-4cd2-acd6-ff0c32805901",
     "aa697089-4c35-4bb8-b651-08cb8ee8fadb",
-    "924abbb9-8611-428b-a39d-d74d096b76f5"
+    "924abbb9-8611-428b-a39d-d74d096b76f5",
+    "4645f91f-9e9e-46f0-884e-b233f11afb92"
   ],
-  "_ts": "2026-08-10T14:26:20.838Z"
+  "_ts": "2026-08-11T00:04:01.060Z"
 }
