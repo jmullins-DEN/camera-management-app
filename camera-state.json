@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786451283375543",
+      "board": "xMfRLnqAN7y",
+      "driver": "Oscar Herrera",
+      "driverId": "019bdd40-0d98-7997-8bde-6bb3e96e20b0",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1786451283375,
+      "synced": false
+    },
+    {
       "id": "L1786451198391511",
       "board": "YfVHuM3X87v",
       "driver": "Eric McGuire",
@@ -42094,5 +42107,5 @@
     "7d54f9a7-11c1-4f86-b6fe-c056d2c49ddb",
     "7569394c-ec7a-4b91-a0c1-c1f1d885a93c"
   ],
-  "_ts": "2026-08-11T12:26:44.307Z"
+  "_ts": "2026-08-11T12:28:03.428Z"
 }
