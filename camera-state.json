@@ -842,9 +842,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 1595866144; following too close; aggressive driving\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c6653069-0ae6-484a-87cb-84fc738955e6.mp4",
       "ts": 1786413183985,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "7d54f9a7-11c1-4f86-b6fe-c056d2c49ddb"
     },
     {
       "id": "L1786413035298574",
@@ -42075,7 +42075,8 @@
     "65c59c52-d62a-4e8e-8b16-82dc822d838a",
     "9b491164-4a4f-4d71-9f0f-db96139fca6f",
     "001c0b09-74ed-4786-998e-b9cf6dc18ce2",
-    "039d4f4b-080c-480d-a498-bbb7559452d2"
+    "039d4f4b-080c-480d-a498-bbb7559452d2",
+    "7d54f9a7-11c1-4f86-b6fe-c056d2c49ddb"
   ],
-  "_ts": "2026-08-11T12:25:06.093Z"
+  "_ts": "2026-08-11T12:25:08.324Z"
 }
