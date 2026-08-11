@@ -362,7 +362,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1246912741638307840: Hand Held Phone distraction\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/70c7a709-ff91-45d7-ad62-c3d8f907a83e.mp4\n",
       "ts": 1786408460865,
-      "synced": false
+      "synced": true,
+      "infItemId": "2d22c5cf-3b97-4e71-a1c7-ef4fdfe14242",
+      "syncError": null
     },
     {
       "id": "L1786408280480184",
@@ -41065,7 +41067,8 @@
     "3de3248b-b2ab-4cd2-acd6-ff0c32805901",
     "aa697089-4c35-4bb8-b651-08cb8ee8fadb",
     "924abbb9-8611-428b-a39d-d74d096b76f5",
-    "4645f91f-9e9e-46f0-884e-b233f11afb92"
+    "4645f91f-9e9e-46f0-884e-b233f11afb92",
+    "2d22c5cf-3b97-4e71-a1c7-ef4fdfe14242"
   ],
-  "_ts": "2026-08-11T00:34:20.911Z"
+  "_ts": "2026-08-11T00:34:23.131Z"
 }
