@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786410399098993",
+      "board": "KYqKJWuumPm",
+      "driver": "Aaron Whitford",
+      "driverId": "019dd5fc-b08f-776f-82ce-59816698b0cb",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474987560362-1786398941878:  Hand Held Device\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/030768ba-d7b5-4a13-a693-99e908a2fa66.mp4",
+      "ts": 1786410399098,
+      "synced": false
+    },
+    {
       "id": "L1786409975264910",
       "board": "7d53dL31ioV",
       "driver": "PHILLIPPO, DOUGLAS J",
@@ -41134,5 +41147,5 @@
     "ffcd1a5b-f92b-4419-8f73-b165afb648e3",
     "68455023-5c7a-44b5-8f1e-4078ae4cab20"
   ],
-  "_ts": "2026-08-11T00:59:37.790Z"
+  "_ts": "2026-08-11T01:06:39.149Z"
 }
