@@ -362,7 +362,9 @@
       "coaching": "Critical Event",
       "notes": "Driver looking down on phone-not wearing seatbelt-fails to maintain lane-car coming other direction \nhttps://app.estrack.com/#/camera/events/6a79fa57a714ca9100c164df",
       "ts": 1786460474758,
-      "synced": false
+      "synced": true,
+      "infItemId": "bd89a326-4cea-46de-8c18-9229f53a4734",
+      "syncError": null
     },
     {
       "id": "L1786452041127409",
@@ -42265,7 +42267,8 @@
     "9c2a1d42-a59d-4821-81d4-68a9d2535410",
     "a21d7636-e70a-4ae0-bda9-7577005fb809",
     "05521af2-bef7-47b8-b036-c6acbc9923cc",
-    "006d31a4-f14c-4802-99d2-cac6c6f1494e"
+    "006d31a4-f14c-4802-99d2-cac6c6f1494e",
+    "bd89a326-4cea-46de-8c18-9229f53a4734"
   ],
-  "_ts": "2026-08-11T15:01:14.806Z"
+  "_ts": "2026-08-11T15:01:17.202Z"
 }
