@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786452041127409",
+      "board": "ebSND1QoyBs",
+      "driver": "Charles Smith",
+      "driverId": "7d9f1f73-fa5c-4891-b622-c25e76fab1bc",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1786452041127,
+      "synced": false
+    },
+    {
       "id": "L178645195483280",
       "board": "ebSND1QoyBs",
       "driver": "Charles Smith",
@@ -42222,5 +42235,5 @@
     "9c2a1d42-a59d-4821-81d4-68a9d2535410",
     "a21d7636-e70a-4ae0-bda9-7577005fb809"
   ],
-  "_ts": "2026-08-11T12:39:19.784Z"
+  "_ts": "2026-08-11T12:40:41.177Z"
 }
