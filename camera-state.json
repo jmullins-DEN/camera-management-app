@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786409975264910",
+      "board": "7d53dL31ioV",
+      "driver": "PHILLIPPO, DOUGLAS J",
+      "driverId": "14e19242-26cd-461a-ae24-34e9b3fda1d8",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6298246367:  Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6b9f7d4a-96eb-4f9e-9b7e-bbac320ec35d.mp4",
+      "ts": 1786409975264,
+      "synced": false
+    },
+    {
       "id": "L1786409677819879",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -41118,5 +41131,5 @@
     "e9276237-3c0c-4dd1-9986-699e32e40e3c",
     "ffcd1a5b-f92b-4419-8f73-b165afb648e3"
   ],
-  "_ts": "2026-08-11T00:54:40.616Z"
+  "_ts": "2026-08-11T00:59:35.319Z"
 }
