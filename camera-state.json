@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786460474758732",
+      "board": "UKkbYDchPMh",
+      "driver": "Johnny Stephens",
+      "driverId": "0e88cf87-ab63-47ee-8724-81990db04dae",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Driver looking down on phone-not wearing seatbelt-fails to maintain lane-car coming other direction \nhttps://app.estrack.com/#/camera/events/6a79fa57a714ca9100c164df",
+      "ts": 1786460474758,
+      "synced": false
+    },
+    {
       "id": "L1786452041127409",
       "board": "ebSND1QoyBs",
       "driver": "Charles Smith",
@@ -42254,5 +42267,5 @@
     "05521af2-bef7-47b8-b036-c6acbc9923cc",
     "006d31a4-f14c-4802-99d2-cac6c6f1494e"
   ],
-  "_ts": "2026-08-11T14:52:20.049Z"
+  "_ts": "2026-08-11T15:01:14.806Z"
 }
