@@ -362,8 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance",
       "ts": 1786492666323,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d1709ca5-d312-42b2-8016-94aad2921fbb"
     },
     {
       "id": "L1786492622928168",
@@ -406,9 +407,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1786492507939,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a497b6d9-1375-4881-ab00-57fd68149ae0"
     },
     {
       "id": "L1786492206809551",
@@ -42472,7 +42473,9 @@
     "159dad2d-006b-4de3-8cb7-4989786afd3e",
     "7e389b39-f0b6-4b41-b580-5f52d435fdb9",
     "e4ca806e-94d2-4d18-b1b6-04e87e4afef5",
-    "d59c8ba9-5f16-45f4-b484-50179fea3811"
+    "d59c8ba9-5f16-45f4-b484-50179fea3811",
+    "d1709ca5-d312-42b2-8016-94aad2921fbb",
+    "a497b6d9-1375-4881-ab00-57fd68149ae0"
   ],
-  "_ts": "2026-08-12T00:04:15.941Z"
+  "_ts": "2026-08-12T00:04:18.228Z"
 }
