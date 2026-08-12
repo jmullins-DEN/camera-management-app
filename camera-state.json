@@ -362,7 +362,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 427738886; labeled as Hard braking; camera exception\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/01b135fb-60cf-4caa-a318-541f8339350b.mp4\n",
       "ts": 1786536445454,
-      "synced": false
+      "synced": true,
+      "infItemId": "bfbc7e9c-1a83-4dcb-bf88-289252f04f62",
+      "syncError": null
     },
     {
       "id": "L1786536291918202",
@@ -42952,7 +42954,8 @@
     "bb685062-e6a7-4b82-a263-10c3875d20ec",
     "b41dafa6-3336-4cb8-af89-6807e341d316",
     "c19e7f4a-0b9b-4d75-9629-1af8e2d8d81c",
-    "5efaef3e-6163-49ce-8afe-ab5fd9c6f0f2"
+    "5efaef3e-6163-49ce-8afe-ab5fd9c6f0f2",
+    "bfbc7e9c-1a83-4dcb-bf88-289252f04f62"
   ],
-  "_ts": "2026-08-12T12:07:25.506Z"
+  "_ts": "2026-08-12T12:07:28.277Z"
 }
