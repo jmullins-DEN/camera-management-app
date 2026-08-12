@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786578505094895",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Bill Mayville",
+      "driverId": "faeb2fb6-b5c0-44b0-a06b-98e4e32207aa",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-12",
+      "behavior": "U-Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1247635219318734848: U-turn/Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d6ca3eed-9cb9-40d0-ab09-8777d3c39e1d.mp4",
+      "ts": 1786578505094,
+      "synced": false
+    },
+    {
       "id": "L1786551324963646",
       "board": "UKkbYDchPMh",
       "driver": "Kristopher Reasons",
@@ -43597,5 +43610,5 @@
     "4496fcc9-7507-45d8-a32c-3090601032b9",
     "01bc2514-b7dd-4df4-9bf9-8c1d08746efb"
   ],
-  "_ts": "2026-08-12T23:45:17.350Z"
+  "_ts": "2026-08-12T23:48:25.147Z"
 }
