@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786540966154581",
+      "board": "xMfRLnqAN7y",
+      "driver": "Ryan Durrence",
+      "driverId": "019ef043-60c2-7796-aaa8-8bf92995fa58",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; possible phone",
+      "ts": 1786540966154,
+      "synced": false
+    },
+    {
       "id": "L1786540828335193",
       "board": "YfVHuM3X87v",
       "driver": "Charles Jefride",
@@ -43425,5 +43438,5 @@
     "3729ad9d-4ca5-4a07-9f3a-aab9676c12c8",
     "338413c5-a494-4c67-a651-f966d96bcc62"
   ],
-  "_ts": "2026-08-12T13:20:30.908Z"
+  "_ts": "2026-08-12T13:22:46.203Z"
 }
