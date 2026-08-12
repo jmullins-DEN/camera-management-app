@@ -362,7 +362,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 427509307; following too close; aggressive driving\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4ee63dad-20a6-468e-96d6-2f39bde29ccd.mp4",
       "ts": 1786536291918,
-      "synced": false
+      "synced": true,
+      "infItemId": "5efaef3e-6163-49ce-8afe-ab5fd9c6f0f2",
+      "syncError": null
     },
     {
       "id": "L1786536141421694",
@@ -42936,7 +42938,8 @@
     "0faf9862-7f0f-4d24-bcdb-8444c6370f14",
     "bb685062-e6a7-4b82-a263-10c3875d20ec",
     "b41dafa6-3336-4cb8-af89-6807e341d316",
-    "c19e7f4a-0b9b-4d75-9629-1af8e2d8d81c"
+    "c19e7f4a-0b9b-4d75-9629-1af8e2d8d81c",
+    "5efaef3e-6163-49ce-8afe-ab5fd9c6f0f2"
   ],
-  "_ts": "2026-08-12T12:04:51.967Z"
+  "_ts": "2026-08-12T12:04:55.235Z"
 }
