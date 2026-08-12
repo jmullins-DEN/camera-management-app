@@ -362,7 +362,8 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1786495106146,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786494944794790",
@@ -42737,5 +42738,5 @@
     "4729706b-f0fa-4759-9664-935ebb83601b",
     "9d9bc6b9-37a8-4c77-afad-46259658aeea"
   ],
-  "_ts": "2026-08-12T00:38:26.181Z"
+  "_ts": "2026-08-12T00:38:28.904Z"
 }
