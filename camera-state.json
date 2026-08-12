@@ -542,8 +542,9 @@
       "coaching": "Face to Face",
       "notes": "67 in 55",
       "ts": 1786540193056,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "41354868-280a-4bde-8ac2-66274682b57f"
     },
     {
       "id": "L1786540153569949",
@@ -631,8 +632,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 1247227505908285440; hard brake; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fd9973b9-480c-4b45-9375-2caa80629e6b.mp4",
       "ts": 1786539903125,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "175b9f3a-bc2c-4f3b-b747-de6e4f8dd8bf"
     },
     {
       "id": "L1786539486477982",
@@ -43523,7 +43525,9 @@
     "ad524b04-09d7-4309-ad64-bde446c0f744",
     "5740480d-16e4-4100-a963-bd4d8cf0a71f",
     "8da60106-74a7-471e-be23-23daef226e44",
-    "63183db6-0a7e-47ca-8e0a-cb639ece014a"
+    "63183db6-0a7e-47ca-8e0a-cb639ece014a",
+    "41354868-280a-4bde-8ac2-66274682b57f",
+    "175b9f3a-bc2c-4f3b-b747-de6e4f8dd8bf"
   ],
-  "_ts": "2026-08-12T15:58:06.113Z"
+  "_ts": "2026-08-12T15:58:08.724Z"
 }
