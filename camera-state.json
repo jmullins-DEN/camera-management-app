@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178653605270765",
+      "board": "8BUntjK1TqV",
+      "driver": "Walker, Darien",
+      "driverId": "019e40d8-2d16-7431-9372-f5acb1e77ffb",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6304734697; 66 in 55\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/729825b0-58c7-4469-8785-51c18c583436.mp4\n",
+      "ts": 1786536052707,
+      "synced": false
+    },
+    {
       "id": "L1786535960244922",
       "board": "8BUntjK1TqV",
       "driver": "Ramirez, Cristian",
@@ -42893,5 +42906,5 @@
     "0faf9862-7f0f-4d24-bcdb-8444c6370f14",
     "bb685062-e6a7-4b82-a263-10c3875d20ec"
   ],
-  "_ts": "2026-08-12T11:59:23.239Z"
+  "_ts": "2026-08-12T12:00:52.758Z"
 }
