@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786536445454424",
+      "board": "5gVKeGRDf8U",
+      "driver": "Mason Douglas",
+      "driverId": "2f919a72-90f9-496e-ac9d-1bb31eb29372",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 427738886; labeled as Hard braking; camera exception\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/01b135fb-60cf-4caa-a318-541f8339350b.mp4\n",
+      "ts": 1786536445454,
+      "synced": false
+    },
+    {
       "id": "L1786536291918202",
       "board": "5gVKeGRDf8U",
       "driver": "William Davis",
@@ -42941,5 +42954,5 @@
     "c19e7f4a-0b9b-4d75-9629-1af8e2d8d81c",
     "5efaef3e-6163-49ce-8afe-ab5fd9c6f0f2"
   ],
-  "_ts": "2026-08-12T12:04:55.235Z"
+  "_ts": "2026-08-12T12:07:25.506Z"
 }
