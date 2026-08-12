@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786532727528533",
+      "board": "KYqKJWuumPm",
+      "driver": "Bradley Ostling",
+      "driverId": "019dd5fd-778b-7109-9ee6-0835c4597112",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474982794920-1786501684632:  Phone distraction \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e3dc1c8b-deab-459f-b865-ba312e978147.mp4",
+      "ts": 1786532727528,
+      "synced": false
+    },
+    {
       "id": "L1786496216880604",
       "board": "AKJSkJj6Ch4",
       "driver": "Joey Bybee",
@@ -42840,5 +42853,5 @@
     "8f4b9ba9-8d93-4579-88f9-b12ef24d4c22",
     "97078670-8d78-43ec-8638-c38b6b4ddd9a"
   ],
-  "_ts": "2026-08-12T11:04:34.679Z"
+  "_ts": "2026-08-12T11:05:27.585Z"
 }
