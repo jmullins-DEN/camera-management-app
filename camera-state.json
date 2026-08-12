@@ -452,8 +452,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1786495106146,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "8f4b9ba9-8d93-4579-88f9-b12ef24d4c22"
     },
     {
       "id": "L1786494944794790",
@@ -511,8 +512,9 @@
       "coaching": "Face to Face",
       "notes": "Rolling Stop",
       "ts": 1786494687006,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "97078670-8d78-43ec-8638-c38b6b4ddd9a"
     },
     {
       "id": "L1786494542838230",
@@ -42834,7 +42836,9 @@
     "9dfc95c2-2e00-4981-8016-cab810122933",
     "721c4d41-4f4f-4e4f-ba23-919312f7bfb8",
     "ae69ef1f-2130-4121-8a26-fada24d7756e",
-    "00bec7f7-3f92-4fe3-8677-e21a7d63d45e"
+    "00bec7f7-3f92-4fe3-8677-e21a7d63d45e",
+    "8f4b9ba9-8d93-4579-88f9-b12ef24d4c22",
+    "97078670-8d78-43ec-8638-c38b6b4ddd9a"
   ],
-  "_ts": "2026-08-12T11:04:30.038Z"
+  "_ts": "2026-08-12T11:04:32.172Z"
 }
