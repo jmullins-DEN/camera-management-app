@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786533370883142",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Mark Cano",
+      "driverId": "d8ce6fca-ad6f-444f-9207-46b75cb4d81e",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-12",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 1247399851101159424:  Stop Sign\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1137585d-a4be-40b8-b8ee-4f29e14b075b.mp4",
+      "ts": 1786533370883,
+      "synced": false
+    },
+    {
       "id": "L1786532727528533",
       "board": "KYqKJWuumPm",
       "driver": "Bradley Ostling",
@@ -42856,5 +42869,5 @@
     "97078670-8d78-43ec-8638-c38b6b4ddd9a",
     "fee7c0a2-3ae5-4aa0-914d-b216806357df"
   ],
-  "_ts": "2026-08-12T11:05:30.149Z"
+  "_ts": "2026-08-12T11:16:10.929Z"
 }
