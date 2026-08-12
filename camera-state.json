@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786536291918202",
+      "board": "5gVKeGRDf8U",
+      "driver": "William Davis",
+      "driverId": "916ba624-793b-42cf-9cb5-6f7de228854b",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 427509307; following too close; aggressive driving\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4ee63dad-20a6-468e-96d6-2f39bde29ccd.mp4",
+      "ts": 1786536291918,
+      "synced": false
+    },
+    {
       "id": "L1786536141421694",
       "board": "8BUntjK1TqV",
       "driver": "Contreras, Olegario",
@@ -42925,5 +42938,5 @@
     "b41dafa6-3336-4cb8-af89-6807e341d316",
     "c19e7f4a-0b9b-4d75-9629-1af8e2d8d81c"
   ],
-  "_ts": "2026-08-12T12:02:24.395Z"
+  "_ts": "2026-08-12T12:04:51.967Z"
 }
