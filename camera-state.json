@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786540262202219",
+      "board": "XVLVu2Du8hc",
+      "driver": "kali Kaufusi",
+      "driverId": "019f3f4c-111c-7289-b6f3-78e05c46ef3a",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "68 in 50",
+      "ts": 1786540262202,
+      "synced": false
+    },
+    {
       "id": "L1786540219524841",
       "board": "XVLVu2Du8hc",
       "driver": "Aaron Mutulo",
@@ -43347,5 +43360,5 @@
     "25ba12d4-bf31-4a84-ba39-cc3f73fb55ec",
     "d5e4e9e0-fbef-4382-b634-acfd514be274"
   ],
-  "_ts": "2026-08-12T13:10:22.424Z"
+  "_ts": "2026-08-12T13:11:02.254Z"
 }
