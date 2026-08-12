@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786540611175748",
+      "board": "YfVHuM3X87v",
+      "driver": "Richard Mire",
+      "driverId": "692796af-adb0-4839-b924-65c4e91a78fc",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "stop light violation; distracted driving; near miss",
+      "ts": 1786540611175,
+      "synced": false
+    },
+    {
       "id": "L1786540293851726",
       "board": "XVLVu2Du8hc",
       "driver": "Kyle Curtis",
@@ -43379,5 +43392,5 @@
     "71dd2c45-5fb8-4146-b5c0-f87640ec726f",
     "3a1576f6-50fe-4e98-820b-30a52907282d"
   ],
-  "_ts": "2026-08-12T13:11:36.867Z"
+  "_ts": "2026-08-12T13:16:51.229Z"
 }
