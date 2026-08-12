@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786494847149378",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-08-10",
+      "reviewed": "2026-08-11",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1786494847149,
+      "synced": false
+    },
+    {
       "id": "L1786494758598424",
       "board": "8gejhhHJj4e",
       "driver": "Adolfo Ortiz",
@@ -42692,5 +42705,5 @@
     "cd9b668f-b9b1-490d-b0e7-3d96caac46b0",
     "fd58c2d6-5078-41ef-a077-71dc560d6f16"
   ],
-  "_ts": "2026-08-12T00:32:42.499Z"
+  "_ts": "2026-08-12T00:34:07.186Z"
 }
