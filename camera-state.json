@@ -452,9 +452,9 @@
       "coaching": "Coaching Notes",
       "notes": "Red Light Violation",
       "ts": 1786492109518,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "0adb3fe1-b7d5-4971-a552-85342e086b55"
     },
     {
       "id": "L1786491926248156",
@@ -42475,7 +42475,8 @@
     "e4ca806e-94d2-4d18-b1b6-04e87e4afef5",
     "d59c8ba9-5f16-45f4-b484-50179fea3811",
     "d1709ca5-d312-42b2-8016-94aad2921fbb",
-    "a497b6d9-1375-4881-ab00-57fd68149ae0"
+    "a497b6d9-1375-4881-ab00-57fd68149ae0",
+    "0adb3fe1-b7d5-4971-a552-85342e086b55"
   ],
-  "_ts": "2026-08-12T00:04:18.228Z"
+  "_ts": "2026-08-12T00:04:20.189Z"
 }
