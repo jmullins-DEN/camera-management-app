@@ -352,6 +352,34 @@
   },
   "local": [
     {
+      "id": "L1786541365672935",
+      "board": "ebSND1QoyBs",
+      "driver": "Mark Varela",
+      "driverId": "33022a64-23ca-4ed3-a310-5bd6cdc1e921",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1786541365672,
+      "synced": false
+    },
+    {
+      "id": "L1786541328803304",
+      "board": "ebSND1QoyBs",
+      "driver": "Roderick Bush",
+      "driverId": "a184bb6e-8bb7-4db9-8bde-7e8bebbc604b",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera not secured",
+      "ts": 1786541328803,
+      "synced": true,
+      "infItemId": "5980a073-f5aa-497e-95c3-999e67e6bb7a",
+      "syncError": null
+    },
+    {
       "id": "L1786541163513920",
       "board": "YJNwKvzFhkj",
       "driver": "Bertram Williams",
@@ -362,7 +390,8 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy",
       "ts": 1786541163513,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786541011795808",
@@ -43468,7 +43497,8 @@
     "3729ad9d-4ca5-4a07-9f3a-aab9676c12c8",
     "338413c5-a494-4c67-a651-f966d96bcc62",
     "219ace92-cac5-4b3c-8abc-5b3356059942",
-    "40bedd47-6480-45f6-9254-1944ea81ff01"
+    "40bedd47-6480-45f6-9254-1944ea81ff01",
+    "5980a073-f5aa-497e-95c3-999e67e6bb7a"
   ],
-  "_ts": "2026-08-12T13:26:03.563Z"
+  "_ts": "2026-08-12T13:29:25.722Z"
 }
