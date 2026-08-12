@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786536888702149",
+      "board": "4rNDuSrCaap",
+      "driver": "Joseph Combs",
+      "driverId": "1ede1849-a120-4b16-9bbb-a30e159bf096",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 427778724; following too close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e081dcc1-aac1-45ec-a945-c1fdb83e7d09.mp4",
+      "ts": 1786536888702,
+      "synced": false
+    },
+    {
       "id": "L1786536753077506",
       "board": "4rNDuSrCaap",
       "driver": "Grant Betts-Norman",
@@ -43005,5 +43018,5 @@
     "dd2061a9-177e-48b0-86a5-4e1f90332e32",
     "0c20100c-2fd0-4276-91fb-a2213b95ed19"
   ],
-  "_ts": "2026-08-12T12:12:35.540Z"
+  "_ts": "2026-08-12T12:14:48.748Z"
 }
