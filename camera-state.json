@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786541163513920",
+      "board": "YJNwKvzFhkj",
+      "driver": "Bertram Williams",
+      "driverId": "019de571-5de8-7113-9a1f-9a3481db83e8",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1786541163513,
+      "synced": false
+    },
+    {
       "id": "L1786541011795808",
       "board": "xMfRLnqAN7y",
       "driver": "Paul Hyde",
@@ -43457,5 +43470,5 @@
     "219ace92-cac5-4b3c-8abc-5b3356059942",
     "40bedd47-6480-45f6-9254-1944ea81ff01"
   ],
-  "_ts": "2026-08-12T13:23:34.235Z"
+  "_ts": "2026-08-12T13:26:03.563Z"
 }
