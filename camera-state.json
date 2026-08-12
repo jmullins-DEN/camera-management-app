@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "rolling stop ",
       "ts": 1786541011795,
-      "synced": false
+      "synced": true,
+      "infItemId": "40bedd47-6480-45f6-9254-1944ea81ff01",
+      "syncError": null
     },
     {
       "id": "L1786540966154581",
@@ -43452,7 +43454,8 @@
     "3a1576f6-50fe-4e98-820b-30a52907282d",
     "3729ad9d-4ca5-4a07-9f3a-aab9676c12c8",
     "338413c5-a494-4c67-a651-f966d96bcc62",
-    "219ace92-cac5-4b3c-8abc-5b3356059942"
+    "219ace92-cac5-4b3c-8abc-5b3356059942",
+    "40bedd47-6480-45f6-9254-1944ea81ff01"
   ],
-  "_ts": "2026-08-12T13:23:31.845Z"
+  "_ts": "2026-08-12T13:23:34.235Z"
 }
