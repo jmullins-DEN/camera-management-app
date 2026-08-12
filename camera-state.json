@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786539903125319",
+      "board": "kdYbqScWu22",
+      "driver": "Efrain Leon",
+      "driverId": "019febc8-96b2-76fb-80a0-235320e20e82",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1247227505908285440; hard brake; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fd9973b9-480c-4b45-9375-2caa80629e6b.mp4",
+      "ts": 1786539903125,
+      "synced": false
+    },
+    {
       "id": "L1786539486477982",
       "board": "ioWX9hneUsk",
       "driver": "Alexis Vega",
@@ -43225,5 +43238,5 @@
     "c2d9b6c3-aabf-4667-81db-369fc104f83e",
     "0028a8fd-870c-419f-aab7-d9492fb07ab7"
   ],
-  "_ts": "2026-08-12T12:58:09.232Z"
+  "_ts": "2026-08-12T13:05:03.172Z"
 }
