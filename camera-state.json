@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Phone Distraction\n",
       "ts": 1786494351358,
-      "synced": false
+      "synced": true,
+      "infItemId": "bad27519-60b4-40df-b7ff-3775c31ed04e",
+      "syncError": null
     },
     {
       "id": "L1786494269202603",
@@ -42628,5 +42630,5 @@
     "2d85718c-05a3-4bba-825e-6528644d2cd0",
     "bad27519-60b4-40df-b7ff-3775c31ed04e"
   ],
-  "_ts": "2026-08-12T00:25:51.396Z"
+  "_ts": "2026-08-12T00:25:53.636Z"
 }
