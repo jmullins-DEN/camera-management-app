@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786651962718574",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Ben McGough",
+      "driverId": "579761a2-645c-48d4-80b1-f1608ea37075",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1786651962718,
+      "synced": false
+    },
+    {
       "id": "L1786651732478708",
       "board": "6aE7wVSK5Jq",
       "driver": "Colby Miller",
@@ -45110,5 +45123,5 @@
     "36e46d56-9826-40a9-9666-299af419ed90",
     "ab547712-ed5e-4f71-8e55-87a77a71e953"
   ],
-  "_ts": "2026-08-13T20:08:58.553Z"
+  "_ts": "2026-08-13T20:12:42.758Z"
 }
