@@ -352,6 +352,49 @@
   },
   "local": [
     {
+      "id": "L1786588632702333",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-12",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995966045-1786558403447\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/55a0aba8-16d5-4ce1-99c0-f1e682760e3e.mp4",
+      "ts": 1786588632702,
+      "synced": false
+    },
+    {
+      "id": "L1786588374283121",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Riley",
+      "driverId": "ac24ef3b-c620-445a-a2d7-cec0d8211e69",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-12",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995752151-1786561983377\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5b72451a-d5a3-4253-9e11-12ba6d855bdf.mp4",
+      "ts": 1786588374283,
+      "synced": true,
+      "infItemId": "77f8dee7-94d9-4c9f-b5f9-98cf073800f9",
+      "syncError": null
+    },
+    {
+      "id": "L1786588255624301",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Josh Dobney",
+      "driverId": "019ef636-b886-763b-bb8f-e38427e5bbb7",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-12",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995831300-1786548098951\nRolling Stop; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/264a2e0f-2d24-4be3-aed6-caae50e11c29.mp4",
+      "ts": 1786588255624,
+      "synced": true,
+      "infItemId": "159d413d-eaf9-49bb-83fa-97225b46f23a",
+      "syncError": null
+    },
+    {
       "id": "L1786588125097684",
       "board": "AKJSkJj6Ch4",
       "driver": "Josh Dobney",
@@ -43227,7 +43270,9 @@
     "47900bd9-c863-436c-9374-e08e4a1430b9",
     "cb25332d-9233-4972-a35b-53f8ce062b30",
     "d6bbc850-6cab-40cf-a953-8763b21e3bd3",
-    "53587821-60c0-46d3-aa1e-b1ac7341dfd2"
+    "53587821-60c0-46d3-aa1e-b1ac7341dfd2",
+    "159d413d-eaf9-49bb-83fa-97225b46f23a",
+    "77f8dee7-94d9-4c9f-b5f9-98cf073800f9"
   ],
-  "_ts": "2026-08-13T02:28:47.730Z"
+  "_ts": "2026-08-13T02:37:12.740Z"
 }
