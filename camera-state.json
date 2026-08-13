@@ -352,6 +352,21 @@
   },
   "local": [
     {
+      "id": "L1786580853953361",
+      "board": "KYqKJWuumPm",
+      "driver": "Ryan Flanders",
+      "driverId": "019dd600-7de9-765e-8b3a-7c8308a3cf72",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474980701050-1786555748611:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9cfa46d6-12b1-4e58-a381-e339d0378135.mp4",
+      "ts": 1786580853954,
+      "synced": true,
+      "infItemId": "a47ce958-6362-4bc2-8ea3-146e6f67bfad",
+      "syncError": null
+    },
+    {
       "id": "L178658079075767",
       "board": "aRcazTLT9iM",
       "driver": "Skyler Marshall",
@@ -364,6 +379,36 @@
       "ts": 1786580790757,
       "synced": false,
       "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
+      "id": "L1786580291388485",
+      "board": "KYqKJWuumPm",
+      "driver": "Alexander Williams",
+      "driverId": "019dd5fc-fe7b-75b1-a1cb-4e34801f6aec",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474980603986-1786535046034:  Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/df47c633-41c2-4471-9647-6f09ccfa7193.mp4",
+      "ts": 1786580291388,
+      "synced": true,
+      "infItemId": "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
+      "syncError": null
+    },
+    {
+      "id": "L1786580164387637",
+      "board": "4rNDuSrCaap",
+      "driver": "Unassigned",
+      "driverId": "fe8cbc13-5059-44ee-b9f1-8016a337a940",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1597682725; following too close; vehicle # An 108\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7e23d292-ff2c-4c17-9d65-2641598285f4.mp4",
+      "ts": 1786580164387,
+      "synced": true,
+      "infItemId": "af3efe32-d46e-401c-8070-c9ac9751981a",
+      "syncError": null
     },
     {
       "id": "L1786580057305265",
@@ -43821,6 +43866,7 @@
     "4496fcc9-7507-45d8-a32c-3090601032b9",
     "01bc2514-b7dd-4df4-9bf9-8c1d08746efb",
     "b9fb78ff-39be-45fc-9833-8927e688eaa8",
+    "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
     "771db5aa-a77b-4828-92e8-900cb1f7eef3",
     "9425485f-f07d-4837-8fb0-f598e531e154",
     "152e9a50-07f6-4872-8096-22d1ecf39c92",
@@ -43833,7 +43879,9 @@
     "47532c70-a302-4063-be08-9ad549101b94",
     "2a95a473-9351-4cb3-a2ea-a86408163084",
     "6ba28353-62d8-4dca-b407-1aec55b8b773",
-    "439a4f94-aa68-434d-88d7-1f7de7be78cc"
+    "439a4f94-aa68-434d-88d7-1f7de7be78cc",
+    "af3efe32-d46e-401c-8070-c9ac9751981a",
+    "a47ce958-6362-4bc2-8ea3-146e6f67bfad"
   ],
-  "_ts": "2026-08-13T00:26:33.351Z"
+  "_ts": "2026-08-13T00:27:37.426Z"
 }
