@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 2315 half ton spare\nPhone Distraction",
       "ts": 1786656178201,
-      "synced": false
+      "synced": true,
+      "infItemId": "5978ff54-e334-43c9-a7ea-e19ca30fb533",
+      "syncError": null
     },
     {
       "id": "L1786655997650128",
@@ -45333,5 +45335,5 @@
     "f345d3e8-c9cd-4380-a8bc-a00cb4782748",
     "5978ff54-e334-43c9-a7ea-e19ca30fb533"
   ],
-  "_ts": "2026-08-13T21:22:58.288Z"
+  "_ts": "2026-08-13T21:23:01.211Z"
 }
