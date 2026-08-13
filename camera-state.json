@@ -1052,9 +1052,9 @@
       "coaching": "Face to Face",
       "notes": "Following Distance\n",
       "ts": 1786583828739,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "afb039d5-6507-4eba-8755-ce3276cc3a57"
     },
     {
       "id": "L1786583737651803",
@@ -1187,9 +1187,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1598032468; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4d57585a-ade2-41a0-bfd1-b7c732182c75.mp4",
       "ts": 1786581094869,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "20971a5b-380f-486a-8165-a0c15b7942ef"
     },
     {
       "id": "L1786581051292759",
@@ -44855,7 +44855,9 @@
     "dcbfd268-21d4-421f-a235-fb39f534acd9",
     "1f2bee39-506f-42a1-913c-69c0f2fee517",
     "3c57ac04-5b3a-4acc-a9e1-97c8f4438e12",
-    "19ae334b-f36f-432b-8895-a19c6dbefd1b"
+    "19ae334b-f36f-432b-8895-a19c6dbefd1b",
+    "afb039d5-6507-4eba-8755-ce3276cc3a57",
+    "20971a5b-380f-486a-8165-a0c15b7942ef"
   ],
-  "_ts": "2026-08-13T16:38:49.592Z"
+  "_ts": "2026-08-13T16:38:51.589Z"
 }
