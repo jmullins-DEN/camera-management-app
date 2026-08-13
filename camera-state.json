@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178665555081118",
+      "board": "8gejhhHJj4e",
+      "driver": "Arturo Amaya",
+      "driverId": "019dd998-4973-7186-850b-5874a75598f0",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1786655550811,
+      "synced": false
+    },
+    {
       "id": "L1786655512357126",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -45210,5 +45223,5 @@
     "8b372759-e428-4081-b3b1-16b6f6cd85bc",
     "e6572bc6-6684-41fe-a518-97060d2ba306"
   ],
-  "_ts": "2026-08-13T21:11:55.448Z"
+  "_ts": "2026-08-13T21:12:30.916Z"
 }
