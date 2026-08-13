@@ -352,6 +352,21 @@
   },
   "local": [
     {
+      "id": "L1786581275985321",
+      "board": "aRcazTLT9iM",
+      "driver": "Steven Vantrease",
+      "driverId": "66090392-1a7d-468e-8066-33d1460c82f8",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1598305030; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7d937285-f622-4307-ad95-2ae6a01e12b6.mp4",
+      "ts": 1786581275985,
+      "synced": true,
+      "infItemId": "abd17f8a-c7d0-435a-976f-36ec715698d9",
+      "syncError": null
+    },
+    {
       "id": "L1786581221159486",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -364,6 +379,21 @@
       "ts": 1786581221159,
       "synced": true,
       "infItemId": "a524bd94-d580-40e8-8bc7-edb5741685eb",
+      "syncError": null
+    },
+    {
+      "id": "L1786581189449851",
+      "board": "aRcazTLT9iM",
+      "driver": "Patrick Woods",
+      "driverId": "35846d91-92e7-4f31-bd42-3fc8d10cb359",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1598090998; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b01780a5-5639-4c40-b662-565741adccca.mp4",
+      "ts": 1786581189449,
+      "synced": true,
+      "infItemId": "249a47a0-5114-476f-9cd8-09fb1b0f50fc",
       "syncError": null
     },
     {
@@ -393,7 +423,8 @@
       "notes": "\nAlert 1598032468; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4d57585a-ade2-41a0-bfd1-b7c732182c75.mp4",
       "ts": 1786581094869,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786581051292759",
@@ -43986,7 +44017,6 @@
     "4496fcc9-7507-45d8-a32c-3090601032b9",
     "01bc2514-b7dd-4df4-9bf9-8c1d08746efb",
     "b9fb78ff-39be-45fc-9833-8927e688eaa8",
-    "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
     "771db5aa-a77b-4828-92e8-900cb1f7eef3",
     "9425485f-f07d-4837-8fb0-f598e531e154",
     "152e9a50-07f6-4872-8096-22d1ecf39c92",
@@ -44000,15 +44030,18 @@
     "2a95a473-9351-4cb3-a2ea-a86408163084",
     "6ba28353-62d8-4dca-b407-1aec55b8b773",
     "439a4f94-aa68-434d-88d7-1f7de7be78cc",
-    "af3efe32-d46e-401c-8070-c9ac9751981a",
-    "a47ce958-6362-4bc2-8ea3-146e6f67bfad",
-    "a524bd94-d580-40e8-8bc7-edb5741685eb",
     "74075cfd-9760-4128-90bb-8e116cdfb3d5",
     "e9f48bdf-4711-412a-9e20-d83eaf950532",
+    "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
+    "af3efe32-d46e-401c-8070-c9ac9751981a",
+    "a47ce958-6362-4bc2-8ea3-146e6f67bfad",
     "d1ef180e-11cf-4d44-8c06-d56e91cea7f6",
     "20249f14-9935-4015-b641-f05c355f4232",
     "30d29743-99e0-4b93-ab7c-457f93c0544d",
-    "068a3687-9ec7-450b-b2c5-0efa1170903e"
+    "068a3687-9ec7-450b-b2c5-0efa1170903e",
+    "249a47a0-5114-476f-9cd8-09fb1b0f50fc",
+    "abd17f8a-c7d0-435a-976f-36ec715698d9",
+    "a524bd94-d580-40e8-8bc7-edb5741685eb"
   ],
-  "_ts": "2026-08-13T00:33:45.596Z"
+  "_ts": "2026-08-13T00:34:38.198Z"
 }
