@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786626254448124",
+      "board": "YJNwKvzFhkj",
+      "driver": "Brandon Bradford",
+      "driverId": "019de571-9b44-708d-ac6c-bb75bd934615",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; loses lane",
+      "ts": 1786626254448,
+      "synced": false
+    },
+    {
       "id": "L1786626172859224",
       "board": "YJNwKvzFhkj",
       "driver": "Simuel Hudson",
@@ -44726,5 +44739,5 @@
     "cb472953-b1d4-423f-9e77-664dc8aad6e3",
     "42c67744-3d63-4661-b843-484738637668"
   ],
-  "_ts": "2026-08-13T13:02:55.176Z"
+  "_ts": "2026-08-13T13:04:14.496Z"
 }
