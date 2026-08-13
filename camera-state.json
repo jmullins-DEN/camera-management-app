@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786627058148929",
+      "board": "ebSND1QoyBs",
+      "driver": "Karon King",
+      "driverId": "65f4a1bd-f31e-4cfe-8a99-311af3253972",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "hard brake; space mismanagement",
+      "ts": 1786627058148,
+      "synced": false
+    },
+    {
       "id": "L1786626776459674",
       "board": "ioWX9hneUsk",
       "driver": "Dustin Smith",
@@ -44806,5 +44819,5 @@
     "42c737f9-e353-4a43-9562-358cc707f5ee",
     "0a3a6041-f008-4de3-a0a5-2512c15e6820"
   ],
-  "_ts": "2026-08-13T13:12:59.673Z"
+  "_ts": "2026-08-13T13:17:38.198Z"
 }
