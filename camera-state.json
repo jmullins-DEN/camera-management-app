@@ -362,8 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "hard brake; space mismanagement",
       "ts": 1786627058148,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "71254102-a891-4a4a-b81a-f33b7a7c2e33"
     },
     {
       "id": "L1786626776459674",
@@ -44827,7 +44828,8 @@
     "0b8938f7-c238-4905-8fe5-d8974615a780",
     "5121aa98-a1dd-494d-9e5a-cf6eab4ae92a",
     "42c737f9-e353-4a43-9562-358cc707f5ee",
-    "0a3a6041-f008-4de3-a0a5-2512c15e6820"
+    "0a3a6041-f008-4de3-a0a5-2512c15e6820",
+    "71254102-a891-4a4a-b81a-f33b7a7c2e33"
   ],
-  "_ts": "2026-08-13T15:45:07.787Z"
+  "_ts": "2026-08-13T15:45:11.110Z"
 }
