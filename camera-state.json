@@ -362,7 +362,9 @@
       "coaching": "Face to Face",
       "notes": "following too close",
       "ts": 1786625862169,
-      "synced": false
+      "synced": true,
+      "infItemId": "2bfe7e71-74d5-45b1-a1f9-a343a21e55e1",
+      "syncError": null
     },
     {
       "id": "L1786625812792648",
@@ -44673,7 +44675,8 @@
     "a8f9de17-f475-4a9f-8634-74534b5a4d2a",
     "7be68f89-5c31-48a5-bcca-ac85831bc610",
     "50957d27-1e04-4966-b417-ce7cb21cb240",
-    "d5d5dd45-5446-49f3-a8dd-39aec5e8fe53"
+    "d5d5dd45-5446-49f3-a8dd-39aec5e8fe53",
+    "2bfe7e71-74d5-45b1-a1f9-a343a21e55e1"
   ],
-  "_ts": "2026-08-13T12:57:42.220Z"
+  "_ts": "2026-08-13T12:57:44.741Z"
 }
