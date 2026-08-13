@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786656566006247",
+      "board": "8gejhhHJj4e",
+      "driver": "John Kinney",
+      "driverId": "019b0e57-4d1b-7ddc-8d9d-b1294631231d",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1786656566007,
+      "synced": false
+    },
+    {
       "id": "L1786656178201585",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -45335,5 +45348,5 @@
     "f345d3e8-c9cd-4380-a8bc-a00cb4782748",
     "5978ff54-e334-43c9-a7ea-e19ca30fb533"
   ],
-  "_ts": "2026-08-13T21:23:01.211Z"
+  "_ts": "2026-08-13T21:29:26.073Z"
 }
