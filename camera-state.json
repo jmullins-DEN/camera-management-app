@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786583737651803",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Martinez, Fernandez",
+      "driverId": "33d8c632-79b2-4308-8223-1817b025b4db",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance\n",
+      "ts": 1786583737651,
+      "synced": false
+    },
+    {
       "id": "L1786583623193675",
       "board": "nWRsGRSm2Hn",
       "driver": "Emery, Shane",
@@ -42861,5 +42874,5 @@
     "0faf9862-7f0f-4d24-bcdb-8444c6370f14",
     "1d2cba97-29c1-4ecd-87ec-d40947d80bc2"
   ],
-  "_ts": "2026-08-13T01:13:45.639Z"
+  "_ts": "2026-08-13T01:15:37.687Z"
 }
