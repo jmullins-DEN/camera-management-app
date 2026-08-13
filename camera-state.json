@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "inattentive; loses lane",
       "ts": 1786626254448,
-      "synced": false
+      "synced": true,
+      "infItemId": "e5983cf4-84f2-40b6-b987-fd7fc5e46848",
+      "syncError": null
     },
     {
       "id": "L1786626172859224",
@@ -44737,7 +44739,8 @@
     "2bfe7e71-74d5-45b1-a1f9-a343a21e55e1",
     "2bf15bd5-da58-4472-8bf3-196e54672aa5",
     "cb472953-b1d4-423f-9e77-664dc8aad6e3",
-    "42c67744-3d63-4661-b843-484738637668"
+    "42c67744-3d63-4661-b843-484738637668",
+    "e5983cf4-84f2-40b6-b987-fd7fc5e46848"
   ],
-  "_ts": "2026-08-13T13:04:14.496Z"
+  "_ts": "2026-08-13T13:04:16.687Z"
 }
