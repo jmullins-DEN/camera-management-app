@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 6815 \nPhone Distraction",
       "ts": 1786655997650,
-      "synced": false
+      "synced": true,
+      "infItemId": "5978ff54-e334-43c9-a7ea-e19ca30fb533",
+      "syncError": null
     },
     {
       "id": "L178665593071296",
@@ -45315,7 +45317,8 @@
     "781b2c8b-98ba-4b0e-b4d7-4b85e154e49b",
     "a4f5f187-3824-4b95-8bb9-ab16384afdd0",
     "f28bd831-6e42-4952-868c-3b33373dae4c",
-    "f345d3e8-c9cd-4380-a8bc-a00cb4782748"
+    "f345d3e8-c9cd-4380-a8bc-a00cb4782748",
+    "5978ff54-e334-43c9-a7ea-e19ca30fb533"
   ],
-  "_ts": "2026-08-13T21:19:57.716Z"
+  "_ts": "2026-08-13T21:20:01.440Z"
 }
