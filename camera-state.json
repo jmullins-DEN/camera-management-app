@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a7cf02eb60c756d720a74f4\nDriver has to hard break for car that cuts in front of him and then proceeds to flip off the car FYI ",
       "ts": 1786639342338,
-      "synced": false
+      "synced": true,
+      "infItemId": "e809ec1f-31ee-471e-8d3e-0ddc64eab700",
+      "syncError": null
     },
     {
       "id": "L1786636138922513",
@@ -44871,7 +44873,8 @@
     "19ae334b-f36f-432b-8895-a19c6dbefd1b",
     "afb039d5-6507-4eba-8755-ce3276cc3a57",
     "20971a5b-380f-486a-8165-a0c15b7942ef",
-    "7d6de4c7-4865-4470-9368-1a71701e03a2"
+    "7d6de4c7-4865-4470-9368-1a71701e03a2",
+    "e809ec1f-31ee-471e-8d3e-0ddc64eab700"
   ],
-  "_ts": "2026-08-13T16:42:22.384Z"
+  "_ts": "2026-08-13T16:42:24.672Z"
 }
