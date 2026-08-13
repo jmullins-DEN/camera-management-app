@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Stop Sign Violation",
       "ts": 1786584619016,
-      "synced": false
+      "synced": true,
+      "infItemId": "1a56d3a8-0c17-43cb-b1be-8b99ffbd38c2",
+      "syncError": null
     },
     {
       "id": "L1786584539276566",
@@ -42994,7 +42996,8 @@
     "bec59df2-2604-4104-ad27-9f96bcfe2212",
     "436af9cc-ebdd-4db4-97b8-e5842fd10616",
     "1a606b2b-1c83-4feb-9dbd-2c2b45dafe63",
-    "1f597f78-8703-44cd-8c95-1c1a9e40b2b9"
+    "1f597f78-8703-44cd-8c95-1c1a9e40b2b9",
+    "1a56d3a8-0c17-43cb-b1be-8b99ffbd38c2"
   ],
-  "_ts": "2026-08-13T01:30:19.051Z"
+  "_ts": "2026-08-13T01:30:21.864Z"
 }
