@@ -352,6 +352,21 @@
   },
   "local": [
     {
+      "id": "L178658090965368",
+      "board": "aRcazTLT9iM",
+      "driver": "Tyler Baugh",
+      "driverId": "b22709b6-08c0-4c3d-aef2-31a650f2f509",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1597876258; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/962afaa6-b19b-44ee-b354-cd25497cf3de.mp4\n",
+      "ts": 1786580909654,
+      "synced": true,
+      "infItemId": "e9f48bdf-4711-412a-9e20-d83eaf950532",
+      "syncError": null
+    },
+    {
       "id": "L1786580853953361",
       "board": "KYqKJWuumPm",
       "driver": "Ryan Flanders",
@@ -367,6 +382,21 @@
       "syncError": null
     },
     {
+      "id": "L1786580841008376",
+      "board": "aRcazTLT9iM",
+      "driver": "Eric Howington",
+      "driverId": "8173d7b5-8873-4c48-b58e-ed616136a80a",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1597775050; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f8dd008f-673c-40fa-a8c9-346058a534e7.mp4",
+      "ts": 1786580841008,
+      "synced": true,
+      "infItemId": "74075cfd-9760-4128-90bb-8e116cdfb3d5",
+      "syncError": null
+    },
+    {
       "id": "L178658079075767",
       "board": "aRcazTLT9iM",
       "driver": "Skyler Marshall",
@@ -378,7 +408,8 @@
       "notes": "\nAlert 1597728542; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3f0db933-b015-4970-b150-aadef8456129.mp4\n",
       "ts": 1786580790757,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786580291388485",
@@ -43866,7 +43897,6 @@
     "4496fcc9-7507-45d8-a32c-3090601032b9",
     "01bc2514-b7dd-4df4-9bf9-8c1d08746efb",
     "b9fb78ff-39be-45fc-9833-8927e688eaa8",
-    "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
     "771db5aa-a77b-4828-92e8-900cb1f7eef3",
     "9425485f-f07d-4837-8fb0-f598e531e154",
     "152e9a50-07f6-4872-8096-22d1ecf39c92",
@@ -43880,8 +43910,11 @@
     "2a95a473-9351-4cb3-a2ea-a86408163084",
     "6ba28353-62d8-4dca-b407-1aec55b8b773",
     "439a4f94-aa68-434d-88d7-1f7de7be78cc",
+    "74075cfd-9760-4128-90bb-8e116cdfb3d5",
+    "e9f48bdf-4711-412a-9e20-d83eaf950532",
+    "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
     "af3efe32-d46e-401c-8070-c9ac9751981a",
     "a47ce958-6362-4bc2-8ea3-146e6f67bfad"
   ],
-  "_ts": "2026-08-13T00:27:40.063Z"
+  "_ts": "2026-08-13T00:28:31.858Z"
 }
