@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995714975-1786655189370\nHarsh Brake / Turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a857c1a4-52da-46d6-a648-b6b6335d6b6e.mp4",
       "ts": 1786657915682,
-      "synced": false
+      "synced": true,
+      "infItemId": "fbb3d633-9892-40e4-8d0a-9f20ac892d2c",
+      "syncError": null
     },
     {
       "id": "L1786657143394490",
@@ -45390,7 +45392,8 @@
     "f28bd831-6e42-4952-868c-3b33373dae4c",
     "f345d3e8-c9cd-4380-a8bc-a00cb4782748",
     "5978ff54-e334-43c9-a7ea-e19ca30fb533",
-    "c212755e-958d-4041-81ba-88a35685a299"
+    "c212755e-958d-4041-81ba-88a35685a299",
+    "fbb3d633-9892-40e4-8d0a-9f20ac892d2c"
   ],
-  "_ts": "2026-08-13T21:51:55.778Z"
+  "_ts": "2026-08-13T21:51:58.798Z"
 }
