@@ -362,7 +362,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 6308070098; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fdc05392-c1ce-4a50-a949-01963044761c.mp4\n",
       "ts": 1786626434824,
-      "synced": false
+      "synced": true,
+      "infItemId": "5121aa98-a1dd-494d-9e5a-cf6eab4ae92a",
+      "syncError": null
     },
     {
       "id": "L1786626316667616",
@@ -44769,7 +44771,8 @@
     "cb472953-b1d4-423f-9e77-664dc8aad6e3",
     "42c67744-3d63-4661-b843-484738637668",
     "e5983cf4-84f2-40b6-b987-fd7fc5e46848",
-    "0b8938f7-c238-4905-8fe5-d8974615a780"
+    "0b8938f7-c238-4905-8fe5-d8974615a780",
+    "5121aa98-a1dd-494d-9e5a-cf6eab4ae92a"
   ],
-  "_ts": "2026-08-13T13:07:14.876Z"
+  "_ts": "2026-08-13T13:07:18.118Z"
 }
