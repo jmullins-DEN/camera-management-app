@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786650402946744",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Nick Rodecap",
+      "driverId": "bf2a60df-c3bd-4e62-8d3b-1c2170e287a6",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "SPEEDING\n",
+      "ts": 1786650402946,
+      "synced": false
+    },
+    {
       "id": "L1786650225242585",
       "board": "9RKrQRpDLcr",
       "driver": "Jeremy Myers",
@@ -45066,5 +45079,5 @@
     "d85a2f9f-c555-481e-8ace-64aa531c421f",
     "36e46d56-9826-40a9-9666-299af419ed90"
   ],
-  "_ts": "2026-08-13T19:43:48.452Z"
+  "_ts": "2026-08-13T19:46:42.998Z"
 }
