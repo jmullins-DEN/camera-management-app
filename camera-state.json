@@ -352,6 +352,21 @@
   },
   "local": [
     {
+      "id": "L1786581221159486",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281475000719319-1786561943519:  Truck # 184F550 Hand held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/144b34b9-5e26-4e19-84ca-84066b22e22c.mp4",
+      "ts": 1786581221159,
+      "synced": true,
+      "infItemId": "a524bd94-d580-40e8-8bc7-edb5741685eb",
+      "syncError": null
+    },
+    {
       "id": "L1786581147907164",
       "board": "aRcazTLT9iM",
       "driver": "Brennan Chism",
@@ -43971,6 +43986,7 @@
     "4496fcc9-7507-45d8-a32c-3090601032b9",
     "01bc2514-b7dd-4df4-9bf9-8c1d08746efb",
     "b9fb78ff-39be-45fc-9833-8927e688eaa8",
+    "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
     "771db5aa-a77b-4828-92e8-900cb1f7eef3",
     "9425485f-f07d-4837-8fb0-f598e531e154",
     "152e9a50-07f6-4872-8096-22d1ecf39c92",
@@ -43984,15 +44000,15 @@
     "2a95a473-9351-4cb3-a2ea-a86408163084",
     "6ba28353-62d8-4dca-b407-1aec55b8b773",
     "439a4f94-aa68-434d-88d7-1f7de7be78cc",
-    "74075cfd-9760-4128-90bb-8e116cdfb3d5",
-    "e9f48bdf-4711-412a-9e20-d83eaf950532",
-    "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
     "af3efe32-d46e-401c-8070-c9ac9751981a",
     "a47ce958-6362-4bc2-8ea3-146e6f67bfad",
+    "a524bd94-d580-40e8-8bc7-edb5741685eb",
+    "74075cfd-9760-4128-90bb-8e116cdfb3d5",
+    "e9f48bdf-4711-412a-9e20-d83eaf950532",
     "d1ef180e-11cf-4d44-8c06-d56e91cea7f6",
     "20249f14-9935-4015-b641-f05c355f4232",
     "30d29743-99e0-4b93-ab7c-457f93c0544d",
     "068a3687-9ec7-450b-b2c5-0efa1170903e"
   ],
-  "_ts": "2026-08-13T00:32:31.329Z"
+  "_ts": "2026-08-13T00:33:43.436Z"
 }
