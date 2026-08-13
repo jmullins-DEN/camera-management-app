@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786626316667616",
+      "board": "YJNwKvzFhkj",
+      "driver": "Robert Duvall",
+      "driverId": "019de578-aa30-76af-8ea2-96cf081f6460",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; loses lane",
+      "ts": 1786626316667,
+      "synced": false
+    },
+    {
       "id": "L1786626254448124",
       "board": "YJNwKvzFhkj",
       "driver": "Brandon Bradford",
@@ -44742,5 +44755,5 @@
     "42c67744-3d63-4661-b843-484738637668",
     "e5983cf4-84f2-40b6-b987-fd7fc5e46848"
   ],
-  "_ts": "2026-08-13T13:04:16.687Z"
+  "_ts": "2026-08-13T13:05:16.716Z"
 }
