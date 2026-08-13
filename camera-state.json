@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786657143394490",
+      "board": "8gejhhHJj4e",
+      "driver": "Moses Alvarez",
+      "driverId": "39f4e83b-6257-4e33-a7cd-87238fe0acd6",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "Hard Brake",
+      "ts": 1786657143394,
+      "synced": false
+    },
+    {
       "id": "L1786657042737867",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -45363,5 +45376,5 @@
     "f345d3e8-c9cd-4380-a8bc-a00cb4782748",
     "5978ff54-e334-43c9-a7ea-e19ca30fb533"
   ],
-  "_ts": "2026-08-13T21:37:25.432Z"
+  "_ts": "2026-08-13T21:39:03.450Z"
 }
