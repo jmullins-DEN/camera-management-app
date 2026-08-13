@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178662560571274",
+      "board": "XVLVu2Du8hc",
+      "driver": "Larry Simons",
+      "driverId": "019be2d2-f9b3-7445-b65d-4feb9f8a58ca",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "81 in 70",
+      "ts": 1786625605712,
+      "synced": false
+    },
+    {
       "id": "L1786625563996732",
       "board": "XVLVu2Du8hc",
       "driver": "Mckaden McIntosh",
@@ -44598,5 +44611,5 @@
     "1632c13c-76e1-43c7-bd4d-06662ffc321d",
     "e3f5c2ff-782e-4484-a238-1b5d1cdaed32"
   ],
-  "_ts": "2026-08-13T12:52:47.856Z"
+  "_ts": "2026-08-13T12:53:25.763Z"
 }
