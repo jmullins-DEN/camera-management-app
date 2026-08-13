@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "Harsh Turn",
       "ts": 1786651732478,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786651165254762",
@@ -45109,5 +45110,5 @@
     "36e46d56-9826-40a9-9666-299af419ed90",
     "ab547712-ed5e-4f71-8e55-87a77a71e953"
   ],
-  "_ts": "2026-08-13T20:08:52.515Z"
+  "_ts": "2026-08-13T20:08:58.553Z"
 }
