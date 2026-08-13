@@ -186,7 +186,7 @@
 <script src="seed.js?v=41113b58"></script><!-- seed-ver: build_seed.py stamps the md5 here so a new seed always busts stale browser caches -->
 <script>
 /* ---------- data + state ---------- */
-const BUILD_ID='2026-08-10-panchos-npw'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
+const BUILD_ID='2026-08-13-entry-nowipe'; // bump every deploy; shown in the sidebar so a browser reveals which HTML it's actually running
 const SEED = window.SEED || {boards:[],coaching_types:[]};
 const COACHING = ((SEED.coaching_types && SEED.coaching_types.length)
   ? SEED.coaching_types.slice() : ['Coaching Notes','Critical Event','Unidentified Driver'])
@@ -1390,7 +1390,7 @@ async function refreshBoard(bid,opts){
   const cache=LS.refreshed; cache[bid]=rec; LS.refreshed=cache;
   if(!opts.quiet) toast(`${b.name} refreshed — ${(rec.drivers||[]).length} drivers`);
   if(screen==='entry'&&ctx.board===bid){ b._rosterLoaded=false; }
-  if(!opts.noRender) render();
+  if(!opts.noRender) softRender();
 }
 
 // ---------- auto-sync: keep every board's events current (on open + daily) ----------
@@ -1411,7 +1411,7 @@ async function syncAllBoards(opts){
     let i=0; const CONC=4;                 // at most 4 boards pulling from Infinity at once
     const worker=async()=>{ while(i<boards.length){ const b=boards[i++]; try{ await refreshBoard(b.board,{quiet:true,noRender:true}); }catch(e){} } };
     await Promise.all(Array.from({length:Math.min(CONC,boards.length)},worker));
-    render();
+    softRender();
     if(opts.announce) toast('Dashboard synced — '+boards.length+' boards');
   } finally { _autoSyncing=false; }
 }
@@ -1469,7 +1469,7 @@ async function loadRoster(bid){
     const d=await r.json();
     const drivers=(d.items||[]).map(it=>{ let nm=''; (it.values||[]).forEach(v=>{ if(v.attribute_id===wb.name_attr) nm=v.data; });
       return {id:it.id,name:nm}; }).filter(x=>x.name);
-    if(drivers.length){ b.drivers=drivers; if(screen==='entry'&&ctx.board===bid) viewEntry(); }
+    if(drivers.length){ b.drivers=drivers; if(screen==='entry'&&ctx.board===bid) softRender(); }
   }catch(e){ b._rosterLoaded=false; console.error('roster load failed',e); }
 }
 // write one event back to Infinity: create the Camera Management item, then link the driver reference
@@ -1657,6 +1657,18 @@ function enterBoard(bid){
   if(bid) refreshBoard(bid,{quiet:true});  // then refresh this company's roster
 }
 document.querySelectorAll('.nav').forEach(b=>b.onclick=()=>go(b.dataset.screen));
+// A background data pull (roster load, auto-sync, board refresh) must never wipe
+// what the enterer is typing. render() rebuilds #main from scratch, which blows away
+// the date/behavior/coaching/notes fields (the driver already survives via ctx.driver).
+// softRender() captures those in-progress values, re-renders, then puts them back —
+// so a sync that lands mid-entry updates the roster/history panels without clearing the form.
+const ENTRY_FIELDS=['evDate','evReviewed','evBehavior','evCoaching','evNotes'];
+function softRender(){
+  if(screen!=='entry'){ render(); return; }
+  const saved={}; ENTRY_FIELDS.forEach(id=>{ const el=document.getElementById(id); if(el) saved[id]=el.value; });
+  render();
+  ENTRY_FIELDS.forEach(id=>{ const el=document.getElementById(id); if(el && saved[id]!==undefined && saved[id]!=='') el.value=saved[id]; });
+}
 function render(){
   document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.screen===screen));
   document.getElementById('genstamp').textContent='build '+BUILD_ID+' · seed '+(SEED.generated||'?')+' · '+SEED.boards.length+' boards';
