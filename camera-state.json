@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake/ Near Miss",
       "ts": 1786636138922,
-      "synced": false
+      "synced": true,
+      "infItemId": "1f2bee39-506f-42a1-913c-69c0f2fee517",
+      "syncError": null
     },
     {
       "id": "L1786627058148929",
@@ -44850,7 +44852,8 @@
     "092bbf4d-fd43-47f7-878e-662d5f9a5201",
     "9f725265-b99d-4457-b618-aaa307790077",
     "749af3ad-d5a0-4961-9d28-fe3f0941d80a",
-    "dcbfd268-21d4-421f-a235-fb39f534acd9"
+    "dcbfd268-21d4-421f-a235-fb39f534acd9",
+    "1f2bee39-506f-42a1-913c-69c0f2fee517"
   ],
-  "_ts": "2026-08-13T15:48:58.969Z"
+  "_ts": "2026-08-13T15:49:01.770Z"
 }
