@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786581001093983",
+      "board": "aRcazTLT9iM",
+      "driver": "James Simms",
+      "driverId": "7feb3041-b33b-4ead-ae9f-6d7be3677ffd",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1598010222; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/84d3921b-f83d-4c78-82e3-ff610096608a.mp4\n",
+      "ts": 1786581001093,
+      "synced": false
+    },
+    {
       "id": "L1786580953940680",
       "board": "aRcazTLT9iM",
       "driver": "Justin McKenzie",
@@ -362,7 +375,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1597953437; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6854e9e6-8445-43b4-84b1-bd00a78524e6.mp4",
       "ts": 1786580953940,
-      "synced": false
+      "synced": true,
+      "infItemId": "d1ef180e-11cf-4d44-8c06-d56e91cea7f6",
+      "syncError": null
     },
     {
       "id": "L178658090965368",
@@ -43927,7 +43942,8 @@
     "e9f48bdf-4711-412a-9e20-d83eaf950532",
     "c41babe0-71fe-4d5b-ad34-8415ccc0213b",
     "af3efe32-d46e-401c-8070-c9ac9751981a",
-    "a47ce958-6362-4bc2-8ea3-146e6f67bfad"
+    "a47ce958-6362-4bc2-8ea3-146e6f67bfad",
+    "d1ef180e-11cf-4d44-8c06-d56e91cea7f6"
   ],
-  "_ts": "2026-08-13T00:29:13.990Z"
+  "_ts": "2026-08-13T00:30:01.143Z"
 }
