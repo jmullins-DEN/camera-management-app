@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786625779320284",
+      "board": "YfVHuM3X87v",
+      "driver": "Benigno Vazquez",
+      "driverId": "89fd4ace-dde4-4442-88f5-2ab8eaf042c7",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "hard brake; near miss\n",
+      "ts": 1786625779320,
+      "synced": false
+    },
+    {
       "id": "L1786625635395922",
       "board": "XVLVu2Du8hc",
       "driver": "Tres Dimick",
@@ -44630,5 +44643,5 @@
     "a8f9de17-f475-4a9f-8634-74534b5a4d2a",
     "7be68f89-5c31-48a5-bcca-ac85831bc610"
   ],
-  "_ts": "2026-08-13T12:53:58.431Z"
+  "_ts": "2026-08-13T12:56:19.369Z"
 }
