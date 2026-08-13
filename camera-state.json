@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786626434824228",
+      "board": "8BUntjK1TqV",
+      "driver": "Merrick, Justin",
+      "driverId": "019b7534-7299-7aab-a844-1c2a4a4e78e7",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6308070098; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fdc05392-c1ce-4a50-a949-01963044761c.mp4\n",
+      "ts": 1786626434824,
+      "synced": false
+    },
+    {
       "id": "L1786626316667616",
       "board": "YJNwKvzFhkj",
       "driver": "Robert Duvall",
@@ -44758,5 +44771,5 @@
     "e5983cf4-84f2-40b6-b987-fd7fc5e46848",
     "0b8938f7-c238-4905-8fe5-d8974615a780"
   ],
-  "_ts": "2026-08-13T13:05:19.114Z"
+  "_ts": "2026-08-13T13:07:14.876Z"
 }
