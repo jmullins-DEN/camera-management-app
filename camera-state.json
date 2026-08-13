@@ -393,7 +393,8 @@
       "notes": "Harsh Turn",
       "ts": 1786651732478,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786651165254762",
@@ -407,7 +408,8 @@
       "notes": "Following Distance",
       "ts": 1786651165254,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786650402946744",
@@ -451,7 +453,8 @@
       "notes": "SPEEDING\n",
       "ts": 1786650155642,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786649922274448",
@@ -45142,5 +45145,5 @@
     "57fb6a07-9c5b-4cae-9f6d-531ada802e28",
     "6aca6594-1f1d-411d-bb87-63fc364764c5"
   ],
-  "_ts": "2026-08-13T20:13:59.554Z"
+  "_ts": "2026-08-13T20:19:55.314Z"
 }
