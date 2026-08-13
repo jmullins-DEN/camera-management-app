@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786651165254762",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Fabian Velasco",
+      "driverId": "a03641b9-19dc-4038-8e56-2d71bd9569cb",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1786651165254,
+      "synced": false
+    },
+    {
       "id": "L1786650402946744",
       "board": "6aE7wVSK5Jq",
       "driver": "Nick Rodecap",
@@ -45082,5 +45095,5 @@
     "36e46d56-9826-40a9-9666-299af419ed90",
     "ab547712-ed5e-4f71-8e55-87a77a71e953"
   ],
-  "_ts": "2026-08-13T19:46:45.877Z"
+  "_ts": "2026-08-13T19:59:25.305Z"
 }
