@@ -602,8 +602,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 1598180575; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/06744c2c-e016-45f2-a8a1-c668518f4c3f.mp4\n",
       "ts": 1786625381326,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "88a424f4-ace7-44d6-a76e-52bf3c802fd6"
     },
     {
       "id": "L1786623060389928",
@@ -661,9 +662,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995966045-1786558403447\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/55a0aba8-16d5-4ce1-99c0-f1e682760e3e.mp4",
       "ts": 1786588632702,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "ba0aab1a-2eb3-47e6-bc85-6649dd62917c"
     },
     {
       "id": "L1786588374283121",
@@ -706,9 +707,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995831300-1786567217074\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f610b49e-ab04-48aa-afb1-e4fa3b44c748.mp4",
       "ts": 1786588125097,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "051a3f0c-03b0-4eb2-b810-6e65c4d2874b"
     },
     {
       "id": "L178658780688059",
@@ -44829,7 +44830,10 @@
     "5121aa98-a1dd-494d-9e5a-cf6eab4ae92a",
     "42c737f9-e353-4a43-9562-358cc707f5ee",
     "0a3a6041-f008-4de3-a0a5-2512c15e6820",
-    "71254102-a891-4a4a-b81a-f33b7a7c2e33"
+    "71254102-a891-4a4a-b81a-f33b7a7c2e33",
+    "88a424f4-ace7-44d6-a76e-52bf3c802fd6",
+    "ba0aab1a-2eb3-47e6-bc85-6649dd62917c",
+    "051a3f0c-03b0-4eb2-b810-6e65c4d2874b"
   ],
-  "_ts": "2026-08-13T15:45:11.110Z"
+  "_ts": "2026-08-13T15:45:14.059Z"
 }
