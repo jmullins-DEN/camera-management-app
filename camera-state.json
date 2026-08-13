@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "Stop Sign Violation\n",
       "ts": 1786655345903,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786652037436812",
@@ -45161,5 +45162,5 @@
     "168179eb-f5bb-4e41-acb0-930e951bed1b",
     "f2a3f307-c925-4c94-965a-ee646222ce2e"
   ],
-  "_ts": "2026-08-13T21:09:05.988Z"
+  "_ts": "2026-08-13T21:09:08.863Z"
 }
