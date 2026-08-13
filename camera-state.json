@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786652037436812",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Jason Scott",
+      "driverId": "bc041e7a-8da2-4e51-9564-1008a8bd4370",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Possible Drowsiness",
+      "ts": 1786652037437,
+      "synced": false
+    },
+    {
       "id": "L1786651962718574",
       "board": "Wk4Si2ZgUVU",
       "driver": "Ben McGough",
@@ -45126,5 +45139,5 @@
     "ab547712-ed5e-4f71-8e55-87a77a71e953",
     "57fb6a07-9c5b-4cae-9f6d-531ada802e28"
   ],
-  "_ts": "2026-08-13T20:12:44.974Z"
+  "_ts": "2026-08-13T20:13:57.472Z"
 }
