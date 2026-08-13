@@ -352,6 +352,34 @@
   },
   "local": [
     {
+      "id": "L1786588125097684",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Josh Dobney",
+      "driverId": "019ef636-b886-763b-bb8f-e38427e5bbb7",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-12",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995831300-1786567217074\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f610b49e-ab04-48aa-afb1-e4fa3b44c748.mp4",
+      "ts": 1786588125097,
+      "synced": false
+    },
+    {
+      "id": "L178658780688059",
+      "board": "8gejhhHJj4e",
+      "driver": "Unassigned",
+      "driverId": "9bad2e5c-4daa-4557-af15-28cc2682a2aa",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Phone Distraction\nVehicle PU5244 Spare",
+      "ts": 1786587806880,
+      "synced": true,
+      "infItemId": "53587821-60c0-46d3-aa1e-b1ac7341dfd2",
+      "syncError": null
+    },
+    {
       "id": "L1786587683950891",
       "board": "8gejhhHJj4e",
       "driver": "Samuel Huber",
@@ -43197,7 +43225,8 @@
     "5b81fca8-b228-4e0f-ae6d-cc535bc619dc",
     "47900bd9-c863-436c-9374-e08e4a1430b9",
     "cb25332d-9233-4972-a35b-53f8ce062b30",
-    "d6bbc850-6cab-40cf-a953-8763b21e3bd3"
+    "d6bbc850-6cab-40cf-a953-8763b21e3bd3",
+    "53587821-60c0-46d3-aa1e-b1ac7341dfd2"
   ],
-  "_ts": "2026-08-13T02:21:26.112Z"
+  "_ts": "2026-08-13T02:28:45.133Z"
 }
