@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786645938210987",
+      "board": "JthqRmXvJ9v",
+      "driver": "Matthew Beard",
+      "driverId": "019a7b18-0863-7330-ad9a-d97fadd5f997",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance\n",
+      "ts": 1786645938210,
+      "synced": false
+    },
+    {
       "id": "L1786645861436986",
       "board": "JthqRmXvJ9v",
       "driver": "Jose Patino",
@@ -45004,5 +45017,5 @@
     "f576dbf3-bb53-4a77-942d-d70cc140115c",
     "c86b567f-4522-4276-b982-1724b81a97f7"
   ],
-  "_ts": "2026-08-13T18:31:04.072Z"
+  "_ts": "2026-08-13T18:32:18.252Z"
 }
