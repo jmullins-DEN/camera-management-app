@@ -362,7 +362,9 @@
       "coaching": "Critical Event",
       "notes": "Hard Brake",
       "ts": 1786657143394,
-      "synced": false
+      "synced": true,
+      "infItemId": "c212755e-958d-4041-81ba-88a35685a299",
+      "syncError": null
     },
     {
       "id": "L1786657042737867",
@@ -45374,7 +45376,8 @@
     "a4f5f187-3824-4b95-8bb9-ab16384afdd0",
     "f28bd831-6e42-4952-868c-3b33373dae4c",
     "f345d3e8-c9cd-4380-a8bc-a00cb4782748",
-    "5978ff54-e334-43c9-a7ea-e19ca30fb533"
+    "5978ff54-e334-43c9-a7ea-e19ca30fb533",
+    "c212755e-958d-4041-81ba-88a35685a299"
   ],
-  "_ts": "2026-08-13T21:39:03.450Z"
+  "_ts": "2026-08-13T21:39:07.505Z"
 }
