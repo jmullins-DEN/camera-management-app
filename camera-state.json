@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786583623193675",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Emery, Shane",
+      "driverId": "a227860a-3661-45e8-95fc-addf4e926cc5",
+      "date": "2026-08-11",
+      "reviewed": "2026-08-12",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1786583623193,
+      "synced": false
+    },
+    {
       "id": "L1786496216880604",
       "board": "AKJSkJj6Ch4",
       "driver": "Joey Bybee",
@@ -42845,5 +42858,5 @@
     "330769f4-c9a9-4727-8d54-6afcb187970a",
     "0faf9862-7f0f-4d24-bcdb-8444c6370f14"
   ],
-  "_ts": "2026-08-13T01:07:06.911Z"
+  "_ts": "2026-08-13T01:13:43.232Z"
 }
