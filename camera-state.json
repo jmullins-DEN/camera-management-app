@@ -352,21 +352,6 @@
   },
   "local": [
     {
-      "id": "L1786580631732676",
-      "board": "4rNDuSrCaap",
-      "driver": "Unassigned",
-      "driverId": "fe8cbc13-5059-44ee-b9f1-8016a337a940",
-      "date": "2026-08-12",
-      "reviewed": "2026-08-13",
-      "behavior": "Following Distance",
-      "coaching": "Unidentified Driver",
-      "notes": "\nAlert 1597695495; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db19686c-f543-471d-9f43-94a147df72ee.mp4",
-      "ts": 1786580631732,
-      "synced": true,
-      "syncError": null,
-      "infItemId": "aa46aa97-103e-4e43-be97-02adbf3c4199"
-    },
-    {
       "id": "L1786580057305265",
       "board": "4rNDuSrCaap",
       "driver": "Gavin Fleming",
@@ -43834,8 +43819,7 @@
     "47532c70-a302-4063-be08-9ad549101b94",
     "2a95a473-9351-4cb3-a2ea-a86408163084",
     "6ba28353-62d8-4dca-b407-1aec55b8b773",
-    "439a4f94-aa68-434d-88d7-1f7de7be78cc",
-    "aa46aa97-103e-4e43-be97-02adbf3c4199"
+    "439a4f94-aa68-434d-88d7-1f7de7be78cc"
   ],
-  "_ts": "2026-08-13T00:25:35.297Z"
+  "_ts": "2026-08-13T00:25:38.503Z"
 }
