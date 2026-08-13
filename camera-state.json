@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786640111095617",
+      "board": "UKkbYDchPMh",
+      "driver": "Billy Coughlin",
+      "driverId": "92b34bb4-ac11-4c5a-a257-a56a97e9adc2",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a7c9752b60c756d7209de95",
+      "ts": 1786640111095,
+      "synced": false
+    },
+    {
       "id": "L1786640015145203",
       "board": "UKkbYDchPMh",
       "driver": "Michael Mattingly",
@@ -44920,5 +44933,5 @@
     "e809ec1f-31ee-471e-8d3e-0ddc64eab700",
     "daf0665b-d456-4aff-be80-71adaf5f5a9c"
   ],
-  "_ts": "2026-08-13T16:53:37.550Z"
+  "_ts": "2026-08-13T16:55:11.140Z"
 }
