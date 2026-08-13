@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178665593071296",
+      "board": "8gejhhHJj4e",
+      "driver": "Unassigned",
+      "driverId": "9bad2e5c-4daa-4557-af15-28cc2682a2aa",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle 6815 \nCamera obstruction",
+      "ts": 1786655930712,
+      "synced": false
+    },
+    {
       "id": "L1786655828237691",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -45288,5 +45301,5 @@
     "a4f5f187-3824-4b95-8bb9-ab16384afdd0",
     "f28bd831-6e42-4952-868c-3b33373dae4c"
   ],
-  "_ts": "2026-08-13T21:17:11.439Z"
+  "_ts": "2026-08-13T21:18:50.800Z"
 }
