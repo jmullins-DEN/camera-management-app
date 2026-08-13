@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance",
       "ts": 1786651962718,
-      "synced": false
+      "synced": true,
+      "infItemId": "57fb6a07-9c5b-4cae-9f6d-531ada802e28",
+      "syncError": null
     },
     {
       "id": "L1786651732478708",
@@ -45121,7 +45123,8 @@
     "e10e54ad-a6ab-4586-a5c7-a72468366ec7",
     "d85a2f9f-c555-481e-8ace-64aa531c421f",
     "36e46d56-9826-40a9-9666-299af419ed90",
-    "ab547712-ed5e-4f71-8e55-87a77a71e953"
+    "ab547712-ed5e-4f71-8e55-87a77a71e953",
+    "57fb6a07-9c5b-4cae-9f6d-531ada802e28"
   ],
-  "_ts": "2026-08-13T20:12:42.758Z"
+  "_ts": "2026-08-13T20:12:44.974Z"
 }
