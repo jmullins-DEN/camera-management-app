@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786626005130379",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Jefride",
+      "driverId": "21eef7a7-b5da-4ae9-9f3f-d02d12617054",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "69 in 55",
+      "ts": 1786626005130,
+      "synced": false
+    },
+    {
       "id": "L1786625901101905",
       "board": "YfVHuM3X87v",
       "driver": "Christian Snow",
@@ -44694,5 +44707,5 @@
     "2bfe7e71-74d5-45b1-a1f9-a343a21e55e1",
     "2bf15bd5-da58-4472-8bf3-196e54672aa5"
   ],
-  "_ts": "2026-08-13T12:58:24.331Z"
+  "_ts": "2026-08-13T13:00:05.177Z"
 }
