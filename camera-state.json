@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786626505552596",
+      "board": "8BUntjK1TqV",
+      "driver": "Rodriguez, Daniel",
+      "driverId": "caab1b59-816a-49eb-a048-f9194c5fc898",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-13",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6309967027; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/280aa0be-79ee-4d32-80bd-3405bcc8be6a.mp4",
+      "ts": 1786626505552,
+      "synced": false
+    },
+    {
       "id": "L1786626434824228",
       "board": "8BUntjK1TqV",
       "driver": "Merrick, Justin",
@@ -44774,5 +44787,5 @@
     "0b8938f7-c238-4905-8fe5-d8974615a780",
     "5121aa98-a1dd-494d-9e5a-cf6eab4ae92a"
   ],
-  "_ts": "2026-08-13T13:07:18.118Z"
+  "_ts": "2026-08-13T13:08:25.604Z"
 }
