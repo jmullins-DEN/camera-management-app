@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786724183531684",
+      "board": "UKkbYDchPMh",
+      "driver": "Kristopher Reasons",
+      "driverId": "470c17ef-0f1b-48f9-9ac6-df334c8edf7e",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a7e0b80b60c756d720b9bcd",
+      "ts": 1786724183531,
+      "synced": false
+    },
+    {
       "id": "L1786724138185703",
       "board": "UKkbYDchPMh",
       "driver": "unassigned",
@@ -46409,5 +46422,5 @@
     "f2b225c9-a5c8-47bc-84a2-7690894491de",
     "42d99701-5323-4687-8b78-9d2e193999ad"
   ],
-  "_ts": "2026-08-14T16:15:41.387Z"
+  "_ts": "2026-08-14T16:16:23.573Z"
 }
