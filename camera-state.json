@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474980616004-1786743832279:  Seat belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1afdb930-ec94-43b2-95fd-22500fd53573.mp4",
       "ts": 1786751732192,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786751388816358",
@@ -47210,5 +47211,5 @@
     "b5b697e2-7e26-4451-9f3c-3ca3067885ff",
     "61ab2904-26b5-4f94-8f55-976a344ba790"
   ],
-  "_ts": "2026-08-14T23:55:32.251Z"
+  "_ts": "2026-08-14T23:55:34.947Z"
 }
