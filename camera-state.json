@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786710462841818",
+      "board": "YfVHuM3X87v",
+      "driver": "Benigno Vazquez",
+      "driverId": "89fd4ace-dde4-4442-88f5-2ab8eaf042c7",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "driver avoids collision; needs recognition",
+      "ts": 1786710462841,
+      "synced": false
+    },
+    {
       "id": "L1786710376233191",
       "board": "YfVHuM3X87v",
       "driver": "Richard Mire",
@@ -46195,5 +46208,5 @@
     "a021a2a9-fc3a-4ae8-879f-22a97dc970fe",
     "13c5803f-dcb8-4ba3-a378-bbe9d858e6da"
   ],
-  "_ts": "2026-08-14T12:26:18.681Z"
+  "_ts": "2026-08-14T12:27:42.893Z"
 }
