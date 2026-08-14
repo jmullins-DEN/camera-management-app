@@ -363,7 +363,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1786739228555,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786739174651967",
@@ -407,7 +408,8 @@
       "notes": "Cab Distraction",
       "ts": 1786738918022,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786738581340879",
@@ -421,7 +423,8 @@
       "notes": "Following Distance",
       "ts": 1786738581340,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786732709303103",
@@ -570,7 +573,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1786731428198,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786731273707981",
@@ -644,7 +648,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1786731052302,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786727387049153",
@@ -673,7 +678,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7deaf9b60c756d720b6646",
       "ts": 1786727321374,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786726954588900",
@@ -687,7 +693,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7dbf6cb60c756d720b0d5a",
       "ts": 1786726954588,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786726587518295",
@@ -701,7 +708,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7dd552b60c756d720b4085",
       "ts": 1786726587518,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786726222236423",
@@ -715,7 +723,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7ded49b60c756d720b698f",
       "ts": 1786726222236,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786725956942911",
@@ -744,7 +753,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7dbf75b60c756d720b0d7e",
       "ts": 1786725218050,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178672487906369",
@@ -758,7 +768,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7e5b02b60c756d720c1d67",
       "ts": 1786724879063,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178672461137717",
@@ -787,7 +798,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7e4251b60c756d720bfa0b",
       "ts": 1786724505680,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786724371350349",
@@ -846,7 +858,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a7e0b80b60c756d720b9bcd",
       "ts": 1786724183531,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1786724138185703",
@@ -46927,5 +46940,5 @@
     "67da6dfa-7d1b-41e4-9144-51e429917b5d",
     "8147e2bf-cc9d-4992-928d-fdb1e9e81752"
   ],
-  "_ts": "2026-08-14T20:27:12.368Z"
+  "_ts": "2026-08-14T20:31:37.852Z"
 }
