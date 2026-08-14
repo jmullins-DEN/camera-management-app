@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786708535421153",
+      "board": "5gVKeGRDf8U",
+      "driver": "Mason Douglas",
+      "driverId": "2f919a72-90f9-496e-ac9d-1bb31eb29372",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 428682076; only rear camera working\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f329eab4-2e53-41e3-a1eb-b4a1c12e1588.mp4\n",
+      "ts": 1786708535421,
+      "synced": false
+    },
+    {
       "id": "L1786708426118360",
       "board": "5gVKeGRDf8U",
       "driver": "William Davis",
@@ -45778,5 +45791,5 @@
     "bf1e3580-859d-4ff0-8074-4abb0e89853a",
     "28935e34-6cd9-42f5-8751-dd3affd3139b"
   ],
-  "_ts": "2026-08-14T11:53:48.366Z"
+  "_ts": "2026-08-14T11:55:35.471Z"
 }
