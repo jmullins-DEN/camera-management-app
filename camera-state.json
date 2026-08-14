@@ -437,8 +437,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 1248041655387455488:  Hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dcd443b7-9b80-4073-a3b6-daa24c887dca.mp4",
       "ts": 1786668792618,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "e23696f3-b0e2-442b-ad1a-197b687657e7"
     },
     {
@@ -482,8 +482,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995831300-1786631545456\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/71b4eb52-02e3-4c1f-8f71-4bea85a45169.mp4",
       "ts": 1786658805490,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "749e91c3-16ee-4f1a-bf1e-0fc76ba4b61f"
     },
     {
       "id": "L1786658631799578",
@@ -511,8 +512,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995728369-1786624601556\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/35beeb5d-d1b8-4857-8ceb-23295e8d673e.mp4",
       "ts": 1786658453280,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "11b9ef57-ac0e-425e-b502-65fb58e32fa3"
     },
     {
       "id": "L1786658320732791",
@@ -45611,7 +45613,10 @@
     "58961809-c022-4e09-adc9-8884eef0ed21",
     "54dcf074-95df-4d9a-be29-2e64d65b5ae0",
     "ba407d7d-ca02-4191-b6ee-3fb5318d0dbc",
-    "f8e8569f-9c33-4d57-8a73-15c3ecaf53c6"
+    "f8e8569f-9c33-4d57-8a73-15c3ecaf53c6",
+    "e23696f3-b0e2-442b-ad1a-197b687657e7",
+    "749e91c3-16ee-4f1a-bf1e-0fc76ba4b61f",
+    "11b9ef57-ac0e-425e-b502-65fb58e32fa3"
   ],
-  "_ts": "2026-08-14T11:37:48.875Z"
+  "_ts": "2026-08-14T11:37:52.118Z"
 }
