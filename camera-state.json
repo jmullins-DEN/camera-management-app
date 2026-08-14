@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786710723614840",
+      "board": "xMfRLnqAN7y",
+      "driver": "Keith Smith",
+      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; inattentive; obscene gesture",
+      "ts": 1786710723614,
+      "synced": false
+    },
+    {
       "id": "L1786710599905501",
       "board": "YfVHuM3X87v",
       "driver": "Charles Allen",
@@ -46258,5 +46271,5 @@
     "179fe099-f2de-424c-a2f2-d759a8bee1d1",
     "0c951bf4-f643-4c06-8cab-4e565d34bc8c"
   ],
-  "_ts": "2026-08-14T12:30:03.310Z"
+  "_ts": "2026-08-14T12:32:03.666Z"
 }
