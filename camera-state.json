@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1248205222455705600:  Stop Sign\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d455f1a6-cbae-4441-999e-ae6889cfc02b.mp4",
       "ts": 1786749468175,
-      "synced": false
+      "synced": true,
+      "infItemId": "6bfa362e-1d49-4bd3-a926-a2720610dd10",
+      "syncError": null
     },
     {
       "id": "L17867491214259",
@@ -47130,7 +47132,8 @@
     "06801fe2-ef1d-432a-9f26-8ed3f2c6e62f",
     "4c343c62-ff70-4852-a405-366e0e81ed92",
     "7ea78729-81cc-4fa9-94ba-be75fac01475",
-    "2dd705a5-498f-413f-96a7-04407d4f50dc"
+    "2dd705a5-498f-413f-96a7-04407d4f50dc",
+    "6bfa362e-1d49-4bd3-a926-a2720610dd10"
   ],
-  "_ts": "2026-08-14T23:17:48.234Z"
+  "_ts": "2026-08-14T23:17:51.103Z"
 }
