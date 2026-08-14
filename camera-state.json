@@ -362,7 +362,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 1248041655387455488:  Hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dcd443b7-9b80-4073-a3b6-daa24c887dca.mp4",
       "ts": 1786668792618,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786667590856823",
@@ -45532,5 +45533,5 @@
     "a86880b7-a924-4c02-b7d4-f40e9475c457",
     "842ed4c9-defd-4f07-89c4-db243eb19bd2"
   ],
-  "_ts": "2026-08-14T00:53:12.678Z"
+  "_ts": "2026-08-14T00:53:15.366Z"
 }
