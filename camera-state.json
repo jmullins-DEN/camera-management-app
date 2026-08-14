@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786739091952241",
+      "board": "8gejhhHJj4e",
+      "driver": "John Kinney",
+      "driverId": "019b0e57-4d1b-7ddc-8d9d-b1294631231d",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1786739091952,
+      "synced": false
+    },
+    {
       "id": "L1786738918022987",
       "board": "8gejhhHJj4e",
       "driver": "Christian Lopez",
@@ -46881,5 +46894,5 @@
     "462ec172-50b3-4e5d-adca-53a066e65a0b",
     "a27f7c7f-80bd-4977-949a-a365d86a839a"
   ],
-  "_ts": "2026-08-14T20:22:00.750Z"
+  "_ts": "2026-08-14T20:24:52.041Z"
 }
