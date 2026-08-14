@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786750462652253",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Bill Mayville",
+      "driverId": "faeb2fb6-b5c0-44b0-a06b-98e4e32207aa",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-14",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 1248381106995232768:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1fd5caaf-3197-4a98-91df-dc1fe27dbd18.mp4",
+      "ts": 1786750462652,
+      "synced": false
+    },
+    {
       "id": "L1786749468175134",
       "board": "7W2SQKrNcXQ",
       "driver": "Chris Kavel",
@@ -47135,5 +47148,5 @@
     "2dd705a5-498f-413f-96a7-04407d4f50dc",
     "6bfa362e-1d49-4bd3-a926-a2720610dd10"
   ],
-  "_ts": "2026-08-14T23:17:53.748Z"
+  "_ts": "2026-08-14T23:34:22.699Z"
 }
