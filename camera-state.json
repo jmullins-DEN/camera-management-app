@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 641 \nFollowing Distance",
       "ts": 1786732130579,
-      "synced": false
+      "synced": true,
+      "infItemId": "8119a837-bc78-4151-8a95-53123970ac67",
+      "syncError": null
     },
     {
       "id": "L1786731941358236",
@@ -46816,7 +46818,8 @@
     "f3ce56c6-e247-480c-801c-01bfc3b07ae9",
     "4d9e54e9-d4f6-443e-bc14-7e49b253f7d4",
     "cd739590-1720-4ff6-94b5-1d15a103f6ae",
-    "2c9c8f50-5437-4c06-ad5a-b35ce7b261c7"
+    "2c9c8f50-5437-4c06-ad5a-b35ce7b261c7",
+    "8119a837-bc78-4151-8a95-53123970ac67"
   ],
-  "_ts": "2026-08-14T18:28:50.643Z"
+  "_ts": "2026-08-14T18:28:53.786Z"
 }
