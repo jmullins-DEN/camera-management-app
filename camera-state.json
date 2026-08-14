@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786711149466642",
+      "board": "ebSND1QoyBs",
+      "driver": "Robert Ulrich",
+      "driverId": "ff647e84-cdc4-458e-9cdc-ea66009768cc",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "hard brake; all cameras blocked",
+      "ts": 1786711149466,
+      "synced": false
+    },
+    {
       "id": "L1786711013324438",
       "board": "YJNwKvzFhkj",
       "driver": "Omar Bowers",
@@ -362,7 +375,9 @@
       "coaching": "Coaching Notes",
       "notes": "multi-tasking with two hands",
       "ts": 1786711013324,
-      "synced": false
+      "synced": true,
+      "infItemId": "eaa001cf-659a-43cb-9b19-4e9688321dce",
+      "syncError": null
     },
     {
       "id": "L1786710902692745",
@@ -46331,7 +46346,8 @@
     "0c951bf4-f643-4c06-8cab-4e565d34bc8c",
     "6fb245a6-56cd-41cb-a7d5-81745ddce26e",
     "bb8c02f7-205a-4a2b-9c3a-5cddf153c801",
-    "bb2ec842-ccff-4e7d-bbc1-712cd8ac86d8"
+    "bb2ec842-ccff-4e7d-bbc1-712cd8ac86d8",
+    "eaa001cf-659a-43cb-9b19-4e9688321dce"
   ],
-  "_ts": "2026-08-14T12:36:53.377Z"
+  "_ts": "2026-08-14T12:39:09.520Z"
 }
