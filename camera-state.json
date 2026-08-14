@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786710485244744",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Allen",
+      "driverId": "e08a2195-1cac-4cab-b79f-ced77b9985b0",
+      "date": "2026-08-12",
+      "reviewed": "2026-08-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1786710485244,
+      "synced": false
+    },
+    {
       "id": "L1786710462841818",
       "board": "YfVHuM3X87v",
       "driver": "Benigno Vazquez",
@@ -46211,5 +46224,5 @@
     "13c5803f-dcb8-4ba3-a378-bbe9d858e6da",
     "9e8c3aac-eaa8-4f57-bcc4-f8ffde14fb75"
   ],
-  "_ts": "2026-08-14T12:27:48.929Z"
+  "_ts": "2026-08-14T12:28:05.293Z"
 }
