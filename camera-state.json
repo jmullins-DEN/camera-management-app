@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786741194493764",
+      "board": "8gejhhHJj4e",
+      "driver": "Aaron Goodson",
+      "driverId": "90be991b-61ba-480c-ae4a-54ce26573d56",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1786741194493,
+      "synced": false
+    },
+    {
       "id": "L1786739228555417",
       "board": "8gejhhHJj4e",
       "driver": "Aimee Roberts",
@@ -46947,5 +46960,5 @@
     "c1379eed-9856-43bf-98a9-d8aa3480df84",
     "e056b3f7-c1ea-4ef5-a1b1-c545b6cfa1cc"
   ],
-  "_ts": "2026-08-14T20:31:52.245Z"
+  "_ts": "2026-08-14T20:59:54.550Z"
 }
