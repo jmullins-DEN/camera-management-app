@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786708277417787",
+      "board": "8BUntjK1TqV",
+      "driver": "Lara, Dustin",
+      "driverId": "24310d8d-fdc6-4650-a2c4-eed7b78c38ab",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 6320280901; camera misaligned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7dee4ec2-26f3-4ad5-a624-406f579fc9ef.mp4",
+      "ts": 1786708277417,
+      "synced": false
+    },
+    {
       "id": "L1786708151085127",
       "board": "8BUntjK1TqV",
       "driver": "Ramirez, Cristian",
@@ -45748,5 +45761,5 @@
     "7066ebe1-11d1-45eb-86e3-6cc411c89325",
     "bf1e3580-859d-4ff0-8074-4abb0e89853a"
   ],
-  "_ts": "2026-08-14T11:49:13.151Z"
+  "_ts": "2026-08-14T11:51:17.463Z"
 }
