@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6316782141:  Truck # 226260 Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3aca1ab8-9718-4290-b27c-af5ea3fa7470.mp4\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bc43b4d2-1857-45db-9629-e381e82ba3b1.mp4",
       "ts": 1786669060859,
-      "synced": false
+      "synced": true,
+      "infItemId": "58961809-c022-4e09-adc9-8884eef0ed21",
+      "syncError": null
     },
     {
       "id": "L1786668792618417",
@@ -45544,7 +45546,8 @@
     "3423e05c-c40e-4557-9034-a357842e98f5",
     "6d73b04b-610a-4823-8a70-1ae25ffd7bf5",
     "a86880b7-a924-4c02-b7d4-f40e9475c457",
-    "842ed4c9-defd-4f07-89c4-db243eb19bd2"
+    "842ed4c9-defd-4f07-89c4-db243eb19bd2",
+    "58961809-c022-4e09-adc9-8884eef0ed21"
   ],
-  "_ts": "2026-08-14T00:57:40.910Z"
+  "_ts": "2026-08-14T00:57:42.994Z"
 }
