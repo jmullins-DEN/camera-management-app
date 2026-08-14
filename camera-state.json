@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786707846301223",
+      "board": "8BUntjK1TqV",
+      "driver": "Morales, Alfredo",
+      "driverId": "4f7923fd-ff5e-45df-9a57-228f857ca442",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6315570717; 61 in 50\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/80df9dd3-c0c2-4476-a779-692ec169bc6e.mp4\n",
+      "ts": 1786707846301,
+      "synced": false
+    },
+    {
       "id": "L178670779421467",
       "board": "8BUntjK1TqV",
       "driver": "Rodriguez, Omar",
@@ -45672,5 +45685,5 @@
     "aca225b6-ccda-4e7c-a5f6-d7c21aa3af3c",
     "2a225c26-4aca-4083-9927-f01eaeae0157"
   ],
-  "_ts": "2026-08-14T11:43:17.340Z"
+  "_ts": "2026-08-14T11:44:06.351Z"
 }
