@@ -362,7 +362,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 428682076; only rear camera working\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f329eab4-2e53-41e3-a1eb-b4a1c12e1588.mp4\n",
       "ts": 1786708535421,
-      "synced": false
+      "synced": true,
+      "infItemId": "ecea5c5f-c5de-417d-a1ce-64956c3bfeb1",
+      "syncError": null
     },
     {
       "id": "L1786708426118360",
@@ -45789,7 +45791,8 @@
     "cff81486-848b-4f70-bf26-eeb69ac306ec",
     "7066ebe1-11d1-45eb-86e3-6cc411c89325",
     "bf1e3580-859d-4ff0-8074-4abb0e89853a",
-    "28935e34-6cd9-42f5-8751-dd3affd3139b"
+    "28935e34-6cd9-42f5-8751-dd3affd3139b",
+    "ecea5c5f-c5de-417d-a1ce-64956c3bfeb1"
   ],
-  "_ts": "2026-08-14T11:55:35.471Z"
+  "_ts": "2026-08-14T11:55:37.830Z"
 }
