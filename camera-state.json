@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786710902692745",
+      "board": "YJNwKvzFhkj",
+      "driver": "DeErick Powe",
+      "driverId": "019dd5f1-4f6e-73b7-b34e-c69709a4b66b",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; lane swerve",
+      "ts": 1786710902692,
+      "synced": false
+    },
+    {
       "id": "L1786710819918383",
       "board": "xMfRLnqAN7y",
       "driver": "Kraig Hausmann",
@@ -46304,5 +46317,5 @@
     "6fb245a6-56cd-41cb-a7d5-81745ddce26e",
     "bb8c02f7-205a-4a2b-9c3a-5cddf153c801"
   ],
-  "_ts": "2026-08-14T12:33:43.300Z"
+  "_ts": "2026-08-14T12:35:02.748Z"
 }
