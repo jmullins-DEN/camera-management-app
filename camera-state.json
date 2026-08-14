@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "multi-tasking; inattentive; obscene gesture",
       "ts": 1786710723614,
-      "synced": false
+      "synced": true,
+      "infItemId": "6fb245a6-56cd-41cb-a7d5-81745ddce26e",
+      "syncError": null
     },
     {
       "id": "L1786710599905501",
@@ -46269,7 +46271,8 @@
     "13c5803f-dcb8-4ba3-a378-bbe9d858e6da",
     "9e8c3aac-eaa8-4f57-bcc4-f8ffde14fb75",
     "179fe099-f2de-424c-a2f2-d759a8bee1d1",
-    "0c951bf4-f643-4c06-8cab-4e565d34bc8c"
+    "0c951bf4-f643-4c06-8cab-4e565d34bc8c",
+    "6fb245a6-56cd-41cb-a7d5-81745ddce26e"
   ],
-  "_ts": "2026-08-14T12:32:03.666Z"
+  "_ts": "2026-08-14T12:32:06.573Z"
 }
