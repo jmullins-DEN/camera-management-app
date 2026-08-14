@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786749468175134",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Chris Kavel",
+      "driverId": "439c8822-b6b3-4d11-803f-804033d7d737",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-14",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1248205222455705600:  Stop Sign\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d455f1a6-cbae-4441-999e-ae6889cfc02b.mp4",
+      "ts": 1786749468175,
+      "synced": false
+    },
+    {
       "id": "L17867491214259",
       "board": "7W2SQKrNcXQ",
       "driver": "Bill Mayville",
@@ -47119,5 +47132,5 @@
     "7ea78729-81cc-4fa9-94ba-be75fac01475",
     "2dd705a5-498f-413f-96a7-04407d4f50dc"
   ],
-  "_ts": "2026-08-14T23:12:07.054Z"
+  "_ts": "2026-08-14T23:17:48.234Z"
 }
