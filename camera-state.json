@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786724244791345",
+      "board": "UKkbYDchPMh",
+      "driver": "Michael Erwin",
+      "driverId": "925f7088-82d5-43ea-b30b-1826dc25f3b1",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a7e28feb60c756d720bcdce",
+      "ts": 1786724244791,
+      "synced": false
+    },
+    {
       "id": "L1786724183531684",
       "board": "UKkbYDchPMh",
       "driver": "Kristopher Reasons",
@@ -362,7 +375,8 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a7e0b80b60c756d720b9bcd",
       "ts": 1786724183531,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786724138185703",
@@ -46422,5 +46436,5 @@
     "f2b225c9-a5c8-47bc-84a2-7690894491de",
     "42d99701-5323-4687-8b78-9d2e193999ad"
   ],
-  "_ts": "2026-08-14T16:16:23.573Z"
+  "_ts": "2026-08-14T16:17:24.840Z"
 }
