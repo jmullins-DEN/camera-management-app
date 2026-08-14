@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786738918022987",
+      "board": "8gejhhHJj4e",
+      "driver": "Christian Lopez",
+      "driverId": "2098dbac-9cbf-4130-9d9d-f3e4458c3b26",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Cab Distraction",
+      "ts": 1786738918022,
+      "synced": false
+    },
+    {
       "id": "L1786738581340879",
       "board": "8gejhhHJj4e",
       "driver": "Amie Roberts",
@@ -46867,5 +46880,5 @@
     "462ec172-50b3-4e5d-adca-53a066e65a0b",
     "a27f7c7f-80bd-4977-949a-a365d86a839a"
   ],
-  "_ts": "2026-08-14T20:16:24.383Z"
+  "_ts": "2026-08-14T20:21:58.068Z"
 }
