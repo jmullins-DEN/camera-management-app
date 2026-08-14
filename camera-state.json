@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "Cab Distraction",
       "ts": 1786738918022,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786738581340879",
@@ -46880,5 +46881,5 @@
     "462ec172-50b3-4e5d-adca-53a066e65a0b",
     "a27f7c7f-80bd-4977-949a-a365d86a839a"
   ],
-  "_ts": "2026-08-14T20:21:58.068Z"
+  "_ts": "2026-08-14T20:22:00.750Z"
 }
