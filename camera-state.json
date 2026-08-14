@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786741504164258",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995728369-1786710717538\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ac8b519f-2e5f-497f-b00b-cf3989731751.mp4",
+      "ts": 1786741504164,
+      "synced": false
+    },
+    {
       "id": "L1786741346795227",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -46977,5 +46990,5 @@
     "e056b3f7-c1ea-4ef5-a1b1-c545b6cfa1cc",
     "fdf32a65-cfb8-4188-a680-bcbe0835d1ed"
   ],
-  "_ts": "2026-08-14T21:02:33.291Z"
+  "_ts": "2026-08-14T21:05:04.226Z"
 }
