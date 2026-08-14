@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178670809562159",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Luis",
+      "driverId": "019f1545-41de-72cb-8bfc-515504891b6a",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6319037064; 74 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a4376c34-1e08-4286-a63f-80549aeeb075.mp4",
+      "ts": 1786708095621,
+      "synced": false
+    },
+    {
       "id": "L1786708020239834",
       "board": "8BUntjK1TqV",
       "driver": "Rubio, Carlos",
@@ -45718,5 +45731,5 @@
     "cff81486-848b-4f70-bf26-eeb69ac306ec",
     "7066ebe1-11d1-45eb-86e3-6cc411c89325"
   ],
-  "_ts": "2026-08-14T11:47:02.827Z"
+  "_ts": "2026-08-14T11:48:15.671Z"
 }
