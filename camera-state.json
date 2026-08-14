@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786731486643521",
+      "board": "9RKrQRpDLcr",
+      "driver": "Dwayne Manuel",
+      "driverId": "3a076ba7-6811-40c5-9c43-56976e41cc9e",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Speeding",
+      "ts": 1786731486643,
+      "synced": false
+    },
+    {
       "id": "L1786731428198243",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -46709,5 +46722,5 @@
     "2680be2b-1985-4ba5-b436-a935c8a5d640",
     "9d2b3e1c-8a61-4068-9cbf-a4a111373137"
   ],
-  "_ts": "2026-08-14T18:17:12.234Z"
+  "_ts": "2026-08-14T18:18:06.726Z"
 }
