@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786708796136745",
+      "board": "4rNDuSrCaap",
+      "driver": "Grant Betts-Norman",
+      "driverId": "019e40ff-27d9-76e0-be8a-f730ad2856af",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 428407176; following too close; Grant not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/66fdf21c-83cb-4d5a-8670-c7e48d7137d9.mp4",
+      "ts": 1786708796136,
+      "synced": false
+    },
+    {
       "id": "L1786708716145180",
       "board": "4rNDuSrCaap",
       "driver": "David Plott",
@@ -45826,5 +45839,5 @@
     "4795071e-1f29-403a-99e4-036b097c9025",
     "27dde50e-38f0-4ac1-81ab-050afe084ec8"
   ],
-  "_ts": "2026-08-14T11:58:39.796Z"
+  "_ts": "2026-08-14T11:59:56.186Z"
 }
