@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786710599905501",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Allen",
+      "driverId": "e08a2195-1cac-4cab-b79f-ced77b9985b0",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "70 in 55",
+      "ts": 1786710599905,
+      "synced": false
+    },
+    {
       "id": "L1786710553725157",
       "board": "YfVHuM3X87v",
       "driver": "Christian Snow",
@@ -362,7 +375,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close\n",
       "ts": 1786710553725,
-      "synced": false
+      "synced": true,
+      "infItemId": "179fe099-f2de-424c-a2f2-d759a8bee1d1",
+      "syncError": null
     },
     {
       "id": "L1786710485244744",
@@ -46237,7 +46252,8 @@
     "eda646d8-5ab9-41d2-8da5-03cc0894e625",
     "a021a2a9-fc3a-4ae8-879f-22a97dc970fe",
     "13c5803f-dcb8-4ba3-a378-bbe9d858e6da",
-    "9e8c3aac-eaa8-4f57-bcc4-f8ffde14fb75"
+    "9e8c3aac-eaa8-4f57-bcc4-f8ffde14fb75",
+    "179fe099-f2de-424c-a2f2-d759a8bee1d1"
   ],
-  "_ts": "2026-08-14T12:29:13.778Z"
+  "_ts": "2026-08-14T12:29:59.953Z"
 }
