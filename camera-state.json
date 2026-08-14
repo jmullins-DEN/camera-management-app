@@ -362,7 +362,9 @@
       "coaching": "Face to Face",
       "notes": "tablet usage",
       "ts": 1786710288994,
-      "synced": false
+      "synced": true,
+      "infItemId": "a021a2a9-fc3a-4ae8-879f-22a97dc970fe",
+      "syncError": null
     },
     {
       "id": "L178671002430368",
@@ -46174,7 +46176,8 @@
     "b1444de2-ee85-459e-9f13-38c2f7e274e6",
     "fdc4cc43-a964-43aa-afb3-7195999c6446",
     "b46df69a-9681-4b81-b417-55e955c90f34",
-    "eda646d8-5ab9-41d2-8da5-03cc0894e625"
+    "eda646d8-5ab9-41d2-8da5-03cc0894e625",
+    "a021a2a9-fc3a-4ae8-879f-22a97dc970fe"
   ],
-  "_ts": "2026-08-14T12:24:49.044Z"
+  "_ts": "2026-08-14T12:24:51.829Z"
 }
