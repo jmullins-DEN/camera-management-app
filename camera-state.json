@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6319500502:  Traffic light violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db7bc435-423e-4ddb-8b89-f32c849b01f4.mp4",
       "ts": 1786669440578,
-      "synced": false
+      "synced": true,
+      "infItemId": "54dcf074-95df-4d9a-be29-2e64d65b5ae0",
+      "syncError": null
     },
     {
       "id": "L1786669060859387",
@@ -45560,7 +45562,8 @@
     "6d73b04b-610a-4823-8a70-1ae25ffd7bf5",
     "a86880b7-a924-4c02-b7d4-f40e9475c457",
     "842ed4c9-defd-4f07-89c4-db243eb19bd2",
-    "58961809-c022-4e09-adc9-8884eef0ed21"
+    "58961809-c022-4e09-adc9-8884eef0ed21",
+    "54dcf074-95df-4d9a-be29-2e64d65b5ae0"
   ],
-  "_ts": "2026-08-14T01:04:00.639Z"
+  "_ts": "2026-08-14T01:04:02.945Z"
 }
