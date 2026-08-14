@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178675173219254",
+      "board": "KYqKJWuumPm",
+      "driver": "Ethan Ball",
+      "driverId": "019dd5fe-e98e-7606-9da2-fd748b0c9992",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-14",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474980616004-1786743832279:  Seat belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1afdb930-ec94-43b2-95fd-22500fd53573.mp4",
+      "ts": 1786751732192,
+      "synced": false
+    },
+    {
       "id": "L1786751388816358",
       "board": "KYqKJWuumPm",
       "driver": "Rylee Yonker",
@@ -47197,5 +47210,5 @@
     "b5b697e2-7e26-4451-9f3c-3ca3067885ff",
     "61ab2904-26b5-4f94-8f55-976a344ba790"
   ],
-  "_ts": "2026-08-14T23:49:52.131Z"
+  "_ts": "2026-08-14T23:55:32.251Z"
 }
