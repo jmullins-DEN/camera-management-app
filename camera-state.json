@@ -352,6 +352,34 @@
   },
   "local": [
     {
+      "id": "L1786710819918383",
+      "board": "xMfRLnqAN7y",
+      "driver": "Kraig Hausmann",
+      "driverId": "019bdd3f-d9fc-7997-8bde-3f7a22a7af3e",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "eating distraction",
+      "ts": 1786710819918,
+      "synced": false
+    },
+    {
+      "id": "L1786710769025662",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jason Allen",
+      "driverId": "019bdd3f-6648-7997-8bde-259709e2a152",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking with two hands",
+      "ts": 1786710769025,
+      "synced": true,
+      "infItemId": "bb8c02f7-205a-4a2b-9c3a-5cddf153c801",
+      "syncError": null
+    },
+    {
       "id": "L1786710723614840",
       "board": "xMfRLnqAN7y",
       "driver": "Keith Smith",
@@ -46272,7 +46300,8 @@
     "9e8c3aac-eaa8-4f57-bcc4-f8ffde14fb75",
     "179fe099-f2de-424c-a2f2-d759a8bee1d1",
     "0c951bf4-f643-4c06-8cab-4e565d34bc8c",
-    "6fb245a6-56cd-41cb-a7d5-81745ddce26e"
+    "6fb245a6-56cd-41cb-a7d5-81745ddce26e",
+    "bb8c02f7-205a-4a2b-9c3a-5cddf153c801"
   ],
-  "_ts": "2026-08-14T12:32:06.573Z"
+  "_ts": "2026-08-14T12:33:39.963Z"
 }
