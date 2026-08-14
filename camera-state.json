@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786724138185703",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "https://app.estrack.com/#/camera/events/6a7e0c1fb60c756d720b9cba",
+      "ts": 1786724138185,
+      "synced": false
+    },
+    {
       "id": "L1786722661459640",
       "board": "nWRsGRSm2Hn",
       "driver": "Emery, Shane",
@@ -46393,5 +46406,5 @@
     "3feecf6a-fcf8-47f0-9aa7-9d9aa0e10926",
     "f2b225c9-a5c8-47bc-84a2-7690894491de"
   ],
-  "_ts": "2026-08-14T16:06:00.069Z"
+  "_ts": "2026-08-14T16:15:38.231Z"
 }
