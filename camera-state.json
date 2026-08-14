@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786668792618417",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Bill Mayville",
+      "driverId": "faeb2fb6-b5c0-44b0-a06b-98e4e32207aa",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1248041655387455488:  Hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dcd443b7-9b80-4073-a3b6-daa24c887dca.mp4",
+      "ts": 1786668792618,
+      "synced": false
+    },
+    {
       "id": "L1786667590856823",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -45519,5 +45532,5 @@
     "a86880b7-a924-4c02-b7d4-f40e9475c457",
     "842ed4c9-defd-4f07-89c4-db243eb19bd2"
   ],
-  "_ts": "2026-08-14T00:33:14.930Z"
+  "_ts": "2026-08-14T00:53:12.678Z"
 }
