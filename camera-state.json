@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "eating distraction",
       "ts": 1786710819918,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786710769025662",
@@ -46303,5 +46304,5 @@
     "6fb245a6-56cd-41cb-a7d5-81745ddce26e",
     "bb8c02f7-205a-4a2b-9c3a-5cddf153c801"
   ],
-  "_ts": "2026-08-14T12:33:39.963Z"
+  "_ts": "2026-08-14T12:33:43.300Z"
 }
