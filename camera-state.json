@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786741346795227",
+      "board": "8gejhhHJj4e",
+      "driver": "Unassigned",
+      "driverId": "9bad2e5c-4daa-4557-af15-28cc2682a2aa",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle 6815 ; Camera Obstruction",
+      "ts": 1786741346795,
+      "synced": false
+    },
+    {
       "id": "L1786741194493764",
       "board": "8gejhhHJj4e",
       "driver": "Aaron Goodson",
@@ -46961,5 +46974,5 @@
     "c1379eed-9856-43bf-98a9-d8aa3480df84",
     "e056b3f7-c1ea-4ef5-a1b1-c545b6cfa1cc"
   ],
-  "_ts": "2026-08-14T20:59:57.204Z"
+  "_ts": "2026-08-14T21:02:26.893Z"
 }
