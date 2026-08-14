@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786669440578802",
+      "board": "7d53dL31ioV",
+      "driver": "SCHULTZ, JEREMY D",
+      "driverId": "d1a5d6cf-91b2-45a8-880c-79130105ae48",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6319500502:  Traffic light violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db7bc435-423e-4ddb-8b89-f32c849b01f4.mp4",
+      "ts": 1786669440578,
+      "synced": false
+    },
+    {
       "id": "L1786669060859387",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -45549,5 +45562,5 @@
     "842ed4c9-defd-4f07-89c4-db243eb19bd2",
     "58961809-c022-4e09-adc9-8884eef0ed21"
   ],
-  "_ts": "2026-08-14T00:57:45.158Z"
+  "_ts": "2026-08-14T01:04:00.639Z"
 }
