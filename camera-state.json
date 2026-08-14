@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 281475000719319-1786718946105:  Truck # 184F550\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/34924e07-53f1-457e-af80-65f2a7870a0a.mp4",
       "ts": 1786751089895,
-      "synced": false
+      "synced": true,
+      "infItemId": "cd79318f-1589-4db0-9bc1-4005676459d2",
+      "syncError": null
     },
     {
       "id": "L1786750462652253",
@@ -47160,7 +47162,8 @@
     "4c343c62-ff70-4852-a405-366e0e81ed92",
     "7ea78729-81cc-4fa9-94ba-be75fac01475",
     "2dd705a5-498f-413f-96a7-04407d4f50dc",
-    "6bfa362e-1d49-4bd3-a926-a2720610dd10"
+    "6bfa362e-1d49-4bd3-a926-a2720610dd10",
+    "cd79318f-1589-4db0-9bc1-4005676459d2"
   ],
-  "_ts": "2026-08-14T23:44:49.948Z"
+  "_ts": "2026-08-14T23:44:52.308Z"
 }
