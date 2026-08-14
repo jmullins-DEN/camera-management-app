@@ -362,7 +362,8 @@
       "coaching": "System Alert",
       "notes": "hard brake; all cameras blocked",
       "ts": 1786711149466,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786711013324438",
@@ -46349,5 +46350,5 @@
     "bb2ec842-ccff-4e7d-bbc1-712cd8ac86d8",
     "eaa001cf-659a-43cb-9b19-4e9688321dce"
   ],
-  "_ts": "2026-08-14T12:39:09.520Z"
+  "_ts": "2026-08-14T12:39:11.818Z"
 }
