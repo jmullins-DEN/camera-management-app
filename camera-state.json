@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786670356291796",
+      "board": "qnESNLC3JPR",
+      "driver": "Forbes Jacob",
+      "driverId": "14d282c0-7676-4e47-8474-798230ae6dc1",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6317604223:  Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2afb73be-d591-4fbe-be49-4aa9f1df4895.mp4",
+      "ts": 1786670356291,
+      "synced": false
+    },
+    {
       "id": "L1786670108184216",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -45596,5 +45609,5 @@
     "54dcf074-95df-4d9a-be29-2e64d65b5ae0",
     "ba407d7d-ca02-4191-b6ee-3fb5318d0dbc"
   ],
-  "_ts": "2026-08-14T01:15:11.236Z"
+  "_ts": "2026-08-14T01:19:16.343Z"
 }
