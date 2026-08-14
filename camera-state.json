@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786739174651967",
+      "board": "8gejhhHJj4e",
+      "driver": "Craig Rodriguez",
+      "driverId": "019f1fb9-a8f4-719f-8068-56673fa1856d",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling Stop",
+      "ts": 1786739174651,
+      "synced": false
+    },
+    {
       "id": "L1786739091952241",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -46897,5 +46910,5 @@
     "a27f7c7f-80bd-4977-949a-a365d86a839a",
     "67da6dfa-7d1b-41e4-9144-51e429917b5d"
   ],
-  "_ts": "2026-08-14T20:24:57.316Z"
+  "_ts": "2026-08-14T20:26:14.691Z"
 }
