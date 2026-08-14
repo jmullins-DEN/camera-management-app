@@ -377,8 +377,9 @@
       "coaching": "System Alert",
       "notes": "hard brake; all cameras blocked",
       "ts": 1786711149466,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "28ad6197-17cb-4b24-bcef-72728726ff02"
     },
     {
       "id": "L1786711013324438",
@@ -46364,7 +46365,8 @@
     "bb8c02f7-205a-4a2b-9c3a-5cddf153c801",
     "bb2ec842-ccff-4e7d-bbc1-712cd8ac86d8",
     "eaa001cf-659a-43cb-9b19-4e9688321dce",
-    "0752f55f-fa82-400a-8eb8-9a653ebdbaed"
+    "0752f55f-fa82-400a-8eb8-9a653ebdbaed",
+    "28ad6197-17cb-4b24-bcef-72728726ff02"
   ],
-  "_ts": "2026-08-14T15:45:47.779Z"
+  "_ts": "2026-08-14T15:45:51.948Z"
 }
