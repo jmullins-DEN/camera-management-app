@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786710288994594",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Allen",
+      "driverId": "e08a2195-1cac-4cab-b79f-ced77b9985b0",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "tablet usage",
+      "ts": 1786710288994,
+      "synced": false
+    },
+    {
       "id": "L178671002430368",
       "board": "XVLVu2Du8hc",
       "driver": "Aaron Mutulo",
@@ -46163,5 +46176,5 @@
     "b46df69a-9681-4b81-b417-55e955c90f34",
     "eda646d8-5ab9-41d2-8da5-03cc0894e625"
   ],
-  "_ts": "2026-08-14T12:20:27.963Z"
+  "_ts": "2026-08-14T12:24:49.044Z"
 }
