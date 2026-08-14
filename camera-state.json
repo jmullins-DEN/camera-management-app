@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 6815 Spare\nRolling stop",
       "ts": 1786732639678,
-      "synced": false
+      "synced": true,
+      "infItemId": "462ec172-50b3-4e5d-adca-53a066e65a0b",
+      "syncError": null
     },
     {
       "id": "L1786732130578546",
@@ -46832,7 +46834,8 @@
     "4d9e54e9-d4f6-443e-bc14-7e49b253f7d4",
     "cd739590-1720-4ff6-94b5-1d15a103f6ae",
     "2c9c8f50-5437-4c06-ad5a-b35ce7b261c7",
-    "8119a837-bc78-4151-8a95-53123970ac67"
+    "8119a837-bc78-4151-8a95-53123970ac67",
+    "462ec172-50b3-4e5d-adca-53a066e65a0b"
   ],
-  "_ts": "2026-08-14T18:37:19.773Z"
+  "_ts": "2026-08-14T18:37:22.874Z"
 }
