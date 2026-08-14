@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786667590856823",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Luis Longoria",
+      "driverId": "49e59c0a-5419-4beb-bf1f-da4094d1ea21",
+      "date": "2026-08-13",
+      "reviewed": "2026-08-14",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 1247935855289597952:  Hard Breaking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1c38b05e-9164-4605-8219-35e7c8088ac3.mp4",
+      "ts": 1786667590856,
+      "synced": false
+    },
+    {
       "id": "L1786667305590862",
       "board": "7W2SQKrNcXQ",
       "driver": "Marcello Franco",
@@ -45503,5 +45516,5 @@
     "6d73b04b-610a-4823-8a70-1ae25ffd7bf5",
     "a86880b7-a924-4c02-b7d4-f40e9475c457"
   ],
-  "_ts": "2026-08-14T00:28:29.889Z"
+  "_ts": "2026-08-14T00:33:10.917Z"
 }
