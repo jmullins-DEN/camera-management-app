@@ -362,7 +362,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1248395241749381120:  Hard Braking\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/79ede0b2-9103-4dd1-bde6-8033b5fd04e3.mp4",
       "ts": 1786836020044,
-      "synced": false
+      "synced": true,
+      "infItemId": "75f95fca-36a7-48f5-9c5d-453e89988b3c",
+      "syncError": null
     },
     {
       "id": "L178675173219254",
@@ -47222,7 +47224,8 @@
     "6bfa362e-1d49-4bd3-a926-a2720610dd10",
     "cd79318f-1589-4db0-9bc1-4005676459d2",
     "b5b697e2-7e26-4451-9f3c-3ca3067885ff",
-    "61ab2904-26b5-4f94-8f55-976a344ba790"
+    "61ab2904-26b5-4f94-8f55-976a344ba790",
+    "75f95fca-36a7-48f5-9c5d-453e89988b3c"
   ],
-  "_ts": "2026-08-15T23:20:20.095Z"
+  "_ts": "2026-08-15T23:20:22.173Z"
 }
