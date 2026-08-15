@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786836797522427",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Roberto Ramirez",
+      "driverId": "960d7485-5877-40ed-bee3-f91e47767d40",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-15",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 1248600395111104512:  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7442b1aa-b8e2-4ef6-9858-197f0b5acde3.mp4",
+      "ts": 1786836797522,
+      "synced": false
+    },
+    {
       "id": "L1786836020044245",
       "board": "7W2SQKrNcXQ",
       "driver": "Bill Mayville",
@@ -47227,5 +47240,5 @@
     "61ab2904-26b5-4f94-8f55-976a344ba790",
     "75f95fca-36a7-48f5-9c5d-453e89988b3c"
   ],
-  "_ts": "2026-08-15T23:20:24.562Z"
+  "_ts": "2026-08-15T23:33:17.569Z"
 }
