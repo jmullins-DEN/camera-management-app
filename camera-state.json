@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786915016130824",
+      "board": "JthqRmXvJ9v",
+      "driver": "Zack Wyatt",
+      "driverId": "019c33e3-5a8b-7224-988a-bdee4f8c0027",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-16",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1786915016130,
+      "synced": false
+    },
+    {
       "id": "L1786914949761985",
       "board": "JthqRmXvJ9v",
       "driver": "Zack Wyatt",
@@ -47333,5 +47346,5 @@
     "a585e261-6220-4245-b568-a1f71ef87145",
     "722acdc4-462c-43de-b4ac-c8ac6ba24a8a"
   ],
-  "_ts": "2026-08-16T21:15:51.909Z"
+  "_ts": "2026-08-16T21:16:56.165Z"
 }
