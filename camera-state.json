@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786917416715932",
+      "board": "8gejhhHJj4e",
+      "driver": "Victor Sena",
+      "driverId": "97ba581a-289e-48cb-bbd8-b6b047471096",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1786917416715,
+      "synced": false
+    },
+    {
       "id": "L1786917356397560",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -47595,5 +47608,5 @@
     "8bcdb5c3-340a-48e2-926d-7ae8cfb04bbf",
     "f2576c64-3ba5-4eec-b06f-0fdcbdde622b"
   ],
-  "_ts": "2026-08-16T21:55:59.314Z"
+  "_ts": "2026-08-16T21:56:56.762Z"
 }
