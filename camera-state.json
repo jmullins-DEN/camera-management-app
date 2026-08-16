@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474996410029-1786838907570:  Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b9feb0c8-5572-4c41-8946-597c39a4ac5e.mp4",
       "ts": 1786923727148,
-      "synced": false
+      "synced": true,
+      "infItemId": "137c8fcb-0ab4-4dac-8ed7-476288497bb2",
+      "syncError": null
     },
     {
       "id": "L1786923598542174",
@@ -47881,7 +47883,8 @@
     "8a7c652e-f731-4e03-a38d-d7cfbd66e19a",
     "a25a29ce-5be4-4880-a40d-8999a1388f62",
     "90908d24-0df7-4579-96af-aedb674655dc",
-    "102f1579-b641-46de-9b2b-30da4c02f8e0"
+    "102f1579-b641-46de-9b2b-30da4c02f8e0",
+    "137c8fcb-0ab4-4dac-8ed7-476288497bb2"
   ],
-  "_ts": "2026-08-16T23:42:07.197Z"
+  "_ts": "2026-08-16T23:42:09.741Z"
 }
