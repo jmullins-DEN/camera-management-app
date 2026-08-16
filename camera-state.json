@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "Speeding",
       "ts": 1786916433949,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786915747595415",
@@ -47470,5 +47471,5 @@
     "9aa8de2b-3bca-4a9d-ab59-a83bfc28f177",
     "4b651c72-7bca-4709-b8e3-79c01f02815c"
   ],
-  "_ts": "2026-08-16T21:40:33.987Z"
+  "_ts": "2026-08-16T21:40:36.237Z"
 }
