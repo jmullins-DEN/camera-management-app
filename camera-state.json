@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle PU 6815 Spare\nPhone Distraction",
       "ts": 1786917144950,
-      "synced": false
+      "synced": true,
+      "infItemId": "9f01a043-9135-4627-b83d-4e359a14562d",
+      "syncError": null
     },
     {
       "id": "L1786917069502636",
@@ -47558,7 +47560,8 @@
     "4b651c72-7bca-4709-b8e3-79c01f02815c",
     "9e18b164-0340-4c05-9798-b90db2927079",
     "0f2ac23b-b1ea-4311-9343-5b457d005ded",
-    "d0fc46e8-db2d-4994-a6c6-08819a9b050e"
+    "d0fc46e8-db2d-4994-a6c6-08819a9b050e",
+    "9f01a043-9135-4627-b83d-4e359a14562d"
   ],
-  "_ts": "2026-08-16T21:52:24.990Z"
+  "_ts": "2026-08-16T21:52:27.363Z"
 }
