@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786924265645309",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-16",
+      "reviewed": "2026-08-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474984523377-1786842764395:  Hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2e8e08c3-c7fc-4e55-95a6-fe9dadb5207d.mp4",
+      "ts": 1786924265645,
+      "synced": false
+    },
+    {
       "id": "L1786924060185315",
       "board": "KYqKJWuumPm",
       "driver": "Joseph Pulliam",
@@ -47902,5 +47915,5 @@
     "137c8fcb-0ab4-4dac-8ed7-476288497bb2",
     "35851678-394f-4d68-a38f-561d7bcead89"
   ],
-  "_ts": "2026-08-16T23:47:43.453Z"
+  "_ts": "2026-08-16T23:51:05.697Z"
 }
