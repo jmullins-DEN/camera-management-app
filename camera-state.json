@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786915220262585",
+      "board": "JthqRmXvJ9v",
+      "driver": "Jose Patino",
+      "driverId": "019a7b18-0863-7330-ad9a-c77eb4952fc8",
+      "date": "2026-08-15",
+      "reviewed": "2026-08-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1786915220262,
+      "synced": false
+    },
+    {
       "id": "L1786915180616183",
       "board": "JthqRmXvJ9v",
       "driver": "Justin Hunter",
@@ -47379,5 +47392,5 @@
     "6f6d4df9-f671-4c0d-aee4-8b7e2169f0a1",
     "2c3d5b33-c3c3-41f7-8866-f92130d6721a"
   ],
-  "_ts": "2026-08-16T21:19:42.952Z"
+  "_ts": "2026-08-16T21:20:20.301Z"
 }
