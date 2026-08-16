@@ -360,7 +360,7 @@
       "reviewed": "2026-08-16",
       "behavior": "Driver Distraction-Phone",
       "coaching": "Unidentified Driver",
-      "notes": "Alert 281474984523377-1786842764395:  Hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2e8e08c3-c7fc-4e55-95a6-fe9dadb5207d.mp4",
+      "notes": "Alert 281474984523377-1786842764395:  Truck # 060(204) \nHand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2e8e08c3-c7fc-4e55-95a6-fe9dadb5207d.mp4",
       "ts": 1786924265645,
       "synced": true,
       "infItemId": "0c133d6c-823c-4b5c-805c-83973fcc4f2b",
@@ -47918,5 +47918,5 @@
     "35851678-394f-4d68-a38f-561d7bcead89",
     "0c133d6c-823c-4b5c-805c-83973fcc4f2b"
   ],
-  "_ts": "2026-08-16T23:51:08.035Z"
+  "_ts": "2026-08-16T23:51:56.708Z"
 }
