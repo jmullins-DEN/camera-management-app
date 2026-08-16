@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786916958706467",
+      "board": "8gejhhHJj4e",
+      "driver": "Travis Rizzi",
+      "driverId": "019ac5a8-bb08-700d-9722-995c252f72d5",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1786916958706,
+      "synced": false
+    },
+    {
       "id": "L1786916861133139",
       "board": "8gejhhHJj4e",
       "driver": "Diego Molina",
@@ -47517,5 +47530,5 @@
     "9e18b164-0340-4c05-9798-b90db2927079",
     "0f2ac23b-b1ea-4311-9343-5b457d005ded"
   ],
-  "_ts": "2026-08-16T21:47:44.144Z"
+  "_ts": "2026-08-16T21:49:18.751Z"
 }
