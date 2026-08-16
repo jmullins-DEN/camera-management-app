@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786914557864918",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Meyers, David",
+      "driverId": "41cb89ee-8c95-4d54-85c9-4ac1e6728248",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-16",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1786914557865,
+      "synced": false
+    },
+    {
       "id": "L1786914502666141",
       "board": "nWRsGRSm2Hn",
       "driver": "Robert Reveles",
@@ -362,7 +375,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance\n",
       "ts": 1786914502666,
-      "synced": false
+      "synced": true,
+      "infItemId": "0184bd82-de6d-4b67-875b-5ec3b46fd632",
+      "syncError": null
     },
     {
       "id": "L1786837532266102",
@@ -47296,7 +47311,8 @@
     "fe1559b0-2412-499c-9dc2-309777b28e35",
     "847dfdeb-0746-48a0-a88d-590d21c65719",
     "3a882191-fba8-4766-96b6-8cebebd82225",
-    "74f97fe8-5865-455c-9986-e750ce3880ba"
+    "74f97fe8-5865-455c-9986-e750ce3880ba",
+    "0184bd82-de6d-4b67-875b-5ec3b46fd632"
   ],
-  "_ts": "2026-08-16T21:08:22.709Z"
+  "_ts": "2026-08-16T21:09:17.908Z"
 }
