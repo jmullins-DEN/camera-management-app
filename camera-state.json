@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786924060185315",
+      "board": "KYqKJWuumPm",
+      "driver": "Joseph Pulliam",
+      "driverId": "019dd5ff-32f9-7761-84fc-14cc7b029e7d",
+      "date": "2026-08-16",
+      "reviewed": "2026-08-16",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474992542337-1786899178668:  Distracted Driver/Hand Held \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/73783bdb-c5e1-40c5-8b5e-00a0c17b8597.mp4",
+      "ts": 1786924060185,
+      "synced": false
+    },
+    {
       "id": "L178692372714859",
       "board": "KYqKJWuumPm",
       "driver": "Timothy Ferris",
@@ -47886,5 +47899,5 @@
     "102f1579-b641-46de-9b2b-30da4c02f8e0",
     "137c8fcb-0ab4-4dac-8ed7-476288497bb2"
   ],
-  "_ts": "2026-08-16T23:42:09.741Z"
+  "_ts": "2026-08-16T23:47:40.239Z"
 }
