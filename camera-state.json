@@ -352,6 +352,34 @@
   },
   "local": [
     {
+      "id": "L1786919568364444",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Bailey Bulyer",
+      "driverId": "019e6c8e-5b14-7529-92ab-ca7032587804",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-16",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995771683-1786758084549\nHard Brake; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dccd4122-9fef-4dee-bb9a-3d151d4dbf43.mp4\n                     https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c802abfa-67a3-4950-99e3-61ee51983e8a.mp4\n",
+      "ts": 1786919568364,
+      "synced": false
+    },
+    {
+      "id": "L1786919435352604",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Bailey Bulyer",
+      "driverId": "019e6c8e-5b14-7529-92ab-ca7032587804",
+      "date": "2026-08-15",
+      "reviewed": "2026-08-16",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995771683-1786831563961\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4f1a95b3-1453-43be-a162-f5274dac2c8a.mp4",
+      "ts": 1786919435352,
+      "synced": true,
+      "infItemId": "90908d24-0df7-4579-96af-aedb674655dc",
+      "syncError": null
+    },
+    {
       "id": "L178691925971946",
       "board": "AKJSkJj6Ch4",
       "driver": "Bailey Bulyer",
@@ -47788,7 +47816,8 @@
     "b1fd14b7-7d0f-4e53-bbc8-020b8937ca3e",
     "7728e192-4cd4-4f0c-a28b-1969e60e384f",
     "8a7c652e-f731-4e03-a38d-d7cfbd66e19a",
-    "a25a29ce-5be4-4880-a40d-8999a1388f62"
+    "a25a29ce-5be4-4880-a40d-8999a1388f62",
+    "90908d24-0df7-4579-96af-aedb674655dc"
   ],
-  "_ts": "2026-08-16T22:27:42.253Z"
+  "_ts": "2026-08-16T22:32:48.422Z"
 }
