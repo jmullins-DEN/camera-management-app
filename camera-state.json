@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786914502666141",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Robert Reveles",
+      "driverId": "019ce443-7c4f-7bb0-a162-747156931cca",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-16",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance\n",
+      "ts": 1786914502666,
+      "synced": false
+    },
+    {
       "id": "L1786837532266102",
       "board": "7W2SQKrNcXQ",
       "driver": "Adan Casillas",
@@ -47285,5 +47298,5 @@
     "3a882191-fba8-4766-96b6-8cebebd82225",
     "74f97fe8-5865-455c-9986-e750ce3880ba"
   ],
-  "_ts": "2026-08-16T21:06:45.186Z"
+  "_ts": "2026-08-16T21:08:22.709Z"
 }
