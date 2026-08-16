@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786918354405549",
+      "board": "8gejhhHJj4e",
+      "driver": "Gage Dawkins",
+      "driverId": "1edacefb-9c73-44f0-85ec-f3149033f086",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-16",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1786918354405,
+      "synced": false
+    },
+    {
       "id": "L1786918264862790",
       "board": "8gejhhHJj4e",
       "driver": "Samuel Huber",
@@ -47723,5 +47736,5 @@
     "8b45901a-ed77-408f-ac02-32a5fd2d8366",
     "b1fd14b7-7d0f-4e53-bbc8-020b8937ca3e"
   ],
-  "_ts": "2026-08-16T22:11:06.989Z"
+  "_ts": "2026-08-16T22:12:34.446Z"
 }
