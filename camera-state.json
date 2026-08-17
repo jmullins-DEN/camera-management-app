@@ -467,9 +467,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Passing on double yellow/aggressive driving https://app.estrack.com/#/camera/events/6a807e2ab60c756d720de89d",
       "ts": 1786986094236,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f67e2b14-80ad-4c71-822b-d697084b7bd2"
     },
     {
       "id": "L1786985344557986",
@@ -482,9 +482,9 @@
       "coaching": "Unidentified Driver",
       "notes": "https://app.estrack.com/#/camera/events/6a7fbdebb60c756d720da19d",
       "ts": 1786985344557,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "70fa960e-19a0-47a5-92e6-97343b8830cd"
     },
     {
       "id": "L1786985004330860",
@@ -48916,7 +48916,8 @@
     "0a8c3d95-766d-472b-95a2-69118bfde0ec",
     "ecf5b991-1eb0-4563-99c6-13021ef34dbb",
     "0d544d38-ac95-4cd8-98f0-d4a687f118d5",
-    "d4812a2f-3824-4f61-96b7-514049c27f15"
+    "d4812a2f-3824-4f61-96b7-514049c27f15",
+    "f67e2b14-80ad-4c71-822b-d697084b7bd2"
   ],
-  "_ts": "2026-08-17T17:27:27.110Z"
+  "_ts": "2026-08-17T17:27:29.568Z"
 }
