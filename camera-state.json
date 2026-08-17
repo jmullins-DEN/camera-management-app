@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786966022059341",
+      "board": "4rNDuSrCaap",
+      "driver": "Nick Edlin",
+      "driverId": "47276764-8426-40e7-a6bc-1aeb0905506e",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-17",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 429112828; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ecce483e-8dc0-4f0b-b6be-6ced2fae4756.mp4",
+      "ts": 1786966022059,
+      "synced": false
+    },
+    {
       "id": "L1786965836209948",
       "board": "4rNDuSrCaap",
       "driver": "Wess Floyd",
@@ -48131,5 +48144,5 @@
     "5a21bc9d-7102-412a-9c6d-1ebb10ccc5f4",
     "08dd8fc2-eef2-4209-a383-7eb4629847db"
   ],
-  "_ts": "2026-08-17T11:23:58.828Z"
+  "_ts": "2026-08-17T11:27:02.111Z"
 }
