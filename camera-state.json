@@ -362,7 +362,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Passing on double yellow/aggressive driving https://app.estrack.com/#/camera/events/6a807e2ab60c756d720de89d",
       "ts": 1786986094236,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786985344557986",
@@ -48803,5 +48804,5 @@
     "c10ec90b-c1a6-407b-82df-0398930c9899",
     "70fa960e-19a0-47a5-92e6-97343b8830cd"
   ],
-  "_ts": "2026-08-17T17:01:34.289Z"
+  "_ts": "2026-08-17T17:01:36.858Z"
 }
