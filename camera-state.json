@@ -362,7 +362,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 429388530; following too close; Gavin not in Truckspy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8e838a92-fc0f-40ad-9b8d-bd22578c42cb.mp4",
       "ts": 1786966472817,
-      "synced": false
+      "synced": true,
+      "infItemId": "330b9e6e-3096-4bd7-9bdc-241fe8f0726c",
+      "syncError": null
     },
     {
       "id": "L1786966363582671",
@@ -48254,7 +48256,8 @@
     "7440ad8e-c8e3-484c-bcf4-c14e4cddf541",
     "e23e8bfd-e10c-4a9f-a288-ded8d52b4416",
     "755af76a-89e2-4454-85e0-098cd6671842",
-    "60798fcc-67f5-4bd4-b5ae-a5808e7245cb"
+    "60798fcc-67f5-4bd4-b5ae-a5808e7245cb",
+    "330b9e6e-3096-4bd7-9bdc-241fe8f0726c"
   ],
-  "_ts": "2026-08-17T11:34:32.878Z"
+  "_ts": "2026-08-17T11:34:35.620Z"
 }
