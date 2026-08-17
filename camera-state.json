@@ -362,7 +362,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a7f1ab6b60c756d720ca4ac Driver lost lane ",
       "ts": 1786987270992,
-      "synced": false
+      "synced": true,
+      "infItemId": "0a8c3d95-766d-472b-95a2-69118bfde0ec",
+      "syncError": null
     },
     {
       "id": "L1786987175885457",
@@ -48879,7 +48881,8 @@
     "70fa960e-19a0-47a5-92e6-97343b8830cd",
     "ebb6a0c7-619b-4606-9e9d-422e08579d65",
     "a311b83f-8222-49f7-8d27-d5d05b173185",
-    "4ab7f863-e93e-46cc-a9f5-f39c7d92cda0"
+    "4ab7f863-e93e-46cc-a9f5-f39c7d92cda0",
+    "0a8c3d95-766d-472b-95a2-69118bfde0ec"
   ],
-  "_ts": "2026-08-17T17:21:11.039Z"
+  "_ts": "2026-08-17T17:21:14.196Z"
 }
