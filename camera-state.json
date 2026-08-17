@@ -722,9 +722,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Camera Obstruction\nVehicle PU 6815 Spare",
       "ts": 1786917069502,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "4997ced4-faeb-40c1-b21b-8db0a0ed7ad1"
     },
     {
       "id": "L1786916958706467",
@@ -767,9 +767,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1786916728417,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "4c5d0c90-d4eb-413e-868c-3bcbf4f3b264"
     },
     {
       "id": "L1786916644599473",
@@ -47950,7 +47950,9 @@
     "0c133d6c-823c-4b5c-805c-83973fcc4f2b",
     "d31d709b-e944-4fe7-85a1-7b01456c00db",
     "3c6d469b-a0e9-4d2b-a586-015df413c87a",
-    "562f57b6-ccf8-43da-a4bd-33abaa1538be"
+    "562f57b6-ccf8-43da-a4bd-33abaa1538be",
+    "4997ced4-faeb-40c1-b21b-8db0a0ed7ad1",
+    "4c5d0c90-d4eb-413e-868c-3bcbf4f3b264"
   ],
-  "_ts": "2026-08-17T11:01:28.820Z"
+  "_ts": "2026-08-17T11:01:31.057Z"
 }
