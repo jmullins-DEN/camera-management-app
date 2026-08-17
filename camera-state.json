@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786965119865741",
+      "board": "8BUntjK1TqV",
+      "driver": "unassigned",
+      "driverId": "3111c34f-9af4-4713-a299-41121dca9bbd",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-17",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6322907521; backward camera blocked; vehicle -unassigned; vehicle assigned to Driver Education Network\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/96b6b33b-cdaa-41f5-bf36-0f97f40c4922.mp4",
+      "ts": 1786965119865,
+      "synced": false
+    },
+    {
       "id": "L1786965029495552",
       "board": "8BUntjK1TqV",
       "driver": "Leoffler, David (Dave)",
@@ -48016,5 +48029,5 @@
     "93392c02-920c-423d-8625-03c0192b66e5",
     "cdaec9ab-f50b-46c3-9ad0-18695719c423"
   ],
-  "_ts": "2026-08-17T11:10:32.823Z"
+  "_ts": "2026-08-17T11:11:59.916Z"
 }
