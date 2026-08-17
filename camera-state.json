@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1786970830920445",
+      "board": "YJNwKvzFhkj",
+      "driver": "DeErick Powe",
+      "driverId": "019dd5f1-4f6e-73b7-b34e-c69709a4b66b",
+      "date": "2026-08-15",
+      "reviewed": "2026-08-17",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1786970830920,
+      "synced": false
+    },
+    {
       "id": "L1786970742954599",
       "board": "YJNwKvzFhkj",
       "driver": "Travarius Walker",
@@ -48690,5 +48703,5 @@
     "4ba4322e-4661-4722-bf51-60e00eb82c0a",
     "3baca70b-8ddc-4a56-b9ba-4706699d5598"
   ],
-  "_ts": "2026-08-17T12:45:47.437Z"
+  "_ts": "2026-08-17T12:47:10.968Z"
 }
