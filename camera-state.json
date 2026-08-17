@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "Phone Distraction\n",
       "ts": 1787001284312,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787001205460913",
@@ -48979,5 +48980,5 @@
     "f67e2b14-80ad-4c71-822b-d697084b7bd2",
     "97bc60b0-9497-43d3-9889-df2a9a150b73"
   ],
-  "_ts": "2026-08-17T21:14:44.395Z"
+  "_ts": "2026-08-17T21:14:48.074Z"
 }
