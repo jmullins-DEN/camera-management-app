@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "68 in 55; vehicle # 459",
       "ts": 1786969584116,
-      "synced": false
+      "synced": true,
+      "infItemId": "b22df216-b5b5-4b78-8f1e-4d15ad87270d",
+      "syncError": null
     },
     {
       "id": "L1786969542495436",
@@ -48535,7 +48537,8 @@
     "11b663f8-e59d-4670-8128-8ec040fcef30",
     "ac54cf03-d918-43c2-b79d-e5371a693a80",
     "77d51e04-11d4-4a6b-990f-3dd86b8b4e34",
-    "b2250eac-52dc-45dd-8189-0fa4de752694"
+    "b2250eac-52dc-45dd-8189-0fa4de752694",
+    "b22df216-b5b5-4b78-8f1e-4d15ad87270d"
   ],
-  "_ts": "2026-08-17T12:26:24.171Z"
+  "_ts": "2026-08-17T12:26:26.821Z"
 }
