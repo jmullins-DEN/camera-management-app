@@ -362,8 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6333851538:  Traffic light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e4e10f7f-56c0-46df-9b76-2ad7424d0ca9.mp4",
       "ts": 1786924674664,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d31d709b-e944-4fe7-85a1-7b01456c00db"
     },
     {
       "id": "L1786924265645309",
@@ -466,9 +467,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995771683-1786758084549\nHard Brake; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dccd4122-9fef-4dee-bb9a-3d151d4dbf43.mp4\n                     https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c802abfa-67a3-4950-99e3-61ee51983e8a.mp4\n",
       "ts": 1786919568364,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "3c6d469b-a0e9-4d2b-a586-015df413c87a"
     },
     {
       "id": "L1786919435352604",
@@ -496,9 +497,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995771683-1786877271145\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ff5d778-c0a3-47b5-a750-399a4593bcf8.mp4",
       "ts": 1786919259719,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "562f57b6-ccf8-43da-a4bd-33abaa1538be"
     },
     {
       "id": "L1786918917889224",
@@ -47946,7 +47947,10 @@
     "102f1579-b641-46de-9b2b-30da4c02f8e0",
     "137c8fcb-0ab4-4dac-8ed7-476288497bb2",
     "35851678-394f-4d68-a38f-561d7bcead89",
-    "0c133d6c-823c-4b5c-805c-83973fcc4f2b"
+    "0c133d6c-823c-4b5c-805c-83973fcc4f2b",
+    "d31d709b-e944-4fe7-85a1-7b01456c00db",
+    "3c6d469b-a0e9-4d2b-a586-015df413c87a",
+    "562f57b6-ccf8-43da-a4bd-33abaa1538be"
   ],
-  "_ts": "2026-08-17T11:01:23.963Z"
+  "_ts": "2026-08-17T11:01:28.820Z"
 }
