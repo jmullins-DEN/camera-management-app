@@ -992,9 +992,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1786915056186,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "7cae9365-647d-402a-9760-3ca538203de7"
     },
     {
       "id": "L1786915016130824",
@@ -1772,9 +1772,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a7dbf75b60c756d720b0d7e",
       "ts": 1786725218050,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "ed12fab9-59b4-429f-a5d9-ddfb83ea9fee"
     },
     {
       "id": "L178672487906369",
@@ -48050,7 +48050,9 @@
     "814ba1b0-7694-4c57-ae1a-68f115ec1457",
     "a0da0cc1-2d4d-49ab-b00a-29b0d70c99c6",
     "89ddc0b9-783a-46b3-8670-585ef7eeeba4",
-    "0f31cf74-233e-401e-88f2-d9c227307c5a"
+    "0f31cf74-233e-401e-88f2-d9c227307c5a",
+    "7cae9365-647d-402a-9760-3ca538203de7",
+    "ed12fab9-59b4-429f-a5d9-ddfb83ea9fee"
   ],
-  "_ts": "2026-08-17T11:15:00.006Z"
+  "_ts": "2026-08-17T11:15:01.941Z"
 }
