@@ -362,7 +362,8 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 6323378187; passing in no passing zone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8dcd02f7-8a50-4838-b1cc-2d30a634afd4.mp4",
       "ts": 1786964841340,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1786964783207396",
@@ -47983,5 +47984,5 @@
     "4c5d0c90-d4eb-413e-868c-3bcbf4f3b264",
     "5727a386-d14d-4a60-a2be-24716a259917"
   ],
-  "_ts": "2026-08-17T11:07:21.393Z"
+  "_ts": "2026-08-17T11:07:23.999Z"
 }
