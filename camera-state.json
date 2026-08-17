@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L17870009201239",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Loper, William",
+      "driverId": "4554dbc1-4d5e-4de8-b4af-2917020f5e39",
+      "date": "2026-08-16",
+      "reviewed": "2026-08-17",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Hard Brake",
+      "ts": 1787000920123,
+      "synced": false
+    },
+    {
       "id": "L1786996302466502",
       "board": "MZerRFmhSHa",
       "driver": "unassigned",
@@ -48935,5 +48948,5 @@
     "d4812a2f-3824-4f61-96b7-514049c27f15",
     "f67e2b14-80ad-4c71-822b-d697084b7bd2"
   ],
-  "_ts": "2026-08-17T20:55:18.004Z"
+  "_ts": "2026-08-17T21:08:40.214Z"
 }
