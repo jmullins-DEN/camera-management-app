@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L178696527253450",
+      "board": "5gVKeGRDf8U",
+      "driver": "Mason Douglas",
+      "driverId": "2f919a72-90f9-496e-ac9d-1bb31eb29372",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-17",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 428948122;backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d6e2c9a8-e961-4c88-ac1f-d8aa7f55f702.mp4",
+      "ts": 1786965272534,
+      "synced": false
+    },
+    {
       "id": "L1786965119865741",
       "board": "8BUntjK1TqV",
       "driver": "unassigned",
@@ -48032,5 +48045,5 @@
     "cdaec9ab-f50b-46c3-9ad0-18695719c423",
     "2b48903c-2855-4ab8-85c0-3c229fb928cb"
   ],
-  "_ts": "2026-08-17T11:12:02.821Z"
+  "_ts": "2026-08-17T11:14:32.593Z"
 }
