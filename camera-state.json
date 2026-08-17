@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787001738588799",
+      "board": "8gejhhHJj4e",
+      "driver": "Josh Amick",
+      "driverId": "b0a48dcc-1993-45a8-b84c-582e819233a1",
+      "date": "2026-08-16",
+      "reviewed": "2026-08-17",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1787001738588,
+      "synced": false
+    },
+    {
       "id": "L1787001448413255",
       "board": "9RKrQRpDLcr",
       "driver": "Jeremy Myers",
@@ -48996,5 +49009,5 @@
     "97bc60b0-9497-43d3-9889-df2a9a150b73",
     "85af7e7a-35d7-45d9-9c06-a4e9c1d17d70"
   ],
-  "_ts": "2026-08-17T21:17:31.700Z"
+  "_ts": "2026-08-17T21:22:18.678Z"
 }
