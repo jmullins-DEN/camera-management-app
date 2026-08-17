@@ -377,8 +377,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a82360eb60c756d720e735f",
       "ts": 1786970978751,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a1151910-2b4f-4efe-bba7-88b29ab982fe"
     },
     {
       "id": "L1786970830920445",
@@ -421,9 +422,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a811b2db60c756d720e34c1 on phone and no seatbelt ",
       "ts": 1786970669899,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "3167cc6e-b112-4e35-96d8-9efeb2d051da"
     },
     {
       "id": "L1786970553206217",
@@ -991,9 +992,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 429001084; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/14d624aa-3b57-4d4c-b5a6-927bf428e7a9.mp4",
       "ts": 1786965352494,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "99dbad3f-31c6-4c84-9966-43304a9e942d"
     },
     {
       "id": "L178696527253450",
@@ -48735,7 +48736,10 @@
     "4ba4322e-4661-4722-bf51-60e00eb82c0a",
     "3baca70b-8ddc-4a56-b9ba-4706699d5598",
     "787c6756-4871-453b-b486-0c6c82f81dea",
-    "00a0021a-1d17-45bc-ab1d-4420185ff3fb"
+    "00a0021a-1d17-45bc-ab1d-4420185ff3fb",
+    "a1151910-2b4f-4efe-bba7-88b29ab982fe",
+    "3167cc6e-b112-4e35-96d8-9efeb2d051da",
+    "99dbad3f-31c6-4c84-9966-43304a9e942d"
   ],
-  "_ts": "2026-08-17T12:51:38.965Z"
+  "_ts": "2026-08-17T12:51:43.298Z"
 }
