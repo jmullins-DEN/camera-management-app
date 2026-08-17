@@ -352,6 +352,49 @@
   },
   "local": [
     {
+      "id": "L1786967065319216",
+      "board": "aRcazTLT9iM",
+      "driver": "Steven Vantrease",
+      "driverId": "66090392-1a7d-468e-8066-33d1460c82f8",
+      "date": "2026-08-16",
+      "reviewed": "2026-08-17",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1600843217; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b97ea9b0-5346-4a17-b86c-551fac5bb6ba.mp4",
+      "ts": 1786967065319,
+      "synced": false
+    },
+    {
+      "id": "L1786967026760928",
+      "board": "aRcazTLT9iM",
+      "driver": "Zach Risley",
+      "driverId": "14bbe6ad-14f2-4bce-98db-b478fe751dba",
+      "date": "2026-08-16",
+      "reviewed": "2026-08-17",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1600784094; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a6bfb61a-4642-4759-938d-812ea1c259cc.mp4",
+      "ts": 1786967026760,
+      "synced": true,
+      "infItemId": "90e418d4-a1ce-4623-a8b5-bfa8e0e9af0e",
+      "syncError": null
+    },
+    {
+      "id": "L1786966957688890",
+      "board": "aRcazTLT9iM",
+      "driver": "Tyler Jackson",
+      "driverId": "05fa8598-4eaf-4159-acaf-fa6ad5b1f68a",
+      "date": "2026-08-14",
+      "reviewed": "2026-08-17",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1600777932; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8d1febc8-a6f4-42ca-bbb7-9f60a3b30c26.mp4",
+      "ts": 1786966957688,
+      "synced": true,
+      "infItemId": "37a68527-b58c-402b-b4f2-2a9b52efa75c",
+      "syncError": null
+    },
+    {
       "id": "L1786966877234367",
       "board": "aRcazTLT9iM",
       "driver": "Curtis Daugherty",
@@ -362,7 +405,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 1599992378; following too close; tailgating\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d7058679-e163-4bb1-93a1-1761be2d0bbb.mp4",
       "ts": 1786966877234,
-      "synced": false
+      "synced": true,
+      "infItemId": "8378ba55-456b-4db2-9857-b275328ef4d6",
+      "syncError": null
     },
     {
       "id": "L1786966798077492",
@@ -48317,7 +48362,10 @@
     "60798fcc-67f5-4bd4-b5ae-a5808e7245cb",
     "330b9e6e-3096-4bd7-9bdc-241fe8f0726c",
     "3d439698-c794-42bb-85e7-38e74431adef",
-    "aec512d0-19b4-4913-8e58-c95bfd54ff2c"
+    "aec512d0-19b4-4913-8e58-c95bfd54ff2c",
+    "8378ba55-456b-4db2-9857-b275328ef4d6",
+    "37a68527-b58c-402b-b4f2-2a9b52efa75c",
+    "90e418d4-a1ce-4623-a8b5-bfa8e0e9af0e"
   ],
-  "_ts": "2026-08-17T11:41:17.280Z"
+  "_ts": "2026-08-17T11:44:25.371Z"
 }
