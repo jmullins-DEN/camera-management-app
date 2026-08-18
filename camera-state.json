@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787059220447834",
+      "board": "ebSND1QoyBs",
+      "driver": "KARVELL OLIVER",
+      "driverId": "66820273-3d66-474d-b1fd-a0498b80b8d3",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "hand held phone",
+      "ts": 1787059220447,
+      "synced": false
+    },
+    {
       "id": "L1787059154264794",
       "board": "ebSND1QoyBs",
       "driver": "Kevin Richardson",
@@ -49726,5 +49739,5 @@
     "6770d9e8-d735-446f-9f68-1d6959ec926c",
     "37a3e61b-98ab-4d04-bc66-fc3fe331bf66"
   ],
-  "_ts": "2026-08-18T13:19:16.939Z"
+  "_ts": "2026-08-18T13:20:20.498Z"
 }
