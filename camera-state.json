@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787084936172711",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Michael Colvin",
+      "driverId": "019d2c3b-0a6b-7776-a7f1-698af46249bc",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995966045-1787080258245\nIn Cab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/065e872f-94d2-47eb-9be9-ae32f6a8fce3.mp4",
+      "ts": 1787084936172,
+      "synced": false
+    },
+    {
       "id": "L178708477409224",
       "board": "AKJSkJj6Ch4",
       "driver": "Kenny Mayfield",
@@ -49880,5 +49893,5 @@
     "0d20e170-a6f8-4bf7-87d8-ae09301b0c21",
     "aab84945-e508-48ee-8af4-681803d8502e"
   ],
-  "_ts": "2026-08-18T20:26:17.357Z"
+  "_ts": "2026-08-18T20:28:56.231Z"
 }
