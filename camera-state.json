@@ -362,7 +362,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6338210642:  Truck # 226259 Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/492d2b0c-291f-4f75-b4fe-40b6ac8995ff.mp4",
       "ts": 1787016322528,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787016100307718",
@@ -49069,5 +49070,5 @@
     "7c4605c1-452b-4a5c-84fa-2eda7160cbdb",
     "48134c2f-a95d-4a05-a630-0b59b141475a"
   ],
-  "_ts": "2026-08-18T01:25:22.579Z"
+  "_ts": "2026-08-18T01:25:25.872Z"
 }
