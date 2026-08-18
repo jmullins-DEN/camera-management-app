@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787051384880102",
+      "board": "8BUntjK1TqV",
+      "driver": "Leoffler, David (Dave)",
+      "driverId": "019f8b75-3db3-74b7-b3ec-5c87fa5763a7",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6337611965; multi-tasking; inattentive\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b31f0010-91f7-49dd-9b03-cc61903e82c1.mp4",
+      "ts": 1787051384880,
+      "synced": false
+    },
+    {
       "id": "L1787018625753694",
       "board": "qnESNLC3JPR",
       "driver": "Jimmy Mott",
@@ -49191,5 +49204,5 @@
     "7541a342-3c35-418d-8b87-1036392ba3f3",
     "0b9d6386-44fc-4372-ac4c-e2002393095f"
   ],
-  "_ts": "2026-08-18T11:09:03.855Z"
+  "_ts": "2026-08-18T11:09:44.934Z"
 }
