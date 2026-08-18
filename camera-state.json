@@ -367,7 +367,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6346392764\nRan Red Light; Face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2d6499b1-b826-40dd-84bc-109d0c0e6109.mp4",
       "ts": 1787087398782,
-      "synced": false
+      "synced": true,
+      "infItemId": "93139ac9-da31-467c-9a23-48db62d12edb",
+      "syncError": null
     },
     {
       "id": "L1787087168148555",
@@ -49969,7 +49971,8 @@
     "35889f88-90ff-4c5b-84e2-b69b9fd97174",
     "ef9c4fda-cbf0-4b6a-b5e8-b332ce25d47b",
     "58bc9c1a-e7ac-47e3-8016-a6f0565a0357",
-    "be66e5e2-d8bb-4b53-9748-2a953be42963"
+    "be66e5e2-d8bb-4b53-9748-2a953be42963",
+    "93139ac9-da31-467c-9a23-48db62d12edb"
   ],
-  "_ts": "2026-08-18T21:09:58.874Z"
+  "_ts": "2026-08-18T21:10:01.959Z"
 }
