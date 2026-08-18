@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 281474984523377-1786943748325:  Truck # 060(204)  Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/015f1b0c-4425-4138-bd95-95b909210e0c.mp4",
       "ts": 1787018174288,
-      "synced": false
+      "synced": true,
+      "infItemId": "72b7a099-310a-43a4-b569-ad415b2d096e",
+      "syncError": null
     },
     {
       "id": "L1787017928878258",
@@ -49143,7 +49145,8 @@
     "48134c2f-a95d-4a05-a630-0b59b141475a",
     "6f37342f-da24-4d05-a053-8870e1357b38",
     "383d62f7-fcbc-4b07-b45d-a0bdaa5f3a84",
-    "af9bef8c-13d9-4fae-b4c4-1aaa1e462483"
+    "af9bef8c-13d9-4fae-b4c4-1aaa1e462483",
+    "72b7a099-310a-43a4-b569-ad415b2d096e"
   ],
-  "_ts": "2026-08-18T01:56:14.344Z"
+  "_ts": "2026-08-18T01:56:17.059Z"
 }
