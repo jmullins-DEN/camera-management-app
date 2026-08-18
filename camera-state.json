@@ -367,7 +367,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding",
       "ts": 1787089543452,
-      "synced": false
+      "synced": true,
+      "infItemId": "807d68a8-95d7-43b6-bc0c-a0fc3c9703d8",
+      "syncError": null
     },
     {
       "id": "L1787089474162629",
@@ -50107,7 +50109,8 @@
     "f8b0c6e3-df51-4a98-843e-368e093aa169",
     "16f404b1-f745-4f56-b6ca-6186d545a996",
     "de49cce1-789c-4092-b38d-5fedbc73e1bf",
-    "d0c0e444-a79b-4e1e-8a64-209dcf26fdd9"
+    "d0c0e444-a79b-4e1e-8a64-209dcf26fdd9",
+    "807d68a8-95d7-43b6-bc0c-a0fc3c9703d8"
   ],
-  "_ts": "2026-08-18T21:45:43.541Z"
+  "_ts": "2026-08-18T21:45:45.865Z"
 }
