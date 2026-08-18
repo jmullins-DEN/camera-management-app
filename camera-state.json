@@ -367,7 +367,8 @@
       "coaching": "Face to Face",
       "notes": "Rolling Stop",
       "ts": 1787090655169,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787090554952393",
@@ -50201,5 +50202,5 @@
     "98aeb256-7182-4a9a-8bfa-a73cc366f777",
     "e0abb063-c4fa-4d4f-a6e9-0d4c7f60adad"
   ],
-  "_ts": "2026-08-18T22:04:15.216Z"
+  "_ts": "2026-08-18T22:04:18.339Z"
 }
