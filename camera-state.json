@@ -362,7 +362,8 @@
       "coaching": "Coaching Notes",
       "notes": "following too close",
       "ts": 1787059088007,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787059066365903",
@@ -49709,5 +49710,5 @@
     "ffbdb74c-9f95-439d-9fcd-c73b4d8d4067",
     "6770d9e8-d735-446f-9f68-1d6959ec926c"
   ],
-  "_ts": "2026-08-18T13:18:08.059Z"
+  "_ts": "2026-08-18T13:18:10.260Z"
 }
