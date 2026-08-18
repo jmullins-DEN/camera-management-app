@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787089543452461",
+      "board": "9RKrQRpDLcr",
+      "driver": "Tommy Scott",
+      "driverId": "8acebdd2-9ea9-4ef9-9665-c0033037b6de",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Speeding",
+      "ts": 1787089543452,
+      "synced": false
+    },
+    {
       "id": "L1787089474162629",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -50096,5 +50109,5 @@
     "de49cce1-789c-4092-b38d-5fedbc73e1bf",
     "d0c0e444-a79b-4e1e-8a64-209dcf26fdd9"
   ],
-  "_ts": "2026-08-18T21:44:36.867Z"
+  "_ts": "2026-08-18T21:45:43.541Z"
 }
