@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787059154264794",
+      "board": "ebSND1QoyBs",
+      "driver": "Kevin Richardson",
+      "driverId": "0f1a0453-155c-4403-9447-f2985948f8f5",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "hard brake",
+      "ts": 1787059154264,
+      "synced": false
+    },
+    {
       "id": "L1787059088006562",
       "board": "ebSND1QoyBs",
       "driver": "Jose Hondolero",
@@ -49710,5 +49723,5 @@
     "ffbdb74c-9f95-439d-9fcd-c73b4d8d4067",
     "6770d9e8-d735-446f-9f68-1d6959ec926c"
   ],
-  "_ts": "2026-08-18T13:18:10.260Z"
+  "_ts": "2026-08-18T13:19:14.319Z"
 }
