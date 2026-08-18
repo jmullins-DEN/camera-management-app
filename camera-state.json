@@ -362,7 +362,9 @@
       "coaching": "Coaching Notes",
       "notes": "hand held phone",
       "ts": 1787059220447,
-      "synced": false
+      "synced": true,
+      "infItemId": "a21190ad-6f3d-4d4b-aa81-8b70bc4786ee",
+      "syncError": null
     },
     {
       "id": "L1787059154264794",
@@ -49737,7 +49739,8 @@
     "a6f8d7fe-970b-4e05-afdb-df1115676301",
     "ffbdb74c-9f95-439d-9fcd-c73b4d8d4067",
     "6770d9e8-d735-446f-9f68-1d6959ec926c",
-    "37a3e61b-98ab-4d04-bc66-fc3fe331bf66"
+    "37a3e61b-98ab-4d04-bc66-fc3fe331bf66",
+    "a21190ad-6f3d-4d4b-aa81-8b70bc4786ee"
   ],
-  "_ts": "2026-08-18T13:20:20.498Z"
+  "_ts": "2026-08-18T13:20:23.310Z"
 }
