@@ -367,7 +367,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 6346013603; hard brake; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7f1090a7-d2d6-462e-add6-4434670655bb.mp4\n",
       "ts": 1787085126321,
-      "synced": false
+      "synced": true,
+      "infItemId": "58bc9c1a-e7ac-47e3-8016-a6f0565a0357",
+      "syncError": null
     },
     {
       "id": "L1787085026852414",
@@ -49923,7 +49925,8 @@
     "0d20e170-a6f8-4bf7-87d8-ae09301b0c21",
     "aab84945-e508-48ee-8af4-681803d8502e",
     "35889f88-90ff-4c5b-84e2-b69b9fd97174",
-    "ef9c4fda-cbf0-4b6a-b5e8-b332ce25d47b"
+    "ef9c4fda-cbf0-4b6a-b5e8-b332ce25d47b",
+    "58bc9c1a-e7ac-47e3-8016-a6f0565a0357"
   ],
-  "_ts": "2026-08-18T20:32:06.378Z"
+  "_ts": "2026-08-18T20:32:09.212Z"
 }
