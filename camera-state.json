@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787016964794701",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6337841050:  Truck # 403744 Distracted Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/46800304-b033-46cb-967b-821e853b427b.mp4",
+      "ts": 1787016964794,
+      "synced": false
+    },
+    {
       "id": "L1787016322528584",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -49070,5 +49083,5 @@
     "7c4605c1-452b-4a5c-84fa-2eda7160cbdb",
     "48134c2f-a95d-4a05-a630-0b59b141475a"
   ],
-  "_ts": "2026-08-18T01:25:25.872Z"
+  "_ts": "2026-08-18T01:36:04.841Z"
 }
