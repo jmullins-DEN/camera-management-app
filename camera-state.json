@@ -352,6 +352,20 @@
   },
   "local": [
     {
+      "id": "L1787058453652951",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "phone usage; loses lane; backward camera blocked",
+      "ts": 1787058453652,
+      "synced": false,
+      "infItemId": "4b573542-a25e-4375-ba3e-eaa14c79a8c6"
+    },
+    {
       "id": "L1787058376245562",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Contreras",
@@ -49568,5 +49582,5 @@
     "7b165275-15d2-4dc5-804a-84213f07dc80",
     "775fd802-e1f8-4604-9e49-13753c0b1447"
   ],
-  "_ts": "2026-08-18T13:06:19.622Z"
+  "_ts": "2026-08-18T13:07:35.127Z"
 }
