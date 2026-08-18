@@ -367,7 +367,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995752151-1787001023899\nIn Cab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/670df37d-11d4-40c1-af39-43922a8cc6fb.mp4",
       "ts": 1787084600402,
-      "synced": false
+      "synced": true,
+      "infItemId": "0d20e170-a6f8-4bf7-87d8-ae09301b0c21",
+      "syncError": null
     },
     {
       "id": "L1787060718798923",
@@ -49859,7 +49861,8 @@
     "747e0890-aee0-427f-9224-e4e0af424d40",
     "239060db-4a21-4ad7-8d6c-92063bf99c52",
     "2ac8cb99-422f-497c-8f97-a5e5f148e828",
-    "f356589b-371c-4851-85cd-dd2f1590d666"
+    "f356589b-371c-4851-85cd-dd2f1590d666",
+    "0d20e170-a6f8-4bf7-87d8-ae09301b0c21"
   ],
-  "_ts": "2026-08-18T20:23:20.510Z"
+  "_ts": "2026-08-18T20:23:23.959Z"
 }
