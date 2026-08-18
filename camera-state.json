@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6337256135:  Truck # 226260 U-turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b20ed675-35e1-4a76-9b54-d272e71ce91b.mp4https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/035434a8-6151-4bba-92e5-eaa9df859243.mp4",
       "ts": 1787016100307,
-      "synced": false
+      "synced": true,
+      "infItemId": "48134c2f-a95d-4a05-a630-0b59b141475a",
+      "syncError": null
     },
     {
       "id": "L1787015513616302",
@@ -49051,7 +49053,8 @@
     "f67e2b14-80ad-4c71-822b-d697084b7bd2",
     "97bc60b0-9497-43d3-9889-df2a9a150b73",
     "85af7e7a-35d7-45d9-9c06-a4e9c1d17d70",
-    "7c4605c1-452b-4a5c-84fa-2eda7160cbdb"
+    "7c4605c1-452b-4a5c-84fa-2eda7160cbdb",
+    "48134c2f-a95d-4a05-a630-0b59b141475a"
   ],
-  "_ts": "2026-08-18T01:21:40.362Z"
+  "_ts": "2026-08-18T01:21:44.059Z"
 }
