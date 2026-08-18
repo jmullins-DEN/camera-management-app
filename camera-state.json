@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787017262214514",
+      "board": "7d53dL31ioV",
+      "driver": "SCHULTZ, JEREMY D",
+      "driverId": "d1a5d6cf-91b2-45a8-880c-79130105ae48",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6337642652:  Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e8ded073-3e20-4e7e-8f3d-9d85104ec7ab.mp4",
+      "ts": 1787017262215,
+      "synced": false
+    },
+    {
       "id": "L1787016964794701",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -49086,5 +49099,5 @@
     "48134c2f-a95d-4a05-a630-0b59b141475a",
     "6f37342f-da24-4d05-a053-8870e1357b38"
   ],
-  "_ts": "2026-08-18T01:36:08.059Z"
+  "_ts": "2026-08-18T01:41:02.272Z"
 }
