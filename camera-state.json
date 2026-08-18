@@ -61,8 +61,8 @@
     "ioWX9hneUsk": {},
     "qnESNLC3JPR": {
       "logoZoom": 1.6,
-      "trendDays": 14,
-      "trendCount": 3
+      "trendDays": 0,
+      "trendCount": 0
     },
     "xMfRLnqAN7y": {
       "logoZoom": 1.2
@@ -49848,5 +49848,5 @@
     "2ac8cb99-422f-497c-8f97-a5e5f148e828",
     "f356589b-371c-4851-85cd-dd2f1590d666"
   ],
-  "_ts": "2026-08-18T17:16:14.274Z"
+  "_ts": "2026-08-18T17:16:30.031Z"
 }
