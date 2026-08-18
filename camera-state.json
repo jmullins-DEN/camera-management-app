@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787018174288254",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474984523377-1786943748325:  Truck # 060(204)  Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/015f1b0c-4425-4138-bd95-95b909210e0c.mp4",
+      "ts": 1787018174288,
+      "synced": false
+    },
+    {
       "id": "L1787017928878258",
       "board": "KYqKJWuumPm",
       "driver": "Chase Burch",
@@ -49132,5 +49145,5 @@
     "383d62f7-fcbc-4b07-b45d-a0bdaa5f3a84",
     "af9bef8c-13d9-4fae-b4c4-1aaa1e462483"
   ],
-  "_ts": "2026-08-18T01:52:11.146Z"
+  "_ts": "2026-08-18T01:56:14.344Z"
 }
