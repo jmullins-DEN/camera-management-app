@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787087398782821",
+      "board": "ic6o6QgzpVM",
+      "driver": "Reyna, Oscar",
+      "driverId": "019b3716-02f6-777d-9a41-ee887d873d4a",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-18",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 6346392764\nRan Red Light; Face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2d6499b1-b826-40dd-84bc-109d0c0e6109.mp4",
+      "ts": 1787087398782,
+      "synced": false
+    },
+    {
       "id": "L1787087168148555",
       "board": "AKJSkJj6Ch4",
       "driver": "Mike Jones",
@@ -49958,5 +49971,5 @@
     "58bc9c1a-e7ac-47e3-8016-a6f0565a0357",
     "be66e5e2-d8bb-4b53-9748-2a953be42963"
   ],
-  "_ts": "2026-08-18T21:06:10.820Z"
+  "_ts": "2026-08-18T21:09:58.874Z"
 }
