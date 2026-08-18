@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787018381245362",
+      "board": "KYqKJWuumPm",
+      "driver": "Thomas Larsen",
+      "driverId": "019dd600-caaf-73b8-baaa-f98f892c779e",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474980674620-1786986502450:  Hand held phone distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b293219e-3b84-4c5e-8cfe-f5cde426f42b.mp4",
+      "ts": 1787018381245,
+      "synced": false
+    },
+    {
       "id": "L1787018174288254",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -49148,5 +49161,5 @@
     "af9bef8c-13d9-4fae-b4c4-1aaa1e462483",
     "72b7a099-310a-43a4-b569-ad415b2d096e"
   ],
-  "_ts": "2026-08-18T01:56:17.059Z"
+  "_ts": "2026-08-18T01:59:41.298Z"
 }
