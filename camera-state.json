@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L178708866133669",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Kelly Gneiting",
+      "driverId": "019dcba2-b90b-741e-a193-ee5fab1165f4",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance\n",
+      "ts": 1787088661336,
+      "synced": false
+    },
+    {
       "id": "L1787088034703992",
       "board": "ic6o6QgzpVM",
       "driver": "Ramos  Jose",
@@ -50020,5 +50033,5 @@
     "1d4ef773-23ac-47c4-b6e9-80f5566ad384",
     "f8b0c6e3-df51-4a98-843e-368e093aa169"
   ],
-  "_ts": "2026-08-18T21:20:37.253Z"
+  "_ts": "2026-08-18T21:31:01.420Z"
 }
