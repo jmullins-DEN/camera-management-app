@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787089751008424",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Fabian Velasco",
+      "driverId": "a03641b9-19dc-4038-8e56-2d71bd9569cb",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1787089751008,
+      "synced": false
+    },
+    {
       "id": "L1787089543452461",
       "board": "9RKrQRpDLcr",
       "driver": "Tommy Scott",
@@ -50112,5 +50125,5 @@
     "d0c0e444-a79b-4e1e-8a64-209dcf26fdd9",
     "807d68a8-95d7-43b6-bc0c-a0fc3c9703d8"
   ],
-  "_ts": "2026-08-18T21:45:45.865Z"
+  "_ts": "2026-08-18T21:49:11.100Z"
 }
