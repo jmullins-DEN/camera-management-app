@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787058872687531",
+      "board": "UKkbYDchPMh",
+      "driver": "Shawn Young",
+      "driverId": "019d2aaa-3755-7776-a7ed-94463e039b79",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "https://app.estrack.com/#/camera/events/6a8334e8b60c756d720f304d",
+      "ts": 1787058872687,
+      "synced": false
+    },
+    {
       "id": "L1787058618091507",
       "board": "YfVHuM3X87v",
       "driver": "Lannas Tedrow",
@@ -49622,5 +49635,5 @@
     "f6a2e483-7217-44d0-b04f-a60f43e6cf06",
     "a6f8d7fe-970b-4e05-afdb-df1115676301"
   ],
-  "_ts": "2026-08-18T13:13:52.931Z"
+  "_ts": "2026-08-18T13:14:32.732Z"
 }
