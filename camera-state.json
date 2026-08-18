@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787090888105559",
+      "board": "8gejhhHJj4e",
+      "driver": "GILBERT NAVA #1690",
+      "driverId": "733163e1-bd03-47c6-a3ec-4fc46177b3d6",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Cab Distraction",
+      "ts": 1787090888105,
+      "synced": false
+    },
+    {
       "id": "L1787090716423737",
       "board": "8gejhhHJj4e",
       "driver": "Brian Wisdom",
@@ -367,7 +380,9 @@
       "coaching": "Face to Face",
       "notes": "Following Distance\n",
       "ts": 1787090716424,
-      "synced": false
+      "synced": true,
+      "infItemId": "54608170-d65d-4f2b-b92d-3551658a559e",
+      "syncError": null
     },
     {
       "id": "L1787090655169372",
@@ -50213,7 +50228,8 @@
     "807d68a8-95d7-43b6-bc0c-a0fc3c9703d8",
     "fb814bdf-cb53-4520-97b5-b92806e7c60e",
     "98aeb256-7182-4a9a-8bfa-a73cc366f777",
-    "e0abb063-c4fa-4d4f-a6e9-0d4c7f60adad"
+    "e0abb063-c4fa-4d4f-a6e9-0d4c7f60adad",
+    "54608170-d65d-4f2b-b92d-3551658a559e"
   ],
-  "_ts": "2026-08-18T22:05:16.516Z"
+  "_ts": "2026-08-18T22:08:08.153Z"
 }
