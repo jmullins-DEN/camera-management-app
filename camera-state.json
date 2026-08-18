@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6337841050:  Truck # 403744 Distracted Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/46800304-b033-46cb-967b-821e853b427b.mp4",
       "ts": 1787016964794,
-      "synced": false
+      "synced": true,
+      "infItemId": "6f37342f-da24-4d05-a053-8870e1357b38",
+      "syncError": null
     },
     {
       "id": "L1787016322528584",
@@ -49081,7 +49083,8 @@
     "97bc60b0-9497-43d3-9889-df2a9a150b73",
     "85af7e7a-35d7-45d9-9c06-a4e9c1d17d70",
     "7c4605c1-452b-4a5c-84fa-2eda7160cbdb",
-    "48134c2f-a95d-4a05-a630-0b59b141475a"
+    "48134c2f-a95d-4a05-a630-0b59b141475a",
+    "6f37342f-da24-4d05-a053-8870e1357b38"
   ],
-  "_ts": "2026-08-18T01:36:04.841Z"
+  "_ts": "2026-08-18T01:36:08.059Z"
 }
