@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787051528364263",
+      "board": "5gVKeGRDf8U",
+      "driver": "Mason Douglas",
+      "driverId": "2f919a72-90f9-496e-ac9d-1bb31eb29372",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 429688041; hard brake; cameras inoperable\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7f8311a7-d56d-4baf-940d-4286a03c73ed.mp4",
+      "ts": 1787051528364,
+      "synced": false
+    },
+    {
       "id": "L1787051384880102",
       "board": "8BUntjK1TqV",
       "driver": "Leoffler, David (Dave)",
@@ -49205,5 +49218,5 @@
     "7541a342-3c35-418d-8b87-1036392ba3f3",
     "0b9d6386-44fc-4372-ac4c-e2002393095f"
   ],
-  "_ts": "2026-08-18T11:09:47.121Z"
+  "_ts": "2026-08-18T11:12:08.420Z"
 }
