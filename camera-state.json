@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787060471646455",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "https://app.estrack.com/#/camera/events/6a837631b60c756d720fa1e5\nEconomy Towing ECO-13 ",
+      "ts": 1787060471646,
+      "synced": false
+    },
+    {
       "id": "L1787060355326829",
       "board": "UKkbYDchPMh",
       "driver": "unassigned",
@@ -49788,5 +49801,5 @@
     "37a3e61b-98ab-4d04-bc66-fc3fe331bf66",
     "a21190ad-6f3d-4d4b-aa81-8b70bc4786ee"
   ],
-  "_ts": "2026-08-18T13:39:18.132Z"
+  "_ts": "2026-08-18T13:41:11.694Z"
 }
