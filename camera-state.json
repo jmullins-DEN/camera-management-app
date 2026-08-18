@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787089474162629",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jesus Carbajal",
+      "driverId": "cbe1d163-e372-4df5-a323-002f7ff54199",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1787089474162,
+      "synced": false
+    },
+    {
       "id": "L1787089396847110",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -50080,5 +50093,5 @@
     "16f404b1-f745-4f56-b6ca-6186d545a996",
     "de49cce1-789c-4092-b38d-5fedbc73e1bf"
   ],
-  "_ts": "2026-08-18T21:43:19.857Z"
+  "_ts": "2026-08-18T21:44:34.206Z"
 }
