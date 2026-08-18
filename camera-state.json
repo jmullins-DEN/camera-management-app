@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787090716423737",
+      "board": "8gejhhHJj4e",
+      "driver": "Brian Wisdom",
+      "driverId": "930344fa-9661-43bb-a95c-4071a8b353ff",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1787090716424,
+      "synced": false
+    },
+    {
       "id": "L1787090655169372",
       "board": "8gejhhHJj4e",
       "driver": "Josh Amick",
@@ -50202,5 +50215,5 @@
     "98aeb256-7182-4a9a-8bfa-a73cc366f777",
     "e0abb063-c4fa-4d4f-a6e9-0d4c7f60adad"
   ],
-  "_ts": "2026-08-18T22:04:18.339Z"
+  "_ts": "2026-08-18T22:05:16.516Z"
 }
