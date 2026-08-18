@@ -362,7 +362,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Economy Becky's-01 \n\nhttps://app.estrack.com/#/camera/events/6a8343d6b60c756d720f4b6e",
       "ts": 1787060718798,
-      "synced": false
+      "synced": true,
+      "infItemId": "ffbdb74c-9f95-439d-9fcd-c73b4d8d4067",
+      "syncError": null
     },
     {
       "id": "L1787060635615838",
@@ -375,8 +377,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a834707b60c756d720f50fe \nEconomy BC-02\nWe appreciate the hard work and commitment you give to our company. We are hard at work and committed to provide you with the safest environment possible. \n\nDid you know you are 23.2 times more likely to be involved in an accident if you have a habit of texting and driving?  Hand-held phone conversations also increase your risk of an accident, and tablet usage by a professional driver is seen the same as texting by law enforcement.  All dash mounted phones must observe the one-touch rule.  We value your safety, and the public at large. Remember the BIG 3-Eyes on the Road, Hands on the Wheel, and Mind on Driving. Please put down your phone, pay attention to the road ahead, and GET HOME SAFE!\n",
       "ts": 1787060635615,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "9212f5da-f116-4629-8671-644bf4db2c1e"
     },
     {
       "id": "L1787060471646455",
@@ -434,8 +437,9 @@
       "coaching": "Face to Face",
       "notes": "https://app.estrack.com/#/camera/events/6a8334d7b60c756d720f3041\n\nWe appreciate your dedication to our company and want to work to keep you safe.  Following distance is one of the most important safe driving habits to develop.  Keeping at least a 4 second cushion between you and the vehicle in front of you is the first step in becoming a more professional driver.  With heavier loads and longer commercial vehicles, it is recommended by the National Safety Council that you increase this cushion additional seconds.  The recommendation also increases in inclement weather.  Keeping these factors in mind can help you GET HOME SAFE!\n",
       "ts": 1787059409352,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "3efbb64d-8467-430d-9506-bbb6f7c20d0c"
     },
     {
       "id": "L1787059220447834",
@@ -49828,7 +49832,9 @@
     "6770d9e8-d735-446f-9f68-1d6959ec926c",
     "c456b1e5-7db8-4fe5-a754-17df4bf2f63f",
     "37a3e61b-98ab-4d04-bc66-fc3fe331bf66",
-    "a21190ad-6f3d-4d4b-aa81-8b70bc4786ee"
+    "a21190ad-6f3d-4d4b-aa81-8b70bc4786ee",
+    "9212f5da-f116-4629-8671-644bf4db2c1e",
+    "3efbb64d-8467-430d-9506-bbb6f7c20d0c"
   ],
-  "_ts": "2026-08-18T17:06:22.320Z"
+  "_ts": "2026-08-18T17:06:25.032Z"
 }
