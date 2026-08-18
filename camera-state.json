@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787088034703992",
+      "board": "ic6o6QgzpVM",
+      "driver": "Ramos  Jose",
+      "driverId": "019ab5bc-54e6-7005-a05e-201e1f10dd0a",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-18",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6344277468\nPhone Distraction",
+      "ts": 1787088034703,
+      "synced": false
+    },
+    {
       "id": "L1787087866043952",
       "board": "ic6o6QgzpVM",
       "driver": "Adalberto Guerra",
@@ -50004,5 +50017,5 @@
     "93139ac9-da31-467c-9a23-48db62d12edb",
     "1d4ef773-23ac-47c4-b6e9-80f5566ad384"
   ],
-  "_ts": "2026-08-18T21:17:48.679Z"
+  "_ts": "2026-08-18T21:20:34.746Z"
 }
