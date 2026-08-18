@@ -367,7 +367,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6344319011\nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e58025f3-ad45-4211-9174-002da965d654.mp4",
       "ts": 1787087866043,
-      "synced": false
+      "synced": true,
+      "infItemId": "1d4ef773-23ac-47c4-b6e9-80f5566ad384",
+      "syncError": null
     },
     {
       "id": "L1787087511281611",
@@ -49999,7 +50001,8 @@
     "ef9c4fda-cbf0-4b6a-b5e8-b332ce25d47b",
     "58bc9c1a-e7ac-47e3-8016-a6f0565a0357",
     "be66e5e2-d8bb-4b53-9748-2a953be42963",
-    "93139ac9-da31-467c-9a23-48db62d12edb"
+    "93139ac9-da31-467c-9a23-48db62d12edb",
+    "1d4ef773-23ac-47c4-b6e9-80f5566ad384"
   ],
-  "_ts": "2026-08-18T21:17:46.113Z"
+  "_ts": "2026-08-18T21:17:48.679Z"
 }
