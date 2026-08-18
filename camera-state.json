@@ -367,7 +367,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 24 Heavy; Phone Distraction",
       "ts": 1787089125375,
-      "synced": false
+      "synced": true,
+      "infItemId": "16f404b1-f745-4f56-b6ca-6186d545a996",
+      "syncError": null
     },
     {
       "id": "L1787089000448233",
@@ -50059,7 +50061,8 @@
     "be66e5e2-d8bb-4b53-9748-2a953be42963",
     "93139ac9-da31-467c-9a23-48db62d12edb",
     "1d4ef773-23ac-47c4-b6e9-80f5566ad384",
-    "f8b0c6e3-df51-4a98-843e-368e093aa169"
+    "f8b0c6e3-df51-4a98-843e-368e093aa169",
+    "16f404b1-f745-4f56-b6ca-6186d545a996"
   ],
-  "_ts": "2026-08-18T21:38:45.416Z"
+  "_ts": "2026-08-18T21:38:48.092Z"
 }
