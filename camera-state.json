@@ -352,6 +352,19 @@
   },
   "local": [
     {
+      "id": "L1787057771126418",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-17",
+      "reviewed": "2026-08-18",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1601580714; following too close; truck #AN 108\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4859d006-fe5c-4789-9f98-ac2014913790.mp4",
+      "ts": 1787057771126,
+      "synced": false
+    },
+    {
       "id": "L1787057632855354",
       "board": "aRcazTLT9iM",
       "driver": "Zach Risley",
@@ -49458,5 +49471,5 @@
     "28d772b4-e00d-48cf-8b8b-ab749527478d",
     "5a9c62d4-601b-4094-b895-abd35bafa29d"
   ],
-  "_ts": "2026-08-18T12:54:48.714Z"
+  "_ts": "2026-08-18T12:56:11.180Z"
 }
