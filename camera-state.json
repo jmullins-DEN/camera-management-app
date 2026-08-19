@@ -367,8 +367,9 @@
       "coaching": "Coaching Notes",
       "notes": "no seatbelt; hand held phone",
       "ts": 1787140347534,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d7a5630e-11e2-4f86-ab51-b8bff0bdba11"
     },
     {
       "id": "L1787140289229311",
@@ -411,8 +412,9 @@
       "coaching": "Critical Event",
       "notes": "driver fatigued",
       "ts": 1787140026397,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "9e0f3f21-bca3-43a8-842c-d46e6ddddd28"
     },
     {
       "id": "L1787139802644975",
@@ -50936,7 +50938,9 @@
     "5858c337-a2f8-4e97-8014-aeba7c80beac",
     "fa210c02-7bf7-4e82-8d0a-b000e8362db2",
     "7465dd86-a375-48ff-adfc-c39478de1433",
-    "5f7aee16-af93-4f8f-8a79-db055f78726e"
+    "5f7aee16-af93-4f8f-8a79-db055f78726e",
+    "d7a5630e-11e2-4f86-ab51-b8bff0bdba11",
+    "9e0f3f21-bca3-43a8-842c-d46e6ddddd28"
   ],
-  "_ts": "2026-08-19T12:02:39.648Z"
+  "_ts": "2026-08-19T12:02:42.770Z"
 }
