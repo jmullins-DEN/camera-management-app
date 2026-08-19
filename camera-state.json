@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "hard brake; texting\nhttps://app.estrack.com/#/camera/events/6a838849b60c756d720fc19b",
       "ts": 1787174238521,
-      "synced": false
+      "synced": true,
+      "infItemId": "2041f812-fd3f-41e1-8bd0-cb46cde50f1f",
+      "syncError": null
     },
     {
       "id": "L1787174151656774",
@@ -398,8 +400,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; truck # 411\nhttps://app.estrack.com/#/camera/events/6a831c4bb60c756d720f0426",
       "ts": 1787174114805,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "739ccb7b-d96a-4f00-b6f1-d53688a32377"
     },
     {
       "id": "L1787173958384258",
@@ -51557,7 +51560,9 @@
     "3bb59eb8-80b8-42f0-b88b-5ce044d830a1",
     "b5276691-0467-4fdc-8ba2-16f6e504efcc",
     "4fb77a75-0462-4e6c-bee6-18fd8eaeaf32",
-    "035c3c80-1143-4bee-b098-9109f5ec2d78"
+    "035c3c80-1143-4bee-b098-9109f5ec2d78",
+    "2041f812-fd3f-41e1-8bd0-cb46cde50f1f",
+    "739ccb7b-d96a-4f00-b6f1-d53688a32377"
   ],
-  "_ts": "2026-08-19T21:23:10.609Z"
+  "_ts": "2026-08-19T21:23:14.423Z"
 }
