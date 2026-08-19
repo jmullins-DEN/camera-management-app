@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L178713738528459",
+      "board": "8BUntjK1TqV",
+      "driver": "Castillo-Castro, Edgar",
+      "driverId": "d3b0ac46-bd6e-464b-8d73-eb7e9de4567d",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6345680122; passing in no-passing zone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6ea37655-e62e-4b89-be4e-a34c5411bef9.mp4",
+      "ts": 1787137385284,
+      "synced": false
+    },
+    {
       "id": "L1787137291678212",
       "board": "8BUntjK1TqV",
       "driver": "unassigned",
@@ -50340,5 +50353,5 @@
     "b43760b9-a338-41c1-9670-3bd49704ae1a",
     "0db7163d-9135-4ef3-a39e-22b2f7c1d34a"
   ],
-  "_ts": "2026-08-19T11:01:36.399Z"
+  "_ts": "2026-08-19T11:03:05.338Z"
 }
