@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "no seatbelt https://app.estrack.com/#/camera/events/6a84c32cb60c756d7211197c",
       "ts": 1787175135942,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787174238521736",
@@ -51587,5 +51588,5 @@
     "f0312db8-56d3-4ccd-a139-6b0d9c774004",
     "3e3179ac-506c-4e26-beba-34be6efa95d8"
   ],
-  "_ts": "2026-08-19T21:32:15.992Z"
+  "_ts": "2026-08-19T21:32:20.512Z"
 }
