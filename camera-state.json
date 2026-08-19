@@ -400,8 +400,9 @@
       "coaching": "Coaching Notes",
       "notes": "Driver looking at phone for extended period \nhttps://app.estrack.com/#/camera/events/6a85a9f5b60c756d72120199",
       "ts": 1787179862302,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "63fe8546-d9d3-4114-b49c-033d967ac7a9"
     },
     {
       "id": "L178717971282284",
@@ -429,8 +430,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a855a0db60c756d7211ad06",
       "ts": 1787179429688,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f73e4705-d18f-4d19-9643-e2246afe7f81"
     },
     {
       "id": "L1787179320950953",
@@ -52008,7 +52010,9 @@
     "1c5f99b8-5486-4681-a5c2-51724bc13b38",
     "53c51606-cfda-4864-86a6-5efc3df48ff0",
     "e4ccf4ce-4459-4ee6-9796-827810f243e2",
-    "a3849c92-e63e-4427-9664-8f48421744f7"
+    "a3849c92-e63e-4427-9664-8f48421744f7",
+    "63fe8546-d9d3-4114-b49c-033d967ac7a9",
+    "f73e4705-d18f-4d19-9643-e2246afe7f81"
   ],
-  "_ts": "2026-08-19T23:34:39.399Z"
+  "_ts": "2026-08-19T23:34:42.582Z"
 }
