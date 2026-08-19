@@ -365,7 +365,7 @@
       "reviewed": "2026-08-19",
       "behavior": "Speeding",
       "coaching": "Face to Face",
-      "notes": "66 in 55",
+      "notes": "69 in 55",
       "ts": 1787139146411,
       "synced": true,
       "infItemId": "12f75099-6af2-4f3a-a850-379dc13c436f",
@@ -50749,5 +50749,5 @@
     "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
     "12f75099-6af2-4f3a-a850-379dc13c436f"
   ],
-  "_ts": "2026-08-19T11:32:29.325Z"
+  "_ts": "2026-08-19T11:33:01.159Z"
 }
