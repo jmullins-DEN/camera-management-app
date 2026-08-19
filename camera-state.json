@@ -357,6 +357,20 @@
   },
   "local": [
     {
+      "id": "L1787137291678212",
+      "board": "8BUntjK1TqV",
+      "driver": "unassigned",
+      "driverId": "3111c34f-9af4-4713-a299-41121dca9bbd",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Drowsy Driving",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6343944208; driver drowsy; vehicle #8902\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ece82e5-5c85-469c-abc6-f12b9faa4c0a.mp4",
+      "ts": 1787137291678,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L1787099933755744",
       "board": "KYqKJWuumPm",
       "driver": "Paul Grenier",
@@ -50326,5 +50340,5 @@
     "b43760b9-a338-41c1-9670-3bd49704ae1a",
     "0db7163d-9135-4ef3-a39e-22b2f7c1d34a"
   ],
-  "_ts": "2026-08-19T00:38:57.337Z"
+  "_ts": "2026-08-19T11:01:33.534Z"
 }
