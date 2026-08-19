@@ -367,7 +367,8 @@
       "coaching": "Coaching Notes",
       "notes": "no seatbelt; hand held phone",
       "ts": 1787140347534,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787140289229311",
@@ -50937,5 +50938,5 @@
     "7465dd86-a375-48ff-adfc-c39478de1433",
     "5f7aee16-af93-4f8f-8a79-db055f78726e"
   ],
-  "_ts": "2026-08-19T11:52:27.584Z"
+  "_ts": "2026-08-19T11:52:30.404Z"
 }
