@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787139644451865",
+      "board": "YfVHuM3X87v",
+      "driver": "Daniel Barnett",
+      "driverId": "4aa19e15-402f-490c-8070-410e7d94fefb",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1787139644451,
+      "synced": false
+    },
+    {
       "id": "L1787139555543959",
       "board": "YfVHuM3X87v",
       "driver": "Charles Jefride",
@@ -50832,5 +50845,5 @@
     "b36f2f07-5c64-447b-92c0-4d8c83839c69",
     "5b90b55b-f3e7-4697-a8de-aacc499e537c"
   ],
-  "_ts": "2026-08-19T11:40:29.402Z"
+  "_ts": "2026-08-19T11:40:44.502Z"
 }
