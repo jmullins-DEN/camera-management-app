@@ -367,7 +367,9 @@
       "coaching": "System Alert",
       "notes": "\nAlert 430216881; cameras blocked/inoperable\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d0bba14f-3a9d-4c73-9939-1f2e0109173d.mp4",
       "ts": 1787137552877,
-      "synced": false
+      "synced": true,
+      "infItemId": "15b61b8a-1644-4798-b0ee-b27ea2f0b14d",
+      "syncError": null
     },
     {
       "id": "L1787137473257389",
@@ -50383,7 +50385,8 @@
     "b43760b9-a338-41c1-9670-3bd49704ae1a",
     "0db7163d-9135-4ef3-a39e-22b2f7c1d34a",
     "6b0f170f-3962-49e2-9eb4-380b7281224e",
-    "0ef4fe56-a760-4ea1-836b-b93176afbea4"
+    "0ef4fe56-a760-4ea1-836b-b93176afbea4",
+    "15b61b8a-1644-4798-b0ee-b27ea2f0b14d"
   ],
-  "_ts": "2026-08-19T11:05:52.930Z"
+  "_ts": "2026-08-19T11:05:56.787Z"
 }
