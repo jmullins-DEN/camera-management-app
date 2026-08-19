@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787167118254158",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Bailey Bulyer",
+      "driverId": "019e6c8e-5b14-7529-92ab-ca7032587804",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995771683-1787149237016\nStop Sign Violathttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fdfa7ba3-a834-4030-90c3-e08f6c85ee88.mp4ion;",
+      "ts": 1787167118254,
+      "synced": false
+    },
+    {
       "id": "L1787166943397862",
       "board": "AKJSkJj6Ch4",
       "driver": "Bailey Bulyer",
@@ -51325,5 +51338,5 @@
     "da7147f7-1283-46bf-9b36-df1a0fea09ae",
     "b7f664aa-2512-4874-8401-83264e24fa4e"
   ],
-  "_ts": "2026-08-19T19:15:46.116Z"
+  "_ts": "2026-08-19T19:18:38.320Z"
 }
