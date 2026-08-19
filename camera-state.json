@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787099577539634",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281475000719319-1787052056001:  Truck # 184F550 Hand held Phone distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/25ba05f9-0e35-479e-a00f-e0d8e287144a.mp4",
+      "ts": 1787099577539,
+      "synced": false
+    },
+    {
       "id": "L1787098720688465",
       "board": "7W2SQKrNcXQ",
       "driver": "Isaiah Cardenas",
@@ -50278,5 +50291,5 @@
     "cb7ff07e-cea4-4dfc-9c3d-c67122e6f552",
     "d4078a9e-58e9-4c3f-9627-3be9884facdf"
   ],
-  "_ts": "2026-08-19T00:18:43.789Z"
+  "_ts": "2026-08-19T00:32:57.597Z"
 }
