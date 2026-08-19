@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787173812399912",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Seat Belt",
+      "coaching": "Unidentified Driver",
+      "notes": "no seatbelt; vehicle #411\nhttps://app.estrack.com/#/camera/events/6a831c27b60c756d720f03ea",
+      "ts": 1787173812399,
+      "synced": false
+    },
+    {
       "id": "L1787173774660894",
       "board": "UKkbYDchPMh",
       "driver": "Kristopher Reasons",
@@ -51452,5 +51465,5 @@
     "a94150ad-8b48-41c2-aacc-e5a4709d6b2b",
     "47dc8012-1e43-4c4c-a3b6-81bbcfcaf628"
   ],
-  "_ts": "2026-08-19T21:09:37.866Z"
+  "_ts": "2026-08-19T21:10:12.448Z"
 }
