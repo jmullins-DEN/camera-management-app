@@ -357,6 +357,21 @@
   },
   "local": [
     {
+      "id": "L178713876345044",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-19",
+      "behavior": "U-Turn",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1250001545358114816: Truck # 163 U-Turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d9d658a0-155e-4da1-af5b-af01ca331bbe.mp4",
+      "ts": 1787138763450,
+      "synced": true,
+      "infItemId": "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
+      "syncError": null
+    },
+    {
       "id": "L1787138674640383",
       "board": "aRcazTLT9iM",
       "driver": "Steven Vantrease",
@@ -50684,7 +50699,8 @@
     "f610f6bd-8b0a-4654-a136-6fcdf86c8be4",
     "d67296cc-8dbd-48da-add3-8a3de66a710e",
     "cc3c704d-67b3-4aff-8fb4-5cc08c053d91",
-    "07a4d465-d08a-4f70-a792-eac7e2e24ead"
+    "07a4d465-d08a-4f70-a792-eac7e2e24ead",
+    "5efa0ce2-10f5-4119-a8ce-097c8a7e9937"
   ],
-  "_ts": "2026-08-19T11:24:42.934Z"
+  "_ts": "2026-08-19T11:26:06.142Z"
 }
