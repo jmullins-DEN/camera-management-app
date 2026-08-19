@@ -370,7 +370,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Driver texting: ECO-01\n https://app.estrack.com/#/camera/events/6a84d9b6b60c756d72116542",
       "ts": 1787176133940,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787175755828926",
@@ -51647,5 +51648,5 @@
     "9af22f4d-c4c3-4293-8ed3-0cb4b1a57885",
     "9bece7e1-00e7-4524-955a-c157abd745de"
   ],
-  "_ts": "2026-08-19T21:48:53.990Z"
+  "_ts": "2026-08-19T21:48:56.484Z"
 }
