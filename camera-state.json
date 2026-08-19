@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787139743316988",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jason Allen",
+      "driverId": "019bdd3f-6648-7997-8bde-259709e2a152",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1787139743317,
+      "synced": false
+    },
+    {
       "id": "L1787139644451865",
       "board": "YfVHuM3X87v",
       "driver": "Daniel Barnett",
@@ -50846,5 +50859,5 @@
     "b36f2f07-5c64-447b-92c0-4d8c83839c69",
     "5b90b55b-f3e7-4697-a8de-aacc499e537c"
   ],
-  "_ts": "2026-08-19T11:40:47.203Z"
+  "_ts": "2026-08-19T11:42:23.371Z"
 }
