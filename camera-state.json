@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close\nhttps://app.estrack.com/#/camera/events/6a834d36b60c756d720f5b3b",
       "ts": 1787173958384,
-      "synced": false
+      "synced": true,
+      "infItemId": "4fb77a75-0462-4e6c-bee6-18fd8eaeaf32",
+      "syncError": null
     },
     {
       "id": "L1787173896315378",
@@ -51511,7 +51513,8 @@
     "47dc8012-1e43-4c4c-a3b6-81bbcfcaf628",
     "edd3b036-9f0d-4602-9a69-250c7f0f4296",
     "3bb59eb8-80b8-42f0-b88b-5ce044d830a1",
-    "b5276691-0467-4fdc-8ba2-16f6e504efcc"
+    "b5276691-0467-4fdc-8ba2-16f6e504efcc",
+    "4fb77a75-0462-4e6c-bee6-18fd8eaeaf32"
   ],
-  "_ts": "2026-08-19T21:12:38.443Z"
+  "_ts": "2026-08-19T21:12:41.993Z"
 }
