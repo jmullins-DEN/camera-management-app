@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787140289229311",
+      "board": "ebSND1QoyBs",
+      "driver": "Shamonte Jacobs",
+      "driverId": null,
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1787140289229,
+      "synced": false
+    },
+    {
       "id": "L1787140122008972",
       "board": "ebSND1QoyBs",
       "driver": "Oscar Hong",
@@ -50908,5 +50921,5 @@
     "fa210c02-7bf7-4e82-8d0a-b000e8362db2",
     "7465dd86-a375-48ff-adfc-c39478de1433"
   ],
-  "_ts": "2026-08-19T11:48:45.217Z"
+  "_ts": "2026-08-19T11:51:29.283Z"
 }
