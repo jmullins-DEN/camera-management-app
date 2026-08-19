@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "Driver looking at phone for extended period \nhttps://app.estrack.com/#/camera/events/6a85a9f5b60c756d72120199",
       "ts": 1787179862302,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L178717971282284",
@@ -51977,5 +51978,5 @@
     "1c5f99b8-5486-4681-a5c2-51724bc13b38",
     "53c51606-cfda-4864-86a6-5efc3df48ff0"
   ],
-  "_ts": "2026-08-19T22:51:02.357Z"
+  "_ts": "2026-08-19T22:51:04.626Z"
 }
