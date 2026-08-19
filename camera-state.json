@@ -367,7 +367,8 @@
       "coaching": "Face to Face",
       "notes": "following too close",
       "ts": 1787139447219,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787139274246617",
@@ -50807,5 +50808,5 @@
     "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
     "12f75099-6af2-4f3a-a850-379dc13c436f"
   ],
-  "_ts": "2026-08-19T11:37:27.271Z"
+  "_ts": "2026-08-19T11:37:30.076Z"
 }
