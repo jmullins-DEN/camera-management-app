@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787139802644975",
+      "board": "xMfRLnqAN7y",
+      "driver": "Kraig Hausmann",
+      "driverId": "019bdd3f-d9fc-7997-8bde-3f7a22a7af3e",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting",
+      "ts": 1787139802644,
+      "synced": false
+    },
+    {
       "id": "L1787139743316988",
       "board": "xMfRLnqAN7y",
       "driver": "Jason Allen",
@@ -50862,5 +50875,5 @@
     "5b90b55b-f3e7-4697-a8de-aacc499e537c",
     "5858c337-a2f8-4e97-8014-aeba7c80beac"
   ],
-  "_ts": "2026-08-19T11:42:26.207Z"
+  "_ts": "2026-08-19T11:43:22.698Z"
 }
