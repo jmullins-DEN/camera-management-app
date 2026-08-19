@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787137552877369",
+      "board": "5gVKeGRDf8U",
+      "driver": "Mason Douglas",
+      "driverId": "2f919a72-90f9-496e-ac9d-1bb31eb29372",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 430216881; cameras blocked/inoperable\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d0bba14f-3a9d-4c73-9939-1f2e0109173d.mp4",
+      "ts": 1787137552877,
+      "synced": false
+    },
+    {
       "id": "L1787137473257389",
       "board": "MZerRFmhSHa",
       "driver": "Jacob Bannister",
@@ -50372,5 +50385,5 @@
     "6b0f170f-3962-49e2-9eb4-380b7281224e",
     "0ef4fe56-a760-4ea1-836b-b93176afbea4"
   ],
-  "_ts": "2026-08-19T11:04:36.411Z"
+  "_ts": "2026-08-19T11:05:52.930Z"
 }
