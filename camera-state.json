@@ -367,7 +367,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 430296013; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f547b78f-f717-4525-a2a0-9b588142a9a1.mp4",
       "ts": 1787137719330,
-      "synced": false
+      "synced": true,
+      "infItemId": "d8947998-502f-49b8-b8b1-fc6accc3783e",
+      "syncError": null
     },
     {
       "id": "L1787137657251203",
@@ -50428,7 +50430,8 @@
     "6b7f1615-0427-4677-a11d-ce0142731335",
     "dd32fcf4-245a-4b23-865a-dcd47fff3dbb",
     "d5e7a2ac-d015-4e37-a6fd-efeecd3b224d",
-    "65a4fbaf-8850-414d-9ad1-5b1bdf05c29c"
+    "65a4fbaf-8850-414d-9ad1-5b1bdf05c29c",
+    "d8947998-502f-49b8-b8b1-fc6accc3783e"
   ],
-  "_ts": "2026-08-19T11:08:39.374Z"
+  "_ts": "2026-08-19T11:08:42.306Z"
 }
