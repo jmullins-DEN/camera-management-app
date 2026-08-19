@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787140026397239",
+      "board": "YJNwKvzFhkj",
+      "driver": "DeErick Powe",
+      "driverId": "019dd5f1-4f6e-73b7-b34e-c69709a4b66b",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver fatigued",
+      "ts": 1787140026397,
+      "synced": false
+    },
+    {
       "id": "L1787139802644975",
       "board": "xMfRLnqAN7y",
       "driver": "Kraig Hausmann",
@@ -50878,5 +50891,5 @@
     "5858c337-a2f8-4e97-8014-aeba7c80beac",
     "fa210c02-7bf7-4e82-8d0a-b000e8362db2"
   ],
-  "_ts": "2026-08-19T11:43:25.215Z"
+  "_ts": "2026-08-19T11:47:06.451Z"
 }
