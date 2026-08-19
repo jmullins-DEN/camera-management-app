@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787153261538423",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Kelly Gneiting",
+      "driverId": "019dcba2-b90b-741e-a193-ee5fab1165f4",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Hard Brake",
+      "ts": 1787153261538,
+      "synced": false
+    },
+    {
       "id": "L1787151865764933",
       "board": "UKkbYDchPMh",
       "driver": "test driver",
@@ -50967,5 +50980,5 @@
     "60c8ded3-a4f7-4a0f-8985-8f7ce10e000a",
     "3783a465-2d93-4628-ad29-a061984d3fd5"
   ],
-  "_ts": "2026-08-19T15:26:14.985Z"
+  "_ts": "2026-08-19T15:27:41.595Z"
 }
