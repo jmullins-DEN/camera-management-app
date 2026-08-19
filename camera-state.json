@@ -565,8 +565,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following too close and no seatbelt: https://app.estrack.com/#/camera/events/6a86287ab60c756d7212e869\n",
       "ts": 1787177787567,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "ccb7e158-48bd-4e39-9dd9-f0ab6af24fc7"
     },
     {
       "id": "L178717777460637",
@@ -52016,7 +52017,8 @@
     "63fe8546-d9d3-4114-b49c-033d967ac7a9",
     "f73e4705-d18f-4d19-9643-e2246afe7f81",
     "b3210b34-1e5d-4843-a71f-9e963b36320f",
-    "104fe4d7-45ba-420c-8b47-10d7f39e1c25"
+    "104fe4d7-45ba-420c-8b47-10d7f39e1c25",
+    "ccb7e158-48bd-4e39-9dd9-f0ab6af24fc7"
   ],
-  "_ts": "2026-08-19T23:34:45.093Z"
+  "_ts": "2026-08-19T23:34:47.235Z"
 }
