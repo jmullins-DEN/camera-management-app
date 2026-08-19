@@ -386,7 +386,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1787163949748,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787163414045771",
@@ -430,7 +431,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a8471a6b60c756d72109313",
       "ts": 1787154923634,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178715476982383",
@@ -51202,5 +51204,5 @@
     "ede1d336-26d9-49f3-8d7b-564ba572f73c",
     "2d689ce7-32cc-40ec-955b-f6dc33ad0ec5"
   ],
-  "_ts": "2026-08-19T18:27:14.770Z"
+  "_ts": "2026-08-19T18:37:06.294Z"
 }
