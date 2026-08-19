@@ -360,6 +360,49 @@
   },
   "local": [
     {
+      "id": "L178716797679827",
+      "board": "ic6o6QgzpVM",
+      "driver": "Adalberto Guerra",
+      "driverId": "8fcd591f-0516-40b0-8600-5b871b2f7c47",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 6351588174\nFollowing Distance;",
+      "ts": 1787167976798,
+      "synced": false
+    },
+    {
+      "id": "L178716780158050",
+      "board": "ic6o6QgzpVM",
+      "driver": "Reyna, Oscar",
+      "driverId": "019b3716-02f6-777d-9a41-ee887d873d4a",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6352080091",
+      "ts": 1787167801580,
+      "synced": true,
+      "infItemId": "e939a0e4-849c-4a66-9b9f-e62af3e031b7",
+      "syncError": null
+    },
+    {
+      "id": "L1787167503922891",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Riley",
+      "driverId": "ac24ef3b-c620-445a-a2d7-cec0d8211e69",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995752151-1787152440885\nIn Cab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/479da4c0-2912-4fe8-b02e-fc77d4878bdc.mp4",
+      "ts": 1787167503922,
+      "synced": true,
+      "infItemId": "a6755c9c-db74-4756-95f5-78279aef699a",
+      "syncError": null
+    },
+    {
       "id": "L1787167458079279",
       "board": "AKJSkJj6Ch4",
       "driver": "Joey Bybee",
@@ -51355,7 +51398,8 @@
     "da7147f7-1283-46bf-9b36-df1a0fea09ae",
     "b7f664aa-2512-4874-8401-83264e24fa4e",
     "a65ebcde-5c99-4000-868c-407570705fdc",
-    "8956d6c5-c2f2-454a-a050-c900b08b4cea"
+    "8956d6c5-c2f2-454a-a050-c900b08b4cea",
+    "a6755c9c-db74-4756-95f5-78279aef699a"
   ],
-  "_ts": "2026-08-19T19:24:21.234Z"
+  "_ts": "2026-08-19T19:32:56.857Z"
 }
