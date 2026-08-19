@@ -400,8 +400,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Driver texting: ECO-01\n https://app.estrack.com/#/camera/events/6a84d9b6b60c756d72116542",
       "ts": 1787176133940,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c0457cb5-e0b9-49f8-8b5d-2d72d49fa7ac"
     },
     {
       "id": "L1787175755828926",
@@ -414,8 +415,9 @@
       "coaching": "Coaching Notes",
       "notes": "Driver rolls through stop sign https://app.estrack.com/#/camera/events/6a84a2b6b60c756d7210e5f6",
       "ts": 1787175755828,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a95462f4-d49c-4446-bc27-c023c95416a8"
     },
     {
       "id": "L1787175268428711",
@@ -458,8 +460,9 @@
       "coaching": "Coaching Notes",
       "notes": "no seatbelt https://app.estrack.com/#/camera/events/6a84c32cb60c756d7211197c",
       "ts": 1787175135942,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "09863bdf-fd67-493b-8bb4-e8972dda0fe7"
     },
     {
       "id": "L1787174238521736",
@@ -51678,7 +51681,10 @@
     "9af22f4d-c4c3-4293-8ed3-0cb4b1a57885",
     "9bece7e1-00e7-4524-955a-c157abd745de",
     "88c7e655-0ae8-4647-8977-4383bbf83238",
-    "5d6d2c72-08be-4490-bf57-374f545605ad"
+    "5d6d2c72-08be-4490-bf57-374f545605ad",
+    "c0457cb5-e0b9-49f8-8b5d-2d72d49fa7ac",
+    "a95462f4-d49c-4446-bc27-c023c95416a8",
+    "09863bdf-fd67-493b-8bb4-e8972dda0fe7"
   ],
-  "_ts": "2026-08-19T21:57:07.156Z"
+  "_ts": "2026-08-19T21:57:11.297Z"
 }
