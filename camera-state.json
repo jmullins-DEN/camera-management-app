@@ -412,9 +412,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 6343944208; driver drowsy; vehicle #8902\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ece82e5-5c85-469c-abc6-f12b9faa4c0a.mp4",
       "ts": 1787137291678,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "85463778-ed1e-410e-a884-cf77e31a7a96"
     },
     {
       "id": "L1787099933755744",
@@ -50396,7 +50396,8 @@
     "0db7163d-9135-4ef3-a39e-22b2f7c1d34a",
     "6b0f170f-3962-49e2-9eb4-380b7281224e",
     "0ef4fe56-a760-4ea1-836b-b93176afbea4",
-    "15b61b8a-1644-4798-b0ee-b27ea2f0b14d"
+    "15b61b8a-1644-4798-b0ee-b27ea2f0b14d",
+    "85463778-ed1e-410e-a884-cf77e31a7a96"
   ],
-  "_ts": "2026-08-19T11:07:08.765Z"
+  "_ts": "2026-08-19T11:07:11.266Z"
 }
