@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L17871391464114",
+      "board": "XVLVu2Du8hc",
+      "driver": "Larry Simons",
+      "driverId": null,
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "66 in 55",
+      "ts": 1787139146411,
+      "synced": false
+    },
+    {
       "id": "L1787138991240706",
       "board": "XVLVu2Du8hc",
       "driver": "Jeffrey Schnippel",
@@ -50733,5 +50746,5 @@
     "d65adada-f475-4073-8c57-2a42bcae5d08",
     "5efa0ce2-10f5-4119-a8ce-097c8a7e9937"
   ],
-  "_ts": "2026-08-19T11:29:53.758Z"
+  "_ts": "2026-08-19T11:32:26.465Z"
 }
