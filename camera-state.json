@@ -357,6 +357,19 @@
   },
   "local": [
     {
+      "id": "L1787139555543959",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Jefride",
+      "driverId": "21eef7a7-b5da-4ae9-9f3f-d02d12617054",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1787139555543,
+      "synced": false
+    },
+    {
       "id": "L1787139447219581",
       "board": "YfVHuM3X87v",
       "driver": "Richard Mire",
@@ -50808,5 +50821,5 @@
     "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
     "12f75099-6af2-4f3a-a850-379dc13c436f"
   ],
-  "_ts": "2026-08-19T11:37:30.076Z"
+  "_ts": "2026-08-19T11:39:15.598Z"
 }
