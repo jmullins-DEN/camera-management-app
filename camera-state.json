@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "No Seatbelt: Becky's 02 \nhttps://app.estrack.com/#/camera/events/6a847954b60c756d7210a1b5",
       "ts": 1787176701946,
-      "synced": false
+      "synced": true,
+      "infItemId": "27f61646-1bd0-4dd0-a6c1-e7b842f56f62",
+      "syncError": null
     },
     {
       "id": "L1787176542532123",
@@ -51697,7 +51699,8 @@
     "5d6d2c72-08be-4490-bf57-374f545605ad",
     "c0457cb5-e0b9-49f8-8b5d-2d72d49fa7ac",
     "a95462f4-d49c-4446-bc27-c023c95416a8",
-    "09863bdf-fd67-493b-8bb4-e8972dda0fe7"
+    "09863bdf-fd67-493b-8bb4-e8972dda0fe7",
+    "27f61646-1bd0-4dd0-a6c1-e7b842f56f62"
   ],
-  "_ts": "2026-08-19T21:58:21.998Z"
+  "_ts": "2026-08-19T21:58:25.788Z"
 }
