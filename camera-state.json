@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787173958384258",
+      "board": "UKkbYDchPMh",
+      "driver": "Shawn Young",
+      "driverId": "019d2aaa-3755-7776-a7ed-94463e039b79",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\nhttps://app.estrack.com/#/camera/events/6a834d36b60c756d720f5b3b",
+      "ts": 1787173958384,
+      "synced": false
+    },
+    {
       "id": "L1787173896315378",
       "board": "UKkbYDchPMh",
       "driver": "Hubert (Butch) Bradley",
@@ -51500,5 +51513,5 @@
     "3bb59eb8-80b8-42f0-b88b-5ce044d830a1",
     "b5276691-0467-4fdc-8ba2-16f6e504efcc"
   ],
-  "_ts": "2026-08-19T21:11:39.846Z"
+  "_ts": "2026-08-19T21:12:38.443Z"
 }
