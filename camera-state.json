@@ -413,7 +413,8 @@
       "notes": "\nAlert 6343944208; driver drowsy; vehicle #8902\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ece82e5-5c85-469c-abc6-f12b9faa4c0a.mp4",
       "ts": 1787137291678,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787099933755744",
@@ -472,7 +473,8 @@
       "notes": "Alert 1249797299991904256:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/43869fe1-fc0f-4bee-893e-ee340d3ff655.mp4",
       "ts": 1787098720688,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787097938930428",
@@ -486,7 +488,8 @@
       "notes": "Alert 1249678028318081024:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e55ad2f2-73e7-4997-9f86-0474e3ae89a8.mp4",
       "ts": 1787097938930,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787090950590161",
@@ -545,7 +548,8 @@
       "notes": "Rolling Stop",
       "ts": 1787090655169,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787090554952393",
@@ -604,7 +608,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1787090292957,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787089751008424",
@@ -618,7 +623,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1787089751008,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787089543452461",
@@ -692,7 +698,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1787089000448,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178708866133669",
@@ -706,7 +713,8 @@
       "notes": "Following Distance\n",
       "ts": 1787088661336,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787088034703992",
@@ -750,7 +758,8 @@
       "notes": "Alert 6345218655\nPhone Distraction ; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dce32b32-ea4b-4a44-b81f-57a5cd5a50b1.mp4",
       "ts": 1787087511281,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787087398782821",
@@ -794,7 +803,8 @@
       "notes": "Alert 281474995729932-1786998481078\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/86ed6e56-6362-4f49-9964-b675cf8d93a3.mp4",
       "ts": 1787086818649,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787085126321525",
@@ -50388,5 +50398,5 @@
     "0ef4fe56-a760-4ea1-836b-b93176afbea4",
     "15b61b8a-1644-4798-b0ee-b27ea2f0b14d"
   ],
-  "_ts": "2026-08-19T11:05:56.787Z"
+  "_ts": "2026-08-19T11:07:08.765Z"
 }
