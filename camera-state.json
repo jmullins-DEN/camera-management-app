@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787153734542964",
+      "board": "JthqRmXvJ9v",
+      "driver": "Zack Wyatt",
+      "driverId": "019c33e3-5a8b-7224-988a-bdee4f8c0027",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1787153734542,
+      "synced": false
+    },
+    {
       "id": "L1787153678568553",
       "board": "JthqRmXvJ9v",
       "driver": "Johnny Hernandez",
@@ -51047,5 +51060,5 @@
     "8f90fbb3-2f5c-4391-91e9-225adf157768",
     "1f847c40-b81f-4d83-8f4b-5cc7971893af"
   ],
-  "_ts": "2026-08-19T15:34:41.566Z"
+  "_ts": "2026-08-19T15:35:34.650Z"
 }
