@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787240760056835",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Meyers, David",
+      "driverId": "41cb89ee-8c95-4d54-85c9-4ac1e6728248",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1787240760056,
+      "synced": false
+    },
+    {
       "id": "L178723863231377",
       "board": "UKkbYDchPMh",
       "driver": "Patrick Love",
@@ -52806,5 +52819,5 @@
     "cb351d5a-4981-47b0-a2e1-ff76c809873e",
     "adf64355-3d44-4b3f-86f4-dd5130a5928b"
   ],
-  "_ts": "2026-08-20T15:44:27.586Z"
+  "_ts": "2026-08-20T15:46:00.147Z"
 }
