@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "Following Distance\n",
       "ts": 1787240760056,
-      "synced": false
+      "synced": true,
+      "infItemId": "15020b0c-4a05-49ce-abd9-79c7f5c6ac6a",
+      "syncError": null
     },
     {
       "id": "L178723863231377",
@@ -52817,7 +52819,8 @@
     "b1dc8e18-9fc5-417b-876d-c180c217a05b",
     "67af2b88-4602-4c98-846d-49e604f3f5e6",
     "cb351d5a-4981-47b0-a2e1-ff76c809873e",
-    "adf64355-3d44-4b3f-86f4-dd5130a5928b"
+    "adf64355-3d44-4b3f-86f4-dd5130a5928b",
+    "15020b0c-4a05-49ce-abd9-79c7f5c6ac6a"
   ],
-  "_ts": "2026-08-20T15:46:00.147Z"
+  "_ts": "2026-08-20T15:46:02.810Z"
 }
