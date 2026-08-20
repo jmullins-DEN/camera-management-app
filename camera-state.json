@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787268054768210",
+      "board": "7d53dL31ioV",
+      "driver": "FRIEND, SAMUEL A",
+      "driverId": "674d26e3-7514-488f-aa19-bb28f12adfe3",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-20",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6362659330: Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fdb51f72-ccc5-4eb6-a588-201088345d51.mp4https://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1dc02051-0d4d-4c54-8e23-14e09fd57f92.mp4",
+      "ts": 1787268054768,
+      "synced": false
+    },
+    {
       "id": "L1787267255522236",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -53274,5 +53287,5 @@
     "1709fd96-6c34-45ad-b3d1-3a4e16ca771a",
     "2ed44054-4adc-4614-9620-08c8e4d5015f"
   ],
-  "_ts": "2026-08-20T23:07:38.897Z"
+  "_ts": "2026-08-20T23:20:54.826Z"
 }
