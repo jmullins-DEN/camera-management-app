@@ -430,8 +430,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995757668-1787173986978\nRolling Stop; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b0289b17-3594-44b0-8dc9-0c05784aa34c.mp4",
       "ts": 1787253994103,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "0d8a96b6-65ef-408d-8952-5d4ee86b9554"
     },
     {
       "id": "L1787253807346240",
@@ -459,8 +460,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995718105-1787246161167\nFollowing Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ead7ad7a-592d-4ba9-aa78-a5c66e26578c.mp4",
       "ts": 1787253555477,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b604f58b-daa8-4b5a-83ef-c6f525ea8ec4"
     },
     {
       "id": "L1787253302925652",
@@ -53222,7 +53224,9 @@
     "c776dfba-a4b8-4492-b376-b0764e731231",
     "b4bae10b-20e1-4b3b-92bb-fb94f0ba1c4d",
     "a0b4c6fe-b7ad-4886-8bbf-a73f7a66fa72",
-    "e657e62f-d279-4f9b-b105-475395018745"
+    "e657e62f-d279-4f9b-b105-475395018745",
+    "0d8a96b6-65ef-408d-8952-5d4ee86b9554",
+    "b604f58b-daa8-4b5a-83ef-c6f525ea8ec4"
   ],
-  "_ts": "2026-08-20T22:49:58.228Z"
+  "_ts": "2026-08-20T22:50:01.516Z"
 }
