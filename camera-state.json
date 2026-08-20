@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787228638984801",
+      "board": "8BUntjK1TqV",
+      "driver": "Leoffler, David (Dave)",
+      "driverId": "019f8b75-3db3-74b7-b3ec-5c87fa5763a7",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6355625519; 63 in 55\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1675b3e5-7f11-4240-8305-466a91010c73.mp4",
+      "ts": 1787228638984,
+      "synced": false
+    },
+    {
       "id": "L1787228566021140",
       "board": "8BUntjK1TqV",
       "driver": "Roque, Heric",
@@ -52164,5 +52177,5 @@
     "254809e8-9ce8-4542-9629-90c50cf93e64",
     "635e0713-c18a-46d2-a3ab-efa656e0c27d"
   ],
-  "_ts": "2026-08-20T12:22:48.749Z"
+  "_ts": "2026-08-20T12:23:59.038Z"
 }
