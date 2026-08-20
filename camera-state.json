@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787225300269357",
+      "board": "KYqKJWuumPm",
+      "driver": "Aaron Whitford",
+      "driverId": "019dd5fc-b08f-776f-82ce-59816698b0cb",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-20",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474987560362-1787189315581:  Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4890da2a-c4f0-40d6-b6ea-2ab0752338bd.mp4",
+      "ts": 1787225300269,
+      "synced": false
+    },
+    {
       "id": "L1787225094384803",
       "board": "kQeF7EsAnVz",
       "driver": "Alejandro Soto",
@@ -52086,5 +52099,5 @@
     "efd59e88-4753-440d-915c-958edfc29c47",
     "05147e3f-d691-404f-a876-ef4c1546ee4b"
   ],
-  "_ts": "2026-08-20T11:24:57.032Z"
+  "_ts": "2026-08-20T11:28:20.325Z"
 }
