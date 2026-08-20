@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178725092212080",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jesus Carbajal",
+      "driverId": "cbe1d163-e372-4df5-a323-002f7ff54199",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "SPEEDING\n",
+      "ts": 1787250922120,
+      "synced": false
+    },
+    {
       "id": "L1787250884313667",
       "board": "9RKrQRpDLcr",
       "driver": "Adam Johnson",
@@ -370,7 +383,9 @@
       "coaching": "Face to Face",
       "notes": "SPEEDING\n",
       "ts": 1787250884313,
-      "synced": false
+      "synced": true,
+      "infItemId": "e1ad6342-8d44-49a3-a925-9805f500e3f2",
+      "syncError": null
     },
     {
       "id": "L1787250830002123",
@@ -52909,7 +52924,8 @@
     "15020b0c-4a05-49ce-abd9-79c7f5c6ac6a",
     "311a5276-f671-4760-8118-a40c43d11284",
     "389be5fe-1021-4d3b-ab57-16de6c433ac4",
-    "ff731324-f5e1-4bc1-b0e8-579c4414c79b"
+    "ff731324-f5e1-4bc1-b0e8-579c4414c79b",
+    "e1ad6342-8d44-49a3-a925-9805f500e3f2"
   ],
-  "_ts": "2026-08-20T18:34:44.405Z"
+  "_ts": "2026-08-20T18:35:22.217Z"
 }
