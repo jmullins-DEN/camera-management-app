@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787252941933592",
+      "board": "8gejhhHJj4e",
+      "driver": "Christian Lopez",
+      "driverId": "2098dbac-9cbf-4130-9d9d-f3e4458c3b26",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Harsh Brake/ Backing up",
+      "ts": 1787252941933,
+      "synced": false
+    },
+    {
       "id": "L1787252839230799",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -53070,5 +53083,5 @@
     "14a62fbd-26b8-439d-a1f6-2e4852d8be5f",
     "2b01c8e6-84fe-409b-a0ec-c94170149ae2"
   ],
-  "_ts": "2026-08-20T19:07:22.525Z"
+  "_ts": "2026-08-20T19:09:01.980Z"
 }
