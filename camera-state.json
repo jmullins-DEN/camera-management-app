@@ -360,6 +360,20 @@
   },
   "local": [
     {
+      "id": "L1787228482609192",
+      "board": "8BUntjK1TqV",
+      "driver": "LaFuente, Richard",
+      "driverId": "886bf1f9-0646-4107-b50f-7c75c232adff",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "Alert 6350645308; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a3447093-d8bb-421b-a3a0-9853c00800ac.mp4",
+      "ts": 1787228482609,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L1787225453673901",
       "board": "KYqKJWuumPm",
       "driver": "Timothy Ferris",
@@ -642,6 +656,21 @@
       "ts": 1787177955095,
       "synced": true,
       "infItemId": "2e248ff2-6595-41c6-b527-f7ccff6c0e3b",
+      "syncError": null
+    },
+    {
+      "id": "L1787177854140218",
+      "board": "UKkbYDchPMh",
+      "driver": "Patrick Love",
+      "driverId": "019d91d7-109c-73ec-be87-def85069852e",
+      "date": "2026-08-18",
+      "reviewed": "2026-08-19",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting\nhttps://app.estrack.com/#/camera/events/6a846484b60c756d721079a7",
+      "ts": 1787177854140,
+      "synced": true,
+      "infItemId": "87b86c39-7e49-45cd-8532-e51e4375e00b",
       "syncError": null
     },
     {
@@ -52024,8 +52053,8 @@
     "d67296cc-8dbd-48da-add3-8a3de66a710e",
     "cc3c704d-67b3-4aff-8fb4-5cc08c053d91",
     "07a4d465-d08a-4f70-a792-eac7e2e24ead",
-    "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
     "d65adada-f475-4073-8c57-2a42bcae5d08",
+    "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
     "12f75099-6af2-4f3a-a850-379dc13c436f",
     "959fdfd8-e2ed-4e44-9abb-206344d19cb4",
     "a60f46c5-2195-4a10-bfd1-57c635cb80fe",
@@ -52038,6 +52067,7 @@
     "fa210c02-7bf7-4e82-8d0a-b000e8362db2",
     "7465dd86-a375-48ff-adfc-c39478de1433",
     "5f7aee16-af93-4f8f-8a79-db055f78726e",
+    "141571ba-1f1c-4e2d-9b4f-c36de7a1ccae",
     "d7a5630e-11e2-4f86-ab51-b8bff0bdba11",
     "9e0f3f21-bca3-43a8-842c-d46e6ddddd28",
     "09d04af0-48f1-4cba-8bbd-61b4e0c306ad",
@@ -52046,16 +52076,15 @@
     "e939a0e4-849c-4a66-9b9f-e62af3e031b7",
     "60c8ded3-a4f7-4a0f-8985-8f7ce10e000a",
     "3783a465-2d93-4628-ad29-a061984d3fd5",
-    "fcbaed12-bab2-47c7-858d-8526b65bfccb",
     "090b40d4-762e-4eab-863e-b0690247f916",
-    "89f1fca8-38e2-4f7a-9305-91f1980a4615",
     "e83bca60-a4a2-4e44-9e9f-caf8ddaca650",
+    "fcbaed12-bab2-47c7-858d-8526b65bfccb",
     "8f90fbb3-2f5c-4391-91e9-225adf157768",
     "1f847c40-b81f-4d83-8f4b-5cc7971893af",
     "11cbf191-1303-4981-9fb7-d8cb30ee26db",
     "998a0362-2c01-4f6c-9956-ef2954ee07ed",
+    "89f1fca8-38e2-4f7a-9305-91f1980a4615",
     "ad5b2190-40e9-408e-978a-fe6557a8e95d",
-    "141571ba-1f1c-4e2d-9b4f-c36de7a1ccae",
     "e090629b-e975-4237-b748-a77c33604fa1",
     "ede1d336-26d9-49f3-8d7b-564ba572f73c",
     "2d689ce7-32cc-40ec-955b-f6dc33ad0ec5",
@@ -52096,6 +52125,7 @@
     "29a82c6a-4fd2-4989-a403-d39031a9e172",
     "948f37c8-f68e-4823-a186-f5b2c4572ccf",
     "4e1e2670-d34b-492c-882b-fbbbce9d1232",
+    "87b86c39-7e49-45cd-8532-e51e4375e00b",
     "2e248ff2-6595-41c6-b527-f7ccff6c0e3b",
     "292718e5-b3f2-4001-9125-cc1b431c0c0b",
     "15d0257a-2834-4ce5-ad86-8ddca16a0087",
@@ -52118,5 +52148,5 @@
     "0025e2c7-6c82-4c84-93da-10a549b5dd35",
     "254809e8-9ce8-4542-9629-90c50cf93e64"
   ],
-  "_ts": "2026-08-20T11:30:57.015Z"
+  "_ts": "2026-08-20T12:21:25.548Z"
 }
