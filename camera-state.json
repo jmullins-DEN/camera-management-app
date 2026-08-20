@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "multi-tasking; loses lane",
       "ts": 1787237447254,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787237221666254",
@@ -52643,5 +52644,5 @@
     "a4c54018-8472-4003-ad63-621293505d82",
     "7f0245b8-51f3-40a7-b576-b0027b580001"
   ],
-  "_ts": "2026-08-20T14:50:47.308Z"
+  "_ts": "2026-08-20T14:50:50.038Z"
 }
