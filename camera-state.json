@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6358167813:  Traffic Light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/95776d98-f158-4ec5-b3a9-ce28c0f61c70.mp4",
       "ts": 1787225094384,
-      "synced": false
+      "synced": true,
+      "infItemId": "05147e3f-d691-404f-a876-ef4c1546ee4b",
+      "syncError": null
     },
     {
       "id": "L1787183405121361",
@@ -52081,7 +52083,8 @@
     "99a06fc2-4e64-41e9-bff5-6f31c13c439e",
     "63aac5dd-09a1-412a-b9d6-8f3f644070c1",
     "64924ca5-09e3-43ee-a800-074bbc0d1337",
-    "efd59e88-4753-440d-915c-958edfc29c47"
+    "efd59e88-4753-440d-915c-958edfc29c47",
+    "05147e3f-d691-404f-a876-ef4c1546ee4b"
   ],
-  "_ts": "2026-08-20T11:24:54.445Z"
+  "_ts": "2026-08-20T11:24:57.032Z"
 }
