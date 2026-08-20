@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787237904058836",
+      "board": "ebSND1QoyBs",
+      "driver": "Mark Varela",
+      "driverId": "33022a64-23ca-4ed3-a310-5bd6cdc1e921",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1787237904058,
+      "synced": false
+    },
+    {
       "id": "L1787237832051211",
       "board": "ebSND1QoyBs",
       "driver": "Deadrian Thomas",
@@ -52704,5 +52717,5 @@
     "d8e73da5-d1e4-4041-9337-62ca3d09f72b",
     "ddd29d4f-e3e9-4907-8f2d-7c1f87046195"
   ],
-  "_ts": "2026-08-20T14:57:16.029Z"
+  "_ts": "2026-08-20T14:58:24.115Z"
 }
