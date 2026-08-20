@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 281474980531324-1787250467237:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5dc4166f-89f7-47b6-870b-12bb8f2c9dd5.mp4",
       "ts": 1787268200927,
-      "synced": false
+      "synced": true,
+      "infItemId": "3ae8ea2c-5c88-43e2-89ca-2a162d4478db",
+      "syncError": null
     },
     {
       "id": "L1787268054768210",
@@ -53301,7 +53303,8 @@
     "b604f58b-daa8-4b5a-83ef-c6f525ea8ec4",
     "1709fd96-6c34-45ad-b3d1-3a4e16ca771a",
     "2ed44054-4adc-4614-9620-08c8e4d5015f",
-    "4bc4e3a6-834d-47f8-9ebe-011b1298534f"
+    "4bc4e3a6-834d-47f8-9ebe-011b1298534f",
+    "3ae8ea2c-5c88-43e2-89ca-2a162d4478db"
   ],
-  "_ts": "2026-08-20T23:23:20.994Z"
+  "_ts": "2026-08-20T23:23:24.371Z"
 }
