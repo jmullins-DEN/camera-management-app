@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178723863231377",
+      "board": "UKkbYDchPMh",
+      "driver": "Patrick Love",
+      "driverId": "019d91d7-109c-73ec-be87-def85069852e",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close; vehicle #102\nhttps://app.estrack.com/#/camera/events/6a862f6fb60c756d7212f474",
+      "ts": 1787238632313,
+      "synced": false
+    },
+    {
       "id": "L1787238582316636",
       "board": "UKkbYDchPMh",
       "driver": "Jeremy Parker",
@@ -52768,5 +52781,5 @@
     "c8c97510-abd0-49fc-b500-c5455a29a9da",
     "8ac56a31-83cf-459d-9977-34ed33550f69"
   ],
-  "_ts": "2026-08-20T15:09:46.305Z"
+  "_ts": "2026-08-20T15:10:32.367Z"
 }
