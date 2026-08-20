@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting; vehicle#2018FreightlinerM2\nhttps://app.estrack.com/#/camera/events/6a85b219b60c756d721215a7",
       "ts": 1787238582316,
-      "synced": false
+      "synced": true,
+      "infItemId": "8ac56a31-83cf-459d-9977-34ed33550f69",
+      "syncError": null
     },
     {
       "id": "L1787238431633421",
@@ -52763,7 +52765,8 @@
     "5ab3f5b2-e572-473a-8060-4b7e0dfc8422",
     "0ab8e477-f237-47ea-a8ce-1aa09de4c813",
     "a7c1ccac-112d-40af-abcd-f09e31e578b4",
-    "c8c97510-abd0-49fc-b500-c5455a29a9da"
+    "c8c97510-abd0-49fc-b500-c5455a29a9da",
+    "8ac56a31-83cf-459d-9977-34ed33550f69"
   ],
-  "_ts": "2026-08-20T15:09:42.374Z"
+  "_ts": "2026-08-20T15:09:46.305Z"
 }
