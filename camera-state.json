@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787237290023819",
+      "board": "YfVHuM3X87v",
+      "driver": "Richard Mire",
+      "driverId": "692796af-adb0-4839-b924-65c4e91a78fc",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "tailgating",
+      "ts": 1787237290023,
+      "synced": false
+    },
+    {
       "id": "L1787237221666254",
       "board": "YfVHuM3X87v",
       "driver": "unassigned",
@@ -52630,5 +52643,5 @@
     "a4c54018-8472-4003-ad63-621293505d82",
     "7f0245b8-51f3-40a7-b576-b0027b580001"
   ],
-  "_ts": "2026-08-20T14:47:05.083Z"
+  "_ts": "2026-08-20T14:48:10.075Z"
 }
