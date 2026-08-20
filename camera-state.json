@@ -360,6 +360,33 @@
   },
   "local": [
     {
+      "id": "L1787231647138747",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\n\nAlert 1602828764; following too close; AN 106\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c31620c0-b772-48a2-83fc-a28fe53b0d3f.mp4\n",
+      "ts": 1787231647138,
+      "synced": false
+    },
+    {
+      "id": "L1787231489219618",
+      "board": "4rNDuSrCaap",
+      "driver": "Nick Edlin",
+      "driverId": "47276764-8426-40e7-a6bc-1aeb0905506e",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 430757444; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ee916b70-0495-4374-bbb6-172bda20a101.mp4",
+      "ts": 1787231489219,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L178723133448048",
       "board": "4rNDuSrCaap",
       "driver": "Rodney Wilborn",
@@ -52336,5 +52363,5 @@
     "22dba118-229d-4635-aa9b-371564da26ba",
     "eaf7b943-ba9a-4c8d-a2e4-c40f6d00ee69"
   ],
-  "_ts": "2026-08-20T13:08:57.175Z"
+  "_ts": "2026-08-20T13:14:07.192Z"
 }
