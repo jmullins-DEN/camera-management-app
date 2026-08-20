@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "inattentive driving; possible phone; vehicle #152791",
       "ts": 1787237221666,
-      "synced": false
+      "synced": true,
+      "infItemId": "7f0245b8-51f3-40a7-b576-b0027b580001",
+      "syncError": null
     },
     {
       "id": "L1787236878929611",
@@ -52625,7 +52627,8 @@
     "5688b022-17b3-4e0e-9ea2-3be0ac1a4170",
     "dab8aae3-0757-4112-ab92-0494193ef181",
     "ec795ad1-984a-4160-8d26-c7316ef963c2",
-    "a4c54018-8472-4003-ad63-621293505d82"
+    "a4c54018-8472-4003-ad63-621293505d82",
+    "7f0245b8-51f3-40a7-b576-b0027b580001"
   ],
-  "_ts": "2026-08-20T14:47:01.721Z"
+  "_ts": "2026-08-20T14:47:05.083Z"
 }
