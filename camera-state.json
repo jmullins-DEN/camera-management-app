@@ -386,7 +386,8 @@
       "notes": "texting",
       "ts": 1787237832051,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787237797242854",
@@ -400,7 +401,8 @@
       "notes": "following too close",
       "ts": 1787237797242,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787237546930645",
@@ -444,7 +446,8 @@
       "notes": "multi-tasking; loses lane",
       "ts": 1787237447254,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787237221666254",
@@ -518,7 +521,8 @@
       "notes": "70 in 55",
       "ts": 1787236739385,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787232330076265",
@@ -577,7 +581,8 @@
       "notes": "\nAlert 1250047252223918080; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c903aa2f-44dc-40a1-9ea8-8406014bf32c.mp4",
       "ts": 1787232088844,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787232050642507",
@@ -666,7 +671,8 @@
       "notes": "\nAlert 1603176656; following too close; AN 130\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ed121adf-dda2-44e6-ba5d-175173fb8b0f.mp4",
       "ts": 1787231809703,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787231765503568",
@@ -680,7 +686,8 @@
       "notes": "\nAlert 1603124117; following too close; AN 138\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9df876d8-57de-4353-be60-70b6924708ed.mp4\n",
       "ts": 1787231765503,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787231692267486",
@@ -724,7 +731,8 @@
       "notes": "\nAlert 430757444; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ee916b70-0495-4374-bbb6-172bda20a101.mp4",
       "ts": 1787231489219,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178723133448048",
@@ -798,7 +806,8 @@
       "notes": "\nAlert 430564827; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/484d9adb-1b49-4794-bb5a-dc49ae13881a.mp4",
       "ts": 1787231146360,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787231100702140",
@@ -872,7 +881,8 @@
       "notes": "Alert 430711740; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3e400ddb-f92d-457f-9d0c-50fbac781db6.mp4",
       "ts": 1787230837750,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787228638984801",
@@ -916,7 +926,8 @@
       "notes": "Alert 6350645308; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a3447093-d8bb-421b-a3a0-9853c00800ac.mp4",
       "ts": 1787228482609,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787225453673901",
@@ -52720,5 +52731,5 @@
     "ddd29d4f-e3e9-4907-8f2d-7c1f87046195",
     "e0f39bc1-6e7d-486c-866a-cd2a26922c45"
   ],
-  "_ts": "2026-08-20T14:58:27.635Z"
+  "_ts": "2026-08-20T14:58:58.822Z"
 }
