@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787267087669192",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Angel Alcala",
+      "driverId": "c8cbfd0b-2490-4f0c-b561-8cb92867832e",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-20",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Alert 1250527328740737024: Safety issue\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a317b45f-aca7-42e9-bcf4-3362b7156902.mp4",
+      "ts": 1787267087669,
+      "synced": false
+    },
+    {
       "id": "L1787266242829706",
       "board": "7W2SQKrNcXQ",
       "driver": "Christopher Donald",
@@ -53244,5 +53257,5 @@
     "b604f58b-daa8-4b5a-83ef-c6f525ea8ec4",
     "1709fd96-6c34-45ad-b3d1-3a4e16ca771a"
   ],
-  "_ts": "2026-08-20T22:50:46.150Z"
+  "_ts": "2026-08-20T23:04:47.722Z"
 }
