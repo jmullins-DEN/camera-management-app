@@ -360,6 +360,48 @@
   },
   "local": [
     {
+      "id": "L1787256039461825",
+      "board": "ic6o6QgzpVM",
+      "driver": "Ramos  Jose",
+      "driverId": "019ab5bc-54e6-7005-a05e-201e1f10dd0a",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 6355555716\nDistracted: ; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b2dcbc9c-6361-42ef-b775-0c58649e25c3.mp4",
+      "ts": 1787256039461,
+      "synced": false
+    },
+    {
+      "id": "L1787253994103845",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Adam Wright",
+      "driverId": "8f07542f-02e2-4aa9-90b4-8ab3e2c25ba7",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995757668-1787173986978\nRolling Stop; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b0289b17-3594-44b0-8dc9-0c05784aa34c.mp4",
+      "ts": 1787253994103,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
+      "id": "L1787253807346240",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Tyler Schliefert",
+      "driverId": "7ef286e1-f08c-4876-89e5-9f25a4d922b6",
+      "date": "2026-08-19",
+      "reviewed": "2026-08-20",
+      "behavior": "U-Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995832347-1787167050665\nU-Turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0b8f6218-3192-4bfe-b662-2ad79393bfdc.mp4",
+      "ts": 1787253807346,
+      "synced": true,
+      "infItemId": "fcdd1025-7f64-42a3-9725-68518bc548c7",
+      "syncError": null
+    },
+    {
       "id": "L1787253555477343",
       "board": "AKJSkJj6Ch4",
       "driver": "Mike Jones",
@@ -53128,7 +53170,8 @@
     "14a62fbd-26b8-439d-a1f6-2e4852d8be5f",
     "2b01c8e6-84fe-409b-a0ec-c94170149ae2",
     "1a67cbd4-9174-4c2f-84d5-00c37e4535e8",
-    "67201689-6c67-4946-b966-bc2f7dd3848b"
+    "67201689-6c67-4946-b966-bc2f7dd3848b",
+    "fcdd1025-7f64-42a3-9725-68518bc548c7"
   ],
-  "_ts": "2026-08-20T19:19:18.069Z"
+  "_ts": "2026-08-20T20:00:39.567Z"
 }
