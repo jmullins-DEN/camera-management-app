@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787316961460109",
+      "board": "ebSND1QoyBs",
+      "driver": "Mark Varela",
+      "driverId": "33022a64-23ca-4ed3-a310-5bd6cdc1e921",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "91 in 75",
+      "ts": 1787316961460,
+      "synced": false
+    },
+    {
       "id": "L1787316621622277",
       "board": "YJNwKvzFhkj",
       "driver": "Derrick Hunter",
@@ -53865,5 +53878,5 @@
     "31e44566-b715-4ad8-82e8-2c9a2ddb8e30",
     "fc0c784b-79cf-47e4-ba60-43e0c50cbeb7"
   ],
-  "_ts": "2026-08-21T12:50:24.312Z"
+  "_ts": "2026-08-21T12:56:01.510Z"
 }
