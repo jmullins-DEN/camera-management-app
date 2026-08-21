@@ -416,7 +416,8 @@
       "notes": "Alert 1250527328740737024: Safety issue\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a317b45f-aca7-42e9-bcf4-3362b7156902.mp4",
       "ts": 1787267087669,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": "deb27ae2-aa93-4a7f-8d59-7634445df3e2"
     },
     {
       "id": "L1787266242829706",
@@ -53143,8 +53144,8 @@
     "d67296cc-8dbd-48da-add3-8a3de66a710e",
     "cc3c704d-67b3-4aff-8fb4-5cc08c053d91",
     "07a4d465-d08a-4f70-a792-eac7e2e24ead",
-    "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
     "d65adada-f475-4073-8c57-2a42bcae5d08",
+    "5efa0ce2-10f5-4119-a8ce-097c8a7e9937",
     "12f75099-6af2-4f3a-a850-379dc13c436f",
     "959fdfd8-e2ed-4e44-9abb-206344d19cb4",
     "a60f46c5-2195-4a10-bfd1-57c635cb80fe",
@@ -53157,6 +53158,7 @@
     "fa210c02-7bf7-4e82-8d0a-b000e8362db2",
     "7465dd86-a375-48ff-adfc-c39478de1433",
     "5f7aee16-af93-4f8f-8a79-db055f78726e",
+    "141571ba-1f1c-4e2d-9b4f-c36de7a1ccae",
     "d7a5630e-11e2-4f86-ab51-b8bff0bdba11",
     "9e0f3f21-bca3-43a8-842c-d46e6ddddd28",
     "09d04af0-48f1-4cba-8bbd-61b4e0c306ad",
@@ -53165,16 +53167,15 @@
     "e939a0e4-849c-4a66-9b9f-e62af3e031b7",
     "60c8ded3-a4f7-4a0f-8985-8f7ce10e000a",
     "3783a465-2d93-4628-ad29-a061984d3fd5",
-    "fcbaed12-bab2-47c7-858d-8526b65bfccb",
     "090b40d4-762e-4eab-863e-b0690247f916",
-    "89f1fca8-38e2-4f7a-9305-91f1980a4615",
     "e83bca60-a4a2-4e44-9e9f-caf8ddaca650",
+    "fcbaed12-bab2-47c7-858d-8526b65bfccb",
     "8f90fbb3-2f5c-4391-91e9-225adf157768",
     "1f847c40-b81f-4d83-8f4b-5cc7971893af",
     "11cbf191-1303-4981-9fb7-d8cb30ee26db",
     "998a0362-2c01-4f6c-9956-ef2954ee07ed",
+    "89f1fca8-38e2-4f7a-9305-91f1980a4615",
     "ad5b2190-40e9-408e-978a-fe6557a8e95d",
-    "141571ba-1f1c-4e2d-9b4f-c36de7a1ccae",
     "e090629b-e975-4237-b748-a77c33604fa1",
     "ede1d336-26d9-49f3-8d7b-564ba572f73c",
     "2d689ce7-32cc-40ec-955b-f6dc33ad0ec5",
@@ -53215,6 +53216,7 @@
     "29a82c6a-4fd2-4989-a403-d39031a9e172",
     "948f37c8-f68e-4823-a186-f5b2c4572ccf",
     "4e1e2670-d34b-492c-882b-fbbbce9d1232",
+    "87b86c39-7e49-45cd-8532-e51e4375e00b",
     "2e248ff2-6595-41c6-b527-f7ccff6c0e3b",
     "292718e5-b3f2-4001-9125-cc1b431c0c0b",
     "15d0257a-2834-4ce5-ad86-8ddca16a0087",
@@ -53236,8 +53238,6 @@
     "05147e3f-d691-404f-a876-ef4c1546ee4b",
     "0025e2c7-6c82-4c84-93da-10a549b5dd35",
     "254809e8-9ce8-4542-9629-90c50cf93e64",
-    "ee6e6bc6-e75e-4117-8daf-0ada2dcf2bf3",
-    "87b86c39-7e49-45cd-8532-e51e4375e00b",
     "635e0713-c18a-46d2-a3ab-efa656e0c27d",
     "06a08fa9-7426-4f60-8ef7-8f05cea8f378",
     "a434be34-4e52-4180-bd6c-28f9b2b33c30",
@@ -53273,6 +53273,7 @@
     "c8c97510-abd0-49fc-b500-c5455a29a9da",
     "8ac56a31-83cf-459d-9977-34ed33550f69",
     "070d7d00-7e8b-49fe-8c4e-f4240479e9ac",
+    "ee6e6bc6-e75e-4117-8daf-0ada2dcf2bf3",
     "4d822cc8-37e9-42c7-b057-9159ffe2503e",
     "8b8c4f4b-5477-4f9d-aac1-6582b3f46a00",
     "b1dc8e18-9fc5-417b-876d-c180c217a05b",
@@ -53306,5 +53307,5 @@
     "4bc4e3a6-834d-47f8-9ebe-011b1298534f",
     "3ae8ea2c-5c88-43e2-89ca-2a162d4478db"
   ],
-  "_ts": "2026-08-20T23:24:01.689Z"
+  "_ts": "2026-08-21T11:03:10.796Z"
 }
