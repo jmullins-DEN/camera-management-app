@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787339153877411",
+      "board": "8gejhhHJj4e",
+      "driver": "Ross Kane Jr",
+      "driverId": "019c451f-2887-744e-9aa5-bf5c5992f4b2",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1787339153877,
+      "synced": false
+    },
+    {
       "id": "L1787339009557730",
       "board": "8gejhhHJj4e",
       "driver": "Luis Martinez",
@@ -54570,5 +54583,5 @@
     "a9c8b436-3685-48fa-b7c4-e1d13a0cc16d",
     "6249a2a5-a93b-47d2-b2af-826251ee71fb"
   ],
-  "_ts": "2026-08-21T19:03:32.296Z"
+  "_ts": "2026-08-21T19:05:53.968Z"
 }
