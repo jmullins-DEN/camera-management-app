@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787338131879250",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jesus Carbajal",
+      "driverId": "cbe1d163-e372-4df5-a323-002f7ff54199",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-21",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1787338131879,
+      "synced": false
+    },
+    {
+      "id": "L1787337599342864",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Clark, Karilyn",
+      "driverId": "3e094628-69a3-4b7a-8927-115c48deb98c",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-21",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Increase Following Distance\n",
+      "ts": 1787337599342,
+      "synced": true,
+      "infItemId": "ac4fc269-ecd4-4daf-aef8-c57708c81cde",
+      "syncError": null
+    },
+    {
       "id": "L1787337497187721",
       "board": "nWRsGRSm2Hn",
       "driver": "Emery, Shane",
@@ -54444,7 +54472,8 @@
     "42f194d0-76fd-438b-889e-354c0279fab8",
     "773a1789-a867-4c74-a8c4-0f0c2fe0cbf9",
     "81a7f305-0d9e-4fa3-9018-c17007bffe5a",
-    "7939e8a5-95fb-44fb-8594-b6c9b860e1a3"
+    "7939e8a5-95fb-44fb-8594-b6c9b860e1a3",
+    "ac4fc269-ecd4-4daf-aef8-c57708c81cde"
   ],
-  "_ts": "2026-08-21T18:38:20.285Z"
+  "_ts": "2026-08-21T18:48:51.981Z"
 }
