@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "following to close-Dodge Ram 2024\n \nhttps://app.estrack.com/#/camera/events/6a874cefb60c756d721421ac",
       "ts": 1787325452490,
-      "synced": false
+      "synced": true,
+      "infItemId": "6f0c45c6-64a3-4d4e-9107-47508e6864bb",
+      "syncError": null
     },
     {
       "id": "L1787324822800258",
@@ -54119,7 +54121,8 @@
     "5ae71fb5-188c-4893-9fe1-9001ef658884",
     "de9547e8-7251-428d-ba54-e1677314786b",
     "5fcecf5b-8f16-4c17-ba95-376ea3a28dac",
-    "f5a148e4-16a1-46d8-a73b-8a51ae57afe5"
+    "f5a148e4-16a1-46d8-a73b-8a51ae57afe5",
+    "6f0c45c6-64a3-4d4e-9107-47508e6864bb"
   ],
-  "_ts": "2026-08-21T15:17:32.547Z"
+  "_ts": "2026-08-21T15:17:35.235Z"
 }
