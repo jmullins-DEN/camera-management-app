@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787312593553805",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Mark Cano",
+      "driverId": "d8ce6fca-ad6f-444f-9207-46b75cb4d81e",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 1250650986117234688:  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/803db9fb-238b-4e28-9f8f-61862e29b2a5.mp4",
+      "ts": 1787312593553,
+      "synced": false
+    },
+    {
       "id": "L1787311934237584",
       "board": "7d53dL31ioV",
       "driver": "Unassigned",
@@ -53710,5 +53723,5 @@
     "9494ac85-00bd-4c38-8ea4-def89aa3f387",
     "c042c91f-e8e2-497d-9cc2-32ad8f5f3547"
   ],
-  "_ts": "2026-08-21T11:35:44.631Z"
+  "_ts": "2026-08-21T11:43:13.615Z"
 }
