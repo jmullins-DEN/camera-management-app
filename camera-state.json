@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6366714821\nSpeeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ad627c03-125f-4ab9-b003-a20255681453.mp4",
       "ts": 1787336914106,
-      "synced": false
+      "synced": true,
+      "infItemId": "42f194d0-76fd-438b-889e-354c0279fab8",
+      "syncError": null
     },
     {
       "id": "L1787336756200468",
@@ -54379,7 +54381,8 @@
     "3d345098-8f8f-4be0-91b7-1037d007fbb1",
     "9c667f15-3b39-42cf-9bb3-94c710390c82",
     "553dc46e-b9e1-40e5-88a9-73d562a46d6f",
-    "1a7eaf76-9a84-475f-81ef-076a0a94ec94"
+    "1a7eaf76-9a84-475f-81ef-076a0a94ec94",
+    "42f194d0-76fd-438b-889e-354c0279fab8"
   ],
-  "_ts": "2026-08-21T18:28:34.168Z"
+  "_ts": "2026-08-21T18:28:37.292Z"
 }
