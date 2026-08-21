@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "No seatbelt #411\nhttps://app.estrack.com/#/camera/events/6a874858b60c756d721419a0",
       "ts": 1787324118305,
-      "synced": false
+      "synced": true,
+      "infItemId": "85d57b01-6bef-4388-86b1-d443eac5ef33",
+      "syncError": null
     },
     {
       "id": "L178732401651774",
@@ -54009,7 +54011,8 @@
     "04868b10-77c8-4937-bb9a-fcf46a466a63",
     "96b1af50-104d-4ea5-8d8a-d5a57c18afaa",
     "45900eba-874c-4e2c-b904-e2d38c3f75fc",
-    "6b97c033-0fa9-4961-a2a9-6c5965e750d9"
+    "6b97c033-0fa9-4961-a2a9-6c5965e750d9",
+    "85d57b01-6bef-4388-86b1-d443eac5ef33"
   ],
-  "_ts": "2026-08-21T14:55:18.395Z"
+  "_ts": "2026-08-21T14:55:21.268Z"
 }
