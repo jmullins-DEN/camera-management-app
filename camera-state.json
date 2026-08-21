@@ -736,7 +736,7 @@
       "driver": "Unassigned",
       "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
       "date": "2026-08-20",
-      "reviewed": "2026-08-20",
+      "reviewed": "2026-08-21",
       "behavior": "Driver Distraction-Phone",
       "coaching": "Unidentified Driver",
       "notes": "Alert 281474980531324-1787250467237:  Truck # 168  \nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5dc4166f-89f7-47b6-870b-12bb8f2c9dd5.mp4",
@@ -53710,5 +53710,5 @@
     "9494ac85-00bd-4c38-8ea4-def89aa3f387",
     "c042c91f-e8e2-497d-9cc2-32ad8f5f3547"
   ],
-  "_ts": "2026-08-21T11:32:21.304Z"
+  "_ts": "2026-08-21T11:35:44.631Z"
 }
