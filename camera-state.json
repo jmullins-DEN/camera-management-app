@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Driver using phone #222\nhttps://app.estrack.com/#/camera/events/6a873d6ab60c756d721406ba",
       "ts": 1787324367872,
-      "synced": false
+      "synced": true,
+      "infItemId": "5ae71fb5-188c-4893-9fe1-9001ef658884",
+      "syncError": null
     },
     {
       "id": "L1787324301944389",
@@ -54055,7 +54057,8 @@
     "45900eba-874c-4e2c-b904-e2d38c3f75fc",
     "6b97c033-0fa9-4961-a2a9-6c5965e750d9",
     "85d57b01-6bef-4388-86b1-d443eac5ef33",
-    "d4576386-6510-4af5-827c-862cf3fd8c12"
+    "d4576386-6510-4af5-827c-862cf3fd8c12",
+    "5ae71fb5-188c-4893-9fe1-9001ef658884"
   ],
-  "_ts": "2026-08-21T14:59:27.964Z"
+  "_ts": "2026-08-21T14:59:30.483Z"
 }
