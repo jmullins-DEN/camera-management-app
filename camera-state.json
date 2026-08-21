@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787324688492169",
+      "board": "UKkbYDchPMh",
+      "driver": "Michael Erwin",
+      "driverId": "925f7088-82d5-43ea-b30b-1826dc25f3b1",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Driver is looking down at phone when a vehicle runs off road to right and the car in the lane next to him is unable to get over because driver doesn't realize for a minute because he is looking at his phone. #411\nhttps://app.estrack.com/#/camera/events/6a8777fcb60c756d72146e0f",
+      "ts": 1787324688492,
+      "synced": false
+    },
+    {
       "id": "L17873244241509",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -54076,5 +54089,5 @@
     "5ae71fb5-188c-4893-9fe1-9001ef658884",
     "de9547e8-7251-428d-ba54-e1677314786b"
   ],
-  "_ts": "2026-08-21T15:00:27.234Z"
+  "_ts": "2026-08-21T15:04:48.582Z"
 }
