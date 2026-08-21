@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787336914106644",
+      "board": "ic6o6QgzpVM",
+      "driver": "Adalberto Guerra",
+      "driverId": "8fcd591f-0516-40b0-8600-5b871b2f7c47",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-21",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6366714821\nSpeeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ad627c03-125f-4ab9-b003-a20255681453.mp4",
+      "ts": 1787336914106,
+      "synced": false
+    },
+    {
       "id": "L1787336756200468",
       "board": "ic6o6QgzpVM",
       "driver": "Adalberto Guerra",
@@ -54368,5 +54381,5 @@
     "553dc46e-b9e1-40e5-88a9-73d562a46d6f",
     "1a7eaf76-9a84-475f-81ef-076a0a94ec94"
   ],
-  "_ts": "2026-08-21T18:25:58.705Z"
+  "_ts": "2026-08-21T18:28:34.168Z"
 }
