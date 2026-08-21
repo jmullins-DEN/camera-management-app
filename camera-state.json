@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787310706328962",
+      "board": "4rNDuSrCaap",
+      "driver": "Gavin Fleming",
+      "driverId": "019eb6e0-0462-72df-8e63-8cac800a0cdd",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 430844834; following too close; Gavin not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d8e32f5c-d7de-4d74-b46f-716637c341d1.mp4",
+      "ts": 1787310706329,
+      "synced": false
+    },
+    {
       "id": "L1787310559811916",
       "board": "5gVKeGRDf8U",
       "driver": "Dustin Porter",
@@ -53382,5 +53395,5 @@
     "3ad64c3d-78d7-40a4-b5f5-84479bbaf9c5",
     "8f9ab8e4-da9d-4015-97ef-1387e07c1e5a"
   ],
-  "_ts": "2026-08-21T11:09:22.281Z"
+  "_ts": "2026-08-21T11:11:46.384Z"
 }
