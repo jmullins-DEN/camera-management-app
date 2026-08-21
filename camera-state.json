@@ -370,7 +370,8 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction",
       "ts": 1787338131879,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787337599342864",
@@ -54475,5 +54476,5 @@
     "7939e8a5-95fb-44fb-8594-b6c9b860e1a3",
     "ac4fc269-ecd4-4daf-aef8-c57708c81cde"
   ],
-  "_ts": "2026-08-21T18:48:51.981Z"
+  "_ts": "2026-08-21T18:48:54.606Z"
 }
