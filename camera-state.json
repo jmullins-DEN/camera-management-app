@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787325452490879",
+      "board": "UKkbYDchPMh",
+      "driver": "Kristopher Reasons",
+      "driverId": "470c17ef-0f1b-48f9-9ac6-df334c8edf7e",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following to close-Dodge Ram 2024\n \nhttps://app.estrack.com/#/camera/events/6a874cefb60c756d721421ac",
+      "ts": 1787325452490,
+      "synced": false
+    },
+    {
       "id": "L1787324822800258",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -54108,5 +54121,5 @@
     "5fcecf5b-8f16-4c17-ba95-376ea3a28dac",
     "f5a148e4-16a1-46d8-a73b-8a51ae57afe5"
   ],
-  "_ts": "2026-08-21T15:07:05.577Z"
+  "_ts": "2026-08-21T15:17:32.547Z"
 }
