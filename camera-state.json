@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178732401651774",
+      "board": "UKkbYDchPMh",
+      "driver": "Kristopher Reasons",
+      "driverId": "470c17ef-0f1b-48f9-9ac6-df334c8edf7e",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Driver following too close- not creating space \nhttps://app.estrack.com/#/camera/events/6a875890b60c756d72143501",
+      "ts": 1787324016518,
+      "synced": false
+    },
+    {
       "id": "L1787317610831614",
       "board": "UKkbYDchPMh",
       "driver": "Patrick Love",
@@ -53984,5 +53997,5 @@
     "45900eba-874c-4e2c-b904-e2d38c3f75fc",
     "6b97c033-0fa9-4961-a2a9-6c5965e750d9"
   ],
-  "_ts": "2026-08-21T14:52:53.117Z"
+  "_ts": "2026-08-21T14:53:36.613Z"
 }
