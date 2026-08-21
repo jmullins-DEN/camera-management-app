@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787311739701609",
+      "board": "XVLVu2Du8hc",
+      "driver": "kali Kaufusi",
+      "driverId": "019f3f4c-111c-7289-b6f3-78e05c46ef3a",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "66 in 55",
+      "ts": 1787311739701,
+      "synced": false
+    },
+    {
       "id": "L1787311702690158",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Morris",
@@ -53664,5 +53677,5 @@
     "c76fe12f-7289-4bfc-aa19-c31d5f286e9d",
     "9494ac85-00bd-4c38-8ea4-def89aa3f387"
   ],
-  "_ts": "2026-08-21T11:28:26.218Z"
+  "_ts": "2026-08-21T11:28:59.759Z"
 }
