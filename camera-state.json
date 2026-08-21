@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Becky 01-No seatbelt \nhttps://app.estrack.com/#/camera/events/6a870a58b60c756d7213ac1f",
       "ts": 1787328213001,
-      "synced": false
+      "synced": true,
+      "infItemId": "3d345098-8f8f-4be0-91b7-1037d007fbb1",
+      "syncError": null
     },
     {
       "id": "L1787327956212890",
@@ -54283,7 +54285,8 @@
     "ee7a9ed8-91ef-406a-b5db-a2748c92be77",
     "e310f41e-56f7-43eb-a0c0-0f157a6410c0",
     "26fa6315-72f4-43fa-a1c3-d2abdb2c9a4c",
-    "a0c911f4-9344-4ee1-9fac-c4ee334172ff"
+    "a0c911f4-9344-4ee1-9fac-c4ee334172ff",
+    "3d345098-8f8f-4be0-91b7-1037d007fbb1"
   ],
-  "_ts": "2026-08-21T16:03:33.050Z"
+  "_ts": "2026-08-21T16:03:36.276Z"
 }
