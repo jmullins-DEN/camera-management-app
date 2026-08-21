@@ -370,7 +370,8 @@
       "coaching": "Critical Event",
       "notes": "parking alert",
       "ts": 1787316290974,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787316155294529",
@@ -53818,5 +53819,5 @@
     "bc101cfa-f55c-4f0d-bd54-fb5d523816c7",
     "51565914-a8cd-4038-b0ab-495a81c32ef2"
   ],
-  "_ts": "2026-08-21T12:44:51.029Z"
+  "_ts": "2026-08-21T12:44:53.477Z"
 }
