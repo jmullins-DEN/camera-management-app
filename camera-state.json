@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787338786211382",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Increase Following Distance\n",
+      "ts": 1787338786211,
+      "synced": false
+    },
+    {
       "id": "L1787338246098489",
       "board": "9RKrQRpDLcr",
       "driver": "Adam Johnson",
@@ -370,7 +383,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance",
       "ts": 1787338246099,
-      "synced": false
+      "synced": true,
+      "infItemId": "84db81c2-b06c-4e59-81ac-f370bbe6644f",
+      "syncError": null
     },
     {
       "id": "L178733816648928",
@@ -54503,7 +54518,8 @@
     "81a7f305-0d9e-4fa3-9018-c17007bffe5a",
     "7939e8a5-95fb-44fb-8594-b6c9b860e1a3",
     "ac4fc269-ecd4-4daf-aef8-c57708c81cde",
-    "3f11724e-ddbe-4abd-a2a4-6b0caea350d0"
+    "3f11724e-ddbe-4abd-a2a4-6b0caea350d0",
+    "84db81c2-b06c-4e59-81ac-f370bbe6644f"
   ],
-  "_ts": "2026-08-21T18:50:46.144Z"
+  "_ts": "2026-08-21T18:59:46.304Z"
 }
