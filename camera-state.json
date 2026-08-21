@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787317610831614",
+      "board": "UKkbYDchPMh",
+      "driver": "Patrick Love",
+      "driverId": "019d91d7-109c-73ec-be87-def85069852e",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting; vehicle #102\nhttps://app.estrack.com/#/camera/events/6a877b0db60c756d721473e5",
+      "ts": 1787317610831,
+      "synced": false
+    },
+    {
+      "id": "L1787317231621914",
+      "board": "ebSND1QoyBs",
+      "driver": "Charles Smith",
+      "driverId": "7d9f1f73-fa5c-4891-b622-c25e76fab1bc",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1787317231621,
+      "synced": true,
+      "infItemId": "3501a5b1-c3a0-4ff8-95b7-d722a6e85466",
+      "syncError": null
+    },
+    {
       "id": "L1787317072379619",
       "board": "ebSND1QoyBs",
       "driver": "Mark Varela",
@@ -53893,7 +53921,8 @@
     "51565914-a8cd-4038-b0ab-495a81c32ef2",
     "31e44566-b715-4ad8-82e8-2c9a2ddb8e30",
     "fc0c784b-79cf-47e4-ba60-43e0c50cbeb7",
-    "bf86df0e-1ea2-40ab-af34-f1bfd5a41041"
+    "bf86df0e-1ea2-40ab-af34-f1bfd5a41041",
+    "3501a5b1-c3a0-4ff8-95b7-d722a6e85466"
   ],
-  "_ts": "2026-08-21T12:57:58.825Z"
+  "_ts": "2026-08-21T13:06:50.888Z"
 }
