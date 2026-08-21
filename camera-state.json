@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787316621622277",
+      "board": "YJNwKvzFhkj",
+      "driver": "Derrick Hunter",
+      "driverId": "019e07f7-7971-72e5-b394-d14979014d0f",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1787316621622,
+      "synced": false
+    },
+    {
       "id": "L1787316501325942",
       "board": "xMfRLnqAN7y",
       "driver": "Mark Hyde",
@@ -53851,5 +53864,5 @@
     "31e44566-b715-4ad8-82e8-2c9a2ddb8e30",
     "fc0c784b-79cf-47e4-ba60-43e0c50cbeb7"
   ],
-  "_ts": "2026-08-21T12:48:24.178Z"
+  "_ts": "2026-08-21T12:50:21.676Z"
 }
