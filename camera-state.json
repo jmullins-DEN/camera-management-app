@@ -370,7 +370,9 @@
       "coaching": "Critical Event",
       "notes": "Driver is looking down at phone when a vehicle runs off road to right and the car in the lane next to him is unable to get over because driver doesn't realize for a minute because he is looking at his phone. #411\nhttps://app.estrack.com/#/camera/events/6a8777fcb60c756d72146e0f",
       "ts": 1787324688492,
-      "synced": false
+      "synced": true,
+      "infItemId": "5fcecf5b-8f16-4c17-ba95-376ea3a28dac",
+      "syncError": null
     },
     {
       "id": "L17873244241509",
@@ -54087,7 +54089,8 @@
     "85d57b01-6bef-4388-86b1-d443eac5ef33",
     "d4576386-6510-4af5-827c-862cf3fd8c12",
     "5ae71fb5-188c-4893-9fe1-9001ef658884",
-    "de9547e8-7251-428d-ba54-e1677314786b"
+    "de9547e8-7251-428d-ba54-e1677314786b",
+    "5fcecf5b-8f16-4c17-ba95-376ea3a28dac"
   ],
-  "_ts": "2026-08-21T15:04:48.582Z"
+  "_ts": "2026-08-21T15:04:50.973Z"
 }
