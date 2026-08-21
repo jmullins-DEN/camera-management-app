@@ -370,7 +370,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Blocked camera B12 \nhttps://app.estrack.com/#/camera/events/6a87002bb60c756d72139365",
       "ts": 1787326201908,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787325452490879",
@@ -54137,5 +54138,5 @@
     "f5a148e4-16a1-46d8-a73b-8a51ae57afe5",
     "6f0c45c6-64a3-4d4e-9107-47508e6864bb"
   ],
-  "_ts": "2026-08-21T15:30:01.964Z"
+  "_ts": "2026-08-21T15:30:04.151Z"
 }
