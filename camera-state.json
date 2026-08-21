@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "No seat belt Dodge Ram 2024\nhttps://app.estrack.com/#/camera/events/6a873dc9b60c756d721407a8",
       "ts": 1787324201782,
-      "synced": false
+      "synced": true,
+      "infItemId": "d4576386-6510-4af5-827c-862cf3fd8c12",
+      "syncError": null
     },
     {
       "id": "L1787324118305371",
@@ -54025,7 +54027,8 @@
     "96b1af50-104d-4ea5-8d8a-d5a57c18afaa",
     "45900eba-874c-4e2c-b904-e2d38c3f75fc",
     "6b97c033-0fa9-4961-a2a9-6c5965e750d9",
-    "85d57b01-6bef-4388-86b1-d443eac5ef33"
+    "85d57b01-6bef-4388-86b1-d443eac5ef33",
+    "d4576386-6510-4af5-827c-862cf3fd8c12"
   ],
-  "_ts": "2026-08-21T14:56:41.872Z"
+  "_ts": "2026-08-21T14:56:46.251Z"
 }
