@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787324822800258",
+      "board": "UKkbYDchPMh",
+      "driver": "Billy Coughlin",
+      "driverId": "92b34bb4-ac11-4c5a-a257-a56a97e9adc2",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "Driver is not looking 15 seconds ahead and anticipating what other drivers might do and slowing down in a congested school area and has to harsh brake when a school bus turns in front of him. \nhttps://app.estrack.com/#/camera/events/6a8777f0b60c756d72146df5",
+      "ts": 1787324822800,
+      "synced": false
+    },
+    {
       "id": "L1787324688492169",
       "board": "UKkbYDchPMh",
       "driver": "Michael Erwin",
@@ -54092,5 +54105,5 @@
     "de9547e8-7251-428d-ba54-e1677314786b",
     "5fcecf5b-8f16-4c17-ba95-376ea3a28dac"
   ],
-  "_ts": "2026-08-21T15:04:50.973Z"
+  "_ts": "2026-08-21T15:07:02.908Z"
 }
