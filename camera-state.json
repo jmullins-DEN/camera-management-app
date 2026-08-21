@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178731050716834",
+      "board": "5gVKeGRDf8U",
+      "driver": "Dustin Porter",
+      "driverId": "914a4155-9f1f-40b8-b2a8-26a1ba330d0a",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 430978219; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/95ab288c-e04e-4e29-928a-9032a05842a7.mp4",
+      "ts": 1787310507168,
+      "synced": false
+    },
+    {
       "id": "L1787310335023278",
       "board": "8BUntjK1TqV",
       "driver": "Morales, Alfredo",
@@ -53350,5 +53363,5 @@
     "2467ac60-ea01-4fb8-8721-808b43ef3d86",
     "43bd4110-c3b1-4c78-bee9-66e79d64efc1"
   ],
-  "_ts": "2026-08-21T11:05:38.182Z"
+  "_ts": "2026-08-21T11:08:27.225Z"
 }
