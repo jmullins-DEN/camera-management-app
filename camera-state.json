@@ -685,8 +685,9 @@
       "coaching": "Coaching Notes",
       "notes": "SPEEDING\n",
       "ts": 1787250830002,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "1b379178-4abd-4e65-b54c-2fe46772e75a"
     },
     {
       "id": "L1787250788885508",
@@ -699,8 +700,9 @@
       "coaching": "Face to Face",
       "notes": "SPEEDING\n",
       "ts": 1787250788885,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "4c47775c-8bea-4f1e-8cdc-79ffae23e9ca"
     },
     {
       "id": "L1787250550863394",
@@ -53232,7 +53234,9 @@
     "b604f58b-daa8-4b5a-83ef-c6f525ea8ec4",
     "1709fd96-6c34-45ad-b3d1-3a4e16ca771a",
     "5c987a66-d3b1-4d9f-a35c-da074baea992",
-    "5849a938-1a14-45a7-b085-88afa52076f4"
+    "5849a938-1a14-45a7-b085-88afa52076f4",
+    "1b379178-4abd-4e65-b54c-2fe46772e75a",
+    "4c47775c-8bea-4f1e-8cdc-79ffae23e9ca"
   ],
-  "_ts": "2026-08-21T15:47:47.908Z"
+  "_ts": "2026-08-21T15:47:50.956Z"
 }
