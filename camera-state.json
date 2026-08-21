@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787316290974932",
+      "board": "xMfRLnqAN7y",
+      "driver": "Steven Rosvall",
+      "driverId": "019db60b-c74a-758b-a704-5859f0499f23",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "parking alert",
+      "ts": 1787316290974,
+      "synced": false
+    },
+    {
+      "id": "L1787316155294529",
+      "board": "YfVHuM3X87v",
+      "driver": "John Reed",
+      "driverId": "978b68b6-ea08-41da-ac11-09768d0b5440",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "70 in 55",
+      "ts": 1787316155294,
+      "synced": true,
+      "infItemId": "51565914-a8cd-4038-b0ab-495a81c32ef2",
+      "syncError": null
+    },
+    {
       "id": "L1787316114054997",
       "board": "YfVHuM3X87v",
       "driver": "Ethan Owens",
@@ -53787,7 +53815,8 @@
     "00d829ac-aa88-48b2-9dec-687185bdb967",
     "016f2764-d187-4309-9e93-2839d5c21e8a",
     "206388f2-3cf3-4bf3-8d0b-902548d2cd26",
-    "bc101cfa-f55c-4f0d-bd54-fb5d523816c7"
+    "bc101cfa-f55c-4f0d-bd54-fb5d523816c7",
+    "51565914-a8cd-4038-b0ab-495a81c32ef2"
   ],
-  "_ts": "2026-08-21T12:42:00.484Z"
+  "_ts": "2026-08-21T12:44:51.029Z"
 }
