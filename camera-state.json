@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787339660216812",
+      "board": "8gejhhHJj4e",
+      "driver": "Tony Fiore",
+      "driverId": "019c67ae-fcef-7aa6-801c-4b141498b03c",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1787339660216,
+      "synced": false
+    },
+    {
       "id": "L1787339304681970",
       "board": "8gejhhHJj4e",
       "driver": "Dustin Shackles #0969",
@@ -54616,5 +54629,5 @@
     "cc28a995-afc9-4b2b-8134-c4846f5b0998",
     "1eac7039-ab35-4aea-b500-1b0c2edc9c28"
   ],
-  "_ts": "2026-08-21T19:08:28.247Z"
+  "_ts": "2026-08-21T19:14:20.309Z"
 }
