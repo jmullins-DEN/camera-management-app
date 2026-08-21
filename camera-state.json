@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787316450810513",
+      "board": "xMfRLnqAN7y",
+      "driver": "Paul Hyde",
+      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
+      "date": "2026-08-20",
+      "reviewed": "2026-08-21",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1787316450810,
+      "synced": false
+    },
+    {
       "id": "L1787316290974932",
       "board": "xMfRLnqAN7y",
       "driver": "Steven Rosvall",
@@ -53819,5 +53832,5 @@
     "bc101cfa-f55c-4f0d-bd54-fb5d523816c7",
     "51565914-a8cd-4038-b0ab-495a81c32ef2"
   ],
-  "_ts": "2026-08-21T12:44:53.477Z"
+  "_ts": "2026-08-21T12:47:30.864Z"
 }
