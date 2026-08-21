@@ -370,7 +370,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Becky's 02 following too close \nhttps://app.estrack.com/#/camera/events/6a875b15b60c756d721439e1",
       "ts": 1787327534109,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787327269189490",
@@ -54239,5 +54240,5 @@
     "ee7a9ed8-91ef-406a-b5db-a2748c92be77",
     "e310f41e-56f7-43eb-a0c0-0f157a6410c0"
   ],
-  "_ts": "2026-08-21T15:52:14.162Z"
+  "_ts": "2026-08-21T15:52:17.558Z"
 }
