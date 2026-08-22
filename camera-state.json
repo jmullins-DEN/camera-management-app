@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787363408784641",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-22",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281475000719319-1787359081374:  Truck # 184F550 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/297442c2-59f1-4363-a421-ab6b1f115b52.mp4",
+      "ts": 1787363408784,
+      "synced": false
+    },
+    {
       "id": "L1787363187337269",
       "board": "KYqKJWuumPm",
       "driver": "Kevin Wilson",
@@ -54741,5 +54754,5 @@
     "d496f3f4-82cc-4663-8568-c66d76ffe17c",
     "aaf36ecb-bbff-4cd0-ab1c-6479acc11297"
   ],
-  "_ts": "2026-08-22T01:46:30.581Z"
+  "_ts": "2026-08-22T01:50:08.854Z"
 }
