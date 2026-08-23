@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1251520734497505280:  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b70a004-fe98-4b34-b22c-9943103d3a03.mp4",
       "ts": 1787528956511,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787528851910210",
@@ -54928,5 +54929,5 @@
     "1020bc2f-9e71-4f97-baee-38df43f72245",
     "b90d7155-abe0-49c1-987c-6f81a9617548"
   ],
-  "_ts": "2026-08-23T23:49:16.570Z"
+  "_ts": "2026-08-23T23:49:19.644Z"
 }
