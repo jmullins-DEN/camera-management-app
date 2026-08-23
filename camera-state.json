@@ -565,8 +565,9 @@
       "coaching": "Coaching Notes",
       "notes": "Phone Distraction\n",
       "ts": 1787339153877,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b4720621-f797-41a2-8797-32d146bb3cfb"
     },
     {
       "id": "L1787339009557730",
@@ -609,8 +610,9 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\n",
       "ts": 1787338844823,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d84e66f9-026a-4551-9743-fe9cb5722377"
     },
     {
       "id": "L1787338786211382",
@@ -922,7 +924,7 @@
       "notes": "ECO-10 texting \nhttps://app.estrack.com/#/camera/events/6a86f682b60c756d72137ff1",
       "ts": 1787327030068,
       "synced": false,
-      "syncError": "Failed to fetch",
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
       "infItemId": null
     },
     {
@@ -54799,7 +54801,9 @@
     "f8611666-7d6b-4ed3-831b-f085be0d27e2",
     "fb5b17c2-e044-433f-8636-23607f14eaf9",
     "3e1afb7c-eae1-4820-92fd-5d6f81fb8610",
-    "8ac1280f-2113-4a77-8d5d-fa2696d82ec4"
+    "8ac1280f-2113-4a77-8d5d-fa2696d82ec4",
+    "b4720621-f797-41a2-8797-32d146bb3cfb",
+    "d84e66f9-026a-4551-9743-fe9cb5722377"
   ],
-  "_ts": "2026-08-23T23:31:31.286Z"
+  "_ts": "2026-08-23T23:31:34.515Z"
 }
