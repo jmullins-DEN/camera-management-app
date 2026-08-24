@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L178761149171815",
+      "board": "aRcazTLT9iM",
+      "driver": "Skyler Marshall",
+      "driverId": "1b4f057a-bdbe-4cb7-9bb7-7c223c3d6568",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1606724710; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a5f7cbd3-6198-4b68-8e9f-bde5a1968a0c.mp4",
+      "ts": 1787611491718,
+      "synced": false
+    },
+    {
+      "id": "L1787611451022226",
+      "board": "aRcazTLT9iM",
+      "driver": "Nathaniel Demoss",
+      "driverId": "43e02f38-df6f-47cc-b619-5b78b30ec9c7",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1606710752; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/942a9a69-3dc8-496c-9e66-26a37ebee819.mp4",
+      "ts": 1787611451022,
+      "synced": false,
+      "infItemId": "db5c430a-3425-444c-ac68-77af58b41800",
+      "syncError": "Failed to fetch"
+    },
+    {
       "id": "L1787611410787537",
       "board": "aRcazTLT9iM",
       "driver": "Timmy Roberts",
@@ -57156,5 +57184,5 @@
     "0d43524c-d934-4d0e-bcee-76be31f7ca9b",
     "8c1d1d0c-5ea4-47d3-b381-1c67fcbbd151"
   ],
-  "_ts": "2026-08-24T22:43:35.791Z"
+  "_ts": "2026-08-24T22:44:51.769Z"
 }
