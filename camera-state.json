@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787578490277301",
+      "board": "aRcazTLT9iM",
+      "driver": "AN 108",
+      "driverId": "7b083984-768e-4597-9c21-d796b0cc36a9",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1604774229; following too close\n\n",
+      "ts": 1787578490278,
+      "synced": false
+    },
+    {
       "id": "L1787578399377879",
       "board": "aRcazTLT9iM",
       "driver": "Justin McKenzie",
@@ -55549,5 +55562,5 @@
     "21ec2a3f-cc72-49bb-9aef-e29ca160faa7",
     "47374e64-bdfa-48dd-8349-917c7f4ab975"
   ],
-  "_ts": "2026-08-24T13:34:04.903Z"
+  "_ts": "2026-08-24T13:34:50.331Z"
 }
