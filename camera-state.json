@@ -865,8 +865,9 @@
       "coaching": "Coaching Notes",
       "notes": "Driver on phone \nhttps://app.estrack.com/#/camera/events/6a8712f0b60c756d7213bd33",
       "ts": 1787326830948,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "47374e64-bdfa-48dd-8349-917c7f4ab975"
     },
     {
       "id": "L1787326793572460",
@@ -894,8 +895,9 @@
       "coaching": "Coaching Notes",
       "notes": "ECO-13 texting \nhttps://app.estrack.com/#/camera/events/6a87b5cdb60c756d7214b6c4",
       "ts": 1787326556787,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "95ba136d-4fb5-4dda-994d-d8fdf1c165d0"
     },
     {
       "id": "L1787326201908315",
@@ -908,8 +910,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Blocked camera B12 \nhttps://app.estrack.com/#/camera/events/6a87002bb60c756d72139365",
       "ts": 1787326201908,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bc005102-35d1-4084-944e-7e0630a38580"
     },
     {
       "id": "L1787325452490879",
@@ -54708,7 +54711,10 @@
     "83da625c-fde5-42ce-ae48-cf541b6482ec",
     "643c5d51-208b-4ec0-8cd6-39d5fa365fe1",
     "397056c1-348e-4f2f-a27d-030afac3d386",
-    "21ec2a3f-cc72-49bb-9aef-e29ca160faa7"
+    "21ec2a3f-cc72-49bb-9aef-e29ca160faa7",
+    "47374e64-bdfa-48dd-8349-917c7f4ab975",
+    "95ba136d-4fb5-4dda-994d-d8fdf1c165d0",
+    "bc005102-35d1-4084-944e-7e0630a38580"
   ],
-  "_ts": "2026-08-24T14:27:35.715Z"
+  "_ts": "2026-08-24T14:27:40.122Z"
 }
