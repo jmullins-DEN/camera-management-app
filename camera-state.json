@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787588329227294",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Riley",
+      "driverId": "ac24ef3b-c620-445a-a2d7-cec0d8211e69",
+      "date": "2026-08-22",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995752151-1787415340003\nCab Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e7a7e829-6b60-42b5-81f8-e9842f915029.mp4",
+      "ts": 1787588329227,
+      "synced": false
+    },
+    {
       "id": "L1787588115755280",
       "board": "AKJSkJj6Ch4",
       "driver": "Tyler Schliefert",
@@ -56803,5 +56816,5 @@
     "7ab32bba-b8b8-48c2-b5b1-37b19a606193",
     "6c359e51-1b93-4b58-98b9-948b644b0765"
   ],
-  "_ts": "2026-08-24T16:15:18.703Z"
+  "_ts": "2026-08-24T16:18:49.271Z"
 }
