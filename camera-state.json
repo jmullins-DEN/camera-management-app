@@ -1735,9 +1735,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Blocked camera B12 \nhttps://app.estrack.com/#/camera/events/6a87002bb60c756d72139365",
       "ts": 1787326201908,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bc005102-35d1-4084-944e-7e0630a38580"
     },
     {
       "id": "L1787325452490879",
@@ -1825,9 +1825,9 @@
       "coaching": "Coaching Notes",
       "notes": "Texting SR-71\nhttps://app.estrack.com/#/camera/events/6a875b6ab60c756d72143a64",
       "ts": 1787324301944,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a80e8223-6eed-45d1-a990-a6b9a050a610"
     },
     {
       "id": "L1787324201782688",
@@ -55612,7 +55612,9 @@
     "ecfc12f9-b386-4938-ba50-58db2e6359fe",
     "73b2b22a-c624-4079-8cb5-50c543da5d4b",
     "c1abd70e-e5a9-4125-9d0b-584e0ae45c0b",
-    "95ba136d-4fb5-4dda-994d-d8fdf1c165d0"
+    "95ba136d-4fb5-4dda-994d-d8fdf1c165d0",
+    "bc005102-35d1-4084-944e-7e0630a38580",
+    "a80e8223-6eed-45d1-a990-a6b9a050a610"
   ],
-  "_ts": "2026-08-24T13:37:22.983Z"
+  "_ts": "2026-08-24T13:37:26.016Z"
 }
