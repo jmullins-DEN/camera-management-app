@@ -386,7 +386,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a89a536b60c756d72165cc8",
       "ts": 1787529712611,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178752919718262",
@@ -415,7 +416,8 @@
       "notes": "https://app.estrack.com/#/camera/events/6a887114b60c756d72155ae2",
       "ts": 1787528983419,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787528956510380",
@@ -429,7 +431,8 @@
       "notes": "Alert 1251520734497505280:  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b70a004-fe98-4b34-b22c-9943103d3a03.mp4",
       "ts": 1787528956511,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787528851910210",
@@ -55007,5 +55010,5 @@
     "e2c27d97-5a7a-42b8-8c75-426aaf6cda9a",
     "6198d323-e9e7-4ab7-bdb7-800738bb3821"
   ],
-  "_ts": "2026-08-24T23:19:26.617Z"
+  "_ts": "2026-08-24T23:19:31.602Z"
 }
