@@ -820,8 +820,9 @@
       "coaching": "Unidentified Driver",
       "notes": "ECO-01 texting \nhttps://app.estrack.com/#/camera/events/6a877eb8b60c756d72147a83",
       "ts": 1787327269189,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "397056c1-348e-4f2f-a27d-030afac3d386"
     },
     {
       "id": "L1787327030068940",
@@ -834,8 +835,9 @@
       "coaching": "Coaching Notes",
       "notes": "ECO-10 texting \nhttps://app.estrack.com/#/camera/events/6a86f682b60c756d72137ff1",
       "ts": 1787327030068,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "21ec2a3f-cc72-49bb-9aef-e29ca160faa7"
     },
     {
       "id": "L1787326892490191",
@@ -54704,7 +54706,9 @@
     "d84e66f9-026a-4551-9743-fe9cb5722377",
     "4ca547de-fe72-4005-ac06-8f648195cd42",
     "83da625c-fde5-42ce-ae48-cf541b6482ec",
-    "643c5d51-208b-4ec0-8cd6-39d5fa365fe1"
+    "643c5d51-208b-4ec0-8cd6-39d5fa365fe1",
+    "397056c1-348e-4f2f-a27d-030afac3d386",
+    "21ec2a3f-cc72-49bb-9aef-e29ca160faa7"
   ],
-  "_ts": "2026-08-24T14:27:30.464Z"
+  "_ts": "2026-08-24T14:27:35.715Z"
 }
