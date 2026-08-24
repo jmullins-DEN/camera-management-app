@@ -360,6 +360,33 @@
   },
   "local": [
     {
+      "id": "L1787583339562331",
+      "board": "YJNwKvzFhkj",
+      "driver": "Derrick Hunter",
+      "driverId": "019e07f7-7971-72e5-b394-d14979014d0f",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1787583339563,
+      "synced": false
+    },
+    {
+      "id": "L178758317266871",
+      "board": "YJNwKvzFhkj",
+      "driver": "Kerrington Smith",
+      "driverId": "889af104-9f32-4b5c-bdc6-cd9b07964a89",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera obscured",
+      "ts": 1787583172668,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L178758302485167",
       "board": "YJNwKvzFhkj",
       "driver": "Jonathan Hall",
@@ -56324,5 +56351,5 @@
     "f3c10551-2c97-428c-b238-b4640ce923c8",
     "b2bb3d04-b850-41ae-97b5-49dd686d9bc0"
   ],
-  "_ts": "2026-08-24T14:52:04.869Z"
+  "_ts": "2026-08-24T14:55:39.621Z"
 }
