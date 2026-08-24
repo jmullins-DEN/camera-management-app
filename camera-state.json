@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787611882824255",
+      "board": "XVLVu2Du8hc",
+      "driver": "Melissa Dowe",
+      "driverId": "019bfbcc-32d4-7ff1-b9bf-120d56014405",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "68 in 55",
+      "ts": 1787611882825,
+      "synced": false
+    },
+    {
       "id": "L1787611852364149",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Contreras",
@@ -57267,5 +57280,5 @@
     "e8e7a481-375f-40e2-8551-cb4b08a4c28c",
     "7e62f9b9-508a-46a4-8eb3-d1b7f2166693"
   ],
-  "_ts": "2026-08-24T22:50:56.240Z"
+  "_ts": "2026-08-24T22:51:22.883Z"
 }
