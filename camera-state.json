@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787582273336665",
+      "board": "YfVHuM3X87v",
+      "driver": "Stephen Cashmore",
+      "driverId": "696db30b-119e-498a-a1a6-bf6fd61b7778",
+      "date": "2026-08-22",
+      "reviewed": "2026-08-24",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "65 in 55",
+      "ts": 1787582273336,
+      "synced": false
+    },
+    {
+      "id": "L1787582177766679",
+      "board": "YfVHuM3X87v",
+      "driver": "Stephen Cashmore",
+      "driverId": "696db30b-119e-498a-a1a6-bf6fd61b7778",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "no stop; no slowdown",
+      "ts": 1787582177766,
+      "synced": true,
+      "infItemId": "f913745c-c4c3-4135-91ab-a62fc32d982b",
+      "syncError": null
+    },
+    {
       "id": "L1787582128785333",
       "board": "YfVHuM3X87v",
       "driver": "Stephen Cashmore",
@@ -56127,7 +56155,8 @@
     "06b7d320-8a7b-480b-a37e-d54510f12af9",
     "9f4cbbef-e971-4596-8089-95b9843730db",
     "4258db37-457a-4f93-9dbf-2ebe569661c8",
-    "8bf5d30f-e331-47da-ae16-e1edf8e3814d"
+    "8bf5d30f-e331-47da-ae16-e1edf8e3814d",
+    "f913745c-c4c3-4135-91ab-a62fc32d982b"
   ],
-  "_ts": "2026-08-24T14:35:34.863Z"
+  "_ts": "2026-08-24T14:37:53.392Z"
 }
