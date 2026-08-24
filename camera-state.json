@@ -1720,9 +1720,9 @@
       "coaching": "Coaching Notes",
       "notes": "ECO-13 texting \nhttps://app.estrack.com/#/camera/events/6a87b5cdb60c756d7214b6c4",
       "ts": 1787326556787,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "95ba136d-4fb5-4dda-994d-d8fdf1c165d0"
     },
     {
       "id": "L1787326201908315",
@@ -55611,7 +55611,8 @@
     "c94c9800-0336-4d75-87aa-eb7ea3c7e1b4",
     "ecfc12f9-b386-4938-ba50-58db2e6359fe",
     "73b2b22a-c624-4079-8cb5-50c543da5d4b",
-    "c1abd70e-e5a9-4125-9d0b-584e0ae45c0b"
+    "c1abd70e-e5a9-4125-9d0b-584e0ae45c0b",
+    "95ba136d-4fb5-4dda-994d-d8fdf1c165d0"
   ],
-  "_ts": "2026-08-24T13:36:48.754Z"
+  "_ts": "2026-08-24T13:37:22.983Z"
 }
