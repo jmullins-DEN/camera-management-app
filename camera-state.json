@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 281475000719319-1787549087389: Truck # 184F550 Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d98ee6ac-5429-4eee-82d5-bad0bfc9ba62.mp4",
       "ts": 1787570222967,
-      "synced": false
+      "synced": true,
+      "infItemId": "58d4c604-0e83-45d6-bf6f-965ebd894dd1",
+      "syncError": null
     },
     {
       "id": "L1787569847510180",
@@ -55115,7 +55117,8 @@
     "8f8bf0b8-1e56-4460-beb3-589ce907bfa6",
     "c068d5d2-dc89-49d4-9841-2182d299dd9d",
     "8697faf8-137e-4465-adfe-016e53a093e7",
-    "7c6354bd-0215-425b-a78f-f824d2b6f6bc"
+    "7c6354bd-0215-425b-a78f-f824d2b6f6bc",
+    "58d4c604-0e83-45d6-bf6f-965ebd894dd1"
   ],
-  "_ts": "2026-08-24T11:17:03.021Z"
+  "_ts": "2026-08-24T11:17:07.646Z"
 }
