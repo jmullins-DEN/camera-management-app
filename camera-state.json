@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787577208425685",
+      "board": "8BUntjK1TqV",
+      "driver": "Chavez, Robert Jr",
+      "driverId": "99373bec-e252-401b-8d68-1a54908878ad",
+      "date": "2026-08-23",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6378126299; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/945e322e-0715-485c-9f30-8911d8e9b52f.mp4\n",
+      "ts": 1787577208425,
+      "synced": false
+    },
+    {
       "id": "L1787577129672512",
       "board": "8BUntjK1TqV",
       "driver": "Camacho, Roy",
@@ -55273,5 +55286,5 @@
     "9fb43e89-be2b-49db-8878-4c622d75e4d8",
     "2cecf7c1-10c4-4019-b294-3cc705c99f6f"
   ],
-  "_ts": "2026-08-24T13:12:13.044Z"
+  "_ts": "2026-08-24T13:13:28.480Z"
 }
