@@ -360,6 +360,21 @@
   },
   "local": [
     {
+      "id": "L1787587723101724",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Adam Wright",
+      "driverId": "8f07542f-02e2-4aa9-90b4-8ab3e2c25ba7",
+      "date": "2026-08-23",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995757668-1787530489569\nPhone Distraction;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2e0abc93-46c4-4daa-910d-d4121b4fa9f3.mp4",
+      "ts": 1787587723101,
+      "synced": true,
+      "infItemId": "01e2e460-5189-49a1-8900-e89a917cb8d0",
+      "syncError": null
+    },
+    {
       "id": "L1787587564450278",
       "board": "8gejhhHJj4e",
       "driver": "Luis Martinez",
@@ -56739,7 +56754,8 @@
     "af513b56-b85d-4694-979c-4eb65c94b7ab",
     "8b709d2c-3efe-4270-83ac-8ec1098b5b5a",
     "70d2f2f3-bf54-45f3-80cd-679916e6df8f",
-    "70db708c-5b29-45d6-a13e-2a4e7e3e61e3"
+    "70db708c-5b29-45d6-a13e-2a4e7e3e61e3",
+    "01e2e460-5189-49a1-8900-e89a917cb8d0"
   ],
-  "_ts": "2026-08-24T16:07:46.193Z"
+  "_ts": "2026-08-24T16:08:45.099Z"
 }
