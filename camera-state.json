@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178757656371363",
+      "board": "8BUntjK1TqV",
+      "driver": "Ramirez, Gerardo",
+      "driverId": "019f05d4-a9f8-731d-a00a-e6c050c5b04b",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6371304476; multi-tasking with two hands; loses lane\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db9e045b-1a14-46ec-83eb-06bd0e491bc3.mp4",
+      "ts": 1787576563713,
+      "synced": false
+    },
+    {
       "id": "L1787570222967524",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -55147,5 +55160,5 @@
     "643c5d51-208b-4ec0-8cd6-39d5fa365fe1",
     "397056c1-348e-4f2f-a27d-030afac3d386"
   ],
-  "_ts": "2026-08-24T12:59:10.805Z"
+  "_ts": "2026-08-24T13:02:43.770Z"
 }
