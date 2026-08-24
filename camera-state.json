@@ -970,9 +970,9 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction",
       "ts": 1787338131879,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "4ca547de-fe72-4005-ac06-8f648195cd42"
     },
     {
       "id": "L1787337599342864",
@@ -1015,9 +1015,9 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\n",
       "ts": 1787337398632,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "83da625c-fde5-42ce-ae48-cf541b6482ec"
     },
     {
       "id": "L1787337161730273",
@@ -55141,7 +55141,9 @@
     "48bfbc8c-8292-42c6-a32a-bca9dcbed2f4",
     "bc5a0327-e5c7-434d-b86e-35926b3eff3d",
     "dd6cf36b-3f55-4604-ad66-5464f91ee64b",
-    "985245c9-186c-4458-a0ab-1e63c3ef0b58"
+    "985245c9-186c-4458-a0ab-1e63c3ef0b58",
+    "4ca547de-fe72-4005-ac06-8f648195cd42",
+    "83da625c-fde5-42ce-ae48-cf541b6482ec"
   ],
-  "_ts": "2026-08-24T12:59:03.269Z"
+  "_ts": "2026-08-24T12:59:05.937Z"
 }
