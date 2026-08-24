@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787588458289693",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Mike Jones",
+      "driverId": "1734e96a-35d4-48e2-9391-38717f92a421",
+      "date": "2026-08-22",
+      "reviewed": "2026-08-24",
+      "behavior": "U-Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995718105-1787415624599\nU-Turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c524bf39-e9a9-4714-882f-0822a9502bd2.mp4",
+      "ts": 1787588458289,
+      "synced": false
+    },
+    {
       "id": "L1787588329227294",
       "board": "AKJSkJj6Ch4",
       "driver": "Joe Riley",
@@ -56819,5 +56832,5 @@
     "6c359e51-1b93-4b58-98b9-948b644b0765",
     "72f0e59e-90e0-45f9-bfb4-e68f6a9446dd"
   ],
-  "_ts": "2026-08-24T16:18:52.284Z"
+  "_ts": "2026-08-24T16:20:58.331Z"
 }
