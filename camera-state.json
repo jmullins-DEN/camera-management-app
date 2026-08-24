@@ -370,7 +370,8 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1250859472721707008; labeled as Drowsiness, texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fe5f575b-f354-426b-8dda-2372012b8bbf.mp4\n",
       "ts": 1787579102391,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787579029884189",
@@ -55747,5 +55748,5 @@
     "fcc3763a-9ff9-4031-8b29-4439c9caa6f1",
     "37d4d8a3-3c7d-4a9c-b105-1f262202d660"
   ],
-  "_ts": "2026-08-24T13:45:02.437Z"
+  "_ts": "2026-08-24T13:45:05.148Z"
 }
