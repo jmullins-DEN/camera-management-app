@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787579328839787",
+      "board": "ioWX9hneUsk",
+      "driver": "Julio Mendoza",
+      "driverId": "019ce77c-8a80-744b-ad6c-b732fb4236e9",
+      "date": "2026-08-23",
+      "reviewed": "2026-08-24",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 1251564603243134976; 76 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8725709f-59b2-4a1e-8826-ce31d9ddeb47.mp4",
+      "ts": 1787579328839,
+      "synced": false
+    },
+    {
+      "id": "L1787579258406719",
+      "board": "ioWX9hneUsk",
+      "driver": "Julio Mendoza",
+      "driverId": "019ce77c-8a80-744b-ad6c-b732fb4236e9",
+      "date": "2026-08-23",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1251551236671569920; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d7343fe7-3c76-4209-a22d-014dd8b91da7.mp4",
+      "ts": 1787579258406,
+      "synced": true,
+      "infItemId": "f09b4ce2-b716-4a45-b439-b0408868cfa4",
+      "syncError": null
+    },
+    {
       "id": "L178757920875280",
       "board": "ioWX9hneUsk",
       "driver": "Mark Stephens",
@@ -370,7 +398,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 1250977990570049536; no seatbelt\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0d23885b-5282-455c-bd80-3746aecaf11b.mp4",
       "ts": 1787579208752,
-      "synced": false
+      "synced": true,
+      "infItemId": "f9fd4c2b-d263-44f3-9353-955905e5d6ef",
+      "syncError": null
     },
     {
       "id": "L1787579154096597",
@@ -55775,7 +55805,9 @@
     "ac7f32bc-3f48-41a2-a97a-9f8d002af548",
     "fcc3763a-9ff9-4031-8b29-4439c9caa6f1",
     "37d4d8a3-3c7d-4a9c-b105-1f262202d660",
-    "1ee18ca8-a7e2-4c9d-b80f-c5d1199b2369"
+    "1ee18ca8-a7e2-4c9d-b80f-c5d1199b2369",
+    "f9fd4c2b-d263-44f3-9353-955905e5d6ef",
+    "f09b4ce2-b716-4a45-b439-b0408868cfa4"
   ],
-  "_ts": "2026-08-24T13:46:48.803Z"
+  "_ts": "2026-08-24T13:48:48.895Z"
 }
