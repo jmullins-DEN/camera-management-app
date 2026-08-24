@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 6371304476; multi-tasking with two hands; loses lane\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/db9e045b-1a14-46ec-83eb-06bd0e491bc3.mp4",
       "ts": 1787576563713,
-      "synced": false
+      "synced": true,
+      "infItemId": "7c9976db-90f9-4fd3-b31e-ac4008c33941",
+      "syncError": null
     },
     {
       "id": "L1787570222967524",
@@ -55158,7 +55160,8 @@
     "4ca547de-fe72-4005-ac06-8f648195cd42",
     "83da625c-fde5-42ce-ae48-cf541b6482ec",
     "643c5d51-208b-4ec0-8cd6-39d5fa365fe1",
-    "397056c1-348e-4f2f-a27d-030afac3d386"
+    "397056c1-348e-4f2f-a27d-030afac3d386",
+    "7c9976db-90f9-4fd3-b31e-ac4008c33941"
   ],
-  "_ts": "2026-08-24T13:02:43.770Z"
+  "_ts": "2026-08-24T13:02:47.056Z"
 }
