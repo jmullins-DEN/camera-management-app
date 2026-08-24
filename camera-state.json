@@ -371,7 +371,38 @@
       "notes": "driver drowsy; swerving",
       "ts": 1787583024851,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
+    },
+    {
+      "id": "L1787582930377421",
+      "board": "9RKrQRpDLcr",
+      "driver": "Thomas Neff III",
+      "driverId": "bc3a13e2-3010-49de-9d4f-9923ee1f5af0",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1787582930377,
+      "synced": true,
+      "infItemId": "87098559-0762-4a43-909d-a55418ba119b",
+      "syncError": null
+    },
+    {
+      "id": "L1787582883749911",
+      "board": "9RKrQRpDLcr",
+      "driver": "Paul Kunze Jr",
+      "driverId": "5251e559-3e8c-4f3b-b7b7-21415a31efea",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1787582883749,
+      "synced": true,
+      "infItemId": "29a3b7ec-b17d-406d-ad80-fefa7638594f",
+      "syncError": null
     },
     {
       "id": "L1787582730805258",
@@ -385,7 +416,8 @@
       "notes": "70 in 55",
       "ts": 1787582730805,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178758268866099",
@@ -593,9 +625,9 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction",
       "ts": 1787581963497,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "82d33c87-5de1-4c34-93ce-89fd98c0c336"
     },
     {
       "id": "L1787581940550393",
@@ -608,9 +640,9 @@
       "coaching": "Coaching Notes",
       "notes": "rolling stop",
       "ts": 1787581940550,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "01f66e17-0840-4106-87f2-6f5476abab80"
     },
     {
       "id": "L1787581881768251",
@@ -668,9 +700,9 @@
       "coaching": "Face to Face",
       "notes": "67 in 55",
       "ts": 1787581518980,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f3c10551-2c97-428c-b238-b4640ce923c8"
     },
     {
       "id": "L1787581144961497",
@@ -878,9 +910,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1250859472721707008; labeled as Drowsiness, texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fe5f575b-f354-426b-8dda-2372012b8bbf.mp4\n",
       "ts": 1787579102391,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b2bb3d04-b850-41ae-97b5-49dd686d9bc0"
     },
     {
       "id": "L1787579029884189",
@@ -56284,7 +56316,13 @@
     "c5bc1353-f751-4d48-9648-8b5b7e1cde98",
     "ccd92ec3-f2b4-4da1-8ef9-8db1d112bd8c",
     "7790ccde-8f4c-4910-b040-277526f481b2",
-    "2b9b6785-5094-491b-b792-aa9427bf6757"
+    "2b9b6785-5094-491b-b792-aa9427bf6757",
+    "29a3b7ec-b17d-406d-ad80-fefa7638594f",
+    "87098559-0762-4a43-909d-a55418ba119b",
+    "82d33c87-5de1-4c34-93ce-89fd98c0c336",
+    "01f66e17-0840-4106-87f2-6f5476abab80",
+    "f3c10551-2c97-428c-b238-b4640ce923c8",
+    "b2bb3d04-b850-41ae-97b5-49dd686d9bc0"
   ],
-  "_ts": "2026-08-24T14:51:43.242Z"
+  "_ts": "2026-08-24T14:51:48.640Z"
 }
