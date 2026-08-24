@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787530257228948",
+      "board": "KYqKJWuumPm",
+      "driver": "Luke Davis",
+      "driverId": "019dd5ff-a17d-722a-b0bb-4990b52333e9",
+      "date": "2026-08-22",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474999198299-1787520629420:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c97be7e1-1209-4574-86d0-c83c0b9cb218.mp4",
+      "ts": 1787530257228,
+      "synced": false
+    },
+    {
+      "id": "L1787530115228769",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-22",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474984523377-1787449046420:  Truck # 060(204)\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a17a4b0a-82f1-4ca4-9d77-c904f36c30db.mp4",
+      "ts": 1787530115228,
+      "synced": true,
+      "infItemId": "c068d5d2-dc89-49d4-9841-2182d299dd9d",
+      "syncError": null
+    },
+    {
       "id": "L1787529933964894",
       "board": "KYqKJWuumPm",
       "driver": "Chase Burch",
@@ -370,7 +398,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474984523377-1787426862544: Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/73a1c6fd-2cea-4eef-a0c6-6558cd2f6da9.mp4",
       "ts": 1787529933964,
-      "synced": false
+      "synced": true,
+      "infItemId": "8f8bf0b8-1e56-4460-beb3-589ce907bfa6",
+      "syncError": null
     },
     {
       "id": "L1787529744792149",
@@ -55037,7 +55067,9 @@
     "d7b5daa6-e650-44e3-850b-40ce5125e225",
     "e2c27d97-5a7a-42b8-8c75-426aaf6cda9a",
     "fab4f134-9ead-4f38-a74d-0a63feed205f",
-    "175cfc77-0a7f-4fab-8a45-1ad36dcfca7d"
+    "175cfc77-0a7f-4fab-8a45-1ad36dcfca7d",
+    "8f8bf0b8-1e56-4460-beb3-589ce907bfa6",
+    "c068d5d2-dc89-49d4-9841-2182d299dd9d"
   ],
-  "_ts": "2026-08-24T00:05:34.025Z"
+  "_ts": "2026-08-24T00:10:57.290Z"
 }
