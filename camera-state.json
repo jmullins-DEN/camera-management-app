@@ -385,7 +385,7 @@
       "notes": "Phone Distraction\n",
       "ts": 1787587145688,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787587028842908",
@@ -488,7 +488,7 @@
       "notes": "Vehicle 601 ; Camera Obstruction",
       "ts": 1787585042780,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787584974274759",
@@ -56636,5 +56636,5 @@
     "24062f3c-2d03-4973-a860-95b89fb53df1",
     "9e78832e-e7ed-4b44-80dd-b18f6aaf3527"
   ],
-  "_ts": "2026-08-24T16:02:41.903Z"
+  "_ts": "2026-08-24T16:02:47.503Z"
 }
