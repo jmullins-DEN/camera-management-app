@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787611037514658",
+      "board": "aRcazTLT9iM",
+      "driver": "Tyler Baugh",
+      "driverId": "b22709b6-08c0-4c3d-aef2-31a650f2f509",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1606080601; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/26129f79-d635-4ba3-add7-37c8307ee891.mp4\n",
+      "ts": 1787611037514,
+      "synced": false
+    },
+    {
       "id": "L178761090078778",
       "board": "4rNDuSrCaap",
       "driver": "Aaron Davis",
@@ -57010,5 +57023,5 @@
     "42631519-093e-43e0-91bb-642b8b710050",
     "67843782-c344-486e-800a-909d4241f9f5"
   ],
-  "_ts": "2026-08-24T22:35:04.733Z"
+  "_ts": "2026-08-24T22:37:17.573Z"
 }
