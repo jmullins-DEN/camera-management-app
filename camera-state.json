@@ -445,8 +445,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995832347-1787396002303\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/87359a84-0baf-4765-aacd-b6d85b7447b5.mp4",
       "ts": 1787588115755,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "7f72f13f-8a05-45b1-a0de-5c8355ac8e0f"
     },
     {
       "id": "L1787587952349702",
@@ -744,9 +745,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 601 ; Phone Distraction",
       "ts": 1787584974274,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bf60b75b-7472-452c-b85e-45aca3bef06c"
     },
     {
       "id": "L178758410762414",
@@ -56897,7 +56898,9 @@
     "e3590b1a-c587-4e66-a6d7-93dffe8eae5b",
     "695d6b40-1da0-4336-8baa-f97e31209585",
     "e54d63fb-1c47-49c5-bde5-00d61b9ed40b",
-    "d133441f-5ae6-4188-88e3-caccde1aba37"
+    "d133441f-5ae6-4188-88e3-caccde1aba37",
+    "7f72f13f-8a05-45b1-a0de-5c8355ac8e0f",
+    "bf60b75b-7472-452c-b85e-45aca3bef06c"
   ],
-  "_ts": "2026-08-24T22:28:50.344Z"
+  "_ts": "2026-08-24T22:28:54.538Z"
 }
