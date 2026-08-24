@@ -400,8 +400,9 @@
       "coaching": "Coaching Notes",
       "notes": "Rolling Stop",
       "ts": 1787583909385,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "532ad4b6-14ea-4a79-b9c0-0e100fc88f6f"
     },
     {
       "id": "L1787583783393772",
@@ -429,8 +430,9 @@
       "coaching": "Coaching Notes",
       "notes": "Speeding",
       "ts": 1787583535601,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "4fcf2af0-176a-4f70-befe-0fa8a65930cf"
     },
     {
       "id": "L178758348044781",
@@ -56495,7 +56497,9 @@
     "4cde3616-90e1-4d73-986e-8367c80e399d",
     "9cd7a91b-db37-41c8-a2c8-4067b3f5ad1b",
     "ade1e563-1851-44ac-a9fc-2b05f02f9e26",
-    "457d4472-bb48-48b8-bdcf-0b742414194d"
+    "457d4472-bb48-48b8-bdcf-0b742414194d",
+    "532ad4b6-14ea-4a79-b9c0-0e100fc88f6f",
+    "4fcf2af0-176a-4f70-befe-0fa8a65930cf"
   ],
-  "_ts": "2026-08-24T15:36:41.510Z"
+  "_ts": "2026-08-24T15:36:44.371Z"
 }
