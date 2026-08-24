@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178757920875280",
+      "board": "ioWX9hneUsk",
+      "driver": "Mark Stephens",
+      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1250977990570049536; no seatbelt\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0d23885b-5282-455c-bd80-3746aecaf11b.mp4",
+      "ts": 1787579208752,
+      "synced": false
+    },
+    {
       "id": "L1787579154096597",
       "board": "ioWX9hneUsk",
       "driver": "Ed Smith",
@@ -370,7 +383,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 1250919072196100096; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bcb8cbbc-c0f0-4d79-914d-02c17994f2f4.mp4",
       "ts": 1787579154096,
-      "synced": false
+      "synced": true,
+      "infItemId": "1ee18ca8-a7e2-4c9d-b80f-c5d1199b2369",
+      "syncError": null
     },
     {
       "id": "L1787579102391268",
@@ -55759,7 +55774,8 @@
     "a563891c-36fa-48ec-a01b-3d2bdb46d196",
     "ac7f32bc-3f48-41a2-a97a-9f8d002af548",
     "fcc3763a-9ff9-4031-8b29-4439c9caa6f1",
-    "37d4d8a3-3c7d-4a9c-b105-1f262202d660"
+    "37d4d8a3-3c7d-4a9c-b105-1f262202d660",
+    "1ee18ca8-a7e2-4c9d-b80f-c5d1199b2369"
   ],
-  "_ts": "2026-08-24T13:45:54.152Z"
+  "_ts": "2026-08-24T13:46:48.803Z"
 }
