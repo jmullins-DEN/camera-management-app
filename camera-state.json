@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787611340502755",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1606410593; following too close; truck # AN 140\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0b61505e-0646-4226-b0f3-4928ebc23ac5.mp4\n",
+      "ts": 1787611340502,
+      "synced": false
+    },
+    {
       "id": "L1787611282228774",
       "board": "aRcazTLT9iM",
       "driver": "Rob Baesel",
@@ -57108,5 +57121,5 @@
     "e277c17f-5f32-49be-82d4-232f09d1fd79",
     "8eb367ab-25be-4562-b7fb-3ccc4c571c82"
   ],
-  "_ts": "2026-08-24T22:41:27.807Z"
+  "_ts": "2026-08-24T22:42:20.553Z"
 }
