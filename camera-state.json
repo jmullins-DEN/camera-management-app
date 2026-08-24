@@ -360,6 +360,21 @@
   },
   "local": [
     {
+      "id": "L1787582632281863",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jason Allen",
+      "driverId": "019bdd3f-6648-7997-8bde-259709e2a152",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking with two hands",
+      "ts": 1787582632281,
+      "synced": true,
+      "infItemId": "ccd92ec3-f2b4-4da1-8ef9-8db1d112bd8c",
+      "syncError": null
+    },
+    {
       "id": "L1787582537989954",
       "board": "xMfRLnqAN7y",
       "driver": "Ryan Durrence",
@@ -56208,7 +56223,8 @@
     "d2677b66-b9d0-489e-92be-0c5990198983",
     "dbfb0666-df60-4f91-b175-be08a0204464",
     "c18ac7c6-37d6-4c59-a75b-4d6a5f7d662a",
-    "c5bc1353-f751-4d48-9648-8b5b7e1cde98"
+    "c5bc1353-f751-4d48-9648-8b5b7e1cde98",
+    "ccd92ec3-f2b4-4da1-8ef9-8db1d112bd8c"
   ],
-  "_ts": "2026-08-24T14:42:21.372Z"
+  "_ts": "2026-08-24T14:43:55.044Z"
 }
