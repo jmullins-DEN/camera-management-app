@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787578684257483",
+      "board": "aRcazTLT9iM",
+      "driver": "AN 142",
+      "driverId": "089d2bbc-3cae-43e1-8eea-d8c23e5d92d0",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 1605193982; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a30e4f60-799f-4255-82a8-3961c0feb685.mp4",
+      "ts": 1787578684257,
+      "synced": false
+    },
+    {
       "id": "L178757860336920",
       "board": "aRcazTLT9iM",
       "driver": "James Daniels",
@@ -55619,5 +55632,5 @@
     "413ac89c-efd4-49be-bd61-3e6912cf672c",
     "80f40283-ac50-48b9-8717-e8eea7ac11e9"
   ],
-  "_ts": "2026-08-24T13:37:31.113Z"
+  "_ts": "2026-08-24T13:38:04.315Z"
 }
