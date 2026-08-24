@@ -360,6 +360,49 @@
   },
   "local": [
     {
+      "id": "L1787580945662348",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "75 in 55",
+      "ts": 1787580945662,
+      "synced": false
+    },
+    {
+      "id": "L1787580848611803",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1605343325; following too close; truck #209\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b3a55efa-caec-4e46-a6c9-61e4c991de92.mp4",
+      "ts": 1787580848611,
+      "synced": true,
+      "infItemId": "53c3b0ab-a595-47e2-995f-7ba4b401e9c2",
+      "syncError": null
+    },
+    {
+      "id": "L1787580797597633",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Tanner",
+      "driverId": "019a0810-437c-7aae-88b4-dfecb414cf7f",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 1604709323; following too close\n",
+      "ts": 1787580797597,
+      "synced": true,
+      "infItemId": "fe1ef652-1107-4073-a920-0d9a197e2e8f",
+      "syncError": null
+    },
+    {
       "id": "L1787580718524507",
       "board": "XVLVu2Du8hc",
       "driver": "Jeffrey Schnippel",
@@ -55826,7 +55869,9 @@
     "f9fd4c2b-d263-44f3-9353-955905e5d6ef",
     "f09b4ce2-b716-4a45-b439-b0408868cfa4",
     "1f227bb6-c0d2-40c5-8f01-74bdf8cfef7e",
-    "dc82eba0-6e63-4578-9acf-f78d4e419062"
+    "dc82eba0-6e63-4578-9acf-f78d4e419062",
+    "fe1ef652-1107-4073-a920-0d9a197e2e8f",
+    "53c3b0ab-a595-47e2-995f-7ba4b401e9c2"
   ],
-  "_ts": "2026-08-24T14:12:01.043Z"
+  "_ts": "2026-08-24T14:15:45.719Z"
 }
