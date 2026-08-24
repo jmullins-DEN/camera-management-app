@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6384550011:  Traffic Light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c763a1ed-5729-49a1-9a40-da1197bb7139.mp4",
       "ts": 1787613084530,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L178761278578382",
@@ -57314,5 +57315,5 @@
     "dffc8bd6-71a9-4f26-8678-dbd72632ca06",
     "64e7468e-6b9b-4304-a4bb-98a816ecc570"
   ],
-  "_ts": "2026-08-24T23:11:24.594Z"
+  "_ts": "2026-08-24T23:11:27.267Z"
 }
