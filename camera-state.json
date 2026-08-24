@@ -1870,9 +1870,9 @@
       "coaching": "Coaching Notes",
       "notes": "Driver following too close- not creating space \nhttps://app.estrack.com/#/camera/events/6a875890b60c756d72143501",
       "ts": 1787324016518,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b5bd116f-2ef3-4b12-8ae0-500a5597769a"
     },
     {
       "id": "L1787317759896399",
@@ -2080,8 +2080,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1250592870470156288:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ad8dbfdc-88ce-4153-88a4-05604afd7d8b.mp4",
       "ts": 1787314253072,
-      "synced": false,
-      "syncError": "reference 429",
+      "synced": true,
+      "syncError": null,
       "infItemId": "413ac89c-efd4-49be-bd61-3e6912cf672c"
     },
     {
@@ -2110,9 +2110,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 281474980531324-1787267371205:  Truck # 168\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4676fd0c-b90f-410e-9335-97491dc19af2.mp4",
       "ts": 1787311934237,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "80f40283-ac50-48b9-8717-e8eea7ac11e9"
     },
     {
       "id": "L1787311739701609",
@@ -55614,7 +55614,10 @@
     "c1abd70e-e5a9-4125-9d0b-584e0ae45c0b",
     "95ba136d-4fb5-4dda-994d-d8fdf1c165d0",
     "bc005102-35d1-4084-944e-7e0630a38580",
-    "a80e8223-6eed-45d1-a990-a6b9a050a610"
+    "a80e8223-6eed-45d1-a990-a6b9a050a610",
+    "b5bd116f-2ef3-4b12-8ae0-500a5597769a",
+    "413ac89c-efd4-49be-bd61-3e6912cf672c",
+    "80f40283-ac50-48b9-8717-e8eea7ac11e9"
   ],
-  "_ts": "2026-08-24T13:37:26.016Z"
+  "_ts": "2026-08-24T13:37:28.572Z"
 }
