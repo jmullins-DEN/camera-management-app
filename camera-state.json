@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 658 Medium; Speeding",
       "ts": 1787583783393,
-      "synced": false
+      "synced": true,
+      "infItemId": "9cd7a91b-db37-41c8-a2c8-4067b3f5ad1b",
+      "syncError": null
     },
     {
       "id": "L1787583535601339",
@@ -56445,7 +56447,8 @@
     "14117f03-6048-4da4-a700-2496289b8950",
     "4cde3616-90e1-4d73-986e-8367c80e399d",
     "256ebf66-457d-4b13-9cb5-c703bbfcad04",
-    "54032574-1712-47c2-92ed-4102c2992035"
+    "54032574-1712-47c2-92ed-4102c2992035",
+    "9cd7a91b-db37-41c8-a2c8-4067b3f5ad1b"
   ],
-  "_ts": "2026-08-24T15:03:03.438Z"
+  "_ts": "2026-08-24T15:03:06.534Z"
 }
