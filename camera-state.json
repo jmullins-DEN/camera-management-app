@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787576634347462",
+      "board": "8BUntjK1TqV",
+      "driver": "Vega, Roy",
+      "driverId": "019ffceb-ae22-721c-8708-bf492970b7e3",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6365856158; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/796e6f96-a93b-47b0-90a1-1c3f13245799.mp4",
+      "ts": 1787576634347,
+      "synced": false
+    },
+    {
       "id": "L178757656371363",
       "board": "8BUntjK1TqV",
       "driver": "Ramirez, Gerardo",
@@ -55163,5 +55176,5 @@
     "397056c1-348e-4f2f-a27d-030afac3d386",
     "7c9976db-90f9-4fd3-b31e-ac4008c33941"
   ],
-  "_ts": "2026-08-24T13:02:47.056Z"
+  "_ts": "2026-08-24T13:03:54.404Z"
 }
