@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178758302485167",
+      "board": "YJNwKvzFhkj",
+      "driver": "Jonathan Hall",
+      "driverId": "019dd5f2-3f5d-718a-8a2d-11a1e06b6dd4",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-24",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; swerving",
+      "ts": 1787583024851,
+      "synced": false
+    },
+    {
       "id": "L1787582730805258",
       "board": "xMfRLnqAN7y",
       "driver": "Paul Hyde",
@@ -56272,5 +56285,5 @@
     "7790ccde-8f4c-4910-b040-277526f481b2",
     "2b9b6785-5094-491b-b792-aa9427bf6757"
   ],
-  "_ts": "2026-08-24T14:45:36.653Z"
+  "_ts": "2026-08-24T14:50:24.912Z"
 }
