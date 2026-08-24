@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787581057083494",
+      "board": "XVLVu2Du8hc",
+      "driver": "Kyle Curtis",
+      "driverId": "019a0810-437c-7aae-88b4-7ddb6f8af72b",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "51 in 35",
+      "ts": 1787581057083,
+      "synced": false
+    },
+    {
       "id": "L1787581022671319",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Morris",
@@ -55908,5 +55921,5 @@
     "51284a5c-245b-473d-bab9-8fa5b33a6e12",
     "6bd57d84-09b4-4d91-a1dd-7a544989378c"
   ],
-  "_ts": "2026-08-24T14:17:06.044Z"
+  "_ts": "2026-08-24T14:17:37.138Z"
 }
