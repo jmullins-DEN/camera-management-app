@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787613907049672",
+      "board": "UKkbYDchPMh",
+      "driver": "Michael Erwin",
+      "driverId": "925f7088-82d5-43ea-b30b-1826dc25f3b1",
+      "date": "2026-08-23",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "https://app.estrack.com/#/camera/events/6a8ca5b3b60c756d721804b9",
+      "ts": 1787613907049,
+      "synced": false
+    },
+    {
       "id": "L1787613689745320",
       "board": "UKkbYDchPMh",
       "driver": "Matthew Fox",
@@ -55042,5 +55055,5 @@
     "2f82ed86-bc99-4cb2-a9de-c6931b6b7122",
     "940e4849-ac3e-4ef9-93ba-0ec8dde2718e"
   ],
-  "_ts": "2026-08-24T23:21:32.945Z"
+  "_ts": "2026-08-24T23:25:07.158Z"
 }
