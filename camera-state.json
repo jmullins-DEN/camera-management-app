@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 1606410593; following too close; truck # AN 140\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0b61505e-0646-4226-b0f3-4928ebc23ac5.mp4\n",
       "ts": 1787611340502,
-      "synced": false
+      "synced": true,
+      "infItemId": "d69d8654-8df1-4973-b112-ce605181c15a",
+      "syncError": null
     },
     {
       "id": "L1787611282228774",
@@ -57119,7 +57121,8 @@
     "24126afe-3f51-4c20-b49b-3d304aa85a9c",
     "d6536fe3-7d84-45c4-a478-e21ac000cafc",
     "e277c17f-5f32-49be-82d4-232f09d1fd79",
-    "8eb367ab-25be-4562-b7fb-3ccc4c571c82"
+    "8eb367ab-25be-4562-b7fb-3ccc4c571c82",
+    "d69d8654-8df1-4973-b112-ce605181c15a"
   ],
-  "_ts": "2026-08-24T22:42:20.553Z"
+  "_ts": "2026-08-24T22:42:24.626Z"
 }
