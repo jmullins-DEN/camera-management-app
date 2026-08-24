@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787611241634636",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1606250761; following too close; truck # 138\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7878062e-10be-434d-8a76-cd712e0ee9c0.mp4",
+      "ts": 1787611241634,
+      "synced": false
+    },
+    {
       "id": "L1787611154276855",
       "board": "aRcazTLT9iM",
       "driver": "Tyler Jackson",
@@ -57076,5 +57089,5 @@
     "24126afe-3f51-4c20-b49b-3d304aa85a9c",
     "d6536fe3-7d84-45c4-a478-e21ac000cafc"
   ],
-  "_ts": "2026-08-24T22:39:58.299Z"
+  "_ts": "2026-08-24T22:40:41.692Z"
 }
