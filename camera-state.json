@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787577832933589",
+      "board": "4rNDuSrCaap",
+      "driver": "J.  Rodrigues",
+      "driverId": "069aecd1-3f4d-4320-a1f3-6d16147b675e",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 431417308; following too close; Rodrigues not in truckspy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5060a7ee-087c-4162-8f93-2a4369b741e4.mp4",
+      "ts": 1787577832933,
+      "synced": false
+    },
+    {
       "id": "L1787577717039906",
       "board": "4rNDuSrCaap",
       "driver": "Chris Jacobson",
@@ -55383,5 +55396,5 @@
     "c2e5188f-9f04-4f94-b6e0-f7cb8aef1a21",
     "a4e08cf6-9e2f-48e2-9151-8677b67f21b7"
   ],
-  "_ts": "2026-08-24T13:22:00.042Z"
+  "_ts": "2026-08-24T13:23:52.989Z"
 }
