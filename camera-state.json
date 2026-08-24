@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787583396468146",
+      "board": "YJNwKvzFhkj",
+      "driver": "Trendell Williams",
+      "driverId": "019de57a-1a0c-7039-8f77-3d31fd7cea7d",
+      "date": "2026-08-21",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1787583396468,
+      "synced": false
+    },
+    {
       "id": "L1787583339562331",
       "board": "YJNwKvzFhkj",
       "driver": "Derrick Hunter",
@@ -56354,5 +56367,5 @@
     "b2bb3d04-b850-41ae-97b5-49dd686d9bc0",
     "256ebf66-457d-4b13-9cb5-c703bbfcad04"
   ],
-  "_ts": "2026-08-24T14:55:43.046Z"
+  "_ts": "2026-08-24T14:56:36.526Z"
 }
