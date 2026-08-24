@@ -1180,9 +1180,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Becky's 02 following too close \nhttps://app.estrack.com/#/camera/events/6a875b15b60c756d721439e1",
       "ts": 1787327534109,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "643c5d51-208b-4ec0-8cd6-39d5fa365fe1"
     },
     {
       "id": "L1787327439207233",
@@ -1210,9 +1210,9 @@
       "coaching": "Unidentified Driver",
       "notes": "ECO-01 texting \nhttps://app.estrack.com/#/camera/events/6a877eb8b60c756d72147a83",
       "ts": 1787327269189,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "397056c1-348e-4f2f-a27d-030afac3d386"
     },
     {
       "id": "L1787327030068940",
@@ -55143,7 +55143,9 @@
     "dd6cf36b-3f55-4604-ad66-5464f91ee64b",
     "985245c9-186c-4458-a0ab-1e63c3ef0b58",
     "4ca547de-fe72-4005-ac06-8f648195cd42",
-    "83da625c-fde5-42ce-ae48-cf541b6482ec"
+    "83da625c-fde5-42ce-ae48-cf541b6482ec",
+    "643c5d51-208b-4ec0-8cd6-39d5fa365fe1",
+    "397056c1-348e-4f2f-a27d-030afac3d386"
   ],
-  "_ts": "2026-08-24T12:59:05.937Z"
+  "_ts": "2026-08-24T12:59:08.372Z"
 }
