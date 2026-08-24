@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787576964620298",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Domingo",
+      "driverId": "fb71d638-1be8-4f27-a9f4-3e412507118f",
+      "date": "2026-08-22",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6374687520; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ead1902-6148-484c-a7be-bb2894053610.mp4",
+      "ts": 1787576964620,
+      "synced": false
+    },
+    {
       "id": "L178757688988172",
       "board": "8BUntjK1TqV",
       "driver": "Ochoa, Jeremy",
@@ -55225,5 +55238,5 @@
     "1d9d92ed-2e4e-4d12-82bf-dc53a99c1f8f",
     "c66226d0-2017-4bbe-8170-c64899707c9c"
   ],
-  "_ts": "2026-08-24T13:08:12.607Z"
+  "_ts": "2026-08-24T13:09:24.677Z"
 }
