@@ -520,8 +520,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a887114b60c756d72155ae2",
       "ts": 1787528983419,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "48bfbc8c-8292-42c6-a32a-bca9dcbed2f4"
     },
     {
       "id": "L1787528956510380",
@@ -534,9 +535,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1251520734497505280:  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b70a004-fe98-4b34-b22c-9943103d3a03.mp4",
       "ts": 1787528956511,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bc5a0327-e5c7-434d-b86e-35926b3eff3d"
     },
     {
       "id": "L1787528851910210",
@@ -55136,7 +55137,9 @@
     "8697faf8-137e-4465-adfe-016e53a093e7",
     "7c6354bd-0215-425b-a78f-f824d2b6f6bc",
     "58d4c604-0e83-45d6-bf6f-965ebd894dd1",
-    "7dd71c3e-9564-4b2c-8aec-ce4dd232d708"
+    "7dd71c3e-9564-4b2c-8aec-ce4dd232d708",
+    "48bfbc8c-8292-42c6-a32a-bca9dcbed2f4",
+    "bc5a0327-e5c7-434d-b86e-35926b3eff3d"
   ],
-  "_ts": "2026-08-24T12:58:57.968Z"
+  "_ts": "2026-08-24T12:59:00.465Z"
 }
