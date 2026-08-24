@@ -1000,8 +1000,9 @@
       "coaching": "Coaching Notes",
       "notes": "Texting SR-71\nhttps://app.estrack.com/#/camera/events/6a875b6ab60c756d72143a64",
       "ts": 1787324301944,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a80e8223-6eed-45d1-a990-a6b9a050a610"
     },
     {
       "id": "L1787324201782688",
@@ -54714,7 +54715,8 @@
     "21ec2a3f-cc72-49bb-9aef-e29ca160faa7",
     "47374e64-bdfa-48dd-8349-917c7f4ab975",
     "95ba136d-4fb5-4dda-994d-d8fdf1c165d0",
-    "bc005102-35d1-4084-944e-7e0630a38580"
+    "bc005102-35d1-4084-944e-7e0630a38580",
+    "a80e8223-6eed-45d1-a990-a6b9a050a610"
   ],
-  "_ts": "2026-08-24T14:27:40.122Z"
+  "_ts": "2026-08-24T14:27:43.701Z"
 }
