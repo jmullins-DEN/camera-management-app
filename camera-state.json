@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787578821268436",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-23",
+      "reviewed": "2026-08-24",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1605945174; following too close; vehicle #138\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9e0f1258-5c21-4602-9157-02237c1b6d76.mp4",
+      "ts": 1787578821268,
+      "synced": false
+    },
+    {
       "id": "L1787578723154884",
       "board": "aRcazTLT9iM",
       "driver": "Eric Howington",
@@ -55654,5 +55667,5 @@
     "0a9b52fe-5afa-4ef3-94bb-808914f3ec53",
     "09b85d94-dac5-43c2-8c9e-9d902f80275d"
   ],
-  "_ts": "2026-08-24T13:39:38.072Z"
+  "_ts": "2026-08-24T13:40:21.323Z"
 }
