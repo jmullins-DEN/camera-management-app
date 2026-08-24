@@ -386,7 +386,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1787587530354,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787587502429238",
@@ -56734,5 +56735,5 @@
     "0dbd8a31-af23-43c4-b30a-d388e2373894",
     "c082d4a1-b4de-46d1-99aa-0f48b8786107"
   ],
-  "_ts": "2026-08-24T16:06:08.854Z"
+  "_ts": "2026-08-24T16:07:35.673Z"
 }
