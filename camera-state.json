@@ -1096,12 +1096,12 @@
     {
       "id": "L178752938250578",
       "board": "7d53dL31ioV",
-      "driver": "Unassigned",
-      "driverId": "d8f4a8e1-c854-48f7-81c9-f7ce79807828",
+      "driver": "BREWER, GREG A",
+      "driverId": "ec60c92a-1ebe-4045-97de-720a14c4950d",
       "date": "2026-08-23",
       "reviewed": "2026-08-23",
       "behavior": "Speeding",
-      "coaching": "Unidentified Driver",
+      "coaching": "Coaching Notes",
       "notes": "Alert 6372389047:  Truck # 28 Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d9c08bc8-2917-46c1-93dc-441657087956.mp4",
       "ts": 1787529382505,
       "synced": true,
@@ -55812,5 +55812,5 @@
     "f09b4ce2-b716-4a45-b439-b0408868cfa4",
     "1f227bb6-c0d2-40c5-8f01-74bdf8cfef7e"
   ],
-  "_ts": "2026-08-24T13:48:51.906Z"
+  "_ts": "2026-08-24T14:10:34.702Z"
 }
