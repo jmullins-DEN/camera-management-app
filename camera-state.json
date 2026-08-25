@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6384663922; stop light violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d5f435ad-021f-4503-9b0a-6781ebf8a83e.mp4",
       "ts": 1787659610834,
-      "synced": false
+      "synced": true,
+      "infItemId": "93a5e6e3-9d87-4977-b1ca-72a26dc6278f",
+      "syncError": null
     },
     {
       "id": "L1787659536116890",
@@ -57796,7 +57798,8 @@
     "1267d275-e9a3-42b8-847a-2a5f08853df2",
     "108205ab-6c38-4feb-bc94-4acf91cfabe1",
     "366c27af-6d6b-4b72-9861-3fa0dfcac2a1",
-    "5589dccf-77e2-4057-8ea4-5c7171f932e4"
+    "5589dccf-77e2-4057-8ea4-5c7171f932e4",
+    "93a5e6e3-9d87-4977-b1ca-72a26dc6278f"
   ],
-  "_ts": "2026-08-25T12:06:50.893Z"
+  "_ts": "2026-08-25T12:06:54.023Z"
 }
