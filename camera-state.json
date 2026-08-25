@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787672446503266",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Loper, William",
+      "driverId": "4554dbc1-4d5e-4de8-b4af-2917020f5e39",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Increase Following Distance\n",
+      "ts": 1787672446503,
+      "synced": false
+    },
+    {
       "id": "L1787661381771141",
       "board": "ebSND1QoyBs",
       "driver": "Mykiel James",
@@ -58079,5 +58092,5 @@
     "dd6a4de8-6a4f-47fb-bef7-81de1a37be73",
     "26ae1bae-e1f4-40d6-9a75-bc94d8ce0d1f"
   ],
-  "_ts": "2026-08-25T15:38:39.654Z"
+  "_ts": "2026-08-25T15:40:46.554Z"
 }
