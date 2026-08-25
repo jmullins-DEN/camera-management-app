@@ -400,8 +400,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a8c46dbb60c756d72176258",
       "ts": 1787617069555,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "1267d275-e9a3-42b8-847a-2a5f08853df2"
     },
     {
       "id": "L1787616957445343",
@@ -668,7 +669,7 @@
       "notes": "Alert 281474980531320-1787607517015:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2ef061e9-a069-4767-9e99-52433db469f3.mp4",
       "ts": 1787613780316,
       "synced": false,
-      "syncError": "Failed to fetch",
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
       "infItemId": null
     },
     {
@@ -864,7 +865,7 @@
       "ts": 1787611451022,
       "synced": false,
       "infItemId": "db5c430a-3425-444c-ac68-77af58b41800",
-      "syncError": "reference 409"
+      "syncError": "reference 429"
     },
     {
       "id": "L1787611410787537",
@@ -57719,7 +57720,8 @@
     "4a900dd5-f4b8-40af-96f0-20be675eff40",
     "daf2f9cd-e6f7-4279-be52-cd549262ece3",
     "7b2cf027-49bc-4454-b467-598bdbe2ddac",
-    "46e7231d-c84a-4c7e-805a-df6cb2535431"
+    "46e7231d-c84a-4c7e-805a-df6cb2535431",
+    "1267d275-e9a3-42b8-847a-2a5f08853df2"
   ],
-  "_ts": "2026-08-25T11:14:37.593Z"
+  "_ts": "2026-08-25T11:14:40.432Z"
 }
