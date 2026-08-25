@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787698644781578",
+      "board": "ic6o6QgzpVM",
+      "driver": "Adalberto Guerra",
+      "driverId": "8fcd591f-0516-40b0-8600-5b871b2f7c47",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-25",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6390428904\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/80ce4577-7b12-44f8-a9b8-e465c5691a1a.mp4",
+      "ts": 1787698644781,
+      "synced": false
+    },
+    {
+      "id": "L1787698510736791",
+      "board": "ic6o6QgzpVM",
+      "driver": "Jesse Garcia",
+      "driverId": "43e107ed-db97-45bb-8fa3-6e4432fead24",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-25",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6391030669\nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7672948d-ed42-4251-91e3-7f6f2df9bfea.mp4",
+      "ts": 1787698510736,
+      "synced": true,
+      "infItemId": "2446c298-40ce-44e5-8c90-c51d398ef5f6",
+      "syncError": null
+    },
+    {
       "id": "L178769833371999",
       "board": "ic6o6QgzpVM",
       "driver": "Jason Edwards",
@@ -370,7 +398,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6391377855\nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/93ecb285-2704-4b92-9f29-082b769f9e8c.mp4",
       "ts": 1787698333719,
-      "synced": false
+      "synced": true,
+      "infItemId": "ba410401-ba9b-4ff9-b137-c8de68de0494",
+      "syncError": null
     },
     {
       "id": "L1787698012367771",
@@ -58546,7 +58576,9 @@
     "78461ac6-729d-4001-b8b6-35c3b4fed76c",
     "ddeaf12b-3deb-4fe5-b406-238a808d7266",
     "99761f84-7ea7-4126-9157-816826d5aeaf",
-    "965dde6a-5c54-4753-8174-6228a8db587f"
+    "965dde6a-5c54-4753-8174-6228a8db587f",
+    "ba410401-ba9b-4ff9-b137-c8de68de0494",
+    "2446c298-40ce-44e5-8c90-c51d398ef5f6"
   ],
-  "_ts": "2026-08-25T22:52:13.787Z"
+  "_ts": "2026-08-25T22:57:24.846Z"
 }
