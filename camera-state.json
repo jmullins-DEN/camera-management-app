@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787694688464733",
+      "board": "8gejhhHJj4e",
+      "driver": "Andre Olivier",
+      "driverId": "019ae4bb-5c50-7007-bc66-26e90e4b3b90",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Forward Collision Warning",
+      "ts": 1787694688464,
+      "synced": false
+    },
+    {
       "id": "L1787694580145969",
       "board": "8gejhhHJj4e",
       "driver": "Andrew Jacobs",
@@ -58309,5 +58322,5 @@
     "bb210e54-6655-4839-98f7-048cf262d59d",
     "ec4d7056-7d8b-46c7-abe4-910f7e4bd8d0"
   ],
-  "_ts": "2026-08-25T21:49:44.755Z"
+  "_ts": "2026-08-25T21:51:28.517Z"
 }
