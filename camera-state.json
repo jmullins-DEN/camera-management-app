@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787693189976147",
+      "board": "9RKrQRpDLcr",
+      "driver": "Drew Template",
+      "driverId": "019cc67d-3f46-7886-b441-ede31717a5c3",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1787693189976,
+      "synced": false
+    },
+    {
       "id": "L1787693087319482",
       "board": "9RKrQRpDLcr",
       "driver": "William Foley",
@@ -58201,5 +58214,5 @@
     "b04cc825-64bd-4526-adcc-8227a4cb4db0",
     "1e917ab5-c722-4988-988b-8b121f806f75"
   ],
-  "_ts": "2026-08-25T21:24:50.758Z"
+  "_ts": "2026-08-25T21:26:30.075Z"
 }
