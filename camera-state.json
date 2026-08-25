@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787691683212492",
+      "board": "JthqRmXvJ9v",
+      "driver": "Zack Wyatt",
+      "driverId": "019c33e3-5a8b-7224-988a-bdee4f8c0027",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Increase Following Distance\n",
+      "ts": 1787691683212,
+      "synced": false
+    },
+    {
       "id": "L1787672551488478",
       "board": "nWRsGRSm2Hn",
       "driver": "Robert Reveles",
@@ -58111,5 +58124,5 @@
     "551c36b7-ece9-4f24-b40d-9e313d58d63b",
     "4c98b71a-8b18-437a-b6dc-aac4b9967041"
   ],
-  "_ts": "2026-08-25T15:42:34.739Z"
+  "_ts": "2026-08-25T21:01:23.302Z"
 }
