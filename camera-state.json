@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787660432449736",
+      "board": "XVLVu2Du8hc",
+      "driver": "Kyle Curtis",
+      "driverId": "019a0810-437c-7aae-88b4-7ddb6f8af72b",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "73 in 60",
+      "ts": 1787660432449,
+      "synced": false
+    },
+    {
       "id": "L1787660358414447",
       "board": "XVLVu2Du8hc",
       "driver": "Jeffrey Schnippel",
@@ -57875,5 +57888,5 @@
     "614b58b6-a439-4d11-be03-65349faa83ae",
     "10b48ad5-e328-437d-a7fc-44c949bfff8a"
   ],
-  "_ts": "2026-08-25T12:19:21.802Z"
+  "_ts": "2026-08-25T12:20:32.510Z"
 }
