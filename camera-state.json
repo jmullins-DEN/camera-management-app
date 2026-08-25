@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787659610834896",
+      "board": "8BUntjK1TqV",
+      "driver": "Merrick, Justin",
+      "driverId": "019b7534-7299-7aab-a844-1c2a4a4e78e7",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6384663922; stop light violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d5f435ad-021f-4503-9b0a-6781ebf8a83e.mp4",
+      "ts": 1787659610834,
+      "synced": false
+    },
+    {
       "id": "L1787659536116890",
       "board": "8BUntjK1TqV",
       "driver": "Leoffler, David (Dave)",
@@ -57785,5 +57798,5 @@
     "366c27af-6d6b-4b72-9861-3fa0dfcac2a1",
     "5589dccf-77e2-4057-8ea4-5c7171f932e4"
   ],
-  "_ts": "2026-08-25T12:05:39.034Z"
+  "_ts": "2026-08-25T12:06:50.893Z"
 }
