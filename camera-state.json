@@ -805,8 +805,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a8c6251b60c756d721797d1",
       "ts": 1787616402578,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "26ae1bae-e1f4-40d6-9a75-bc94d8ce0d1f"
     },
     {
       "id": "L1787616068648119",
@@ -835,8 +836,8 @@
       "notes": "Alert 1252015259682766848:  Hard Braking \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e55f86c1-0902-4c5a-ab72-5a787a6db62c.mp4",
       "ts": 1787615886924,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "syncError": "reference 429",
+      "infItemId": "a86f0553-d59c-4ac6-8bd0-bebf9b95a6c3"
     },
     {
       "id": "L1787615870724247",
@@ -58075,7 +58076,8 @@
     "5aa5f79f-2f7f-4806-912c-a55873918b54",
     "82aade99-7b9a-4240-88ef-476083e46f99",
     "9568e3c4-8e12-4896-899e-ec8051cff8c7",
-    "dd6a4de8-6a4f-47fb-bef7-81de1a37be73"
+    "dd6a4de8-6a4f-47fb-bef7-81de1a37be73",
+    "26ae1bae-e1f4-40d6-9a75-bc94d8ce0d1f"
   ],
-  "_ts": "2026-08-25T15:38:34.477Z"
+  "_ts": "2026-08-25T15:38:37.028Z"
 }
