@@ -610,8 +610,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 6384919709; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/be15a2e7-cfbe-4411-9a55-3af91f2e71c3.mp4\n",
       "ts": 1787659667284,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "82aade99-7b9a-4240-88ef-476083e46f99"
     },
     {
       "id": "L1787659610834896",
@@ -669,8 +670,9 @@
       "coaching": "Critical Event",
       "notes": "Alert 6380614086; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c55f1f66-aa28-40c3-b461-b40b25f8c78b.mp4",
       "ts": 1787659381454,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "9568e3c4-8e12-4896-899e-ec8051cff8c7"
     },
     {
       "id": "L1787656579261690",
@@ -773,8 +775,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a8cbeb3b60c756d72182e23",
       "ts": 1787616698151,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "dd6a4de8-6a4f-47fb-bef7-81de1a37be73"
     },
     {
       "id": "L1787616597272568",
@@ -58069,7 +58072,10 @@
     "61ae5315-f0ae-4c7d-a677-edb1d8adbab9",
     "4b6fe569-e62f-4522-8ce6-288881e80e21",
     "e7e7ebb1-f549-49f1-a9fc-5ef6a20cbf09",
-    "5aa5f79f-2f7f-4806-912c-a55873918b54"
+    "5aa5f79f-2f7f-4806-912c-a55873918b54",
+    "82aade99-7b9a-4240-88ef-476083e46f99",
+    "9568e3c4-8e12-4896-899e-ec8051cff8c7",
+    "dd6a4de8-6a4f-47fb-bef7-81de1a37be73"
   ],
-  "_ts": "2026-08-25T15:38:29.802Z"
+  "_ts": "2026-08-25T15:38:34.477Z"
 }
