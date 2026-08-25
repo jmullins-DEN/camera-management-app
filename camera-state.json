@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787698012367771",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Cory Volland",
+      "driverId": "f7a6f6a7-b72b-4bd6-80da-d74934dfe595",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-25",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995729932-1787669669857\nIncrease Following Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7f32b9bd-4877-4cdd-9205-461a2eed8c88.mp4",
+      "ts": 1787698012367,
+      "synced": false
+    },
+    {
       "id": "L1787697866575932",
       "board": "AKJSkJj6Ch4",
       "driver": "Josh Dobney",
@@ -58521,5 +58534,5 @@
     "99761f84-7ea7-4126-9157-816826d5aeaf",
     "965dde6a-5c54-4753-8174-6228a8db587f"
   ],
-  "_ts": "2026-08-25T22:44:29.763Z"
+  "_ts": "2026-08-25T22:46:52.471Z"
 }
