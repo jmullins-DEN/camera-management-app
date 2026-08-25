@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance",
       "ts": 1787693189976,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787693087319482",
@@ -58214,5 +58215,5 @@
     "b04cc825-64bd-4526-adcc-8227a4cb4db0",
     "1e917ab5-c722-4988-988b-8b121f806f75"
   ],
-  "_ts": "2026-08-25T21:26:30.075Z"
+  "_ts": "2026-08-25T21:26:32.768Z"
 }
