@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a8cc346b60c756d721836d0",
       "ts": 1787616597272,
-      "synced": false
+      "synced": true,
+      "infItemId": "148b01c9-86df-482f-af9b-aaba9fcb6556",
+      "syncError": null
     },
     {
       "id": "L1787616402578848",
@@ -57623,7 +57625,8 @@
     "565f3d9d-7a89-40e2-8bfd-fac5834b8929",
     "b3ad29cf-bac2-40d5-9a4d-3f837326e336",
     "b72ee34c-37e5-425d-9061-872eca48d5ab",
-    "d3c82c35-1269-47b2-88a5-bffeef6a9b85"
+    "d3c82c35-1269-47b2-88a5-bffeef6a9b85",
+    "148b01c9-86df-482f-af9b-aaba9fcb6556"
   ],
-  "_ts": "2026-08-25T00:09:57.389Z"
+  "_ts": "2026-08-25T00:10:00.897Z"
 }
