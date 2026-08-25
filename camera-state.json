@@ -370,7 +370,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 635 Heavy ;; Rolling Stop",
       "ts": 1787692535718,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787691744919669",
@@ -58154,5 +58155,5 @@
     "4c98b71a-8b18-437a-b6dc-aac4b9967041",
     "94142a81-e303-4c7b-9778-747cc6c90ad1"
   ],
-  "_ts": "2026-08-25T21:15:35.773Z"
+  "_ts": "2026-08-25T21:15:38.413Z"
 }
