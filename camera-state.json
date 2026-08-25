@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787660480552370",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Tanner",
+      "driverId": "019a0810-437c-7aae-88b4-dfecb414cf7f",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "74 in 55",
+      "ts": 1787660480552,
+      "synced": false
+    },
+    {
       "id": "L1787660432449736",
       "board": "XVLVu2Du8hc",
       "driver": "Kyle Curtis",
@@ -57891,5 +57904,5 @@
     "10b48ad5-e328-437d-a7fc-44c949bfff8a",
     "bb19b63f-ac82-4cec-97fa-c4138562be88"
   ],
-  "_ts": "2026-08-25T12:20:35.022Z"
+  "_ts": "2026-08-25T12:21:20.610Z"
 }
