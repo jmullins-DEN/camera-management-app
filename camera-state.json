@@ -360,6 +360,33 @@
   },
   "local": [
     {
+      "id": "L1787699887951317",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6381068223\nSpeeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0a8199a2-7876-45d7-b85b-663b88e5629f.mp4",
+      "ts": 1787699887951,
+      "synced": false
+    },
+    {
+      "id": "L1787699711574579",
+      "board": "ic6o6QgzpVM",
+      "driver": "Gonzales, Edgar",
+      "driverId": "019abaac-b46a-7998-b535-41973fa8d994",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6384007592\nPhone Distraction; Face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5c22b417-14d0-4edd-9a5a-5615d98281b4.mp4",
+      "ts": 1787699711574,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L1787699456344411",
       "board": "ic6o6QgzpVM",
       "driver": "Reyna, Oscar",
@@ -58613,5 +58640,5 @@
     "04ac9056-2763-4361-bee0-9be3441befa3",
     "331cdadb-5c39-4f67-9cc5-bf0215a3ee5c"
   ],
-  "_ts": "2026-08-25T23:10:59.870Z"
+  "_ts": "2026-08-25T23:18:08.066Z"
 }
