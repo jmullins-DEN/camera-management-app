@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787694787092901",
+      "board": "8gejhhHJj4e",
+      "driver": "TRUMAN CHAMBERS #1556",
+      "driverId": "a8e1a01d-5868-44da-b140-ca7538f21ab0",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Forward Collision Warning",
+      "ts": 1787694787092,
+      "synced": false
+    },
+    {
       "id": "L1787694718740509",
       "board": "8gejhhHJj4e",
       "driver": "Brandon Brazis",
@@ -58339,5 +58352,5 @@
     "ec4d7056-7d8b-46c7-abe4-910f7e4bd8d0",
     "765f9104-cd57-44c7-a236-0539f6e83802"
   ],
-  "_ts": "2026-08-25T21:52:01.763Z"
+  "_ts": "2026-08-25T21:53:07.145Z"
 }
