@@ -370,7 +370,9 @@
       "coaching": "Critical Event",
       "notes": "Forward Collision Warning",
       "ts": 1787694787092,
-      "synced": false
+      "synced": true,
+      "infItemId": "40e60edb-9993-439e-ae15-6934b40b8470",
+      "syncError": null
     },
     {
       "id": "L1787694718740509",
@@ -58350,7 +58352,8 @@
     "52d690b3-d740-46fd-ac13-d465cfd5ee88",
     "bb210e54-6655-4839-98f7-048cf262d59d",
     "ec4d7056-7d8b-46c7-abe4-910f7e4bd8d0",
-    "765f9104-cd57-44c7-a236-0539f6e83802"
+    "765f9104-cd57-44c7-a236-0539f6e83802",
+    "40e60edb-9993-439e-ae15-6934b40b8470"
   ],
-  "_ts": "2026-08-25T21:53:07.145Z"
+  "_ts": "2026-08-25T21:53:09.883Z"
 }
