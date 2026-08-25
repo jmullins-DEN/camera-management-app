@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787661381771141",
+      "board": "ebSND1QoyBs",
+      "driver": "Mykiel James",
+      "driverId": "50a8019c-481f-4ada-9898-103ff2a649e1",
+      "date": "2026-08-24",
+      "reviewed": "2026-08-25",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "78 in 55",
+      "ts": 1787661381771,
+      "synced": false
+    },
+    {
       "id": "L178766132960915",
       "board": "ebSND1QoyBs",
       "driver": "Matthew Pickett",
@@ -370,7 +383,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close",
       "ts": 1787661329609,
-      "synced": false
+      "synced": true,
+      "infItemId": "61ae5315-f0ae-4c7d-a677-edb1d8adbab9",
+      "syncError": null
     },
     {
       "id": "L1787661270674187",
@@ -58046,7 +58061,8 @@
     "a4588c47-be30-4ed9-bf0f-8f44d226debb",
     "ea15aadd-1176-4742-894b-4609b56c9996",
     "548f65f0-7a21-4f7d-ac0a-50a630f945f4",
-    "c4c8fcf8-0afd-4060-a95c-a67049964c25"
+    "c4c8fcf8-0afd-4060-a95c-a67049964c25",
+    "61ae5315-f0ae-4c7d-a677-edb1d8adbab9"
   ],
-  "_ts": "2026-08-25T12:35:29.668Z"
+  "_ts": "2026-08-25T12:36:21.830Z"
 }
