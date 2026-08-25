@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "multi-tasking; inattentive",
       "ts": 1787661149816,
-      "synced": false
+      "synced": true,
+      "infItemId": "548f65f0-7a21-4f7d-ac0a-50a630f945f4",
+      "syncError": null
     },
     {
       "id": "L1787661002869867",
@@ -58014,7 +58016,8 @@
     "c601191a-f5c4-4089-8d39-b19f2d7d0ca3",
     "489bc66c-94c2-48ac-a440-a23b7ebc16ac",
     "a4588c47-be30-4ed9-bf0f-8f44d226debb",
-    "ea15aadd-1176-4742-894b-4609b56c9996"
+    "ea15aadd-1176-4742-894b-4609b56c9996",
+    "548f65f0-7a21-4f7d-ac0a-50a630f945f4"
   ],
-  "_ts": "2026-08-25T12:32:29.871Z"
+  "_ts": "2026-08-25T12:32:33.023Z"
 }
