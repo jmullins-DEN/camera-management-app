@@ -370,7 +370,8 @@
       "coaching": "Critical Event",
       "notes": "Forward Collision Warning",
       "ts": 1787694688464,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787694580145969",
@@ -58322,5 +58323,5 @@
     "bb210e54-6655-4839-98f7-048cf262d59d",
     "ec4d7056-7d8b-46c7-abe4-910f7e4bd8d0"
   ],
-  "_ts": "2026-08-25T21:51:28.517Z"
+  "_ts": "2026-08-25T21:51:31.766Z"
 }
