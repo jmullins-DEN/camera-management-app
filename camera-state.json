@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787695584543438",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Riley",
+      "driverId": "ac24ef3b-c620-445a-a2d7-cec0d8211e69",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-25",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995752151-1787666109762\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f9e8ebe1-0f85-47fe-a7df-f56db58434a2.mp4",
+      "ts": 1787695584543,
+      "synced": false
+    },
+    {
       "id": "L1787694948940995",
       "board": "8gejhhHJj4e",
       "driver": "Gage Dawkins",
@@ -370,7 +383,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1787694948940,
-      "synced": false
+      "synced": true,
+      "infItemId": "f1f057a0-8566-45b1-916b-588b933019f5",
+      "syncError": null
     },
     {
       "id": "L1787694873214347",
@@ -58382,7 +58397,8 @@
     "ec4d7056-7d8b-46c7-abe4-910f7e4bd8d0",
     "765f9104-cd57-44c7-a236-0539f6e83802",
     "40e60edb-9993-439e-ae15-6934b40b8470",
-    "0af3c67e-b4df-440e-ad2a-ca1230cb7529"
+    "0af3c67e-b4df-440e-ad2a-ca1230cb7529",
+    "f1f057a0-8566-45b1-916b-588b933019f5"
   ],
-  "_ts": "2026-08-25T21:55:49.014Z"
+  "_ts": "2026-08-25T22:06:24.609Z"
 }
