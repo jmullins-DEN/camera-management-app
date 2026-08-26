@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6388601760:  Truck # 157741 Diver Drowsy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a9ef80a9-db7c-4608-97c0-b454ff8c1de7.mp4\n",
       "ts": 1787715091227,
-      "synced": false
+      "synced": true,
+      "infItemId": "5e49efc4-d08f-486b-8539-05c6172d4b96",
+      "syncError": null
     },
     {
       "id": "L1787714874771859",
@@ -58718,7 +58720,8 @@
     "b1a85fe6-8e0b-48f6-b2f9-6e2dfd3a41db",
     "80b9da92-466d-4a0a-b73f-fd634b885d20",
     "18218abf-0905-4181-959a-15dc5ccd1131",
-    "fb20e3e0-fe1a-4208-9bd9-738aca0a7311"
+    "fb20e3e0-fe1a-4208-9bd9-738aca0a7311",
+    "5e49efc4-d08f-486b-8539-05c6172d4b96"
   ],
-  "_ts": "2026-08-26T03:31:31.283Z"
+  "_ts": "2026-08-26T03:31:34.551Z"
 }
