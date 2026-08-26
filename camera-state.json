@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787714340050336",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Timothy Marquez",
+      "driverId": "2167c4b0-bae4-4cf5-b988-711b489626a5",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1252380913980047360:  Hard Braking/Phone\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d9a743ec-4a97-4b49-beb9-e3a4484ae89e.mp4",
+      "ts": 1787714340050,
+      "synced": false
+    },
+    {
       "id": "L178771350729896",
       "board": "7W2SQKrNcXQ",
       "driver": "Luis Longoria",
@@ -58659,5 +58672,5 @@
     "331cdadb-5c39-4f67-9cc5-bf0215a3ee5c",
     "b1a85fe6-8e0b-48f6-b2f9-6e2dfd3a41db"
   ],
-  "_ts": "2026-08-26T03:05:12.799Z"
+  "_ts": "2026-08-26T03:19:00.101Z"
 }
