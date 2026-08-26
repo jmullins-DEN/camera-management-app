@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L17877146993536",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Drowsy Driving",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6388702912:  Truck # 157741  Driver Drowsy \n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cf004559-e38d-41e2-a02a-759b0684e13d.mp4",
+      "ts": 1787714699353,
+      "synced": false
+    },
+    {
       "id": "L1787714340050336",
       "board": "7W2SQKrNcXQ",
       "driver": "Timothy Marquez",
@@ -58675,5 +58688,5 @@
     "b1a85fe6-8e0b-48f6-b2f9-6e2dfd3a41db",
     "80b9da92-466d-4a0a-b73f-fd634b885d20"
   ],
-  "_ts": "2026-08-26T03:19:04.106Z"
+  "_ts": "2026-08-26T03:24:59.414Z"
 }
