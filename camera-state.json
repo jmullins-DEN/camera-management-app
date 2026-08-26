@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787742450206263",
+      "board": "4rNDuSrCaap",
+      "driver": "Unassigned",
+      "driverId": "fe8cbc13-5059-44ee-b9f1-8016a337a940",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 432577705; following too close; vehicle # 463\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b7dc164b-edd1-4464-be5d-2fdaefb814f2.mp4\n",
+      "ts": 1787742450206,
+      "synced": false
+    },
+    {
       "id": "L178774224525622",
       "board": "5gVKeGRDf8U",
       "driver": "Allen Edwards",
@@ -58861,5 +58874,5 @@
     "7b5db12a-f420-4bc2-a11b-e1a898c96d4d",
     "363d0ecf-bd71-4420-89c4-c61ead670af8"
   ],
-  "_ts": "2026-08-26T11:04:08.499Z"
+  "_ts": "2026-08-26T11:07:30.265Z"
 }
