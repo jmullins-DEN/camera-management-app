@@ -1440,12 +1440,19 @@ async function apiDel(path,body){
 // then re-wrap — so re-saving an edited note never double-wraps. Local state keeps the clean URL.
 function linkifyNotes(text){
   if(!text) return text;
-  // Store BARE URLs in the Notes field. Infinity's board view renders Markdown [url](url)
-  // as literal "[...](...)" text (raw brackets, not clickable) — clients couldn't open the
-  // videos. Bare URLs auto-linkify in the board view and in the automation email. Collapse
-  // any existing [url](url) so re-saving is idempotent and never re-wraps. (Reverses the
-  // 2026-07-24 wrapping; see reference-infinity-notes-renders-markdown memory.)
-  return String(text).replace(/\[(https?:\/\/[^\]\s]+)\]\((https?:\/\/[^)\s]+)\)/g,'$2');
+  // Infinity's "Notes:" longtext is a RICH-TEXT (HTML) field. A bare URL renders as plain text
+  // that only iOS auto-detection catches — and that breaks in the PDF export: the long S3 URL
+  // wraps and iOS only grabs the first line -> "Access Denied" on iPhone. Markdown [url](url)
+  // is worse (renders literal brackets). The format that works everywhere — board grid, automation
+  // email, AND the PDF export (real hyperlink annotation, taps clean on mobile) — is HTML with an
+  // <a> anchor. This matches what Infinity's own TruckSpy automation wrote pre-2026-06-30, before
+  // DENvision took over write-back and started posting flat text. (Supersedes the bare-URL revert;
+  // see reference-infinity-notes-renders-markdown memory.)
+  let t=String(text).replace(/\[(https?:\/\/[^\]\s]+)\]\((https?:\/\/[^)\s]+)\)/g,'$2'); // collapse legacy markdown -> bare
+  if(/<a\s|<\/p>|<h4>/i.test(t)) return t; // already HTML (e.g. read back from Infinity) — don't double-wrap
+  const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const anchor=s=>s.replace(/\bhttps?:\/\/[^\s<>()\]]+/g,u=>'<a target="_blank" rel="noopener noreferrer nofollow" href="'+u+'">'+u+'</a>');
+  return t.split(/\n+/).map(l=>{ l=l.trim(); return l?('<p>'+anchor(esc(l))+'</p>'):''; }).join('');
 }
 // pull bare URLs out of a note (collapsing any [url](url) markdown first), de-duped, order preserved
 function extractUrls(text){
