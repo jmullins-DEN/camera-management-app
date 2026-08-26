@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787742102780952",
+      "board": "8BUntjK1TqV",
+      "driver": "Arington, Tim",
+      "driverId": "2620536a-aa08-43c1-87ca-bd93fd7b4897",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6393212774; multi-tasking; possible phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2d3f7b1b-97e4-4eeb-a24f-f3793bfa0ea4.mp4",
+      "ts": 1787742102780,
+      "synced": false
+    },
+    {
       "id": "L178774201193010",
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Luis",
@@ -58813,5 +58826,5 @@
     "e5a57c65-c6c0-4f0f-aabb-4c2a00085079",
     "77f7fed2-4dc2-4163-bf0d-61ab91f53f32"
   ],
-  "_ts": "2026-08-26T11:00:15.249Z"
+  "_ts": "2026-08-26T11:01:42.843Z"
 }
