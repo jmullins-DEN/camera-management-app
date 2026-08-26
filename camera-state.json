@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6388702912:  Truck # 157741  Driver Drowsy \n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cf004559-e38d-41e2-a02a-759b0684e13d.mp4",
       "ts": 1787714699353,
-      "synced": false
+      "synced": true,
+      "infItemId": "18218abf-0905-4181-959a-15dc5ccd1131",
+      "syncError": null
     },
     {
       "id": "L1787714340050336",
@@ -58686,7 +58688,8 @@
     "04ac9056-2763-4361-bee0-9be3441befa3",
     "331cdadb-5c39-4f67-9cc5-bf0215a3ee5c",
     "b1a85fe6-8e0b-48f6-b2f9-6e2dfd3a41db",
-    "80b9da92-466d-4a0a-b73f-fd634b885d20"
+    "80b9da92-466d-4a0a-b73f-fd634b885d20",
+    "18218abf-0905-4181-959a-15dc5ccd1131"
   ],
-  "_ts": "2026-08-26T03:24:59.414Z"
+  "_ts": "2026-08-26T03:25:02.549Z"
 }
