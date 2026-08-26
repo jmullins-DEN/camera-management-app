@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787745185941444",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Lane swerve; inattentive; backward camera blocked",
+      "ts": 1787745185941,
+      "synced": false
+    },
+    {
       "id": "L1787745128281441",
       "board": "YfVHuM3X87v",
       "driver": "Charles Jefride",
@@ -59445,5 +59458,5 @@
     "fa09cc88-68b6-4efa-98ea-0279742f2db4",
     "1633d799-dd6a-475c-b498-ed810205c34e"
   ],
-  "_ts": "2026-08-26T11:52:11.709Z"
+  "_ts": "2026-08-26T11:53:06.001Z"
 }
