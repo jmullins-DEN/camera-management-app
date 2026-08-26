@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "Lane swerve; inattentive; backward camera blocked",
       "ts": 1787745185941,
-      "synced": false
+      "synced": true,
+      "infItemId": "4c77d36f-d323-40eb-878c-b2c23e35de9f",
+      "syncError": null
     },
     {
       "id": "L1787745128281441",
@@ -59456,7 +59458,8 @@
     "7423d03c-1068-4b87-acb5-a8efbbee841e",
     "546bfeb8-47bb-4814-b40e-ad58870fcf39",
     "fa09cc88-68b6-4efa-98ea-0279742f2db4",
-    "1633d799-dd6a-475c-b498-ed810205c34e"
+    "1633d799-dd6a-475c-b498-ed810205c34e",
+    "4c77d36f-d323-40eb-878c-b2c23e35de9f"
   ],
-  "_ts": "2026-08-26T11:53:06.001Z"
+  "_ts": "2026-08-26T11:53:08.722Z"
 }
