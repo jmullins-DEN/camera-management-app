@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787745085769482",
+      "board": "YfVHuM3X87v",
+      "driver": "Ethan Owens",
+      "driverId": "1085658d-2bf7-4d84-9fbc-cb7b53debf9b",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1787745085769,
+      "synced": false
+    },
+    {
       "id": "L1787744598707915",
       "board": "XVLVu2Du8hc",
       "driver": "Wesley Tallon",
@@ -59413,5 +59426,5 @@
     "7423d03c-1068-4b87-acb5-a8efbbee841e",
     "546bfeb8-47bb-4814-b40e-ad58870fcf39"
   ],
-  "_ts": "2026-08-26T11:43:22.186Z"
+  "_ts": "2026-08-26T11:51:25.832Z"
 }
