@@ -1645,9 +1645,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance",
       "ts": 1787693189976,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "523f9c53-d697-4aac-afcb-69751cdde41f"
     },
     {
       "id": "L1787693087319482",
@@ -1690,9 +1690,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1787692866418,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c917d705-3897-4a7b-a0f3-53f8adb9f1b5"
     },
     {
       "id": "L1787692535718741",
@@ -1705,9 +1705,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 635 Heavy ;; Rolling Stop",
       "ts": 1787692535718,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "2d76643a-8bc1-4f53-85ef-fbd7dd7848d6"
     },
     {
       "id": "L1787691744919669",
@@ -1735,9 +1735,9 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\n",
       "ts": 1787691683212,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d05938e9-2236-49c6-a611-91dfd844d6f7"
     },
     {
       "id": "L1787672551488478",
@@ -2245,8 +2245,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1252015259682766848:  Hard Braking \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e55f86c1-0902-4c5a-ab72-5a787a6db62c.mp4",
       "ts": 1787615886924,
-      "synced": false,
-      "syncError": "reference 429",
+      "synced": true,
+      "syncError": null,
       "infItemId": "a86f0553-d59c-4ac6-8bd0-bebf9b95a6c3"
     },
     {
@@ -59577,7 +59577,12 @@
     "0c3215d0-b5bd-4d0a-88d8-83376955c49a",
     "8ca33ccd-780b-499c-8dbc-1085fec74896",
     "7050755e-3bcd-4210-83d5-a62243f75e9e",
-    "77f2724c-f5d8-42dc-beb2-03d3b1e02290"
+    "77f2724c-f5d8-42dc-beb2-03d3b1e02290",
+    "523f9c53-d697-4aac-afcb-69751cdde41f",
+    "c917d705-3897-4a7b-a0f3-53f8adb9f1b5",
+    "2d76643a-8bc1-4f53-85ef-fbd7dd7848d6",
+    "d05938e9-2236-49c6-a611-91dfd844d6f7",
+    "a86f0553-d59c-4ac6-8bd0-bebf9b95a6c3"
   ],
-  "_ts": "2026-08-26T17:44:05.256Z"
+  "_ts": "2026-08-26T17:44:13.312Z"
 }
