@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787776181704170",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Harrell, John",
+      "driverId": "b75d2c64-df1d-4ff4-b326-abaffbe6892e",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction",
+      "ts": 1787776181704,
+      "synced": false
+    },
+    {
       "id": "L178774606495423",
       "board": "UKkbYDchPMh",
       "driver": "Michael Cobb",
@@ -59589,5 +59602,5 @@
     "5eef95fd-83b8-406c-81a2-aabf2e31bc1b",
     "9daeb687-a6fa-457d-b1b7-7e39cc76341a"
   ],
-  "_ts": "2026-08-26T20:25:03.529Z"
+  "_ts": "2026-08-26T20:29:41.757Z"
 }
