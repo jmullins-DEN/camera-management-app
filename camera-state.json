@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1252380913980047360:  Hard Braking/Phone\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d9a743ec-4a97-4b49-beb9-e3a4484ae89e.mp4",
       "ts": 1787714340050,
-      "synced": false
+      "synced": true,
+      "infItemId": "80b9da92-466d-4a0a-b73f-fd634b885d20",
+      "syncError": null
     },
     {
       "id": "L178771350729896",
@@ -58670,7 +58672,8 @@
     "2446c298-40ce-44e5-8c90-c51d398ef5f6",
     "04ac9056-2763-4361-bee0-9be3441befa3",
     "331cdadb-5c39-4f67-9cc5-bf0215a3ee5c",
-    "b1a85fe6-8e0b-48f6-b2f9-6e2dfd3a41db"
+    "b1a85fe6-8e0b-48f6-b2f9-6e2dfd3a41db",
+    "80b9da92-466d-4a0a-b73f-fd634b885d20"
   ],
-  "_ts": "2026-08-26T03:19:00.101Z"
+  "_ts": "2026-08-26T03:19:04.106Z"
 }
