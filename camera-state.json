@@ -370,7 +370,8 @@
       "coaching": "Face to Face",
       "notes": "60 in 45",
       "ts": 1787744389436,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787744355447765",
@@ -59332,5 +59333,5 @@
     "721f3261-a5af-46e2-9e4c-84f0ea9c6c17",
     "405ddef1-21f2-4a43-80ed-1b5469df6332"
   ],
-  "_ts": "2026-08-26T11:39:49.489Z"
+  "_ts": "2026-08-26T11:39:52.203Z"
 }
