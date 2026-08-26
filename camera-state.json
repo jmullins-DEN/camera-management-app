@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787741783372760",
+      "board": "8BUntjK1TqV",
+      "driver": "Camacho, Roy",
+      "driverId": "019eb1f9-7c37-705d-9c61-e013aa53ee35",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6388259715; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ed7d43ba-d38d-4727-ac39-4e9cfb9f5388.mp4",
+      "ts": 1787741783372,
+      "synced": false
+    },
+    {
       "id": "L1787715527321523",
       "board": "KYqKJWuumPm",
       "driver": "Kevin Wilson",
@@ -58751,5 +58764,5 @@
     "21fe3121-ed04-48b3-ab13-c5ec618900dd",
     "10ca8405-df1d-42cf-a526-918dd903cf21"
   ],
-  "_ts": "2026-08-26T10:54:46.373Z"
+  "_ts": "2026-08-26T10:56:23.438Z"
 }
