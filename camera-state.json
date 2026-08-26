@@ -360,6 +360,36 @@
   },
   "local": [
     {
+      "id": "L1787743119050588",
+      "board": "4rNDuSrCaap",
+      "driver": "Logan Hertel",
+      "driverId": "eb1dd260-4f84-4a4e-8aac-61850ece4268",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 432919260; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fbc2569b-e836-443b-a980-83892fac13ce.mp4",
+      "ts": 1787743119050,
+      "synced": true,
+      "infItemId": "ef84ede4-d3df-4e4b-809c-e6ea74c39de5",
+      "syncError": null
+    },
+    {
+      "id": "L1787743030868423",
+      "board": "4rNDuSrCaap",
+      "driver": "Gavin Fleming",
+      "driverId": "019eb6e0-0462-72df-8e63-8cac800a0cdd",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "\nAlert 432894175; labeled as Following too Close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e03eca0a-622a-4f10-9f00-44dc0b6f7454.mp4",
+      "ts": 1787743030868,
+      "synced": true,
+      "infItemId": "a177ccf6-92e0-4d18-b93d-e0fa60c9ab73",
+      "syncError": null
+    },
+    {
       "id": "L178774292622174",
       "board": "4rNDuSrCaap",
       "driver": "Aaron Puckett",
@@ -58987,7 +59017,9 @@
     "b41d85d4-e485-4dcc-9d4d-db38413df449",
     "71c50ff2-4969-434f-a7bc-73566b5c6cb2",
     "a0e9fc79-da89-4b70-8ed3-b6141c4fa17c",
-    "c5595813-19db-478b-85bd-94902db81ea2"
+    "c5595813-19db-478b-85bd-94902db81ea2",
+    "a177ccf6-92e0-4d18-b93d-e0fa60c9ab73",
+    "ef84ede4-d3df-4e4b-809c-e6ea74c39de5"
   ],
-  "_ts": "2026-08-26T11:15:29.095Z"
+  "_ts": "2026-08-26T11:18:41.703Z"
 }
