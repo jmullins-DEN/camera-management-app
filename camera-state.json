@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178777954521815",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance\n",
+      "ts": 1787779545218,
+      "synced": false
+    },
+    {
       "id": "L1787779432405116",
       "board": "8gejhhHJj4e",
       "driver": "Samuel Huber",
@@ -59761,5 +59774,5 @@
     "c5fefb3e-4318-4c54-9362-7c91e8e79e00",
     "2ab9dee2-cc6e-4029-8542-2106f5529dfa"
   ],
-  "_ts": "2026-08-26T21:23:54.980Z"
+  "_ts": "2026-08-26T21:25:45.263Z"
 }
