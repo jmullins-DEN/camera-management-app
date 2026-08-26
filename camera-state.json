@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787742729578387",
+      "board": "4rNDuSrCaap",
+      "driver": "Unassigned",
+      "driverId": "fe8cbc13-5059-44ee-b9f1-8016a337a940",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 432670602;backward camera obscured; vehicle #461\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/560c9495-f5c2-483a-b2bc-8397b5693942.mp4\n",
+      "ts": 1787742729578,
+      "synced": false
+    },
+    {
       "id": "L1787742653798503",
       "board": "4rNDuSrCaap",
       "driver": "John Orfield",
@@ -58941,5 +58954,5 @@
     "c1d16dd6-48ee-4f2e-bbdf-2e896e1e543e",
     "b41d85d4-e485-4dcc-9d4d-db38413df449"
   ],
-  "_ts": "2026-08-26T11:10:56.931Z"
+  "_ts": "2026-08-26T11:12:09.632Z"
 }
