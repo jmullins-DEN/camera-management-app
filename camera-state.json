@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787715091227277",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Drowsy Driving",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6388601760:  Truck # 157741 Diver Drowsy\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a9ef80a9-db7c-4608-97c0-b454ff8c1de7.mp4\n",
+      "ts": 1787715091227,
+      "synced": false
+    },
+    {
       "id": "L1787714874771859",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -58707,5 +58720,5 @@
     "18218abf-0905-4181-959a-15dc5ccd1131",
     "fb20e3e0-fe1a-4208-9bd9-738aca0a7311"
   ],
-  "_ts": "2026-08-26T03:27:58.555Z"
+  "_ts": "2026-08-26T03:31:31.283Z"
 }
