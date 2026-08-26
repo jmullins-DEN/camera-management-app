@@ -416,7 +416,8 @@
       "notes": "following too close",
       "ts": 1787745615809,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178774555433651",
@@ -565,7 +566,8 @@
       "notes": "60 in 45",
       "ts": 1787744389436,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787744355447765",
@@ -579,7 +581,8 @@
       "notes": "68 in 55",
       "ts": 1787744355447,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787744208438816",
@@ -638,7 +641,8 @@
       "notes": "\nAlert 1252312537282805760; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3a9879ee-ff34-4fb3-b5b5-9e6850385515.mp4",
       "ts": 1787744015476,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787743879290786",
@@ -817,7 +821,8 @@
       "notes": "\nAlert 1607196034; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4bba98da-da5a-4461-a794-b9ec4c6b83a0.mp4",
       "ts": 1787743328741,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787743287290571",
@@ -1056,7 +1061,8 @@
       "notes": "\nAlert 6388848519; texting; looking down more than 3 seconds\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/17e54767-e972-4b3e-a716-5931c6f67822.mp4",
       "ts": 1787742011930,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787741925900226",
@@ -1415,7 +1421,8 @@
       "notes": "Alert 281474995728369-1787606322682\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/00014b27-2dc9-405c-a3b3-820b3a3d5308.mp4",
       "ts": 1787696048511,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787695835663844",
@@ -1444,7 +1451,8 @@
       "notes": "Alert 281474995752151-1787666109762\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f9e8ebe1-0f85-47fe-a7df-f56db58434a2.mp4",
       "ts": 1787695584543,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787694948940995",
@@ -1518,7 +1526,8 @@
       "notes": "Forward Collision Warning",
       "ts": 1787694688464,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787694580145969",
@@ -1577,7 +1586,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1787694353927,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787693313000211",
@@ -1621,7 +1631,8 @@
       "notes": "Following Distance",
       "ts": 1787693189976,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787693087319482",
@@ -1665,7 +1676,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1787692866418,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787692535718741",
@@ -1679,7 +1691,8 @@
       "notes": "Vehicle 635 Heavy ;; Rolling Stop",
       "ts": 1787692535718,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787691744919669",
@@ -1708,7 +1721,8 @@
       "notes": "Increase Following Distance\n",
       "ts": 1787691683212,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1787672551488478",
@@ -59539,5 +59553,5 @@
     "bb1cf9b7-4e15-417f-8949-a83f9c062f90",
     "ea338814-0380-4abb-b1eb-e531726ffbc6"
   ],
-  "_ts": "2026-08-26T12:04:55.209Z"
+  "_ts": "2026-08-26T12:06:22.561Z"
 }
