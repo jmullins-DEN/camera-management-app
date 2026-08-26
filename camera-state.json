@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787741848801303",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Domingo",
+      "driverId": "fb71d638-1be8-4f27-a9f4-3e412507118f",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6388268848; 74 in 65\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2b019c1b-5fff-4822-9c33-1f55b963569c.mp4\n",
+      "ts": 1787741848801,
+      "synced": false
+    },
+    {
       "id": "L1787741783372760",
       "board": "8BUntjK1TqV",
       "driver": "Camacho, Roy",
@@ -58767,5 +58780,5 @@
     "10ca8405-df1d-42cf-a526-918dd903cf21",
     "2629c400-d93a-403f-9a37-624fb4cb8268"
   ],
-  "_ts": "2026-08-26T10:56:26.700Z"
+  "_ts": "2026-08-26T10:57:28.866Z"
 }
