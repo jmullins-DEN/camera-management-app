@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787715527321523",
+      "board": "KYqKJWuumPm",
+      "driver": "Kevin Wilson",
+      "driverId": "019dd5ff-7f5d-7731-909d-df67f2beadd9",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474980531321-1787689105561:  Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/46590df8-5965-4ce9-84ef-d95f348103c1.mp4",
+      "ts": 1787715527321,
+      "synced": false
+    },
+    {
       "id": "L1787715091227277",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -58723,5 +58736,5 @@
     "fb20e3e0-fe1a-4208-9bd9-738aca0a7311",
     "5e49efc4-d08f-486b-8539-05c6172d4b96"
   ],
-  "_ts": "2026-08-26T03:31:34.551Z"
+  "_ts": "2026-08-26T03:38:47.379Z"
 }
