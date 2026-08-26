@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6388417311:  Truck # 193269  Phone distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/687888fa-24bb-40bc-a844-66cbddc8c69a.mp4",
       "ts": 1787714874771,
-      "synced": false
+      "synced": true,
+      "infItemId": "fb20e3e0-fe1a-4208-9bd9-738aca0a7311",
+      "syncError": null
     },
     {
       "id": "L17877146993536",
@@ -58702,7 +58704,8 @@
     "331cdadb-5c39-4f67-9cc5-bf0215a3ee5c",
     "b1a85fe6-8e0b-48f6-b2f9-6e2dfd3a41db",
     "80b9da92-466d-4a0a-b73f-fd634b885d20",
-    "18218abf-0905-4181-959a-15dc5ccd1131"
+    "18218abf-0905-4181-959a-15dc5ccd1131",
+    "fb20e3e0-fe1a-4208-9bd9-738aca0a7311"
   ],
-  "_ts": "2026-08-26T03:27:54.830Z"
+  "_ts": "2026-08-26T03:27:58.555Z"
 }
