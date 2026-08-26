@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787744499184203",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "71 in 55",
+      "ts": 1787744499184,
+      "synced": false
+    },
+    {
       "id": "L1787744468188755",
       "board": "XVLVu2Du8hc",
       "driver": "Susan Cobleigh",
@@ -59365,5 +59378,5 @@
     "2b63da95-c0e7-49e2-9807-2df64d08952d",
     "1671a9f2-22f7-4fb4-a7fa-f3832127a9c9"
   ],
-  "_ts": "2026-08-26T11:41:13.082Z"
+  "_ts": "2026-08-26T11:41:39.245Z"
 }
