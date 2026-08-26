@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787745274134523",
+      "board": "YfVHuM3X87v",
+      "driver": "Ethan Owens",
+      "driverId": "1085658d-2bf7-4d84-9fbc-cb7b53debf9b",
+      "date": "2026-08-25",
+      "reviewed": "2026-08-26",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "76 in 60",
+      "ts": 1787745274134,
+      "synced": false
+    },
+    {
       "id": "L1787745128281441",
       "board": "YfVHuM3X87v",
       "driver": "Charles Jefride",
@@ -59445,5 +59458,5 @@
     "fa09cc88-68b6-4efa-98ea-0279742f2db4",
     "1633d799-dd6a-475c-b498-ed810205c34e"
   ],
-  "_ts": "2026-08-26T11:53:18.270Z"
+  "_ts": "2026-08-26T11:54:34.194Z"
 }
