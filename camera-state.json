@@ -368,7 +368,7 @@
       "reviewed": "2026-08-27",
       "behavior": "Safety-Critical Event",
       "coaching": "Critical Event",
-      "notes": "Alert 281474995752151-1787863848639",
+      "notes": "Alert 281474995752151-1787863848639\nSafety Alert ; Front Collision Warning\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8b2d37ad-aa8f-47e3-ab99-b3e9e906acd3.mp4",
       "ts": 1787868343514,
       "synced": true,
       "infItemId": "2f3063c9-3c20-46ff-bf60-1def22dd3f10",
@@ -60657,5 +60657,5 @@
     "09fda730-84aa-414c-9a35-45fd6540d2d5",
     "2f3063c9-3c20-46ff-bf60-1def22dd3f10"
   ],
-  "_ts": "2026-08-27T22:05:46.721Z"
+  "_ts": "2026-08-27T22:06:42.856Z"
 }
