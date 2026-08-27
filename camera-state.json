@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Distraction",
       "ts": 1787867660891,
-      "synced": false
+      "synced": true,
+      "infItemId": "8604db45-521a-4895-a27d-540d319b3625",
+      "syncError": null
     },
     {
       "id": "L178786756253763",
@@ -60590,7 +60592,8 @@
     "8900b326-7965-4a6d-9ffd-96f4641c791e",
     "dac31390-374c-43c4-b501-36e89738f78f",
     "554e3108-7ab8-4c7e-ba67-6260eb73e90b",
-    "f410edda-d887-45cd-a71b-c83b1b67eab7"
+    "f410edda-d887-45cd-a71b-c83b1b67eab7",
+    "8604db45-521a-4895-a27d-540d319b3625"
   ],
-  "_ts": "2026-08-27T21:54:20.938Z"
+  "_ts": "2026-08-27T21:54:23.903Z"
 }
