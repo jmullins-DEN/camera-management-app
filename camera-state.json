@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787828482811742",
+      "board": "YJNwKvzFhkj",
+      "driver": "DeErick Powe",
+      "driverId": "019dd5f1-4f6e-73b7-b34e-c69709a4b66b",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1787828482811,
+      "synced": false
+    },
+    {
       "id": "L1787828374375656",
       "board": "YJNwKvzFhkj",
       "driver": "Daniel Martinez",
@@ -60151,5 +60164,5 @@
     "ae37b554-06b4-4589-a7af-84cb687faa1e",
     "63429e32-b935-4450-92b2-280cb234f51f"
   ],
-  "_ts": "2026-08-27T10:59:37.427Z"
+  "_ts": "2026-08-27T11:01:22.871Z"
 }
