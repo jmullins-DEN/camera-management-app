@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787829118015658",
+      "board": "4rNDuSrCaap",
+      "driver": "Josh Sprague",
+      "driverId": "3cd3908e-f033-4718-bbeb-c747066df92a",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 433009275; following too close; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bb359cf9-60ee-4eff-8907-994d8e4a7278.mp4",
+      "ts": 1787829118016,
+      "synced": false
+    },
+    {
       "id": "L1787829031584672",
       "board": "5gVKeGRDf8U",
       "driver": "Michael Roberts",
@@ -60327,5 +60340,5 @@
     "48f258f1-c3a4-4b40-b395-f05c470e236b",
     "f699baa5-dc5e-422d-8d6e-0ed90ca3308f"
   ],
-  "_ts": "2026-08-27T11:10:34.367Z"
+  "_ts": "2026-08-27T11:11:58.078Z"
 }
