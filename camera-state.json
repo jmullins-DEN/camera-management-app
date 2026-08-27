@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787829388794153",
+      "board": "4rNDuSrCaap",
+      "driver": "Gavin Fleming",
+      "driverId": "019eb6e0-0462-72df-8e63-8cac800a0cdd",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 433386424; following too close; backward camera blocked\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/60a136bf-8082-483b-84f2-b43eace83be0.mp4\n",
+      "ts": 1787829388794,
+      "synced": false
+    },
+    {
       "id": "L1787829335578930",
       "board": "4rNDuSrCaap",
       "driver": "Rodney Wilborn",
@@ -60421,5 +60434,5 @@
     "81fc88da-b0a1-40f4-a3a8-404a42829787",
     "387bc953-c038-4a66-8e87-8617e815bbda"
   ],
-  "_ts": "2026-08-27T11:15:39.585Z"
+  "_ts": "2026-08-27T11:16:28.847Z"
 }
