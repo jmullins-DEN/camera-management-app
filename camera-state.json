@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787867660891909",
+      "board": "8gejhhHJj4e",
+      "driver": "DENNIS GREER #144",
+      "driverId": "61246fc9-4ab1-43ce-a392-6db5ad95b7af",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Distraction",
+      "ts": 1787867660891,
+      "synced": false
+    },
+    {
       "id": "L178786756253763",
       "board": "8gejhhHJj4e",
       "driver": "Aaron Goodson",
@@ -60579,5 +60592,5 @@
     "554e3108-7ab8-4c7e-ba67-6260eb73e90b",
     "f410edda-d887-45cd-a71b-c83b1b67eab7"
   ],
-  "_ts": "2026-08-27T21:52:45.522Z"
+  "_ts": "2026-08-27T21:54:20.938Z"
 }
