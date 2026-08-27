@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787869142516361",
+      "board": "AKJSkJj6Ch4",
+      "driver": "unassigned",
+      "driverId": "b276d55c-5996-4aa7-bb6e-ddad178def51",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-27",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle HD01\nAlert 6405302404\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/97f6aea9-93b9-4282-86a9-93d95ecb7be6.mp4",
+      "ts": 1787869142517,
+      "synced": false
+    },
+    {
       "id": "L1787868855352179",
       "board": "AKJSkJj6Ch4",
       "driver": "JD Chappell",
@@ -60689,5 +60702,5 @@
     "6647640d-416c-4ec8-93e1-744621c3c78b",
     "3b10abbf-7128-49a5-bf29-0146ce86a5a2"
   ],
-  "_ts": "2026-08-27T22:14:18.147Z"
+  "_ts": "2026-08-27T22:19:02.619Z"
 }
