@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "no stop; no slowdown; truck #96",
       "ts": 1787828616640,
-      "synced": false
+      "synced": true,
+      "infItemId": "85dd6f2d-d730-4539-bcb5-df4c402a88f5",
+      "syncError": null
     },
     {
       "id": "L1787828559851774",
@@ -60194,7 +60196,8 @@
     "ae37b554-06b4-4589-a7af-84cb687faa1e",
     "63429e32-b935-4450-92b2-280cb234f51f",
     "b3d30324-a895-419b-91e5-04b8a7179a1a",
-    "e1548268-7cf0-4984-8bd3-545eae2b0233"
+    "e1548268-7cf0-4984-8bd3-545eae2b0233",
+    "85dd6f2d-d730-4539-bcb5-df4c402a88f5"
   ],
-  "_ts": "2026-08-27T11:03:36.703Z"
+  "_ts": "2026-08-27T11:03:40.371Z"
 }
