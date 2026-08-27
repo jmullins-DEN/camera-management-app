@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787790571390758",
+      "board": "ic6o6QgzpVM",
+      "driver": "Unassigned",
+      "driverId": "019c2410-b189-777a-b962-259511346334",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-26",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle HD01\nAlert 6398709003\nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0137d134-63ba-480a-80d9-814f196364a0.mp4",
+      "ts": 1787790571390,
+      "synced": false
+    },
+    {
       "id": "L1787790319224671",
       "board": "ic6o6QgzpVM",
       "driver": "Prisciliano, Aldair",
@@ -59947,5 +59960,5 @@
     "3fe1b83c-72c4-4185-a7e2-0631a9126232",
     "33e70639-dcd7-41bb-aee4-4cba386a8b5c"
   ],
-  "_ts": "2026-08-27T00:25:23.162Z"
+  "_ts": "2026-08-27T00:29:31.437Z"
 }
