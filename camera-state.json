@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake",
       "ts": 1787867248749,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787867134809714",
@@ -60532,5 +60533,5 @@
     "8900b326-7965-4a6d-9ffd-96f4641c791e",
     "dac31390-374c-43c4-b501-36e89738f78f"
   ],
-  "_ts": "2026-08-27T21:47:28.812Z"
+  "_ts": "2026-08-27T21:47:32.374Z"
 }
