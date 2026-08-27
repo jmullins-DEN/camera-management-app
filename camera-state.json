@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178782957079260",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1608101633; following too close; truck #AN 140\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/32d8bde0-b7b1-4cba-9454-6d91474304b4.mp4\n",
+      "ts": 1787829570792,
+      "synced": false
+    },
+    {
       "id": "L1787829501385745",
       "board": "aRcazTLT9iM",
       "driver": "Stephen Dillon",
@@ -60469,5 +60482,5 @@
     "a5fb42d7-a28f-4346-8d12-17f7e5dc4d1b",
     "1da99b41-e5c0-4978-82c1-8dcd62825508"
   ],
-  "_ts": "2026-08-27T11:18:25.970Z"
+  "_ts": "2026-08-27T11:19:30.850Z"
 }
