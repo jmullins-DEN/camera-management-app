@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787868343514834",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Riley",
+      "driverId": "ac24ef3b-c620-445a-a2d7-cec0d8211e69",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-27",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Alert 281474995752151-1787863848639",
+      "ts": 1787868343514,
+      "synced": false
+    },
+    {
       "id": "L1787867995519192",
       "board": "8gejhhHJj4e",
       "driver": "Matt Graves",
@@ -60641,5 +60654,5 @@
     "88737a2b-5847-4a7f-bf27-bfc084f4e3e8",
     "09fda730-84aa-414c-9a35-45fd6540d2d5"
   ],
-  "_ts": "2026-08-27T21:59:58.642Z"
+  "_ts": "2026-08-27T22:05:43.627Z"
 }
