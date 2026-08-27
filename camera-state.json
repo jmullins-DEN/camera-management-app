@@ -370,7 +370,8 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\n",
       "ts": 1787865134907,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1787842021725537",
@@ -60330,5 +60331,5 @@
     "22c20afe-232f-4ff3-98dd-f26f7f4301d9",
     "1355b4fb-94b4-4d9f-be32-cea3a05c0f64"
   ],
-  "_ts": "2026-08-27T21:12:15.002Z"
+  "_ts": "2026-08-27T21:12:18.469Z"
 }
