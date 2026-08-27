@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787828872779629",
+      "board": "8BUntjK1TqV",
+      "driver": "LaFuente, Richard",
+      "driverId": "886bf1f9-0646-4107-b50f-7c75c232adff",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6394373699; 61in 50\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b823c387-3759-4c08-babb-3cc107a844c3.mp4",
+      "ts": 1787828872779,
+      "synced": false
+    },
+    {
       "id": "L1787828787037681",
       "board": "ebSND1QoyBs",
       "driver": "Oscar Hong",
@@ -60263,5 +60276,5 @@
     "5ce156ce-768a-45e3-b74a-d79826075cee",
     "434c2a0d-e88c-4312-8138-028279db2f3b"
   ],
-  "_ts": "2026-08-27T11:06:30.541Z"
+  "_ts": "2026-08-27T11:07:52.841Z"
 }
