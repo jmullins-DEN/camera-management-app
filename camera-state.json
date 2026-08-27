@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787868855352179",
+      "board": "AKJSkJj6Ch4",
+      "driver": "JD Chappell",
+      "driverId": "bcf7d324-7297-4505-b505-5d1b9bba07b4",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-27",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995713058-1787843191980\nStop Sign Violation; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/77079475-d65e-4be9-9b90-b817a356a588.mp4",
+      "ts": 1787868855352,
+      "synced": false
+    },
+    {
       "id": "L1787868617168454",
       "board": "AKJSkJj6Ch4",
       "driver": "Cory Volland",
@@ -60673,5 +60686,5 @@
     "2f3063c9-3c20-46ff-bf60-1def22dd3f10",
     "6647640d-416c-4ec8-93e1-744621c3c78b"
   ],
-  "_ts": "2026-08-27T22:10:20.134Z"
+  "_ts": "2026-08-27T22:14:15.457Z"
 }
