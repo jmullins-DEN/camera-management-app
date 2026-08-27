@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787841963979190",
+      "board": "UKkbYDchPMh",
+      "driver": "Derease Bradley",
+      "driverId": "7397cbd4-c804-4b9c-9434-60460ce2e2a8",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "https://app.estrack.com/#/camera/events/6a8f840f0a2e68f46eb49e8d",
+      "ts": 1787841963979,
+      "synced": false
+    },
+    {
       "id": "L1787841670181535",
       "board": "UKkbYDchPMh",
       "driver": "Billy Coughlin",
@@ -58041,5 +58054,5 @@
     "33a4fb91-845f-4666-a450-4c1bfbd29738",
     "d7e4dc8c-4743-4bf6-a61a-b0ee0b754467"
   ],
-  "_ts": "2026-08-27T14:41:14.996Z"
+  "_ts": "2026-08-27T14:46:04.029Z"
 }
