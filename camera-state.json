@@ -370,7 +370,9 @@
       "coaching": "Critical Event",
       "notes": "For your review https://app.estrack.com/#/camera/events/6a8f68040a2e68f46eb47976",
       "ts": 1787841464132,
-      "synced": false
+      "synced": true,
+      "infItemId": "02902f29-397f-47f1-8e39-829685619c4d",
+      "syncError": null
     },
     {
       "id": "L1787841324560748",
@@ -57976,7 +57978,8 @@
     "94e513ba-d76f-4eda-ba5a-15066b454ce3",
     "e394c08b-2c4e-4947-b140-168950f87936",
     "2c69cdf5-aa55-4b8c-93cc-b1654c617e62",
-    "4770ba9a-3279-4192-bf5a-f481ac393053"
+    "4770ba9a-3279-4192-bf5a-f481ac393053",
+    "02902f29-397f-47f1-8e39-829685619c4d"
   ],
-  "_ts": "2026-08-27T14:37:44.184Z"
+  "_ts": "2026-08-27T14:37:46.756Z"
 }
