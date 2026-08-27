@@ -360,6 +360,33 @@
   },
   "local": [
     {
+      "id": "L1787829662924394",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1608145851; following too close; truck #138\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c43fc3e3-720f-4bf5-8cb4-9a154a5b32b3.mp4",
+      "ts": 1787829662924,
+      "synced": false
+    },
+    {
+      "id": "L1787829605867777",
+      "board": "aRcazTLT9iM",
+      "driver": "Ray Baird",
+      "driverId": "fb282806-6dcd-4396-a58a-90ef1fbbb12d",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1608125260; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ca2531f5-4d81-4021-8535-c17f50fbe8e5.mp4",
+      "ts": 1787829605867,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L178782957079260",
       "board": "aRcazTLT9iM",
       "driver": "unassigned",
@@ -60483,5 +60510,5 @@
     "a5fb42d7-a28f-4346-8d12-17f7e5dc4d1b",
     "1da99b41-e5c0-4978-82c1-8dcd62825508"
   ],
-  "_ts": "2026-08-27T11:19:33.769Z"
+  "_ts": "2026-08-27T11:21:02.988Z"
 }
