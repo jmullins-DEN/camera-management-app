@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1787869506481433",
+      "board": "ic6o6QgzpVM",
+      "driver": "Reyna, Oscar",
+      "driverId": "019b3716-02f6-777d-9a41-ee887d873d4a",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-27",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 6407265746\nPhone Distraction; Face to face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1d49afba-bc0e-42b6-8a35-f6e7f528a13b.mp4",
+      "ts": 1787869506481,
+      "synced": false
+    },
+    {
+      "id": "L1787869369775296",
+      "board": "ic6o6QgzpVM",
+      "driver": "Adalberto Guerra",
+      "driverId": "8fcd591f-0516-40b0-8600-5b871b2f7c47",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-27",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6403448565\nSpeeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1a74e05c-cb00-47d1-8352-51e7f64905e9.mp4",
+      "ts": 1787869369775,
+      "synced": true,
+      "infItemId": "03acca7c-4cc7-45aa-9d58-d88b49adec96",
+      "syncError": null
+    },
+    {
       "id": "L1787869142516361",
       "board": "AKJSkJj6Ch4",
       "driver": "unassigned",
@@ -60703,7 +60731,8 @@
     "2f3063c9-3c20-46ff-bf60-1def22dd3f10",
     "6647640d-416c-4ec8-93e1-744621c3c78b",
     "3b10abbf-7128-49a5-bf29-0146ce86a5a2",
-    "c2792530-971e-485b-8b8d-dae1c5681924"
+    "c2792530-971e-485b-8b8d-dae1c5681924",
+    "03acca7c-4cc7-45aa-9d58-d88b49adec96"
   ],
-  "_ts": "2026-08-27T22:19:05.643Z"
+  "_ts": "2026-08-27T22:25:06.538Z"
 }
