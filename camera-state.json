@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787828276911779",
+      "board": "YJNwKvzFhkj",
+      "driver": "Christopher Cooper",
+      "driverId": "aa1ee7ec-66aa-473e-a42c-5848084ab2ab",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera misaligned",
+      "ts": 1787828276911,
+      "synced": false
+    },
+    {
       "id": "L1787828170371889",
       "board": "xMfRLnqAN7y",
       "driver": "Paul Hyde",
@@ -60105,5 +60118,5 @@
     "96b92037-3115-4a3d-8c11-bcc03463682a",
     "6b37aa1c-214d-4d78-85a3-a7b18afb9f58"
   ],
-  "_ts": "2026-08-27T10:56:13.303Z"
+  "_ts": "2026-08-27T10:57:56.970Z"
 }
