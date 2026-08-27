@@ -565,9 +565,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a8c57c5b60c756d721785b1",
       "ts": 1787615870724,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "17c8c0cd-a4a4-4612-a464-506ec9e42625"
     },
     {
       "id": "L1787615412925695",
@@ -625,9 +625,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a8c55cbb60c756d72178281",
       "ts": 1787615143913,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "fc368a0f-0d5b-4e8f-a0ae-05b36d4ccaf3"
     },
     {
       "id": "L1787614881777489",
@@ -715,9 +715,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474980531320-1787607517015:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2ef061e9-a069-4767-9e99-52433db469f3.mp4",
       "ts": 1787613780316,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "992b34c6-9371-44c9-8515-f745e20a67d0"
     },
     {
       "id": "L1787613689745320",
@@ -775,9 +775,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6384550011:  Traffic Light\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c763a1ed-5729-49a1-9a40-da1197bb7139.mp4",
       "ts": 1787613084530,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "5eef95fd-83b8-406c-81a2-aabf2e31bc1b"
     },
     {
       "id": "L178761278578382",
@@ -2920,9 +2920,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a89a536b60c756d72165cc8",
       "ts": 1787529712611,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "9daeb687-a6fa-457d-b1b7-7e39cc76341a"
     },
     {
       "id": "L1787529533662408",
@@ -57774,7 +57774,12 @@
     "1267d275-e9a3-42b8-847a-2a5f08853df2",
     "dd6a4de8-6a4f-47fb-bef7-81de1a37be73",
     "26ae1bae-e1f4-40d6-9a75-bc94d8ce0d1f",
-    "a86f0553-d59c-4ac6-8bd0-bebf9b95a6c3"
+    "a86f0553-d59c-4ac6-8bd0-bebf9b95a6c3",
+    "17c8c0cd-a4a4-4612-a464-506ec9e42625",
+    "fc368a0f-0d5b-4e8f-a0ae-05b36d4ccaf3",
+    "992b34c6-9371-44c9-8515-f745e20a67d0",
+    "5eef95fd-83b8-406c-81a2-aabf2e31bc1b",
+    "9daeb687-a6fa-457d-b1b7-7e39cc76341a"
   ],
-  "_ts": "2026-08-27T14:10:54.595Z"
+  "_ts": "2026-08-27T14:10:59.221Z"
 }
