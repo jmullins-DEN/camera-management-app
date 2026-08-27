@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787827705987315",
+      "board": "XVLVu2Du8hc",
+      "driver": "Wesley Tallon",
+      "driverId": "019e02aa-2e61-7754-8e73-924a35b04e11",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "73 in 60",
+      "ts": 1787827705987,
+      "synced": false
+    },
+    {
       "id": "L1787827679452387",
       "board": "XVLVu2Du8hc",
       "driver": "Chad Smith",
@@ -60041,5 +60054,5 @@
     "c5249776-e0d9-46c0-b40a-736153bd23dd",
     "6e6513c0-2695-48d9-ac16-2fa09e81d875"
   ],
-  "_ts": "2026-08-27T10:48:02.335Z"
+  "_ts": "2026-08-27T10:48:26.042Z"
 }
