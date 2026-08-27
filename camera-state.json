@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787830200592102",
+      "board": "ioWX9hneUsk",
+      "driver": "Mark Stephens",
+      "driverId": "60263e8f-f26b-4c9e-9ee4-27d217a22a90",
+      "date": "2026-08-26",
+      "reviewed": "2026-08-27",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1252718277000593408; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1116b4f6-b0b7-4084-9e85-d17cb0da2e88.mp4",
+      "ts": 1787830200592,
+      "synced": false
+    },
+    {
       "id": "L1787830158696746",
       "board": "ioWX9hneUsk",
       "driver": "Mike Moreno",
@@ -60655,5 +60668,5 @@
     "abac22c2-f111-4e41-aee2-49b561844494",
     "1bd4200f-f1af-45d9-8b93-803e4d086d89"
   ],
-  "_ts": "2026-08-27T11:29:21.559Z"
+  "_ts": "2026-08-27T11:30:00.649Z"
 }
