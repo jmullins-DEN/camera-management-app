@@ -5984,21 +5984,6 @@
       "syncError": null
     },
     {
-      "id": "L1787586503911888",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "unassigned",
-      "driverId": "b040eb16-2e82-4256-8120-6afe38471941",
-      "date": "2026-08-23",
-      "reviewed": "2026-08-24",
-      "behavior": "Driver Distraction-Phone",
-      "coaching": "Unidentified Driver",
-      "notes": "Vehicle SV2",
-      "ts": 1787586503911,
-      "synced": true,
-      "syncError": null,
-      "infItemId": "70d2f2f3-bf54-45f3-80cd-679916e6df8f"
-    },
-    {
       "id": "L1787585718924917",
       "board": "ebSND1QoyBs",
       "driver": "Shamonte Jacobs",
@@ -62212,7 +62197,6 @@
     "06e522dc-ee78-4979-b2f6-f9963cc8212f",
     "af513b56-b85d-4694-979c-4eb65c94b7ab",
     "8b709d2c-3efe-4270-83ac-8ec1098b5b5a",
-    "70d2f2f3-bf54-45f3-80cd-679916e6df8f",
     "70db708c-5b29-45d6-a13e-2a4e7e3e61e3",
     "01e2e460-5189-49a1-8900-e89a917cb8d0",
     "7ab32bba-b8b8-48c2-b5b1-37b19a606193",
@@ -62558,5 +62542,5 @@
     "8144b26d-1d3a-429a-84bd-9491580aad9e",
     "6aad93da-619b-4915-b2c2-af55a7febfe3"
   ],
-  "_ts": "2026-08-28T20:58:30.147Z"
+  "_ts": "2026-08-28T20:58:37.308Z"
 }
