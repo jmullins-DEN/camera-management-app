@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "ATR 018 Dodge Escort\nDriver takes corner too fast lost lane and there was oncoming traffic \nhttps://app.estrack.com/#/camera/events/6a90a6a40a2e68f46eb5d539",
       "ts": 1787924429432,
-      "synced": false
+      "synced": true,
+      "infItemId": "aa422784-4898-433b-b25b-3b2055e203f7",
+      "syncError": null
     },
     {
       "id": "L1787924291239106",
@@ -61871,7 +61873,8 @@
     "49d39242-3e77-4030-bd49-52ff2a65ee58",
     "2c477f8a-7858-48d0-a4c9-5e5c5003d2ab",
     "312608d9-2d82-4235-91b1-40431612f41f",
-    "edec784c-7fa5-478e-a27d-68f1ae39dde1"
+    "edec784c-7fa5-478e-a27d-68f1ae39dde1",
+    "aa422784-4898-433b-b25b-3b2055e203f7"
   ],
-  "_ts": "2026-08-28T13:40:29.491Z"
+  "_ts": "2026-08-28T13:40:32.855Z"
 }
