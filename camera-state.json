@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 6407605733; multi-tasking with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/57327947-9c69-48cd-ad4e-e14cffb6de27.mp4\n",
       "ts": 1787916567240,
-      "synced": false
+      "synced": true,
+      "infItemId": "1a90675b-f7ce-4ac5-a745-04ff271741ef",
+      "syncError": null
     },
     {
       "id": "L1787916485847932",
@@ -61666,7 +61668,8 @@
     "6ae46238-ed85-4b47-9154-5728d333c82f",
     "72da8a60-7da9-4338-80de-b27dbb0c00c6",
     "d342878a-ec5a-4ed4-bd8e-722b9cd6b493",
-    "d322fa85-232d-42cc-bf94-672f045cd6e1"
+    "d322fa85-232d-42cc-bf94-672f045cd6e1",
+    "1a90675b-f7ce-4ac5-a745-04ff271741ef"
   ],
-  "_ts": "2026-08-28T11:29:27.293Z"
+  "_ts": "2026-08-28T11:29:30.302Z"
 }
