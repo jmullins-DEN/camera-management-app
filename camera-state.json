@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 433697864; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/295bc529-fe1c-4b79-8023-f8d545bc612d.mp4",
       "ts": 1787916768660,
-      "synced": false
+      "synced": true,
+      "infItemId": "e1f08ac9-47e8-4735-98df-25bb05a21d0a",
+      "syncError": null
     },
     {
       "id": "L1787916567240661",
@@ -61682,7 +61684,8 @@
     "72da8a60-7da9-4338-80de-b27dbb0c00c6",
     "d342878a-ec5a-4ed4-bd8e-722b9cd6b493",
     "d322fa85-232d-42cc-bf94-672f045cd6e1",
-    "1a90675b-f7ce-4ac5-a745-04ff271741ef"
+    "1a90675b-f7ce-4ac5-a745-04ff271741ef",
+    "e1f08ac9-47e8-4735-98df-25bb05a21d0a"
   ],
-  "_ts": "2026-08-28T11:32:48.710Z"
+  "_ts": "2026-08-28T11:32:53.166Z"
 }
