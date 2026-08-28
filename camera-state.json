@@ -580,8 +580,9 @@
       "coaching": "Critical Event",
       "notes": "no seatbelt; driver drowsy\nhttps://app.estrack.com/#/camera/events/6a9047ca0a2e68f46eb532a6",
       "ts": 1787926114543,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a89fb269-8f5b-4b09-932c-813f9de12c8e"
     },
     {
       "id": "L1787926100311911",
@@ -594,9 +595,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a90508c0a2e68f46eb54194",
       "ts": 1787926100311,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e59f3e5f-a408-45e7-9e15-0330d4cdcc6d"
     },
     {
       "id": "L1787925932782417",
@@ -62442,7 +62443,9 @@
     "df2c6f00-a49c-4299-ae7f-284657c2d1b9",
     "4cafd8b9-405f-4c28-a2c8-fbd0134af3e5",
     "cb66764b-b184-47d8-97c7-ced32baa1002",
-    "1814b8ad-5b5e-4203-bc29-edd32fe76f1c"
+    "1814b8ad-5b5e-4203-bc29-edd32fe76f1c",
+    "a89fb269-8f5b-4b09-932c-813f9de12c8e",
+    "e59f3e5f-a408-45e7-9e15-0330d4cdcc6d"
   ],
-  "_ts": "2026-08-28T15:39:28.883Z"
+  "_ts": "2026-08-28T15:39:31.426Z"
 }
