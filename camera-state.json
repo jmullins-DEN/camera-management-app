@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Turn",
       "ts": 1787942139545,
-      "synced": false
+      "synced": true,
+      "infItemId": "8144b26d-1d3a-429a-84bd-9491580aad9e",
+      "syncError": null
     },
     {
       "id": "L1787940643758598",
@@ -62537,7 +62539,8 @@
     "bb3e8c48-d1a9-4e55-a0db-013cb84ee127",
     "5f178d24-caaa-47ee-9d21-fe613957d5d0",
     "8a9b6847-9586-4725-85dc-84b5877c8b7d",
-    "2893cf80-f969-4f5d-a327-0e775d512901"
+    "2893cf80-f969-4f5d-a327-0e775d512901",
+    "8144b26d-1d3a-429a-84bd-9491580aad9e"
   ],
-  "_ts": "2026-08-28T18:35:39.647Z"
+  "_ts": "2026-08-28T18:35:42.885Z"
 }
