@@ -385,8 +385,8 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1609663492; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/eb8133df-923e-4832-8eb2-3149d100d31b.mp4\n",
       "ts": 1787923562837,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "7493d729-ab0c-4cb0-8269-a362d53e738d"
     },
     {
@@ -580,9 +580,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 6404486311; phone engagement\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5e387d9d-92f0-4bd3-88f2-4f2c3766f90e.mp4",
       "ts": 1787916235176,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "49d39242-3e77-4030-bd49-52ff2a65ee58"
     },
     {
       "id": "L1787916045267244",
@@ -625,9 +625,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6403166032; eating with two hands\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fe9e49bb-799d-4281-b637-cce533f2ba3a.mp4",
       "ts": 1787915854325,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "2c477f8a-7858-48d0-a4c9-5e5c5003d2ab"
     },
     {
       "id": "L1787882100510600",
@@ -61853,7 +61853,10 @@
     "f0b708a5-bed7-4833-a59e-d0538b098aa2",
     "d163eab5-1916-4f2c-bb32-758244525a6e",
     "d2966fe8-27b5-4b3b-8420-aad5022a4bbd",
-    "497bcf55-70ac-458c-b34f-f702688a8822"
+    "497bcf55-70ac-458c-b34f-f702688a8822",
+    "7493d729-ab0c-4cb0-8269-a362d53e738d",
+    "49d39242-3e77-4030-bd49-52ff2a65ee58",
+    "2c477f8a-7858-48d0-a4c9-5e5c5003d2ab"
   ],
-  "_ts": "2026-08-28T13:39:09.821Z"
+  "_ts": "2026-08-28T13:39:14.039Z"
 }
