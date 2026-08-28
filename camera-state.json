@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787950868630393",
+      "board": "8gejhhHJj4e",
+      "driver": "Justin Russell",
+      "driverId": "b377ed9e-8847-47db-9004-56aeca9182ab",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\n",
+      "ts": 1787950868630,
+      "synced": false
+    },
+    {
       "id": "L1787950831669123",
       "board": "8gejhhHJj4e",
       "driver": "Josh Amick",
@@ -62588,5 +62601,5 @@
     "d41a7e74-4381-4b28-8d5c-b0b543392d24",
     "9f0d73a2-c020-4417-bb07-6821d24b31f1"
   ],
-  "_ts": "2026-08-28T21:00:35.060Z"
+  "_ts": "2026-08-28T21:01:08.739Z"
 }
