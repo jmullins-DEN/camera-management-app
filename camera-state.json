@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787924485938450",
+      "board": "XVLVu2Du8hc",
+      "driver": "Wesley Tallon",
+      "driverId": "019e02aa-2e61-7754-8e73-924a35b04e11",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "73 in 60",
+      "ts": 1787924485938,
+      "synced": false
+    },
+    {
       "id": "L1787924438758103",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -61892,5 +61905,5 @@
     "edec784c-7fa5-478e-a27d-68f1ae39dde1",
     "aa422784-4898-433b-b25b-3b2055e203f7"
   ],
-  "_ts": "2026-08-28T13:40:45.787Z"
+  "_ts": "2026-08-28T13:41:26.000Z"
 }
