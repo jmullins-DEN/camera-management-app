@@ -370,7 +370,9 @@
       "coaching": "Critical Event",
       "notes": "hard brake; overhead line obstruction",
       "ts": 1787925715760,
-      "synced": false
+      "synced": true,
+      "infItemId": "e9413296-9696-4ee9-9b3d-0ce5039b2004",
+      "syncError": null
     },
     {
       "id": "L1787925574458611",
@@ -62136,7 +62138,8 @@
     "4033dad3-eaef-4df4-a437-1549dc2283ba",
     "dbe0e9c0-bac0-454b-a25b-80bbb10f05af",
     "9e778c68-b901-4066-8a2b-578d5032069c",
-    "4168a318-4900-4771-b354-0978872fac65"
+    "4168a318-4900-4771-b354-0978872fac65",
+    "e9413296-9696-4ee9-9b3d-0ce5039b2004"
   ],
-  "_ts": "2026-08-28T14:01:55.826Z"
+  "_ts": "2026-08-28T14:01:59.150Z"
 }
