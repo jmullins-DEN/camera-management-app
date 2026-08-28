@@ -700,9 +700,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a9078620a2e68f46eb5865d",
       "ts": 1787925491017,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "fdfe7eb6-7742-4c9c-8fb9-2e834907b6ed"
     },
     {
       "id": "L1787925149719914",
@@ -715,9 +715,9 @@
       "coaching": "Unidentified Driver",
       "notes": "cameras blocked; vehicle #523891",
       "ts": 1787925149719,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bb3e8c48-d1a9-4e55-a0db-013cb84ee127"
     },
     {
       "id": "L1787925139345156",
@@ -62445,7 +62445,9 @@
     "cb66764b-b184-47d8-97c7-ced32baa1002",
     "1814b8ad-5b5e-4203-bc29-edd32fe76f1c",
     "a89fb269-8f5b-4b09-932c-813f9de12c8e",
-    "e59f3e5f-a408-45e7-9e15-0330d4cdcc6d"
+    "e59f3e5f-a408-45e7-9e15-0330d4cdcc6d",
+    "fdfe7eb6-7742-4c9c-8fb9-2e834907b6ed",
+    "bb3e8c48-d1a9-4e55-a0db-013cb84ee127"
   ],
-  "_ts": "2026-08-28T15:39:31.426Z"
+  "_ts": "2026-08-28T15:39:33.910Z"
 }
