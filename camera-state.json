@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787915923004810",
+      "board": "8BUntjK1TqV",
+      "driver": "Merrick, Justin",
+      "driverId": "019b7534-7299-7aab-a844-1c2a4a4e78e7",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6403488832; 44 in 35\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/56b43904-e3ab-42c9-b2ca-45c449b43a0e.mp4",
+      "ts": 1787915923004,
+      "synced": false
+    },
+    {
       "id": "L1787915854325273",
       "board": "8BUntjK1TqV",
       "driver": "De La Cruz Solis, Jaime",
@@ -61577,5 +61590,5 @@
     "61410cae-3c96-40e4-8ce4-49ced49d8c54",
     "f7e81c64-6976-4a07-b4aa-c45493b4c588"
   ],
-  "_ts": "2026-08-28T11:17:41.279Z"
+  "_ts": "2026-08-28T11:18:43.065Z"
 }
