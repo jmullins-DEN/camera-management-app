@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 1252933554460065792:  Truck # RS102  Hard Brake\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7862ce0e-c765-4254-b9cb-9e1e298fa149.mp4\n",
       "ts": 1787882100510,
-      "synced": false
+      "synced": true,
+      "infItemId": "f7e81c64-6976-4a07-b4aa-c45493b4c588",
+      "syncError": null
     },
     {
       "id": "L1787881858689319",
@@ -61552,7 +61554,8 @@
     "03acca7c-4cc7-45aa-9d58-d88b49adec96",
     "c66ee5ef-eb28-468b-b56d-1cb2594f36d7",
     "9dcc1859-9104-4146-8a36-01694b367188",
-    "61410cae-3c96-40e4-8ce4-49ced49d8c54"
+    "61410cae-3c96-40e4-8ce4-49ced49d8c54",
+    "f7e81c64-6976-4a07-b4aa-c45493b4c588"
   ],
-  "_ts": "2026-08-28T01:55:00.588Z"
+  "_ts": "2026-08-28T01:55:04.612Z"
 }
