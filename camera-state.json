@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787916405715481",
+      "board": "8BUntjK1TqV",
+      "driver": "Medrano, Omar",
+      "driverId": "5cc237b1-eabe-46bd-bbb8-1cf0ed9c4619",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6407352260; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dd7d5d8e-51b6-4721-bbc6-5f3feed9300b.mp4",
+      "ts": 1787916405715,
+      "synced": false
+    },
+    {
       "id": "L1787916235176320",
       "board": "8BUntjK1TqV",
       "driver": "Alejandre, Nestor",
@@ -61623,5 +61636,5 @@
     "6ae46238-ed85-4b47-9154-5728d333c82f",
     "72da8a60-7da9-4338-80de-b27dbb0c00c6"
   ],
-  "_ts": "2026-08-28T11:23:57.733Z"
+  "_ts": "2026-08-28T11:26:45.770Z"
 }
