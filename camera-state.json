@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787916235176320",
+      "board": "8BUntjK1TqV",
+      "driver": "Alejandre, Nestor",
+      "driverId": "cf57fad8-b9cf-437d-9ea1-98cb2cabbcdd",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 6404486311; phone engagement\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5e387d9d-92f0-4bd3-88f2-4f2c3766f90e.mp4",
+      "ts": 1787916235176,
+      "synced": false
+    },
+    {
       "id": "L1787916045267244",
       "board": "8BUntjK1TqV",
       "driver": "Rodriguez, Omar",
@@ -61609,5 +61622,5 @@
     "6ae46238-ed85-4b47-9154-5728d333c82f",
     "72da8a60-7da9-4338-80de-b27dbb0c00c6"
   ],
-  "_ts": "2026-08-28T11:20:48.551Z"
+  "_ts": "2026-08-28T11:23:55.232Z"
 }
