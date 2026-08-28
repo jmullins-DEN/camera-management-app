@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787924429432270",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Unidentified Driver",
+      "notes": "ATR 018 Dodge Escort\nDriver takes corner too fast lost lane and there was oncoming traffic \nhttps://app.estrack.com/#/camera/events/6a90a6a40a2e68f46eb5d539",
+      "ts": 1787924429432,
+      "synced": false
+    },
+    {
       "id": "L1787924291239106",
       "board": "XVLVu2Du8hc",
       "driver": "Chad Smith",
@@ -61860,5 +61873,5 @@
     "312608d9-2d82-4235-91b1-40431612f41f",
     "edec784c-7fa5-478e-a27d-68f1ae39dde1"
   ],
-  "_ts": "2026-08-28T13:39:20.859Z"
+  "_ts": "2026-08-28T13:40:29.491Z"
 }
