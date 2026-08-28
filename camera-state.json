@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L17879510010097",
+      "board": "8gejhhHJj4e",
+      "driver": "Dylan Rouco",
+      "driverId": "019afe85-3d4a-7bb7-a390-405521644f21",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1787951001009,
+      "synced": false
+    },
+    {
       "id": "L1787950868630393",
       "board": "8gejhhHJj4e",
       "driver": "Justin Russell",
@@ -62604,5 +62617,5 @@
     "9f0d73a2-c020-4417-bb07-6821d24b31f1",
     "a93dc8d2-bf5a-46d2-9529-88c6af18d22e"
   ],
-  "_ts": "2026-08-28T21:01:12.039Z"
+  "_ts": "2026-08-28T21:03:21.126Z"
 }
