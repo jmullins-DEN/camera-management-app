@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787881858689319",
+      "board": "qnESNLC3JPR",
+      "driver": "Forbes Jacob",
+      "driverId": "14d282c0-7676-4e47-8474-798230ae6dc1",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6407571856: Cab Distraction/Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f8c055aa-b348-461b-9df2-679acbb12eff.mp4",
+      "ts": 1787881858689,
+      "synced": false
+    },
+    {
       "id": "L1787881670140590",
       "board": "KYqKJWuumPm",
       "driver": "Kevin Wilson",
@@ -61525,5 +61538,5 @@
     "c66ee5ef-eb28-468b-b56d-1cb2594f36d7",
     "9dcc1859-9104-4146-8a36-01694b367188"
   ],
-  "_ts": "2026-08-28T01:47:55.663Z"
+  "_ts": "2026-08-28T01:50:58.749Z"
 }
