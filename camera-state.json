@@ -370,7 +370,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Cab Distraction/ Keep hands on the wheel",
       "ts": 1787951183679,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L17879510010097",
@@ -62633,5 +62634,5 @@
     "a93dc8d2-bf5a-46d2-9529-88c6af18d22e",
     "50bad01c-bc9c-4e79-8ce2-dbe31db5765d"
   ],
-  "_ts": "2026-08-28T21:06:23.753Z"
+  "_ts": "2026-08-28T21:06:26.665Z"
 }
