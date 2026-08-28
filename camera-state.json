@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787923299427540",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1609463412; following too close; AN 102\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f220299c-6323-4905-87ba-6776a5c02000.mp4",
+      "ts": 1787923299427,
+      "synced": false
+    },
+    {
       "id": "L1787923091025201",
       "board": "KYqKJWuumPm",
       "driver": "Doug McCosh",
@@ -61776,5 +61789,5 @@
     "7367ff5c-45a3-438a-853a-cfcca2a9b94b",
     "b3f7b41e-244f-49f9-a498-dd44bcdf2048"
   ],
-  "_ts": "2026-08-28T13:20:52.320Z"
+  "_ts": "2026-08-28T13:21:39.489Z"
 }
