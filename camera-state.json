@@ -360,21 +360,6 @@
   },
   "local": [
     {
-      "id": "L1787950532956847",
-      "board": "Wk4Si2ZgUVU",
-      "driver": "unassigned",
-      "driverId": "b040eb16-2e82-4256-8120-6afe38471941",
-      "date": "2026-08-27",
-      "reviewed": "2026-08-28",
-      "behavior": "Sign Violation",
-      "coaching": "Unidentified Driver",
-      "notes": "Vehicle 7214  3/4 ton crew cab\nRolling Stop",
-      "ts": 1787950532956,
-      "synced": true,
-      "infItemId": "94b20ea1-e19c-4214-a2f3-b5bdfdd2dc0d",
-      "syncError": null
-    },
-    {
       "id": "L1787942250767335",
       "board": "6aE7wVSK5Jq",
       "driver": "Justin Williams",
@@ -62571,8 +62556,7 @@
     "8a9b6847-9586-4725-85dc-84b5877c8b7d",
     "2893cf80-f969-4f5d-a327-0e775d512901",
     "8144b26d-1d3a-429a-84bd-9491580aad9e",
-    "6aad93da-619b-4915-b2c2-af55a7febfe3",
-    "94b20ea1-e19c-4214-a2f3-b5bdfdd2dc0d"
+    "6aad93da-619b-4915-b2c2-af55a7febfe3"
   ],
-  "_ts": "2026-08-28T20:55:38.831Z"
+  "_ts": "2026-08-28T20:58:30.147Z"
 }
