@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1787925715759957",
+      "board": "ebSND1QoyBs",
+      "driver": "Roderick Bush",
+      "driverId": "a184bb6e-8bb7-4db9-8bde-7e8bebbc604b",
+      "date": "2026-08-27",
+      "reviewed": "2026-08-28",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "hard brake; overhead line obstruction",
+      "ts": 1787925715760,
+      "synced": false
+    },
+    {
       "id": "L1787925574458611",
       "board": "ebSND1QoyBs",
       "driver": "Shamonte Jacobs",
@@ -62125,5 +62138,5 @@
     "9e778c68-b901-4066-8a2b-578d5032069c",
     "4168a318-4900-4771-b354-0978872fac65"
   ],
-  "_ts": "2026-08-28T13:59:41.107Z"
+  "_ts": "2026-08-28T14:01:55.826Z"
 }
