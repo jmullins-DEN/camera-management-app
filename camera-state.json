@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1253804398056996864:  Stop Sign\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/58a8493e-1918-41e2-a2f8-ccbaca310995.mp4",
       "ts": 1788045610086,
-      "synced": false
+      "synced": true,
+      "infItemId": "b6dde18f-bf59-45c7-999d-6f02c93d6b97",
+      "syncError": null
     },
     {
       "id": "L178804498970620",
@@ -62851,7 +62853,8 @@
     "19d70f48-e759-4d65-b3ba-8254b4d41361",
     "dbf42334-9bcd-4907-aed9-c92f2229b574",
     "fe60b933-88b7-4740-8163-a9255007ada8",
-    "c6527362-2e9b-4842-908e-74c638dc2916"
+    "c6527362-2e9b-4842-908e-74c638dc2916",
+    "b6dde18f-bf59-45c7-999d-6f02c93d6b97"
   ],
-  "_ts": "2026-08-29T23:20:10.152Z"
+  "_ts": "2026-08-29T23:20:13.285Z"
 }
