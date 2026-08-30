@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788112853674951",
+      "board": "8gejhhHJj4e",
+      "driver": "Unassigned",
+      "driverId": "9bad2e5c-4daa-4557-af15-28cc2682a2aa",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle PU 8420 Oiler\nPhone Distraction",
+      "ts": 1788112853674,
+      "synced": false
+    },
+    {
       "id": "L178811273295216",
       "board": "8gejhhHJj4e",
       "driver": "Diego Molina",
@@ -370,7 +383,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1788112732952,
-      "synced": false
+      "synced": true,
+      "infItemId": "948137d5-cdbc-46d7-ace5-d181e5d21950",
+      "syncError": null
     },
     {
       "id": "L1788112682949516",
@@ -63249,7 +63264,8 @@
     "813a80ca-2245-47b3-ae6a-172f147e2069",
     "36551f54-4492-4b79-a118-f268cd7ba73e",
     "3191106f-9c89-4c54-a0dd-adb6153a2fe6",
-    "cdeea895-4637-4964-bb2c-36c882b2a02e"
+    "cdeea895-4637-4964-bb2c-36c882b2a02e",
+    "948137d5-cdbc-46d7-ace5-d181e5d21950"
   ],
-  "_ts": "2026-08-30T17:58:53.014Z"
+  "_ts": "2026-08-30T18:00:53.736Z"
 }
