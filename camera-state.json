@@ -370,7 +370,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle PU 8420 Oiler\nPhone Distraction",
       "ts": 1788112853674,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L178811273295216",
@@ -63267,5 +63268,5 @@
     "cdeea895-4637-4964-bb2c-36c882b2a02e",
     "948137d5-cdbc-46d7-ace5-d181e5d21950"
   ],
-  "_ts": "2026-08-30T18:00:53.736Z"
+  "_ts": "2026-08-30T18:00:57.256Z"
 }
