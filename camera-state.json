@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178811224062942",
+      "board": "8gejhhHJj4e",
+      "driver": "Francisco Lambar",
+      "driverId": "019ab61d-ab62-7770-b14b-9978eb6bfe30",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1788112240629,
+      "synced": false
+    },
+    {
       "id": "L1788112132326307",
       "board": "8gejhhHJj4e",
       "driver": "Josh Amick",
@@ -370,7 +383,8 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1788112132326,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788111857306149",
@@ -63144,5 +63158,5 @@
     "b65d939d-063b-48c9-82a7-19464a043ef0",
     "057ab56e-01b3-4e97-bfc9-d63317385e6b"
   ],
-  "_ts": "2026-08-30T17:48:52.377Z"
+  "_ts": "2026-08-30T17:50:40.689Z"
 }
