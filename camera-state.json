@@ -360,6 +360,21 @@
   },
   "local": [
     {
+      "id": "L1788134194376783",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Josh Dobney",
+      "driverId": "019ef636-b886-763b-bb8f-e38427e5bbb7",
+      "date": "2026-08-29",
+      "reviewed": "2026-08-30",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995831300-1788057338976\nSign Violation; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7e8b42b4-81a2-415d-a686-988299428747.mp4",
+      "ts": 1788134194376,
+      "synced": true,
+      "infItemId": "19f02d35-1d7d-496e-991a-f47619b65ecf",
+      "syncError": null
+    },
+    {
       "id": "L1788133708209375",
       "board": "AKJSkJj6Ch4",
       "driver": "Joe Cruz",
@@ -63586,7 +63601,8 @@
     "18cabd59-af91-4dd4-91ce-6acfc4da5334",
     "d7e7165a-4ed6-412d-b8ea-eeb28f87a43a",
     "a5bb4c36-aec3-4e0d-8d5e-376c615c8115",
-    "80ee4acb-0d41-461a-8452-f1460e8e1009"
+    "80ee4acb-0d41-461a-8452-f1460e8e1009",
+    "19f02d35-1d7d-496e-991a-f47619b65ecf"
   ],
-  "_ts": "2026-08-30T23:51:51.369Z"
+  "_ts": "2026-08-30T23:56:38.583Z"
 }
