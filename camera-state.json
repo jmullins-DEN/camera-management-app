@@ -1885,9 +1885,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a90d6220a2e68f46eb61dad",
       "ts": 1787924716853,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d7e7165a-4ed6-412d-b8ea-eeb28f87a43a"
     },
     {
       "id": "L178792458218572",
@@ -2470,9 +2470,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n",
       "ts": 1787867562537,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a5bb4c36-aec3-4e0d-8d5e-376c615c8115"
     },
     {
       "id": "L1787867457784997",
@@ -2515,9 +2515,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake",
       "ts": 1787867248749,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "80ee4acb-0d41-461a-8452-f1460e8e1009"
     },
     {
       "id": "L1787867134809714",
@@ -63583,7 +63583,10 @@
     "c272304a-93d5-428b-bda3-bf04fd3db3db",
     "54946f3d-42ec-41ad-a7c4-28b041285b6a",
     "6aef42d0-5810-44d8-a1c5-a1e0ea570a8a",
-    "18cabd59-af91-4dd4-91ce-6acfc4da5334"
+    "18cabd59-af91-4dd4-91ce-6acfc4da5334",
+    "d7e7165a-4ed6-412d-b8ea-eeb28f87a43a",
+    "a5bb4c36-aec3-4e0d-8d5e-376c615c8115",
+    "80ee4acb-0d41-461a-8452-f1460e8e1009"
   ],
-  "_ts": "2026-08-30T23:51:41.358Z"
+  "_ts": "2026-08-30T23:51:46.617Z"
 }
