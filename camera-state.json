@@ -360,6 +360,21 @@
   },
   "local": [
     {
+      "id": "L1788113503245219",
+      "board": "8gejhhHJj4e",
+      "driver": "Samuel Huber",
+      "driverId": "019a8f13-2947-7113-8400-815d6d92e8ad",
+      "date": "2026-08-29",
+      "reviewed": "2026-08-30",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance",
+      "ts": 1788113503246,
+      "synced": true,
+      "infItemId": "71b5f62d-f515-403f-9340-618057a593ab",
+      "syncError": null
+    },
+    {
       "id": "L1788113452133144",
       "board": "8gejhhHJj4e",
       "driver": "Don Derbridge",
@@ -63392,7 +63407,8 @@
     "076d9692-575e-483a-baa3-87556bacd3dc",
     "a549fab4-c9ec-4bff-80ad-7d5dd63b767c",
     "5ec42987-9353-4ca2-ba4b-5d5f270a2356",
-    "f0b8aad0-399a-4d1a-b786-fecbf44b65e5"
+    "f0b8aad0-399a-4d1a-b786-fecbf44b65e5",
+    "71b5f62d-f515-403f-9340-618057a593ab"
   ],
-  "_ts": "2026-08-30T18:10:55.953Z"
+  "_ts": "2026-08-30T18:11:46.635Z"
 }
