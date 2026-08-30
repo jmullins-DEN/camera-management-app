@@ -360,6 +360,21 @@
   },
   "local": [
     {
+      "id": "L1788113452133144",
+      "board": "8gejhhHJj4e",
+      "driver": "Don Derbridge",
+      "driverId": "019d4e8b-bce5-7776-a813-2124169abba6",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1788113452133,
+      "synced": true,
+      "infItemId": "f0b8aad0-399a-4d1a-b786-fecbf44b65e5",
+      "syncError": null
+    },
+    {
       "id": "L1788113383356773",
       "board": "8gejhhHJj4e",
       "driver": "Pedro Esparza",
@@ -63376,7 +63391,8 @@
     "3babac6a-f6a1-40eb-b9ef-707c072584e1",
     "076d9692-575e-483a-baa3-87556bacd3dc",
     "a549fab4-c9ec-4bff-80ad-7d5dd63b767c",
-    "5ec42987-9353-4ca2-ba4b-5d5f270a2356"
+    "5ec42987-9353-4ca2-ba4b-5d5f270a2356",
+    "f0b8aad0-399a-4d1a-b786-fecbf44b65e5"
   ],
-  "_ts": "2026-08-30T18:09:48.370Z"
+  "_ts": "2026-08-30T18:10:55.953Z"
 }
