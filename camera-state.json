@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788132789118182",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Mike Jones",
+      "driverId": "1734e96a-35d4-48e2-9391-38717f92a421",
+      "date": "2026-08-30",
+      "reviewed": "2026-08-30",
+      "behavior": "U-Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995718105-1788065679461\nU-Turn; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/234b6f01-9eea-4aa2-af6f-04c5965f843e.mp4",
+      "ts": 1788132789118,
+      "synced": false
+    },
+    {
       "id": "L178812529831430",
       "board": "aRcazTLT9iM",
       "driver": "Josiah Garrett",
@@ -63552,5 +63565,5 @@
     "c941974c-714c-4ea6-af61-41f0be6fe16d",
     "c272304a-93d5-428b-bda3-bf04fd3db3db"
   ],
-  "_ts": "2026-08-30T23:30:44.806Z"
+  "_ts": "2026-08-30T23:33:09.187Z"
 }
