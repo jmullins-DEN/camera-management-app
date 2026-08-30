@@ -430,8 +430,9 @@
       "coaching": "Coaching Notes",
       "notes": "Phone Distraction\n",
       "ts": 1788113301824,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "13759a87-4d05-42e2-bb7f-cb2c57544922"
     },
     {
       "id": "L1788113133627819",
@@ -519,8 +520,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle PU 8420 Oiler\nPhone Distraction",
       "ts": 1788112853674,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "36551f54-4492-4b79-a118-f268cd7ba73e"
     },
     {
       "id": "L178811273295216",
@@ -578,8 +580,9 @@
       "coaching": "Coaching Notes",
       "notes": "Rolling Stop",
       "ts": 1788112518784,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bfb7aac0-7a9b-45d4-a2fe-7d08c29333a3"
     },
     {
       "id": "L1788112375400700",
@@ -63424,7 +63427,9 @@
     "5ec42987-9353-4ca2-ba4b-5d5f270a2356",
     "f0b8aad0-399a-4d1a-b786-fecbf44b65e5",
     "71b5f62d-f515-403f-9340-618057a593ab",
-    "9f8691fb-032c-4dbb-adac-444648e34c75"
+    "9f8691fb-032c-4dbb-adac-444648e34c75",
+    "13759a87-4d05-42e2-bb7f-cb2c57544922",
+    "bfb7aac0-7a9b-45d4-a2fe-7d08c29333a3"
   ],
-  "_ts": "2026-08-30T19:41:36.574Z"
+  "_ts": "2026-08-30T19:41:40.901Z"
 }
