@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788112951965467",
+      "board": "8gejhhHJj4e",
+      "driver": "Ricardo Hernandez #3696",
+      "driverId": "a46f3146-f241-41de-a81a-cc76d079da51",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1788112951965,
+      "synced": false
+    },
+    {
       "id": "L1788112910616695",
       "board": "8gejhhHJj4e",
       "driver": "Brian Wisdom",
@@ -370,7 +383,9 @@
       "coaching": "Face to Face",
       "notes": "Following Distance",
       "ts": 1788112910616,
-      "synced": false
+      "synced": true,
+      "infItemId": "84aca542-4efa-4259-baa8-6800b4ec864e",
+      "syncError": null
     },
     {
       "id": "L1788112853674951",
@@ -63279,7 +63294,8 @@
     "36551f54-4492-4b79-a118-f268cd7ba73e",
     "3191106f-9c89-4c54-a0dd-adb6153a2fe6",
     "cdeea895-4637-4964-bb2c-36c882b2a02e",
-    "948137d5-cdbc-46d7-ace5-d181e5d21950"
+    "948137d5-cdbc-46d7-ace5-d181e5d21950",
+    "84aca542-4efa-4259-baa8-6800b4ec864e"
   ],
-  "_ts": "2026-08-30T18:01:50.677Z"
+  "_ts": "2026-08-30T18:02:32.022Z"
 }
