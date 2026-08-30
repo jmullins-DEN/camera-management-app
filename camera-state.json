@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788111857306149",
+      "board": "8gejhhHJj4e",
+      "driver": "Ryan Frahm",
+      "driverId": "019a16e7-93e3-7aa4-948c-71a64df8f5c7",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance",
+      "ts": 1788111857306,
+      "synced": false
+    },
+    {
       "id": "L1788110995900823",
       "board": "6aE7wVSK5Jq",
       "driver": "Justin Williams",
@@ -63115,5 +63128,5 @@
     "a3b29b8d-2c10-449a-a140-03b116ad1506",
     "b65d939d-063b-48c9-82a7-19464a043ef0"
   ],
-  "_ts": "2026-08-30T17:29:59.360Z"
+  "_ts": "2026-08-30T17:44:17.369Z"
 }
