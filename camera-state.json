@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788110995900823",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Justin Williams",
+      "driverId": "31c558ea-cbdd-4b8b-aa50-b2d113b35744",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera  Obstruction",
+      "ts": 1788110995900,
+      "synced": false
+    },
+    {
       "id": "L1788110642212369",
       "board": "9RKrQRpDLcr",
       "driver": "Billy Johnson",
@@ -63099,5 +63112,5 @@
     "278e78cf-7365-4c25-8351-2d49e4e1ceb2",
     "a3b29b8d-2c10-449a-a140-03b116ad1506"
   ],
-  "_ts": "2026-08-30T17:24:09.039Z"
+  "_ts": "2026-08-30T17:29:55.953Z"
 }
