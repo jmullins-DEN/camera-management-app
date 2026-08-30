@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788133708209375",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Cruz",
+      "driverId": "6226ef1d-17b2-4c4e-bf06-47678c539cbc",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995728019-1787954198970\nSign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/da12cd0e-b06f-4193-bde6-84fa483c9e34.mp4",
+      "ts": 1788133708209,
+      "synced": false
+    },
+    {
       "id": "L1788132789118182",
       "board": "AKJSkJj6Ch4",
       "driver": "Mike Jones",
@@ -63568,5 +63581,5 @@
     "c272304a-93d5-428b-bda3-bf04fd3db3db",
     "54946f3d-42ec-41ad-a7c4-28b041285b6a"
   ],
-  "_ts": "2026-08-30T23:33:12.752Z"
+  "_ts": "2026-08-30T23:48:28.266Z"
 }
