@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "Rolling Stop",
       "ts": 1788112518784,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788112375400700",
@@ -63206,5 +63207,5 @@
     "36551f54-4492-4b79-a118-f268cd7ba73e",
     "3191106f-9c89-4c54-a0dd-adb6153a2fe6"
   ],
-  "_ts": "2026-08-30T17:55:18.846Z"
+  "_ts": "2026-08-30T17:55:22.615Z"
 }
