@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178812529831430",
+      "board": "aRcazTLT9iM",
+      "driver": "Josiah Garrett",
+      "driverId": "c3c0f4c2-0240-407e-bf0c-265755160659",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-30",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 1610132862:  Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/95a3a09d-9783-423c-8ed1-155793ac9352.mp4",
+      "ts": 1788125298314,
+      "synced": false
+    },
+    {
       "id": "L1788125206114107",
       "board": "aRcazTLT9iM",
       "driver": "Josiah Garrett",
@@ -63535,5 +63548,5 @@
     "2af3dcaf-0bf3-4c29-bb4f-df90dff2e689",
     "c941974c-714c-4ea6-af61-41f0be6fe16d"
   ],
-  "_ts": "2026-08-30T21:26:51.175Z"
+  "_ts": "2026-08-30T21:28:18.397Z"
 }
