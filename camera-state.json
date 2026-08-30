@@ -416,7 +416,8 @@
       "notes": "Alert 1609922859:  Following to Close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7a87ba34-5bcb-4194-9c24-d9865f3d0ec9.mp4",
       "ts": 1788124942632,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788124418761776",
@@ -63551,5 +63552,5 @@
     "c941974c-714c-4ea6-af61-41f0be6fe16d",
     "c272304a-93d5-428b-bda3-bf04fd3db3db"
   ],
-  "_ts": "2026-08-30T23:30:24.247Z"
+  "_ts": "2026-08-30T23:30:37.479Z"
 }
