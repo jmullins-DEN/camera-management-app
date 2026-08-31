@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; vehicle #234",
       "ts": 1788180760996,
-      "synced": false
+      "synced": true,
+      "infItemId": "c744a815-9598-4489-9686-6dfa3370bfc8",
+      "syncError": null
     },
     {
       "id": "L1788180717618993",
@@ -64722,7 +64724,8 @@
     "decedcdb-db5e-482a-976e-2cedb08e6529",
     "fe061afc-d3d4-4eb1-95e1-72cbc2d00e8f",
     "3ace96ae-5766-4c04-acb1-0095ce88e3e2",
-    "09dc790a-170b-4a3e-abd0-205da8ce7d9a"
+    "09dc790a-170b-4a3e-abd0-205da8ce7d9a",
+    "c744a815-9598-4489-9686-6dfa3370bfc8"
   ],
-  "_ts": "2026-08-31T12:52:41.063Z"
+  "_ts": "2026-08-31T12:52:45.328Z"
 }
