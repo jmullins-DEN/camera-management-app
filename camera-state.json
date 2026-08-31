@@ -371,7 +371,8 @@
       "notes": "\nAlert 6429440803; inattentive; possible phone; swerve\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e064f49d-3f73-4095-8e2f-96c27ffc6bf4.mp4",
       "ts": 1788220528561,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788220324784375",
@@ -65355,5 +65356,5 @@
     "ca35ca6b-43f1-464d-8184-1b0122827668",
     "d17955e2-49a7-4903-9772-bea034502660"
   ],
-  "_ts": "2026-08-31T23:55:32.753Z"
+  "_ts": "2026-08-31T23:55:57.170Z"
 }
