@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788208836692903",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Bailey Bulyer",
+      "driverId": "019e6c8e-5b14-7529-92ab-ca7032587804",
+      "date": "2026-08-31",
+      "reviewed": "2026-08-31",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995771683-1788188673077\nHard Brake; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/19d4df93-9dc0-4b4d-a32a-19ce2c303f56.mp4",
+      "ts": 1788208836692,
+      "synced": false
+    },
+    {
       "id": "L1788208647393485",
       "board": "AKJSkJj6Ch4",
       "driver": "JD Chappell",
@@ -64986,5 +64999,5 @@
     "b98dafa6-e105-474d-a3db-c5f47a9e2670",
     "6f9dd150-8759-4460-8560-fd5a4610bda6"
   ],
-  "_ts": "2026-08-31T20:37:40.852Z"
+  "_ts": "2026-08-31T20:40:36.769Z"
 }
