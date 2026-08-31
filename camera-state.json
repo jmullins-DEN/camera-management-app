@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1788175274185437",
+      "board": "8BUntjK1TqV",
+      "driver": "Wood, Gregory",
+      "driverId": "019e84be-bcf0-76e3-8380-9db5f70b01c5",
+      "date": "2026-08-30",
+      "reviewed": "2026-08-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6423524334; multi-tasking; distracted\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f5b017d4-3df0-4625-adde-2299f7271b73.mp4",
+      "ts": 1788175274185,
+      "synced": false
+    },
+    {
+      "id": "L1788175131014569",
+      "board": "8BUntjK1TqV",
+      "driver": "Romero, Jose",
+      "driverId": "01a01104-1573-7451-82d4-ae3d9ec949a2",
+      "date": "2026-08-30",
+      "reviewed": "2026-08-31",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6421642461; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4f68334f-e83a-42e8-9a6d-cfd13a04f88d.mp4\n",
+      "ts": 1788175131014,
+      "synced": true,
+      "infItemId": "ebf273a3-0421-4a27-afc9-bb52a03ae9ec",
+      "syncError": null
+    },
+    {
       "id": "L1788175077895737",
       "board": "8BUntjK1TqV",
       "driver": "Camacho, Roy",
@@ -64058,7 +64086,8 @@
     "b5159612-661a-40ec-9d0b-fd43f17bfc76",
     "7e022003-7900-4fa9-b545-747ad572c9f3",
     "1811e816-1a93-4783-9d0f-ca24e052875d",
-    "63f751e3-b9f2-4641-81e7-2bac9f3882c4"
+    "63f751e3-b9f2-4641-81e7-2bac9f3882c4",
+    "ebf273a3-0421-4a27-afc9-bb52a03ae9ec"
   ],
-  "_ts": "2026-08-31T11:18:05.360Z"
+  "_ts": "2026-08-31T11:21:14.243Z"
 }
