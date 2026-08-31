@@ -3161,8 +3161,8 @@
       "notes": "\nAlert 1608328869; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1037719e-cddc-4c90-a25e-af463646d8fa.mp4",
       "ts": 1787829884178,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "syncError": "reference 429",
+      "infItemId": "08c26b2b-e31f-4c0e-81ea-530d833c5ab6"
     },
     {
       "id": "L1787829845900349",
@@ -63624,5 +63624,5 @@
     "fb0283bb-16a4-4d3c-b2c9-21159ae80973",
     "e166cbf5-4630-4cba-b2e8-3a72e5fe062f"
   ],
-  "_ts": "2026-08-31T00:06:59.844Z"
+  "_ts": "2026-08-31T00:07:03.263Z"
 }
