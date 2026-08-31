@@ -370,9 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995831300-1787976900478\nHard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/acfcfd68-6bd9-42e1-8234-f25c115bdfbb.mp4",
       "ts": 1788134361068,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f2058ddc-96fb-4415-8d62-b91faf4940f0"
     },
     {
       "id": "L1788134194376783",
@@ -2650,9 +2650,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding",
       "ts": 1787865925304,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a8af0254-499a-4477-8ad6-6803c5ed4cc1"
     },
     {
       "id": "L1787865811818787",
@@ -63617,7 +63617,9 @@
     "d7e7165a-4ed6-412d-b8ea-eeb28f87a43a",
     "a5bb4c36-aec3-4e0d-8d5e-376c615c8115",
     "80ee4acb-0d41-461a-8452-f1460e8e1009",
-    "19f02d35-1d7d-496e-991a-f47619b65ecf"
+    "19f02d35-1d7d-496e-991a-f47619b65ecf",
+    "f2058ddc-96fb-4415-8d62-b91faf4940f0",
+    "a8af0254-499a-4477-8ad6-6803c5ed4cc1"
   ],
-  "_ts": "2026-08-31T00:06:51.936Z"
+  "_ts": "2026-08-31T00:06:55.979Z"
 }
