@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1788178363650524",
+      "board": "xMfRLnqAN7y",
+      "driver": "Kraig Hausmann",
+      "driverId": "019bdd3f-d9fc-7997-8bde-3f7a22a7af3e",
+      "date": "2026-08-29",
+      "reviewed": "2026-08-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking; loses lane",
+      "ts": 1788178363650,
+      "synced": false
+    },
+    {
+      "id": "L178817814909667",
+      "board": "YfVHuM3X87v",
+      "driver": "Ethan Owens",
+      "driverId": "1085658d-2bf7-4d84-9fbc-cb7b53debf9b",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1788178149096,
+      "synced": true,
+      "infItemId": "b400300b-d063-4ffa-a3e2-673ff6656709",
+      "syncError": null
+    },
+    {
       "id": "L1788177972505160",
       "board": "XVLVu2Du8hc",
       "driver": "Larry Simons",
@@ -64399,7 +64427,8 @@
     "152ee549-ecdd-4018-8ce2-3069b42f853f",
     "735fbb2b-cef7-4e44-a8d5-a5a498af2205",
     "5e7f8803-607d-45eb-892f-bb73f8e40d2f",
-    "c125e1b4-8d4a-4dd5-801d-157f77ee2e81"
+    "c125e1b4-8d4a-4dd5-801d-157f77ee2e81",
+    "b400300b-d063-4ffa-a3e2-673ff6656709"
   ],
-  "_ts": "2026-08-31T12:06:15.746Z"
+  "_ts": "2026-08-31T12:12:43.712Z"
 }
