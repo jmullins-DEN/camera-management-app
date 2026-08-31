@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788178737545718",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jamie Ames",
+      "driverId": "019c9557-f684-7331-a7e6-f807aae5cb19",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; loses lane",
+      "ts": 1788178737545,
+      "synced": false
+    },
+    {
       "id": "L1788178678188168",
       "board": "xMfRLnqAN7y",
       "driver": "Keith Smith",
@@ -64479,5 +64492,5 @@
     "89689c03-5e08-4be1-ae73-16949560aac0",
     "e7fcaca8-c5f5-4a02-964a-585cd6949ac6"
   ],
-  "_ts": "2026-08-31T12:18:01.596Z"
+  "_ts": "2026-08-31T12:18:57.614Z"
 }
