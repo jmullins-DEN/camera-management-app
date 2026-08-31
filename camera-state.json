@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788210857267223",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Nick Rodecap",
+      "driverId": "bf2a60df-c3bd-4e62-8d3b-1c2170e287a6",
+      "date": "2026-08-30",
+      "reviewed": "2026-08-31",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "SPEEDING\n",
+      "ts": 1788210857267,
+      "synced": false
+    },
+    {
       "id": "L1788210672550439",
       "board": "9RKrQRpDLcr",
       "driver": "Tommy Scott",
@@ -65154,5 +65167,5 @@
     "edfe6df6-0f17-4719-9e48-542e552760e7",
     "147606dc-9718-47fd-a531-04f5aa2fba60"
   ],
-  "_ts": "2026-08-31T21:11:33.470Z"
+  "_ts": "2026-08-31T21:14:17.370Z"
 }
