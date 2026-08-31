@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; vehicle #9001 MD rollback",
       "ts": 1788180962392,
-      "synced": false
+      "synced": true,
+      "infItemId": "c744a815-9598-4489-9686-6dfa3370bfc8",
+      "syncError": null
     },
     {
       "id": "L1788180821025934",
@@ -64755,5 +64757,5 @@
     "09dc790a-170b-4a3e-abd0-205da8ce7d9a",
     "c744a815-9598-4489-9686-6dfa3370bfc8"
   ],
-  "_ts": "2026-08-31T12:56:02.448Z"
+  "_ts": "2026-08-31T12:56:08.129Z"
 }
