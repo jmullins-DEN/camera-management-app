@@ -2695,9 +2695,9 @@
       "coaching": "Coaching Notes",
       "notes": "Phone Distraction\n",
       "ts": 1787865574869,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "2b7bf9f5-9683-4759-a996-b7512c6c8d52"
     },
     {
       "id": "L178786530045549",
@@ -2740,9 +2740,9 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\n",
       "ts": 1787865134907,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "fb0283bb-16a4-4d3c-b2c9-21159ae80973"
     },
     {
       "id": "L1787842021725537",
@@ -3070,9 +3070,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1252718277000593408; no seatbelt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1116b4f6-b0b7-4084-9e85-d17cb0da2e88.mp4",
       "ts": 1787830200592,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e166cbf5-4630-4cba-b2e8-3a72e5fe062f"
     },
     {
       "id": "L1787830158696746",
@@ -63619,7 +63619,10 @@
     "80ee4acb-0d41-461a-8452-f1460e8e1009",
     "19f02d35-1d7d-496e-991a-f47619b65ecf",
     "f2058ddc-96fb-4415-8d62-b91faf4940f0",
-    "a8af0254-499a-4477-8ad6-6803c5ed4cc1"
+    "a8af0254-499a-4477-8ad6-6803c5ed4cc1",
+    "2b7bf9f5-9683-4759-a996-b7512c6c8d52",
+    "fb0283bb-16a4-4d3c-b2c9-21159ae80973",
+    "e166cbf5-4630-4cba-b2e8-3a72e5fe062f"
   ],
-  "_ts": "2026-08-31T00:06:55.979Z"
+  "_ts": "2026-08-31T00:06:59.844Z"
 }
