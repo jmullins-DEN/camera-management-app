@@ -3280,9 +3280,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1608125260; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ca2531f5-4d81-4021-8535-c17f50fbe8e5.mp4",
       "ts": 1787829605867,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d26f7883-b9c9-4ca8-8372-c9a08dbc20fc"
     },
     {
       "id": "L178782957079260",
@@ -3295,9 +3295,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 1608101633; following too close; truck #AN 140\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/32d8bde0-b7b1-4cba-9454-6d91474304b4.mp4\n",
       "ts": 1787829570792,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c52e256c-ad4e-4922-a5b1-5ab8cb89e25d"
     },
     {
       "id": "L1787829501385745",
@@ -63671,7 +63671,9 @@
     "e5832ea6-1c9c-4fc4-8e60-15ffdaf04f1c",
     "b7d81dc5-3111-4f8f-8942-fabfec29ddf0",
     "3ac7cd23-b955-41f4-8dde-828680151437",
-    "08c26b2b-e31f-4c0e-81ea-530d833c5ab6"
+    "08c26b2b-e31f-4c0e-81ea-530d833c5ab6",
+    "d26f7883-b9c9-4ca8-8372-c9a08dbc20fc",
+    "c52e256c-ad4e-4922-a5b1-5ab8cb89e25d"
   ],
-  "_ts": "2026-08-31T00:29:12.928Z"
+  "_ts": "2026-08-31T00:29:15.722Z"
 }
