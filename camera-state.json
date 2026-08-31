@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788176791017866",
+      "board": "ioWX9hneUsk",
+      "driver": "Ed Smith",
+      "driverId": "cb06fdd5-3bd5-429a-a698-2aaf7f714770",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1253351582691655680; 83 in 75\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6adafa0a-6ec9-43b6-8ac5-8e24f6252907.mp4",
+      "ts": 1788176791017,
+      "synced": false
+    },
+    {
       "id": "L1788176651894341",
       "board": "ioWX9hneUsk",
       "driver": "Ed Smith",
@@ -64229,5 +64242,5 @@
     "267cd047-7cf3-4006-bddf-b4fff67f8e2a",
     "a4f0696a-42bb-4f9e-bf92-c5eee1fa69fd"
   ],
-  "_ts": "2026-08-31T11:44:15.224Z"
+  "_ts": "2026-08-31T11:46:31.071Z"
 }
