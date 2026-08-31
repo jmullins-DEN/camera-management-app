@@ -368,7 +368,7 @@
       "reviewed": "2026-08-31",
       "behavior": "Drowsy Driving",
       "coaching": "Unidentified Driver",
-      "notes": "\nAlert 6425292975; driver drowsy;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1c388040-1c82-4456-aa57-5e3cbee84188.mp4",
+      "notes": "Alert 6425292975; driver drowsy; truck #8902\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1c388040-1c82-4456-aa57-5e3cbee84188.mp4",
       "ts": 1788220324784,
       "synced": true,
       "infItemId": "d17955e2-49a7-4903-9772-bea034502660",
@@ -65341,5 +65341,5 @@
     "ca35ca6b-43f1-464d-8184-1b0122827668",
     "d17955e2-49a7-4903-9772-bea034502660"
   ],
-  "_ts": "2026-08-31T23:52:08.143Z"
+  "_ts": "2026-08-31T23:52:30.562Z"
 }
