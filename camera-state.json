@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788174600768602",
+      "board": "8BUntjK1TqV",
+      "driver": "Ramirez, Gerardo",
+      "driverId": "019f05d4-a9f8-731d-a00a-e6c050c5b04b",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6409673575; inattentive; possible drowsy; weaving\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f921a32e-aa59-461b-9886-86cf2972ab56.mp4\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/20b5d773-5ebf-4f49-be93-230d60213b79.mp4",
+      "ts": 1788174600768,
+      "synced": false
+    },
+    {
       "id": "L1788174463692385",
       "board": "8BUntjK1TqV",
       "driver": "unassigned",
@@ -63950,5 +63963,5 @@
     "b6efa205-5036-4cf8-a962-29b114987350",
     "10cc089c-662e-4f8a-a4e0-174ceff2ef38"
   ],
-  "_ts": "2026-08-31T11:07:51.517Z"
+  "_ts": "2026-08-31T11:10:00.834Z"
 }
