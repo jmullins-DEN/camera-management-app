@@ -895,9 +895,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1610670385; following  too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ada6e355-65ba-42a1-978d-0998e675cb6b.mp4",
       "ts": 1788177307742,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b74ad30d-68ef-495d-bb29-5bae477114a7"
     },
     {
       "id": "L1788176791017866",
@@ -925,9 +925,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 1253416397636272128; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7bb9c985-1777-40fc-a59e-950f135d9fc2.mp4",
       "ts": 1788176651894,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "ea40b2e2-25b9-4124-9083-f5cf79cfaaed"
     },
     {
       "id": "L1788176538721730",
@@ -970,9 +970,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 1253791038007574528; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9fb06d2d-d02d-43df-8a84-22906418e4df.mp4",
       "ts": 1788176339275,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "aa8e4b58-540b-4061-8056-13970913199b"
     },
     {
       "id": "L1788176245693324",
@@ -1000,9 +1000,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a91c60b0a2e68f46eb700e1",
       "ts": 1788176025194,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "02ec326c-4dd1-4430-986b-b3375adbe958"
     },
     {
       "id": "L1788175660822462",
@@ -64818,7 +64818,11 @@
     "c9df6d11-3556-4ebc-9a1c-85f65ab4a49a",
     "a0e14218-524b-4489-86e7-39be08aabf19",
     "effca934-99b9-4bca-929e-c9f106866741",
-    "5a23ef23-4e30-4b71-9339-a51b1919e871"
+    "5a23ef23-4e30-4b71-9339-a51b1919e871",
+    "b74ad30d-68ef-495d-bb29-5bae477114a7",
+    "ea40b2e2-25b9-4124-9083-f5cf79cfaaed",
+    "aa8e4b58-540b-4061-8056-13970913199b",
+    "02ec326c-4dd1-4430-986b-b3375adbe958"
   ],
-  "_ts": "2026-08-31T16:14:28.093Z"
+  "_ts": "2026-08-31T16:14:35.896Z"
 }
