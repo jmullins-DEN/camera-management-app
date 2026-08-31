@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788134958825945",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Tyler Schliefert",
+      "driverId": "7ef286e1-f08c-4876-89e5-9f25a4d922b6",
+      "date": "2026-08-30",
+      "reviewed": "2026-08-30",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995832347-1788120951970\nSign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9ce75f49-ac0e-423f-b240-7c1bec3f6b8b.mp4",
+      "ts": 1788134958825,
+      "synced": false
+    },
+    {
       "id": "L1788134361068928",
       "board": "AKJSkJj6Ch4",
       "driver": "Josh Dobney",
@@ -63624,5 +63637,5 @@
     "fb0283bb-16a4-4d3c-b2c9-21159ae80973",
     "e166cbf5-4630-4cba-b2e8-3a72e5fe062f"
   ],
-  "_ts": "2026-08-31T00:07:06.468Z"
+  "_ts": "2026-08-31T00:09:18.884Z"
 }
