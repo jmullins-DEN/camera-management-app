@@ -368,7 +368,7 @@
       "reviewed": "2026-08-31",
       "behavior": "Driver Distraction-Phone",
       "coaching": "Coaching Notes",
-      "notes": "texting",
+      "notes": "texting\nhttps://app.estrack.com/#/camera/events/6a936daa0a2e68f46eb8234b",
       "ts": 1788181501838,
       "synced": true,
       "infItemId": "4bb4f1b0-cb65-4b87-9b7e-c748d4325a6c",
@@ -64819,5 +64819,5 @@
     "a0e14218-524b-4489-86e7-39be08aabf19",
     "effca934-99b9-4bca-929e-c9f106866741"
   ],
-  "_ts": "2026-08-31T13:05:24.108Z"
+  "_ts": "2026-08-31T13:05:30.223Z"
 }
