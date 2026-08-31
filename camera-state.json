@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178817892886173",
+      "board": "YJNwKvzFhkj",
+      "driver": "Kristy Graham",
+      "driverId": "019de575-77ce-75ef-bf96-7af7da26af37",
+      "date": "2026-08-29",
+      "reviewed": "2026-08-31",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; inattentive\n",
+      "ts": 1788178928861,
+      "synced": false
+    },
+    {
       "id": "L1788178737545718",
       "board": "xMfRLnqAN7y",
       "driver": "Jamie Ames",
@@ -64495,5 +64508,5 @@
     "e7fcaca8-c5f5-4a02-964a-585cd6949ac6",
     "ff21b2b5-7937-4cac-b6fe-8783bd2c29fc"
   ],
-  "_ts": "2026-08-31T12:19:00.752Z"
+  "_ts": "2026-08-31T12:22:08.927Z"
 }
