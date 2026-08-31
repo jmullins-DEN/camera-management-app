@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788179891911557",
+      "board": "ebSND1QoyBs",
+      "driver": "Robert Rhodes",
+      "driverId": "ccdd52d9-c56f-4254-9b97-80742986c0e5",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1788179891911,
+      "synced": false
+    },
+    {
       "id": "L1788179733620907",
       "board": "ebSND1QoyBs",
       "driver": "Mark Varela",
@@ -370,7 +383,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1788179733620,
-      "synced": false
+      "synced": true,
+      "infItemId": "7c06650c-deb9-4718-a7d9-0be59e590f81",
+      "syncError": null
     },
     {
       "id": "L1788179668344415",
@@ -64600,7 +64615,8 @@
     "266a1b79-2d3d-4cd5-b38f-28375bcf4a67",
     "6319aafd-f798-4c37-a325-547094c03c81",
     "2fdc6910-c646-4223-925d-8ad4ac5faddf",
-    "ab5318d1-f62f-4f18-8f63-59ecc41abd42"
+    "ab5318d1-f62f-4f18-8f63-59ecc41abd42",
+    "7c06650c-deb9-4718-a7d9-0be59e590f81"
   ],
-  "_ts": "2026-08-31T12:35:33.686Z"
+  "_ts": "2026-08-31T12:38:11.976Z"
 }
