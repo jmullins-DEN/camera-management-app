@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788207220936208",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Kenny Mayfield",
+      "driverId": "92d21f03-0904-4377-b617-3f86ce84e7e0",
+      "date": "2026-08-31",
+      "reviewed": "2026-08-31",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995729254-1788200456025\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/337b9e0f-aa3e-4add-93ce-8d1c39c811db.mp4",
+      "ts": 1788207220936,
+      "synced": false
+    },
+    {
       "id": "L1788207100710278",
       "board": "AKJSkJj6Ch4",
       "driver": "Kenny Mayfield",
@@ -64910,5 +64923,5 @@
     "2e6e7169-6e0a-425b-a4fc-970da64a5888",
     "f72acee8-d018-4848-a912-241ffbe94310"
   ],
-  "_ts": "2026-08-31T20:11:47.557Z"
+  "_ts": "2026-08-31T20:13:41.015Z"
 }
