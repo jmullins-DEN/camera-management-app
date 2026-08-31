@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788135058444253",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Tyler Schliefert",
+      "driverId": "7ef286e1-f08c-4876-89e5-9f25a4d922b6",
+      "date": "2026-08-30",
+      "reviewed": "2026-08-30",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995832347-1788120089110\nHard Brake / Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d2b413d3-10a0-4d60-b0f2-f979ce0a2c8e.mp4",
+      "ts": 1788135058444,
+      "synced": false
+    },
+    {
       "id": "L1788134958825945",
       "board": "AKJSkJj6Ch4",
       "driver": "Tyler Schliefert",
@@ -63640,5 +63653,5 @@
     "e166cbf5-4630-4cba-b2e8-3a72e5fe062f",
     "e5832ea6-1c9c-4fc4-8e60-15ffdaf04f1c"
   ],
-  "_ts": "2026-08-31T00:09:24.275Z"
+  "_ts": "2026-08-31T00:10:58.509Z"
 }
