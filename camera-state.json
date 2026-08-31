@@ -370,9 +370,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 6429440803; inattentive; possible phone; swerve\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e064f49d-3f73-4095-8e2f-96c27ffc6bf4.mp4",
       "ts": 1788220528561,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a94d4bf2-b09f-411a-a46f-1071251ad8e3"
     },
     {
       "id": "L1788220324784375",
@@ -8022,7 +8022,7 @@
       "ts": 1787611451022,
       "synced": false,
       "infItemId": "db5c430a-3425-444c-ac68-77af58b41800",
-      "syncError": "reference 429"
+      "syncError": "reference 409"
     },
     {
       "id": "L1787611410787537",
@@ -65354,7 +65354,8 @@
     "f64e4e06-c21d-433b-9fe9-8c1fc2bb46b6",
     "8bea6dd0-be89-4670-90d6-85a2a9d7cc3d",
     "ca35ca6b-43f1-464d-8184-1b0122827668",
-    "d17955e2-49a7-4903-9772-bea034502660"
+    "d17955e2-49a7-4903-9772-bea034502660",
+    "a94d4bf2-b09f-411a-a46f-1071251ad8e3"
   ],
-  "_ts": "2026-08-31T23:56:13.788Z"
+  "_ts": "2026-08-31T23:56:25.053Z"
 }
