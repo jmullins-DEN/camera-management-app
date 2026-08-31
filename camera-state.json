@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6426299080\nTraffic Light Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/848683a6-ed18-4968-ba3c-c0b12248d546.mp4",
       "ts": 1788209486521,
-      "synced": false
+      "synced": true,
+      "infItemId": "6f71832a-64b1-4135-9e8e-427007d996af",
+      "syncError": null
     },
     {
       "id": "L1788209290138935",
@@ -65043,7 +65045,8 @@
     "b98dafa6-e105-474d-a3db-c5f47a9e2670",
     "6f9dd150-8759-4460-8560-fd5a4610bda6",
     "65efc11d-88fb-486c-ae2c-a410cfda7adc",
-    "f3602d3e-969d-4dd0-a048-e82ee449043a"
+    "f3602d3e-969d-4dd0-a048-e82ee449043a",
+    "6f71832a-64b1-4135-9e8e-427007d996af"
   ],
-  "_ts": "2026-08-31T20:51:26.596Z"
+  "_ts": "2026-08-31T20:51:34.082Z"
 }
