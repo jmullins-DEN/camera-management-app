@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788179436341208",
+      "board": "YJNwKvzFhkj",
+      "driver": "Robert Duvall",
+      "driverId": "019de578-aa30-76af-8ea2-96cf081f6460",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; loses lane",
+      "ts": 1788179436341,
+      "synced": false
+    },
+    {
       "id": "L1788179107612242",
       "board": "YJNwKvzFhkj",
       "driver": "Omar Bowers",
@@ -64543,5 +64556,5 @@
     "266a1b79-2d3d-4cd5-b38f-28375bcf4a67",
     "6319aafd-f798-4c37-a325-547094c03c81"
   ],
-  "_ts": "2026-08-31T12:25:11.258Z"
+  "_ts": "2026-08-31T12:30:36.399Z"
 }
