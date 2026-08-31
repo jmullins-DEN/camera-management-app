@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788218505960622",
+      "board": "aRcazTLT9iM",
+      "driver": "Daniel Garrett",
+      "driverId": "623c4a69-444f-4a25-9abb-79ceea06157a",
+      "date": "2026-08-31",
+      "reviewed": "2026-08-31",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 1611665613:  Harsh Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5ad6a040-4710-44af-8e95-90e200d59475.mp4",
+      "ts": 1788218505961,
+      "synced": false
+    },
+    {
       "id": "L1788218223030191",
       "board": "aRcazTLT9iM",
       "driver": "Nathaniel Demoss",
@@ -65226,5 +65239,5 @@
     "00081c23-b4c8-473c-84ed-24a3d6d81382",
     "aba0b35d-8d1c-4f89-b8dd-3565710e459e"
   ],
-  "_ts": "2026-08-31T23:17:09.829Z"
+  "_ts": "2026-08-31T23:21:46.058Z"
 }
