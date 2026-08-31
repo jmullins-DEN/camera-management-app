@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a91c60b0a2e68f46eb700e1",
       "ts": 1788176025194,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788175660822462",
@@ -64149,5 +64150,5 @@
     "ebf273a3-0421-4a27-afc9-bb52a03ae9ec",
     "14c46ad7-04a7-47d0-ae0f-d2f76e6a2492"
   ],
-  "_ts": "2026-08-31T11:33:45.260Z"
+  "_ts": "2026-08-31T11:33:48.384Z"
 }
