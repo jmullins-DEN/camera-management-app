@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788178678188168",
+      "board": "xMfRLnqAN7y",
+      "driver": "Keith Smith",
+      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
+      "date": "2026-08-29",
+      "reviewed": "2026-08-31",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1788178678188,
+      "synced": false
+    },
+    {
       "id": "L1788178571634635",
       "board": "xMfRLnqAN7y",
       "driver": "Dragan Bosnjak",
@@ -64465,5 +64478,5 @@
     "89689c03-5e08-4be1-ae73-16949560aac0",
     "e7fcaca8-c5f5-4a02-964a-585cd6949ac6"
   ],
-  "_ts": "2026-08-31T12:16:15.444Z"
+  "_ts": "2026-08-31T12:17:58.253Z"
 }
