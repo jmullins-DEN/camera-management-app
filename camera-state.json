@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "hand held phone",
       "ts": 1788180821025,
-      "synced": false
+      "synced": true,
+      "infItemId": "19d70f48-e759-4d65-b3ba-8254b4d41361",
+      "syncError": null
     },
     {
       "id": "L178818076099670",
@@ -64740,5 +64742,5 @@
     "09dc790a-170b-4a3e-abd0-205da8ce7d9a",
     "c744a815-9598-4489-9686-6dfa3370bfc8"
   ],
-  "_ts": "2026-08-31T12:53:41.088Z"
+  "_ts": "2026-08-31T12:53:43.958Z"
 }
