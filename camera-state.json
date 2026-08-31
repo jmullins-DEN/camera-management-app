@@ -385,9 +385,9 @@
       "coaching": "Coaching Notes",
       "notes": "hand held phone\nhttps://app.estrack.com/#/camera/events/6a9453de0a2e68f46eb85777",
       "ts": 1788181375436,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "43304319-2d84-4af8-a674-9441c675f512"
     },
     {
       "id": "L1788181118384167",
@@ -460,9 +460,9 @@
       "coaching": "Face to Face",
       "notes": "texting",
       "ts": 1788180717618,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "fe60b933-88b7-4740-8163-a9255007ada8"
     },
     {
       "id": "L178818069903519",
@@ -475,9 +475,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; vehicle #212",
       "ts": 1788180699035,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c744a815-9598-4489-9686-6dfa3370bfc8"
     },
     {
       "id": "L1788180524936155",
@@ -64813,7 +64813,8 @@
     "09dc790a-170b-4a3e-abd0-205da8ce7d9a",
     "c744a815-9598-4489-9686-6dfa3370bfc8",
     "2f1aa61d-dbe7-4f29-aa00-85547da93970",
-    "4bb4f1b0-cb65-4b87-9b7e-c748d4325a6c"
+    "4bb4f1b0-cb65-4b87-9b7e-c748d4325a6c",
+    "43304319-2d84-4af8-a674-9441c675f512"
   ],
-  "_ts": "2026-08-31T13:05:10.655Z"
+  "_ts": "2026-08-31T13:05:13.128Z"
 }
