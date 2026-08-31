@@ -370,7 +370,8 @@
       "coaching": "Unidentified Driver",
       "notes": "https://app.estrack.com/#/camera/events/6a91c3260a2e68f46eb6fcae",
       "ts": 1788175660822,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788175556541477",
@@ -64135,5 +64136,5 @@
     "ebf273a3-0421-4a27-afc9-bb52a03ae9ec",
     "14c46ad7-04a7-47d0-ae0f-d2f76e6a2492"
   ],
-  "_ts": "2026-08-31T11:27:40.886Z"
+  "_ts": "2026-08-31T11:27:44.398Z"
 }
