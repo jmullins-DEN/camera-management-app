@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; vehicle #184 F550",
       "ts": 1788180524936,
-      "synced": false
+      "synced": true,
+      "infItemId": "09dc790a-170b-4a3e-abd0-205da8ce7d9a",
+      "syncError": null
     },
     {
       "id": "L1788180390655865",
@@ -64678,7 +64680,8 @@
     "7c06650c-deb9-4718-a7d9-0be59e590f81",
     "decedcdb-db5e-482a-976e-2cedb08e6529",
     "fe061afc-d3d4-4eb1-95e1-72cbc2d00e8f",
-    "3ace96ae-5766-4c04-acb1-0095ce88e3e2"
+    "3ace96ae-5766-4c04-acb1-0095ce88e3e2",
+    "09dc790a-170b-4a3e-abd0-205da8ce7d9a"
   ],
-  "_ts": "2026-08-31T12:48:45.000Z"
+  "_ts": "2026-08-31T12:48:48.123Z"
 }
