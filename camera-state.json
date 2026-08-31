@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788137297574549",
+      "board": "AKJSkJj6Ch4",
+      "driver": "John Sandstrom",
+      "driverId": "1b1a5f71-b8e1-40fa-90e1-f0d236545280",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "U-Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995714975-1787952921635\nU-Turn ; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7674bc75-8f88-4a73-b7b2-c55e352cef76.mp4",
+      "ts": 1788137297574,
+      "synced": false
+    },
+    {
       "id": "L1788137207550323",
       "board": "AKJSkJj6Ch4",
       "driver": "unassigned",
@@ -63743,5 +63756,5 @@
     "b498682d-f63d-4f05-8c2a-03abc5abb5ec",
     "9525cff7-602f-465a-b6f1-4a06cbe864be"
   ],
-  "_ts": "2026-08-31T00:46:53.619Z"
+  "_ts": "2026-08-31T00:48:17.625Z"
 }
