@@ -415,8 +415,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1611451194:  Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c785e2de-3965-421f-9c75-7256cd0b18bc.mp4",
       "ts": 1788218924030,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f64e4e06-c21d-433b-9fe9-8c1fc2bb46b6"
     },
     {
       "id": "L1788218636646670",
@@ -444,8 +445,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1611665613:  Harsh Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5ad6a040-4710-44af-8e95-90e200d59475.mp4",
       "ts": 1788218505961,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "8bea6dd0-be89-4670-90d6-85a2a9d7cc3d"
     },
     {
       "id": "L1788218223030191",
@@ -458,8 +460,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1611201176: Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cec60cb8-68e1-4360-a307-9e7284641e74.mp4",
       "ts": 1788218223031,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c031a8a1-3325-4387-9fd1-e7cdc28f1c18"
     },
     {
       "id": "L1788211177418624",
@@ -65316,7 +65319,9 @@
     "e185d565-51b3-45f5-b35f-c3764ee18fa6",
     "ce580e00-1728-44b2-a564-b01056fbcc72",
     "d7424a88-e5ba-4810-845e-50e388fa763d",
-    "7c12cb27-ed4b-4883-b898-a00e7de420c7"
+    "7c12cb27-ed4b-4883-b898-a00e7de420c7",
+    "f64e4e06-c21d-433b-9fe9-8c1fc2bb46b6",
+    "8bea6dd0-be89-4670-90d6-85a2a9d7cc3d"
   ],
-  "_ts": "2026-08-31T23:50:00.086Z"
+  "_ts": "2026-08-31T23:50:04.147Z"
 }
