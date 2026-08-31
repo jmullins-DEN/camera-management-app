@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 281474995752151-1788028393974\nVehicle 553 ; Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a2314542-cdba-47dc-a70c-4ccff9e5881c.mp4",
       "ts": 1788137207550,
-      "synced": false
+      "synced": true,
+      "infItemId": "9525cff7-602f-465a-b6f1-4a06cbe864be",
+      "syncError": null
     },
     {
       "id": "L178813697881212",
@@ -63738,7 +63740,8 @@
     "5d4364b4-c3bc-4d83-a356-5b958dc16f3e",
     "4cd88071-8bf7-448f-8895-aa174d725044",
     "e6303187-b526-40bc-9624-3064df286d9f",
-    "b498682d-f63d-4f05-8c2a-03abc5abb5ec"
+    "b498682d-f63d-4f05-8c2a-03abc5abb5ec",
+    "9525cff7-602f-465a-b6f1-4a06cbe864be"
   ],
-  "_ts": "2026-08-31T00:46:47.605Z"
+  "_ts": "2026-08-31T00:46:53.619Z"
 }
