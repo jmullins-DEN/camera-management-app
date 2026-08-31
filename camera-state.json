@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788179733620907",
+      "board": "ebSND1QoyBs",
+      "driver": "Mark Varela",
+      "driverId": "33022a64-23ca-4ed3-a310-5bd6cdc1e921",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1788179733620,
+      "synced": false
+    },
+    {
       "id": "L1788179668344415",
       "board": "ebSND1QoyBs",
       "driver": "Thomas Kelly",
@@ -64589,5 +64602,5 @@
     "2fdc6910-c646-4223-925d-8ad4ac5faddf",
     "ab5318d1-f62f-4f18-8f63-59ecc41abd42"
   ],
-  "_ts": "2026-08-31T12:34:31.809Z"
+  "_ts": "2026-08-31T12:35:33.686Z"
 }
