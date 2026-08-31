@@ -3385,9 +3385,9 @@
       "coaching": "Face to Face",
       "notes": "\nAlert 433262744; following too close\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/682c1ba7-cd0a-4624-8b6c-68daf9f238aa.mp4",
       "ts": 1787829257600,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "770c8133-0a6d-4b35-b900-215e6bfb09c7"
     },
     {
       "id": "L1787829212843717",
@@ -3625,9 +3625,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1787828315954,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "954a85c6-baca-42ec-8354-5ed51581e4d6"
     },
     {
       "id": "L1787828276911779",
@@ -3865,9 +3865,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474980531324-1787774379647:  Phone Distraction/Texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0ad252f3-321b-401c-ad55-b27ac3585b3e.mp4",
       "ts": 1787789374772,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f848cb31-2e49-42ef-8ed4-fe04fbd8c4f5"
     },
     {
       "id": "L1787789114567208",
@@ -63673,7 +63673,10 @@
     "3ac7cd23-b955-41f4-8dde-828680151437",
     "08c26b2b-e31f-4c0e-81ea-530d833c5ab6",
     "d26f7883-b9c9-4ca8-8372-c9a08dbc20fc",
-    "c52e256c-ad4e-4922-a5b1-5ab8cb89e25d"
+    "c52e256c-ad4e-4922-a5b1-5ab8cb89e25d",
+    "770c8133-0a6d-4b35-b900-215e6bfb09c7",
+    "954a85c6-baca-42ec-8354-5ed51581e4d6",
+    "f848cb31-2e49-42ef-8ed4-fe04fbd8c4f5"
   ],
-  "_ts": "2026-08-31T00:29:15.722Z"
+  "_ts": "2026-08-31T00:29:19.480Z"
 }
