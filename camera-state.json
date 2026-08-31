@@ -1465,8 +1465,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1254217037765574656:  Hard Braking/Turn\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/20e811f9-ddae-4e04-a19e-673bd7fb1d2d.mp4",
       "ts": 1788175769149,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "ca35ca6b-43f1-464d-8184-1b0122827668"
     },
     {
       "id": "L1788175660822462",
@@ -65321,7 +65322,8 @@
     "d7424a88-e5ba-4810-845e-50e388fa763d",
     "7c12cb27-ed4b-4883-b898-a00e7de420c7",
     "f64e4e06-c21d-433b-9fe9-8c1fc2bb46b6",
-    "8bea6dd0-be89-4670-90d6-85a2a9d7cc3d"
+    "8bea6dd0-be89-4670-90d6-85a2a9d7cc3d",
+    "ca35ca6b-43f1-464d-8184-1b0122827668"
   ],
-  "_ts": "2026-08-31T23:50:04.147Z"
+  "_ts": "2026-08-31T23:50:09.722Z"
 }
