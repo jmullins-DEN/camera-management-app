@@ -610,9 +610,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy; loses lane",
       "ts": 1788179436341,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a0e14218-524b-4489-86e7-39be08aabf19"
     },
     {
       "id": "L1788179107612242",
@@ -685,9 +685,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy",
       "ts": 1788178678188,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "effca934-99b9-4bca-929e-c9f106866741"
     },
     {
       "id": "L1788178571634635",
@@ -64815,7 +64815,9 @@
     "2f1aa61d-dbe7-4f29-aa00-85547da93970",
     "4bb4f1b0-cb65-4b87-9b7e-c748d4325a6c",
     "43304319-2d84-4af8-a674-9441c675f512",
-    "c9df6d11-3556-4ebc-9a1c-85f65ab4a49a"
+    "c9df6d11-3556-4ebc-9a1c-85f65ab4a49a",
+    "a0e14218-524b-4489-86e7-39be08aabf19",
+    "effca934-99b9-4bca-929e-c9f106866741"
   ],
-  "_ts": "2026-08-31T13:05:16.848Z"
+  "_ts": "2026-08-31T13:05:20.463Z"
 }
