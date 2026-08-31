@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788177586395349",
+      "board": "XVLVu2Du8hc",
+      "driver": "Wesley Tallon",
+      "driverId": "019e02aa-2e61-7754-8e73-924a35b04e11",
+      "date": "2026-08-28",
+      "reviewed": "2026-08-31",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "53 in 35",
+      "ts": 1788177586395,
+      "synced": false
+    },
+    {
       "id": "L178817753369487",
       "board": "XVLVu2Du8hc",
       "driver": "unassigned",
@@ -64323,5 +64336,5 @@
     "b9d417d7-0a49-41bb-9c2b-d5b0f09f2b64",
     "60378be8-dfa1-420d-8741-6ecd326cdfef"
   ],
-  "_ts": "2026-08-31T11:58:56.760Z"
+  "_ts": "2026-08-31T11:59:46.455Z"
 }
