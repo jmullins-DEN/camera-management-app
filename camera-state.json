@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788137207550323",
+      "board": "AKJSkJj6Ch4",
+      "driver": "unassigned",
+      "driverId": "b276d55c-5996-4aa7-bb6e-ddad178def51",
+      "date": "2026-08-29",
+      "reviewed": "2026-08-31",
+      "behavior": "Sign Violation",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 281474995752151-1788028393974\nVehicle 553 ; Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a2314542-cdba-47dc-a70c-4ccff9e5881c.mp4",
+      "ts": 1788137207550,
+      "synced": false
+    },
+    {
       "id": "L178813697881212",
       "board": "AKJSkJj6Ch4",
       "driver": "Adam Wright",
@@ -63727,5 +63740,5 @@
     "e6303187-b526-40bc-9624-3064df286d9f",
     "b498682d-f63d-4f05-8c2a-03abc5abb5ec"
   ],
-  "_ts": "2026-08-31T00:43:05.563Z"
+  "_ts": "2026-08-31T00:46:47.605Z"
 }
