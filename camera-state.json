@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788136884400184",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Adam Wright",
+      "driverId": "8f07542f-02e2-4aa9-90b4-8ab3e2c25ba7",
+      "date": "2026-08-30",
+      "reviewed": "2026-08-30",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995757668-1788043701555\nFollowing Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/60aaae0c-54ad-4f52-afbd-92fca4dcc43a.mp4",
+      "ts": 1788136884400,
+      "synced": false
+    },
+    {
       "id": "L1788136763700503",
       "board": "AKJSkJj6Ch4",
       "driver": "Kenny Mayfield",
@@ -63695,5 +63708,5 @@
     "5d4364b4-c3bc-4d83-a356-5b958dc16f3e",
     "4cd88071-8bf7-448f-8895-aa174d725044"
   ],
-  "_ts": "2026-08-31T00:39:28.846Z"
+  "_ts": "2026-08-31T00:41:24.451Z"
 }
