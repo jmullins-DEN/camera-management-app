@@ -368,7 +368,7 @@
       "reviewed": "2026-09-01",
       "behavior": "Seat Belt",
       "coaching": "Coaching Notes",
-      "notes": "no seatbelt",
+      "notes": "no seatbelt\nhttps://app.estrack.com/#/camera/events/6a9576310a2e68f46eb8d0f2",
       "ts": 1788222930611,
       "synced": true,
       "infItemId": "4ffbc44d-34f0-4eff-9d48-9667f15ed4d9",
@@ -65695,5 +65695,5 @@
     "9e89dfc9-566f-4afa-adeb-5b7d1a11078a",
     "4ffbc44d-34f0-4eff-9d48-9667f15ed4d9"
   ],
-  "_ts": "2026-09-01T00:35:33.394Z"
+  "_ts": "2026-09-01T00:35:41.424Z"
 }
