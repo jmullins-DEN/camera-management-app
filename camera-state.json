@@ -370,7 +370,8 @@
       "coaching": "Face to Face",
       "notes": "multi-tasking with two hands",
       "ts": 1788222826135,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788222772998214",
@@ -65678,5 +65679,5 @@
     "ee115a72-c69a-42f7-b402-9e617a572c17",
     "9e89dfc9-566f-4afa-adeb-5b7d1a11078a"
   ],
-  "_ts": "2026-09-01T00:33:46.198Z"
+  "_ts": "2026-09-01T00:33:50.073Z"
 }
