@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788221348670192",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Jefride",
+      "driverId": null,
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1788221348670,
+      "synced": false
+    },
+    {
       "id": "L178822124469676",
       "board": "YfVHuM3X87v",
       "driver": "Lannas Tedrow",
@@ -65435,5 +65448,5 @@
     "5984d6a9-acda-4bfe-81b6-d8accd8c0f56",
     "baf3f144-4f6c-420a-a412-b57c4b6fd9b4"
   ],
-  "_ts": "2026-09-01T00:07:28.305Z"
+  "_ts": "2026-09-01T00:09:08.732Z"
 }
