@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "labeled as hard turn; cameras blocked",
       "ts": 1788221803037,
-      "synced": false
+      "synced": true,
+      "infItemId": "b4f2d5a3-a4c5-46f6-97ce-504e72106295",
+      "syncError": null
     },
     {
       "id": "L1788221623190819",
@@ -65526,7 +65528,8 @@
     "40cdf94c-594f-433d-904d-ddfa723d6002",
     "1d983f07-0909-440d-a3b5-5c089e9fcbb1",
     "955d0407-e8fd-462a-bcae-c9258db95b8f",
-    "83c2c594-42b1-4e08-ad3b-faa8817a22a4"
+    "83c2c594-42b1-4e08-ad3b-faa8817a22a4",
+    "b4f2d5a3-a4c5-46f6-97ce-504e72106295"
   ],
-  "_ts": "2026-09-01T00:16:43.101Z"
+  "_ts": "2026-09-01T00:16:47.132Z"
 }
