@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 23473\nStop Sign Violation",
       "ts": 1788297453913,
-      "synced": false
+      "synced": true,
+      "infItemId": "b5fd9fd3-c218-4d03-b448-21c046b89a1b",
+      "syncError": null
     },
     {
       "id": "L1788272807324475",
@@ -65942,7 +65944,8 @@
     "56e70b57-c304-48c2-bf13-04bd4db91d5a",
     "ed3ae32a-b9a8-47d5-be0c-28ce40006ba3",
     "187c138f-fe38-4f2b-84d8-83a59251409c",
-    "ae76f802-5410-45a7-b5a8-1b061b76182a"
+    "ae76f802-5410-45a7-b5a8-1b061b76182a",
+    "b5fd9fd3-c218-4d03-b448-21c046b89a1b"
   ],
-  "_ts": "2026-09-01T21:17:33.982Z"
+  "_ts": "2026-09-01T21:17:38.780Z"
 }
