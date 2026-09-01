@@ -505,8 +505,8 @@
       "coaching": "Coaching Notes",
       "notes": "hand held phone",
       "ts": 1788222205103,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "cb17e0f8-e4f0-4372-ae2e-d166437b59bd"
     },
     {
@@ -550,9 +550,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1254538098268864512:  Hand Held Phone \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4a4dcebd-493c-4c8b-85b7-e22d1a90bc04.mp4",
       "ts": 1788221782455,
-      "synced": false,
-      "syncError": "Failed to fetch",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "474870ee-c64b-4c11-ad05-c297f963ca1b"
     },
     {
       "id": "L1788221623190819",
@@ -625,9 +625,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy",
       "ts": 1788221348670,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d6d00867-239c-4945-96af-3733488a20b5"
     },
     {
       "id": "L178822124469676",
@@ -700,9 +700,9 @@
       "coaching": "Face to Face",
       "notes": "52 in 35",
       "ts": 1788220984490,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bddd403c-bb1d-4f1f-bbe5-56c1f26df55d"
     },
     {
       "id": "L178822052856182",
@@ -8367,7 +8367,7 @@
       "ts": 1787611451022,
       "synced": false,
       "infItemId": "db5c430a-3425-444c-ac68-77af58b41800",
-      "syncError": "reference 409"
+      "syncError": "reference 429"
     },
     {
       "id": "L1787611410787537",
@@ -65717,7 +65717,11 @@
     "d823b119-c795-4ddb-acd9-ebdeee7dcc7b",
     "cc22b199-4dc0-4731-8007-95912beb247e",
     "3243db37-185a-4988-a6a6-4ed1aebcd85b",
-    "af3af5e5-473c-4591-975f-152f6e2eda85"
+    "af3af5e5-473c-4591-975f-152f6e2eda85",
+    "cb17e0f8-e4f0-4372-ae2e-d166437b59bd",
+    "474870ee-c64b-4c11-ad05-c297f963ca1b",
+    "d6d00867-239c-4945-96af-3733488a20b5",
+    "bddd403c-bb1d-4f1f-bbe5-56c1f26df55d"
   ],
-  "_ts": "2026-09-01T01:30:11.157Z"
+  "_ts": "2026-09-01T01:30:16.610Z"
 }
