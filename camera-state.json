@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788298252579159",
+      "board": "8gejhhHJj4e",
+      "driver": "Josh Amick",
+      "driverId": "b0a48dcc-1993-45a8-b84c-582e819233a1",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1788298252580,
+      "synced": false
+    },
+    {
       "id": "L1788298049734177",
       "board": "8gejhhHJj4e",
       "driver": "Aimee Roberts",
@@ -370,7 +383,9 @@
       "coaching": "Face to Face",
       "notes": "Following Distance",
       "ts": 1788298049734,
-      "synced": false
+      "synced": true,
+      "infItemId": "8c8ad7e8-ed8d-4d0f-be83-56a2c5e2a6ed",
+      "syncError": null
     },
     {
       "id": "L1788297935594299",
@@ -66004,7 +66019,8 @@
     "ae76f802-5410-45a7-b5a8-1b061b76182a",
     "b5fd9fd3-c218-4d03-b448-21c046b89a1b",
     "a07705fa-168a-44fd-b710-b7c11f7c6990",
-    "07c15bff-32d6-4717-ad82-1d8e9167cecb"
+    "07c15bff-32d6-4717-ad82-1d8e9167cecb",
+    "8c8ad7e8-ed8d-4d0f-be83-56a2c5e2a6ed"
   ],
-  "_ts": "2026-09-01T21:27:29.820Z"
+  "_ts": "2026-09-01T21:30:52.682Z"
 }
