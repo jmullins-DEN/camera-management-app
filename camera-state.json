@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting\nhttps://app.estrack.com/#/camera/events/6a95fb2d0a2e68f46eb9c227",
       "ts": 1788222986430,
-      "synced": false
+      "synced": true,
+      "infItemId": "d823b119-c795-4ddb-acd9-ebdeee7dcc7b",
+      "syncError": null
     },
     {
       "id": "L1788222930611209",
@@ -399,7 +401,8 @@
       "notes": "multi-tasking with two hands",
       "ts": 1788222826135,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788222772998214",
@@ -473,7 +476,8 @@
       "notes": "following too close",
       "ts": 1788222459162,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788222229127268",
@@ -487,7 +491,8 @@
       "notes": "Alert 1254559939435855872:  Hard Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/9b6d86d1-28ee-4d1c-93f1-a65b9d5bb557.mp4",
       "ts": 1788222229127,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178822220510345",
@@ -501,7 +506,8 @@
       "notes": "hand held phone",
       "ts": 1788222205103,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788222172230764",
@@ -545,7 +551,8 @@
       "notes": "Alert 1254538098268864512:  Hand Held Phone \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4a4dcebd-493c-4c8b-85b7-e22d1a90bc04.mp4",
       "ts": 1788221782455,
       "synced": false,
-      "syncError": "Failed to fetch"
+      "syncError": "Failed to fetch",
+      "infItemId": null
     },
     {
       "id": "L1788221623190819",
@@ -65706,7 +65713,8 @@
     "7e376a61-cb1c-45be-a6e2-499bb7d20f46",
     "ee115a72-c69a-42f7-b402-9e617a572c17",
     "9e89dfc9-566f-4afa-adeb-5b7d1a11078a",
-    "4ffbc44d-34f0-4eff-9d48-9667f15ed4d9"
+    "4ffbc44d-34f0-4eff-9d48-9667f15ed4d9",
+    "d823b119-c795-4ddb-acd9-ebdeee7dcc7b"
   ],
-  "_ts": "2026-09-01T00:36:26.495Z"
+  "_ts": "2026-09-01T01:30:02.903Z"
 }
