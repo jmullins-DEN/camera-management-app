@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788222986430679",
+      "board": "UKkbYDchPMh",
+      "driver": "Patrick Love",
+      "driverId": "019d91d7-109c-73ec-be87-def85069852e",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting\nhttps://app.estrack.com/#/camera/events/6a95fb2d0a2e68f46eb9c227",
+      "ts": 1788222986430,
+      "synced": false
+    },
+    {
       "id": "L1788222930611209",
       "board": "UKkbYDchPMh",
       "driver": "Patrick Love",
@@ -65695,5 +65708,5 @@
     "9e89dfc9-566f-4afa-adeb-5b7d1a11078a",
     "4ffbc44d-34f0-4eff-9d48-9667f15ed4d9"
   ],
-  "_ts": "2026-09-01T00:35:41.424Z"
+  "_ts": "2026-09-01T00:36:26.495Z"
 }
