@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "ECON- Driver texting runs red light\nhttps://app.estrack.com/#/camera/events/6a958a230a2e68f46eb8faba",
       "ts": 1788272664234,
-      "synced": false
+      "synced": true,
+      "infItemId": "7654b3bd-a44a-49d2-9481-e51d88f879b5",
+      "syncError": null
     },
     {
       "id": "L1788272496650252",
@@ -65904,7 +65906,8 @@
     "028d01d0-2d53-4930-8467-fa7b9f3a6c2f",
     "8752c43d-e80e-457b-aded-41bcd299bc63",
     "5f913c71-15a6-4254-8c05-45ef29f8bed0",
-    "f732b1d8-b524-4e5f-9b34-60bae568dfaf"
+    "f732b1d8-b524-4e5f-9b34-60bae568dfaf",
+    "7654b3bd-a44a-49d2-9481-e51d88f879b5"
   ],
-  "_ts": "2026-09-01T14:24:24.290Z"
+  "_ts": "2026-09-01T14:24:29.342Z"
 }
