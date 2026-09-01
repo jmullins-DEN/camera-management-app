@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178822119507782",
+      "board": "YfVHuM3X87v",
+      "driver": "Richard Mire",
+      "driverId": "692796af-adb0-4839-b924-65c4e91a78fc",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1788221195077,
+      "synced": false
+    },
+    {
       "id": "L1788221081680395",
       "board": "XVLVu2Du8hc",
       "driver": "Wesley Tallon",
@@ -370,7 +383,9 @@
       "coaching": "Face to Face",
       "notes": "70 un 55",
       "ts": 1788221081680,
-      "synced": false
+      "synced": true,
+      "infItemId": "3241c61e-1ebd-4d1b-b7b5-80c062ede10b",
+      "syncError": null
     },
     {
       "id": "L1788221031135289",
@@ -65398,7 +65413,8 @@
     "ca35ca6b-43f1-464d-8184-1b0122827668",
     "d17955e2-49a7-4903-9772-bea034502660",
     "a94d4bf2-b09f-411a-a46f-1071251ad8e3",
-    "26396d4a-848d-4ba3-8123-2532ee3198ad"
+    "26396d4a-848d-4ba3-8123-2532ee3198ad",
+    "3241c61e-1ebd-4d1b-b7b5-80c062ede10b"
   ],
-  "_ts": "2026-09-01T00:04:41.739Z"
+  "_ts": "2026-09-01T00:06:35.145Z"
 }
