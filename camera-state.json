@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788301549884364",
+      "board": "ic6o6QgzpVM",
+      "driver": "Stephen Hails",
+      "driverId": "019e4c3d-9396-7129-95d9-dd136a99b786",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-01",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6436657913\nPossible Drowsiness\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7b49e883-dee3-4847-a040-3ebdea6da4a8.mp4",
+      "ts": 1788301549884,
+      "synced": false
+    },
+    {
       "id": "L1788301421166546",
       "board": "ic6o6QgzpVM",
       "driver": "Adalberto Guerra",
@@ -66257,5 +66270,5 @@
     "d6abda9d-3d53-4347-97c5-61ceee227134",
     "d322c6e0-c417-4728-90a9-edaa6811a099"
   ],
-  "_ts": "2026-09-01T22:23:44.479Z"
+  "_ts": "2026-09-01T22:25:50.007Z"
 }
