@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "no seatbelt",
       "ts": 1788222930611,
-      "synced": false
+      "synced": true,
+      "infItemId": "4ffbc44d-34f0-4eff-9d48-9667f15ed4d9",
+      "syncError": null
     },
     {
       "id": "L1788222826135993",
@@ -65690,7 +65692,8 @@
     "7d5d1d87-ff10-4d61-9147-b09541b29bef",
     "7e376a61-cb1c-45be-a6e2-499bb7d20f46",
     "ee115a72-c69a-42f7-b402-9e617a572c17",
-    "9e89dfc9-566f-4afa-adeb-5b7d1a11078a"
+    "9e89dfc9-566f-4afa-adeb-5b7d1a11078a",
+    "4ffbc44d-34f0-4eff-9d48-9667f15ed4d9"
   ],
-  "_ts": "2026-09-01T00:35:30.680Z"
+  "_ts": "2026-09-01T00:35:33.394Z"
 }
