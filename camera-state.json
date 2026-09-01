@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788221081680395",
+      "board": "XVLVu2Du8hc",
+      "driver": "Wesley Tallon",
+      "driverId": "019e02aa-2e61-7754-8e73-924a35b04e11",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 un 55",
+      "ts": 1788221081680,
+      "synced": false
+    },
+    {
       "id": "L1788221031135289",
       "board": "XVLVu2Du8hc",
       "driver": "Susan Cobleigh",
@@ -65387,5 +65400,5 @@
     "a94d4bf2-b09f-411a-a46f-1071251ad8e3",
     "26396d4a-848d-4ba3-8123-2532ee3198ad"
   ],
-  "_ts": "2026-09-01T00:03:55.972Z"
+  "_ts": "2026-09-01T00:04:41.739Z"
 }
