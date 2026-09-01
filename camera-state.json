@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding Vehicle 658",
       "ts": 1788299577793,
-      "synced": false
+      "synced": true,
+      "infItemId": "2491d880-476c-40dc-adf7-6f33aaa04106",
+      "syncError": null
     },
     {
       "id": "L1788299384048919",
@@ -66112,7 +66114,8 @@
     "d803a53c-6f91-40ac-9f9a-50be1bbad9e7",
     "8307b703-4985-483b-99ec-6914d326f208",
     "6a818879-815d-4268-b652-5194a245291b",
-    "288abbb7-7bf5-4e06-b743-32954dd7b698"
+    "288abbb7-7bf5-4e06-b743-32954dd7b698",
+    "2491d880-476c-40dc-adf7-6f33aaa04106"
   ],
-  "_ts": "2026-09-01T21:52:57.870Z"
+  "_ts": "2026-09-01T21:53:02.595Z"
 }
