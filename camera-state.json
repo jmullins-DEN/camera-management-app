@@ -370,7 +370,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995771683-1788290488972\nHarsh Turn; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6e93202b-cd14-45ef-a45a-d5e49617627d.mp4",
       "ts": 1788300561032,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788300317878108",
@@ -66194,5 +66195,5 @@
     "cd6590dc-35dd-4287-abc3-5c10486b6d33",
     "f469eb06-a098-476b-8b15-6c56b4118c76"
   ],
-  "_ts": "2026-09-01T22:09:21.119Z"
+  "_ts": "2026-09-01T22:09:24.614Z"
 }
