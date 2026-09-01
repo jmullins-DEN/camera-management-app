@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788272664234752",
+      "board": "UKkbYDchPMh",
+      "driver": "unassigned",
+      "driverId": "019b6b01-c126-7338-b97d-e43636f4f951",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Unidentified Driver",
+      "notes": "ECON- Driver texting runs red light\nhttps://app.estrack.com/#/camera/events/6a958a230a2e68f46eb8faba",
+      "ts": 1788272664234,
+      "synced": false
+    },
+    {
       "id": "L1788272496650252",
       "board": "UKkbYDchPMh",
       "driver": "Rick Hutchinson",
@@ -65893,5 +65906,5 @@
     "5f913c71-15a6-4254-8c05-45ef29f8bed0",
     "f732b1d8-b524-4e5f-9b34-60bae568dfaf"
   ],
-  "_ts": "2026-09-01T14:21:41.875Z"
+  "_ts": "2026-09-01T14:24:24.290Z"
 }
