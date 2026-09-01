@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788306936951558",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Unassigned",
+      "driverId": "ec660467-cb61-4cc5-85b2-8632fb38c127",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-01",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1254876635765833728:   Truck # RS102  Hard Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/dc6bbb68-2ea9-41ea-9a33-dc0d54ac1bcb.mp4",
+      "ts": 1788306936951,
+      "synced": false
+    },
+    {
       "id": "L1788305874471187",
       "board": "7W2SQKrNcXQ",
       "driver": "Roberto Ramirez",
@@ -66381,5 +66394,5 @@
     "495b1a4c-b9a5-4d4f-9570-03ef1c54a91b",
     "27e4e660-f997-45fb-a6b2-594232c8cc0b"
   ],
-  "_ts": "2026-09-01T23:38:00.108Z"
+  "_ts": "2026-09-01T23:55:37.042Z"
 }
