@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1254594476949798912:  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/596b8a45-30d4-413f-b519-23e1582dc3f6.mp4",
       "ts": 1788261613617,
-      "synced": false
+      "synced": true,
+      "infItemId": "f0d69493-7146-4463-8d98-c38d1d0398c8",
+      "syncError": null
     },
     {
       "id": "L1788261322947780",
@@ -65750,7 +65752,8 @@
     "cb17e0f8-e4f0-4372-ae2e-d166437b59bd",
     "474870ee-c64b-4c11-ad05-c297f963ca1b",
     "d6d00867-239c-4945-96af-3733488a20b5",
-    "bddd403c-bb1d-4f1f-bbe5-56c1f26df55d"
+    "bddd403c-bb1d-4f1f-bbe5-56c1f26df55d",
+    "f0d69493-7146-4463-8d98-c38d1d0398c8"
   ],
-  "_ts": "2026-09-01T11:20:13.699Z"
+  "_ts": "2026-09-01T11:20:16.766Z"
 }
