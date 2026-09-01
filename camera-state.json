@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1788222662618744",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "texting; vehicle #206",
+      "ts": 1788222662618,
+      "synced": false
+    },
+    {
+      "id": "L1788222579489608",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Unidentified Driver",
+      "notes": "multi-tasking with two hands; vehicle #9007 MD rollback",
+      "ts": 1788222579489,
+      "synced": true,
+      "infItemId": "9e89dfc9-566f-4afa-adeb-5b7d1a11078a",
+      "syncError": null
+    },
+    {
       "id": "L1788222531432630",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -65617,7 +65645,8 @@
     "83c2c594-42b1-4e08-ad3b-faa8817a22a4",
     "7d5d1d87-ff10-4d61-9147-b09541b29bef",
     "7e376a61-cb1c-45be-a6e2-499bb7d20f46",
-    "ee115a72-c69a-42f7-b402-9e617a572c17"
+    "ee115a72-c69a-42f7-b402-9e617a572c17",
+    "9e89dfc9-566f-4afa-adeb-5b7d1a11078a"
   ],
-  "_ts": "2026-09-01T00:28:58.951Z"
+  "_ts": "2026-09-01T00:31:02.682Z"
 }
