@@ -370,7 +370,9 @@
       "coaching": "Critical Event",
       "notes": "Texting-loses lane for your review \nhttps://app.estrack.com/#/camera/events/6a95f6bb0a2e68f46eb9ba06",
       "ts": 1788272393346,
-      "synced": false
+      "synced": true,
+      "infItemId": "f732b1d8-b524-4e5f-9b34-60bae568dfaf",
+      "syncError": null
     },
     {
       "id": "L1788272231419853",
@@ -65874,7 +65876,8 @@
     "224bec34-1c17-4e50-b26a-c47ccc8d8267",
     "028d01d0-2d53-4930-8467-fa7b9f3a6c2f",
     "8752c43d-e80e-457b-aded-41bcd299bc63",
-    "5f913c71-15a6-4254-8c05-45ef29f8bed0"
+    "5f913c71-15a6-4254-8c05-45ef29f8bed0",
+    "f732b1d8-b524-4e5f-9b34-60bae568dfaf"
   ],
-  "_ts": "2026-09-01T14:19:53.408Z"
+  "_ts": "2026-09-01T14:19:58.330Z"
 }
