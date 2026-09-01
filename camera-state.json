@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788272393346816",
+      "board": "UKkbYDchPMh",
+      "driver": "Brice Kelly",
+      "driverId": "11e8d3c8-fae9-475b-84a3-4f892c7abff5",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Texting-loses lane for your review \nhttps://app.estrack.com/#/camera/events/6a95f6bb0a2e68f46eb9ba06",
+      "ts": 1788272393346,
+      "synced": false
+    },
+    {
       "id": "L1788272231419853",
       "board": "UKkbYDchPMh",
       "driver": "Ricky Butcher",
@@ -65863,5 +65876,5 @@
     "8752c43d-e80e-457b-aded-41bcd299bc63",
     "5f913c71-15a6-4254-8c05-45ef29f8bed0"
   ],
-  "_ts": "2026-09-01T14:17:16.057Z"
+  "_ts": "2026-09-01T14:19:53.408Z"
 }
