@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788221803037264",
+      "board": "YJNwKvzFhkj",
+      "driver": "unassigned",
+      "driverId": "019de57a-4822-77ab-a66a-4fa84b4e849f",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Unidentified Driver",
+      "notes": "labeled as hard turn; cameras blocked",
+      "ts": 1788221803037,
+      "synced": false
+    },
+    {
       "id": "L1788221623190819",
       "board": "YJNwKvzFhkj",
       "driver": "Omar Bowers",
@@ -65515,5 +65528,5 @@
     "955d0407-e8fd-462a-bcae-c9258db95b8f",
     "83c2c594-42b1-4e08-ad3b-faa8817a22a4"
   ],
-  "_ts": "2026-09-01T00:13:49.091Z"
+  "_ts": "2026-09-01T00:16:43.101Z"
 }
