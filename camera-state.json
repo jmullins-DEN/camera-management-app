@@ -360,34 +360,17 @@
   },
   "local": [
     {
-      "id": "L1788221916820702",
-      "board": "YJNwKvzFhkj",
+      "id": "L1788222115513833",
+      "board": "ebSND1QoyBs",
       "driver": "unassigned",
-      "driverId": "019de57a-4822-77ab-a66a-4fa84b4e849f",
+      "driverId": "019ebc03-7646-7672-934b-3eafcabe7786",
       "date": "2026-08-31",
       "reviewed": "2026-09-01",
       "behavior": "Safety-Critical Event",
       "coaching": "Unidentified Driver",
-      "notes": "speeding; 91 in 65; vehicle #V9",
-      "ts": 1788221916820,
-      "synced": true,
-      "infItemId": "04279a09-a6ca-48f6-9002-749dbe32fd53",
-      "syncError": null
-    },
-    {
-      "id": "L1788221803037264",
-      "board": "YJNwKvzFhkj",
-      "driver": "unassigned",
-      "driverId": "019de57a-4822-77ab-a66a-4fa84b4e849f",
-      "date": "2026-08-31",
-      "reviewed": "2026-09-01",
-      "behavior": "Hard Brake / Turn",
-      "coaching": "Unidentified Driver",
-      "notes": "labeled as hard turn; cameras blocked; truck # V9",
-      "ts": 1788221803037,
-      "synced": true,
-      "infItemId": "b4f2d5a3-a4c5-46f6-97ce-504e72106295",
-      "syncError": null
+      "notes": "speeding;  91 in 65; vehicle V9",
+      "ts": 1788222115513,
+      "synced": false
     },
     {
       "id": "L1788221623190819",
@@ -65543,9 +65526,7 @@
     "40cdf94c-594f-433d-904d-ddfa723d6002",
     "1d983f07-0909-440d-a3b5-5c089e9fcbb1",
     "955d0407-e8fd-462a-bcae-c9258db95b8f",
-    "83c2c594-42b1-4e08-ad3b-faa8817a22a4",
-    "b4f2d5a3-a4c5-46f6-97ce-504e72106295",
-    "04279a09-a6ca-48f6-9002-749dbe32fd53"
+    "83c2c594-42b1-4e08-ad3b-faa8817a22a4"
   ],
-  "_ts": "2026-09-01T00:19:09.109Z"
+  "_ts": "2026-09-01T00:21:55.577Z"
 }
