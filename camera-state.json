@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "speeding;  91 in 65; vehicle V9",
       "ts": 1788222115513,
-      "synced": false
+      "synced": true,
+      "infItemId": "7d5d1d87-ff10-4d61-9147-b09541b29bef",
+      "syncError": null
     },
     {
       "id": "L1788221623190819",
@@ -65526,7 +65528,8 @@
     "40cdf94c-594f-433d-904d-ddfa723d6002",
     "1d983f07-0909-440d-a3b5-5c089e9fcbb1",
     "955d0407-e8fd-462a-bcae-c9258db95b8f",
-    "83c2c594-42b1-4e08-ad3b-faa8817a22a4"
+    "83c2c594-42b1-4e08-ad3b-faa8817a22a4",
+    "7d5d1d87-ff10-4d61-9147-b09541b29bef"
   ],
-  "_ts": "2026-09-01T00:21:55.577Z"
+  "_ts": "2026-09-01T00:21:59.732Z"
 }
