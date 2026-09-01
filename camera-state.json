@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178822124469676",
+      "board": "YfVHuM3X87v",
+      "driver": "Lannas Tedrow",
+      "driverId": "a1b097f7-a6c5-4f69-952e-c7f0ffe7eac3",
+      "date": "2026-08-31",
+      "reviewed": "2026-09-01",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; possible phone",
+      "ts": 1788221244697,
+      "synced": false
+    },
+    {
       "id": "L178822119507782",
       "board": "YfVHuM3X87v",
       "driver": "Richard Mire",
@@ -65419,5 +65432,5 @@
     "3241c61e-1ebd-4d1b-b7b5-80c062ede10b",
     "5984d6a9-acda-4bfe-81b6-d8accd8c0f56"
   ],
-  "_ts": "2026-09-01T00:06:40.648Z"
+  "_ts": "2026-09-01T00:07:24.761Z"
 }
