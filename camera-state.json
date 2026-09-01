@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "eating with two hands",
       "ts": 1788221623190,
-      "synced": false
+      "synced": true,
+      "infItemId": "83c2c594-42b1-4e08-ad3b-faa8817a22a4",
+      "syncError": null
     },
     {
       "id": "L1788221579253707",
@@ -65510,7 +65512,8 @@
     "baf3f144-4f6c-420a-a412-b57c4b6fd9b4",
     "40cdf94c-594f-433d-904d-ddfa723d6002",
     "1d983f07-0909-440d-a3b5-5c089e9fcbb1",
-    "955d0407-e8fd-462a-bcae-c9258db95b8f"
+    "955d0407-e8fd-462a-bcae-c9258db95b8f",
+    "83c2c594-42b1-4e08-ad3b-faa8817a22a4"
   ],
-  "_ts": "2026-09-01T00:13:43.254Z"
+  "_ts": "2026-09-01T00:13:49.091Z"
 }
