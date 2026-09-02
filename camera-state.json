@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "multi-tasking; loses lane",
       "ts": 1788349919198,
-      "synced": false
+      "synced": true,
+      "infItemId": "fa5a5445-2d79-49be-b2df-7162e6ff2700",
+      "syncError": null
     },
     {
       "id": "L1788349771543963",
@@ -66902,7 +66904,8 @@
     "7b83ce2d-9dca-4f81-9829-dc33daf6c770",
     "8b508da8-685d-4285-8069-bce6b19fe3de",
     "a83233ef-9305-4d03-92f5-c297391c4650",
-    "9da77155-dbe0-4b6f-88d1-94ea76b6b664"
+    "9da77155-dbe0-4b6f-88d1-94ea76b6b664",
+    "fa5a5445-2d79-49be-b2df-7162e6ff2700"
   ],
-  "_ts": "2026-09-02T11:51:59.263Z"
+  "_ts": "2026-09-02T11:52:03.072Z"
 }
