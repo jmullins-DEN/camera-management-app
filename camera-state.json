@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1788349919198309",
+      "board": "YJNwKvzFhkj",
+      "driver": "Omar Bowers",
+      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking; loses lane",
+      "ts": 1788349919198,
+      "synced": false
+    },
+    {
+      "id": "L1788349771543963",
+      "board": "xMfRLnqAN7y",
+      "driver": "Keith Smith",
+      "driverId": "019bdd3f-ba15-7997-8bde-35aff4c76c76",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking; loses lane",
+      "ts": 1788349771543,
+      "synced": true,
+      "infItemId": "9da77155-dbe0-4b6f-88d1-94ea76b6b664",
+      "syncError": null
+    },
+    {
       "id": "L1788349733608728",
       "board": "xMfRLnqAN7y",
       "driver": "Paul Hyde",
@@ -66873,7 +66901,8 @@
     "c1a2f580-e66d-473d-be35-1c9ce28d5c75",
     "7b83ce2d-9dca-4f81-9829-dc33daf6c770",
     "8b508da8-685d-4285-8069-bce6b19fe3de",
-    "a83233ef-9305-4d03-92f5-c297391c4650"
+    "a83233ef-9305-4d03-92f5-c297391c4650",
+    "9da77155-dbe0-4b6f-88d1-94ea76b6b664"
   ],
-  "_ts": "2026-09-02T11:48:57.561Z"
+  "_ts": "2026-09-02T11:51:59.263Z"
 }
