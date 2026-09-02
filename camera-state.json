@@ -731,7 +731,8 @@
       "notes": "Phone Distraction\n",
       "ts": 1788298252580,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788298049734177",
@@ -760,7 +761,8 @@
       "notes": "",
       "ts": 1788297935594,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788297850535224",
@@ -66407,5 +66409,5 @@
     "1e0ad85c-fd1f-4671-b114-c4c70c887089",
     "7389affc-1b1a-4e66-8fcd-53b3e28d474a"
   ],
-  "_ts": "2026-09-02T10:17:19.700Z"
+  "_ts": "2026-09-02T10:17:22.806Z"
 }
