@@ -368,7 +368,7 @@
       "reviewed": "2026-09-02",
       "behavior": "Driver Distraction-Phone",
       "coaching": "Critical Event",
-      "notes": "texting; backward camera blocked",
+      "notes": "texting; backward camera blocked; swerving",
       "ts": 1788349059283,
       "synced": true,
       "infItemId": "f2906571-aedf-424e-bde5-aaa8bba2c5b4",
@@ -66735,5 +66735,5 @@
     "1397d56f-8df7-48c5-a281-d2ce42cb39fb",
     "f2906571-aedf-424e-bde5-aaa8bba2c5b4"
   ],
-  "_ts": "2026-09-02T11:37:43.537Z"
+  "_ts": "2026-09-02T11:37:57.501Z"
 }
