@@ -370,7 +370,9 @@
       "coaching": "Critical Event",
       "notes": "texting; backward camera blocked",
       "ts": 1788349059283,
-      "synced": false
+      "synced": true,
+      "infItemId": "f2906571-aedf-424e-bde5-aaa8bba2c5b4",
+      "syncError": null
     },
     {
       "id": "L1788349011082301",
@@ -66730,7 +66732,8 @@
     "cd653383-b296-40d1-89f0-87a95eb15279",
     "b0b73102-7c4b-4095-9608-1d856d6ed922",
     "a9832b8b-2532-49af-b968-133e465b208a",
-    "1397d56f-8df7-48c5-a281-d2ce42cb39fb"
+    "1397d56f-8df7-48c5-a281-d2ce42cb39fb",
+    "f2906571-aedf-424e-bde5-aaa8bba2c5b4"
   ],
-  "_ts": "2026-09-02T11:37:39.347Z"
+  "_ts": "2026-09-02T11:37:43.537Z"
 }
