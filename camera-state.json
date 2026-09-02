@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788349252735662",
+      "board": "YfVHuM3X87v",
+      "driver": "Lannas Tedrow",
+      "driverId": "a1b097f7-a6c5-4f69-952e-c7f0ffe7eac3",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy\n",
+      "ts": 1788349252735,
+      "synced": false
+    },
+    {
       "id": "L1788349218934485",
       "board": "YfVHuM3X87v",
       "driver": "Richard Mire",
@@ -66799,5 +66812,5 @@
     "a4005d59-8241-44f8-8f05-bc0be1576a18",
     "c1a2f580-e66d-473d-be35-1c9ce28d5c75"
   ],
-  "_ts": "2026-09-02T11:40:22.259Z"
+  "_ts": "2026-09-02T11:40:52.793Z"
 }
