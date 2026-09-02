@@ -400,9 +400,9 @@
       "coaching": "Face to Face",
       "notes": "no seatbelt\nhttps://app.estrack.com/#/camera/events/6a97511a0a2e68f46ebb50b3",
       "ts": 1788354378732,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "432148e0-de42-4a68-a3fd-6dd928543a95"
     },
     {
       "id": "L1788354218593544",
@@ -792,7 +792,7 @@
       "ts": 1788349011082,
       "synced": false,
       "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "infItemId": "90d9e9f7-9a3a-44fc-b62c-e6ed93e88c17"
     },
     {
       "id": "L1788348784474541",
@@ -67169,7 +67169,8 @@
     "be604361-158f-4d70-8dd7-21748ed27461",
     "d4d49ecf-0465-4a50-9731-6cb11c205fe5",
     "d9744eb0-bd0c-48b4-b805-3cfd82323d8b",
-    "406fca75-dc3f-4ee1-a10b-457a561d5416"
+    "406fca75-dc3f-4ee1-a10b-457a561d5416",
+    "432148e0-de42-4a68-a3fd-6dd928543a95"
   ],
-  "_ts": "2026-09-02T13:08:58.157Z"
+  "_ts": "2026-09-02T13:09:01.713Z"
 }
