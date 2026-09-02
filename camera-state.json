@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788386550361415",
+      "board": "9RKrQRpDLcr",
+      "driver": "Paul Kunze Jr",
+      "driverId": "5251e559-3e8c-4f3b-b7b7-21415a31efea",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1788386550361,
+      "synced": false
+    },
+    {
       "id": "L1788386518887732",
       "board": "9RKrQRpDLcr",
       "driver": "Dwayne Manuel",
@@ -67395,5 +67408,5 @@
     "1656e236-7c64-4f3c-97c0-8688ce9435ce",
     "d6947ac4-f9b9-4bb9-b921-e14576e782ee"
   ],
-  "_ts": "2026-09-02T22:02:04.243Z"
+  "_ts": "2026-09-02T22:02:30.470Z"
 }
