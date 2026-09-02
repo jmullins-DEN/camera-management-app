@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178835449891634",
+      "board": "UKkbYDchPMh",
+      "driver": "Christopher Chaney",
+      "driverId": "019d91d3-6cda-7275-9ceb-aa32c75f7029",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "no seatbelt\nhttps://app.estrack.com/#/camera/events/6a96e26c0a2e68f46eba8db3",
+      "ts": 1788354498916,
+      "synced": false
+    },
+    {
       "id": "L1788354433481198",
       "board": "UKkbYDchPMh",
       "driver": "Patrick Love",
@@ -67154,5 +67167,5 @@
     "d4d49ecf-0465-4a50-9731-6cb11c205fe5",
     "d9744eb0-bd0c-48b4-b805-3cfd82323d8b"
   ],
-  "_ts": "2026-09-02T13:07:16.292Z"
+  "_ts": "2026-09-02T13:08:18.985Z"
 }
