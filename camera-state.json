@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788347857102188",
+      "board": "8BUntjK1TqV",
+      "driver": "Ashley, Shawn",
+      "driverId": "01a024d6-ccc3-76ea-a5f9-45c53460456d",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6436805926; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/168287c4-210c-4b54-bc93-0bea6b4a3f6e.mp4",
+      "ts": 1788347857102,
+      "synced": false
+    },
+    {
       "id": "L1788347815091505",
       "board": "8BUntjK1TqV",
       "driver": "Camacho, Roy",
@@ -66487,5 +66500,5 @@
     "79d48949-e39e-41c3-bc1d-10a4d0af1b8d",
     "5bf63a8a-aa41-481b-a234-c36f1f2fb725"
   ],
-  "_ts": "2026-09-02T11:16:58.757Z"
+  "_ts": "2026-09-02T11:17:37.160Z"
 }
