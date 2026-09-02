@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "658 medium Speeding",
       "ts": 1788386805678,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788386550361415",
@@ -67424,5 +67425,5 @@
     "d6947ac4-f9b9-4bb9-b921-e14576e782ee",
     "b9195282-a39c-4955-90f7-907b75bd0ae8"
   ],
-  "_ts": "2026-09-02T22:06:45.732Z"
+  "_ts": "2026-09-02T22:06:49.443Z"
 }
