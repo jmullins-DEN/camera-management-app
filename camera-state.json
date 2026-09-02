@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788350042693415",
+      "board": "YJNwKvzFhkj",
+      "driver": "Brandon Bradford",
+      "driverId": "019de571-9b44-708d-ac6c-bb75bd934615",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting",
+      "ts": 1788350042693,
+      "synced": false
+    },
+    {
       "id": "L1788349970031616",
       "board": "YJNwKvzFhkj",
       "driver": "Omar Bowers",
@@ -66921,5 +66934,5 @@
     "9da77155-dbe0-4b6f-88d1-94ea76b6b664",
     "fa5a5445-2d79-49be-b2df-7162e6ff2700"
   ],
-  "_ts": "2026-09-02T11:52:54.582Z"
+  "_ts": "2026-09-02T11:54:02.757Z"
 }
