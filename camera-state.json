@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788390676516127",
+      "board": "UKkbYDchPMh",
+      "driver": "Brice Kelly",
+      "driverId": "11e8d3c8-fae9-475b-84a3-4f892c7abff5",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "https://app.estrack.com/#/camera/events/6a96f2b90a2e68f46ebaab4a",
+      "ts": 1788390676516,
+      "synced": false
+    },
+    {
       "id": "L1788390647114281",
       "board": "UKkbYDchPMh",
       "driver": "Ricky Butcher",
@@ -67741,5 +67754,5 @@
     "2734aa11-5df1-4603-9e9b-4c101d5d39f5",
     "a2c9080d-cc75-4297-af68-a1d9d8532769"
   ],
-  "_ts": "2026-09-02T23:10:52.127Z"
+  "_ts": "2026-09-02T23:11:16.639Z"
 }
