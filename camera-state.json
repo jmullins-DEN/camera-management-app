@@ -360,6 +360,34 @@
   },
   "local": [
     {
+      "id": "L1788348546453205",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Tanner",
+      "driverId": "019a0810-437c-7aae-88b4-dfecb414cf7f",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1612711166; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cd495882-4f37-4106-88a4-7e6f95e9a9c1.mp4",
+      "ts": 1788348546453,
+      "synced": false
+    },
+    {
+      "id": "L1788348501492414",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1612100632; hard brake; near miss; vehicle #209\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4af4e792-6a6b-40e9-b454-d3474485fcc9.mp4",
+      "ts": 1788348501492,
+      "synced": true,
+      "infItemId": "aaf5dd79-1139-4ab9-a26d-99b8abc27eb8",
+      "syncError": null
+    },
+    {
       "id": "L1788348422107752",
       "board": "kdYbqScWu22",
       "driver": "Hector Santos",
@@ -66579,7 +66607,8 @@
     "f87a54ad-14c0-4247-bf1b-40044ba02acd",
     "35531f8a-cce3-415c-a365-5de0b4892c44",
     "6c06d8ed-a5d8-43d3-b93e-fe0104377451",
-    "b15a43af-a885-4fdd-8508-6c05f8c68440"
+    "b15a43af-a885-4fdd-8508-6c05f8c68440",
+    "aaf5dd79-1139-4ab9-a26d-99b8abc27eb8"
   ],
-  "_ts": "2026-09-02T11:27:08.967Z"
+  "_ts": "2026-09-02T11:29:06.508Z"
 }
