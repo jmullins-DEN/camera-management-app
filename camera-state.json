@@ -430,9 +430,9 @@
       "coaching": "Face to Face",
       "notes": "texting",
       "ts": 1788353363373,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "387e24a0-40a2-41b5-8cc1-c2b750754431"
     },
     {
       "id": "L178835234507982",
@@ -520,9 +520,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy",
       "ts": 1788349970031,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d8721561-c818-4ad0-8311-edb0491e3cf9"
     },
     {
       "id": "L1788349919198309",
@@ -67086,7 +67086,9 @@
     "fa09e735-4e6f-43d4-a8eb-cc45256d7359",
     "71b0d714-c128-4a1d-b59a-0932e75a6e28",
     "ab0ee915-df6e-4341-85dc-24f21ce83f42",
-    "2681fd37-43f5-4882-84c5-63a0466eaa68"
+    "2681fd37-43f5-4882-84c5-63a0466eaa68",
+    "387e24a0-40a2-41b5-8cc1-c2b750754431",
+    "d8721561-c818-4ad0-8311-edb0491e3cf9"
   ],
-  "_ts": "2026-09-02T13:00:11.532Z"
+  "_ts": "2026-09-02T13:00:15.701Z"
 }
