@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788349059283861",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Critical Event",
+      "notes": "texting; backward camera blocked",
+      "ts": 1788349059283,
+      "synced": false
+    },
+    {
       "id": "L1788349011082301",
       "board": "YfVHuM3X87v",
       "driver": "Benigno Vazquez",
@@ -66719,5 +66732,5 @@
     "a9832b8b-2532-49af-b968-133e465b208a",
     "1397d56f-8df7-48c5-a281-d2ce42cb39fb"
   ],
-  "_ts": "2026-09-02T11:36:55.899Z"
+  "_ts": "2026-09-02T11:37:39.347Z"
 }
