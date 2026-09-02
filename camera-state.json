@@ -580,9 +580,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1788349642845,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e6322d49-4935-455c-b8f3-384d0efac9ba"
     },
     {
       "id": "L1788349314447829",
@@ -595,9 +595,9 @@
       "coaching": "Face to Face",
       "notes": "following too close\n",
       "ts": 1788349314447,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "7c70f8e5-7af9-44ea-9b94-a52706ba86c8"
     },
     {
       "id": "L1788349279927433",
@@ -67088,7 +67088,9 @@
     "ab0ee915-df6e-4341-85dc-24f21ce83f42",
     "2681fd37-43f5-4882-84c5-63a0466eaa68",
     "387e24a0-40a2-41b5-8cc1-c2b750754431",
-    "d8721561-c818-4ad0-8311-edb0491e3cf9"
+    "d8721561-c818-4ad0-8311-edb0491e3cf9",
+    "e6322d49-4935-455c-b8f3-384d0efac9ba",
+    "7c70f8e5-7af9-44ea-9b94-a52706ba86c8"
   ],
-  "_ts": "2026-09-02T13:00:15.701Z"
+  "_ts": "2026-09-02T13:00:19.936Z"
 }
