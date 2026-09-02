@@ -431,7 +431,8 @@
       "notes": "texting",
       "ts": 1788353363373,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178835234507982",
@@ -67087,5 +67088,5 @@
     "ab0ee915-df6e-4341-85dc-24f21ce83f42",
     "2681fd37-43f5-4882-84c5-63a0466eaa68"
   ],
-  "_ts": "2026-09-02T12:53:15.484Z"
+  "_ts": "2026-09-02T13:00:11.532Z"
 }
