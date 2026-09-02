@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788350107398895",
+      "board": "YJNwKvzFhkj",
+      "driver": "Bertram Williams",
+      "driverId": "019de571-5de8-7113-9a1f-9a3481db83e8",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "64 in 50",
+      "ts": 1788350107398,
+      "synced": false
+    },
+    {
       "id": "L1788350042693415",
       "board": "YJNwKvzFhkj",
       "driver": "Brandon Bradford",
@@ -66937,5 +66950,5 @@
     "fa5a5445-2d79-49be-b2df-7162e6ff2700",
     "f8ae08a2-c393-4259-a284-58097307662b"
   ],
-  "_ts": "2026-09-02T11:54:05.725Z"
+  "_ts": "2026-09-02T11:55:07.468Z"
 }
