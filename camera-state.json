@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788347927734208",
+      "board": "8BUntjK1TqV",
+      "driver": "Patino, Gabriel",
+      "driverId": "6a6ae370-b890-4b2d-8638-6bb7a829ae21",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6436839665; stop light violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a1ecd6d3-37c7-413f-926d-7ce583fbc623.mp4",
+      "ts": 1788347927734,
+      "synced": false
+    },
+    {
       "id": "L1788347857102188",
       "board": "8BUntjK1TqV",
       "driver": "Ashley, Shawn",
@@ -66503,5 +66516,5 @@
     "5bf63a8a-aa41-481b-a234-c36f1f2fb725",
     "e024f3ef-1de5-45d1-b001-585ccb2273f3"
   ],
-  "_ts": "2026-09-02T11:17:40.217Z"
+  "_ts": "2026-09-02T11:18:47.788Z"
 }
