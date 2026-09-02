@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788347773823622",
+      "board": "8BUntjK1TqV",
+      "driver": "unassigned",
+      "driverId": "3111c34f-9af4-4713-a299-41121dca9bbd",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6434890919; texting; vehicle #5659\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/146e4ed3-a1f0-4c26-84ac-5cdeb72af31f.mp4",
+      "ts": 1788347773823,
+      "synced": false
+    },
+    {
       "id": "L1788347704357836",
       "board": "8BUntjK1TqV",
       "driver": "Ridge, Michael (Brad)",
@@ -66455,5 +66468,5 @@
     "37044560-53c3-4a57-9eca-abe5e322ace5",
     "66b196eb-ec24-4a4a-929b-cebd0c4ce38d"
   ],
-  "_ts": "2026-09-02T11:15:07.474Z"
+  "_ts": "2026-09-02T11:16:13.896Z"
 }
