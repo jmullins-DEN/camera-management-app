@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788383661948375",
+      "board": "8gejhhHJj4e",
+      "driver": "John Kinney",
+      "driverId": "019b0e57-4d1b-7ddc-8d9d-b1294631231d",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-02",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\n",
+      "ts": 1788383661948,
+      "synced": false
+    },
+    {
       "id": "L178835449891634",
       "board": "UKkbYDchPMh",
       "driver": "Christopher Chaney",
@@ -67179,5 +67192,5 @@
     "b04b6568-9523-49b0-b653-97beada3c887",
     "c9b1678e-e62e-4fa3-8111-8b85632df4c0"
   ],
-  "_ts": "2026-09-02T20:29:41.413Z"
+  "_ts": "2026-09-02T21:14:22.069Z"
 }
