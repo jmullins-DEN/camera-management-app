@@ -360,6 +360,48 @@
   },
   "local": [
     {
+      "id": "L1788445220409334",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "texting\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=5445655b-a276-5f3e-b54b-2d46470771c5&triageStates%5B%5D=NeedsReview&event=5445655b-a276-5f3e-b54b-2d46470771c5&deviceId=281474980616004&eventMs=1788406899318",
+      "ts": 1788445220409,
+      "synced": false
+    },
+    {
+      "id": "L1788444933678390",
+      "board": "YJNwKvzFhkj",
+      "driver": "DeErick Powe",
+      "driverId": "019dd5f1-4f6e-73b7-b34e-c69709a4b66b",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1788444933678,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
+      "id": "L1788444605632152",
+      "board": "YfVHuM3X87v",
+      "driver": "John Reed",
+      "driverId": "978b68b6-ea08-41da-ac11-09768d0b5440",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1788444605632,
+      "synced": true,
+      "infItemId": "90dc7533-b246-4010-b6a0-54d9184c3a15",
+      "syncError": null
+    },
+    {
       "id": "L1788444464011551",
       "board": "XVLVu2Du8hc",
       "driver": "Jeffrey Schnippel",
@@ -68211,7 +68253,8 @@
     "7f62c984-deb3-4fa7-b989-77f7288bc287",
     "286e1ac8-27e7-433c-a569-e24773a259ae",
     "7fe1dda9-a11f-417d-8c44-e7d27b64128d",
-    "2fadde75-490b-495c-bd19-ab1f362c2126"
+    "2fadde75-490b-495c-bd19-ab1f362c2126",
+    "90dc7533-b246-4010-b6a0-54d9184c3a15"
   ],
-  "_ts": "2026-09-03T14:07:47.092Z"
+  "_ts": "2026-09-03T14:20:20.473Z"
 }
