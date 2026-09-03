@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle PU 1198 Spare;\nPhone Distraction; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=544561e1-80ff-58c0-bbbd-7a81436c20d5",
       "ts": 1788475405113,
-      "synced": false
+      "synced": true,
+      "infItemId": "8b350b1c-cc3d-4413-a065-931f97c7ce02",
+      "syncError": null
     },
     {
       "id": "L1788475318159594",
@@ -68834,7 +68836,8 @@
     "0158cfb1-1a16-4292-ad4f-bb903654713a",
     "c7c509c8-4cea-4332-b22d-a031f17707b0",
     "d712a572-755d-4d10-854d-3aadf95d4500",
-    "7158499b-c763-41bb-b21e-f5188b986449"
+    "7158499b-c763-41bb-b21e-f5188b986449",
+    "8b350b1c-cc3d-4413-a065-931f97c7ce02"
   ],
-  "_ts": "2026-09-03T22:43:25.238Z"
+  "_ts": "2026-09-03T22:43:28.394Z"
 }
