@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Increase Following Distance\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=544563c1-dfdc-5ff9-b614-7605c38d430c",
       "ts": 1788474418580,
-      "synced": false
+      "synced": true,
+      "infItemId": "54e9e20c-ebc6-497a-b3d7-4c3801da40ff",
+      "syncError": null
     },
     {
       "id": "L1788474238500991",
@@ -68726,7 +68728,8 @@
     "5e95072e-8b94-4c0c-9d86-8dc4cc41c321",
     "e9ede951-de6a-4afa-ad5c-439ebdcb0029",
     "d596d6f9-14f0-4885-96df-49a4ae7d8401",
-    "9782479a-8484-4f13-a825-12245295e209"
+    "9782479a-8484-4f13-a825-12245295e209",
+    "54e9e20c-ebc6-497a-b3d7-4c3801da40ff"
   ],
-  "_ts": "2026-09-03T22:26:58.660Z"
+  "_ts": "2026-09-03T22:27:01.390Z"
 }
