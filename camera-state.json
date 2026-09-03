@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788473926089873",
+      "board": "8gejhhHJj4e",
+      "driver": "Andrew Jacobs",
+      "driverId": "931778e6-36dc-473e-a301-2c06f82a7553",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Sign Violation",
+      "coaching": "Face to Face",
+      "notes": "Rolling Stop; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54456495-ff66-5f00-9b4d-b6eb087f3992&event=54456495-ff66-5f00-9b4d-b6eb087f3992&deviceId=281474994873792&eventMs=1788393946982",
+      "ts": 1788473926089,
+      "synced": false
+    },
+    {
       "id": "L1788473824709586",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -68657,5 +68670,5 @@
     "29ea748d-c424-4ea1-9e98-6b99828a8853",
     "60b84fcf-af58-4486-a4c9-727b75a867ae"
   ],
-  "_ts": "2026-09-03T22:17:07.379Z"
+  "_ts": "2026-09-03T22:18:46.175Z"
 }
