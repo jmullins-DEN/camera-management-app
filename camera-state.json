@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788475602776894",
+      "board": "8gejhhHJj4e",
+      "driver": "Don Derbridge",
+      "driverId": "019d4e8b-bce5-7776-a813-2124169abba6",
+      "date": "2026-09-01",
+      "reviewed": "2026-09-03",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Following Distance;\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54455d2e-ef22-5b83-9c51-32f9b9af4b42",
+      "ts": 1788475602776,
+      "synced": false
+    },
+    {
       "id": "L1788475405113400",
       "board": "8gejhhHJj4e",
       "driver": "Unassigned",
@@ -68839,5 +68852,5 @@
     "7158499b-c763-41bb-b21e-f5188b986449",
     "8b350b1c-cc3d-4413-a065-931f97c7ce02"
   ],
-  "_ts": "2026-09-03T22:43:28.394Z"
+  "_ts": "2026-09-03T22:46:42.897Z"
 }
