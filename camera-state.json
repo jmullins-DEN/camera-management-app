@@ -370,7 +370,8 @@
       "coaching": "Face to Face",
       "notes": "texting\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&activeFolder=needs_review&uuid=5445634a-98ef-5eac-bc1b-a87ec4cbd2d4",
       "ts": 1788445622143,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788445479421255",
@@ -68304,5 +68305,5 @@
     "1a5f4a70-314d-466b-a88d-90127de2a2b1",
     "cba1beff-8055-4fca-9968-fb2e5126d481"
   ],
-  "_ts": "2026-09-03T14:27:02.207Z"
+  "_ts": "2026-09-03T14:27:06.446Z"
 }
