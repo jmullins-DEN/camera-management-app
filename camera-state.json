@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178847451124128",
+      "board": "8gejhhHJj4e",
+      "driver": "Bernardo Gomez",
+      "driverId": "019b1420-b8d0-799a-8941-9b14c016d86d",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Cab Distraction\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=544563ad-8daf-5b2d-89aa-d5f52500b9cc&focusedCamera=1",
+      "ts": 1788474511241,
+      "synced": false
+    },
+    {
       "id": "L1788474418580458",
       "board": "8gejhhHJj4e",
       "driver": "LENA TORRES #1202",
@@ -68731,5 +68744,5 @@
     "9782479a-8484-4f13-a825-12245295e209",
     "54e9e20c-ebc6-497a-b3d7-4c3801da40ff"
   ],
-  "_ts": "2026-09-03T22:27:01.390Z"
+  "_ts": "2026-09-03T22:28:31.310Z"
 }
