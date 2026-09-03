@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788445805221225",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Unidentified Driver",
+      "notes": "crash; vehicle #184 F550\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&activeFolder=needs_review&uuid=544562c9-0266-51a8-b41a-5e48c2271a73",
+      "ts": 1788445805221,
+      "synced": false
+    },
+    {
       "id": "L1788445622143174",
       "board": "KYqKJWuumPm",
       "driver": "Doug McCosh",
@@ -68305,5 +68318,5 @@
     "1a5f4a70-314d-466b-a88d-90127de2a2b1",
     "cba1beff-8055-4fca-9968-fb2e5126d481"
   ],
-  "_ts": "2026-09-03T14:27:06.446Z"
+  "_ts": "2026-09-03T14:30:05.295Z"
 }
