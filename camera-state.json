@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "crash; vehicle #184 F550\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&activeFolder=needs_review&uuid=544562c9-0266-51a8-b41a-5e48c2271a73",
       "ts": 1788445805221,
-      "synced": false
+      "synced": true,
+      "infItemId": "cf3fc9d6-e4d6-49b8-b0fc-9048011aae0f",
+      "syncError": null
     },
     {
       "id": "L1788445622143174",
@@ -68316,7 +68318,8 @@
     "90dc7533-b246-4010-b6a0-54d9184c3a15",
     "a3896cab-79a6-4428-ad6b-b1e2e3cd1c59",
     "1a5f4a70-314d-466b-a88d-90127de2a2b1",
-    "cba1beff-8055-4fca-9968-fb2e5126d481"
+    "cba1beff-8055-4fca-9968-fb2e5126d481",
+    "cf3fc9d6-e4d6-49b8-b0fc-9048011aae0f"
   ],
-  "_ts": "2026-09-03T14:30:05.295Z"
+  "_ts": "2026-09-03T14:30:08.410Z"
 }
