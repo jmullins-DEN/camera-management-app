@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788470193778214",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Riley",
+      "driverId": "ac24ef3b-c620-445a-a2d7-cec0d8211e69",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995752151-1788462537486\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d404d804-e6d7-4199-a3b1-26d579db90f4.mp4",
+      "ts": 1788470193778,
+      "synced": false
+    },
+    {
       "id": "L1788469848453441",
       "board": "AKJSkJj6Ch4",
       "driver": "Earl Patrick",
@@ -68425,5 +68438,5 @@
     "541dc03e-cdd5-4f80-9d3e-557ede8ec060",
     "7fe71009-716b-47c1-8eac-c1f6522aa51e"
   ],
-  "_ts": "2026-09-03T21:10:51.077Z"
+  "_ts": "2026-09-03T21:16:33.848Z"
 }
