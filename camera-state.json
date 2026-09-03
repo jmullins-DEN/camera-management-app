@@ -360,6 +360,33 @@
   },
   "local": [
     {
+      "id": "L1788472383469269",
+      "board": "JthqRmXvJ9v",
+      "driver": "Daniel Brown",
+      "driverId": "019a7b18-0863-7330-ad9a-afe7951dac3b",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/50686/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=5445645d-962b-5800-832b-542a7588166c&triageStates%5B%5D=NeedsReview",
+      "ts": 1788472383469,
+      "synced": false
+    },
+    {
+      "id": "L1788472285425292",
+      "board": "JthqRmXvJ9v",
+      "driver": "Matthew Beard",
+      "driverId": "019a7b18-0863-7330-ad9a-d97fadd5f997",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/50686/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=544564a8-d2e7-50e8-afbb-3aee0481bca1&triageStates%5B%5D=NeedsReview&event=544564a8-d2e7-50e8-afbb-3aee0481bca1&deviceId=281474987712030&eventMs=1788395180775",
+      "ts": 1788472285425,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L178847191910818",
       "board": "nWRsGRSm2Hn",
       "driver": "Clark, Karilyn",
@@ -68547,5 +68574,5 @@
     "612f988b-fd09-4c0a-b7c8-d2c21fc0d8ee",
     "1f7b5d02-c663-495b-8fbb-2fc7749b1ad8"
   ],
-  "_ts": "2026-09-03T21:45:22.380Z"
+  "_ts": "2026-09-03T21:53:03.542Z"
 }
