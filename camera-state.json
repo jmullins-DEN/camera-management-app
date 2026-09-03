@@ -370,7 +370,9 @@
       "coaching": "System Alert",
       "notes": "Camera Obstruction;\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=5445619f-7b9d-5b77-b7de-d00cc056ea56&triageStates%5B%5D=NeedsReview",
       "ts": 1788471919108,
-      "synced": false
+      "synced": true,
+      "infItemId": "1f7b5d02-c663-495b-8fbb-2fc7749b1ad8",
+      "syncError": null
     },
     {
       "id": "L1788471763875269",
@@ -68542,7 +68544,8 @@
     "0dd85f88-79c9-42e4-94a7-88095756461e",
     "8bd13492-c7df-41f0-9ed1-19c398553c6c",
     "3c146a83-21d4-443e-bf33-0d33d015a414",
-    "612f988b-fd09-4c0a-b7c8-d2c21fc0d8ee"
+    "612f988b-fd09-4c0a-b7c8-d2c21fc0d8ee",
+    "1f7b5d02-c663-495b-8fbb-2fc7749b1ad8"
   ],
-  "_ts": "2026-09-03T21:45:19.184Z"
+  "_ts": "2026-09-03T21:45:22.380Z"
 }
