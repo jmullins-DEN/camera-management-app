@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788443417232866",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "\nAlert 1255286682459209728; hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4dd417e7-1f84-469e-9523-9304380f9346.mp4",
+      "ts": 1788443417232,
+      "synced": false
+    },
+    {
       "id": "L1788442792828458",
       "board": "8BUntjK1TqV",
       "driver": "unassigned",
@@ -68057,5 +68070,5 @@
     "c617f9da-3109-4150-a972-39e58e7483d8",
     "f80a38aa-9bd8-4231-a3e9-2a8cde6ca4d9"
   ],
-  "_ts": "2026-09-03T13:39:56.688Z"
+  "_ts": "2026-09-03T13:50:17.293Z"
 }
