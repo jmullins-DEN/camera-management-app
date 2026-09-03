@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788445394859642",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "texting; vehicle #168\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&deviceId=281474980531324&eventMs=1788390340232&activeFolder=needs_review&uuid=5445645e-f688-5f40-b160-746e42558944&event=5445645e-f688-5f40-b160-746e42558944",
+      "ts": 1788445394859,
+      "synced": false
+    },
+    {
       "id": "L1788445220409334",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -68259,5 +68272,5 @@
     "90dc7533-b246-4010-b6a0-54d9184c3a15",
     "a3896cab-79a6-4428-ad6b-b1e2e3cd1c59"
   ],
-  "_ts": "2026-09-03T14:22:39.407Z"
+  "_ts": "2026-09-03T14:23:14.923Z"
 }
