@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788442152759281",
+      "board": "8BUntjK1TqV",
+      "driver": "Ochoa, Jeremy",
+      "driverId": "019db174-a17c-72aa-bdd6-68ea3c717b44",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6440837143; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bc3ff339-6975-461e-97fb-18d4cf7255a3.mp4",
+      "ts": 1788442152759,
+      "synced": false
+    },
+    {
       "id": "L1788441821375185",
       "board": "aRcazTLT9iM",
       "driver": "Treye Oliver",
@@ -68010,5 +68023,5 @@
     "c9c02a9c-99df-454a-86d9-c938c21f2aa8",
     "4796e06c-3f45-48b3-997e-0dc4eadc5294"
   ],
-  "_ts": "2026-09-03T13:28:51.461Z"
+  "_ts": "2026-09-03T13:29:12.825Z"
 }
