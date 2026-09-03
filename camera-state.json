@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake/ Lane Violation\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54456325-155b-5cb2-b32a-39489f692238",
       "ts": 1788474840238,
-      "synced": false
+      "synced": true,
+      "infItemId": "d712a572-755d-4d10-854d-3aadf95d4500",
+      "syncError": null
     },
     {
       "id": "L1788474686108298",
@@ -68774,7 +68776,8 @@
     "9782479a-8484-4f13-a825-12245295e209",
     "54e9e20c-ebc6-497a-b3d7-4c3801da40ff",
     "0158cfb1-1a16-4292-ad4f-bb903654713a",
-    "c7c509c8-4cea-4332-b22d-a031f17707b0"
+    "c7c509c8-4cea-4332-b22d-a031f17707b0",
+    "d712a572-755d-4d10-854d-3aadf95d4500"
   ],
-  "_ts": "2026-09-03T22:34:00.361Z"
+  "_ts": "2026-09-03T22:34:03.379Z"
 }
