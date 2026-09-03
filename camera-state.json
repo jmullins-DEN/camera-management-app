@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788475097595911",
+      "board": "8gejhhHJj4e",
+      "driver": "LENA TORRES #1202",
+      "driverId": "82480776-4006-46ba-8a09-26f49469fa57",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling Stop\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54456285-e7f4-5e48-b829-ef35a2dc340a",
+      "ts": 1788475097595,
+      "synced": false
+    },
+    {
       "id": "L1788474952380151",
       "board": "8gejhhHJj4e",
       "driver": "Diego Molina",
@@ -68793,5 +68806,5 @@
     "c7c509c8-4cea-4332-b22d-a031f17707b0",
     "d712a572-755d-4d10-854d-3aadf95d4500"
   ],
-  "_ts": "2026-09-03T22:35:54.760Z"
+  "_ts": "2026-09-03T22:38:17.669Z"
 }
