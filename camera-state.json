@@ -360,6 +360,21 @@
   },
   "local": [
     {
+      "id": "L1788441284262954",
+      "board": "aRcazTLT9iM",
+      "driver": "Timmy Roberts",
+      "driverId": "f5a91f09-a99e-4540-a5a4-fa73db883d45",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 1613642063:  Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/d2b2fbee-274d-4738-9099-1b1a0626b3a3.mp4",
+      "ts": 1788441284262,
+      "synced": true,
+      "infItemId": "6a0cf354-55b3-416d-8dd5-b269c03b99a8",
+      "syncError": null
+    },
+    {
       "id": "L178839221845744",
       "board": "aRcazTLT9iM",
       "driver": "Edward Rourke",
@@ -67934,11 +67949,12 @@
     "35b10fe5-172e-4039-9db7-92e1e8bda868",
     "0bb12c52-6193-4891-9179-94d5ad1a1856",
     "309e5ec7-a70c-4ad6-96c7-e7fae9664c6c",
+    "6a0cf354-55b3-416d-8dd5-b269c03b99a8",
     "d62ed480-ad87-4fb2-8135-f5e5a63f9942",
     "36a9ea00-3e34-456b-bff4-2f613f3efe1d",
     "015f4bd2-7dfe-4300-bb70-9dcbd459006c",
     "ef6c609b-db72-494d-9f55-52394b00ddfb",
     "d7187443-5b44-499d-8b62-82c22460e342"
   ],
-  "_ts": "2026-09-03T04:12:11.947Z"
+  "_ts": "2026-09-03T13:14:46.789Z"
 }
