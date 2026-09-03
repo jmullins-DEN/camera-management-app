@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788442792828458",
+      "board": "8BUntjK1TqV",
+      "driver": "unassigned",
+      "driverId": "3111c34f-9af4-4713-a299-41121dca9bbd",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Drowsy Driving",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6446509225; driver drowsy; truck #8902\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/eb4b5e2a-746c-4fdb-81d8-77be8e83ed08.mp4",
+      "ts": 1788442792828,
+      "synced": false
+    },
+    {
       "id": "L1788442276724279",
       "board": "8BUntjK1TqV",
       "driver": "Martinez, Edgar",
@@ -68041,5 +68054,5 @@
     "4796e06c-3f45-48b3-997e-0dc4eadc5294",
     "c617f9da-3109-4150-a972-39e58e7483d8"
   ],
-  "_ts": "2026-09-03T13:38:33.458Z"
+  "_ts": "2026-09-03T13:39:52.894Z"
 }
