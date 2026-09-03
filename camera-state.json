@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788475405113400",
+      "board": "8gejhhHJj4e",
+      "driver": "Unassigned",
+      "driverId": "9bad2e5c-4daa-4557-af15-28cc2682a2aa",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle PU 1198 Spare;\nPhone Distraction; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=544561e1-80ff-58c0-bbbd-7a81436c20d5",
+      "ts": 1788475405113,
+      "synced": false
+    },
+    {
       "id": "L1788475318159594",
       "board": "8gejhhHJj4e",
       "driver": "Efrain Sotelo",
@@ -68823,5 +68836,5 @@
     "d712a572-755d-4d10-854d-3aadf95d4500",
     "7158499b-c763-41bb-b21e-f5188b986449"
   ],
-  "_ts": "2026-09-03T22:42:01.037Z"
+  "_ts": "2026-09-03T22:43:25.238Z"
 }
