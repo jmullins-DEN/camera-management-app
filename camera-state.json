@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "69 in 55",
       "ts": 1788444430381,
-      "synced": false
+      "synced": true,
+      "infItemId": "2fadde75-490b-495c-bd19-ab1f362c2126",
+      "syncError": null
     },
     {
       "id": "L1788444400062445",
@@ -68194,7 +68196,8 @@
     "07df32d8-eb41-4269-be52-8815ab8d4700",
     "7f62c984-deb3-4fa7-b989-77f7288bc287",
     "286e1ac8-27e7-433c-a569-e24773a259ae",
-    "7fe1dda9-a11f-417d-8c44-e7d27b64128d"
+    "7fe1dda9-a11f-417d-8c44-e7d27b64128d",
+    "2fadde75-490b-495c-bd19-ab1f362c2126"
   ],
-  "_ts": "2026-09-03T14:07:10.444Z"
+  "_ts": "2026-09-03T14:07:14.089Z"
 }
