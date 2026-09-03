@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "Rolling Stop; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54456495-ff66-5f00-9b4d-b6eb087f3992&event=54456495-ff66-5f00-9b4d-b6eb087f3992&deviceId=281474994873792&eventMs=1788393946982",
       "ts": 1788473926089,
-      "synced": false
+      "synced": true,
+      "infItemId": "5f371c1d-1570-4c5d-85f7-db44eb612816",
+      "syncError": null
     },
     {
       "id": "L1788473824709586",
@@ -68668,7 +68670,8 @@
     "f4c32b18-9494-424f-8c1e-e5d157ab12f4",
     "491dd386-e1ed-4cae-bf29-705d8659d359",
     "29ea748d-c424-4ea1-9e98-6b99828a8853",
-    "60b84fcf-af58-4486-a4c9-727b75a867ae"
+    "60b84fcf-af58-4486-a4c9-727b75a867ae",
+    "5f371c1d-1570-4c5d-85f7-db44eb612816"
   ],
-  "_ts": "2026-09-03T22:18:46.175Z"
+  "_ts": "2026-09-03T22:18:49.394Z"
 }
