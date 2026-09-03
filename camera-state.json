@@ -386,7 +386,8 @@
       "notes": "\nAlert 6440837143; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bc3ff339-6975-461e-97fb-18d4cf7255a3.mp4",
       "ts": 1788442152759,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788441821375185",
@@ -68040,5 +68041,5 @@
     "4796e06c-3f45-48b3-997e-0dc4eadc5294",
     "c617f9da-3109-4150-a972-39e58e7483d8"
   ],
-  "_ts": "2026-09-03T13:31:20.012Z"
+  "_ts": "2026-09-03T13:38:19.558Z"
 }
