@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788444464011551",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Schnippel",
+      "driverId": "019a0810-437c-7aae-88b4-674ea2919606",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1788444464011,
+      "synced": false
+    },
+    {
       "id": "L1788444430381839",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -68199,5 +68212,5 @@
     "7fe1dda9-a11f-417d-8c44-e7d27b64128d",
     "2fadde75-490b-495c-bd19-ab1f362c2126"
   ],
-  "_ts": "2026-09-03T14:07:14.089Z"
+  "_ts": "2026-09-03T14:07:44.073Z"
 }
