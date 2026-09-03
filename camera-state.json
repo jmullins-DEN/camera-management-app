@@ -535,9 +535,9 @@
       "coaching": "Coaching Notes",
       "notes": "Hard Brake;\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=54456365-3069-523d-89d8-db60c1a2d837&triageStates%5B%5D=NeedsReview",
       "ts": 1788471763875,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "5e95072e-8b94-4c0c-9d86-8dc4cc41c321"
     },
     {
       "id": "L1788471621963391",
@@ -68709,7 +68709,8 @@
     "5f371c1d-1570-4c5d-85f7-db44eb612816",
     "5784980f-39b2-4551-bfa8-29906a7a8cf7",
     "63b74705-2d9d-4661-a248-2c4572907aab",
-    "edf7c586-0ce8-49eb-b4dc-8ef51f068eca"
+    "edf7c586-0ce8-49eb-b4dc-8ef51f068eca",
+    "5e95072e-8b94-4c0c-9d86-8dc4cc41c321"
   ],
-  "_ts": "2026-09-03T22:24:27.920Z"
+  "_ts": "2026-09-03T22:24:29.961Z"
 }
