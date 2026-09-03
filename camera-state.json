@@ -370,7 +370,8 @@
       "coaching": "Coaching Notes",
       "notes": "Speeding\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=544561e6-50aa-5fcf-a11c-2893b93a07dd",
       "ts": 1788475318159,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788475097595911",
@@ -68822,5 +68823,5 @@
     "d712a572-755d-4d10-854d-3aadf95d4500",
     "7158499b-c763-41bb-b21e-f5188b986449"
   ],
-  "_ts": "2026-09-03T22:41:58.279Z"
+  "_ts": "2026-09-03T22:42:01.037Z"
 }
