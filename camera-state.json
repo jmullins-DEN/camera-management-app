@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788444400062445",
+      "board": "XVLVu2Du8hc",
+      "driver": "Chad Smith",
+      "driverId": "019a0810-437c-7aae-88b4-7558aa34aed8",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "70 in 55",
+      "ts": 1788444400062,
+      "synced": false
+    },
+    {
       "id": "L1788444372733258",
       "board": "XVLVu2Du8hc",
       "driver": "Susan Cobleigh",
@@ -68167,5 +68180,5 @@
     "7f62c984-deb3-4fa7-b989-77f7288bc287",
     "286e1ac8-27e7-433c-a569-e24773a259ae"
   ],
-  "_ts": "2026-09-03T14:06:17.291Z"
+  "_ts": "2026-09-03T14:06:40.129Z"
 }
