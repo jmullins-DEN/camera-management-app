@@ -370,7 +370,8 @@
       "coaching": "Face to Face",
       "notes": "no seatbelt\nhttps://app.estrack.com/#/camera/events/6a98bf010a2e68f46ebcfbe3",
       "ts": 1788445932418,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788445805221225",
@@ -68334,5 +68335,5 @@
     "cba1beff-8055-4fca-9968-fb2e5126d481",
     "cf3fc9d6-e4d6-49b8-b0fc-9048011aae0f"
   ],
-  "_ts": "2026-09-03T14:32:12.480Z"
+  "_ts": "2026-09-03T14:32:15.636Z"
 }
