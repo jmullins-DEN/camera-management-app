@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788442276724279",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Edgar",
+      "driverId": "b9264849-0688-4ec0-87b7-179a9e9670a8",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6441760995; stop light violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b8837b24-6cbf-4c10-bb52-837f4f5c9e7c.mp4",
+      "ts": 1788442276724,
+      "synced": false
+    },
+    {
       "id": "L1788442152759281",
       "board": "8BUntjK1TqV",
       "driver": "Ochoa, Jeremy",
@@ -370,7 +383,8 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 6440837143; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bc3ff339-6975-461e-97fb-18d4cf7255a3.mp4",
       "ts": 1788442152759,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788441821375185",
@@ -68023,5 +68037,5 @@
     "c9c02a9c-99df-454a-86d9-c938c21f2aa8",
     "4796e06c-3f45-48b3-997e-0dc4eadc5294"
   ],
-  "_ts": "2026-09-03T13:29:12.825Z"
+  "_ts": "2026-09-03T13:31:16.783Z"
 }
