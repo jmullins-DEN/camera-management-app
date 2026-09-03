@@ -368,7 +368,7 @@
       "reviewed": "2026-09-03",
       "behavior": "Driver Distraction-Phone",
       "coaching": "Unidentified Driver",
-      "notes": "texting\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=5445655b-a276-5f3e-b54b-2d46470771c5&triageStates%5B%5D=NeedsReview&event=5445655b-a276-5f3e-b54b-2d46470771c5&deviceId=281474980616004&eventMs=1788406899318",
+      "notes": "texting; vehicle #234\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=5445655b-a276-5f3e-b54b-2d46470771c5&triageStates%5B%5D=NeedsReview&event=5445655b-a276-5f3e-b54b-2d46470771c5&deviceId=281474980616004&eventMs=1788406899318",
       "ts": 1788445220409,
       "synced": true,
       "infItemId": "a3896cab-79a6-4428-ad6b-b1e2e3cd1c59",
@@ -68259,5 +68259,5 @@
     "90dc7533-b246-4010-b6a0-54d9184c3a15",
     "a3896cab-79a6-4428-ad6b-b1e2e3cd1c59"
   ],
-  "_ts": "2026-09-03T14:20:24.809Z"
+  "_ts": "2026-09-03T14:22:39.407Z"
 }
