@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788474686108298",
+      "board": "8gejhhHJj4e",
+      "driver": "Ron McConnell",
+      "driverId": "56728cc2-d6f8-445b-b78f-85d6f9e43751",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54456348-f8af-5824-810a-5d12a462153e",
+      "ts": 1788474686108,
+      "synced": false
+    },
+    {
       "id": "L178847451124128",
       "board": "8gejhhHJj4e",
       "driver": "Bernardo Gomez",
@@ -68747,5 +68760,5 @@
     "54e9e20c-ebc6-497a-b3d7-4c3801da40ff",
     "0158cfb1-1a16-4292-ad4f-bb903654713a"
   ],
-  "_ts": "2026-09-03T22:28:33.587Z"
+  "_ts": "2026-09-03T22:31:26.191Z"
 }
