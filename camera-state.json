@@ -431,7 +431,8 @@
       "notes": "no seatbelt\nhttps://app.estrack.com/#/camera/events/6a98bf010a2e68f46ebcfbe3",
       "ts": 1788445932418,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788445805221225",
@@ -460,7 +461,8 @@
       "notes": "texting\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&activeFolder=needs_review&uuid=5445634a-98ef-5eac-bc1b-a87ec4cbd2d4",
       "ts": 1788445622143,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788445479421255",
@@ -519,7 +521,8 @@
       "notes": "driver drowsy",
       "ts": 1788444933678,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788444605632152",
@@ -548,7 +551,8 @@
       "notes": "70 in 55",
       "ts": 1788444464011,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788444430381839",
@@ -652,7 +656,8 @@
       "notes": "\nAlert 1613867466; following too close; vehicle #459\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fb85f84a-2b20-4ea1-9142-8c36195ecb2a.mp4",
       "ts": 1788444173770,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788443545164246",
@@ -68399,5 +68404,5 @@
     "973952a8-a8df-4da4-aaf8-d20308d2b343",
     "8244e780-48f0-4f4d-af1f-19f5ad9dc494"
   ],
-  "_ts": "2026-09-03T14:34:56.728Z"
+  "_ts": "2026-09-03T15:41:37.277Z"
 }
