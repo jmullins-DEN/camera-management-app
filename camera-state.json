@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788474840238202",
+      "board": "8gejhhHJj4e",
+      "driver": "ROBERT JACOBS # 0017",
+      "driverId": "be61d5f2-fa81-4ba6-ac2f-586a961b4a7b",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Hard Brake/ Lane Violation\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54456325-155b-5cb2-b32a-39489f692238",
+      "ts": 1788474840238,
+      "synced": false
+    },
+    {
       "id": "L1788474686108298",
       "board": "8gejhhHJj4e",
       "driver": "Ron McConnell",
@@ -68763,5 +68776,5 @@
     "0158cfb1-1a16-4292-ad4f-bb903654713a",
     "c7c509c8-4cea-4332-b22d-a031f17707b0"
   ],
-  "_ts": "2026-09-03T22:31:28.822Z"
+  "_ts": "2026-09-03T22:34:00.361Z"
 }
