@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788471621963391",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Emery, Shane",
+      "driverId": "a227860a-3661-45e8-95fc-addf4e926cc5",
+      "date": "2026-09-02",
+      "reviewed": "2026-09-03",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "https://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&uuid=54456469-0dea-50f4-913e-b7e55e6ccbe1&triageStates%5B%5D=NeedsReview\nFollowing Distance",
+      "ts": 1788471621963,
+      "synced": false
+    },
+    {
       "id": "L178847144645774",
       "board": "nWRsGRSm2Hn",
       "driver": "Ackerman, Jason",
@@ -68501,5 +68514,5 @@
     "8bd13492-c7df-41f0-9ed1-19c398553c6c",
     "3c146a83-21d4-443e-bf33-0d33d015a414"
   ],
-  "_ts": "2026-09-03T21:37:32.386Z"
+  "_ts": "2026-09-03T21:40:22.081Z"
 }
