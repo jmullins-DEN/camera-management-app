@@ -386,7 +386,8 @@
       "notes": "Alert 1255526453370585088:  Hard Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/629b71a1-b0d9-4224-b180-c50702f99db1.mp4",
       "ts": 1788491589141,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": "e1d5161f-cd65-433b-a80e-944236893c34"
     },
     {
       "id": "L1788491294130954",
@@ -68992,5 +68993,5 @@
     "399e36ea-09bb-422b-b256-f1489ed1a873",
     "340d4245-c01d-41db-a384-dbccb755f600"
   ],
-  "_ts": "2026-09-04T03:15:39.002Z"
+  "_ts": "2026-09-04T11:31:07.016Z"
 }
