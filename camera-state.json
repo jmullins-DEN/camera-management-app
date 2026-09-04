@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788560896841869",
+      "board": "8gejhhHJj4e",
+      "driver": "Amie Roberts",
+      "driverId": "019e69ed-8223-71e8-9730-4c45c0c07ca7",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=54456756-3b0c-57af-a37f-a4847a363f2a&triageStates%5B%5D=NeedsReview",
+      "ts": 1788560896841,
+      "synced": false
+    },
+    {
       "id": "L1788560800698916",
       "board": "8gejhhHJj4e",
       "driver": "Mark Davis",
@@ -70096,5 +70109,5 @@
     "ef9266ae-981e-48e2-99b8-bbc434d98eef",
     "bfc28c38-67af-4334-84be-907ba338c958"
   ],
-  "_ts": "2026-09-04T22:26:43.380Z"
+  "_ts": "2026-09-04T22:28:16.913Z"
 }
