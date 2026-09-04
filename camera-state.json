@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788556192061120",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Clark, Karilyn",
+      "driverId": "3e094628-69a3-4b7a-8927-115c48deb98c",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera alignment\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=54456759-1fb9-59ea-b220-99690a0a13d9&triageStates%5B%5D=NeedsReview",
+      "ts": 1788556192061,
+      "synced": false
+    },
+    {
       "id": "L1788537849898833",
       "board": "UKkbYDchPMh",
       "driver": "Alexander Gilbertson",
@@ -69724,5 +69737,5 @@
     "2d16d748-41ae-4cee-b4e3-834eb2664b7d",
     "51815a04-fd1c-4c9a-955e-1d3dc5bb567e"
   ],
-  "_ts": "2026-09-04T20:59:20.892Z"
+  "_ts": "2026-09-04T21:09:52.132Z"
 }
