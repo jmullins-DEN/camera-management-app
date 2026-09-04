@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 436419564:  Harsh Braking/Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e1abd2eb-9789-4f71-90b3-88675408aba7.mp4",
       "ts": 1788489171248,
-      "synced": false
+      "synced": true,
+      "infItemId": "ca58dbe4-6c4c-4681-a23c-e8b57d55b4e9",
+      "syncError": null
     },
     {
       "id": "L1788488966770218",
@@ -68909,7 +68911,8 @@
     "d712a572-755d-4d10-854d-3aadf95d4500",
     "7158499b-c763-41bb-b21e-f5188b986449",
     "8b350b1c-cc3d-4413-a065-931f97c7ce02",
-    "2748bc78-a0b0-4583-8394-3c163eaf1831"
+    "2748bc78-a0b0-4583-8394-3c163eaf1831",
+    "ca58dbe4-6c4c-4681-a23c-e8b57d55b4e9"
   ],
-  "_ts": "2026-09-04T02:32:51.322Z"
+  "_ts": "2026-09-04T02:32:54.169Z"
 }
