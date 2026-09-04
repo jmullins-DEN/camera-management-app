@@ -370,7 +370,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; truck #168\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=54456969-1ef8-542b-ad92-7413389c0723&triageStates%5B%5D=NeedsReview",
       "ts": 1788528180922,
-      "synced": false
+      "synced": true,
+      "infItemId": "33abdfc7-a08e-456c-87ed-daac7fdcc4b5",
+      "syncError": null
     },
     {
       "id": "L1788527739866251",
@@ -69375,7 +69377,8 @@
     "7b9645ed-4a66-4c54-9a78-08f8eed247bc",
     "77fd157b-08fd-4a6a-b01c-335dd1f1b141",
     "705f009c-4dae-4d89-bca1-9fae53912906",
-    "048f35ae-d9db-45e8-8288-5157daa88fc3"
+    "048f35ae-d9db-45e8-8288-5157daa88fc3",
+    "33abdfc7-a08e-456c-87ed-daac7fdcc4b5"
   ],
-  "_ts": "2026-09-04T13:23:00.987Z"
+  "_ts": "2026-09-04T13:23:04.442Z"
 }
