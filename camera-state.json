@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L17885571154469",
+      "board": "9RKrQRpDLcr",
+      "driver": "Eddie Bowden",
+      "driverId": "76f293bd-490e-4125-9f52-43689ac2c613",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Speeding\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&triageStates%5B%5D=NeedsReview&uuid=5445678a-d76d-5c17-b5d0-8aaba7efcfaf",
+      "ts": 1788557115446,
+      "synced": false
+    },
+    {
       "id": "L1788557032404850",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -69820,5 +69833,5 @@
     "3e0f77be-6b5d-4c4a-8751-d1551c9c581c",
     "23b74a44-b10a-40d2-a533-d1fbe18247af"
   ],
-  "_ts": "2026-09-04T21:23:55.740Z"
+  "_ts": "2026-09-04T21:25:15.521Z"
 }
