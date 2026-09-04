@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995718521-1788556166461\nHard Brake/ Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/806d58ff-e46d-43af-99e3-639414e6187d.mp4",
       "ts": 1788557981395,
-      "synced": false
+      "synced": true,
+      "infItemId": "8d38bad7-f00e-4140-9061-9d32a339e31f",
+      "syncError": null
     },
     {
       "id": "L1788557887196692",
@@ -69909,7 +69911,8 @@
     "ecc5e8fd-5dc9-4b00-9322-91afc250177f",
     "5345723d-8913-4e21-b9b6-d1bbe0f4bd28",
     "28a09edf-df41-4623-bddf-5c1956cbc9cf",
-    "5706f7f9-c9aa-45c5-abb7-efe8da17d49c"
+    "5706f7f9-c9aa-45c5-abb7-efe8da17d49c",
+    "8d38bad7-f00e-4140-9061-9d32a339e31f"
   ],
-  "_ts": "2026-09-04T21:39:41.475Z"
+  "_ts": "2026-09-04T21:39:43.995Z"
 }
