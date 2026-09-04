@@ -370,7 +370,9 @@
       "coaching": "Face to Face",
       "notes": "no seatbelt\nhttps://app.estrack.com/#/camera/events/6a9981315b6838cdafa74ae2",
       "ts": 1788528658036,
-      "synced": false
+      "synced": true,
+      "infItemId": "c4801d2b-958a-4a3f-98c0-673fca63f1fa",
+      "syncError": null
     },
     {
       "id": "L1788528603418494",
@@ -69453,7 +69455,8 @@
     "33abdfc7-a08e-456c-87ed-daac7fdcc4b5",
     "b64dd96c-8b2d-47e5-8865-131c27d726dc",
     "80e32cf8-ba74-46f4-9941-d94a0d0245d7",
-    "5474b4f9-50ff-4cd4-bd30-2b6292ad26bd"
+    "5474b4f9-50ff-4cd4-bd30-2b6292ad26bd",
+    "c4801d2b-958a-4a3f-98c0-673fca63f1fa"
   ],
-  "_ts": "2026-09-04T13:30:58.099Z"
+  "_ts": "2026-09-04T13:31:01.954Z"
 }
