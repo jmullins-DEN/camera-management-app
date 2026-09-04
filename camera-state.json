@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788537535354878",
+      "board": "UKkbYDchPMh",
+      "driver": "Michael Erwin",
+      "driverId": "925f7088-82d5-43ea-b30b-1826dc25f3b1",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "https://app.estrack.com/#/camera/events/6a99e6915b6838cdafa80079",
+      "ts": 1788537535354,
+      "synced": false
+    },
+    {
       "id": "L1788537438989117",
       "board": "UKkbYDchPMh",
       "driver": "Matthew Fox",
@@ -372,7 +385,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a998edd5b6838cdafa76624",
       "ts": 1788537438989,
-      "synced": false
+      "synced": true,
+      "infItemId": "8df65b33-1053-4bd6-bf34-16d443e6912e",
+      "syncError": null
     },
     {
       "id": "L178853722515688",
@@ -69669,7 +69684,8 @@
     "9c3192e4-5d35-4071-b356-0eba3bef8a7b",
     "9e93362c-14be-4fcc-ad0d-952a7a670980",
     "82490b2c-787b-44a2-9821-2873015a7624",
-    "9dccb2bd-e18d-4c42-be49-11ebaacb167d"
+    "9dccb2bd-e18d-4c42-be49-11ebaacb167d",
+    "8df65b33-1053-4bd6-bf34-16d443e6912e"
   ],
-  "_ts": "2026-09-04T15:57:19.055Z"
+  "_ts": "2026-09-04T15:58:55.414Z"
 }
