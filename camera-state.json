@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788528180922604",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "texting; truck #168\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=54456969-1ef8-542b-ad92-7413389c0723&triageStates%5B%5D=NeedsReview",
+      "ts": 1788528180922,
+      "synced": false
+    },
+    {
       "id": "L1788527739866251",
       "board": "ebSND1QoyBs",
       "driver": "Jerand Townsel",
@@ -69364,5 +69377,5 @@
     "705f009c-4dae-4d89-bca1-9fae53912906",
     "048f35ae-d9db-45e8-8288-5157daa88fc3"
   ],
-  "_ts": "2026-09-04T13:15:44.145Z"
+  "_ts": "2026-09-04T13:23:00.987Z"
 }
