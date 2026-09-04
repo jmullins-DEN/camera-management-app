@@ -362,6 +362,48 @@
   },
   "local": [
     {
+      "id": "L1788559739798585",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Donald White",
+      "driverId": "3395edc8-b651-4030-87d2-fcc15a78e26b",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/8005169/fleet/reports/safety/inbox_feed?tags%5B%5D=4330353&tags%5B%5D=4724012&duration=691199.999&end_ms=1788584399999&uuid=5445675d-5786-5693-ac48-1ba71e91123b&triageStates%5B%5D=NeedsReview",
+      "ts": 1788559739798,
+      "synced": false
+    },
+    {
+      "id": "L1788559152301420",
+      "board": "ic6o6QgzpVM",
+      "driver": "Adalberto Guerra",
+      "driverId": "8fcd591f-0516-40b0-8600-5b871b2f7c47",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction; Face to Face\nAlert 6457233790\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/86cebb04-edbc-4b15-a06e-4c944c800192.mp4",
+      "ts": 1788559152301,
+      "synced": true,
+      "infItemId": "c24b79c3-8fff-4b66-ac34-4ca50921f8fb",
+      "syncError": null
+    },
+    {
+      "id": "L1788558938397867",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Marvin Cogle",
+      "driverId": "a3a24b57-85ba-4eac-9ab9-078e135b7660",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Alert 281474995731919-1788531729666",
+      "ts": 1788558938397,
+      "synced": false,
+      "syncError": "Failed to fetch"
+    },
+    {
       "id": "L178855875221729",
       "board": "AKJSkJj6Ch4",
       "driver": "Joe Riley",
@@ -69942,7 +69984,8 @@
     "28a09edf-df41-4623-bddf-5c1956cbc9cf",
     "5706f7f9-c9aa-45c5-abb7-efe8da17d49c",
     "8d38bad7-f00e-4140-9061-9d32a339e31f",
-    "cc631827-9cf3-493e-80bd-cecb810fc104"
+    "cc631827-9cf3-493e-80bd-cecb810fc104",
+    "c24b79c3-8fff-4b66-ac34-4ca50921f8fb"
   ],
-  "_ts": "2026-09-04T21:52:34.504Z"
+  "_ts": "2026-09-04T22:08:59.865Z"
 }
