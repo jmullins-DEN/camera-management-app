@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788522942722482",
+      "board": "ioWX9hneUsk",
+      "driver": "Mike Moreno",
+      "driverId": "87336685-c050-4032-a72f-72ccab66eb4d",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1255588228740841472; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/48e44502-cd22-4b0c-af0b-300847c3ef4c.mp4\n",
+      "ts": 1788522942722,
+      "synced": false
+    },
+    {
       "id": "L1788522393236814",
       "board": "8BUntjK1TqV",
       "driver": "Romero, Jose",
@@ -69035,5 +69048,5 @@
     "9f85b2f6-2522-41b0-ba43-4332a8c82487",
     "1cf48336-2404-45dd-9d10-3f576f28234e"
   ],
-  "_ts": "2026-09-04T11:46:36.823Z"
+  "_ts": "2026-09-04T11:55:42.790Z"
 }
