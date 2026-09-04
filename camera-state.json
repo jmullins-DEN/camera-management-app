@@ -400,8 +400,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; vehicle #234\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&triageStates%5B%5D=NeedsReview&activeFolder=needs_review&uuid=54456839-9cee-5531-abee-3df3733ecb8c",
       "ts": 1788528459566,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e753a558-a9e8-4bb8-83f1-6a6a905a4678"
     },
     {
       "id": "L1788528401999679",
@@ -489,8 +490,9 @@
       "coaching": "Coaching Notes",
       "notes": "no seatbelt",
       "ts": 1788527493461,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "14e2c6f7-943d-4a61-b340-a8f756fcd921"
     },
     {
       "id": "L1788527367461189",
@@ -533,8 +535,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy; loses lane",
       "ts": 1788527088599,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "0ffbacab-a6a9-47be-9539-983b9bd356d7"
     },
     {
       "id": "L1788526965783613",
@@ -592,9 +595,9 @@
       "coaching": "Coaching Notes",
       "notes": "no seatbelt\n",
       "ts": 1788526727268,
-      "synced": false,
+      "synced": true,
       "infItemId": "a49ee236-ba4d-48d7-8528-fb33b2a984e5",
-      "syncError": "reference 429"
+      "syncError": null
     },
     {
       "id": "L1788526556528178",
@@ -682,8 +685,9 @@
       "coaching": "Face to Face",
       "notes": "72 in 55",
       "ts": 1788526409495,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "055e4e3a-d967-4408-b84c-36b7132f800b"
     },
     {
       "id": "L178852524921483",
@@ -69456,7 +69460,11 @@
     "b64dd96c-8b2d-47e5-8865-131c27d726dc",
     "80e32cf8-ba74-46f4-9941-d94a0d0245d7",
     "5474b4f9-50ff-4cd4-bd30-2b6292ad26bd",
-    "c4801d2b-958a-4a3f-98c0-673fca63f1fa"
+    "c4801d2b-958a-4a3f-98c0-673fca63f1fa",
+    "e753a558-a9e8-4bb8-83f1-6a6a905a4678",
+    "14e2c6f7-943d-4a61-b340-a8f756fcd921",
+    "0ffbacab-a6a9-47be-9539-983b9bd356d7",
+    "a49ee236-ba4d-48d7-8528-fb33b2a984e5"
   ],
-  "_ts": "2026-09-04T13:31:47.572Z"
+  "_ts": "2026-09-04T13:31:54.211Z"
 }
