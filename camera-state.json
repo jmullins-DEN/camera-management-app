@@ -417,8 +417,9 @@
       "coaching": "System Alert",
       "notes": "Camera alignment\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=54456759-1fb9-59ea-b220-99690a0a13d9&triageStates%5B%5D=NeedsReview",
       "ts": 1788556192061,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "3e0f77be-6b5d-4c4a-8751-d1551c9c581c"
     },
     {
       "id": "L1788537849898833",
@@ -69784,7 +69785,8 @@
     "51815a04-fd1c-4c9a-955e-1d3dc5bb567e",
     "6e18f17e-31f5-4c09-956e-5a85180209f5",
     "66adc308-9852-4cf0-88da-0d8b8beb64ad",
-    "6a5fdf9b-419b-46b0-ae33-b20802b06452"
+    "6a5fdf9b-419b-46b0-ae33-b20802b06452",
+    "3e0f77be-6b5d-4c4a-8751-d1551c9c581c"
   ],
-  "_ts": "2026-09-04T21:19:58.727Z"
+  "_ts": "2026-09-04T21:20:02.031Z"
 }
