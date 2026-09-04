@@ -550,8 +550,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54456325-155b-5cb2-b32a-39489f692238",
       "ts": 1788474952380,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f48e5343-bd88-4b30-a495-d495af3e965f"
     },
     {
       "id": "L1788474840238202",
@@ -1284,8 +1285,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6448095132:  Hard Braking/Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5dae8d18-c6b3-4a30-8f00-c9aca85458d9.mp4",
       "ts": 1788442149732,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bdd299dd-a792-440e-84dc-d22385887c95"
     },
     {
       "id": "L1788441821375185",
@@ -68997,7 +68999,9 @@
     "340d4245-c01d-41db-a384-dbccb755f600",
     "e1d5161f-cd65-433b-a80e-944236893c34",
     "b4ca5247-8092-442f-a72a-ddf92790ffd2",
-    "e0423111-d6b2-4c2f-9080-f531030d1d8f"
+    "e0423111-d6b2-4c2f-9080-f531030d1d8f",
+    "f48e5343-bd88-4b30-a495-d495af3e965f",
+    "bdd299dd-a792-440e-84dc-d22385887c95"
   ],
-  "_ts": "2026-09-04T11:31:10.278Z"
+  "_ts": "2026-09-04T11:31:13.613Z"
 }
