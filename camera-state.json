@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788489171248896",
+      "board": "5gVKeGRDf8U",
+      "driver": "Allen Edwards",
+      "driverId": "0199cea6-ac5c-777d-b6cf-a65e4d88e166",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 436419564:  Harsh Braking/Cab Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e1abd2eb-9789-4f71-90b3-88675408aba7.mp4",
+      "ts": 1788489171248,
+      "synced": false
+    },
+    {
       "id": "L1788488966770218",
       "board": "5gVKeGRDf8U",
       "driver": "Dustin Porter",
@@ -68898,5 +68911,5 @@
     "8b350b1c-cc3d-4413-a065-931f97c7ce02",
     "2748bc78-a0b0-4583-8394-3c163eaf1831"
   ],
-  "_ts": "2026-09-04T02:29:32.872Z"
+  "_ts": "2026-09-04T02:32:51.322Z"
 }
