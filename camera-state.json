@@ -397,7 +397,7 @@
       "reviewed": "2026-09-04",
       "behavior": "Hard Brake / Turn",
       "coaching": "Coaching Notes",
-      "notes": "hard brake",
+      "notes": "hard brake\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&triageStates%5B%5D=InCoaching&triageStates%5B%5D=NeedsRecognition&triageStates%5B%5D=NeedsReview&triageStates%5B%5D=Recognized&triageStates%5B%5D=Reviewed&activeFolder=all&uuid=54456913-2c89-505f-ae77-30a2cfcff379&event=54456913-2c89-505f-ae77-30a2cfcff379&deviceId=281474989599775&eventMs=1788469259401",
       "ts": 1788527367461,
       "synced": true,
       "infItemId": "77fd157b-08fd-4a6a-b01c-335dd1f1b141",
@@ -69348,5 +69348,5 @@
     "77fd157b-08fd-4a6a-b01c-335dd1f1b141",
     "705f009c-4dae-4d89-bca1-9fae53912906"
   ],
-  "_ts": "2026-09-04T13:13:03.326Z"
+  "_ts": "2026-09-04T13:13:34.356Z"
 }
