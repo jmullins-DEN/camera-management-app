@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788556774110781",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jonathan Walters",
+      "driverId": "019aebda-9836-7773-b920-0c15b0fac800",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Speeding\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=5445689a-d460-55fb-80e6-3b9fbd47285b&triageStates%5B%5D=NeedsReview",
+      "ts": 1788556774110,
+      "synced": false
+    },
+    {
       "id": "L1788556576488480",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -69770,5 +69783,5 @@
     "6e18f17e-31f5-4c09-956e-5a85180209f5",
     "66adc308-9852-4cf0-88da-0d8b8beb64ad"
   ],
-  "_ts": "2026-09-04T21:16:19.402Z"
+  "_ts": "2026-09-04T21:19:34.163Z"
 }
