@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788527088599935",
+      "board": "YJNwKvzFhkj",
+      "driver": "Jonathan Hall",
+      "driverId": "019dd5f2-3f5d-718a-8a2d-11a1e06b6dd4",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy; loses lane",
+      "ts": 1788527088599,
+      "synced": false
+    },
+    {
       "id": "L1788526965783613",
       "board": "YJNwKvzFhkj",
       "driver": "Omar Bowers",
@@ -69272,5 +69285,5 @@
     "0155768c-ceba-4dab-bdce-fc38c2457611",
     "e03f5189-0678-4ebb-8b27-1b21f83074f7"
   ],
-  "_ts": "2026-09-04T13:02:49.277Z"
+  "_ts": "2026-09-04T13:04:48.663Z"
 }
