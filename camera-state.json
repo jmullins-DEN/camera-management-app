@@ -385,8 +385,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1255526453370585088:  Hard Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/629b71a1-b0d9-4224-b180-c50702f99db1.mp4",
       "ts": 1788491589141,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "e1d5161f-cd65-433b-a80e-944236893c34"
     },
     {
@@ -490,7 +490,9 @@
       "coaching": "Coaching Notes",
       "notes": "Following Distance;\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=54455d2e-ef22-5b83-9c51-32f9b9af4b42",
       "ts": 1788475602776,
-      "synced": false
+      "synced": true,
+      "infItemId": "b4ca5247-8092-442f-a72a-ddf92790ffd2",
+      "syncError": null
     },
     {
       "id": "L1788475405113400",
@@ -518,8 +520,9 @@
       "coaching": "Coaching Notes",
       "notes": "Speeding\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788497999999&triageStates%5B%5D=NeedsReview&uuid=544561e6-50aa-5fcf-a11c-2893b93a07dd",
       "ts": 1788475318159,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "e0423111-d6b2-4c2f-9080-f531030d1d8f"
     },
     {
       "id": "L1788475097595911",
@@ -68991,7 +68994,10 @@
     "a763bfed-e3d1-42b7-88ea-99548093b012",
     "d0f8c472-8c73-49e5-bb7c-b7f394982c91",
     "399e36ea-09bb-422b-b256-f1489ed1a873",
-    "340d4245-c01d-41db-a384-dbccb755f600"
+    "340d4245-c01d-41db-a384-dbccb755f600",
+    "e1d5161f-cd65-433b-a80e-944236893c34",
+    "b4ca5247-8092-442f-a72a-ddf92790ffd2",
+    "e0423111-d6b2-4c2f-9080-f531030d1d8f"
   ],
-  "_ts": "2026-09-04T11:31:07.016Z"
+  "_ts": "2026-09-04T11:31:10.278Z"
 }
