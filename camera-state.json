@@ -370,7 +370,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 436242007:  Obstruction/ Visors\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a8a90927-03dc-4ad2-a687-2b713e564d83.mp4",
       "ts": 1788488966770,
-      "synced": false
+      "synced": true,
+      "infItemId": "2748bc78-a0b0-4583-8394-3c163eaf1831",
+      "syncError": null
     },
     {
       "id": "L1788488624410913",
@@ -68893,7 +68895,8 @@
     "c7c509c8-4cea-4332-b22d-a031f17707b0",
     "d712a572-755d-4d10-854d-3aadf95d4500",
     "7158499b-c763-41bb-b21e-f5188b986449",
-    "8b350b1c-cc3d-4413-a065-931f97c7ce02"
+    "8b350b1c-cc3d-4413-a065-931f97c7ce02",
+    "2748bc78-a0b0-4583-8394-3c163eaf1831"
   ],
-  "_ts": "2026-09-04T02:29:26.855Z"
+  "_ts": "2026-09-04T02:29:32.872Z"
 }
