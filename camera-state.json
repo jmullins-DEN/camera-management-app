@@ -362,6 +362,34 @@
   },
   "local": [
     {
+      "id": "L1788560732369647",
+      "board": "8gejhhHJj4e",
+      "driver": "Ricardo Hernandez #3696",
+      "driverId": "a46f3146-f241-41de-a81a-cc76d079da51",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=544567cd-efff-5b21-977a-05fefd5b9b97&triageStates%5B%5D=NeedsReview",
+      "ts": 1788560732369,
+      "synced": false
+    },
+    {
+      "id": "L1788560525151478",
+      "board": "8gejhhHJj4e",
+      "driver": "Diego Molina",
+      "driverId": "019c52f4-ef0c-7005-aff8-bf8f1567bc26",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "https://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=544568d1-a951-5e37-8d83-05d3a3c3a6a1&triageStates%5B%5D=NeedsReview",
+      "ts": 1788560525151,
+      "synced": true,
+      "infItemId": "ef9266ae-981e-48e2-99b8-bbc434d98eef",
+      "syncError": null
+    },
+    {
       "id": "L1788560412922166",
       "board": "8gejhhHJj4e",
       "driver": "John Kinney",
@@ -70048,7 +70076,8 @@
     "c24b79c3-8fff-4b66-ac34-4ca50921f8fb",
     "49a09099-ef20-4140-805e-596adef6e057",
     "4ab88044-9f30-44be-8757-a2fb1f4a1c50",
-    "d67b753a-7c8f-4ff4-9834-f3545421609d"
+    "d67b753a-7c8f-4ff4-9834-f3545421609d",
+    "ef9266ae-981e-48e2-99b8-bbc434d98eef"
   ],
-  "_ts": "2026-09-04T22:20:15.689Z"
+  "_ts": "2026-09-04T22:25:32.449Z"
 }
