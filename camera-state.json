@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788557981394780",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joey Bybee",
+      "driverId": "6ef40755-ac1b-4acc-9407-af1efbd1de3a",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995718521-1788556166461\nHard Brake/ Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/806d58ff-e46d-43af-99e3-639414e6187d.mp4",
+      "ts": 1788557981395,
+      "synced": false
+    },
+    {
       "id": "L1788557887196692",
       "board": "AKJSkJj6Ch4",
       "driver": "Joey Bybee",
@@ -69898,5 +69911,5 @@
     "28a09edf-df41-4623-bddf-5c1956cbc9cf",
     "5706f7f9-c9aa-45c5-abb7-efe8da17d49c"
   ],
-  "_ts": "2026-09-04T21:38:09.755Z"
+  "_ts": "2026-09-04T21:39:41.475Z"
 }
