@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L178852827506666",
+      "board": "KYqKJWuumPm",
+      "driver": "Russell Johnston",
+      "driverId": "019dd600-56e2-74fc-a4f3-0eaaba3beca7",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; possible phone",
+      "ts": 1788528275066,
+      "synced": false
+    },
+    {
       "id": "L1788528180922604",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -69380,5 +69393,5 @@
     "048f35ae-d9db-45e8-8288-5157daa88fc3",
     "33abdfc7-a08e-456c-87ed-daac7fdcc4b5"
   ],
-  "_ts": "2026-09-04T13:23:04.442Z"
+  "_ts": "2026-09-04T13:24:35.135Z"
 }
