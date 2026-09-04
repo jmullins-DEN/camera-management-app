@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788522154391948",
+      "board": "8BUntjK1TqV",
+      "driver": "unassigned",
+      "driverId": "3111c34f-9af4-4713-a299-41121dca9bbd",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Drowsy Driving",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6447769676; driver drowsy; vehicle #4182\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/306abefa-c2cf-42a2-8601-fbda447a1a3e.mp4",
+      "ts": 1788522154391,
+      "synced": false
+    },
+    {
       "id": "L1788491734428691",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -69003,5 +69016,5 @@
     "f48e5343-bd88-4b30-a495-d495af3e965f",
     "bdd299dd-a792-440e-84dc-d22385887c95"
   ],
-  "_ts": "2026-09-04T11:31:13.613Z"
+  "_ts": "2026-09-04T11:42:34.453Z"
 }
