@@ -362,6 +362,34 @@
   },
   "local": [
     {
+      "id": "L1788560216785901",
+      "board": "8gejhhHJj4e",
+      "driver": "John Kinney",
+      "driverId": "019b0e57-4d1b-7ddc-8d9d-b1294631231d",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "https://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=54456996-7ba1-5902-a1fd-875bbbe7ba15&triageStates%5B%5D=NeedsReview",
+      "ts": 1788560216786,
+      "synced": false
+    },
+    {
+      "id": "L178856014346734",
+      "board": "8gejhhHJj4e",
+      "driver": "Jessica Romero",
+      "driverId": "f0fda8ea-b0ee-427c-b52d-571fb5d22bac",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "https://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=544569fc-5267-5080-ae16-15951f62417a&triageStates%5B%5D=NeedsReview&event=544569fc-5267-5080-ae16-15951f62417a&deviceId=281474989065743&eventMs=1788484538983",
+      "ts": 1788560143467,
+      "synced": true,
+      "infItemId": "49a09099-ef20-4140-805e-596adef6e057",
+      "syncError": null
+    },
+    {
       "id": "L1788559739798585",
       "board": "Wk4Si2ZgUVU",
       "driver": "Donald White",
@@ -69986,7 +70014,8 @@
     "5706f7f9-c9aa-45c5-abb7-efe8da17d49c",
     "8d38bad7-f00e-4140-9061-9d32a339e31f",
     "cc631827-9cf3-493e-80bd-cecb810fc104",
-    "c24b79c3-8fff-4b66-ac34-4ca50921f8fb"
+    "c24b79c3-8fff-4b66-ac34-4ca50921f8fb",
+    "49a09099-ef20-4140-805e-596adef6e057"
   ],
-  "_ts": "2026-09-04T22:09:02.089Z"
+  "_ts": "2026-09-04T22:16:56.866Z"
 }
