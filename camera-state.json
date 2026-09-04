@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788523054952254",
+      "board": "ioWX9hneUsk",
+      "driver": "Alexis Vega",
+      "driverId": "52e82bc0-8ce1-4fa1-8368-e13925a70493",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1255506094634205184; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ed13dba-01c0-41b9-bd10-616791e16fae.mp4",
+      "ts": 1788523054952,
+      "synced": false
+    },
+    {
       "id": "L1788522942722482",
       "board": "ioWX9hneUsk",
       "driver": "Mike Moreno",
@@ -69049,5 +69062,5 @@
     "9f85b2f6-2522-41b0-ba43-4332a8c82487",
     "1cf48336-2404-45dd-9d10-3f576f28234e"
   ],
-  "_ts": "2026-09-04T11:55:46.566Z"
+  "_ts": "2026-09-04T11:57:35.018Z"
 }
