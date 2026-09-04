@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788522393236814",
+      "board": "8BUntjK1TqV",
+      "driver": "Romero, Jose",
+      "driverId": "01a01104-1573-7451-82d4-ae3d9ec949a2",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6451607120; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1ff05039-9999-4960-a0f0-c472391f8c8b.mp4\n",
+      "ts": 1788522393236,
+      "synced": false
+    },
+    {
       "id": "L1788522154391948",
       "board": "8BUntjK1TqV",
       "driver": "unassigned",
@@ -69019,5 +69032,5 @@
     "bdd299dd-a792-440e-84dc-d22385887c95",
     "9f85b2f6-2522-41b0-ba43-4332a8c82487"
   ],
-  "_ts": "2026-09-04T11:42:37.956Z"
+  "_ts": "2026-09-04T11:46:33.299Z"
 }
