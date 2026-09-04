@@ -360,6 +360,19 @@
   },
   "local": [
     {
+      "id": "L1788526965783613",
+      "board": "YJNwKvzFhkj",
+      "driver": "Omar Bowers",
+      "driverId": "019de578-01af-72b0-8958-f7d1b5b1e786",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting; backward camera obscured",
+      "ts": 1788526965783,
+      "synced": false
+    },
+    {
       "id": "L1788526855969812",
       "board": "xMfRLnqAN7y",
       "driver": "Gerard Barahona",
@@ -69256,5 +69269,5 @@
     "3538249f-6987-43ef-983c-14125702292f",
     "0155768c-ceba-4dab-bdce-fc38c2457611"
   ],
-  "_ts": "2026-09-04T13:01:08.327Z"
+  "_ts": "2026-09-04T13:02:45.855Z"
 }
