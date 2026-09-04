@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788557887196692",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joey Bybee",
+      "driverId": "6ef40755-ac1b-4acc-9407-af1efbd1de3a",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Following Distance; Face to Face\nAlert 281474995718521-1788556597384\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7c91436f-5bb7-4e42-9b2a-fbb0bb474d20.mp4",
+      "ts": 1788557887196,
+      "synced": false
+    },
+    {
       "id": "L178855756294930",
       "board": "AKJSkJj6Ch4",
       "driver": "Bailey Bulyer",
@@ -372,7 +385,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995771683-1788541123743\nHard Turn/ Speed\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b23b01d2-acb7-4958-ba06-67ad48f22072.mp4",
       "ts": 1788557562950,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788557308047729",
@@ -69881,5 +69895,5 @@
     "5345723d-8913-4e21-b9b6-d1bbe0f4bd28",
     "28a09edf-df41-4623-bddf-5c1956cbc9cf"
   ],
-  "_ts": "2026-09-04T21:32:43.076Z"
+  "_ts": "2026-09-04T21:38:07.272Z"
 }
