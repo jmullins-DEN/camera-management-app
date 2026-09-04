@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788556852775907",
+      "board": "5gVKeGRDf8U",
+      "driver": "Dustin Porter",
+      "driverId": "914a4155-9f1f-40b8-b2a8-26a1ba330d0a",
+      "date": "2026-09-03",
+      "reviewed": "2026-09-04",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 436281078; critical event\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/325b4612-f8f0-46bd-b547-bc152b479041.mp4\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8f9b7387-2474-4388-bdef-d4cc9b3663ea.mp4",
+      "ts": 1788556852775,
+      "synced": false
+    },
+    {
       "id": "L1788556774110781",
       "board": "9RKrQRpDLcr",
       "driver": "Jonathan Walters",
@@ -69788,5 +69801,5 @@
     "6a5fdf9b-419b-46b0-ae33-b20802b06452",
     "3e0f77be-6b5d-4c4a-8751-d1551c9c581c"
   ],
-  "_ts": "2026-09-04T21:20:02.031Z"
+  "_ts": "2026-09-04T21:20:52.843Z"
 }
