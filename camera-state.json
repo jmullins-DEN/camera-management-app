@@ -372,7 +372,9 @@
       "coaching": "Critical Event",
       "notes": "Alert 436903026:  Forward Collision Warning\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f205a1c9-63b0-4728-8d71-a1d79ee0e5d5.mp4",
       "ts": 1788583533108,
-      "synced": false
+      "synced": true,
+      "infItemId": "81c40225-4b54-4673-bb12-ec5750b46f63",
+      "syncError": null
     },
     {
       "id": "L1788583383408721",
@@ -70212,7 +70214,8 @@
     "e84c24de-03b3-42a6-bd70-f3637e371793",
     "8bbfe7c3-2e97-4f92-b5e9-d9da9cd24cf9",
     "2b4e15ae-579e-4a8e-9c16-bc6b4096222b",
-    "837c424e-0136-4c50-a709-32618ee87350"
+    "837c424e-0136-4c50-a709-32618ee87350",
+    "81c40225-4b54-4673-bb12-ec5750b46f63"
   ],
-  "_ts": "2026-09-05T04:45:33.183Z"
+  "_ts": "2026-09-05T04:45:36.880Z"
 }
