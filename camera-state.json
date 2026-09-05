@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788583852062983",
+      "board": "aRcazTLT9iM",
+      "driver": "Kayle Hardesty",
+      "driverId": "e5025aa6-23c4-41f8-bdff-db30ea0197d7",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-05",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 1615154794:  Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a8783fd0-58cb-4513-aa50-c5c3707d91ea.mp4",
+      "ts": 1788583852062,
+      "synced": false
+    },
+    {
       "id": "L178858374496616",
       "board": "aRcazTLT9iM",
       "driver": "Josiah Garrett",
@@ -70233,5 +70246,5 @@
     "81c40225-4b54-4673-bb12-ec5750b46f63",
     "d7179a8f-c215-4b2f-8384-3d24d797d57c"
   ],
-  "_ts": "2026-09-05T04:49:09.839Z"
+  "_ts": "2026-09-05T04:50:52.144Z"
 }
