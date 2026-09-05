@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788613988116594",
+      "board": "7d53dL31ioV",
+      "driver": "Unassigned",
+      "driverId": "d8f4a8e1-c854-48f7-81c9-f7ce79807828",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-05",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6458205805:  Truck # 26 Hand Held Phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c2dc4384-8c8d-4612-bd0c-57d2f207d6fb.mp4",
+      "ts": 1788613988116,
+      "synced": false
+    },
+    {
       "id": "L1788583852062983",
       "board": "aRcazTLT9iM",
       "driver": "Kayle Hardesty",
@@ -70249,5 +70262,5 @@
     "d7179a8f-c215-4b2f-8384-3d24d797d57c",
     "1e9f665e-3203-4fa9-91a2-52367d751df7"
   ],
-  "_ts": "2026-09-05T04:50:55.055Z"
+  "_ts": "2026-09-05T13:13:08.197Z"
 }
