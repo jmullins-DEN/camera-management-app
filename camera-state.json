@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1256007785792045056: Listed as Hard Brake it is Obscene Gesture\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b25f4795-049d-411a-93b3-6be6ec1dda40.mp4\n",
       "ts": 1788616045442,
-      "synced": false
+      "synced": true,
+      "infItemId": "89aafaca-6664-4ae2-af63-c46d744f1182",
+      "syncError": null
     },
     {
       "id": "L1788614329572989",
@@ -70308,7 +70310,8 @@
     "1e9f665e-3203-4fa9-91a2-52367d751df7",
     "3dc38627-40bc-41a2-a8db-11833f141fc1",
     "c7beb03c-1565-465c-8f81-7ddc6424f21f",
-    "fea0ed12-8029-4bd6-bb53-4cf8406dd0ae"
+    "fea0ed12-8029-4bd6-bb53-4cf8406dd0ae",
+    "89aafaca-6664-4ae2-af63-c46d744f1182"
   ],
-  "_ts": "2026-09-05T13:47:25.514Z"
+  "_ts": "2026-09-05T13:47:30.029Z"
 }
