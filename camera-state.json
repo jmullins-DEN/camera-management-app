@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 436802260:  Following Distance\n\nWe appreciate your dedication to our company and want to work to keep you safe.  Following distance is one of the most important safe driving habits to develop.  Keeping at least a 4 second cushion between you and the vehicle in front of you is the first step in becoming a more professional driver.  With heavier loads and longer commercial vehicles, it is recommended by the National Safety Council that you increase this cushion additional seconds.  The recommendation also increases in inclement weather.  Keeping these factors in mind can help you GET HOME SAFE!\n",
       "ts": 1788583042524,
-      "synced": false
+      "synced": true,
+      "infItemId": "2b4e15ae-579e-4a8e-9c16-bc6b4096222b",
+      "syncError": null
     },
     {
       "id": "L1788582905435496",
@@ -70166,7 +70168,8 @@
     "ef9266ae-981e-48e2-99b8-bbc434d98eef",
     "bfc28c38-67af-4334-84be-907ba338c958",
     "e84c24de-03b3-42a6-bd70-f3637e371793",
-    "8bbfe7c3-2e97-4f92-b5e9-d9da9cd24cf9"
+    "8bbfe7c3-2e97-4f92-b5e9-d9da9cd24cf9",
+    "2b4e15ae-579e-4a8e-9c16-bc6b4096222b"
   ],
-  "_ts": "2026-09-05T04:37:22.597Z"
+  "_ts": "2026-09-05T04:37:26.066Z"
 }
