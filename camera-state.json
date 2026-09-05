@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788616045442755",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Roland Villarreal",
+      "driverId": "f7c8333d-8023-43a7-ab5b-09a3f0fa335b",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-05",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 1256007785792045056: Listed as Hard Brake it is Obscene Gesture\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b25f4795-049d-411a-93b3-6be6ec1dda40.mp4\n",
+      "ts": 1788616045442,
+      "synced": false
+    },
+    {
       "id": "L1788614329572989",
       "board": "7d53dL31ioV",
       "driver": "Walker Sims",
@@ -70297,5 +70310,5 @@
     "c7beb03c-1565-465c-8f81-7ddc6424f21f",
     "fea0ed12-8029-4bd6-bb53-4cf8406dd0ae"
   ],
-  "_ts": "2026-09-05T13:18:53.872Z"
+  "_ts": "2026-09-05T13:47:25.514Z"
 }
