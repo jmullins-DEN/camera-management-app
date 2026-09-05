@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1615040625:  Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/437b0d65-1ed0-4505-be2e-baba51db79de.mp4",
       "ts": 1788583744966,
-      "synced": false
+      "synced": true,
+      "infItemId": "d7179a8f-c215-4b2f-8384-3d24d797d57c",
+      "syncError": null
     },
     {
       "id": "L1788583533108941",
@@ -70228,7 +70230,8 @@
     "8bbfe7c3-2e97-4f92-b5e9-d9da9cd24cf9",
     "2b4e15ae-579e-4a8e-9c16-bc6b4096222b",
     "837c424e-0136-4c50-a709-32618ee87350",
-    "81c40225-4b54-4673-bb12-ec5750b46f63"
+    "81c40225-4b54-4673-bb12-ec5750b46f63",
+    "d7179a8f-c215-4b2f-8384-3d24d797d57c"
   ],
-  "_ts": "2026-09-05T04:49:05.048Z"
+  "_ts": "2026-09-05T04:49:07.645Z"
 }
