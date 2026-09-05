@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788583533108941",
+      "board": "5gVKeGRDf8U",
+      "driver": "William Davis",
+      "driverId": "916ba624-793b-42cf-9cb5-6f7de228854b",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-05",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Alert 436903026:  Forward Collision Warning\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f205a1c9-63b0-4728-8d71-a1d79ee0e5d5.mp4",
+      "ts": 1788583533108,
+      "synced": false
+    },
+    {
       "id": "L1788583383408721",
       "board": "5gVKeGRDf8U",
       "driver": "Richard Coleman",
@@ -70201,5 +70214,5 @@
     "2b4e15ae-579e-4a8e-9c16-bc6b4096222b",
     "837c424e-0136-4c50-a709-32618ee87350"
   ],
-  "_ts": "2026-09-05T04:43:07.398Z"
+  "_ts": "2026-09-05T04:45:33.183Z"
 }
