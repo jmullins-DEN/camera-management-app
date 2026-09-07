@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788812702752849",
+      "board": "8gejhhHJj4e",
+      "driver": "Ricardo Hernandez #3696",
+      "driverId": "a46f3146-f241-41de-a81a-cc76d079da51",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling Stop;\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&triageStates%5B%5D=NeedsReview&uuid=54456dd0-da0c-55c0-970f-3d35917099a3",
+      "ts": 1788812702752,
+      "synced": false
+    },
+    {
       "id": "L1788812564439756",
       "board": "8gejhhHJj4e",
       "driver": "Luis Martinez",
@@ -70650,5 +70663,5 @@
     "accf4964-1499-4a40-ac8a-b882d0bee8f2",
     "50a7d034-6539-4593-a5f0-2f27f4a9d905"
   ],
-  "_ts": "2026-09-07T20:22:48.574Z"
+  "_ts": "2026-09-07T20:25:02.812Z"
 }
