@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788800992496839",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Clark, Karilyn",
+      "driverId": "3e094628-69a3-4b7a-8927-115c48deb98c",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "camera tilted\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456cec-f80d-565d-8bd7-83b64fd7bb92&triageStates%5B%5D=NeedsReview",
+      "ts": 1788800992496,
+      "synced": false
+    },
+    {
       "id": "L1788616392055302",
       "board": "7W2SQKrNcXQ",
       "driver": "Roberto Ramirez",
@@ -70363,5 +70376,5 @@
     "30eadd2f-3357-40ef-8dcb-4e3f858fabb4",
     "7e8685ff-648c-458c-b68a-9910243e94c6"
   ],
-  "_ts": "2026-09-07T17:05:58.876Z"
+  "_ts": "2026-09-07T17:09:52.552Z"
 }
