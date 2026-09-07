@@ -372,7 +372,9 @@
       "coaching": "Critical Event",
       "notes": "near miss; driver drowsy\n",
       "ts": 1788823353086,
-      "synced": false
+      "synced": true,
+      "infItemId": "cea32087-c294-4980-8b0a-69c9ff4ca444",
+      "syncError": null
     },
     {
       "id": "L1788822943824123",
@@ -70997,7 +70999,8 @@
     "f88121d4-e844-4f70-95e9-c5bd8fd360bd",
     "7f00a335-ab9b-4341-ad16-65670d1b1a43",
     "8a1cd255-9359-46d1-ba8d-8b57f9885b34",
-    "e081c2a5-5678-4fb6-bf99-3e1047572149"
+    "e081c2a5-5678-4fb6-bf99-3e1047572149",
+    "cea32087-c294-4980-8b0a-69c9ff4ca444"
   ],
-  "_ts": "2026-09-07T23:22:33.152Z"
+  "_ts": "2026-09-07T23:22:36.105Z"
 }
