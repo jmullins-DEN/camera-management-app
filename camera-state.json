@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788807940295737",
+      "board": "9RKrQRpDLcr",
+      "driver": "Thomas Neff III",
+      "driverId": "bc3a13e2-3010-49de-9d4f-9923ee1f5af0",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456d6b-f968-5bb1-a731-29128e6c039c&triageStates%5B%5D=NeedsReview",
+      "ts": 1788807940295,
+      "synced": false
+    },
+    {
       "id": "L1788807809785177",
       "board": "9RKrQRpDLcr",
       "driver": "Drew Template",
@@ -372,7 +385,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding ; Face to Face\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456dcd-8efa-5937-96e6-de10a0658cbb&triageStates%5B%5D=NeedsReview",
       "ts": 1788807809785,
-      "synced": false
+      "synced": true,
+      "infItemId": "d5649741-01bb-403b-8798-b157a26bd3b5",
+      "syncError": null
     },
     {
       "id": "L1788807738018702",
@@ -70533,7 +70548,8 @@
     "2a780839-6b4d-470b-9727-ff7c6e4e4959",
     "308d5c3e-e0cf-463f-ba2c-99a91230d2db",
     "d34adad2-7b20-41ad-a084-6c2b56f79a07",
-    "7340998b-8e5b-4d7c-9d3c-ac2daf857fba"
+    "7340998b-8e5b-4d7c-9d3c-ac2daf857fba",
+    "d5649741-01bb-403b-8798-b157a26bd3b5"
   ],
-  "_ts": "2026-09-07T19:03:29.835Z"
+  "_ts": "2026-09-07T19:05:40.350Z"
 }
