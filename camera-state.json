@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281475005996859-1788647275201\nCab Distraction; Keep hands on the Wheel\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6057a169-f112-4339-b46b-1a19dde69bf3.mp4",
       "ts": 1788814682432,
-      "synced": false
+      "synced": true,
+      "infItemId": "359d2275-0131-47b7-bfd9-24ab43aadcdf",
+      "syncError": null
     },
     {
       "id": "L1788814403070351",
@@ -70831,7 +70833,8 @@
     "383c3625-98a4-414f-9a48-81cedda9f35a",
     "90b2e523-d57b-4626-ad37-987e3a82009c",
     "af0d11ad-4453-48b2-82ef-8039b4a334cf",
-    "8f3aa1ce-2676-4705-b0a9-b9d27cef51b6"
+    "8f3aa1ce-2676-4705-b0a9-b9d27cef51b6",
+    "359d2275-0131-47b7-bfd9-24ab43aadcdf"
   ],
-  "_ts": "2026-09-07T20:58:02.497Z"
+  "_ts": "2026-09-07T20:58:07.227Z"
 }
