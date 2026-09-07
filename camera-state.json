@@ -362,6 +362,34 @@
   },
   "local": [
     {
+      "id": "L1788824157984594",
+      "board": "xMfRLnqAN7y",
+      "driver": "Paul Hyde",
+      "driverId": "019bdd40-71ae-7997-8bde-874eed4eca8c",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting",
+      "ts": 1788824157984,
+      "synced": false
+    },
+    {
+      "id": "L1788824098572995",
+      "board": "xMfRLnqAN7y",
+      "driver": "Dragan Bosnjak",
+      "driverId": "6c568571-fd2f-45d5-8ce7-7b25410b30ca",
+      "date": "2026-09-05",
+      "reviewed": "2026-09-07",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "multi-tasking with two hands; loses lane\n",
+      "ts": 1788824098572,
+      "synced": true,
+      "infItemId": "11a6fe40-3a81-433a-80f2-687cbb2f3c58",
+      "syncError": null
+    },
+    {
       "id": "L1788824014658239",
       "board": "xMfRLnqAN7y",
       "driver": "Paul Hyde",
@@ -71189,7 +71217,8 @@
     "6c5429e2-1daa-42b0-8571-1a86a574c07f",
     "ec8a0a3d-c4a2-4b07-a76b-39c75a7fd40d",
     "c1410c91-0028-4188-aae1-82769fc2ea36",
-    "bef43e1f-c06e-4dc7-a9e4-d6325fd9fb43"
+    "bef43e1f-c06e-4dc7-a9e4-d6325fd9fb43",
+    "11a6fe40-3a81-433a-80f2-687cbb2f3c58"
   ],
-  "_ts": "2026-09-07T23:33:45.078Z"
+  "_ts": "2026-09-07T23:35:58.050Z"
 }
