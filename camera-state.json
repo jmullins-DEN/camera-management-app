@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&triageStates%5B%5D=NeedsReview&uuid=54457254-a8cc-5f41-a0d0-967c4f83cc39",
       "ts": 1788801183338,
-      "synced": false
+      "synced": true,
+      "infItemId": "353c1241-7fb9-4334-91a7-9c641f8eefdd",
+      "syncError": null
     },
     {
       "id": "L178880110008751",
@@ -386,7 +388,8 @@
       "notes": "https://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&triageStates%5B%5D=NeedsReview&uuid=5445735c-8420-5995-9980-992303b62669\nFollowing Distance",
       "ts": 1788801100087,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788800992496839",
@@ -70404,7 +70407,8 @@
     "bc6754b9-a797-4c5f-9c0b-930d95cc9039",
     "30eadd2f-3357-40ef-8dcb-4e3f858fabb4",
     "7e8685ff-648c-458c-b68a-9910243e94c6",
-    "edbd07a0-5b86-47f6-849d-b3a6dc4978b1"
+    "edbd07a0-5b86-47f6-849d-b3a6dc4978b1",
+    "353c1241-7fb9-4334-91a7-9c641f8eefdd"
   ],
-  "_ts": "2026-09-07T17:13:03.387Z"
+  "_ts": "2026-09-07T17:13:18.907Z"
 }
