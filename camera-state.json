@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Distraction in Cab; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&triageStates%5B%5D=NeedsReview&uuid=54456d98-65b4-5979-98a7-f32876db3c15",
       "ts": 1788812804091,
-      "synced": false
+      "synced": true,
+      "infItemId": "5f9f0ad0-6dde-41c2-9ce2-c67c1757ba2a",
+      "syncError": null
     },
     {
       "id": "L1788812702752849",
@@ -70675,7 +70677,8 @@
     "fc26e7c6-2979-4da2-84f4-e503fb9f3148",
     "b52a2170-5cb8-4bed-b220-4f8cd58817c6",
     "accf4964-1499-4a40-ac8a-b882d0bee8f2",
-    "50a7d034-6539-4593-a5f0-2f27f4a9d905"
+    "50a7d034-6539-4593-a5f0-2f27f4a9d905",
+    "5f9f0ad0-6dde-41c2-9ce2-c67c1757ba2a"
   ],
-  "_ts": "2026-09-07T20:26:44.148Z"
+  "_ts": "2026-09-07T20:26:50.507Z"
 }
