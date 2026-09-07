@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456cd7-8e81-59d7-bee9-bf021dc3c68d&triageStates%5B%5D=NeedsReview",
       "ts": 1788808103205,
-      "synced": false
+      "synced": true,
+      "infItemId": "67f29d4b-926e-4d36-a2a5-d9ef88568b21",
+      "syncError": null
     },
     {
       "id": "L1788808017813425",
@@ -70579,7 +70581,8 @@
     "d34adad2-7b20-41ad-a084-6c2b56f79a07",
     "7340998b-8e5b-4d7c-9d3c-ac2daf857fba",
     "d5649741-01bb-403b-8798-b157a26bd3b5",
-    "79a860f1-e462-41d5-aa64-9f1c144afc3e"
+    "79a860f1-e462-41d5-aa64-9f1c144afc3e",
+    "67f29d4b-926e-4d36-a2a5-d9ef88568b21"
   ],
-  "_ts": "2026-09-07T19:08:23.256Z"
+  "_ts": "2026-09-07T19:08:27.765Z"
 }
