@@ -567,8 +567,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 436879486:  Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b56fe05b-5868-4b57-8727-0ca80fe899a5.mp4",
       "ts": 1788582766241,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "d3cf9a60-5dd5-4d3f-a26d-744e0c84e86f"
     },
     {
       "id": "L1788560993196617",
@@ -626,9 +627,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=544567cd-efff-5b21-977a-05fefd5b9b97&triageStates%5B%5D=NeedsReview",
       "ts": 1788560732369,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "78c0429f-3ed4-439b-b4b5-1dd16adb42e7"
     },
     {
       "id": "L1788560525151478",
@@ -656,9 +657,9 @@
       "coaching": "Face to Face",
       "notes": "https://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788584399999&uuid=544568ed-1ea1-5942-8d2d-60cab4f9c126&triageStates%5B%5D=NeedsReview",
       "ts": 1788560412922,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "dd76ee69-ab6d-4cef-ac00-6da3d20aee2c"
     },
     {
       "id": "L1788560277656229",
@@ -716,9 +717,9 @@
       "coaching": "Coaching Notes",
       "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/8005169/fleet/reports/safety/inbox_feed?tags%5B%5D=4330353&tags%5B%5D=4724012&duration=691199.999&end_ms=1788584399999&uuid=5445675d-5786-5693-ac48-1ba71e91123b&triageStates%5B%5D=NeedsReview",
       "ts": 1788559739798,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bc6754b9-a797-4c5f-9c0b-930d95cc9039"
     },
     {
       "id": "L1788559152301420",
@@ -70354,7 +70355,11 @@
     "89aafaca-6664-4ae2-af63-c46d744f1182",
     "290e28c8-3b6f-482c-ac0a-fa9be9bb39ba",
     "91ab1e18-4571-4573-900a-d2ee269ee822",
-    "c83ff52a-c7c9-4132-a402-e28e43afb171"
+    "c83ff52a-c7c9-4132-a402-e28e43afb171",
+    "d3cf9a60-5dd5-4d3f-a26d-744e0c84e86f",
+    "78c0429f-3ed4-439b-b4b5-1dd16adb42e7",
+    "dd76ee69-ab6d-4cef-ac00-6da3d20aee2c",
+    "bc6754b9-a797-4c5f-9c0b-930d95cc9039"
   ],
-  "_ts": "2026-09-07T17:05:47.384Z"
+  "_ts": "2026-09-07T17:05:52.466Z"
 }
