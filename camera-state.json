@@ -362,6 +362,21 @@
   },
   "local": [
     {
+      "id": "L1788823848523619",
+      "board": "xMfRLnqAN7y",
+      "driver": "Ryan Durrence",
+      "driverId": "019ef043-60c2-7796-aaa8-8bf92995fa58",
+      "date": "2026-09-06",
+      "reviewed": "2026-09-07",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "driver distracted; loses lane",
+      "ts": 1788823848523,
+      "synced": true,
+      "infItemId": "ec8a0a3d-c4a2-4b07-a76b-39c75a7fd40d",
+      "syncError": null
+    },
+    {
       "id": "L1788823818010666",
       "board": "aRcazTLT9iM",
       "driver": "Timmy Roberts",
@@ -374,6 +389,21 @@
       "ts": 1788823818010,
       "synced": true,
       "infItemId": "c1410c91-0028-4188-aae1-82769fc2ea36",
+      "syncError": null
+    },
+    {
+      "id": "L1788823728793214",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Allen",
+      "driverId": "e08a2195-1cac-4cab-b79f-ced77b9985b0",
+      "date": "2026-09-05",
+      "reviewed": "2026-09-07",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "70 in 55",
+      "ts": 1788823728793,
+      "synced": true,
+      "infItemId": "6c5429e2-1daa-42b0-8571-1a86a574c07f",
       "syncError": null
     },
     {
@@ -403,7 +433,8 @@
       "notes": "following too close",
       "ts": 1788823627521,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178882362452069",
@@ -70993,8 +71024,8 @@
     "d0f8c472-8c73-49e5-bb7c-b7f394982c91",
     "399e36ea-09bb-422b-b256-f1489ed1a873",
     "340d4245-c01d-41db-a384-dbccb755f600",
-    "b4ca5247-8092-442f-a72a-ddf92790ffd2",
     "e1d5161f-cd65-433b-a80e-944236893c34",
+    "b4ca5247-8092-442f-a72a-ddf92790ffd2",
     "e0423111-d6b2-4c2f-9080-f531030d1d8f",
     "f48e5343-bd88-4b30-a495-d495af3e965f",
     "bdd299dd-a792-440e-84dc-d22385887c95",
@@ -71022,13 +71053,13 @@
     "80e32cf8-ba74-46f4-9941-d94a0d0245d7",
     "5474b4f9-50ff-4cd4-bd30-2b6292ad26bd",
     "c4801d2b-958a-4a3f-98c0-673fca63f1fa",
+    "04958950-658f-48db-b76b-7379952478b8",
     "e753a558-a9e8-4bb8-83f1-6a6a905a4678",
     "14e2c6f7-943d-4a61-b340-a8f756fcd921",
     "0ffbacab-a6a9-47be-9539-983b9bd356d7",
     "a49ee236-ba4d-48d7-8528-fb33b2a984e5",
-    "5098344d-bd2d-4e29-a1cf-c8dd0fa14a0e",
-    "04958950-658f-48db-b76b-7379952478b8",
     "aaaff0d2-88c3-40b4-95d1-9bd06cfde944",
+    "5098344d-bd2d-4e29-a1cf-c8dd0fa14a0e",
     "4c841c22-0191-489d-9449-d89e89a5d7bd",
     "296a3bbd-1898-47a1-b5c5-934369103960",
     "13e88168-f412-4da9-8223-54e6a0346ddc",
@@ -71045,9 +71076,10 @@
     "6e18f17e-31f5-4c09-956e-5a85180209f5",
     "66adc308-9852-4cf0-88da-0d8b8beb64ad",
     "6a5fdf9b-419b-46b0-ae33-b20802b06452",
-    "daa5fb39-e87b-451c-81c5-c5c258948f5c",
     "3e0f77be-6b5d-4c4a-8751-d1551c9c581c",
     "23b74a44-b10a-40d2-a533-d1fbe18247af",
+    "11335973-7476-4a6b-83b8-aa54c6baf1c7",
+    "daa5fb39-e87b-451c-81c5-c5c258948f5c",
     "ecc5e8fd-5dc9-4b00-9322-91afc250177f",
     "5345723d-8913-4e21-b9b6-d1bbe0f4bd28",
     "28a09edf-df41-4623-bddf-5c1956cbc9cf",
@@ -71061,6 +71093,7 @@
     "ef9266ae-981e-48e2-99b8-bbc434d98eef",
     "bfc28c38-67af-4334-84be-907ba338c958",
     "e84c24de-03b3-42a6-bd70-f3637e371793",
+    "16453c1a-37bd-4b25-baa8-583a30e72150",
     "8bbfe7c3-2e97-4f92-b5e9-d9da9cd24cf9",
     "2b4e15ae-579e-4a8e-9c16-bc6b4096222b",
     "837c424e-0136-4c50-a709-32618ee87350",
@@ -71072,9 +71105,6 @@
     "fea0ed12-8029-4bd6-bb53-4cf8406dd0ae",
     "89aafaca-6664-4ae2-af63-c46d744f1182",
     "290e28c8-3b6f-482c-ac0a-fa9be9bb39ba",
-    "41665441-dbf9-4a40-884d-21e0e6a5819b",
-    "11335973-7476-4a6b-83b8-aa54c6baf1c7",
-    "16453c1a-37bd-4b25-baa8-583a30e72150",
     "91ab1e18-4571-4573-900a-d2ee269ee822",
     "c83ff52a-c7c9-4132-a402-e28e43afb171",
     "d3cf9a60-5dd5-4d3f-a26d-744e0c84e86f",
@@ -71123,10 +71153,13 @@
     "e081c2a5-5678-4fb6-bf99-3e1047572149",
     "cea32087-c294-4980-8b0a-69c9ff4ca444",
     "33477717-4db9-4393-bd69-c828bd02b4f7",
+    "41665441-dbf9-4a40-884d-21e0e6a5819b",
     "577fd522-6089-4db3-b33b-6f45e76242ca",
     "c9f19a96-20d2-432a-be8b-9d7a86edb35e",
-    "c1410c91-0028-4188-aae1-82769fc2ea36",
-    "2aa47eb3-7de8-423e-b237-db204e007ba4"
+    "2aa47eb3-7de8-423e-b237-db204e007ba4",
+    "6c5429e2-1daa-42b0-8571-1a86a574c07f",
+    "ec8a0a3d-c4a2-4b07-a76b-39c75a7fd40d",
+    "c1410c91-0028-4188-aae1-82769fc2ea36"
   ],
-  "_ts": "2026-09-07T23:30:24.606Z"
+  "_ts": "2026-09-07T23:30:52.584Z"
 }
