@@ -537,8 +537,9 @@
       "coaching": "Coaching Notes",
       "notes": "Rolling Stop;\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&triageStates%5B%5D=NeedsReview&uuid=54456dd0-da0c-55c0-970f-3d35917099a3",
       "ts": 1788812702752,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "88f020de-f2a8-4423-b8b8-712558438c54"
     },
     {
       "id": "L1788812564439756",
@@ -596,8 +597,9 @@
       "coaching": "Coaching Notes",
       "notes": "Red Light Violation\nhttps://cloud.samsara.com/o/8005169/fleet/reports/safety/inbox_feed?tags%5B%5D=4330353&tags%5B%5D=4724012&duration=691199.999&end_ms=1788843599999&uuid=54456e6a-2049-54a9-8748-87d08c231eaf&triageStates%5B%5D=NeedsReview",
       "ts": 1788810027301,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "33f31769-9d06-4ab1-8da8-80a8d943206d"
     },
     {
       "id": "L1788808103205247",
@@ -70838,7 +70840,9 @@
     "8f3aa1ce-2676-4705-b0a9-b9d27cef51b6",
     "359d2275-0131-47b7-bfd9-24ab43aadcdf",
     "dc3e6317-ba4a-43b5-a723-974b8e5aa403",
-    "ac4f0da7-6d4d-49c1-99be-7bb7a42be324"
+    "ac4f0da7-6d4d-49c1-99be-7bb7a42be324",
+    "88f020de-f2a8-4423-b8b8-712558438c54",
+    "33f31769-9d06-4ab1-8da8-80a8d943206d"
   ],
-  "_ts": "2026-09-07T23:09:43.826Z"
+  "_ts": "2026-09-07T23:09:47.907Z"
 }
