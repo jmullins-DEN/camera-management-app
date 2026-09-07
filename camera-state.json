@@ -403,7 +403,8 @@
       "notes": "hand held phone\nhttps://app.estrack.com/#/camera/events/6a9b17f95b6838cdafa938b9",
       "ts": 1788825012624,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788824975616807",
@@ -492,7 +493,8 @@
       "notes": "looking down more than 3 seconds; possible phone",
       "ts": 1788824721216,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788824593197868",
@@ -71412,5 +71414,5 @@
     "8df843f0-c9ae-4e8f-8eae-fa4dd9060dd8",
     "0f02652d-7266-4102-8835-bf17cf487daf"
   ],
-  "_ts": "2026-09-07T23:51:33.367Z"
+  "_ts": "2026-09-07T23:55:11.470Z"
 }
