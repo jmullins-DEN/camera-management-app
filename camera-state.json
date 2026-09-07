@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788806204433597",
+      "board": "JthqRmXvJ9v",
+      "driver": "Jose Patino",
+      "driverId": "019a7b18-0863-7330-ad9a-c77eb4952fc8",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "https://cloud.samsara.com/o/50686/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&triageStates%5B%5D=NeedsReview&uuid=54456efe-0b7d-5b08-be62-3f79ba654bd9",
+      "ts": 1788806204433,
+      "synced": false
+    },
+    {
       "id": "L1788806065185913",
       "board": "JthqRmXvJ9v",
       "driver": "Zack Wyatt",
@@ -70458,5 +70471,5 @@
     "11335973-7476-4a6b-83b8-aa54c6baf1c7",
     "fef86761-1a17-4dc8-8b0b-22cb7f25eddb"
   ],
-  "_ts": "2026-09-07T18:34:31.249Z"
+  "_ts": "2026-09-07T18:36:44.489Z"
 }
