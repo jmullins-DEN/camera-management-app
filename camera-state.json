@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788807663148569",
+      "board": "9RKrQRpDLcr",
+      "driver": "Joshua Barrow",
+      "driverId": "fb47d439-4370-4376-8362-8a89b84a611c",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Speeding\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456e65-daa1-5a3c-b7fa-c4eacf57b8b3&triageStates%5B%5D=NeedsReview",
+      "ts": 1788807663149,
+      "synced": false
+    },
+    {
       "id": "L1788807592507168",
       "board": "9RKrQRpDLcr",
       "driver": "Jammie Singleton",
@@ -372,7 +385,9 @@
       "coaching": "Coaching Notes",
       "notes": "Severe Speeding\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456e8f-afc2-5b99-af7b-192a371c6428&triageStates%5B%5D=NeedsReview",
       "ts": 1788807592507,
-      "synced": false
+      "synced": true,
+      "infItemId": "308d5c3e-e0cf-463f-ba2c-99a91230d2db",
+      "syncError": null
     },
     {
       "id": "L1788806204433597",
@@ -70485,7 +70500,8 @@
     "27a3d4d9-5213-4e48-8e73-5df77c2f5de2",
     "11335973-7476-4a6b-83b8-aa54c6baf1c7",
     "fef86761-1a17-4dc8-8b0b-22cb7f25eddb",
-    "2a780839-6b4d-470b-9727-ff7c6e4e4959"
+    "2a780839-6b4d-470b-9727-ff7c6e4e4959",
+    "308d5c3e-e0cf-463f-ba2c-99a91230d2db"
   ],
-  "_ts": "2026-09-07T18:59:52.568Z"
+  "_ts": "2026-09-07T19:01:03.205Z"
 }
