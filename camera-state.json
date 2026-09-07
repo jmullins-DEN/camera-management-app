@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788822911907118",
+      "board": "XVLVu2Du8hc",
+      "driver": "Larry Simons",
+      "driverId": "019be2d2-f9b3-7445-b65d-4feb9f8a58ca",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "66 in 50",
+      "ts": 1788822911907,
+      "synced": false
+    },
+    {
       "id": "L1788822875161656",
       "board": "XVLVu2Du8hc",
       "driver": "Aaron Mutulo",
@@ -70956,5 +70969,5 @@
     "7f00a335-ab9b-4341-ad16-65670d1b1a43",
     "8a1cd255-9359-46d1-ba8d-8b57f9885b34"
   ],
-  "_ts": "2026-09-07T23:14:38.755Z"
+  "_ts": "2026-09-07T23:15:11.977Z"
 }
