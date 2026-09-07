@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788823353086204",
+      "board": "YfVHuM3X87v",
+      "driver": "Charles Jefride",
+      "driverId": null,
+      "date": "2026-09-07",
+      "reviewed": "2026-09-07",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "near miss; driver drowsy\n",
+      "ts": 1788823353086,
+      "synced": false
+    },
+    {
       "id": "L1788822943824123",
       "board": "XVLVu2Du8hc",
       "driver": "Steven Stoner",
@@ -70986,5 +70999,5 @@
     "8a1cd255-9359-46d1-ba8d-8b57f9885b34",
     "e081c2a5-5678-4fb6-bf99-3e1047572149"
   ],
-  "_ts": "2026-09-07T23:15:48.565Z"
+  "_ts": "2026-09-07T23:22:33.152Z"
 }
