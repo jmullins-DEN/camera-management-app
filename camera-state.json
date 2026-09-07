@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788822692235538",
+      "board": "XVLVu2Du8hc",
+      "driver": "William Burch",
+      "driverId": "019d2ff7-d3fe-7776-a7f6-1f3a8e56c41b",
+      "date": "2026-09-07",
+      "reviewed": "2026-09-07",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "78 in 55",
+      "ts": 1788822692235,
+      "synced": false
+    },
+    {
       "id": "L1788822641728192",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -70860,5 +70873,5 @@
     "33f31769-9d06-4ab1-8da8-80a8d943206d",
     "26ac7c9b-c969-4fcc-973d-942900dffdbd"
   ],
-  "_ts": "2026-09-07T23:10:46.581Z"
+  "_ts": "2026-09-07T23:11:32.298Z"
 }
