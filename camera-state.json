@@ -403,7 +403,8 @@
       "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456d6b-f968-5bb1-a731-29128e6c039c&triageStates%5B%5D=NeedsReview",
       "ts": 1788807940295,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788807809785177",
@@ -70584,5 +70585,5 @@
     "79a860f1-e462-41d5-aa64-9f1c144afc3e",
     "67f29d4b-926e-4d36-a2a5-d9ef88568b21"
   ],
-  "_ts": "2026-09-07T19:08:27.765Z"
+  "_ts": "2026-09-07T19:25:27.309Z"
 }
