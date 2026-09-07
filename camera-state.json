@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788808017813425",
+      "board": "9RKrQRpDLcr",
+      "driver": "Drew Template",
+      "driverId": "019cc67d-3f46-7886-b441-ede31717a5c3",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456cd7-8e81-59d7-bee9-bf021dc3c68d&triageStates%5B%5D=NeedsReview",
+      "ts": 1788808017813,
+      "synced": false
+    },
+    {
       "id": "L1788807940295737",
       "board": "9RKrQRpDLcr",
       "driver": "Thomas Neff III",
@@ -372,7 +385,8 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction; Face to Face\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456d6b-f968-5bb1-a731-29128e6c039c&triageStates%5B%5D=NeedsReview",
       "ts": 1788807940295,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788807809785177",
@@ -70551,5 +70565,5 @@
     "7340998b-8e5b-4d7c-9d3c-ac2daf857fba",
     "d5649741-01bb-403b-8798-b157a26bd3b5"
   ],
-  "_ts": "2026-09-07T19:05:40.350Z"
+  "_ts": "2026-09-07T19:06:57.864Z"
 }
