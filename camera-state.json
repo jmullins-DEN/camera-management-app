@@ -362,6 +362,34 @@
   },
   "local": [
     {
+      "id": "L1788823574803453",
+      "board": "YfVHuM3X87v",
+      "driver": "Ethan Owens",
+      "driverId": "1085658d-2bf7-4d84-9fbc-cb7b53debf9b",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1788823574803,
+      "synced": false
+    },
+    {
+      "id": "L178882351142833",
+      "board": "YfVHuM3X87v",
+      "driver": "Stephen Cashmore",
+      "driverId": "696db30b-119e-498a-a1a6-bf6fd61b7778",
+      "date": "2026-09-05",
+      "reviewed": "2026-09-07",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\n",
+      "ts": 1788823511428,
+      "synced": true,
+      "infItemId": "577fd522-6089-4db3-b33b-6f45e76242ca",
+      "syncError": null
+    },
+    {
       "id": "L1788823450393614",
       "board": "YfVHuM3X87v",
       "driver": "Daniel Barnett",
@@ -71033,7 +71061,8 @@
     "e081c2a5-5678-4fb6-bf99-3e1047572149",
     "cea32087-c294-4980-8b0a-69c9ff4ca444",
     "33477717-4db9-4393-bd69-c828bd02b4f7",
-    "41665441-dbf9-4a40-884d-21e0e6a5819b"
+    "41665441-dbf9-4a40-884d-21e0e6a5819b",
+    "577fd522-6089-4db3-b33b-6f45e76242ca"
   ],
-  "_ts": "2026-09-07T23:24:18.575Z"
+  "_ts": "2026-09-07T23:26:14.861Z"
 }
