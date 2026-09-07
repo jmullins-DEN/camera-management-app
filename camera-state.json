@@ -372,7 +372,8 @@
       "coaching": "Coaching Notes",
       "notes": "Red Light Violation\nhttps://cloud.samsara.com/o/8005169/fleet/reports/safety/inbox_feed?tags%5B%5D=4330353&tags%5B%5D=4724012&duration=691199.999&end_ms=1788843599999&uuid=54456e6a-2049-54a9-8748-87d08c231eaf&triageStates%5B%5D=NeedsReview",
       "ts": 1788810027301,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788808103205247",
@@ -70601,5 +70602,5 @@
     "99be8654-0553-4e56-99af-78930ffbfe60",
     "fc26e7c6-2979-4da2-84f4-e503fb9f3148"
   ],
-  "_ts": "2026-09-07T19:40:27.360Z"
+  "_ts": "2026-09-07T19:40:31.328Z"
 }
