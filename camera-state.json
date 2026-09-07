@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788807592507168",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jammie Singleton",
+      "driverId": "6e62fda9-cf01-40a0-950f-be951b2682e0",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Severe Speeding\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&uuid=54456e8f-afc2-5b99-af7b-192a371c6428&triageStates%5B%5D=NeedsReview",
+      "ts": 1788807592507,
+      "synced": false
+    },
+    {
       "id": "L1788806204433597",
       "board": "JthqRmXvJ9v",
       "driver": "Jose Patino",
@@ -70474,5 +70487,5 @@
     "fef86761-1a17-4dc8-8b0b-22cb7f25eddb",
     "2a780839-6b4d-470b-9727-ff7c6e4e4959"
   ],
-  "_ts": "2026-09-07T18:36:48.885Z"
+  "_ts": "2026-09-07T18:59:52.568Z"
 }
