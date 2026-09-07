@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788812998460609",
+      "board": "8gejhhHJj4e",
+      "driver": "Diego Molina",
+      "driverId": "019c52f4-ef0c-7005-aff8-bf8f1567bc26",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-07",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction; Face to Face\n\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788843599999&triageStates%5B%5D=NeedsReview&uuid=54456d0a-c672-589c-abfb-539a30005b75",
+      "ts": 1788812998460,
+      "synced": false
+    },
+    {
       "id": "L1788812874027130",
       "board": "8gejhhHJj4e",
       "driver": "WENDY COLTON #1939",
@@ -70696,5 +70709,5 @@
     "5f9f0ad0-6dde-41c2-9ce2-c67c1757ba2a",
     "70484500-f508-44cc-bf83-8346cb86350e"
   ],
-  "_ts": "2026-09-07T20:28:00.637Z"
+  "_ts": "2026-09-07T20:29:58.512Z"
 }
