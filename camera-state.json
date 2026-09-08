@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788909824634814",
+      "board": "kQeF7EsAnVz",
+      "driver": "Unassigned",
+      "driverId": "1d1f6959-f199-4f1d-b9a9-c2acbdb171dc",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-08",
+      "behavior": "Speeding",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6479164686: Truck # 219022 Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bb20e065-142c-476b-aad2-e2d8db0268df.mp4",
+      "ts": 1788909824634,
+      "synced": false
+    },
+    {
       "id": "L1788909648504322",
       "board": "kQeF7EsAnVz",
       "driver": "Unassigned",
@@ -72546,5 +72559,5 @@
     "617a4b2e-616d-4832-98ee-e8d054373504",
     "6f19f6ce-5349-40ef-8eec-05a1094e9894"
   ],
-  "_ts": "2026-09-08T23:20:53.618Z"
+  "_ts": "2026-09-08T23:23:44.710Z"
 }
