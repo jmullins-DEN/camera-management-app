@@ -372,7 +372,8 @@
       "coaching": "Face to Face",
       "notes": "hand held phone",
       "ts": 1788876615429,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788876560204602",
@@ -71954,5 +71955,5 @@
     "1c558c1b-105b-45df-ad92-d02acc00159a",
     "bd929e50-dbd9-4d9f-b61c-f3bbcda8ced8"
   ],
-  "_ts": "2026-09-08T14:10:15.495Z"
+  "_ts": "2026-09-08T14:10:20.244Z"
 }
