@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788875847981635",
+      "board": "ebSND1QoyBs",
+      "driver": "Maroni Vargas",
+      "driverId": "99adb324-9bdf-4194-bca2-3b7c9c3039f7",
+      "date": "2026-09-04",
+      "reviewed": "2026-09-08",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "66 in 45",
+      "ts": 1788875847981,
+      "synced": false
+    },
+    {
       "id": "L1788875660789783",
       "board": "YJNwKvzFhkj",
       "driver": "DeErick Powe",
@@ -71763,5 +71776,5 @@
     "e6bb83f0-40fc-4147-bce4-21535dd73d0c",
     "185e6837-f6bd-49a9-ab3f-6fc5ade36a3b"
   ],
-  "_ts": "2026-09-08T13:54:28.787Z"
+  "_ts": "2026-09-08T13:57:28.050Z"
 }
