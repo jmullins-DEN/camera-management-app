@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788874277410893",
+      "board": "8BUntjK1TqV",
+      "driver": "Merrick, Justin",
+      "driverId": "019b7534-7299-7aab-a844-1c2a4a4e78e7",
+      "date": "2026-09-07",
+      "reviewed": "2026-09-08",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "\nAlert 6467520006; distracted; possible phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2e9c0b2f-f636-4126-ba66-cc7367ff3f0b.mp4",
+      "ts": 1788874277410,
+      "synced": false
+    },
+    {
       "id": "L1788874150664847",
       "board": "8BUntjK1TqV",
       "driver": "Walker, Darien",
@@ -71601,5 +71614,5 @@
     "3b809ba3-76b7-4bc6-b2be-03b676575221",
     "d8492201-d898-44f1-8535-5b85fe86b370"
   ],
-  "_ts": "2026-09-08T13:29:14.889Z"
+  "_ts": "2026-09-08T13:31:17.469Z"
 }
