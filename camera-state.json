@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Red Light / Harsh Turn;\nhttps://cloud.samsara.com/o/8005169/fleet/reports/safety/inbox_feed?tags%5B%5D=4330353&tags%5B%5D=4724012&duration=691199.999&end_ms=1788929999999&uuid=54457dd3-5bfa-58f7-9469-fc0f9fa3d254&triageStates%5B%5D=NeedsReview&event=54457dd3-5bfa-58f7-9469-fc0f9fa3d254&deviceId=281474987831017&eventMs=1788817398778",
       "ts": 1788877743063,
-      "synced": false
+      "synced": true,
+      "infItemId": "f4a41289-a7d0-4d42-8133-df6c21c00cee",
+      "syncError": null
     },
     {
       "id": "L1788877474709676",
@@ -72074,7 +72076,8 @@
     "bd929e50-dbd9-4d9f-b61c-f3bbcda8ced8",
     "3d337225-32e3-40f1-89f4-30aad25f710e",
     "a3ef3c21-c360-46a7-bbe2-848fa5f168c9",
-    "c9ace521-7214-4ec6-ab33-03c21ca50059"
+    "c9ace521-7214-4ec6-ab33-03c21ca50059",
+    "f4a41289-a7d0-4d42-8133-df6c21c00cee"
   ],
-  "_ts": "2026-09-08T14:29:03.189Z"
+  "_ts": "2026-09-08T14:29:08.467Z"
 }
