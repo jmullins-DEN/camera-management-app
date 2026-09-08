@@ -448,7 +448,8 @@
       "notes": "\nAlert 6455256592; texting\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/64ba3807-ea3e-4a2f-89cc-5e4f93c44e93.mp4",
       "ts": 1788872628345,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788826010199824",
@@ -477,7 +478,8 @@
       "notes": "Alert 6463289099:  Driver Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cb04e813-2acc-4768-a342-313ff4b4d3ab.mp4",
       "ts": 1788825942745,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788825942267297",
@@ -71617,5 +71619,5 @@
     "d8492201-d898-44f1-8535-5b85fe86b370",
     "9bbbba9f-a6c5-4760-b52d-54cf82ef298e"
   ],
-  "_ts": "2026-09-08T13:31:21.169Z"
+  "_ts": "2026-09-08T13:32:06.616Z"
 }
