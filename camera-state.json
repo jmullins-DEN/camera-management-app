@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788874756266670",
+      "board": "MZerRFmhSHa",
+      "driver": "unassigned",
+      "driverId": "0752edcb-1775-4cf7-9390-a3d64d7be4bd",
+      "date": "2026-09-07",
+      "reviewed": "2026-09-08",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6457150167; backward camera blocked; assigned to Driver Education Network; truck-unassigned\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ecf1a12f-0633-449a-8041-3ec6f91594fe.mp4\n",
+      "ts": 1788874756266,
+      "synced": false
+    },
+    {
       "id": "L1788874589905763",
       "board": "8BUntjK1TqV",
       "driver": "Romero, Jose",
@@ -71673,5 +71686,5 @@
     "4062cae5-bf82-46da-80ab-1d48fad8b500",
     "acc57ea4-2961-46f7-9381-7b2ae5e7862e"
   ],
-  "_ts": "2026-09-08T13:36:38.617Z"
+  "_ts": "2026-09-08T13:39:16.334Z"
 }
