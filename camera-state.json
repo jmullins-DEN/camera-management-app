@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788899603762210",
+      "board": "4rNDuSrCaap",
+      "driver": "Trevor Lewis",
+      "driverId": "41d48780-a35f-491d-8d01-73513c6ffbdf",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-08",
+      "behavior": "Following Distance",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 437504911; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/83a77729-8951-478a-8327-18b9efb3b3ff.mp4",
+      "ts": 1788899603762,
+      "synced": false
+    },
+    {
       "id": "L1788899446850977",
       "board": "4rNDuSrCaap",
       "driver": "Steve McDowell",
@@ -72456,5 +72469,5 @@
     "a4b6bca9-9c68-4961-adce-62aa62abb603",
     "45d575f6-9a20-4826-ba94-21e259d9ef67"
   ],
-  "_ts": "2026-09-08T20:30:55.052Z"
+  "_ts": "2026-09-08T20:33:23.827Z"
 }
