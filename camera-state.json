@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788877169774573",
+      "board": "9RKrQRpDLcr",
+      "driver": "unknown",
+      "driverId": "c021762c-3e64-4287-a354-e55100eef4a8",
+      "date": "2026-09-07",
+      "reviewed": "2026-09-08",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Vehicle 685 Medium \nDistracted looking down",
+      "ts": 1788877169774,
+      "synced": false
+    },
+    {
       "id": "L1788877043191124",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -72013,5 +72026,5 @@
     "bd929e50-dbd9-4d9f-b61c-f3bbcda8ced8",
     "3d337225-32e3-40f1-89f4-30aad25f710e"
   ],
-  "_ts": "2026-09-08T14:17:36.228Z"
+  "_ts": "2026-09-08T14:19:29.897Z"
 }
