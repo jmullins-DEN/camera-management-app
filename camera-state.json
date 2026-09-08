@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788898207786242",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Earl Patrick",
+      "driverId": "a6e3f8df-848e-4e4e-ac11-0e738db4a7b9",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-08",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995729254-1788891318215\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cbd4510b-3521-4341-8e64-973a09bb0605.mp4",
+      "ts": 1788898207786,
+      "synced": false
+    },
+    {
       "id": "L1788898083696288",
       "board": "AKJSkJj6Ch4",
       "driver": "Earl Patrick",
@@ -72334,5 +72347,5 @@
     "d24e3445-94d1-464c-84e5-82844d93c2e7",
     "7e26b145-cccf-4670-b594-d5c87b420777"
   ],
-  "_ts": "2026-09-08T20:08:12.028Z"
+  "_ts": "2026-09-08T20:10:07.901Z"
 }
