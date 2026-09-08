@@ -388,7 +388,8 @@
       "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788929999999&uuid=54457dee-260a-548e-8267-a4c3be72d26a&triageStates%5B%5D=NeedsReview",
       "ts": 1788877043191,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178887696780911",
@@ -402,7 +403,8 @@
       "notes": "rolling stop; vehicle #168",
       "ts": 1788876967809,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788876771110881",
@@ -431,7 +433,8 @@
       "notes": "texting",
       "ts": 1788876697323,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788876615429709",
@@ -445,7 +448,8 @@
       "notes": "hand held phone",
       "ts": 1788876615429,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788876560204602",
@@ -72029,5 +72033,5 @@
     "3d337225-32e3-40f1-89f4-30aad25f710e",
     "a3ef3c21-c360-46a7-bbe2-848fa5f168c9"
   ],
-  "_ts": "2026-09-08T14:19:40.849Z"
+  "_ts": "2026-09-08T14:21:24.789Z"
 }
