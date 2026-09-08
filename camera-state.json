@@ -613,7 +613,7 @@
       "notes": "https://app.estrack.com/#/camera/events/6a9b18b45b6838cdafa93988",
       "ts": 1788875719051,
       "synced": false,
-      "syncError": "Failed to fetch",
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
       "infItemId": null
     },
     {
@@ -14294,7 +14294,7 @@
       "ts": 1787611451022,
       "synced": false,
       "infItemId": "db5c430a-3425-444c-ac68-77af58b41800",
-      "syncError": "reference 409"
+      "syncError": "reference 429"
     },
     {
       "id": "L1787611410787537",
@@ -72033,5 +72033,5 @@
     "3d337225-32e3-40f1-89f4-30aad25f710e",
     "a3ef3c21-c360-46a7-bbe2-848fa5f168c9"
   ],
-  "_ts": "2026-09-08T14:21:24.789Z"
+  "_ts": "2026-09-08T14:21:32.148Z"
 }
