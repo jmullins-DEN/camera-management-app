@@ -362,6 +362,34 @@
   },
   "local": [
     {
+      "id": "L1788899259474621",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joey Bybee",
+      "driverId": "6ef40755-ac1b-4acc-9407-af1efbd1de3a",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-08",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995718521-1788879343332\nFollowing Distance; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/fab27b8d-5998-4909-9a57-b1053e8ab326.mp4",
+      "ts": 1788899259474,
+      "synced": false
+    },
+    {
+      "id": "L1788898746415760",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Manny Rodenberg",
+      "driverId": "86532fab-197e-45ce-96a0-2f766a877d42",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-08",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995719079-1788881405431\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/5a096f02-2262-42b8-bcce-c9033240b6ed.mp4",
+      "ts": 1788898746415,
+      "synced": true,
+      "infItemId": "6c767426-143c-4048-8fd8-70dac2029e43",
+      "syncError": null
+    },
+    {
       "id": "L1788898504796439",
       "board": "AKJSkJj6Ch4",
       "driver": "JD Chappell",
@@ -372,7 +400,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 281474995713058-1788883106979\nSign Violation; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4a920969-a506-407c-99e6-a4256c208863.mp4",
       "ts": 1788898504796,
-      "synced": false
+      "synced": true,
+      "infItemId": "1729a9a2-e5e9-49c1-8e1c-90bcc7483fbd",
+      "syncError": null
     },
     {
       "id": "L1788898366242375",
@@ -72375,7 +72405,9 @@
     "d1f49be3-a2db-4f43-ba20-26a0773cbdd8",
     "d24e3445-94d1-464c-84e5-82844d93c2e7",
     "7e26b145-cccf-4670-b594-d5c87b420777",
-    "d9759166-0431-42e6-b4a6-d0185bdde12e"
+    "d9759166-0431-42e6-b4a6-d0185bdde12e",
+    "1729a9a2-e5e9-49c1-8e1c-90bcc7483fbd",
+    "6c767426-143c-4048-8fd8-70dac2029e43"
   ],
-  "_ts": "2026-09-08T20:15:04.924Z"
+  "_ts": "2026-09-08T20:27:39.609Z"
 }
