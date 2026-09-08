@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L178887774306393",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Chris Mcconnell",
+      "driverId": "f2d13ad5-4dd2-403e-8a10-7936765e7155",
+      "date": "2026-09-07",
+      "reviewed": "2026-09-08",
+      "behavior": "Traffic Light Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Red Light / Harsh Turn;\nhttps://cloud.samsara.com/o/8005169/fleet/reports/safety/inbox_feed?tags%5B%5D=4330353&tags%5B%5D=4724012&duration=691199.999&end_ms=1788929999999&uuid=54457dd3-5bfa-58f7-9469-fc0f9fa3d254&triageStates%5B%5D=NeedsReview&event=54457dd3-5bfa-58f7-9469-fc0f9fa3d254&deviceId=281474987831017&eventMs=1788817398778",
+      "ts": 1788877743063,
+      "synced": false
+    },
+    {
       "id": "L1788877474709676",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -372,7 +385,8 @@
       "coaching": "Face to Face",
       "notes": "Speeding; Face to Face;\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788929999999&uuid=544573c5-6554-5f60-aa59-2ea57693c9cb&triageStates%5B%5D=NeedsReview",
       "ts": 1788877474709,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788877335771192",
@@ -72062,5 +72076,5 @@
     "a3ef3c21-c360-46a7-bbe2-848fa5f168c9",
     "c9ace521-7214-4ec6-ab33-03c21ca50059"
   ],
-  "_ts": "2026-09-08T14:24:34.829Z"
+  "_ts": "2026-09-08T14:29:03.189Z"
 }
