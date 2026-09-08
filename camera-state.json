@@ -372,7 +372,8 @@
       "coaching": "Unidentified Driver",
       "notes": "rolling stop; vehicle #168",
       "ts": 1788876967809,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788876771110881",
@@ -71998,5 +71999,5 @@
     "bd929e50-dbd9-4d9f-b61c-f3bbcda8ced8",
     "3d337225-32e3-40f1-89f4-30aad25f710e"
   ],
-  "_ts": "2026-09-08T14:16:07.877Z"
+  "_ts": "2026-09-08T14:16:11.466Z"
 }
