@@ -372,7 +372,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 1617508961:  Truck # AN70  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/373450b1-b872-4e6f-98ad-620ec75a5674.mp4",
       "ts": 1788954019046,
-      "synced": false
+      "synced": true,
+      "infItemId": "35b8dbe3-9cd2-4ab8-942a-c0e3fbe3b199",
+      "syncError": null
     },
     {
       "id": "L1788953896668447",
@@ -72712,7 +72714,8 @@
     "18b063de-abb0-4a4c-a35b-d75428bbe6fe",
     "8217f8c9-10ae-4dcb-865e-6c74e9abb7d4",
     "8bb0f380-85ae-4851-9256-454a7f549539",
-    "f43e85fa-e21d-4ceb-9b3a-88317836f49e"
+    "f43e85fa-e21d-4ceb-9b3a-88317836f49e",
+    "35b8dbe3-9cd2-4ab8-942a-c0e3fbe3b199"
   ],
-  "_ts": "2026-09-09T11:40:19.144Z"
+  "_ts": "2026-09-09T11:40:21.854Z"
 }
