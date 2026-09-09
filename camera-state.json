@@ -372,7 +372,8 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6483198736: Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3e1cf0b3-aee8-4dff-aa94-766a4fb7cb90.mp4",
       "ts": 1788995005257,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788990365700408",
@@ -73833,5 +73834,5 @@
     "69d9843b-0bb6-45a7-a3b2-89a76d50bf5c",
     "5e8d1831-01ac-4d84-b3ef-ad530ca89f60"
   ],
-  "_ts": "2026-09-09T23:03:25.325Z"
+  "_ts": "2026-09-09T23:03:29.545Z"
 }
