@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788988753301437",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Joe Vannaman",
+      "driverId": "16378710-ba74-4f52-9f45-09aefe4efb16",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281475005996859-1788955119981\nStop Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e97268a1-de41-4b61-a284-91527af708a6.mp4",
+      "ts": 1788988753301,
+      "synced": false
+    },
+    {
       "id": "L1788988570439754",
       "board": "AKJSkJj6Ch4",
       "driver": "Joe Riley",
@@ -73674,5 +73687,5 @@
     "8d8ab182-fd0e-4148-b62e-216842e68996",
     "fe72eda5-6a0f-4f5f-8f94-42e73ae75aaa"
   ],
-  "_ts": "2026-09-09T21:16:13.127Z"
+  "_ts": "2026-09-09T21:19:13.409Z"
 }
