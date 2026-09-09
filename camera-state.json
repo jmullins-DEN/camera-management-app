@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788969104170584",
+      "board": "8gejhhHJj4e",
+      "driver": "Eric Bailey",
+      "driverId": "44cdc612-d6b6-4808-b3c0-d118305e844f",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Rolling Stop\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789016399999&uuid=54458225-78d2-561b-b9b9-1118f112dce7&triageStates%5B%5D=NeedsReview",
+      "ts": 1788969104170,
+      "synced": false
+    },
+    {
       "id": "L1788968964913812",
       "board": "8gejhhHJj4e",
       "driver": "Travis Rizzi",
@@ -73537,5 +73550,5 @@
     "5354ef06-ae1f-4040-bcf3-0c4d6f8c0348",
     "4eadf293-9ef8-4cf2-a88a-52a5077cbb37"
   ],
-  "_ts": "2026-09-09T15:49:29.608Z"
+  "_ts": "2026-09-09T15:51:44.244Z"
 }
