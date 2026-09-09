@@ -567,8 +567,8 @@
       "coaching": "Coaching Notes",
       "notes": "texting",
       "ts": 1788956620551,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "1b744e4c-6b63-494f-8168-3087ce959651"
     },
     {
@@ -1332,9 +1332,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a9ab5985b6838cdafa89334",
       "ts": 1788878753266,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "9106945d-9098-44aa-91b1-751f1b4c1383"
     },
     {
       "id": "L1788878661774677",
@@ -1392,9 +1392,9 @@
       "coaching": "Critical Event",
       "notes": "https://app.estrack.com/#/camera/events/6a9c39525b6838cdafa9dbff",
       "ts": 1788877496464,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "6a4031ef-1e68-491c-9677-1a867666472b"
     },
     {
       "id": "L1788877474709676",
@@ -1407,9 +1407,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding; Face to Face;\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1788929999999&uuid=544573c5-6554-5f60-aa59-2ea57693c9cb&triageStates%5B%5D=NeedsReview",
       "ts": 1788877474709,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "62d629fd-d332-4941-9229-1300347cd7eb"
     },
     {
       "id": "L1788877335771192",
@@ -73178,7 +73178,11 @@
     "9571cd2e-6bb6-4901-bcfd-cab7eedfddb6",
     "a03c3f75-28d5-4e1e-81e0-9fb86224ec61",
     "d65e5b60-4d25-4e2e-aafb-1b15695b4107",
-    "f0d43c65-a71e-45ee-9a34-95b146f7d09f"
+    "f0d43c65-a71e-45ee-9a34-95b146f7d09f",
+    "1b744e4c-6b63-494f-8168-3087ce959651",
+    "9106945d-9098-44aa-91b1-751f1b4c1383",
+    "6a4031ef-1e68-491c-9677-1a867666472b",
+    "62d629fd-d332-4941-9229-1300347cd7eb"
   ],
-  "_ts": "2026-09-09T14:04:08.729Z"
+  "_ts": "2026-09-09T14:04:13.994Z"
 }
