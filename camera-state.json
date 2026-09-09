@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788912154086693",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Brian Davis",
+      "driverId": "a263496c-7048-4987-8669-a9a154771ecd",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-08",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1257381944895897600:  Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1f5db03f-355c-4a79-9eb4-23b5b76f757d.mp4",
+      "ts": 1788912154086,
+      "synced": false
+    },
+    {
       "id": "L1788911540742161",
       "board": "aRcazTLT9iM",
       "driver": "Alex Moore",
@@ -372,7 +385,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 1616999294:  Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ac4922b6-d9ad-4e25-b959-6826eba8d7aa.mp4",
       "ts": 1788911540742,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788911386131589",
@@ -72653,5 +72667,5 @@
     "18b063de-abb0-4a4c-a35b-d75428bbe6fe",
     "8217f8c9-10ae-4dcb-865e-6c74e9abb7d4"
   ],
-  "_ts": "2026-09-08T23:52:20.841Z"
+  "_ts": "2026-09-09T00:02:34.178Z"
 }
