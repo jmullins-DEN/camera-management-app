@@ -362,6 +362,21 @@
   },
   "local": [
     {
+      "id": "L1788957182573520",
+      "board": "ebSND1QoyBs",
+      "driver": "unassigned",
+      "driverId": "019ebc03-7646-7672-934b-3eafcabe7786",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "camera obscured; vehicle #TRUCK 74",
+      "ts": 1788957182573,
+      "synced": true,
+      "infItemId": "6230b408-a585-44c7-87eb-13ec86710ac9",
+      "syncError": null
+    },
+    {
       "id": "L1788957122931248",
       "board": "ebSND1QoyBs",
       "driver": "Robert Ulrich",
@@ -372,7 +387,9 @@
       "coaching": "System Alert",
       "notes": "cameras inverted",
       "ts": 1788957122931,
-      "synced": false
+      "synced": true,
+      "infItemId": "6eb23fa2-2a0d-4009-ab5a-be152a77239a",
+      "syncError": null
     },
     {
       "id": "L1788957073588710",
@@ -73030,7 +73047,9 @@
     "708f143c-604f-4a72-9a15-eae16dab3866",
     "84fceb22-9903-4462-9088-3c48a75717d9",
     "fc2a6e5f-558d-4891-8e60-c09548814332",
-    "254e3ac6-0690-4b8f-b2cb-1a0aab731dee"
+    "254e3ac6-0690-4b8f-b2cb-1a0aab731dee",
+    "6eb23fa2-2a0d-4009-ab5a-be152a77239a",
+    "6230b408-a585-44c7-87eb-13ec86710ac9"
   ],
-  "_ts": "2026-09-09T12:32:03.001Z"
+  "_ts": "2026-09-09T12:33:04.729Z"
 }
