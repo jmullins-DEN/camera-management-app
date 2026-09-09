@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788989591845862",
+      "board": "ic6o6QgzpVM",
+      "driver": "De La Garza, Beto",
+      "driverId": "019aaba5-1360-722a-9fcd-b87cfd4d991d",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6485540919\nPossible Drowsiness\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b36ed551-d1c3-45f6-8bcb-fe1bd5555979.mp4",
+      "ts": 1788989591845,
+      "synced": false
+    },
+    {
       "id": "L1788989171377529",
       "board": "AKJSkJj6Ch4",
       "driver": "Earl Patrick",
@@ -73736,5 +73749,5 @@
     "e448ef05-84bf-4a1f-8319-45a8331e014e",
     "a676b1df-b61e-4516-b167-c529f01e6d7c"
   ],
-  "_ts": "2026-09-09T21:26:13.653Z"
+  "_ts": "2026-09-09T21:33:11.926Z"
 }
