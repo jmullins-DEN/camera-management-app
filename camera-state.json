@@ -372,9 +372,9 @@
       "coaching": "Critical Event",
       "notes": "crash.  vehicle #293851\n\n",
       "ts": 1788956509006,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c8baaf58-e1fc-433f-a45a-74f2283656e7"
     },
     {
       "id": "L1788956388803753",
@@ -447,9 +447,9 @@
       "coaching": "Face to Face",
       "notes": "55 in 30",
       "ts": 1788956176975,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b47a5085-bfd3-4920-bd6b-0aa3f416e52b"
     },
     {
       "id": "L1788956091870755",
@@ -777,9 +777,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6477426429\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f578d4a9-315e-42ea-b7a4-92b44bed6250.mp4",
       "ts": 1788902099540,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "25732f2a-ff22-4d91-8b95-63dbb9bb47e0"
     },
     {
       "id": "L1788901903388204",
@@ -792,9 +792,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 6478925077\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0b4fa423-a896-416b-bfdc-a2d2db19b4b7.mp4",
       "ts": 1788901903388,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f934f507-e6a9-455b-9888-7a5e38feb6a6"
     },
     {
       "id": "L178890178765515",
@@ -837,9 +837,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 437457987; hard brake; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/931ee211-1f73-4f32-a177-d0a6ece4169e.mp4\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b800068c-0c24-4671-a74a-0b2777aa2817.mp4\n\n",
       "ts": 1788899446851,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a436ac3e-5d3e-4aab-8cc6-b08e8865895e"
     },
     {
       "id": "L1788899311546544",
@@ -72949,7 +72949,12 @@
     "4787362e-a52e-4c72-b09f-43248407763d",
     "f093125c-e952-4290-a2e1-8ea929fd0fde",
     "eec6303f-ae30-41f0-b5eb-15ff1272a194",
-    "dbf7a7f3-0821-42f0-a29f-379c81f0f3d8"
+    "dbf7a7f3-0821-42f0-a29f-379c81f0f3d8",
+    "c8baaf58-e1fc-433f-a45a-74f2283656e7",
+    "b47a5085-bfd3-4920-bd6b-0aa3f416e52b",
+    "25732f2a-ff22-4d91-8b95-63dbb9bb47e0",
+    "f934f507-e6a9-455b-9888-7a5e38feb6a6",
+    "a436ac3e-5d3e-4aab-8cc6-b08e8865895e"
   ],
-  "_ts": "2026-09-09T12:23:13.379Z"
+  "_ts": "2026-09-09T12:23:19.404Z"
 }
