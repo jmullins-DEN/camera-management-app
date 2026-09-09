@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788967918774940",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Colby Miller",
+      "driverId": "68559404-db70-4150-a9e5-f1bd46caaa53",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Camera Obstruction\nhttps://cloud.samsara.com/o/6005545/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789016399999&uuid=54458372-f6a8-50cf-b3f6-626720de8443",
+      "ts": 1788967918774,
+      "synced": false
+    },
+    {
       "id": "L1788967362008615",
       "board": "9RKrQRpDLcr",
       "driver": "Adam Johnson",
@@ -73445,5 +73458,5 @@
     "2a287772-e76b-47bd-acbd-0609154cfb39",
     "e23552e5-fb00-49fa-9228-9c4a6626045a"
   ],
-  "_ts": "2026-09-09T15:22:46.267Z"
+  "_ts": "2026-09-09T15:31:58.884Z"
 }
