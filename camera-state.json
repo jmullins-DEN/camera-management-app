@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788954019046975",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Sign Violation",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1617508961:  Truck # AN70  Sign Violation\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/373450b1-b872-4e6f-98ad-620ec75a5674.mp4",
+      "ts": 1788954019046,
+      "synced": false
+    },
+    {
       "id": "L1788953896668447",
       "board": "aRcazTLT9iM",
       "driver": "unassigned",
@@ -72701,5 +72714,5 @@
     "8bb0f380-85ae-4851-9256-454a7f549539",
     "f43e85fa-e21d-4ceb-9b3a-88317836f49e"
   ],
-  "_ts": "2026-09-09T11:38:19.786Z"
+  "_ts": "2026-09-09T11:40:19.144Z"
 }
