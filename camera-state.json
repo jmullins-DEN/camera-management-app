@@ -362,6 +362,49 @@
   },
   "local": [
     {
+      "id": "L1788957323381279",
+      "board": "KYqKJWuumPm",
+      "driver": "Aaron Whitford",
+      "driverId": "019dd5fc-b08f-776f-82ce-59816698b0cb",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "multi-tasking",
+      "ts": 1788957323381,
+      "synced": false
+    },
+    {
+      "id": "L1788957254709786",
+      "board": "ebSND1QoyBs",
+      "driver": "Mark Varela",
+      "driverId": "33022a64-23ca-4ed3-a310-5bd6cdc1e921",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked",
+      "ts": 1788957254709,
+      "synced": true,
+      "infItemId": "2e046c5b-ddd4-43f0-ad3e-64ad8d9a7fec",
+      "syncError": null
+    },
+    {
+      "id": "L1788957208571209",
+      "board": "ebSND1QoyBs",
+      "driver": "Shamonte Jacobs",
+      "driverId": "d894f236-6b02-433e-9b97-786045a5d4e2",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1788957208571,
+      "synced": true,
+      "infItemId": "8cc6f7ca-e759-4c95-90c9-45b89f77b346",
+      "syncError": null
+    },
+    {
       "id": "L1788957182573520",
       "board": "ebSND1QoyBs",
       "driver": "unassigned",
@@ -73049,7 +73092,9 @@
     "fc2a6e5f-558d-4891-8e60-c09548814332",
     "254e3ac6-0690-4b8f-b2cb-1a0aab731dee",
     "6eb23fa2-2a0d-4009-ab5a-be152a77239a",
-    "6230b408-a585-44c7-87eb-13ec86710ac9"
+    "6230b408-a585-44c7-87eb-13ec86710ac9",
+    "8cc6f7ca-e759-4c95-90c9-45b89f77b346",
+    "2e046c5b-ddd4-43f0-ad3e-64ad8d9a7fec"
   ],
-  "_ts": "2026-09-09T12:33:08.672Z"
+  "_ts": "2026-09-09T12:35:23.451Z"
 }
