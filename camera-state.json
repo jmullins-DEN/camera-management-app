@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788997824596632",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Casey Sorg",
+      "driverId": "aaa11c8e-7690-4402-8e3a-abf838eb4889",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 1257796313622413312:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8c699ed0-5a73-4cda-8bb3-74f9a8c3130b.mp4",
+      "ts": 1788997824596,
+      "synced": false
+    },
+    {
       "id": "L1788997537068250",
       "board": "7W2SQKrNcXQ",
       "driver": "Angel Alcala",
@@ -372,7 +385,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1257804013655719936:  Hard Braking \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2e0bb6d2-7d3e-4a13-b34c-e8c43787a137.mp4",
       "ts": 1788997537068,
-      "synced": false
+      "synced": true,
+      "infItemId": "fc24d0c7-2819-402b-be4a-d191687336ec",
+      "syncError": null
     },
     {
       "id": "L1788997482532135",
@@ -73940,7 +73955,8 @@
     "01c5508d-a761-4baf-8712-43851513f1ea",
     "1c534f02-68d3-4564-8ae5-1219f990ad9b",
     "3cb306fc-d29c-4a7b-8855-29020802e7e3",
-    "dd422834-7465-4d10-b947-893185b5c806"
+    "dd422834-7465-4d10-b947-893185b5c806",
+    "fc24d0c7-2819-402b-be4a-d191687336ec"
   ],
-  "_ts": "2026-09-09T23:45:37.148Z"
+  "_ts": "2026-09-09T23:50:24.662Z"
 }
