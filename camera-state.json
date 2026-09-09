@@ -1722,9 +1722,9 @@
       "coaching": "Coaching Notes",
       "notes": "https://app.estrack.com/#/camera/events/6a9b03815b6838cdafa91916",
       "ts": 1788875645012,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f17cc663-2c3f-4d32-a75f-bc251830cd4d"
     },
     {
       "id": "L1788875595677525",
@@ -1737,9 +1737,9 @@
       "coaching": "Unidentified Driver",
       "notes": "C-4002 Daycab \nhttps://app.estrack.com/#/camera/events/6a9b165b5b6838cdafa935ea",
       "ts": 1788875595677,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "309c2ab7-99d1-4713-b74f-5bdf9a031d9d"
     },
     {
       "id": "L1788875270103268",
@@ -2337,8 +2337,8 @@
       "coaching": "Coaching Notes",
       "notes": "following too close",
       "ts": 1788823627521,
-      "synced": false,
-      "syncError": "reference 429",
+      "synced": true,
+      "syncError": null,
       "infItemId": "b0b5a3a7-5467-4e47-9f87-e41be6bc5159"
     },
     {
@@ -2352,9 +2352,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 437352215:  Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/86ac8432-8af6-4f1e-a12d-ca81331e70c3.mp4",
       "ts": 1788823624520,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "3f1e3811-d6fa-4480-bc15-a11c4efadc56"
     },
     {
       "id": "L1788823574803453",
@@ -73189,7 +73189,11 @@
     "2b18d7e0-99a2-42f4-b3da-7b5f8c70af1f",
     "b76f55c3-7918-4317-91ba-0560768d6210",
     "1bb481f1-08a2-4c42-8a17-dbac227d4f15",
-    "f8088162-d526-4de6-8434-9f688fdf4573"
+    "f8088162-d526-4de6-8434-9f688fdf4573",
+    "f17cc663-2c3f-4d32-a75f-bc251830cd4d",
+    "309c2ab7-99d1-4713-b74f-5bdf9a031d9d",
+    "b0b5a3a7-5467-4e47-9f87-e41be6bc5159",
+    "3f1e3811-d6fa-4480-bc15-a11c4efadc56"
   ],
-  "_ts": "2026-09-09T14:28:31.934Z"
+  "_ts": "2026-09-09T14:28:36.694Z"
 }
