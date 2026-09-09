@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788956224512564",
+      "board": "XVLVu2Du8hc",
+      "driver": "Larry Simons",
+      "driverId": "019be2d2-f9b3-7445-b65d-4feb9f8a58ca",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "49 in 35",
+      "ts": 1788956224512,
+      "synced": false
+    },
+    {
       "id": "L1788956176975460",
       "board": "XVLVu2Du8hc",
       "driver": "Moroni Holm",
@@ -72871,5 +72884,5 @@
     "5d5256a8-f789-4b16-bffb-7e9e8df0929c",
     "42c23ec6-abdf-40f7-9802-fba6302fb307"
   ],
-  "_ts": "2026-09-09T12:16:22.296Z"
+  "_ts": "2026-09-09T12:17:04.580Z"
 }
