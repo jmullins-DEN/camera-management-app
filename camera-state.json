@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1617645675:  Lane Departure/Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/c8610c03-c1d3-4fc3-bda3-1a122047061d.mp4",
       "ts": 1788995886427,
-      "synced": false
+      "synced": true,
+      "infItemId": "1c534f02-68d3-4564-8ae5-1219f990ad9b",
+      "syncError": null
     },
     {
       "id": "L1788995656744314",
@@ -73877,7 +73879,8 @@
     "69d9843b-0bb6-45a7-a3b2-89a76d50bf5c",
     "5e8d1831-01ac-4d84-b3ef-ad530ca89f60",
     "b187fd6d-0d77-45a6-9c18-72a23c24f2c5",
-    "01c5508d-a761-4baf-8712-43851513f1ea"
+    "01c5508d-a761-4baf-8712-43851513f1ea",
+    "1c534f02-68d3-4564-8ae5-1219f990ad9b"
   ],
-  "_ts": "2026-09-09T23:18:06.512Z"
+  "_ts": "2026-09-09T23:18:10.145Z"
 }
