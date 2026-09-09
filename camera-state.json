@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788984086800277",
+      "board": "kdYbqScWu22",
+      "driver": "Hector Santos",
+      "driverId": "019febc8-e199-74cd-b80b-6ba01e72dc5e",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 1257741100823773184; hard brake; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/a75647fe-abcf-4466-aa71-e8839d83a474.mp4",
+      "ts": 1788984086800,
+      "synced": false
+    },
+    {
       "id": "L1788983415149130",
       "board": "4rNDuSrCaap",
       "driver": "Zachary Sprague",
@@ -73594,5 +73607,5 @@
     "e4345182-6634-46f8-b50f-40e9f67356b8",
     "042185a8-403c-4b7f-abe6-de1f0574ef34"
   ],
-  "_ts": "2026-09-09T19:50:22.192Z"
+  "_ts": "2026-09-09T20:01:26.860Z"
 }
