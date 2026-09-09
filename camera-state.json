@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788967362008615",
+      "board": "9RKrQRpDLcr",
+      "driver": "Adam Johnson",
+      "driverId": "53dd3c8a-6ea8-4c98-bec0-6a61811c70a8",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Sign Violation",
+      "coaching": "Coaching Notes",
+      "notes": "Stop Sign Violation\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789016399999&uuid=544580e7-c8b1-5525-a21b-b810db15f56b&triageStates%5B%5D=NeedsReview",
+      "ts": 1788967362008,
+      "synced": false
+    },
+    {
       "id": "L1788967219791280",
       "board": "9RKrQRpDLcr",
       "driver": "Jonathan Walters",
@@ -73429,5 +73442,5 @@
     "ba5522bc-5d39-45de-acd3-56bc87c72d4c",
     "2a287772-e76b-47bd-acbd-0609154cfb39"
   ],
-  "_ts": "2026-09-09T15:20:23.970Z"
+  "_ts": "2026-09-09T15:22:42.132Z"
 }
