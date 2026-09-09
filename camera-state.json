@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788957602890333",
+      "board": "UKkbYDchPMh",
+      "driver": "Patrick Love",
+      "driverId": "019d91d7-109c-73ec-be87-def85069852e",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Seat Belt",
+      "coaching": "Face to Face",
+      "notes": "no seatbelt\nhttps://app.estrack.com/#/camera/events/6aa009655b6838cdafaaf389",
+      "ts": 1788957602890,
+      "synced": false
+    },
+    {
       "id": "L1788957565954157",
       "board": "UKkbYDchPMh",
       "driver": "Patrick Love",
@@ -73161,5 +73174,5 @@
     "9571cd2e-6bb6-4901-bcfd-cab7eedfddb6",
     "a03c3f75-28d5-4e1e-81e0-9fb86224ec61"
   ],
-  "_ts": "2026-09-09T12:39:29.522Z"
+  "_ts": "2026-09-09T12:40:02.955Z"
 }
