@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788983415149130",
+      "board": "4rNDuSrCaap",
+      "driver": "Zachary Sprague",
+      "driverId": "019a0354-82d9-7dd5-b03d-10ff7e25897f",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "Alert 438074771; phone usage; habitual; \nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6e28a934-e334-4b2a-a560-452fefc925c5.mp4",
+      "ts": 1788983415149,
+      "synced": false
+    },
+    {
       "id": "L1788969335059485",
       "board": "8gejhhHJj4e",
       "driver": "Dante Gerace",
@@ -73580,5 +73593,5 @@
     "e4345182-6634-46f8-b50f-40e9f67356b8",
     "042185a8-403c-4b7f-abe6-de1f0574ef34"
   ],
-  "_ts": "2026-09-09T19:34:33.986Z"
+  "_ts": "2026-09-09T19:50:15.216Z"
 }
