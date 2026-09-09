@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788968964913812",
+      "board": "8gejhhHJj4e",
+      "driver": "Travis Rizzi",
+      "driverId": "019ac5a8-bb08-700d-9722-995c252f72d5",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "Distracted in Cab\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789016399999&uuid=544582cf-7bee-509e-87e7-854f8307efb3&triageStates%5B%5D=NeedsReview",
+      "ts": 1788968964913,
+      "synced": false
+    },
+    {
       "id": "L1788968820977455",
       "board": "8gejhhHJj4e",
       "driver": "Don Derbridge",
@@ -73521,5 +73534,5 @@
     "769ec9b3-ebcd-4dac-bdef-ca7291be57d2",
     "5354ef06-ae1f-4040-bcf3-0c4d6f8c0348"
   ],
-  "_ts": "2026-09-09T15:47:05.351Z"
+  "_ts": "2026-09-09T15:49:25.043Z"
 }
