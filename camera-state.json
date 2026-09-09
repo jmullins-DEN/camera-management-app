@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788968367077218",
+      "board": "Wk4Si2ZgUVU",
+      "driver": "Robert Bailey",
+      "driverId": "710812d7-ba9e-4453-bbb0-d6dabd0fc689",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "https://cloud.samsara.com/o/8005169/fleet/reports/safety/inbox_feed?tags%5B%5D=4330353&tags%5B%5D=4724012&duration=691199.999&end_ms=1789016399999&uuid=544581ea-5cae-5328-af21-a2540a0d239d&triageStates%5B%5D=NeedsReview",
+      "ts": 1788968367077,
+      "synced": false
+    },
+    {
       "id": "L1788968193123178",
       "board": "6aE7wVSK5Jq",
       "driver": "Justin Williams",
@@ -73475,5 +73488,5 @@
     "e23552e5-fb00-49fa-9228-9c4a6626045a",
     "50aa7e9b-a4fc-4614-9562-fd3b68aab852"
   ],
-  "_ts": "2026-09-09T15:36:39.612Z"
+  "_ts": "2026-09-09T15:39:27.187Z"
 }
