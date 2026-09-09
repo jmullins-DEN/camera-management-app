@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788956091870755",
+      "board": "XVLVu2Du8hc",
+      "driver": "unassigned",
+      "driverId": "019a1106-922f-7995-86b2-7b93432c3269",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 1617386597; following too close; vehicle #339\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e909326f-b69f-4ccb-8fc5-0b77a0911a06.mp4",
+      "ts": 1788956091870,
+      "synced": false
+    },
+    {
       "id": "L1788955984882336",
       "board": "ioWX9hneUsk",
       "driver": "Alexis Vega",
@@ -72841,5 +72854,5 @@
     "955b2afb-739f-40f1-a4ee-4b142f7365f5",
     "5d5256a8-f789-4b16-bffb-7e9e8df0929c"
   ],
-  "_ts": "2026-09-09T12:13:08.098Z"
+  "_ts": "2026-09-09T12:14:51.934Z"
 }
