@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Stop Sign Violation\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789016399999&uuid=544580e7-c8b1-5525-a21b-b810db15f56b&triageStates%5B%5D=NeedsReview",
       "ts": 1788967362008,
-      "synced": false
+      "synced": true,
+      "infItemId": "e23552e5-fb00-49fa-9228-9c4a6626045a",
+      "syncError": null
     },
     {
       "id": "L1788967219791280",
@@ -73440,7 +73442,8 @@
     "517933b7-47eb-4715-96b7-4ddbde8bf3e0",
     "60a6da59-433d-4414-a48d-6925c17ea1c7",
     "ba5522bc-5d39-45de-acd3-56bc87c72d4c",
-    "2a287772-e76b-47bd-acbd-0609154cfb39"
+    "2a287772-e76b-47bd-acbd-0609154cfb39",
+    "e23552e5-fb00-49fa-9228-9c4a6626045a"
   ],
-  "_ts": "2026-09-09T15:22:42.132Z"
+  "_ts": "2026-09-09T15:22:46.267Z"
 }
