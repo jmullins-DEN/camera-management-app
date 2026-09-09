@@ -362,6 +362,49 @@
   },
   "local": [
     {
+      "id": "L1788990365700408",
+      "board": "ic6o6QgzpVM",
+      "driver": "Prisciliano, Aldair",
+      "driverId": "019ab5bd-dd02-7005-a05e-5aef4bd33f33",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "Alert 6479696919\nHard Braking; Possible Critical Event\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/6c8ef034-113f-464b-a4cc-7542537696bf.mp4",
+      "ts": 1788990365700,
+      "synced": false
+    },
+    {
+      "id": "L1788990156393796",
+      "board": "ic6o6QgzpVM",
+      "driver": "Stephen Hails",
+      "driverId": "019e4c3d-9396-7129-95d9-dd136a99b786",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6479877849\nPossible Drowsiness\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/aac58448-930b-4b1f-b51e-c00c135b3a93.mp4",
+      "ts": 1788990156393,
+      "synced": true,
+      "infItemId": "95ba645f-95d8-4354-9498-23d1bd91b37f",
+      "syncError": null
+    },
+    {
+      "id": "L1788989955371199",
+      "board": "ic6o6QgzpVM",
+      "driver": "Reyna, Oscar",
+      "driverId": "019b3716-02f6-777d-9a41-ee887d873d4a",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-09",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6479756830\nHard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2ffbb524-8a84-4b1c-a5ee-088a0bdee8e0.mp4",
+      "ts": 1788989955371,
+      "synced": true,
+      "infItemId": "9d32685e-17e7-45bd-b232-0acfadf26e9b",
+      "syncError": null
+    },
+    {
       "id": "L1788989780544112",
       "board": "ic6o6QgzpVM",
       "driver": "Jason Edwards",
@@ -372,7 +415,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6484623831\nPhone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0a971cf4-2e42-4dba-80b1-cc13d443ca17.mp4",
       "ts": 1788989780544,
-      "synced": false
+      "synced": true,
+      "infItemId": "5209ecc2-a66d-48a3-945a-3eb976a2addf",
+      "syncError": null
     },
     {
       "id": "L1788989591845862",
@@ -73763,7 +73808,10 @@
     "4602eb66-4fe3-4161-a8f7-15b35f24d7b4",
     "e448ef05-84bf-4a1f-8319-45a8331e014e",
     "a676b1df-b61e-4516-b167-c529f01e6d7c",
-    "3bd5926a-33c4-4a66-b0c9-830c1d37bc13"
+    "3bd5926a-33c4-4a66-b0c9-830c1d37bc13",
+    "5209ecc2-a66d-48a3-945a-3eb976a2addf",
+    "9d32685e-17e7-45bd-b232-0acfadf26e9b",
+    "95ba645f-95d8-4354-9498-23d1bd91b37f"
   ],
-  "_ts": "2026-09-09T21:36:20.637Z"
+  "_ts": "2026-09-09T21:46:05.790Z"
 }
