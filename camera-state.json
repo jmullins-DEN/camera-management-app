@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788957402671389",
+      "board": "KYqKJWuumPm",
+      "driver": "Ethan Ball",
+      "driverId": "019dd5fe-e98e-7606-9da2-fd748b0c9992",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting",
+      "ts": 1788957402671,
+      "synced": false
+    },
+    {
       "id": "L1788957365598258",
       "board": "KYqKJWuumPm",
       "driver": "Doug McCosh",
@@ -372,7 +385,9 @@
       "coaching": "Face to Face",
       "notes": "texting",
       "ts": 1788957365598,
-      "synced": false
+      "synced": true,
+      "infItemId": "ce5c6f4c-d833-46e3-8a8b-7ddc82c28b24",
+      "syncError": null
     },
     {
       "id": "L1788957323381279",
@@ -73110,7 +73125,8 @@
     "6230b408-a585-44c7-87eb-13ec86710ac9",
     "8cc6f7ca-e759-4c95-90c9-45b89f77b346",
     "2e046c5b-ddd4-43f0-ad3e-64ad8d9a7fec",
-    "07dc8eeb-f803-42ba-80e6-b3af662508dc"
+    "07dc8eeb-f803-42ba-80e6-b3af662508dc",
+    "ce5c6f4c-d833-46e3-8a8b-7ddc82c28b24"
   ],
-  "_ts": "2026-09-09T12:36:05.667Z"
+  "_ts": "2026-09-09T12:36:42.739Z"
 }
