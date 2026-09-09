@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788957073588710",
+      "board": "ebSND1QoyBs",
+      "driver": "Miguel Sifuentes",
+      "driverId": "45183bd2-2be1-4ca2-a2de-fbb06309de57",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked",
+      "ts": 1788957073588,
+      "synced": false
+    },
+    {
       "id": "L1788956854874533",
       "board": "YJNwKvzFhkj",
       "driver": "Omar Bowers",
@@ -73003,5 +73016,5 @@
     "84fceb22-9903-4462-9088-3c48a75717d9",
     "fc2a6e5f-558d-4891-8e60-c09548814332"
   ],
-  "_ts": "2026-09-09T12:27:38.103Z"
+  "_ts": "2026-09-09T12:31:13.660Z"
 }
