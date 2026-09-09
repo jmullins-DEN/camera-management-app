@@ -372,7 +372,8 @@
       "coaching": "Critical Event",
       "notes": "crash.  vehicle #293851\n\n",
       "ts": 1788956509006,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1788956388803753",
@@ -72948,5 +72949,5 @@
     "eec6303f-ae30-41f0-b5eb-15ff1272a194",
     "dbf7a7f3-0821-42f0-a29f-379c81f0f3d8"
   ],
-  "_ts": "2026-09-09T12:21:49.071Z"
+  "_ts": "2026-09-09T12:21:53.029Z"
 }
