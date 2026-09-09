@@ -372,8 +372,8 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 1257632653914570752:  Hard Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/95b0a125-5ed7-4f17-86ae-e0511bd0989e.mp4",
       "ts": 1788954952606,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "b23f6c01-0241-41ff-aa41-746b52e7659d"
     },
     {
@@ -447,9 +447,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 1257274271970000896:  Hard Braking\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/145f7a6f-0848-4d53-acf6-339e5a739de8.mp4",
       "ts": 1788912317804,
-      "synced": false,
+      "synced": true,
       "infItemId": "7c9b95ab-81fc-4c6a-9fe1-8d6c8f338e47",
-      "syncError": "reference 429"
+      "syncError": null
     },
     {
       "id": "L1788912154086693",
@@ -477,8 +477,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 1616999294:  Following Distance\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/ac4922b6-d9ad-4e25-b959-6826eba8d7aa.mp4",
       "ts": 1788911540742,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "00770335-9a14-4116-8db8-920fd17f946a"
     },
     {
       "id": "L1788911386131589",
@@ -566,8 +567,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6479164686: Truck # 219022 Speeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bb20e065-142c-476b-aad2-e2d8db0268df.mp4",
       "ts": 1788909824634,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "48e7978f-4cfe-4ac5-8f86-0e8799fc50f6"
     },
     {
       "id": "L1788909648504322",
@@ -595,7 +597,9 @@
       "coaching": "Critical Event",
       "notes": "Alert 6476563712\nHard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0f0bfbcb-64cc-4469-b255-f96dbe749408.mp4",
       "ts": 1788902282962,
-      "synced": false
+      "synced": true,
+      "infItemId": "ac603275-8564-4aa4-afbc-52799c664b8e",
+      "syncError": null
     },
     {
       "id": "L1788902099540523",
@@ -609,7 +613,8 @@
       "notes": "Alert 6477426429\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f578d4a9-315e-42ea-b7a4-92b44bed6250.mp4",
       "ts": 1788902099540,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788901903388204",
@@ -623,7 +628,8 @@
       "notes": "Alert 6478925077\nPhone Distraction; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/0b4fa423-a896-416b-bfdc-a2d2db19b4b7.mp4",
       "ts": 1788901903388,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L178890178765515",
@@ -667,7 +673,8 @@
       "notes": "\nAlert 437457987; hard brake; near miss\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/931ee211-1f73-4f32-a177-d0a6ece4169e.mp4\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/b800068c-0c24-4671-a74a-0b2777aa2817.mp4\n\n",
       "ts": 1788899446851,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788899311546544",
@@ -1071,7 +1078,8 @@
       "notes": "texting; vehicle #234",
       "ts": 1788877072776,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1788877043191124",
@@ -72762,7 +72770,12 @@
     "f43e85fa-e21d-4ceb-9b3a-88317836f49e",
     "35b8dbe3-9cd2-4ab8-942a-c0e3fbe3b199",
     "a30d99ca-accb-430d-8d8a-051584144320",
-    "966f6d4c-2c8e-48b6-ae92-974b6d1b481d"
+    "966f6d4c-2c8e-48b6-ae92-974b6d1b481d",
+    "b23f6c01-0241-41ff-aa41-746b52e7659d",
+    "7c9b95ab-81fc-4c6a-9fe1-8d6c8f338e47",
+    "00770335-9a14-4116-8db8-920fd17f946a",
+    "48e7978f-4cfe-4ac5-8f86-0e8799fc50f6",
+    "ac603275-8564-4aa4-afbc-52799c664b8e"
   ],
-  "_ts": "2026-09-09T12:04:40.045Z"
+  "_ts": "2026-09-09T12:04:45.171Z"
 }
