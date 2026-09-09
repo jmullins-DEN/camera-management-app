@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1788953896668447",
+      "board": "aRcazTLT9iM",
+      "driver": "unassigned",
+      "driverId": "f03503d3-dce9-4486-8240-4e49bc5a24bd",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Following Distance",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 1617449244:  Truck # AN70  Following Distance\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/67f87545-388a-4ef7-810a-829a2512abbf.mp4",
+      "ts": 1788953896668,
+      "synced": false
+    },
+    {
       "id": "L1788912317804796",
       "board": "7W2SQKrNcXQ",
       "driver": "Unassigned",
@@ -72685,5 +72698,5 @@
     "8217f8c9-10ae-4dcb-865e-6c74e9abb7d4",
     "8bb0f380-85ae-4851-9256-454a7f549539"
   ],
-  "_ts": "2026-09-09T00:05:21.529Z"
+  "_ts": "2026-09-09T11:38:16.766Z"
 }
