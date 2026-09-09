@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L178895650900613",
+      "board": "YfVHuM3X87v",
+      "driver": "Jeffery Gertiser",
+      "driverId": "70e74974-5e97-4e31-9189-2d91a0a48a9e",
+      "date": "2026-09-08",
+      "reviewed": "2026-09-09",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "crash.  vehicle #293851\n\n",
+      "ts": 1788956509006,
+      "synced": false
+    },
+    {
       "id": "L1788956388803753",
       "board": "YfVHuM3X87v",
       "driver": "Jeffery Gertiser",
@@ -72935,5 +72948,5 @@
     "eec6303f-ae30-41f0-b5eb-15ff1272a194",
     "dbf7a7f3-0821-42f0-a29f-379c81f0f3d8"
   ],
-  "_ts": "2026-09-09T12:19:52.347Z"
+  "_ts": "2026-09-09T12:21:49.071Z"
 }
