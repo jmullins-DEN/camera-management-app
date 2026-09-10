@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789039234241669",
+      "board": "XVLVu2Du8hc",
+      "driver": "Jeffrey Swenson",
+      "driverId": "019a0810-437c-7aae-88b5-558e38740aa3",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "54 in 40",
+      "ts": 1789039234241,
+      "synced": false
+    },
+    {
       "id": "L1789039197051418",
       "board": "XVLVu2Du8hc",
       "driver": "Michael Morris",
@@ -74074,5 +74087,5 @@
     "dc5a9cfe-91e7-42c5-ab2c-dfa32233e184",
     "6d19e487-f089-48e4-9d8d-c78085e8aaeb"
   ],
-  "_ts": "2026-09-10T11:20:00.226Z"
+  "_ts": "2026-09-10T11:20:34.309Z"
 }
