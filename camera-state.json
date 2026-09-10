@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789040006120139",
+      "board": "YJNwKvzFhkj",
+      "driver": "Robert Duvall",
+      "driverId": "019de578-aa30-76af-8ea2-96cf081f6460",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting; lane swerve",
+      "ts": 1789040006121,
+      "synced": false
+    },
+    {
       "id": "L1789039894658693",
       "board": "xMfRLnqAN7y",
       "driver": "Steven Rosvall",
@@ -74217,5 +74230,5 @@
     "711ae7af-4f51-4ea7-adf2-5d420db380d9",
     "8f01d9ad-8734-44cd-90b2-aec72689ec0d"
   ],
-  "_ts": "2026-09-10T11:31:38.260Z"
+  "_ts": "2026-09-10T11:33:26.192Z"
 }
