@@ -372,9 +372,9 @@
       "coaching": "System Alert",
       "notes": "backward camera blocked\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?bounds=38.492989%2C-95.096499%2C40.038809%2C-93.942934&z=9&duration=691199.999&end_ms=1789102799999&triageStates%5B%5D=NeedsReview&uuid=54458804-650d-53a8-a29a-4838fe2cf1de&event=54458804-650d-53a8-a29a-4838fe2cf1de&deviceId=281474980603986&eventMs=1788988384525",
       "ts": 1789041991074,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "cd4e096f-d088-46a9-9c2d-e5a49a055910"
     },
     {
       "id": "L1789041884008977",
@@ -567,9 +567,9 @@
       "coaching": "Face to Face",
       "notes": "following too close",
       "ts": 1789039553880,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b2eba5e1-2bd1-45ac-bbaf-b3aed8bfcba3"
     },
     {
       "id": "L1789039458693905",
@@ -582,9 +582,9 @@
       "coaching": "Face to Face",
       "notes": "lane swerve; inattentive; possible phone",
       "ts": 1789039458693,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b6294f13-15d9-4a52-aec3-cad24e75a229"
     },
     {
       "id": "L1789039268128523",
@@ -74342,7 +74342,10 @@
     "3d85333d-8f59-448e-b0bc-804f39bf0068",
     "8917bb37-3882-4021-b482-0bbd0b842c46",
     "7768afe3-7af0-444d-a914-225512b2168f",
-    "348b18fb-d2ce-43bc-941d-77c6dc789d3f"
+    "348b18fb-d2ce-43bc-941d-77c6dc789d3f",
+    "cd4e096f-d088-46a9-9c2d-e5a49a055910",
+    "b2eba5e1-2bd1-45ac-bbaf-b3aed8bfcba3",
+    "b6294f13-15d9-4a52-aec3-cad24e75a229"
   ],
-  "_ts": "2026-09-10T12:09:57.421Z"
+  "_ts": "2026-09-10T12:10:03.116Z"
 }
