@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789058927650298",
+      "board": "9RKrQRpDLcr",
+      "driver": "Jammie Singleton",
+      "driverId": "6e62fda9-cf01-40a0-950f-be951b2682e0",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Speeding , Face to Face;\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=5445887e-c190-551e-a8c6-74db2d4cbeb4&triageStates%5B%5D=NeedsReview",
+      "ts": 1789058927650,
+      "synced": false
+    },
+    {
       "id": "L1789058823689947",
       "board": "9RKrQRpDLcr",
       "driver": "unassigned",
@@ -74764,5 +74777,5 @@
     "bf6bc372-323c-4917-b8e7-f015ab448593",
     "7d3c8bbd-e57e-4d67-9d8a-7a3ce8561d81"
   ],
-  "_ts": "2026-09-10T16:47:12.150Z"
+  "_ts": "2026-09-10T16:48:47.727Z"
 }
