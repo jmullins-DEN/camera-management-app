@@ -372,7 +372,8 @@
       "coaching": "Coaching Notes",
       "notes": "Driver looking for something in back and lost lane https://app.estrack.com/#/camera/events/6aa1b3e3604c47c42cd0013f",
       "ts": 1789053608414,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1789053414910133",
@@ -74519,5 +74520,5 @@
     "9db4fb85-79f5-4e30-9948-c265834e09f2",
     "cdf3ff2a-5199-49fb-9a9e-6fcae7682f73"
   ],
-  "_ts": "2026-09-10T15:20:08.485Z"
+  "_ts": "2026-09-10T15:20:12.127Z"
 }
