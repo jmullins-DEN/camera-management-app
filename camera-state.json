@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Rolling Stop\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&uuid=544588a8-e431-5371-864c-b36b58e12542&triageStates%5B%5D=NeedsReview&event=544588a8-e431-5371-864c-b36b58e12542&deviceId=281474991239589&eventMs=1788999164977",
       "ts": 1789064211022,
-      "synced": false
+      "synced": true,
+      "infItemId": "ca9bc1cc-3b25-42f1-a752-4ed27b79dc02",
+      "syncError": null
     },
     {
       "id": "L1789060897126171",
@@ -74900,7 +74902,8 @@
     "7b6001b1-44c7-4629-ab2b-8c9415bafc81",
     "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0",
     "574d08c2-a1b3-486e-a246-e9fff0e7c81b",
-    "cfc812ba-4119-481a-b605-71d1a16feaec"
+    "cfc812ba-4119-481a-b605-71d1a16feaec",
+    "ca9bc1cc-3b25-42f1-a752-4ed27b79dc02"
   ],
-  "_ts": "2026-09-10T18:16:51.113Z"
+  "_ts": "2026-09-10T18:16:54.414Z"
 }
