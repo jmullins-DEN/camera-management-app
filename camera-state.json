@@ -448,7 +448,7 @@
       "notes": "Speeding , Face to Face;\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=5445887e-c190-551e-a8c6-74db2d4cbeb4&triageStates%5B%5D=NeedsReview",
       "ts": 1789058927650,
       "synced": false,
-      "syncError": "Failed to fetch",
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
       "infItemId": null
     },
     {
@@ -74859,5 +74859,5 @@
     "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0",
     "574d08c2-a1b3-486e-a246-e9fff0e7c81b"
   ],
-  "_ts": "2026-09-10T17:14:50.378Z"
+  "_ts": "2026-09-10T17:15:17.667Z"
 }
