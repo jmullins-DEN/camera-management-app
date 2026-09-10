@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789039894658693",
+      "board": "xMfRLnqAN7y",
+      "driver": "Steven Rosvall",
+      "driverId": "019db60b-c74a-758b-a704-5859f0499f23",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "inattentive; loses lane",
+      "ts": 1789039894658,
+      "synced": false
+    },
+    {
       "id": "L1789039717521784",
       "board": "YfVHuM3X87v",
       "driver": "Ethan Owens",
@@ -74201,5 +74214,5 @@
     "7a9a40fc-e56c-4adc-be63-d21953d853f3",
     "711ae7af-4f51-4ea7-adf2-5d420db380d9"
   ],
-  "_ts": "2026-09-10T11:28:41.288Z"
+  "_ts": "2026-09-10T11:31:34.732Z"
 }
