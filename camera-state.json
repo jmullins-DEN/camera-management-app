@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789040058657812",
+      "board": "YJNwKvzFhkj",
+      "driver": "Alpherd Jones",
+      "driverId": "019f268c-e7f1-7271-8005-bee54018a5f1",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close",
+      "ts": 1789040058657,
+      "synced": false
+    },
+    {
       "id": "L1789040006120139",
       "board": "YJNwKvzFhkj",
       "driver": "Robert Duvall",
@@ -74233,5 +74246,5 @@
     "8f01d9ad-8734-44cd-90b2-aec72689ec0d",
     "a850fe75-4131-4c3e-bfd5-8ef3995516e8"
   ],
-  "_ts": "2026-09-10T11:33:29.222Z"
+  "_ts": "2026-09-10T11:34:18.727Z"
 }
