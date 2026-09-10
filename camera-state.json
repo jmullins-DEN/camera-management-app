@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=544585bf-2285-57b8-944e-46c6712be442&triageStates%5B%5D=NeedsReview",
       "ts": 1789059507103,
-      "synced": false
+      "synced": true,
+      "infItemId": "574d08c2-a1b3-486e-a246-e9fff0e7c81b",
+      "syncError": null
     },
     {
       "id": "L1789059440837589",
@@ -74853,7 +74855,8 @@
     "15729271-9516-486f-b239-1b50a9be2fa6",
     "60e1d155-2ef0-4c7e-95e0-c4e4f5dc81a3",
     "7b6001b1-44c7-4629-ab2b-8c9415bafc81",
-    "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0"
+    "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0",
+    "574d08c2-a1b3-486e-a246-e9fff0e7c81b"
   ],
-  "_ts": "2026-09-10T16:58:27.235Z"
+  "_ts": "2026-09-10T16:58:38.807Z"
 }
