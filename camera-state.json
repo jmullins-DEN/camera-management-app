@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789053608414209",
+      "board": "UKkbYDchPMh",
+      "driver": "Hubert (Butch) Bradley",
+      "driverId": "6ca902d1-e616-46f0-b7cf-35b56b959362",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "Driver looking for something in back and lost lane https://app.estrack.com/#/camera/events/6aa1b3e3604c47c42cd0013f",
+      "ts": 1789053608414,
+      "synced": false
+    },
+    {
       "id": "L1789053414910133",
       "board": "UKkbYDchPMh",
       "driver": "Jeremy Parker",
@@ -74506,5 +74519,5 @@
     "9db4fb85-79f5-4e30-9948-c265834e09f2",
     "cdf3ff2a-5199-49fb-9a9e-6fcae7682f73"
   ],
-  "_ts": "2026-09-10T15:16:57.747Z"
+  "_ts": "2026-09-10T15:20:08.485Z"
 }
