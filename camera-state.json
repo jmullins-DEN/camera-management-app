@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789060736735137",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Colby Miller",
+      "driverId": "68559404-db70-4150-a9e5-f1bd46caaa53",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "https://cloud.samsara.com/o/6005545/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&uuid=5445894f-1bcd-5dfc-8b1d-e6f6f333d421&triageStates%5B%5D=NeedsReview",
+      "ts": 1789060736735,
+      "synced": false
+    },
+    {
       "id": "L1789059507103237",
       "board": "9RKrQRpDLcr",
       "driver": "Paul Kunze Jr",
@@ -74859,5 +74872,5 @@
     "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0",
     "574d08c2-a1b3-486e-a246-e9fff0e7c81b"
   ],
-  "_ts": "2026-09-10T17:15:22.433Z"
+  "_ts": "2026-09-10T17:18:56.857Z"
 }
