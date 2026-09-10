@@ -362,6 +362,21 @@
   },
   "local": [
     {
+      "id": "L1789039652556192",
+      "board": "YfVHuM3X87v",
+      "driver": "Josh Hardin",
+      "driverId": "0c6dd51b-18e4-42d6-9068-f47592e8fbe0",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "phone distraction",
+      "ts": 1789039652556,
+      "synced": true,
+      "infItemId": "159be8c6-6773-4939-b770-107ac8e387fc",
+      "syncError": null
+    },
+    {
       "id": "L1789039608894977",
       "board": "7W2SQKrNcXQ",
       "driver": "Casey Sorg",
@@ -74155,7 +74170,6 @@
     "3cb306fc-d29c-4a7b-8855-29020802e7e3",
     "dd422834-7465-4d10-b947-893185b5c806",
     "fc24d0c7-2819-402b-be4a-d191687336ec",
-    "7a9a40fc-e56c-4adc-be63-d21953d853f3",
     "9fdb29a1-d02f-4637-ba36-a20d422e6de3",
     "a5a982f3-8c9f-4e8a-b90c-079b862a23cc",
     "b9d30067-bc95-411f-9c4e-98f014bf0aa5",
@@ -74167,7 +74181,9 @@
     "6d19e487-f089-48e4-9d8d-c78085e8aaeb",
     "a2107737-4bbb-4c11-b8e9-8686cc5f21ea",
     "0cf8693b-708f-46ef-8516-7e69442aaa4f",
-    "6f9094f5-511b-49d9-aa3e-b58e4997f5b5"
+    "6f9094f5-511b-49d9-aa3e-b58e4997f5b5",
+    "159be8c6-6773-4939-b770-107ac8e387fc",
+    "7a9a40fc-e56c-4adc-be63-d21953d853f3"
   ],
-  "_ts": "2026-09-10T11:26:54.497Z"
+  "_ts": "2026-09-10T11:27:35.472Z"
 }
