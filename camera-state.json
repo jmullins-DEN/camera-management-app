@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789059507103237",
+      "board": "9RKrQRpDLcr",
+      "driver": "Paul Kunze Jr",
+      "driverId": "5251e559-3e8c-4f3b-b7b7-21415a31efea",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=544585bf-2285-57b8-944e-46c6712be442&triageStates%5B%5D=NeedsReview",
+      "ts": 1789059507103,
+      "synced": false
+    },
+    {
       "id": "L1789059440837589",
       "board": "9RKrQRpDLcr",
       "driver": "Jonathan Dubose",
@@ -74842,5 +74855,5 @@
     "7b6001b1-44c7-4629-ab2b-8c9415bafc81",
     "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0"
   ],
-  "_ts": "2026-09-10T16:57:28.520Z"
+  "_ts": "2026-09-10T16:58:27.235Z"
 }
