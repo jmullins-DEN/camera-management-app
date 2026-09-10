@@ -372,7 +372,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6483117905; backward camera blocked; truck #unassigned; vehicle assigned to Driver Education Network; no coaching notes possible\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/045fcfd7-6a91-48cf-a9ea-2a54d870cedf.mp4\n",
       "ts": 1789038652523,
-      "synced": false
+      "synced": true,
+      "infItemId": "95f56863-f83f-430f-8016-6a62435c64a3",
+      "syncError": null
     },
     {
       "id": "L178903850865941",
@@ -74023,7 +74025,8 @@
     "b9d30067-bc95-411f-9c4e-98f014bf0aa5",
     "79302bac-228d-468c-ad9d-2f84bd5f5448",
     "417688f0-f2bb-49c3-aa02-4c6ccf3bdee6",
-    "7079dd5a-ad35-408b-88ef-f19396fcf05d"
+    "7079dd5a-ad35-408b-88ef-f19396fcf05d",
+    "95f56863-f83f-430f-8016-6a62435c64a3"
   ],
-  "_ts": "2026-09-10T11:10:52.582Z"
+  "_ts": "2026-09-10T11:10:55.074Z"
 }
