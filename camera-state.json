@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L178905682103625",
+      "board": "nWRsGRSm2Hn",
+      "driver": "Jered Thurber",
+      "driverId": "ba3da2ac-b7dd-4828-b584-f4862e1b6a88",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Increase Following Distance\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&uuid=544588df-2133-5abe-85a3-9fa33503ec33&triageStates%5B%5D=NeedsReview&event=544588df-2133-5abe-85a3-9fa33503ec33&deviceId=281474977436407&eventMs=1789002719539",
+      "ts": 1789056821036,
+      "synced": false
+    },
+    {
       "id": "L1789054390342543",
       "board": "UKkbYDchPMh",
       "driver": "Patrick Love",
@@ -74652,5 +74665,5 @@
     "32f7c67b-39be-4ac5-ad02-cdcaf127d181",
     "c71d1e6d-ff97-4a91-87f7-32afa6d0ea86"
   ],
-  "_ts": "2026-09-10T16:08:21.402Z"
+  "_ts": "2026-09-10T16:13:41.127Z"
 }
