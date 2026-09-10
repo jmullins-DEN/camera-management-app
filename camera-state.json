@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L17890391470492",
+      "board": "XVLVu2Du8hc",
+      "driver": "Steven Tanner",
+      "driverId": "019a0810-437c-7aae-88b4-dfecb414cf7f",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "79 in 65",
+      "ts": 1789039147049,
+      "synced": false
+    },
+    {
       "id": "L1789039009890783",
       "board": "XVLVu2Du8hc",
       "driver": "unassigned",
@@ -74044,5 +74057,5 @@
     "95f56863-f83f-430f-8016-6a62435c64a3",
     "dc5a9cfe-91e7-42c5-ab2c-dfa32233e184"
   ],
-  "_ts": "2026-09-10T11:16:55.047Z"
+  "_ts": "2026-09-10T11:19:07.116Z"
 }
