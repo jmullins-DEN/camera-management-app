@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "Increase Following Distance\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&uuid=544587ae-ba9c-5fa0-b5ab-c14b60b973e6&triageStates%5B%5D=NeedsReview",
       "ts": 1789057048151,
-      "synced": false
+      "synced": true,
+      "infItemId": "df15003c-1f10-4821-9ea4-3485a466e751",
+      "syncError": null
     },
     {
       "id": "L178905682103625",
@@ -74679,7 +74681,8 @@
     "38bab0d4-8e91-405f-a480-d2f7d5604570",
     "32f7c67b-39be-4ac5-ad02-cdcaf127d181",
     "c71d1e6d-ff97-4a91-87f7-32afa6d0ea86",
-    "67163c0e-8bf9-4936-81a3-59580ea89bb1"
+    "67163c0e-8bf9-4936-81a3-59580ea89bb1",
+    "df15003c-1f10-4821-9ea4-3485a466e751"
   ],
-  "_ts": "2026-09-10T16:17:28.277Z"
+  "_ts": "2026-09-10T16:17:38.306Z"
 }
