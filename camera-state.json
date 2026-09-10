@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L17890386525230",
+      "board": "MZerRFmhSHa",
+      "driver": "unassigned",
+      "driverId": "0752edcb-1775-4cf7-9390-a3d64d7be4bd",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Camera Exception",
+      "coaching": "Unidentified Driver",
+      "notes": "Alert 6483117905; backward camera blocked; truck #unassigned; vehicle assigned to Driver Education Network; no coaching notes possible\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/045fcfd7-6a91-48cf-a9ea-2a54d870cedf.mp4\n",
+      "ts": 1789038652523,
+      "synced": false
+    },
+    {
       "id": "L178903850865941",
       "board": "8BUntjK1TqV",
       "driver": "Mendoza, Mario",
@@ -74012,5 +74025,5 @@
     "417688f0-f2bb-49c3-aa02-4c6ccf3bdee6",
     "7079dd5a-ad35-408b-88ef-f19396fcf05d"
   ],
-  "_ts": "2026-09-10T11:08:32.564Z"
+  "_ts": "2026-09-10T11:10:52.582Z"
 }
