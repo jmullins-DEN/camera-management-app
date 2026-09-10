@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789039458693905",
+      "board": "YfVHuM3X87v",
+      "driver": "Daniel Barnett",
+      "driverId": "4aa19e15-402f-490c-8070-410e7d94fefb",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "lane swerve; inattentive; possible phone",
+      "ts": 1789039458693,
+      "synced": false
+    },
+    {
       "id": "L1789039268128523",
       "board": "XVLVu2Du8hc",
       "driver": "Melissa Dowe",
@@ -74106,5 +74119,5 @@
     "a2107737-4bbb-4c11-b8e9-8686cc5f21ea",
     "0cf8693b-708f-46ef-8516-7e69442aaa4f"
   ],
-  "_ts": "2026-09-10T11:21:12.232Z"
+  "_ts": "2026-09-10T11:24:18.760Z"
 }
