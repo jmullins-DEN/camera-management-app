@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789057265996758",
+      "board": "nWRsGRSm2Hn",
+      "driver": "unassigned",
+      "driverId": "b9f8a0df-e984-4140-9e3d-9a835d6a9332",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle 24679 Heavy Duty; Hard Brake;\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&uuid=544586c0-fd9a-5479-b7d6-8a5a331cd099&triageStates%5B%5D=NeedsReview",
+      "ts": 1789057265996,
+      "synced": false
+    },
+    {
       "id": "L1789057048151474",
       "board": "nWRsGRSm2Hn",
       "driver": "Emery, Shane",
@@ -74684,5 +74697,5 @@
     "67163c0e-8bf9-4936-81a3-59580ea89bb1",
     "df15003c-1f10-4821-9ea4-3485a466e751"
   ],
-  "_ts": "2026-09-10T16:17:38.306Z"
+  "_ts": "2026-09-10T16:21:06.110Z"
 }
