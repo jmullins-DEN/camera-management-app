@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789039605119316",
+      "board": "YfVHuM3X87v",
+      "driver": "Eric McGuire",
+      "driverId": "194ceaea-781f-4402-a130-e1e7ad2413e7",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Coaching Notes",
+      "notes": "looking down; distracted; possible phone",
+      "ts": 1789039605119,
+      "synced": false
+    },
+    {
       "id": "L1789039553880884",
       "board": "YfVHuM3X87v",
       "driver": "Luis Saborit Lozada",
@@ -74134,5 +74147,5 @@
     "a2107737-4bbb-4c11-b8e9-8686cc5f21ea",
     "0cf8693b-708f-46ef-8516-7e69442aaa4f"
   ],
-  "_ts": "2026-09-10T11:25:57.229Z"
+  "_ts": "2026-09-10T11:26:45.180Z"
 }
