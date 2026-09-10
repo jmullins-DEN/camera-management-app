@@ -372,7 +372,9 @@
       "coaching": "Critical Event",
       "notes": "\nAlert 6482499186; hard brake; near miss ahead of driver; safety review\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/756fcb36-fa75-4e00-9652-5f7d159bb5ee.mp4",
       "ts": 1789038279531,
-      "synced": false
+      "synced": true,
+      "infItemId": "79302bac-228d-468c-ad9d-2f84bd5f5448",
+      "syncError": null
     },
     {
       "id": "L1788997824596632",
@@ -73975,7 +73977,8 @@
     "fc24d0c7-2819-402b-be4a-d191687336ec",
     "9fdb29a1-d02f-4637-ba36-a20d422e6de3",
     "a5a982f3-8c9f-4e8a-b90c-079b862a23cc",
-    "b9d30067-bc95-411f-9c4e-98f014bf0aa5"
+    "b9d30067-bc95-411f-9c4e-98f014bf0aa5",
+    "79302bac-228d-468c-ad9d-2f84bd5f5448"
   ],
-  "_ts": "2026-09-10T11:04:39.606Z"
+  "_ts": "2026-09-10T11:04:42.767Z"
 }
