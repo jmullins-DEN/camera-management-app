@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789038279530954",
+      "board": "8BUntjK1TqV",
+      "driver": "Martinez, Domingo",
+      "driverId": "fb71d638-1be8-4f27-a9f4-3e412507118f",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6482499186; hard brake; near miss ahead of driver; safety review\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/756fcb36-fa75-4e00-9652-5f7d159bb5ee.mp4",
+      "ts": 1789038279531,
+      "synced": false
+    },
+    {
       "id": "L1788997824596632",
       "board": "7W2SQKrNcXQ",
       "driver": "Casey Sorg",
@@ -73964,5 +73977,5 @@
     "a5a982f3-8c9f-4e8a-b90c-079b862a23cc",
     "b9d30067-bc95-411f-9c4e-98f014bf0aa5"
   ],
-  "_ts": "2026-09-10T11:01:45.602Z"
+  "_ts": "2026-09-10T11:04:39.606Z"
 }
