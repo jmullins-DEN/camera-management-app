@@ -372,8 +372,8 @@
       "coaching": "Face to Face",
       "notes": "Alert 1257796313622413312:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8c699ed0-5a73-4cda-8bb3-74f9a8c3130b.mp4",
       "ts": 1788997824596,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "synced": true,
+      "syncError": null,
       "infItemId": "9fdb29a1-d02f-4637-ba36-a20d422e6de3"
     },
     {
@@ -402,8 +402,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 1257650888034648064:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e1e6be06-cc65-4a58-a02e-a19a2bd12358.mp4",
       "ts": 1788997482532,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "a5a982f3-8c9f-4e8a-b90c-079b862a23cc"
     },
     {
       "id": "L178899621923078",
@@ -491,9 +492,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Alert 6483198736: Drowsy Driver\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3e1cf0b3-aee8-4dff-aa94-766a4fb7cb90.mp4",
       "ts": 1788995005257,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "b9d30067-bc95-411f-9c4e-98f014bf0aa5"
     },
     {
       "id": "L1788990365700408",
@@ -16093,7 +16094,7 @@
       "ts": 1787611451022,
       "synced": false,
       "infItemId": "db5c430a-3425-444c-ac68-77af58b41800",
-      "syncError": "reference 429"
+      "syncError": "reference 409"
     },
     {
       "id": "L1787611410787537",
@@ -73958,7 +73959,10 @@
     "1c534f02-68d3-4564-8ae5-1219f990ad9b",
     "3cb306fc-d29c-4a7b-8855-29020802e7e3",
     "dd422834-7465-4d10-b947-893185b5c806",
-    "fc24d0c7-2819-402b-be4a-d191687336ec"
+    "fc24d0c7-2819-402b-be4a-d191687336ec",
+    "9fdb29a1-d02f-4637-ba36-a20d422e6de3",
+    "a5a982f3-8c9f-4e8a-b90c-079b862a23cc",
+    "b9d30067-bc95-411f-9c4e-98f014bf0aa5"
   ],
-  "_ts": "2026-09-10T11:01:36.628Z"
+  "_ts": "2026-09-10T11:01:41.739Z"
 }
