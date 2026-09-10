@@ -414,7 +414,7 @@
       "reviewed": "2026-09-10",
       "behavior": "Drowsy Driving",
       "coaching": "Critical Event",
-      "notes": "driver drowsy",
+      "notes": "driver drowsy\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&activeFolder=all&uuid=54458759-0ed6-5c72-b1b9-fed488531a84&triageStates%5B%5D=InCoaching&triageStates%5B%5D=NeedsRecognition&triageStates%5B%5D=NeedsReview&triageStates%5B%5D=Recognized&triageStates%5B%5D=Reviewed&event=54458759-0ed6-5c72-b1b9-fed488531a84&deviceId=281474988454346&eventMs=1788977155798",
       "ts": 1789041645822,
       "synced": true,
       "infItemId": "8917bb37-3882-4021-b482-0bbd0b842c46",
@@ -74343,5 +74343,5 @@
     "7768afe3-7af0-444d-a914-225512b2168f",
     "348b18fb-d2ce-43bc-941d-77c6dc789d3f"
   ],
-  "_ts": "2026-09-10T12:07:34.221Z"
+  "_ts": "2026-09-10T12:08:22.451Z"
 }
