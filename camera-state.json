@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789075047751793",
+      "board": "ic6o6QgzpVM",
+      "driver": "Adalberto Guerra",
+      "driverId": "8fcd591f-0516-40b0-8600-5b871b2f7c47",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-10",
+      "behavior": "Speeding",
+      "coaching": "Face to Face",
+      "notes": "Alert 6489509392\nSpeeding ; Face to Face\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/57e1fcc9-6290-4897-b083-0aab8cd174ac.mp4",
+      "ts": 1789075047751,
+      "synced": false
+    },
+    {
       "id": "L1789074927627438",
       "board": "ic6o6QgzpVM",
       "driver": "Adalberto Guerra",
@@ -75209,5 +75222,5 @@
     "b915c14d-0368-4328-8c0f-fd3442453668",
     "8ea5a284-bacf-4e06-84c9-fe9069bcd61f"
   ],
-  "_ts": "2026-09-10T21:15:31.563Z"
+  "_ts": "2026-09-10T21:17:27.878Z"
 }
