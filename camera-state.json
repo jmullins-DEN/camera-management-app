@@ -387,9 +387,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/50686/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&triageStates%5B%5D=NeedsReview&deviceId=281474987712032&eventMs=1789007812634&uuid=5445892c-d81a-5aa2-b464-5501511746b6&event=5445892c-d81a-5aa2-b464-5501511746b6\n",
       "ts": 1789058220417,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "00e78df3-e91f-4c01-944f-4a3f22eeb8ce"
     },
     {
       "id": "L1789057834758230",
@@ -402,9 +402,9 @@
       "coaching": "Face to Face",
       "notes": "Phone Distraction\n\nhttps://cloud.samsara.com/o/50686/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&triageStates%5B%5D=NeedsReview",
       "ts": 1789057834758,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "bf6bc372-323c-4917-b8e7-f015ab448593"
     },
     {
       "id": "L1789057265996758",
@@ -74744,7 +74744,9 @@
     "67163c0e-8bf9-4936-81a3-59580ea89bb1",
     "df15003c-1f10-4821-9ea4-3485a466e751",
     "318b48da-f3c4-4b58-8edc-418a33524d26",
-    "76d9bcaa-182c-4fc8-bb12-887210e423c3"
+    "76d9bcaa-182c-4fc8-bb12-887210e423c3",
+    "00e78df3-e91f-4c01-944f-4a3f22eeb8ce",
+    "bf6bc372-323c-4917-b8e7-f015ab448593"
   ],
-  "_ts": "2026-09-10T16:42:33.360Z"
+  "_ts": "2026-09-10T16:42:41.778Z"
 }
