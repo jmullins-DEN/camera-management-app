@@ -372,7 +372,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 651 Light; Speeding;\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=544588e1-47fa-59af-97d9-1796ad75fbcc&triageStates%5B%5D=NeedsReview",
       "ts": 1789058823689,
-      "synced": false
+      "synced": true,
+      "infItemId": "7d3c8bbd-e57e-4d67-9d8a-7a3ce8561d81",
+      "syncError": null
     },
     {
       "id": "L1789058470871483",
@@ -74759,7 +74761,8 @@
     "318b48da-f3c4-4b58-8edc-418a33524d26",
     "76d9bcaa-182c-4fc8-bb12-887210e423c3",
     "00e78df3-e91f-4c01-944f-4a3f22eeb8ce",
-    "bf6bc372-323c-4917-b8e7-f015ab448593"
+    "bf6bc372-323c-4917-b8e7-f015ab448593",
+    "7d3c8bbd-e57e-4d67-9d8a-7a3ce8561d81"
   ],
-  "_ts": "2026-09-10T16:47:03.772Z"
+  "_ts": "2026-09-10T16:47:12.150Z"
 }
