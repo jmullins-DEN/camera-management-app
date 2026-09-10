@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Distracted in Cab\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=544585d7-a8f4-55fd-ae89-11c4a6f135b0&triageStates%5B%5D=NeedsReview",
       "ts": 1789059440837,
-      "synced": false
+      "synced": true,
+      "infItemId": "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0",
+      "syncError": null
     },
     {
       "id": "L1789059354780958",
@@ -74837,7 +74839,8 @@
     "7d3c8bbd-e57e-4d67-9d8a-7a3ce8561d81",
     "15729271-9516-486f-b239-1b50a9be2fa6",
     "60e1d155-2ef0-4c7e-95e0-c4e4f5dc81a3",
-    "7b6001b1-44c7-4629-ab2b-8c9415bafc81"
+    "7b6001b1-44c7-4629-ab2b-8c9415bafc81",
+    "ff0f5a4f-b7ef-4860-8c94-d153b801a1a0"
   ],
-  "_ts": "2026-09-10T16:57:20.969Z"
+  "_ts": "2026-09-10T16:57:28.520Z"
 }
