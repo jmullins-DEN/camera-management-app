@@ -372,7 +372,9 @@
       "coaching": "Unidentified Driver",
       "notes": "Vehicle 24679 Heavy Duty; Hard Brake;\nhttps://cloud.samsara.com/o/30314/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789102799999&uuid=544586c0-fd9a-5479-b7d6-8a5a331cd099&triageStates%5B%5D=NeedsReview",
       "ts": 1789057265996,
-      "synced": false
+      "synced": true,
+      "infItemId": "318b48da-f3c4-4b58-8edc-418a33524d26",
+      "syncError": null
     },
     {
       "id": "L1789057048151474",
@@ -74695,7 +74697,8 @@
     "32f7c67b-39be-4ac5-ad02-cdcaf127d181",
     "c71d1e6d-ff97-4a91-87f7-32afa6d0ea86",
     "67163c0e-8bf9-4936-81a3-59580ea89bb1",
-    "df15003c-1f10-4821-9ea4-3485a466e751"
+    "df15003c-1f10-4821-9ea4-3485a466e751",
+    "318b48da-f3c4-4b58-8edc-418a33524d26"
   ],
-  "_ts": "2026-09-10T16:21:06.110Z"
+  "_ts": "2026-09-10T16:21:14.224Z"
 }
