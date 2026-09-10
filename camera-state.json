@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789041991074579",
+      "board": "KYqKJWuumPm",
+      "driver": "Alexander Williams",
+      "driverId": "019dd5fc-fe7b-75b1-a1cb-4e34801f6aec",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "backward camera blocked\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?bounds=38.492989%2C-95.096499%2C40.038809%2C-93.942934&z=9&duration=691199.999&end_ms=1789102799999&triageStates%5B%5D=NeedsReview&uuid=54458804-650d-53a8-a29a-4838fe2cf1de&event=54458804-650d-53a8-a29a-4838fe2cf1de&deviceId=281474980603986&eventMs=1788988384525",
+      "ts": 1789041991074,
+      "synced": false
+    },
+    {
       "id": "L1789041884008977",
       "board": "KYqKJWuumPm",
       "driver": "Aaron Whitford",
@@ -74329,5 +74342,5 @@
     "7768afe3-7af0-444d-a914-225512b2168f",
     "348b18fb-d2ce-43bc-941d-77c6dc789d3f"
   ],
-  "_ts": "2026-09-10T12:04:47.430Z"
+  "_ts": "2026-09-10T12:06:31.132Z"
 }
