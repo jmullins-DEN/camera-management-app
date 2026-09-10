@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789058823689947",
+      "board": "9RKrQRpDLcr",
+      "driver": "unassigned",
+      "driverId": "d78eb603-f8fb-4d97-b3af-690cb70e5616",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Speeding",
+      "coaching": "Unidentified Driver",
+      "notes": "Vehicle 651 Light; Speeding;\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=544588e1-47fa-59af-97d9-1796ad75fbcc&triageStates%5B%5D=NeedsReview",
+      "ts": 1789058823689,
+      "synced": false
+    },
+    {
       "id": "L1789058470871483",
       "board": "JthqRmXvJ9v",
       "driver": "Anthony Lang",
@@ -74748,5 +74761,5 @@
     "00e78df3-e91f-4c01-944f-4a3f22eeb8ce",
     "bf6bc372-323c-4917-b8e7-f015ab448593"
   ],
-  "_ts": "2026-09-10T16:42:41.778Z"
+  "_ts": "2026-09-10T16:47:03.772Z"
 }
