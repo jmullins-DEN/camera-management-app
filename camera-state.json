@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789041645822717",
+      "board": "ebSND1QoyBs",
+      "driver": "Maroni Vargas",
+      "driverId": "99adb324-9bdf-4194-bca2-3b7c9c3039f7",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1789041645822,
+      "synced": false
+    },
+    {
       "id": "L1789040321648978",
       "board": "YJNwKvzFhkj",
       "driver": "Bertram Williams",
@@ -74281,5 +74294,5 @@
     "3cdbfda5-db60-487c-8047-f2843d17a203",
     "3d85333d-8f59-448e-b0bc-804f39bf0068"
   ],
-  "_ts": "2026-09-10T11:38:46.438Z"
+  "_ts": "2026-09-10T12:00:45.897Z"
 }
