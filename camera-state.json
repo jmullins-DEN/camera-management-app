@@ -362,6 +362,21 @@
   },
   "local": [
     {
+      "id": "L1789039608894977",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Casey Sorg",
+      "driverId": "aaa11c8e-7690-4402-8e3a-abf838eb4889",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1257854384751149056: Hard Brake/Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f013a0a3-0fb7-44ed-a578-cade67925b3c.mp4",
+      "ts": 1789039608895,
+      "synced": true,
+      "infItemId": "7a9a40fc-e56c-4adc-be63-d21953d853f3",
+      "syncError": null
+    },
+    {
       "id": "L1789039605119316",
       "board": "YfVHuM3X87v",
       "driver": "Eric McGuire",
@@ -388,7 +403,8 @@
       "notes": "following too close",
       "ts": 1789039553880,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1789039458693905",
@@ -402,7 +418,8 @@
       "notes": "lane swerve; inattentive; possible phone",
       "ts": 1789039458693,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1789039268128523",
@@ -461,7 +478,8 @@
       "notes": "79 in 65",
       "ts": 1789039147049,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1789039009890783",
@@ -74137,6 +74155,7 @@
     "3cb306fc-d29c-4a7b-8855-29020802e7e3",
     "dd422834-7465-4d10-b947-893185b5c806",
     "fc24d0c7-2819-402b-be4a-d191687336ec",
+    "7a9a40fc-e56c-4adc-be63-d21953d853f3",
     "9fdb29a1-d02f-4637-ba36-a20d422e6de3",
     "a5a982f3-8c9f-4e8a-b90c-079b862a23cc",
     "b9d30067-bc95-411f-9c4e-98f014bf0aa5",
@@ -74150,5 +74169,5 @@
     "0cf8693b-708f-46ef-8516-7e69442aaa4f",
     "6f9094f5-511b-49d9-aa3e-b58e4997f5b5"
   ],
-  "_ts": "2026-09-10T11:26:50.134Z"
+  "_ts": "2026-09-10T11:26:54.497Z"
 }
