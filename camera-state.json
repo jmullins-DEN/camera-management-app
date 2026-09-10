@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789073896841436",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Tyler Schliefert",
+      "driverId": "7ef286e1-f08c-4876-89e5-9f25a4d922b6",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "Alert 281474995832347-1788988022357\nHard Brake; Face to Fahttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/855d01ce-cb3a-465c-b539-b2e41d4531ec.mp4ce;",
+      "ts": 1789073896841,
+      "synced": false
+    },
+    {
       "id": "L178907370503248",
       "board": "AKJSkJj6Ch4",
       "driver": "Tyler Schliefert",
@@ -75101,5 +75114,5 @@
     "b1a99e5a-c9ca-4869-8fee-d65ea0b33bbd",
     "fc28d172-b682-41cd-a79b-1c7ab682f408"
   ],
-  "_ts": "2026-09-10T20:55:08.102Z"
+  "_ts": "2026-09-10T20:58:16.970Z"
 }
