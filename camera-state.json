@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "looking down; distracted; possible phone",
       "ts": 1789039605119,
-      "synced": false
+      "synced": true,
+      "infItemId": "6f9094f5-511b-49d9-aa3e-b58e4997f5b5",
+      "syncError": null
     },
     {
       "id": "L1789039553880884",
@@ -74145,7 +74147,8 @@
     "dc5a9cfe-91e7-42c5-ab2c-dfa32233e184",
     "6d19e487-f089-48e4-9d8d-c78085e8aaeb",
     "a2107737-4bbb-4c11-b8e9-8686cc5f21ea",
-    "0cf8693b-708f-46ef-8516-7e69442aaa4f"
+    "0cf8693b-708f-46ef-8516-7e69442aaa4f",
+    "6f9094f5-511b-49d9-aa3e-b58e4997f5b5"
   ],
-  "_ts": "2026-09-10T11:26:45.180Z"
+  "_ts": "2026-09-10T11:26:47.490Z"
 }
