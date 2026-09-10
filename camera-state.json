@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789039553880884",
+      "board": "YfVHuM3X87v",
+      "driver": "Luis Saborit Lozada",
+      "driverId": "576036e1-4394-4b8e-acc0-4306445d4046",
+      "date": "2026-09-09",
+      "reviewed": "2026-09-10",
+      "behavior": "Following Distance",
+      "coaching": "Face to Face",
+      "notes": "following too close",
+      "ts": 1789039553880,
+      "synced": false
+    },
+    {
       "id": "L1789039458693905",
       "board": "YfVHuM3X87v",
       "driver": "Daniel Barnett",
@@ -74120,5 +74133,5 @@
     "a2107737-4bbb-4c11-b8e9-8686cc5f21ea",
     "0cf8693b-708f-46ef-8516-7e69442aaa4f"
   ],
-  "_ts": "2026-09-10T11:24:22.318Z"
+  "_ts": "2026-09-10T11:25:53.941Z"
 }
