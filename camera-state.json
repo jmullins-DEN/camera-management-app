@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789071178606571",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Earl Patrick",
+      "driverId": "a6e3f8df-848e-4e4e-ac11-0e738db4a7b9",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-10",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 281474995729254-1789065925132\nFollowing Distance",
+      "ts": 1789071178606,
+      "synced": false
+    },
+    {
       "id": "L1789071006620405",
       "board": "AKJSkJj6Ch4",
       "driver": "Earl Patrick",
@@ -75013,5 +75026,5 @@
     "dfe92158-6932-4cbb-b8b9-dbeddf2ebb93",
     "2992e39a-80e3-4e27-8eee-b4e053fda93e"
   ],
-  "_ts": "2026-09-10T20:10:10.552Z"
+  "_ts": "2026-09-10T20:12:58.722Z"
 }
