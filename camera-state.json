@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789097213753484",
+      "board": "5gVKeGRDf8U",
+      "driver": "William Davis",
+      "driverId": "916ba624-793b-42cf-9cb5-6f7de228854b",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 438441409: Hand Held Phone/ No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bccd9b4e-fac3-42f0-adfa-476b87f4ed31.mp4",
+      "ts": 1789097213753,
+      "synced": false
+    },
+    {
       "id": "L1789097093295215",
       "board": "5gVKeGRDf8U",
       "driver": "William Davis",
@@ -372,7 +385,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 438441406:  Seat Belt\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7f66f8f5-2557-42d8-b009-b22c2668fe6e.mp4",
       "ts": 1789097093296,
-      "synced": false
+      "synced": true,
+      "infItemId": "8d206d28-3b95-4f04-b871-e94f3a0f53ee",
+      "syncError": null
     },
     {
       "id": "L1789096910328812",
@@ -75282,7 +75297,8 @@
     "b915c14d-0368-4328-8c0f-fd3442453668",
     "8ea5a284-bacf-4e06-84c9-fe9069bcd61f",
     "5ecf8b3c-c7f6-4ca5-9a55-eff61aa31a05",
-    "7e7a6dc9-7e17-49b8-b238-459bc8db3671"
+    "7e7a6dc9-7e17-49b8-b238-459bc8db3671",
+    "8d206d28-3b95-4f04-b871-e94f3a0f53ee"
   ],
-  "_ts": "2026-09-11T03:24:53.383Z"
+  "_ts": "2026-09-11T03:26:53.835Z"
 }
