@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting; loses lane",
       "ts": 1789130926948,
-      "synced": false
+      "synced": true,
+      "infItemId": "7b59c964-2aee-43ea-a1d3-280cc1665841",
+      "syncError": null
     },
     {
       "id": "L1789130846451563",
@@ -75924,7 +75926,8 @@
     "60ee21db-310a-41ca-bd79-fc9b0b2787ae",
     "86954ca2-3e09-4832-9e5d-ff2c3c370396",
     "65c70e82-8e79-4639-b111-ea224714a09b",
-    "eec68540-9e3a-4ab6-bdb2-94d3bd1d837f"
+    "eec68540-9e3a-4ab6-bdb2-94d3bd1d837f",
+    "7b59c964-2aee-43ea-a1d3-280cc1665841"
   ],
-  "_ts": "2026-09-11T12:48:47.010Z"
+  "_ts": "2026-09-11T12:48:51.843Z"
 }
