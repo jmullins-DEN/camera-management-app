@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789128207541489",
+      "board": "8BUntjK1TqV",
+      "driver": "Ramirez, Cristian",
+      "driverId": "3610cd65-08d1-4fb7-9a75-307bad9fba49",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "\nAlert 6489998634; driver drowsy\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/1b29d2e7-0082-4e86-8a7b-e9ed362b5288.mp4",
+      "ts": 1789128207541,
+      "synced": false
+    },
+    {
       "id": "L1789128166695890",
       "board": "8BUntjK1TqV",
       "driver": "Chavez, Robert Jr",
@@ -75675,5 +75688,5 @@
     "4e4f6b9e-fea0-4cf2-be55-0010a4acc157",
     "56272821-f718-42bb-9c93-d6c4ead253d5"
   ],
-  "_ts": "2026-09-11T12:02:52.574Z"
+  "_ts": "2026-09-11T12:03:27.609Z"
 }
