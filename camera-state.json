@@ -373,7 +373,8 @@
       "notes": "texting\n",
       "ts": 1789130055070,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1789129351924815",
@@ -402,7 +403,8 @@
       "notes": "\nAlert 1619236978; following too close\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/490f87fa-bddc-4e3a-bc2b-5a789fb4d4e6.mp4\n",
       "ts": 1789129259840,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1789128749446244",
@@ -416,7 +418,8 @@
       "notes": "\nAlert 6492323870; 57 in 45\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/143e2524-99a7-4eb4-b596-f63f967af1bc.mp4",
       "ts": 1789128749446,
       "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
+      "infItemId": null
     },
     {
       "id": "L1789128633016712",
@@ -75797,5 +75800,5 @@
     "c8a1bba7-2d97-4226-8cd0-d73440386326",
     "bc934036-156f-4748-9b2c-91c14c8a2fc1"
   ],
-  "_ts": "2026-09-11T12:36:31.914Z"
+  "_ts": "2026-09-11T12:38:40.360Z"
 }
