@@ -417,9 +417,9 @@
       "coaching": "Coaching Notes",
       "notes": "\nAlert 6492323870; 57 in 45\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/143e2524-99a7-4eb4-b596-f63f967af1bc.mp4",
       "ts": 1789128749446,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "500f296f-5709-425a-8b9a-1743051b404b"
     },
     {
       "id": "L1789128633016712",
@@ -1332,9 +1332,9 @@
       "coaching": "Face to Face",
       "notes": "Speeding , Face to Face;\nhttps://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?uuid=5445887e-c190-551e-a8c6-74db2d4cbeb4&triageStates%5B%5D=NeedsReview",
       "ts": 1789058927650,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f158659f-3db1-4433-ac07-91fb5652612a"
     },
     {
       "id": "L1789058823689947",
@@ -17819,7 +17819,7 @@
       "ts": 1787611451022,
       "synced": false,
       "infItemId": "db5c430a-3425-444c-ac68-77af58b41800",
-      "syncError": "reference 429"
+      "syncError": "reference 409"
     },
     {
       "id": "L1787611410787537",
@@ -75800,7 +75800,9 @@
     "c8a1bba7-2d97-4226-8cd0-d73440386326",
     "bc934036-156f-4748-9b2c-91c14c8a2fc1",
     "0c4e1fc7-6cdc-4d07-a0e7-6fc7018f9e84",
-    "fb8c1280-40ac-40b4-92ca-6ba01478f1b6"
+    "fb8c1280-40ac-40b4-92ca-6ba01478f1b6",
+    "500f296f-5709-425a-8b9a-1743051b404b",
+    "f158659f-3db1-4433-ac07-91fb5652612a"
   ],
-  "_ts": "2026-09-11T12:38:44.876Z"
+  "_ts": "2026-09-11T12:38:49.272Z"
 }
