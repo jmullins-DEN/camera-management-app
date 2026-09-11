@@ -612,9 +612,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy",
       "ts": 1789130345243,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "75da648d-6318-4fb3-b98a-1e8a4e63f533"
     },
     {
       "id": "L1789130055069979",
@@ -76073,7 +76073,8 @@
     "7fd37529-7c3d-428a-8221-14869a55428b",
     "61bc5c4a-4f86-437e-9555-cd986e8a65f8",
     "4ec6551b-f399-481e-ad00-b351341efd70",
-    "c40fa482-436c-41f1-aad2-dbed975a3cc5"
+    "c40fa482-436c-41f1-aad2-dbed975a3cc5",
+    "75da648d-6318-4fb3-b98a-1e8a4e63f533"
   ],
-  "_ts": "2026-09-11T15:42:23.957Z"
+  "_ts": "2026-09-11T15:42:28.262Z"
 }
