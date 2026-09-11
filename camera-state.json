@@ -402,8 +402,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 6459778660:  Hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4d662792-24fd-4e59-940b-9203bc05fb9b.mp4",
       "ts": 1789099362265,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "f8edf80d-219d-4737-96a5-357b088f215f"
     },
     {
       "id": "L1789099110432708",
@@ -476,8 +477,9 @@
       "coaching": "Face to Face",
       "notes": "Alert 438389598:  No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/75a313e7-bbc5-4c39-ba6a-305b2f15bfa8.mp4",
       "ts": 1789097440373,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "6a400a7c-c4fb-4713-ace5-c9a92ab100c2"
     },
     {
       "id": "L1789097213753484",
@@ -75425,7 +75427,9 @@
     "ccb1dcc4-2a39-4731-b8d0-e5dcddc96302",
     "acc9d570-537f-4087-a757-9b0da8c79a4e",
     "7c02541d-cec3-48ed-8c42-148c6b1d7e69",
-    "a6afbed9-8aca-40ee-9909-27232f6cec7e"
+    "a6afbed9-8aca-40ee-9909-27232f6cec7e",
+    "f8edf80d-219d-4737-96a5-357b088f215f",
+    "6a400a7c-c4fb-4713-ace5-c9a92ab100c2"
   ],
-  "_ts": "2026-09-11T10:15:58.475Z"
+  "_ts": "2026-09-11T10:16:02.255Z"
 }
