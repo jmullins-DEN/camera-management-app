@@ -402,8 +402,9 @@
       "coaching": "Critical Event",
       "notes": "multi-tasking;  hard brake; near miss\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458be5-0bfb-5c43-9b2a-eaaf17a2a5fe&activeFolder=needs_review&triageStates%5B%5D=NeedsReview",
       "ts": 1789131614700,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "9017fbd4-ef22-4df2-bb80-481d26c893c0"
     },
     {
       "id": "L1789131555168879",
@@ -446,8 +447,9 @@
       "coaching": "Coaching Notes",
       "notes": "following too close\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458af2-01fd-5d54-8920-649bca76d9ba&triageStates%5B%5D=NeedsReview",
       "ts": 1789131313456,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "7fd37529-7c3d-428a-8221-14869a55428b"
     },
     {
       "id": "L1789131189680359",
@@ -76065,7 +76067,9 @@
     "d4a4a137-222a-4355-a49c-9511666d82c2",
     "b372e8c7-0ac7-429d-aa97-857beeb2d642",
     "7dd42ab5-c1be-4ced-8b16-f9e01430aa07",
-    "756ab361-6242-4c21-8e55-edec6536a3d4"
+    "756ab361-6242-4c21-8e55-edec6536a3d4",
+    "9017fbd4-ef22-4df2-bb80-481d26c893c0",
+    "7fd37529-7c3d-428a-8221-14869a55428b"
   ],
-  "_ts": "2026-09-11T15:42:14.735Z"
+  "_ts": "2026-09-11T15:42:19.341Z"
 }
