@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789130345243268",
+      "board": "xMfRLnqAN7y",
+      "driver": "Jonathan Ames",
+      "driverId": "7aa50d1b-86ec-4134-9fba-1245b0a02240",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy",
+      "ts": 1789130345243,
+      "synced": false
+    },
+    {
       "id": "L1789130055069979",
       "board": "YfVHuM3X87v",
       "driver": "Josh Hardin",
@@ -75804,5 +75817,5 @@
     "500f296f-5709-425a-8b9a-1743051b404b",
     "f158659f-3db1-4433-ac07-91fb5652612a"
   ],
-  "_ts": "2026-09-11T12:38:49.272Z"
+  "_ts": "2026-09-11T12:39:05.306Z"
 }
