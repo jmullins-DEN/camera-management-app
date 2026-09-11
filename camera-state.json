@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789131614700125",
+      "board": "KYqKJWuumPm",
+      "driver": "Justice, Joseph",
+      "driverId": "0b287b21-23a5-462c-94ce-6d56a94dcb99",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Safety-Critical Event",
+      "coaching": "Critical Event",
+      "notes": "multi-tasking;  hard brake; near miss\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458be5-0bfb-5c43-9b2a-eaaf17a2a5fe&activeFolder=needs_review&triageStates%5B%5D=NeedsReview",
+      "ts": 1789131614700,
+      "synced": false
+    },
+    {
       "id": "L1789131555168879",
       "board": "KYqKJWuumPm",
       "driver": "Unassigned",
@@ -372,7 +385,9 @@
       "coaching": "Unidentified Driver",
       "notes": "hand held phone; vehicle #168\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458bf3-a05e-53a3-a666-31fe656b2381&activeFolder=needs_review&triageStates%5B%5D=NeedsReview",
       "ts": 1789131555168,
-      "synced": false
+      "synced": true,
+      "infItemId": "b372e8c7-0ac7-429d-aa97-857beeb2d642",
+      "syncError": null
     },
     {
       "id": "L1789131423757686",
@@ -76016,7 +76031,8 @@
     "7b59c964-2aee-43ea-a1d3-280cc1665841",
     "45a0b4ed-8f91-4448-8ea8-83a1f452fe08",
     "37aa32ff-a710-4e68-800b-a29934a64dd4",
-    "d4a4a137-222a-4355-a49c-9511666d82c2"
+    "d4a4a137-222a-4355-a49c-9511666d82c2",
+    "b372e8c7-0ac7-429d-aa97-857beeb2d642"
   ],
-  "_ts": "2026-09-11T12:59:15.238Z"
+  "_ts": "2026-09-11T13:00:14.770Z"
 }
