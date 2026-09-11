@@ -372,7 +372,8 @@
       "coaching": "Coaching Notes",
       "notes": "following too close\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458af2-01fd-5d54-8920-649bca76d9ba&triageStates%5B%5D=NeedsReview",
       "ts": 1789131313456,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1789131189680359",
@@ -75988,5 +75989,5 @@
     "45a0b4ed-8f91-4448-8ea8-83a1f452fe08",
     "37aa32ff-a710-4e68-800b-a29934a64dd4"
   ],
-  "_ts": "2026-09-11T12:55:13.526Z"
+  "_ts": "2026-09-11T12:55:17.426Z"
 }
