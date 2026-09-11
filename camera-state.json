@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789098022129286",
+      "board": "5gVKeGRDf8U",
+      "driver": "Dustin Porter",
+      "driverId": "914a4155-9f1f-40b8-b2a8-26a1ba330d0a",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Camera Exception",
+      "coaching": "System Alert",
+      "notes": "Alert 438456736:  Camera Obstruction/Visors\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/37363a5d-3877-40cc-9989-054804dd257a.mp4",
+      "ts": 1789098022130,
+      "synced": false
+    },
+    {
       "id": "L1789097440373746",
       "board": "5gVKeGRDf8U",
       "driver": "Richard Coleman",
@@ -75317,5 +75330,5 @@
     "8d206d28-3b95-4f04-b871-e94f3a0f53ee",
     "c0e44cee-256a-4637-bb3d-d14eeb2df2e1"
   ],
-  "_ts": "2026-09-11T03:30:45.853Z"
+  "_ts": "2026-09-11T03:40:22.207Z"
 }
