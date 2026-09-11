@@ -372,7 +372,9 @@
       "coaching": "System Alert",
       "notes": "https://cloud.samsara.com/o/60990/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458cf0-84a0-54da-8c16-dd63b052800f&triageStates%5B%5D=NeedsReview",
       "ts": 1789142233916,
-      "synced": false
+      "synced": true,
+      "infItemId": "edcb184a-0efe-484e-8339-851a2b0ad0e5",
+      "syncError": null
     },
     {
       "id": "L1789142163027579",
@@ -76149,7 +76151,8 @@
     "75da648d-6318-4fb3-b98a-1e8a4e63f533",
     "14ead30f-4b4e-4803-9f89-1f812d0cabe1",
     "d3784380-c201-4d8b-a47b-ac67e625079f",
-    "8297fc2c-0410-4e04-a12f-93cfcdd21452"
+    "8297fc2c-0410-4e04-a12f-93cfcdd21452",
+    "edcb184a-0efe-484e-8339-851a2b0ad0e5"
   ],
-  "_ts": "2026-09-11T15:57:14.043Z"
+  "_ts": "2026-09-11T15:57:18.560Z"
 }
