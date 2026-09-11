@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789157004701225",
+      "board": "6aE7wVSK5Jq",
+      "driver": "Colby Miller",
+      "driverId": "68559404-db70-4150-a9e5-f1bd46caaa53",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Face to Face",
+      "notes": "U-Turn\nhttps://cloud.samsara.com/o/6005545/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458a7b-5502-501b-b508-383ee5292fad&triageStates%5B%5D=NeedsReview",
+      "ts": 1789157004702,
+      "synced": false
+    },
+    {
       "id": "L1789142291650984",
       "board": "9RKrQRpDLcr",
       "driver": "Jesus Carbajal",
@@ -76170,5 +76183,5 @@
     "edcb184a-0efe-484e-8339-851a2b0ad0e5",
     "f67c71d0-8286-4a19-8b57-cebdef07aac6"
   ],
-  "_ts": "2026-09-11T15:58:15.129Z"
+  "_ts": "2026-09-11T20:03:24.786Z"
 }
