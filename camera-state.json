@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789097093295215",
+      "board": "5gVKeGRDf8U",
+      "driver": "William Davis",
+      "driverId": "916ba624-793b-42cf-9cb5-6f7de228854b",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Seat Belt",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 438441406:  Seat Belt\n\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/7f66f8f5-2557-42d8-b009-b22c2668fe6e.mp4",
+      "ts": 1789097093296,
+      "synced": false
+    },
+    {
       "id": "L1789096910328812",
       "board": "5gVKeGRDf8U",
       "driver": "William Davis",
@@ -75271,5 +75284,5 @@
     "5ecf8b3c-c7f6-4ca5-9a55-eff61aa31a05",
     "7e7a6dc9-7e17-49b8-b238-459bc8db3671"
   ],
-  "_ts": "2026-09-11T03:21:53.573Z"
+  "_ts": "2026-09-11T03:24:53.383Z"
 }
