@@ -372,7 +372,8 @@
       "coaching": "Critical Event",
       "notes": "multi-tasking;  hard brake; near miss\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458be5-0bfb-5c43-9b2a-eaaf17a2a5fe&activeFolder=needs_review&triageStates%5B%5D=NeedsReview",
       "ts": 1789131614700,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1789131555168879",
@@ -76034,5 +76035,5 @@
     "d4a4a137-222a-4355-a49c-9511666d82c2",
     "b372e8c7-0ac7-429d-aa97-857beeb2d642"
   ],
-  "_ts": "2026-09-11T13:00:14.770Z"
+  "_ts": "2026-09-11T13:00:17.993Z"
 }
