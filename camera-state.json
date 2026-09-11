@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789130926948412",
+      "board": "YJNwKvzFhkj",
+      "driver": "Robert Duvall",
+      "driverId": "019de578-aa30-76af-8ea2-96cf081f6460",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting; loses lane",
+      "ts": 1789130926948,
+      "synced": false
+    },
+    {
       "id": "L1789130846451563",
       "board": "YJNwKvzFhkj",
       "driver": "Brandon Bradford",
@@ -75913,5 +75926,5 @@
     "65c70e82-8e79-4639-b111-ea224714a09b",
     "eec68540-9e3a-4ab6-bdb2-94d3bd1d837f"
   ],
-  "_ts": "2026-09-11T12:47:34.053Z"
+  "_ts": "2026-09-11T12:48:47.010Z"
 }
