@@ -372,7 +372,9 @@
       "coaching": "Unidentified Driver",
       "notes": "https://app.estrack.com/#/camera/events/6aa2acc9604c47c42cd0d899",
       "ts": 1789122789156,
-      "synced": false
+      "synced": true,
+      "infItemId": "b8819aa6-b9e1-4696-a817-84af5d2ac650",
+      "syncError": null
     },
     {
       "id": "L1789122724965584",
@@ -75620,7 +75622,8 @@
     "a0b7939d-0954-4345-820a-beda4478f5db",
     "342d2769-929e-4f1a-9c2f-b5a8f122be52",
     "d5b207b7-3aa2-45e5-aa99-46959162bc6e",
-    "a06930b2-c210-4cb9-84ce-b862e5ea307c"
+    "a06930b2-c210-4cb9-84ce-b862e5ea307c",
+    "b8819aa6-b9e1-4696-a817-84af5d2ac650"
   ],
-  "_ts": "2026-09-11T10:33:09.226Z"
+  "_ts": "2026-09-11T10:33:13.841Z"
 }
