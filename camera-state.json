@@ -492,8 +492,9 @@
       "coaching": "Critical Event",
       "notes": "driver drowsy\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458e56-df27-50ac-8c65-d44ced704b13&triageStates%5B%5D=NeedsReview&event=54458e56-df27-50ac-8c65-d44ced704b13&deviceId=281474989128258&eventMs=1789094453031",
       "ts": 1789131058760,
-      "synced": false,
-      "syncError": "Failed to fetch"
+      "synced": true,
+      "syncError": null,
+      "infItemId": "61bc5c4a-4f86-437e-9555-cd986e8a65f8"
     },
     {
       "id": "L1789130926948412",
@@ -551,9 +552,9 @@
       "coaching": "Coaching Notes",
       "notes": "texting; ",
       "ts": 1789130769358,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "4ec6551b-f399-481e-ad00-b351341efd70"
     },
     {
       "id": "L1789130719850425",
@@ -581,9 +582,9 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; vehicle #756686",
       "ts": 1789130644338,
-      "synced": false,
-      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}",
-      "infItemId": null
+      "synced": true,
+      "syncError": null,
+      "infItemId": "c40fa482-436c-41f1-aad2-dbed975a3cc5"
     },
     {
       "id": "L1789130575321540",
@@ -76069,7 +76070,10 @@
     "7dd42ab5-c1be-4ced-8b16-f9e01430aa07",
     "756ab361-6242-4c21-8e55-edec6536a3d4",
     "9017fbd4-ef22-4df2-bb80-481d26c893c0",
-    "7fd37529-7c3d-428a-8221-14869a55428b"
+    "7fd37529-7c3d-428a-8221-14869a55428b",
+    "61bc5c4a-4f86-437e-9555-cd986e8a65f8",
+    "4ec6551b-f399-481e-ad00-b351341efd70",
+    "c40fa482-436c-41f1-aad2-dbed975a3cc5"
   ],
-  "_ts": "2026-09-11T15:42:19.341Z"
+  "_ts": "2026-09-11T15:42:23.957Z"
 }
