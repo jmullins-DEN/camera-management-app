@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789157180023556",
+      "board": "8gejhhHJj4e",
+      "driver": "Dylan Rouco",
+      "driverId": "019afe85-3d4a-7bb7-a390-405521644f21",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Phone Distraction\nhttps://cloud.samsara.com/o/9002774/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458dcd-bc44-5a7c-8282-67ec9d5555ef&activeFolder=needs_review&triageStates%5B%5D=NeedsReview&event=54458dcd-bc44-5a7c-8282-67ec9d5555ef&deviceId=281474988469578&eventMs=1789085465668",
+      "ts": 1789157180023,
+      "synced": false
+    },
+    {
       "id": "L1789157004701225",
       "board": "6aE7wVSK5Jq",
       "driver": "Colby Miller",
@@ -76186,5 +76199,5 @@
     "f67c71d0-8286-4a19-8b57-cebdef07aac6",
     "6faec0f0-579f-4438-95ad-56e2b9f2f78b"
   ],
-  "_ts": "2026-09-11T20:03:31.341Z"
+  "_ts": "2026-09-11T20:06:20.116Z"
 }
