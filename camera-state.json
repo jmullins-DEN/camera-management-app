@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789128633016712",
+      "board": "MZerRFmhSHa",
+      "driver": "unassigned",
+      "driverId": "0752edcb-1775-4cf7-9390-a3d64d7be4bd",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Sign Violation",
+      "coaching": "Unidentified Driver",
+      "notes": "\nAlert 6491944526; stop line violation; hard brake; vehicle #unassigne; Driver listed as Driver Education Network\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cdc8e6f1-b938-444c-8cea-fb80c3a5f6ae.mp4",
+      "ts": 1789128633016,
+      "synced": false
+    },
+    {
       "id": "L1789128366588668",
       "board": "8BUntjK1TqV",
       "driver": "Costilla, Ralph",
@@ -75723,5 +75736,5 @@
     "afb58a52-c7d1-4712-8645-3bd4cfa13c1f",
     "0127161b-83d9-4654-a754-47fce2b90207"
   ],
-  "_ts": "2026-09-11T12:06:10.323Z"
+  "_ts": "2026-09-11T12:10:33.087Z"
 }
