@@ -372,7 +372,9 @@
       "coaching": "Face to Face",
       "notes": "inattentive; loses lane",
       "ts": 1789130179314,
-      "synced": false
+      "synced": true,
+      "infItemId": "5c19a62f-8655-43ff-8e79-5e696d76eef9",
+      "syncError": null
     },
     {
       "id": "L1789130055069979",
@@ -75808,7 +75810,8 @@
     "afb58a52-c7d1-4712-8645-3bd4cfa13c1f",
     "0127161b-83d9-4654-a754-47fce2b90207",
     "c8a1bba7-2d97-4226-8cd0-d73440386326",
-    "bc934036-156f-4748-9b2c-91c14c8a2fc1"
+    "bc934036-156f-4748-9b2c-91c14c8a2fc1",
+    "5c19a62f-8655-43ff-8e79-5e696d76eef9"
   ],
-  "_ts": "2026-09-11T12:36:19.381Z"
+  "_ts": "2026-09-11T12:36:23.293Z"
 }
