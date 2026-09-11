@@ -362,6 +362,63 @@
   },
   "local": [
     {
+      "id": "L1789131313456686",
+      "board": "ebSND1QoyBs",
+      "driver": "Shamonte Jacobs",
+      "driverId": "d894f236-6b02-433e-9b97-786045a5d4e2",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Following Distance",
+      "coaching": "Coaching Notes",
+      "notes": "following too close\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458af2-01fd-5d54-8920-649bca76d9ba&triageStates%5B%5D=NeedsReview",
+      "ts": 1789131313456,
+      "synced": false
+    },
+    {
+      "id": "L1789131189680359",
+      "board": "ebSND1QoyBs",
+      "driver": "KARVELL OLIVER",
+      "driverId": "66820273-3d66-474d-b1fd-a0498b80b8d3",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "75 in 55\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458c3e-3471-5308-8edb-c4cb6b8bd851&triageStates%5B%5D=NeedsReview",
+      "ts": 1789131189680,
+      "synced": true,
+      "infItemId": "37aa32ff-a710-4e68-800b-a29934a64dd4",
+      "syncError": null
+    },
+    {
+      "id": "L1789131094810700",
+      "board": "ebSND1QoyBs",
+      "driver": "Mark Varela",
+      "driverId": "33022a64-23ca-4ed3-a310-5bd6cdc1e921",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458d05-0feb-57e8-ace7-beee46a77eff&triageStates%5B%5D=NeedsReview",
+      "ts": 1789131094810,
+      "synced": true,
+      "infItemId": "45a0b4ed-8f91-4448-8ea8-83a1f452fe08",
+      "syncError": null
+    },
+    {
+      "id": "L1789131058760519",
+      "board": "ebSND1QoyBs",
+      "driver": "Andrew Fierro",
+      "driverId": "51aa5f26-e5e1-4f3b-bddd-046b80604115",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "driver drowsy\nhttps://cloud.samsara.com/o/5005620/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458e56-df27-50ac-8c65-d44ced704b13&triageStates%5B%5D=NeedsReview&event=54458e56-df27-50ac-8c65-d44ced704b13&deviceId=281474989128258&eventMs=1789094453031",
+      "ts": 1789131058760,
+      "synced": false,
+      "syncError": "Failed to fetch"
+    },
+    {
       "id": "L1789130926948412",
       "board": "YJNwKvzFhkj",
       "driver": "Robert Duvall",
@@ -75927,7 +75984,9 @@
     "86954ca2-3e09-4832-9e5d-ff2c3c370396",
     "65c70e82-8e79-4639-b111-ea224714a09b",
     "eec68540-9e3a-4ab6-bdb2-94d3bd1d837f",
-    "7b59c964-2aee-43ea-a1d3-280cc1665841"
+    "7b59c964-2aee-43ea-a1d3-280cc1665841",
+    "45a0b4ed-8f91-4448-8ea8-83a1f452fe08",
+    "37aa32ff-a710-4e68-800b-a29934a64dd4"
   ],
-  "_ts": "2026-09-11T12:48:51.843Z"
+  "_ts": "2026-09-11T12:55:13.526Z"
 }
