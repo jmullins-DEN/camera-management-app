@@ -372,7 +372,9 @@
       "coaching": "System Alert",
       "notes": "Alert 438456736:  Camera Obstruction/Visors\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/37363a5d-3877-40cc-9989-054804dd257a.mp4",
       "ts": 1789098022130,
-      "synced": false
+      "synced": true,
+      "infItemId": "aa7fa8ff-80e1-44e7-a8eb-608ae10698c7",
+      "syncError": null
     },
     {
       "id": "L1789097440373746",
@@ -75328,7 +75330,8 @@
     "5ecf8b3c-c7f6-4ca5-9a55-eff61aa31a05",
     "7e7a6dc9-7e17-49b8-b238-459bc8db3671",
     "8d206d28-3b95-4f04-b871-e94f3a0f53ee",
-    "c0e44cee-256a-4637-bb3d-d14eeb2df2e1"
+    "c0e44cee-256a-4637-bb3d-d14eeb2df2e1",
+    "aa7fa8ff-80e1-44e7-a8eb-608ae10698c7"
   ],
-  "_ts": "2026-09-11T03:40:22.207Z"
+  "_ts": "2026-09-11T03:40:26.667Z"
 }
