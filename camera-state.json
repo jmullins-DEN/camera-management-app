@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "multi-tasking with two hands",
       "ts": 1789130719850,
-      "synced": false
+      "synced": true,
+      "infItemId": "86954ca2-3e09-4832-9e5d-ff2c3c370396",
+      "syncError": null
     },
     {
       "id": "L1789130644338108",
@@ -75859,7 +75861,8 @@
     "fb8c1280-40ac-40b4-92ca-6ba01478f1b6",
     "500f296f-5709-425a-8b9a-1743051b404b",
     "f158659f-3db1-4433-ac07-91fb5652612a",
-    "60ee21db-310a-41ca-bd79-fc9b0b2787ae"
+    "60ee21db-310a-41ca-bd79-fc9b0b2787ae",
+    "86954ca2-3e09-4832-9e5d-ff2c3c370396"
   ],
-  "_ts": "2026-09-11T12:45:19.920Z"
+  "_ts": "2026-09-11T12:45:22.695Z"
 }
