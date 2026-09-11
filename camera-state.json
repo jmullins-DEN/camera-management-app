@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789130179314668",
+      "board": "YfVHuM3X87v",
+      "driver": "Daniel Barnett",
+      "driverId": "4aa19e15-402f-490c-8070-410e7d94fefb",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Cab",
+      "coaching": "Face to Face",
+      "notes": "inattentive; loses lane",
+      "ts": 1789130179314,
+      "synced": false
+    },
+    {
       "id": "L1789130055069979",
       "board": "YfVHuM3X87v",
       "driver": "Josh Hardin",
@@ -75797,5 +75810,5 @@
     "c8a1bba7-2d97-4226-8cd0-d73440386326",
     "bc934036-156f-4748-9b2c-91c14c8a2fc1"
   ],
-  "_ts": "2026-09-11T12:34:19.494Z"
+  "_ts": "2026-09-11T12:36:19.381Z"
 }
