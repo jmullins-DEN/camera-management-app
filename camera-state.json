@@ -372,7 +372,9 @@
       "coaching": "Unidentified Driver",
       "notes": "\nAlert 6491944526; stop line violation; hard brake; vehicle #unassigne; Driver listed as Driver Education Network\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/cdc8e6f1-b938-444c-8cea-fb80c3a5f6ae.mp4",
       "ts": 1789128633016,
-      "synced": false
+      "synced": true,
+      "infItemId": "c8a1bba7-2d97-4226-8cd0-d73440386326",
+      "syncError": null
     },
     {
       "id": "L1789128366588668",
@@ -75734,7 +75736,8 @@
     "56272821-f718-42bb-9c93-d6c4ead253d5",
     "fcc4b51f-46cc-4208-aefa-deb035c06d64",
     "afb58a52-c7d1-4712-8645-3bd4cfa13c1f",
-    "0127161b-83d9-4654-a754-47fce2b90207"
+    "0127161b-83d9-4654-a754-47fce2b90207",
+    "c8a1bba7-2d97-4226-8cd0-d73440386326"
   ],
-  "_ts": "2026-09-11T12:10:33.087Z"
+  "_ts": "2026-09-11T12:10:35.991Z"
 }
