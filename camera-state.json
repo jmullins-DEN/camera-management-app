@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 281474995831300-1789155463988\nFollowing Distance;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/2331c27c-2109-401f-a21e-2ac0129f6679.mp4",
       "ts": 1789158380700,
-      "synced": false
+      "synced": true,
+      "infItemId": "85c97eb0-750f-4ab6-806d-bdca465414f3",
+      "syncError": null
     },
     {
       "id": "L1789158328875561",
@@ -76277,7 +76279,8 @@
     "97ef9f9f-8c02-4a6f-85f8-4689f8e80069",
     "2ae29ef8-4dba-48b2-a7df-05233a542c5b",
     "990ffd07-9c60-4faa-8c1b-be09b64d04fe",
-    "3476a564-1ebd-44fe-9393-890601d6e8d3"
+    "3476a564-1ebd-44fe-9393-890601d6e8d3",
+    "85c97eb0-750f-4ab6-806d-bdca465414f3"
   ],
-  "_ts": "2026-09-11T20:26:20.788Z"
+  "_ts": "2026-09-11T20:26:25.049Z"
 }
