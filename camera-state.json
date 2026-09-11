@@ -372,7 +372,9 @@
       "coaching": "Coaching Notes",
       "notes": "Alert 438441409: Hand Held Phone/ No Seat Belt\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/bccd9b4e-fac3-42f0-adfa-476b87f4ed31.mp4",
       "ts": 1789097213753,
-      "synced": false
+      "synced": true,
+      "infItemId": "c0e44cee-256a-4637-bb3d-d14eeb2df2e1",
+      "syncError": null
     },
     {
       "id": "L1789097093295215",
@@ -75298,7 +75300,8 @@
     "8ea5a284-bacf-4e06-84c9-fe9069bcd61f",
     "5ecf8b3c-c7f6-4ca5-9a55-eff61aa31a05",
     "7e7a6dc9-7e17-49b8-b238-459bc8db3671",
-    "8d206d28-3b95-4f04-b871-e94f3a0f53ee"
+    "8d206d28-3b95-4f04-b871-e94f3a0f53ee",
+    "c0e44cee-256a-4637-bb3d-d14eeb2df2e1"
   ],
-  "_ts": "2026-09-11T03:26:53.835Z"
+  "_ts": "2026-09-11T03:26:58.015Z"
 }
