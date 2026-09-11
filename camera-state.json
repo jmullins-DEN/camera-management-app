@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789131789924592",
+      "board": "UKkbYDchPMh",
+      "driver": "Christopher Chaney",
+      "driverId": "019d91d3-6cda-7275-9ceb-aa32c75f7029",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "texting\nhttps://app.estrack.com/#/camera/events/6aa3021f604c47c42cd169b2",
+      "ts": 1789131789924,
+      "synced": false
+    },
+    {
       "id": "L1789131757857763",
       "board": "UKkbYDchPMh",
       "driver": "Christopher Chaney",
@@ -76051,5 +76064,5 @@
     "b372e8c7-0ac7-429d-aa97-857beeb2d642",
     "7dd42ab5-c1be-4ced-8b16-f9e01430aa07"
   ],
-  "_ts": "2026-09-11T13:02:41.349Z"
+  "_ts": "2026-09-11T13:03:09.994Z"
 }
