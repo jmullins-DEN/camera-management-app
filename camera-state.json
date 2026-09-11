@@ -372,7 +372,8 @@
       "coaching": "Unidentified Driver",
       "notes": "texting; vehicle #756686",
       "ts": 1789130644338,
-      "synced": false
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
     },
     {
       "id": "L1789130575321540",
@@ -75847,5 +75848,5 @@
     "f158659f-3db1-4433-ac07-91fb5652612a",
     "60ee21db-310a-41ca-bd79-fc9b0b2787ae"
   ],
-  "_ts": "2026-09-11T12:44:04.401Z"
+  "_ts": "2026-09-11T12:44:07.600Z"
 }
