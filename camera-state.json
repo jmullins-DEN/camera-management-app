@@ -362,6 +362,48 @@
   },
   "local": [
     {
+      "id": "L1789101250978907",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Daniel Hiland",
+      "driverId": "04782f89-3b2e-491e-bbfe-ed99a93bceef",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1258164310333620224:  Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/548f7678-d16c-40eb-9ea4-07c8995b114d.mp4",
+      "ts": 1789101250978,
+      "synced": false
+    },
+    {
+      "id": "L1789101053602657",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Hamza Alrawwad",
+      "driverId": "47f6bf27-4bc8-4e28-8ac3-3732aef314cf",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 1258126229081587712:  Phone Distraction/Hard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/f65bccbd-60ca-4915-9017-5157048dcc86.mp4",
+      "ts": 1789101053602,
+      "synced": true,
+      "infItemId": "7c02541d-cec3-48ed-8c42-148c6b1d7e69",
+      "syncError": null
+    },
+    {
+      "id": "L1789099362265435",
+      "board": "qnESNLC3JPR",
+      "driver": "Jimmy Mott",
+      "driverId": "019ab404-9009-7664-8db5-05b6082c4ade",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6459778660:  Hand held phone\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/4d662792-24fd-4e59-940b-9203bc05fb9b.mp4",
+      "ts": 1789099362265,
+      "synced": false,
+      "syncError": "item 429 {\"message\":\"Too Many Attempts.\"}"
+    },
+    {
       "id": "L1789099110432708",
       "board": "aRcazTLT9iM",
       "driver": "Patrick Roberts",
@@ -75379,7 +75421,8 @@
     "aa7fa8ff-80e1-44e7-a8eb-608ae10698c7",
     "e9ee4feb-5d77-4dc7-8aa2-7766bc26a5aa",
     "ccb1dcc4-2a39-4731-b8d0-e5dcddc96302",
-    "acc9d570-537f-4087-a757-9b0da8c79a4e"
+    "acc9d570-537f-4087-a757-9b0da8c79a4e",
+    "7c02541d-cec3-48ed-8c42-148c6b1d7e69"
   ],
-  "_ts": "2026-09-11T03:58:34.369Z"
+  "_ts": "2026-09-11T04:34:11.057Z"
 }
