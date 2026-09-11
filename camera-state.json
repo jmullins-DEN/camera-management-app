@@ -362,6 +362,34 @@
   },
   "local": [
     {
+      "id": "L1789131555168879",
+      "board": "KYqKJWuumPm",
+      "driver": "Unassigned",
+      "driverId": "019f1666-7cea-72bb-8b82-e65682b04a17",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Unidentified Driver",
+      "notes": "hand held phone; vehicle #168\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458bf3-a05e-53a3-a666-31fe656b2381&activeFolder=needs_review&triageStates%5B%5D=NeedsReview",
+      "ts": 1789131555168,
+      "synced": false
+    },
+    {
+      "id": "L1789131423757686",
+      "board": "KYqKJWuumPm",
+      "driver": "Joseph Pulliam",
+      "driverId": "019dd5ff-32f9-7761-84fc-14cc7b029e7d",
+      "date": "2026-09-10",
+      "reviewed": "2026-09-11",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "texting\nhttps://cloud.samsara.com/o/8002192/fleet/reports/safety/inbox_feed?duration=691199.999&end_ms=1789189199999&uuid=54458d87-1bdd-51e1-acfa-d42647fc5fc2&activeFolder=needs_review&triageStates%5B%5D=NeedsReview",
+      "ts": 1789131423757,
+      "synced": true,
+      "infItemId": "d4a4a137-222a-4355-a49c-9511666d82c2",
+      "syncError": null
+    },
+    {
       "id": "L1789131313456686",
       "board": "ebSND1QoyBs",
       "driver": "Shamonte Jacobs",
@@ -75987,7 +76015,8 @@
     "eec68540-9e3a-4ab6-bdb2-94d3bd1d837f",
     "7b59c964-2aee-43ea-a1d3-280cc1665841",
     "45a0b4ed-8f91-4448-8ea8-83a1f452fe08",
-    "37aa32ff-a710-4e68-800b-a29934a64dd4"
+    "37aa32ff-a710-4e68-800b-a29934a64dd4",
+    "d4a4a137-222a-4355-a49c-9511666d82c2"
   ],
-  "_ts": "2026-09-11T12:55:17.426Z"
+  "_ts": "2026-09-11T12:59:15.238Z"
 }
