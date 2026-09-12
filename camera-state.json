@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789186254889630",
+      "board": "ic6o6QgzpVM",
+      "driver": "Adalberto Guerra",
+      "driverId": "8fcd591f-0516-40b0-8600-5b871b2f7c47",
+      "date": "2026-09-11",
+      "reviewed": "2026-09-11",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6499660816\nDrowsiness;\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/12254f00-0d56-440c-ace1-f7ca1641e7e0.mp4",
+      "ts": 1789186254889,
+      "synced": false
+    },
+    {
       "id": "L1789186107372713",
       "board": "ic6o6QgzpVM",
       "driver": "Jesse Garcia",
@@ -76506,5 +76519,5 @@
     "ab59e08d-73d8-46b8-8f8c-9ec5ac50c8e2",
     "818df362-d6f6-4f3a-a919-ea51d6712c5e"
   ],
-  "_ts": "2026-09-12T04:08:33.513Z"
+  "_ts": "2026-09-12T04:10:54.964Z"
 }
