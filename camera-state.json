@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789185858251605",
+      "board": "ic6o6QgzpVM",
+      "driver": "Rios, Jesse",
+      "driverId": "019ac014-7735-7dd3-9129-c7e2dc9435fa",
+      "date": "2026-09-11",
+      "reviewed": "2026-09-11",
+      "behavior": "Drowsy Driving",
+      "coaching": "Critical Event",
+      "notes": "Alert 6498360223\nPossible Drowsiness\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/3d1a974a-2ec2-48b8-bf56-d0160bb88b76.mp4",
+      "ts": 1789185858251,
+      "synced": false
+    },
+    {
       "id": "L1789185751307309",
       "board": "ic6o6QgzpVM",
       "driver": "Rios, Jesse",
@@ -76460,5 +76473,5 @@
     "7359487e-89a2-4973-a8f7-7fee0c3225cc",
     "9416f01b-d031-45be-8544-eee3ecb65dea"
   ],
-  "_ts": "2026-09-12T04:02:53.012Z"
+  "_ts": "2026-09-12T04:04:18.307Z"
 }
