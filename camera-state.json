@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789186769515740",
+      "board": "ic6o6QgzpVM",
+      "driver": "Prisciliano, Aldair",
+      "driverId": "019ab5bd-dd02-7005-a05e-5aef4bd33f33",
+      "date": "2026-09-11",
+      "reviewed": "2026-09-11",
+      "behavior": "Speeding",
+      "coaching": "Coaching Notes",
+      "notes": "Alert 6495648005\nSpeeding\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8f5a1b8b-a41f-482a-bc0c-885e2678b2e7.mp4",
+      "ts": 1789186769515,
+      "synced": false
+    },
+    {
       "id": "L1789186648680246",
       "board": "ic6o6QgzpVM",
       "driver": "Prisciliano, Aldair",
@@ -76553,5 +76566,5 @@
     "4c46563a-4baa-4698-8521-f1b3d900eb05",
     "555a0e72-c917-4450-bd25-bd13ed2ebc04"
   ],
-  "_ts": "2026-09-12T04:17:33.884Z"
+  "_ts": "2026-09-12T04:19:29.569Z"
 }
