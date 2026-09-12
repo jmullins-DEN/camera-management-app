@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789185556067263",
+      "board": "AKJSkJj6Ch4",
+      "driver": "Manny Rodenberg",
+      "driverId": "86532fab-197e-45ce-96a0-2f766a877d42",
+      "date": "2026-09-11",
+      "reviewed": "2026-09-11",
+      "behavior": "Hard Brake / Turn",
+      "coaching": "Critical Event",
+      "notes": "Alert 281474995719079-1789127181653\nHard Brake\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/8ddae74c-1a7e-4b26-91d0-0f7a25fe6a16.mp4",
+      "ts": 1789185556067,
+      "synced": false
+    },
+    {
       "id": "L178918543780942",
       "board": "AKJSkJj6Ch4",
       "driver": "Manny Rodenberg",
@@ -76412,5 +76425,5 @@
     "69805f5b-c5e6-4f72-833c-16bb8d646ab8",
     "0ec44e18-b5d4-41b3-9009-541db96d33b6"
   ],
-  "_ts": "2026-09-12T03:57:25.446Z"
+  "_ts": "2026-09-12T03:59:16.125Z"
 }
