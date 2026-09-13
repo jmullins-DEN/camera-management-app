@@ -362,6 +362,19 @@
   },
   "local": [
     {
+      "id": "L1789267074271543",
+      "board": "7W2SQKrNcXQ",
+      "driver": "Chris Kavel",
+      "driverId": "439c8822-b6b3-4d11-803f-804033d7d737",
+      "date": "2026-09-12",
+      "reviewed": "2026-09-13",
+      "behavior": "Driver Distraction-Phone",
+      "coaching": "Face to Face",
+      "notes": "Alert 1258646702865416192:  Hand Held Phone Distraction\nhttps://truckapyapp-public-storage.s3.us-east-2.amazonaws.com/drive-alert-video-storage/e1fd2a9a-4717-4baa-9699-afcf78a6d884.mp4",
+      "ts": 1789267074271,
+      "synced": false
+    },
+    {
       "id": "L178918716088254",
       "board": "7W2SQKrNcXQ",
       "driver": "Chris Kavel",
@@ -76603,5 +76616,5 @@
     "d1651bcb-4634-4707-a599-64e28048fee2",
     "a9f30a6f-b098-4b96-9152-799049a1ef21"
   ],
-  "_ts": "2026-09-13T02:36:13.406Z"
+  "_ts": "2026-09-13T02:37:54.353Z"
 }
